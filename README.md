@@ -1,6 +1,6 @@
-# nvhelp-en
+# nvhelp-de
 
-Online help for [novelibre](https://github.com/peter88213/novelibre) and plugins.
+German online help for [novelibre](https://github.com/peter88213/novelibre) and plugins.
 
 ## License
 
