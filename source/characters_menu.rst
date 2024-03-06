@@ -1,0 +1,101 @@
+Figuren-Menü
+============
+
+**Figur operation**
+
+.. figure:: _images/characters_menu01.png
+   :alt: novelibre screenshot
+
+Hinzufügen
+----------
+
+**Hinzufügen a new character**
+
+With **Figuren > Hinzufügen**
+you can add a `character <basic_concepts.html#characters-and-story-world>`__
+to the tree.
+
+-  If a character is selected, the new character is placed after the
+   selected one.
+-  Otherwise, the new character is placed at the last position.
+-  The new character has an auto-generated title. You can change it in
+   the right pane.
+-  The status of newly created characters is *minor*.
+
+
+Status setzen
+-------------
+
+**Set the character status**
+
+With **Figuren > Status setzen**,
+you can make the selected character *major* or *minor*.
+Major characters are highlighted in the Baumansicht.
+
+.. figure:: _images/characters_menu02.png
+   :alt: novelibre screenshot
+
+.. note::
+   The character status is only for visual distinction. It has no
+   influence on the program functions. Niemalstheless, you can use it
+   to mark viewpoint characters or characters with their own arcs.
+
+
+Importieren
+-----------
+
+**Importieren characters from another project**
+
+With **Figuren > Importieren**,
+you can import a selection of characters from another project.
+First you select an XML file containing the character data.
+Then you select the characters you want to add to the current project.
+
+.. hint::
+   To create an XML-Figurendatei for the current project, 
+   use **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien**.
+
+
+Figurenbeschreibungen zum Bearbeiten exportieren
+------------------------------------------------
+
+**Exportieren an ODT document that can be imported again after editing**
+
+With **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**,
+you can create a text document that contains
+character descriptions, bio, goals, and notes that can be edited in
+Office Writer and reimported.
+Datei name suffix is ``_characters_tmp``.
+
+
+Figurenliste exportieren (Tabelle)
+----------------------------------
+
+**Exportieren an ODS document that can be imported again after editing**
+
+With **Figuren > Figurenliste exportieren (Tabelle)**,
+you can create a spreadsheet that contains
+a character list that can be edited with *Calc* and reimported.
+Datei name suffix is ``_charlist_tmp``.
+
+.. note::
+   You can reorder, hide or delete columns and rows 
+   without affecting the reimport. 
+   Only the first column and the first row, which are hidden by default, 
+   must not be changed as they contain the structural information 
+   for the import. 
+
+
+Liste anzeigen
+--------------
+
+**Show an HTML report with characters data**
+
+With **Figuren > Liste anzeigen**,
+you can create a list-formatted HTML filethat contains
+a character list,
+and launch your system’s web browser for displaying it.
+
+.. note::
+   The report is a temporary file, auto-gelöscht on program exit.
+   If needed, you can have your web browser save or print it.
