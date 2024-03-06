@@ -8,8 +8,8 @@ This page refers to the latest `nv_templates
 You can open it with **Help > Templates plugin Online help**.
 
 
-Command reference
------------------
+Befehlsreferenz
+---------------
 
 File > New
 ~~~~~~~~~~
@@ -66,13 +66,13 @@ First level heading for top level stages, e.g. acts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The first level heading begins with ``#``, followed by a space and a
-stage title.
+stage Titel.
 
 Second level heading for minor stages or plot points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second level heading begins with ``##``, followed by a space and a
-stage title.
+stage Titel.
 
 Ordinary text
 ^^^^^^^^^^^^^

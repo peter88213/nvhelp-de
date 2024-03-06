@@ -9,8 +9,8 @@ You can open it with **Help > Aeon 2 plugin Online help**.
 
 
 
-Command reference
------------------
+Befehlsreferenz
+---------------
 
 Timeline > Information
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -85,14 +85,14 @@ Conversion rules for newly created novelibre projects
 The names/column labels refer to timelines based on the “yWriter”
 template.
 
--  If an Aeon event title occurs more than once, the program aborts with
+-  If an Aeon event Titel occurs more than once, the program aborts with
    an error message.
 -  Events assigned to the “Narrative” arc are converted to regular
    sections.
 -  New sections are put into a new chapter named “New sections”.
 -  All sections are sorted chronologically.
 -  The section status is “Outline”.
--  The event title is used as section title (\*).
+-  The event Titel is used as section Titel (\*).
 -  The start date is used as section date/time, if the start year is 1
    or above.
 -  The section duration is calculated, if the start year is 1 or above.
@@ -106,16 +106,16 @@ template.
 Update rules for existing novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Only sections that have the same title as an event are updated.
--  If an Aeon event title occurs more than once, the converter aborts
+-  Only sections that have the same Titel as an event are updated.
+-  If an Aeon event Titel occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section title occurs more than once, the converter
+-  If a novelibre section Titel occurs more than once, the converter
    aborts with an error message.
 -  Sections are marked “unused” if the associated event is deleted in
    Aeon.
 -  Section date, section time, and section duration are updated.
 -  Non-empty section description and section tags are updated.
--  Notes of events with a matching title are appended to the section
+-  Notes of events with a matching Titel are appended to the section
    notes.
 -  The start date is overwritten, if the start year is 1 or above.
 -  The section duration is overwritten, if the start year is 1 or above.
@@ -133,9 +133,9 @@ Update rules for existing novelibre projects
 Update rules for Aeon Timeline 2 projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  If an Aeon event title occurs more than once, the converter aborts
+-  If an Aeon event Titel occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section title occurs more than once, the converter
+-  If a novelibre section Titel occurs more than once, the converter
    aborts with an error message.
 -  Event date/time and event span are updated, if the start year is 1 or
    above.

@@ -21,8 +21,8 @@ The project tree in the left pane shows the organization of the project.
    mode (see *Optionens* in the `Ansicht-Menü <view_menu.html#coloring-mode>`__).
 -  The order of the columns can be changed (see *Optionen* in
    the `Ansicht-Menü <view_menu.html#columns>`__).
--  Right-clicking on a tree element opens a `context
-  -Menü <tree_context_menu.html>`__ with several options.
+-  Right-clicking on a tree element opens a `Kontextmenü
+   <tree_context_menu.html>`__ with several options.
 -  The type of chapters and sections, as well as the completion status
    of the sections are color coded and can be changed via Kontextmenü.
 
@@ -35,8 +35,8 @@ Projektbaumstruktur
 -  The **Figuren/Schauplätze/Gegenstände** branches contain descriptions of
    the story world’s elements that can be associated with the book’s
    sections.
--  The **Plotlinien** branch contains the plot lines and plot points.
--  The **Projektnotizen** branch contains all project notes.
+-  The **Plotlinien** branch contains the Plotlinien and plot points.
+-  The **Projektnotizen** branch contains all Projektnotizs.
 
 
 Arbeiten im Projektbaum
@@ -51,7 +51,7 @@ Browsing the tree
    -  |Go forward| selects a node forward in the tree browsing history.
 
    .. hint::
-      On Windows, the “Vor” and “Zurück” mouse buttons (if any) 
+      On Windows, the “Vor” and “Zurück” mouse Schaltflächen (if any) 
       may also work.
 
 
@@ -81,7 +81,7 @@ Textbetrachter
 --------------
 
 The **Textbetrachter** in the middle pane shows the part/chapter/section
-contents with their titles as headings.
+contents with their Titels as headings.
 
 -  You can open or close the Textbetrachter with **Ansicht > Toggle Text
    viewer**, or ``Ctrl``-``T``, or clicking on |Textbetrachter anzeigen/verbergen|.
@@ -125,8 +125,8 @@ windows.
    and novelibre (lower left) with detached Eigenschaften (right) 
 
 
-.. |Go back| image:: _images/goZurück.png
-.. |Go forward| image:: _images/goVor.png
+.. |Go back| image:: _images/goBack.png
+.. |Go forward| image:: _images/goForward.png
 .. |Textbetrachter anzeigen/verbergen| image:: _images/viewer.png
 .. |Eigenschaften anzeigen/verbergen| image:: _images/properties.png
 
@@ -142,7 +142,7 @@ Werkzeugleiste
 --------------
 
 The second bar from the top is the toolbar with
-`buttons for frequently used actions <toolbar.html>`__.
+`Schaltflächen for frequently used actions <toolbar.html>`__.
 
 
 Statusleiste

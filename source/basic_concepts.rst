@@ -207,7 +207,7 @@ externally edited document.
    The project lock is nothing more than a strong reminder. You can 
    `unlock the project <file_menu.html#unlock>`__ at any time at your 
    own risk. You also can manually `lock the project <file_menu.html#lock>`__,
-   if necessary. The |Sperren/Entsperren| toolbar button toggles the locking state.
+   if necessary. The |Sperren/Entsperren| toolbar Schaltfläche toggles the locking state.
 
 
 .. |Sperren/Entsperren| image:: _images/lock.png

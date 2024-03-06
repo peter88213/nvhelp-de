@@ -18,7 +18,7 @@ to the tree.
 -  If a character is selected, the new character is placed after the
    selected one.
 -  Otherwise, the new character is placed at the last position.
--  The new character has an auto-generated title. You can change it in
+-  The new character has an auto-generated Titel. You can change it in
    the right pane.
 -  The status of newly created characters is *minor*.
 
@@ -65,7 +65,7 @@ With **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**,
 you can create a text document that contains
 character descriptions, bio, goals, and notes that can be edited in
 Office Writer and reimported.
-Datei name suffix is ``_characters_tmp``.
+Der Dateinamenszusatz lautet ``_characters_tmp``.
 
 
 Figurenliste exportieren (Tabelle)
@@ -76,7 +76,7 @@ Figurenliste exportieren (Tabelle)
 With **Figuren > Figurenliste exportieren (Tabelle)**,
 you can create a spreadsheet that contains
 a character list that can be edited with *Calc* and reimported.
-Datei name suffix is ``_charlist_tmp``.
+Der Dateinamenszusatz lautet ``_charlist_tmp``.
 
 .. note::
    You can reorder, hide or delete columns and rows 

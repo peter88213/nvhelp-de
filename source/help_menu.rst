@@ -16,11 +16,11 @@ Online-Hilfe
 With **Hilfe > Online-Hilfe**,
 you can launch your system web browser with the *novelibre* online help URL.
 
-novelibre home page
--------------------
+novelibre Homepage
+------------------
 
-With **Hilfe > novelibre home page**
-you can launch your system web browser with the *novelibre* home page URL.
+With **Hilfe > novelibre Homepage**
+you can launch your system web browser with the *novelibre* Homepage URL.
 
 .. hint::
    This is a quick way to get to the download link of the most recent 

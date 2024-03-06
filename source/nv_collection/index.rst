@@ -1,5 +1,5 @@
 nv_collection
-====================
+=============
 
 **Online help**
 
@@ -35,7 +35,7 @@ Create a new series
 -------------------
 
 -  You can add a new series with **Series > Add**. Edit the series’
-   title and description in the right window.
+   Titel and description in the right window.
 
 
 Add books to the collection
@@ -51,7 +51,7 @@ Update book description
 
 -  You can update the book description from the current project. Use
    **Book > Update book data from the current project**. Be sure not to
-   change the book title, because it is used as identifier.
+   change the book Titel, because it is used as identifier.
 -  You can update the current project description from the book. Use
    **Book > Update project data from the selected project**.
 

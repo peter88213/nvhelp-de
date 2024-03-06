@@ -14,7 +14,7 @@ Manuskript zum Bearbeiten
 With **Exportieren >  Manuskript zum Bearbeiten**,
 you can create a text document that is split into sections
 (to be seen in the Navigator).
-Datei name suffix is ``_Manuskript_tmp``.
+Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 
 -  Only “normal” chapters and sections are exported. Kapitels and
    sections marked “unused” are not exported.
@@ -23,12 +23,12 @@ Datei name suffix is ``_Manuskript_tmp``.
 -  With *Writer*, you can split sections by
    inserting headings or a section divider:
 
-   -  *Heading 1* → Neu part title. Optionally, you can add a
+   -  *Heading 1* → Neu part Titel. Optionally, you can add a
       description, separated by ``|``.
-   -  *Heading 2* → Neu chapter title. Optionally, you can add a
+   -  *Heading 2* → Neu chapter Titel. Optionally, you can add a
       description, separated by ``|``.
    -  ``###`` → Abschnitt divider. Optionally, you can append the section
-      title to the section divider. You can also add a description,
+      Titel to the section divider. You can also add a description,
       separated by ``|``.
 
    .. important:: 
@@ -39,12 +39,12 @@ Datei name suffix is ``_Manuskript_tmp``.
    as underline and strikethrough are lost.
 
 
-Handlungsraster (Handlungsraster (Plot grid)) zum Bearbeiten
-------------------------------------------------------------
+Handlungsraster (Plot grid) zum Bearbeiten
+------------------------------------------
 
 **Exportieren an ODS document that can be imported again after editing**
 
-With **Exportieren > Handlungsraster (Handlungsraster (Plot grid)) zum Bearbeiten**,
+With **Exportieren > Handlungsraster (Plot grid) zum Bearbeiten**,
 you can create a spreadsheet as described in the
 `Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
 with a row per section, containing the following data:
@@ -57,7 +57,7 @@ with a row per section, containing the following data:
 - Abschnittstitel
 - Abschnittsbeschreibung
 - Perspektive
-- One column per plot line with the section's plot line notes
+- One column per Plotlinie with the section's Plotlinie notes
 - Tags
 - A/R
 - Ziel
@@ -69,7 +69,7 @@ with a row per section, containing the following data:
    Only “normal” sections appear in the plot grid. 
    Abschnitts of the “Unbenutzt” type are omitted.
 
-Datei name suffix is ``_grid_tmp``.
+Der Dateinamenszusatz lautet ``_grid_tmp``.
 
 .. note::
    You can reorder, hide or delete columns and rows 
@@ -85,7 +85,7 @@ Manuskript für fremde Textverarbeitung
 
 With **Exportieren >  Manuskript für fremde Textverarbeitung**,
 you can create a text document with visible section markers.
-Datei name suffix is ``_proof_tmp``.
+Der Dateinamenszusatz lautet ``_proof_tmp``.
 
 .. note::
    This document retains its section information even if it is 
@@ -105,12 +105,12 @@ Datei name suffix is ``_proof_tmp``.
 -  When editing the document, you can split sections by inserting
    headings or a section divider:
 
-   -  *Heading 1* → Neu part title. Optionally, you can add a
+   -  *Heading 1* → Neu part Titel. Optionally, you can add a
       description, separated by ``|``.
-   -  *Heading 2* → Neu chapter title. Optionally, you can add a
+   -  *Heading 2* → Neu chapter Titel. Optionally, you can add a
       description, separated by ``|``.
    -  ``###`` → Abschnitt divider. Optionally, you can append the section
-      title to the section divider. You can also add a description,
+      Titel to the section divider. You can also add a description,
       separated by ``|``.
 
    .. important:: 
@@ -140,8 +140,8 @@ e.g. when you are finished with *novelibre*.
 -  Dokument’s **filename**: ``<project name>.odt``.
 -  Only “normal” chapters and sections are exported. Kapitels and
    sections marked “unused” are not exported.
--  Teil titles appear as first level heading.
--  Kapitel titles appear as second level heading.
+-  Teil Titels appear as first level heading.
+-  Kapitel Titels appear as second level heading.
 -  Abschnitts are separated by ``* * *``. The first line is not indented.
 -  Beginning from the second paragraph, paragraphs begin with indentation
    of the first line.
@@ -158,13 +158,13 @@ Kurzzusammenfassung (nur Exportieren)
 
 With **Exportieren >  Kurzzusammenfassung (nur Exportieren)**,
 you can create a text document containing a brief synopsis
-with part, chapter, and sections titles only.
-Datei name suffix is ``_brf_synopsis``.
+with part, chapter, and sections Titels only.
+Der Dateinamenszusatz lautet ``_brf_synopsis``.
 
 -  Only “normal” chapters and sections are exported. Kapitels and
    sections marked “unused” are not exported.
--  Teil titles appear as first level heading.
--  Kapitel titles appear as second level heading.
+-  Teil Titels appear as first level heading.
+-  Kapitel Titels appear as second level heading.
 -  Abschnittstitels appear as plain paragraphs.
 
 
@@ -175,7 +175,7 @@ Querverweise (nur Exportieren)
 
 With **Exportieren >  Querverweise (nur Exportieren)**,
 you can create a text document containing navigable cross references.
-Datei name suffix is ``_xref``.
+Der Dateinamenszusatz lautet ``_xref``.
 
 The cross references are:
 
@@ -210,13 +210,13 @@ Plot-Beschreibung (export only)
 
 With **Exportieren >  Plot-Beschreibung (export only)**,
 you can create a text document that contains the plot-defining elements.
-Datei name suffix is ``_plot``.
+Der Dateinamenszusatz lautet ``_plot``.
 
 Contents:
 
--  First and second level stages (titles and descriptions).
--  Plotlinien (titles and descriptions).
--  Plotpunkte (titles, descriptions, and links to the associated
+-  First and second level stages (Titels and descriptions).
+-  Plotlinien (Titels and descriptions).
+-  Plotpunkte (Titels, descriptions, and links to the associated
    section, if any).
 
 
@@ -227,8 +227,8 @@ Plot-Liste exportieren (Tabelle)
 
 With **Exportieren >  Plot-Liste exportieren (Tabelle)**,
 you can create a spreadsheet that contains
-sections, plot lines, and plot points.
-Datei name suffix is ``_plotlist``.
+sections, Plotlinien, and plot points.
+Der Dateinamenszusatz lautet ``_plotlist``.
 
 The spreadsheet is not meant to be reimported.
 
@@ -242,7 +242,7 @@ Plot-Liste anzeigen
 
 With **Exportieren >  Plot-Liste anzeigen**,
 you can create a list-formatted HTML file that contains
-sections, plot lines, and plot points,
+sections, Plotlinien, and plot points,
 and launch your system’s web browser for displaying it.
 
 -  The Report is a temporary file, auto-gelöscht on program exit.

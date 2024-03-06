@@ -16,16 +16,16 @@ You can edit the properties of the selected chapter or part.
 Titel und Beschreibung
 ----------------------
 
-Titel und Beschreibung are displayed in an editable "index card".
+Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the title can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
 .. note::
    Depending on your `Buch settings <book_view.html#auto-numbering>`_, 
-   *novelibre* might overwrite the title the next time the tree is refreshed.
-   Thus, you don't need to edit the capter/part title, if auto numbering is
+   *novelibre* might overwrite the Titel the next time the tree is refreshed.
+   Thus, you don't need to edit the capter/part Titel, if auto numbering is
    activated and the selected chapter or part is not excluded from 
    auto numbering (see below).
 
@@ -40,17 +40,17 @@ Dieses Kapitel/diesen Teil nicht automatisch nummerieren
 --------------------------------------------------------
 
 If this checkbox is ticked, the selected chapter or part will be excluded
-from `auto numbering <book_view.html#auto-numbering>`_, and the title
+from `auto numbering <book_view.html#auto-numbering>`_, and the Titel
 you enter manually will persist.
 
 
-Navigations-Buttons
--------------------
+Navigationsschaltflächen
+------------------------
 
-Kapitel view
+Kapitelansicht
 	- **Zurück** moves the selection to the previous chapter in the tree.
 	- **Vor** moves the selection to the next chapter in the tree.
 
-Teil view
+Teileansicht
 	- **Zurück** moves the selection to the previous part in the tree.
 	- **Vor** moves the selection to the next part in the tree.

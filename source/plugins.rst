@@ -1,25 +1,16 @@
-Befehlsreferenz
-===============
+Plugins
+=======
 
 .. toctree::
    :maxdepth: 2
-
-   file_menu
-   view_menu
-   part_menu
-   chapter_menu
-   section_menu
-   characters_menu
-   locations_menu
-   items_menu
-   plot_menu
-   project_notes_menu
-   export_menu
-   import_menu
-   tools_menu
-   help_menu
-   tree_context_menu
-   toolbar
+   
+   nv_aeon2/index
+   nv_collection/index
+   nv_editor/index
+   nv_matrix/index
+   nv_templates/index
+   nv_timeline/index
+   nv_updater/index
 
 -----------------
 

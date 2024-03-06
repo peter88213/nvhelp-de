@@ -21,12 +21,12 @@ current project.
    *Writer* are highlighted in red.
 -  You can update the project from a document either by double-clicking
    on the list entry, or by selecting the document and clicking on the
-   **Importieren** button.
+   **Importieren** Schaltfläche.
 -  You can delete documents by selecting them and clicking on the
-   **Verwerfen** button.
+   **Verwerfen** Schaltfläche.
 -  After closing a listed document in *Writer* while the *Exportierened
    documents* window is open, you can click on the **Ansicht aktualisieren**
-   button.
+   Schaltfläche.
 -  If the **Dokument nach dem Importierenieren verwerfen** checkbox is checked, a
    document will be gelöscht after re-import. This may help to avoid
    confusion about changes made with *novelibre* and *Writer*.

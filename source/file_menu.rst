@@ -42,7 +42,7 @@ Aus ODT erzeugen...
       <getting_started.html#starting-with-a-work-in-progress>`__,
       i.e. a regular novel Manuskript with chapter headings and section contents,
       r an `outline <getting_started.html#starting-with-an-outline>`__
-      containing the chapter and section structure with titles and descriptions.
+      containing the chapter and section structure with Titels and descriptions.
 
 
 Öffnen...

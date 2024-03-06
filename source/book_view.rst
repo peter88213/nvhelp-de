@@ -1,7 +1,7 @@
 Bucheigenschaften
 =================
 
-.. |ico01| image:: _images/viewBuch.png
+.. |ico01| image:: _images/viewBook.png
    :alt: Buch
 
 The Buch properties view opens in the right pane when you
@@ -15,13 +15,13 @@ toolbar icon. It is the initial view after opening a *novelibre* project.
 Titel, Beschreibung und Autor
 -----------------------------
 
-Titel und Beschreibung are displayed in an editable "index card".
+Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of book title and author can be completed by pressing the ``Enter`` key.
+The editing of book Titel and author can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
-After exporting the book to an *ODT* document, title and description
+After exporting the book to an *ODT* document, Titel and description
 appear in the document properties.
 
 .. figure:: _images/book_view08.png
@@ -80,7 +80,7 @@ Aufklappen or collapse this frame by clicking on the label.
 Auto number chapters/parts when refreshing the tree
    If this checkbox is ticked, all chapters/parts are automatically numbered
    each time `the tree is refreshed <file_menu.html#refresh-tree>`__.
-   The chapter titles are replaced with a ``prefix-number-suffix``
+   The chapter Titels are replaced with a ``prefix-number-suffix``
    pattern (without the dashes).
 
    .. hint::   
@@ -173,7 +173,7 @@ Tage in Datum umwandeln
 
 .. note::
    For large novels, the conversion may take some time, depending on 
-   your system. During the conversion time, the clicked button will 
+   your system. During the conversion time, the clicked Schaltfläche will 
    display *"Bitte warten ..."*.  
 
 .. hint::
@@ -218,7 +218,7 @@ Anfangswert
    The entry can be completed by pressing the ``Enter`` key.
 
 Aktuelle Wortzahl als Anfangswert setzen
-   Click this button to enter your current word count in the **Beginning
+   Click this Schaltfläche to enter your current word count in the **Beginning
    count** field.
 
 Wörter geschrieben

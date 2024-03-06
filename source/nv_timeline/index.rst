@@ -8,8 +8,8 @@ This page refers to the latest `nv_timeline
 You can open it with **Help > Timeline plugin Online help**.
 
 
-Command reference
------------------
+Befehlsreferenz
+---------------
 
 Timeline > Information
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -34,8 +34,8 @@ Timeline > Edit the timeline
 Open the project’s timeline, if existing, with the Timeline application.
 Lock the project.
 
-File > New > Create from Timeline…
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+File > New > Create from Timeline...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open a file dialog to select a timeline. If no novelibre project with
 the timeline’s file name exists, create a new one from the timeline.
@@ -135,7 +135,7 @@ On the novelibre side
    synchronized with the timeline, if a reference date is set.
 -  Changes to the section date/time affect the event start date/time
    during synchronization.
--  Changes to the section title affect the event text during
+-  Changes to the section Titel affect the event text during
    synchronization.
 -  Changes to the section description affect the event description
    during synchronization.
@@ -160,7 +160,7 @@ On the Timeline side
    with an existing novelibre project.
 -  Changes to the event start date/time affect the section date/time
    during synchronization.
--  Changes to the event text affect the section title during
+-  Changes to the event text affect the section Titel during
    synchronization.
 -  Changes to the event description affect the section description
    during synchronization.

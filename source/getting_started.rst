@@ -26,7 +26,7 @@ of the new project.
    auxiliary files such as timelines or project-related configuration 
    files for tools and plugins. 
 
-It is not mandatory, but we should then enter a title and the author's
+It is not mandatory, but we should then enter a Titel and the author's
 name. Perhaps also a description of our idea. To get started right away,
 we will postpone the remaining project settings until later.
 
@@ -41,8 +41,8 @@ chapter with **Kapitel > Hinzufügen**.
    :alt: novelibre screenshot
    
 After the chapter is created, *novelibre* sets the focus on the chapter
-title entry at the top of the right pane. Let's overwrite the default
-title.
+Titel entry at the top of the right pane. Let's overwrite the default
+Titel.
 
 .. figure:: _images/getting_started04.png
    :alt: novelibre screenshot
@@ -50,7 +50,7 @@ title.
 .. hint::
    If you decide to have *novelibre* `auto-number the chapters 
    <book_view.html#auto-numbering>`__, you can skip this and keep the
-   default chapter title. 
+   default chapter Titel. 
 
 There are several ways to add a section now. In this example, we
 right-click on the chapter, and select **Hinzufügen section**.
@@ -65,7 +65,7 @@ Beginning the Manuskript immediately
 As soon as the new section appears in the Baumansicht, we can export a
 Manuskript. Just click on the |Exportieren Manuskript| toolbar icon.
 
-.. |Exportieren Manuskript| image:: _images/Manuskript.png
+.. |Exportieren Manuskript| image:: _images/Manuscript.png
 
 .. figure:: _images/getting_started06.png
    :alt: novelibre screenshot
@@ -87,7 +87,7 @@ page <writing.html>`__, creating new sections and chapters as we write.
    
    However, I recommend doing this at least daily at the end of your writing 
    session and exporting a new Manuskript document the next day. 
-   Then you won't get behind with entering the section titles and content 
+   Then you won't get behind with entering the section Titels und Inhalt 
    descriptions, and you will get your chapters numbered, if desired. 
    In addition, *novelibre* then saves entries in the daily word count log.
    
@@ -145,7 +145,7 @@ If you want to outline your novel using a `plot grid
    However, it is recommended to start with a few sections
    that are easier to distribute to the chapters to be created later.
    You can extend the plot grid over time.
-5. Create the `plot lines <plot_menu.html#add-plot-line>`__ you need.
+5. Create the `Plotlinien <plot_menu.html#add-plot-line>`__ you need.
 6. `Exportieren a plot grid <export_menu.html#plot-grid-for-editing>`__
    and fill the table cells.
 7. `Importieren <import_menu.html>`__ the plot grid.
@@ -168,8 +168,8 @@ recognize its parts, chapters, and sections.
    How to set up a work in progress for import
       A work in progress must not have any third level heading.
       
-      -  *Heading 1* → Teil title.
-      -  *Heading 2* → Kapitel title.
+      -  *Heading 1* → Teil Titel.
+      -  *Heading 2* → Kapitel Titel.
       -  ``* * *`` → Abschnitt divider (not needed for the first section in a
          chapter).
       -  Alle other text is considered section content.
@@ -215,7 +215,7 @@ Instead of a work in progress, you also can import an outline made with *Writer*
 into *novelibre* to get a novel project with empty, but named and described
 chapters and sections.
 At first glance, an outline looks the same as a work in progress, but it has
-third level headings for the sections, indicating their titles. If *novelibre*
+third level headings for the sections, indicating their Titels. If *novelibre*
 finds third-level headings, it considers all body text to be description.
 In this case, formatting doesn't matter.
 
@@ -223,8 +223,8 @@ In this case, formatting doesn't matter.
    How to set up an outline for import
       An outline has at least one third level heading.
       
-      -  *Heading 1* → Teil title.
-      -  *Heading 2* → Kapitel title.
+      -  *Heading 1* → Teil Titel.
+      -  *Heading 2* → Kapitel Titel.
       -  *Heading 3* → Abschnittstitel.
       -  Alle other text is considered to be chapter/section description.
 

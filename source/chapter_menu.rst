@@ -19,7 +19,7 @@ you can add a `chapter <basic_concepts.html#chapters>`__ to the tree.
    possible.
 -  Otherwise, the new chapter is placed at the end of the
    “Buch” branch.
--  The new chapter has an auto-generated title. You can change it in the right pane.
+-  The new chapter has an auto-generated Titel. You can change it in the right pane.
 
 
 Typ wählen
@@ -62,5 +62,5 @@ With **Kapitel > Kapitelbeschreibungen zum Bearbeiten exportieren**,
 you can create a text document that contains
 a **brief synopsis** with part/chapter headings and chapter descriptions
 that can be edited and reimported.
-Datei name suffix is ``_chapters_tmp``.
+Der Dateinamenszusatz lautet ``_chapters_tmp``.
 

@@ -1,28 +1,21 @@
-Figureneigenschaften
-====================
+Schauplatz/Gegenstand-Eigenschaften
+===================================
 
-The Figur properties view opens in the right pane when you
-select a character in the tree.
+The Schauplatz/Gegenstand properties view opens in the right pane when you
+select a location or an Gegenstand in the tree.
 
-
-.. figure:: _images/character_view01.png
-   :alt: Screenshot
 
 Titel und Beschreibung
 ----------------------
+
+.. figure:: _images/world_view01.png
+   :alt: Screenshot
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
 The editing of the Titel can be completed by pressing the ``Enter`` key.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
-
-Vollst. Name
-------------
-
-The character's Titel as shown on the Karteikarte is used as
-a short name at several places. The full name can be entered
-separately. Editing can be completed by pressing the ``Enter`` key.
 
 alias
 -----
@@ -33,46 +26,14 @@ by pressing the ``Enter`` key.
 Tags
 ----
 
-Tags are a very freely usable tool for labeling characters in the
-Baumansicht. Tags do not have to be defined elsewhere, but simply
-entered in the input field separated by semicolons.
+Tags are a very freely usable tool for labeling locations and Gegenstands
+in the Baumansicht. Tags do not have to be defined elsewhere, but
+simply entered in the input field separated by semicolons.
 Editing can be completed by pressing the ``Enter`` key.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
    the same spelling in the different places. 
-
-Biographie
-----------
-
-Aufklappen or collapse this frame by clicking on the label.
-
-.. figure:: _images/character_view02.png
-   :alt: Screenshot
-
-Birth/death date
-   Format: *YYYY-MM-DD*, according to ISO 8601.
-
-The editing of the birth and death dates can be completed by pressing the
-``Enter`` key. Changes to the bio are applied when the mouse is
-clicked anywhere outside the text input field.
-
-
-Ziele
------
-
-Aufklappen or collapse this frame by clicking on the label.
-
-.. figure:: _images/character_view03.png
-   :alt: Screenshot
-
-Changes to the goals are applied when the mouse is clicked anywhere outside
-the text input field.
-
-.. hint::
-   This text box can hold any character data that seem important to you.
-   If "Ziele" is not the right category for you, you can change the label
-   in the `book settings <book_view.html#renamings>`__. 
 
 Links
 -----
@@ -84,7 +45,7 @@ Aufklappen or collapse this frame by clicking on the label.
    
 This is a list for image and research document links.
 
-Although *novelibre* holds some character/location/item data, it is
+Although *novelibre* holds some character/location/Gegenstand data, it is
 not the right application for extensive world building. For this,
 you may want to use more powerful software, like `Zim Desktop Wiki
 <https://zim-wiki.org/>`__. In this case, *novelibre* allows you to
@@ -150,24 +111,17 @@ Link öffnen
 
 
 
-"Haftmerker"
-------------
-
-The yellow text area is for notes. Changes are applied
-when the mouse is clicked anywhere outside the text input field.
-
-When the "sticky note" of a character contains text, an "N" is
-displayed in the Baumansicht as a reminder.
-
-.. note::
-   The "sticky notes" are only for working with *novelibre*.
-   They are not meant to be exported into a document.
-   However, they appear in the `character list`_.
-
-.. _character list: characters_menu.html#export-character-list-spreadsheet
-
 Navigationsschaltflächen
 ------------------------
 
-- **Zurück** moves the selection to the previous character in the tree.
-- **Vor** moves the selection to the next character in the tree.
+Schauplatz view
+~~~~~~~~~~~~~~~
+
+- **Zurück** moves the selection to the previous location in the tree.
+- **Vor** moves the selection to the next location in the tree.
+
+Gegenstand view
+~~~~~~~~~~~~~~~
+
+- **Zurück** moves the selection to the previous Gegenstand in the tree.
+- **Vor** moves the selection to the next Gegenstand in the tree.
