@@ -1,11 +1,11 @@
 nv_aeon2
 ========
 
-**Online help**
+**Online-Hilfe**
 
-This page refers to the latest `nv_aeon2
+Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
 <https://github.com/peter88213/nv_aeon2/>`__ release.
-You can open it with **Help > Aeon 2 plugin Online help**.
+You can open it with **Hilfe > Aeon 2-Plugin Online-Hilfe**.
 
 
 
@@ -18,35 +18,35 @@ Timeline > Information
 -  Show information about an existing Timeline project, if any. Timeline
    and novelibre file dates are compared.
 
-Aeon Timeline 2 > Update the timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aeon Timeline 2 > Die Zeitleiste aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, update it from novelibre, otherwise createa new
+If a timeline exists, aktualisieren it from novelibre, otherwise erzeugena neu
 timeline.
 
-Aeon Timeline 2 > Update the project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aeon Timeline 2 > Das Projekt aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Update the novelibre project from the timeline, if existing.
+Aktualisieren the novelibre-Projekt from the timeline, if existing.
 
-Aeon Timeline 2 > Add or update moon phase data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The moon phase calculation is based on a ‘do it in your head’ algorithm
 by John Conway. In its current form, it’s only valid for the 20th and
 21st centuries.
 
-Aeon Timeline 2 > Edit the timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aeon Timeline 2 > Die Zeitleiste bearbeiten
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open the project’s timeline, if existing, with the Timeline application.
-Lock the project.
+Öffnen the project’s timeline, if existing, with the Timeline application.
+Sperren the project.
 
-File > New > Create from Aeon Timeline 2…
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Datei > Neu > Aus Aeon Timeline 2 erzeugen...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Open a file dialog to select a timeline. If no novelibre project with
-the timeline’s file name exists, create a new one from the timeline.
+Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
+the timeline’s file name exists, erzeugen a neu one from the timeline.
 
 Control conversion
 ------------------
@@ -55,16 +55,16 @@ Prepare your timeline for export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The included installation script installs a “novelibre” template in the
-*nv_aeon2* configuration folder. The easiest way is to create new
+*nv_aeon2* Konfiguration Ordner. The easiest way is to erzeugen neu
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.
 
 For existing timelines you have two choices:
 
--  Option 1: Add or rename the required entities and event properties in
+-  Option 1: Hinzufügen or rename the required entities and event properties in
    the Timeline settings.
--  Option 2: Customize the *nv_aeon2* configuration to fit your
-   timeline, see `Custom configuration <#custom-configuration>`__.
+-  Option 2: Benutzerdefiniertize the *nv_aeon2* Konfiguration to fit your
+   timeline, see `Benutzerdefiniert Konfiguration <#custom-Konfiguration>`__.
 
 Synchronization in detail
 -------------------------
@@ -75,125 +75,125 @@ Known limitations
 -  “Narrative” events that begin before 0001-01-01 in the timeline, will
    not be synchronized with novelibre, because novelibre can not handle
    these dates.
--  The same applies to the section duration in this case, i.e. the event
+-  The same applies to the section duration in this case, i.e. the event
    duration in Timeline and the section duration in novelibre may
    differ.
 
-Conversion rules for newly created novelibre projects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Conversion rules for neuly erzeugend novelibre-Projekts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The names/column labels refer to timelines based on the “yWriter”
 template.
 
--  If an Aeon event Titel occurs more than once, the program aborts with
+-  If an Aeon event title occurs more than once, the program aborts with
    an error message.
 -  Events assigned to the “Narrative” arc are converted to regular
    sections.
--  New sections are put into a new chapter named “New sections”.
--  All sections are sorted chronologically.
--  The section status is “Outline”.
--  The event Titel is used as section Titel (\*).
+-  Neue Abschnitte are put into a neu chapter named “Neue Abschnitte”.
+-  Alle sections are sorted chronologically.
+-  The section status is “Gliederung”.
+-  The event title is used as section title (\*).
 -  The start date is used as section date/time, if the start year is 1
    or above.
 -  The section duration is calculated, if the start year is 1 or above.
 -  Event tags are converted to section tags, if any (\*).
--  “Descriptions” are imported as section descriptions, if any (\*).
--  “Notes” are used as section notes, if any (\*).
--  “Participants” are imported as characters, if any (\*).
--  “Locations” are imported, if any (\*).
--  “Items” are imported, if any (\*).
+-  “Beschreibungs” are imported as section descriptions, if any (\*).
+-  “Notizen” are used as section notes, if any (\*).
+-  “Teilicipants” are imported as characters, if any (\*).
+-  “Schauplätze” are imported, if any (\*).
+-  “Gegenstände” are imported, if any (\*).
 
-Update rules for existing novelibre projects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aktualisieren rules for existing novelibre-Projekts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Only sections that have the same Titel as an event are updated.
--  If an Aeon event Titel occurs more than once, the converter aborts
+-  Only sections that have the same title as an event are aktualisierend.
+-  If an Aeon event title occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section Titel occurs more than once, the converter
+-  If a novelibre section title occurs more than once, the converter
    aborts with an error message.
--  Sections are marked “unused” if the associated event is deleted in
+-  Abschnitte are marked “unused” if the associated event is gelöscht in
    Aeon.
--  Section date, section time, and section duration are updated.
--  Non-empty section description and section tags are updated.
--  Notes of events with a matching Titel are appended to the section
+-  Abschnitt date, section time, and section duration are aktualisierend.
+-  Non-empty section description and section tags are aktualisierend.
+-  Notizen of events with a matching title are appended to the section
    notes.
 -  The start date is overwritten, if the start year is 1 or above.
 -  The section duration is overwritten, if the start year is 1 or above.
--  New “Normal” type sections are created from “Narrative” events, if
+-  Neu “Normal” type sections are erzeugend from “Narrative” events, if
    missing.
--  New sections are put into a new chapter named “New sections”.
--  New arcs, characters, locations, and items are added, if assigned to
+-  Neue Abschnitte are put into a neu chapter named “Neue Abschnitte”.
+-  Neu plot lines, characters, locations, and items are added, if assigned to
    “Narrative” events.
--  Arc, character, location, and item relationships are updated, if the
+-  Arc, character, location, and item relationships are aktualisierend, if the
    entity names match.
 -  When processing unspecific “day/hour/minute” information, the default
-   date from the novelibre project is used. f there is no default date
+   date from the novelibre-Projekt is used. f there is no default date
    set, “today” is used.
 
-Update rules for Aeon Timeline 2 projects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Aktualisieren rules for Aeon Timeline 2-Projekts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  If an Aeon event Titel occurs more than once, the converter aborts
+-  If an Aeon event title occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section Titel occurs more than once, the converter
+-  If a novelibre section title occurs more than once, the converter
    aborts with an error message.
--  Event date/time and event span are updated, if the start year is 1 or
+-  Event date/time and event span are aktualisierend, if the start year is 1 or
    above.
--  Updated event span is specified in days/hours/minutes as in
+-  Aktualisierend event span is specified in days/hours/minutes as in
    novelibre.
--  Non-empty event description and event tags are updated.
--  Event properties “Description” and “Notes” are created, if missing.
--  Events created or updated from “Normal” sections are assigned to the
+-  Non-empty event description and event tags are aktualisierend.
+-  Event properties “Beschreibung” and “Notizen” are erzeugend, if missing.
+-  Events erzeugend or aktualisierend from “Normal” sections are assigned to the
    *Narrative* arc.
--  “Narrative” events are removed if the associated section is deleted
+-  “Narrative” events are removed if the associated section is gelöscht
    in novelibre.
--  Entity types “Arc”, “Character”, “Location”, and “Item” are created,
+-  Entity types “Arc”, “Figur”, “Schauplatz”, and “Gegenstand” are erzeugend,
    if missing.
--  A “Narrative” arc is created, if missing.
--  A “Storyline” arc role is created, if missing.
--  New arcs, characters, locations, and items are added, if assigned to
+-  A “Narrative” arc is erzeugend, if missing.
+-  A “Storyline” arc role is erzeugend, if missing.
+-  Neu arcs, characters, locations, and items are added, if assigned to
    sections.
--  Arc, character, location, and item relationships are updated, if the
+-  Arc, character, location, and item relationships are aktualisierend, if the
    entity names match.
 -  When creating events from sections without date/time, they get the
    actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
-   they get the default date from the novelibre project, and are sorted
+   they get the default date from the novelibre-Projekt, and are sorted
    in reading order. If there is no default date set, “today” is used.
 -  When processing unspecific “day/hour/minute” information, the default
-   date from the novelibre project is used. f there is no default date
+   date from the novelibre-Projekt is used. f there is no default date
    set, “today” is used.
 
-Custom configuration
---------------------
+Benutzerdefinierte Konfiguration
+--------------------------------
 
-You can override the default settings by providing a configuration file.
+You can override the default settings by providing a Konfigurationsdatei.
 Be always aware that faulty entries may cause program errors.
 
-Global configuration
-~~~~~~~~~~~~~~~~~~~~
+Globale Konfiguration
+~~~~~~~~~~~~~~~~~~~~~
 
-An optional global configuration file can be placed in the configuration
+An optional global Konfigurationsdatei can be placed in the Konfiguration
 directory in your user profile. It is applied to any project. Its
 entries override nv_aeon2’s built-in constants. This is the path:
-``c:\Users\<user name>\.novx\config\aeon2nv.ini``
+``c:\Users\<user name>\.novx\config\nv_aeon2.ini``
 
-Local project configuration
+Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project configuration file named ``aeon2nv.ini`` can be
-placed in your project directory, i.e. the folder containing your
+An optional project Konfigurationsdatei named ``nv_aeon2.ini`` can be
+placed in your project directory, i.e. the Ordner containing your
 novelibre and Aeon Timeline project files. It is only applied to this
 project. Its entries override aeon2nv’s built-in constants as well as
-the global configuration, if any.
+the global Konfiguration, if any.
 
-How to provide/modify a configuration file
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to provide/modify a Konfigurationsdatei
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The nv_aeon2 distribution comes with a sample configuration file
-located in the ``sample`` subfolder. It contains nv_aeon2’s
+The nv_aeon2 distribution comes with a sample Konfigurationsdatei
+located in the ``sample`` Unterverzeichnis. It contains nv_aeon2’s
 default settings and options. This file is also automatically copied to
-the global configuration folder during installation. You best make a
+the global Konfiguration Ordner during installation. You best make a
 copy and edit it.
 
 -  The SETTINGS section mainly refers to custom property, role, and type
@@ -201,7 +201,7 @@ copy and edit it.
 -  Comment lines begin with a ``#`` number sign. In the example, they
    refer to the code line immediately above.
 
-This is the configuration explained:
+This is the Konfiguration explained:
 
 ::
 
@@ -211,53 +211,53 @@ This is the configuration explained:
 
    # Name of the user-defined "Narrative" arc.
 
-   property_description = Description
+   property_description = Beschreibung
 
    # Name of the user-defined section description property.
 
-   property_notes = Notes
+   property_notes = Notizen
 
    # Name of the user-defined section notes property.
 
-   role_location = Location
+   role_location = Schauplatz
 
    # Name of the user-defined role for section locations.
 
-   role_item = Item
+   role_item = Gegenstand
 
    # Name of the user-defined role for items in a section.
 
-   role_character = Participant
+   role_character = Teilicipant
 
    # Name of the user-defined role for characters in a section.
 
-   type_character = Character
+   type_character = Figur
 
-   # Name of the user-defined "Character" type
+   # Name of the user-defined "Figur" type
 
-   type_location = Location
+   type_location = Schauplatz
 
-   # Name of the user-defined "Location" type
+   # Name of the user-defined "Schauplatz" type
 
-   type_item = Item
+   type_item = Gegenstand
 
-   # Name of the user-defined "Item" type
+   # Name of the user-defined "Gegenstand" type
 
    color_section = Red
 
-   # Color of new section events
+   # Color of neu section events
 
    color_event = Yellow
 
-   # Color of new non-section events
+   # Color of neu non-section events
 
    [OPTIONS]
 
    add_moonphase = No
 
-   # Yes: Add the moon phase to the event properties.
-   # No: Update moon phase, if already defined as event property.
+   # Yes: Hinzufügen the moon phase to the event properties.
+   # No: Aktualisieren moon phase, if already defined as event property.
 
 .. note:: 
-   Your custom configuration file does not have to contain all the
+   Your custom Konfigurationsdatei does not have to contain all the
    entries listed above. The changed entries are sufficient.

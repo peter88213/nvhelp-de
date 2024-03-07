@@ -7,6 +7,8 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 import os
 import glob
 
+Do not execute this!
+
 REPLACE = {
     'Allee': 'Alle',
     'context menu': 'Kontextmenü',
@@ -39,12 +41,25 @@ def read_translations(filePath):
             if not msgid in translations:
                 translations[msgid] = line[8:].rstrip('"\n')
 
+repos = [
+    'nv_aeon2',
+    'nv_collection',
+    'nv_editor',
+    'nv_matrix',
+    'nv_templates',
+    'nv_timeline',
+    'nv_updater',
+    ]
+
 
 translations = {}
+for repo in repos:
+    read_translations(f'../{repo}/i18n/de.po')
 read_translations('../novelibre/i18n/de.po')
 
 # Sort the terms by length to minimize errors.
 sortedTranslations = sorted(translations, key=len, reverse=True)
 
-for helpFile in glob.iglob('*.rst', root_dir='../nvhelp-en/source'):
-    process_file(f'../nvhelp-en/source/{helpFile}', f'source/{helpFile}')
+for repo in repos:
+    for helpFile in glob.iglob('*.rst', root_dir=f'../nvhelp-de/source/{repo}'):
+        process_file(f'../nvhelp-de/source/{repo}/{helpFile}', f'source/{repo}/{helpFile}')

@@ -1,22 +1,22 @@
 nv_matrix
-================
+=========
 
-**Online help**
+**Online-Hilfe**
 
-This page refers to the latest `nv_matrix
+Diese Seite gilt für die neueste Ausgabe von `nv_matrix
 <https://github.com/peter88213/nv_matrix/>`__ release.
-You can open it with **Help > Matrix plugin Online help**.
+You can open it with **Hilfe > Matrix-Plugin Online-Hilfe**.
 
 
-Start the matrix manager
-------------------------
+Beginn the matrix manager
+-------------------------
 
--  Open the matrix manager from the main menu: **Matrix**.
+-  Öffnen the matrix manager from the Hauptmenü: **Matrix**.
 
-Add/remove relationships
-------------------------
+Hinzufügen/remove relationships
+-------------------------------
 
--  Add/Remove relationships by klicking on the nodes with the ``Ctrl``
+-  Hinzufügen/Entfernen relationships by klicking on the nodes with the ``Ctrl``
    key pressed.
 
 Mouse wheel scrolling
@@ -26,7 +26,7 @@ Mouse wheel scrolling
 -  Use the mouse wheel with the ``Shift`` key pressed for horizontal
    scrolling.
 
-Exit
-----
+Beenden
+-------
 
--  Close the window.
+-  Schließen the window.

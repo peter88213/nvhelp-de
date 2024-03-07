@@ -1,78 +1,77 @@
 nv_templates
 ============
 
-**Online help**
+**Online-Hilfe**
 
-This page refers to the latest `nv_templates
+Diese Seite gilt für die neueste Ausgabe von `nv_templates
 <https://github.com/peter88213/nv_templates/>`__ release.
-You can open it with **Help > Templates plugin Online help**.
+You can open it with **Hilfe > Vorlagen-Plugin Online-Hilfe**.
 
 
 Befehlsreferenz
 ---------------
 
-File > New
-~~~~~~~~~~
+Datei > Neu
+~~~~~~~~~~~
 
 Create from template
 ^^^^^^^^^^^^^^^^^^^^
 
-This creates a new project with the narrative structure from a Markdown
+This erzeugens a neu project with the narrative structure from a Markdown
 template file.
 
--  First, a file select dialog asks for the new project’s file name
+-  First, a file select dialog asks for the neu project’s file name
    (novelibre v1.4+). If you cancel the dialog, you can select the file
    name later when saving the project.
 -  Then a second file select dialog asks for the template file to apply.
 
-Tools > Story Templates
-~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Erzählstruktur-Vorlagen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load
-^^^^
+Laden
+^^^^^
 
 This loads the narrative structure from a Markdown template file.
 
 -  A file select dialog asks for the template file to apply.
 
-Save
-^^^^
+Speichern
+^^^^^^^^^
 
 This saves the narrative structure to a Markdown template file.
 
--  A file select dialog asks for the new template’s file name.
+-  A file select dialog asks for the neu template’s file name.
 
-Open folder
-^^^^^^^^^^^
+Ordner öffnen
+^^^^^^^^^^^^^
 
-This opens the templates folder with the OS file manager, so you can
+This opens the templates fälter with the OS file manager, so you can
 manage and edit the templates.
 
 Conventions
 -----------
 
-In *novelibre*, you can define a narrative structure with “Todo” Parts,
-Chapters, and scenes. See
-`Arcs <https://github.com/peter88213/novelibre/help/arcs>`__.
+In *novelibre*, you can define a narrative structure with stages. See
+`Plotlinien <https://github.com/peter88213/novelibre/help/plotting>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
 Markdown file structure
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-The *Story Template* Markdown file defines such a structure with
+The *Erzählstruktur-Vorlage* Markdown file defines such a structure with
 headings and ordinary text.
 
-First level heading for top level stages, e.g. acts
+First level heading for top level stages, e.g. acts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The first level heading begins with ``#``, followed by a space and a
-stage Titel.
+stage title.
 
 Second level heading for minor stages or plot points
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second level heading begins with ``##``, followed by a space and a
-stage Titel.
+stage title.
 
 Ordinary text
 ^^^^^^^^^^^^^
@@ -86,42 +85,74 @@ Example
 
 :: 
 
-   # ACT 1
+    # Teil 1: Exposition
 
-   Setup
+    Die Exposition dient der Einführung in die Welt der Geschichte. Ziel ist es, der Leserschaft genügend Information zu geben, um sich in der Welt der Geschichte zurechtzufinden.
 
-   ## Inciting Incident
+    ## 1. Erzählabschnitt: Exposition der zentralen Figuren und ihrer Welt
 
-   Also called "catalyst" or "call to adventure".
-   This sets the protagonist in motion.
+    Die normale Welt: Wie sieht die Routine des Protagonisten aus? Wie lautet die zentrale Frage?
 
-   ## Plot Point 1
+    ## Auslösendes Ereignis
 
-   "Point of no return": The protagonist engages with the action 
-   the inciting incident has created.
+    Etwas geschieht, das die normale Welt aus dem Gleichgewicht bringt: Was zerstört die bisherige Routine des Protagonisten?
 
-   # ACT 2
+    ## 2. Erzählabschnitt: Erste Handlung, ggf. retardierendes Moment
 
-   Confrontation
+    Die Reaktion des Protagonisten auf das auslösende Ereignis: Wie reagiert der Protagonist auf das auslösende Ereignis?
 
-   ## Midpoint
+    ## Erster Wendepunkt
 
-   The main turning point. A significant event, changing the 
-   development of things from good to bad, or vice versa.
+    Der Protagonist nimmt den Kampf um sein Ziel auf. Er verlässt die alte Welt und begibt sich in eine unbekannte Welt: Was ist das Ziel des Protagonisten? Warum muss er es unbedingt erreichen? Wie lautet die dramatische Frage?
 
-   ## Plot Point 2
+    # Teil 2: Entwicklung/Zuspitzung/Konfrontation
 
-   The aftermath of the Midpoint crisis.
-   What changes the protagonist from "passenger" to "driver".  
+    Im ersten Wendepunkt tritt der Protagonist aus seiner gewohnten, aber gestörten Welt in eine neue, unbekannte Welt. Er muss in dieser neuen Welt bestehen, wenn er sein Ziel erreichen will. Im zweiten Akt geht es um die Versuche, mit denen er dieses Ziel realisieren will. Er wird scheitern und er wird kleine Erfolge haben, wird sich seinem Ziel annähern und wieder von ihm weggeschleudert. Es gelingt ihm jedoch nicht, sein Ziel endgültig zu erreichen, weil die antagonistische Kraft es immer wieder aufs Neue vermag, ihn daran zu hindern. Entscheidend ist, dass es -- trotz kleiner Zwischenerfolge -- tendenziell immer schwerer für ihn wird, sein Ziel zu erreichen, dass er immer mehr Risiken eingehen muss, weil die antagonistische Kraft ihm immer größere Steine in den Weg legt. Der Konflikt spitzt sich immer mehr zu.
 
-   # ACT 3
+    ## 3. Erzählabschnitt
 
-   Resolution
+    a) Alles läuft bestens: Welche Erfolge erzielt der Protagonist? Wie schafft er es, die Hindernisse der antagonistischen Kraft zu überwinden?
 
-   ## Climax
+    b) Es geht immer weiter bergab: Welche Niederlagen muss der Protagonist einstecken? Wie hindert die antagonistische Kraft ihn daran, sein Ziel zu erreichen?
 
-   The final moment of the story's conflict.
+    ## Zentraler Punkt
 
+    a) Im Moment größter Hoffnung muss der Protagonist einen Rückschlag einstecken, der ihn dazu führen kann, ein neues Ziel zu verfolgen.
+
+    b) Der Protagonist kommt an seinem Tiefpunkt an, erlebt Tod und Wiedergeburt, schöpft jedoch neue Hoffnung und rappelt sich wieder auf.
+
+    ## 4. Erzählabschnitt
+
+    a) Der Protagonist erholt sich nicht von dem Rückschlag: Es geht weiter bergab.
+
+    b) Mit neuem Mut und noch größerer Entschlossenheit verfolgt der Protagonist sein altes oder neues Ziel. alles läuft bestens.
+
+    ## Zweiter Wendepunkt
+
+    a) Der Protagonist ist kurz davor, alles zu verlieren, durchlebt Tod und Wiedergeburt und schöpft neuen Mut.
+
+    b) Der Protagonist ist kurz davor, sein Ziel zu erreichen, wird dann jedoch zurückgeworfen.
+
+    # Teil 3: Auflösung
+
+    Im dritten Akt nimmt das Tempo zu. Der Protagonist und die antagonistische Kraft stehen sich zum großen Finale gegenüber, die antagonistische Kraft rüstet zum letzten und größten Gegenschlag. Der Protagonist gerät in eine Krisenentscheidung, und im Höhepunkt wird der Konflikt endgültig und unwiderruflich gelöst. Die antagonistische Kraft wird vernichtend geschlagen, und der Protagonist erreicht sein Ziel -- oder er verliert es für immer.
+
+    ## 5. Erzählabschnitt
+
+    Vorbereitung auf die alles entscheidende "letzte Schlacht".
+
+    ## Krise
+
+    Der Protagonist befindet sich in einem Dilemma und muss sich endgültig entscheiden, was er will.
+
+    ## Höhepunkt
+
+    Die "letzte Schlacht". Der Konflikt wird entschieden. Der Protagonist erreicht sein Ziel, oder verliert es für immer.
+
+    ## 6. Erzählabschnitt
+
+    Der Konflikt ist gelöst, der Protagonist ein neuer Mensch geworden: Was hat sich durch den Konflikt verändert? Wie geht es mit dem Protagonisten weiter?
+    
 This file generates the following structure in an empty project:
 
 .. figure:: _images/structure01.png

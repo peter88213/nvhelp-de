@@ -1,100 +1,109 @@
 nv_collection
 =============
 
-**Online help**
+**Online-Hilfe**
 
-This page refers to the latest `nv_collection
+Diese Seite gilt für die neueste Ausgabe von `nv_collection
 <https://github.com/peter88213/nv_collection/>`__ release.
-You can open it with **Help > Collection plugin Online help**.
+You can open it with **Hilfe > Sammlung-Plugin Online-Hilfe**.
 
 
-Start the collection manager
-----------------------------
+Beginn the collection manager
+-----------------------------
 
--  Open the collection manager from the main menu: **File >
-   Collection**.
-
-
-Open a collection
------------------
-
--  By default, the latest collection selected is preset. You can change
-   it with **File > Open**.
+Öffnen the collection manager from the Hauptmenü:
+**Datei > Sammlung**.
 
 
-Create a new collection
------------------------
-
--  You can create a new collection with **File > New**. This will close
-   the current collection and open a file dialog asking for the location
-   and file name of the collection to create.
--  Once you specified a valid file path, a blank collection appears.
-
-
-Create a new series
+Öffnen a collection
 -------------------
 
--  You can add a new series with **Series > Add**. Edit the series’
-   Titel and description in the right window.
+By default, the latest collection selected is preset.
+You can change it with **Datei > Öffnen**.
 
 
-Add books to the collection
----------------------------
-
--  You can add the current novelibre project as a book to the
-   collection. Use **Book > Add current project to the collection**.
--  If a series is selected, the book is added as a part of this series.
-
-
-Update book description
+Create a neu collection
 -----------------------
 
--  You can update the book description from the current project. Use
-   **Book > Update book data from the current project**. Be sure not to
-   change the book Titel, because it is used as identifier.
--  You can update the current project description from the book. Use
-   **Book > Update project data from the selected project**.
+With **Datei > Neu**, you can erzeugen a neu collection.
+This will close the current collection and open a file dialog
+asking for the location and file name of the collection to erzeugen.
+Once you specified a valid file path, a blank collection appears.
 
 
-Remove books from the collection
---------------------------------
+Create a neu Serie
+-------------------
 
--  You can remove the selected book from the collection. Use **Book >
-   Remove selected book from the collection**.
+With **Serie > Hinzufügen**, you can add a neu Serie.
+Bearbeiten the Serie’ title and description in the right window.
 
 
-Move series and books
+Hinzufügen Bücher to the collection
+-----------------------------------
+
+To add the current novelibre-Projekt as a book to the collection,
+use **Buch > Aktuelles Projekt zur Sammlung hinzufügen**.
+If a Serie is selected, the book is added as a part of this Serie.
+
+
+Aktualisieren book description
+------------------------------
+
+To aktualisieren the book description from the current project,
+use **Buch > Buchdaten aus aktuellem Projekt aktualisieren**.
+
+.. caution::
+   Be sure not to change the book title, because it is used as identifier.
+
+To aktualisieren the current project description from the book,
+use **Buch > Aktualisieren project data from the selected project**.
+
+
+Entfernen Bücher from the collection
+------------------------------------
+
+To remove the selected book from the collection,
+use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
+
+
+Move Serie and Bücher
 ---------------------
 
-Drag and drop while pressing the **Alt** key. Be aware, there is no
-“Undo” feature.
+Drag and drop while pressing the ``Alt`` key.
+
+.. caution::
+   Be aware, there is no “Undo” feature.
 
 
-Remove books
-------------
+Entfernen Bücher
+----------------
 
-Either select item and hit the **Del** key, or use **Book > Remove
-selected book from the collection**.
+To remove a book from the collection,
+either select the book and hit the ``Del`` key,
+or use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
 
--  When removing a book from the collection, the project file associated
-   is kept on disc.
+.. note::
+   When removing a book from the collection, 
+   the project file associated is kept on disc.
 
 
-Delete a series
+Löschen a Serie
 ---------------
 
-Either select series and hit the **Del** key, or use **Series > Remove
-selected series but keep the books**.
+To delete a Serie,
+either select the Serie and hit the ``Del`` key,
+or use **Serie > Ausgewählte Serie entfernen, aber die Bücher behalten**.
 
--  When deleting a collection, the books are kept by default.
--  Use **Series > Remove selected series** to delete the selected series
-   and remove all its books from the collection.
+.. note::
+   When deleting a collection, the Bücher are kept by default.
+
+To delete the selected Serie and remove all its Bücher from the
+collection,
+use **Serie > Entfernen selected Serie**.
 
 
-Quit/Exit
----------
+Beenden
+-------
 
--  Under Windows you can exit with **File > Exit** or **Alt-F4**.
--  Otherwise you can exit with **File > Quit** or **Ctrl-Q**.
--  When exiting the collection manager, you will be asked for saving the
-   project, if it has changed.
+-  Under Windows you can exit with **Datei > Beenden** or ``Alt``-``F4``.
+-  Otherwise you can exit with **Datei > Beenden** or ``Ctrl``-``Q``.

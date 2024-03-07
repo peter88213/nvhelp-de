@@ -1,26 +1,26 @@
 nv_updater
-=================
+==========
 
-**Online help**
+**Online-Hilfe**
 
-This page refers to the latest `nv_updater
+Diese Seite gilt für die neueste Ausgabe von `nv_updater
 <https://github.com/peter88213/nv_updater/>`__ release.
-You can open it with **Help > Update checker Online help**.
+You can open it with **Hilfe > Aktualisieren-Prüfer Online-Hilfe**.
 
 
-Start the update checker
-------------------------
+Beginn the aktualisieren checker
+--------------------------------
 
 
--  Open the update checker from the main menu: **Tools > Check for
-   updates**.
--  If an update is found, a message pops up. You can choose:
+-  Öffnen the aktualisieren checker from the Hauptmenü: **Extras > Check for
+   aktualisierens**.
+-  If an aktualisieren is found, a message pops up. You can choose:
 
-   -  **Yes** starts your web browser with the update URL.
-   -  **No** skips this update.
-   -  **Cancel** cancels the update check.
+   -  **Yes** starts your web browser with the aktualisieren URL.
+   -  **No** skips this aktualisieren.
+   -  **Cancel** cancels the aktualisieren check.
 
--  If no update is found, a message pops up at the end.
+-  If no aktualisieren is found, a message pops up at the end.
 
 .. important::
    The *nv_updater* plugin only initiates the download process via the
