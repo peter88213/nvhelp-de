@@ -109,7 +109,7 @@ Wortzählung
    This is enabled via the **Wortzählung > Laufende Aktualisierung einschalten**-Menü
    entry.
 -  Live aktualisieren is disabled by the **Wortzählung > Laufende Aktualisierung ausschalten**
-  -Menü entry.
+   Menüeintrag.
 
 .. note::
    Live updating the word count is resource intensive and may slow down
