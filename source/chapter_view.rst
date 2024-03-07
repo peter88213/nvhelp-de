@@ -7,8 +7,8 @@ You can edit the properties of the selected chapter or part.
 
 .. hint::
    You can change any chapter into a part or vice versa via the **Change
-   Level** entry in the Kontextmenü, the **Teil**-Menü, or the **Kapitel** 
-  -Menü.
+   Level** entry in the Kontextmenü, the **Teil**-Menü, or the 
+   **Kapitel**-Menü.
 
 .. figure:: _images/chapter_view01.png
    :alt: Screenshot

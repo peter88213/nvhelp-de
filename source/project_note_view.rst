@@ -9,7 +9,7 @@ You can edit the Titel und Inhalt of the selected Projektnotiz.
 Titel und Inhalt
 ----------------
 
-.. figure:: _images/projectnote_view01.png
+.. figure:: _images/project_note_view01.png
    :alt: Screenshot
 
 Titel und Inhalt are displayed in an editable "Karteikarte".

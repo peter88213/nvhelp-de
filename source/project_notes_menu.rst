@@ -3,7 +3,7 @@ Projektnotizen-Menü
 
 **Projektnotizen operation**
 
-.. figure:: _images/projectnotes_menu01.png
+.. figure:: _images/project_notes_menu01.png
    :alt: novelibre screenshot
 
 Hinzufügen
@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new Projektnotiz**
 
 With **Projektnotizen > Hinzufügen**,
-you can add a `Projektnotiz <projectnote_view.html>`__
+you can add a `Projektnotiz <project_note_view.html>`__
 to the tree.
 
 -  If a Projektnotiz is selected, the new Projektnotiz is placed

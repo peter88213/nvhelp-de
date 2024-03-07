@@ -14,7 +14,7 @@ Eigenschaften-Referenz
    world_view
    plotline_view
    point_view
-   projectnote_view
+   project_note_view
 
 -----------------
 
