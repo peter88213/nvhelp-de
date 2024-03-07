@@ -1,7 +1,7 @@
 nv_templates
 ============
 
-**Online help**
+**User guide**
 
 This page refers to the latest `nv_templates
 <https://github.com/peter88213/nv_templates/>`__ release.
@@ -51,9 +51,8 @@ manage and edit the templates.
 Conventions
 -----------
 
-In *novelibre*, you can define a narrative structure with “Todo” Parts,
-Chapters, and scenes. See
-`Arcs <https://github.com/peter88213/novelibre/help/arcs>`__.
+In *novelibre*, you can define a narrative structure with stages. See
+`Plot lines <https://github.com/peter88213/novelibre/help/plotting>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
 Markdown file structure

@@ -1,7 +1,7 @@
 nv_timeline
 ===========
 
-**Online help**
+**User guide**
 
 This page refers to the latest `nv_timeline
 <https://github.com/peter88213/nv_timeline/>`__ release.
@@ -34,8 +34,8 @@ Timeline > Edit the timeline
 Open the project’s timeline, if existing, with the Timeline application.
 Lock the project.
 
-File > New > Create from Timeline…
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+File > New > Create from Timeline...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Open a file dialog to select a timeline. If no novelibre project with
 the timeline’s file name exists, create a new one from the timeline.
@@ -54,7 +54,7 @@ Global configuration
 An optional global configuration file can be placed in the configuration
 directory in your user profile. It is applied to any project. Its
 entries override nv_timeline’s built-in constants. This is the
-path: ``c:\Users\<user name>\.novx\config\timeline.ini``
+path: ``c:\Users\<user name>\.novx\config\nv_timeline.ini``
 
 The setup script installs a sample configuration file containing
 nv_timeline’s default values. You can modify or delete it.
@@ -62,7 +62,7 @@ nv_timeline’s default values. You can modify or delete it.
 Local project configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project configuration file named ``yw-nv-timelinei`` can be
+An optional project configuration file named ``nv_timeline.ini`` can be
 placed in your project directory, i.e. the folder containing your
 novelibre and Timeline project files. It is only applied to this
 project. Its entries override nv_timeline’s built-in constants as
@@ -77,7 +77,7 @@ nv_timeline’s default settings and options. This file is also
 automatically copied to the global configuration folder during
 installation. You best make a copy and edit it.
 
--  The SETTINGS section comprises the program “constants”. If you change
+-  The SETTINGS section comprises the program "constants". If you change
    them, the program might behave differently than described in the
    documentation. So only touch them if you are clear about the
    consequences.
@@ -147,13 +147,13 @@ On the novelibre side
 On the Timeline side
 ~~~~~~~~~~~~~~~~~~~~
 
--  A section ID is a string looking like “sc1”. It is auto-generated and
+-  A section ID is a string looking like "sc1". It is auto-generated and
    must not be changed manually.
--  Only events with a label containing the string “Section” (user input)
+-  Only events with a label containing the string "Section" (user input)
    or a section ID (auto-generated) are exported as sections to a new
    novelibre project.
 -  When creating a new novelibre project from a timeline the first time,
-   “Section” labels are replaced with section ID labels.
+   "Section" labels are replaced with section ID labels.
 -  If a new novelibre project is generated again with the same timeline,
    the section ID labels may change.
 -  Only events with a label containing a section ID are synchronized
