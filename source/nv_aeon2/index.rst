@@ -12,11 +12,11 @@ You can open it with **Hilfe > Aeon 2-Plugin Online-Hilfe**.
 Befehlsreferenz
 ---------------
 
-Timeline > Information
-~~~~~~~~~~~~~~~~~~~~~~
+Aeon Timeline 2 > Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing Timeline project, if any. Timeline
-   and novelibre file dates are compared.
+-  Show information about an existing Aeon Timeline 2 project, if any. 
+   Aeon Timeline 2 and novelibre file dates are compared.
 
 Aeon Timeline 2 > Die Zeitleiste aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
