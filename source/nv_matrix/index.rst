@@ -1,7 +1,7 @@
 nv_matrix
 =========
 
-**Online-Hilfe**
+**Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_matrix
 <https://github.com/peter88213/nv_matrix/>`__ release.

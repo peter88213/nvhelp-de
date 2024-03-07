@@ -1,7 +1,7 @@
 nv_editor
 =========
 
-**Online-Hilfe**
+**Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_editor
 <https://github.com/peter88213/nv_editor/>`__ release.

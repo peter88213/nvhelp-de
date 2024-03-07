@@ -1,7 +1,7 @@
 nv_templates
 ============
 
-**Online-Hilfe**
+**Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_templates
 <https://github.com/peter88213/nv_templates/>`__ release.

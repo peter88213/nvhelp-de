@@ -1,7 +1,7 @@
 nv_aeon2
 ========
 
-**Online-Hilfe**
+**Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
 <https://github.com/peter88213/nv_aeon2/>`__ release.
@@ -15,7 +15,7 @@ Befehlsreferenz
 Aeon Timeline 2 > Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing Aeon Timeline 2 project, if any. 
+-  Show information about an existing Aeon Timeline 2 project, if any.
    Aeon Timeline 2 and novelibre file dates are compared.
 
 Aeon Timeline 2 > Die Zeitleiste aktualisieren
@@ -43,7 +43,7 @@ Aeon Timeline 2 > Die Zeitleiste bearbeiten
 Sperren the project.
 
 Datei > Neu > Aus Aeon Timeline 2 erzeugen...
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
 the timeline’s file name exists, erzeugen a neu one from the timeline.

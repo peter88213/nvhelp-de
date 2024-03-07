@@ -1,6 +1,8 @@
 Werkzeuge
 =========
 
+`novelibre User guide (English) <https://peter88213.github.io/nvhelp-en/tools.html>`__
+
 .. toctree::
    :maxdepth: 2
    

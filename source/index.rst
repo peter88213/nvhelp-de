@@ -1,5 +1,5 @@
-|novelibre logo| novelibre User guide
-=====================================
+|novelibre logo| novelibre Benutzerhandbuch
+===========================================
 
 .. |novelibre logo| image:: _images/nLogo32.png
    :target: https://github.com/peter88213/novelibre/
@@ -7,6 +7,8 @@
 Diese Seite bezieht sich auf die aktuelle Ausgabe von `novelibre
 <https://github.com/peter88213/novelibre/>`__
 Man kann sie mit **Hilfe > Online-Hilfe** aufrufen.
+
+`novelibre User guide (English) <https://peter88213.github.io/nvhelp-en/>`__
 
 .. toctree::
    :maxdepth: 2

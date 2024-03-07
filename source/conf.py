@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'novelibre Online-Benutzerhandbuch'
+project = 'novelibre Benutzerhandbuch'
 copyright = '2024, peter88213'
 author = 'peter88213'
 release = '2.7'
@@ -35,7 +35,7 @@ highlight_language = 'ini'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
-html_title = 'novelibre Online-Benutzerhandbuch'
+html_title = 'novelibre Benutzerhandbuch'
 html_favicon = '_images/nLogo32.ico'
 
 # Add any extra paths that contain custom files (such as robots.txt or

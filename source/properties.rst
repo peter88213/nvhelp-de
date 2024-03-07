@@ -1,6 +1,8 @@
 Eigenschaften-Referenz
 ======================
 
+`novelibre User guide (English) <https://peter88213.github.io/nvhelp-en/properties.html>`__
+
 .. toctree::
    :maxdepth: 2
    
