@@ -33,7 +33,7 @@ plotting.
 
    Plotlinien
 
-“Plotlinie” can mean a variety of things: narrative strand,
+"Plotlinie" can mean a variety of things: narrative strand,
 thread, character arc, storyline, subplot, sequence of cause and effect,
 sequence of setup and payoff, and so on.
 You can think of a Plotlinie as a line on which plot points are arranged
@@ -48,7 +48,7 @@ relevance to the plot.
 -  Each plot point can be assigned to exactly one scene.
 -  Any number of plot points can be assigned to each scene.
 
-The association of scenes and plot points is shown in the “Plot”
+The association of scenes and plot points is shown in the "Plot"
 column of the Baumansicht.
 
 You can use Plotlinien to establish named connections between scenes, such as

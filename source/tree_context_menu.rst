@@ -5,7 +5,7 @@ When right-clicking on a tree element in the left pane, a context
 menu opens that belongs to the type of the selected element.
 
 .. hint::
-   Greyed-out entries are not available, e.g. due to “project lock”.
+   Greyed-out entries are not available, e.g. due to "project lock".
 
 
 Buch-Kontextmenüeinräge
@@ -82,11 +82,11 @@ Löschen
 Löschens the selected tree element and its children.
 
 -  Teils and chapters are gelöscht.
--  Abschnitts are marked “unused” and moved to the “Papierkorb” chapter.
+-  Abschnitts are marked "unused" and moved to the "Papierkorb" chapter.
 -  Deleting a part has no effect on its subordinate chapters.
--  Deleting a chapter moves its sections to the “Papierkorb” chapter.
--  The “Papierkorb” chapter is created automatically, if needed.
--  When deleting the “Papierkorb” chapter, all its sections are gelöscht.
+-  Deleting a chapter moves its sections to the "Papierkorb" chapter.
+-  The "Papierkorb" chapter is created automatically, if needed.
+-  When deleting the "Papierkorb" chapter, all its sections are gelöscht.
 
 
 Typ wählen
@@ -133,7 +133,7 @@ with the same viewpoint.
 -  Abschnitt durations are added.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 Kapitelebene anzeigen
 ~~~~~~~~~~~~~~~~~~~~~
@@ -204,7 +204,7 @@ Löschen
 Löschens the selected character/location/item.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 Status setzen
 ~~~~~~~~~~~~~
@@ -268,7 +268,7 @@ Löschen
 Löschens the selected Plotlinie/plot point.
 
 .. caution::
-   Be aware, there is no “Undo” feature. If you delete a Plotlinie, all its
+   Be aware, there is no "Undo" feature. If you delete a Plotlinie, all its
    plot points will be gelöscht, too.
    
    

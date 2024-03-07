@@ -96,11 +96,11 @@ Baum aktualisieren
 With **Datei > Baum aktualisieren** or ``F5``,
 you can refresh the tree.
 
--  “Normal” sections that have been moved to an “Unbenutzt” chapter are
-   made “Unbenutzt”.
+-  "Normal" sections that have been moved to an "Unbenutzt" chapter are
+   made "Unbenutzt".
 -  Teils and chapters are renumbered according to the `Automatische Nummerierung
    settings <book_view.html#auto-numbering>`__.
--  The “Papierkorb” chapter is moved to the end of the book, if necessary.
+-  The "Papierkorb" chapter is moved to the end of the book, if necessary.
 
 
 Sperren
@@ -134,7 +134,7 @@ This might come in handy, if you wish to delete files,
 open your project with another application, and so on.
 
 .. hint::
-   In case you edit the project “outsides”, consider locking it before.
+   In case you edit the project "outsides", consider locking it before.
 
 
 Style sheet kopieren
@@ -155,7 +155,7 @@ This allows you to view the *.novx* project file with a web browser.
 
    Depending on your web browser and your operating system, the
    *content type* resp. *MIME type* of *.novx* files must be registered as
-   *“text/xml”*. Under Windows, yo can do this by running the
+   *"text/xml"*. Under Windows, yo can do this by running the
    ``<home>\.novelibre\add_novelibre.reg`` script.
 
 

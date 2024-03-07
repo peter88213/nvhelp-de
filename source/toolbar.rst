@@ -11,22 +11,22 @@ Die Werkzeugleiste provides Schaltflächen for common actions in the proposed wo
 
 -----------------
 
-|Buch anzeigen| Gehe zu the “Buch” branch and expand it.
+|Buch anzeigen| Gehe zu the "Buch" branch and expand it.
 Dasselbe wie **Ansicht > Buch anzeigen**.
 
-|Figuren anzeigen| Gehe zu the “Figuren” branch and expand it.
+|Figuren anzeigen| Gehe zu the "Figuren" branch and expand it.
 Dasselbe wie **Ansicht > Figuren anzeigen**.
 
-|Schauplätze anzeigen| Gehe zu the “Schauplätze” branch and expand it.
+|Schauplätze anzeigen| Gehe zu the "Schauplätze" branch and expand it.
 Dasselbe wie **Ansicht > Schauplätze anzeigen**.
 
-|Gegenstände anzeigen| Gehe zu the “Gegenstände” branch and expand it.
+|Gegenstände anzeigen| Gehe zu the "Gegenstände" branch and expand it.
 Dasselbe wie **Ansicht > Gegenstände anzeigen**.
 
-|Plotlinien anzeigen| Gehe zu the “Plotlinien” branch and expand it.
+|Plotlinien anzeigen| Gehe zu the "Plotlinien" branch and expand it.
 Dasselbe wie **Ansicht > Plotlinien anzeigen**.
 
-|Projektnotizen anzeigen| Gehe zu the “Projektnotizen” branch and expand it.
+|Projektnotizen anzeigen| Gehe zu the "Projektnotizen" branch and expand it.
 Dasselbe wie **Ansicht > Projektnotizen anzeigen**.
 
 -----------------

@@ -165,7 +165,7 @@ the timeline’s file name exists, erzeugen a neu one from the timeline.</p>
 <h2>Control conversion<a class="headerlink" href="#control-conversion" title="Link to this heading"></a></h2>
 <section id="prepare-your-timeline-for-export">
 <h3>Prepare your timeline for export<a class="headerlink" href="#prepare-your-timeline-for-export" title="Link to this heading"></a></h3>
-<p>The included installation script installs a “novelibre” template in the
+<p>The included installation script installs a „novelibre“ template in the
 <em>nv_aeon2</em> Konfiguration Ordner. The easiest way is to erzeugen neu
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.</p>
@@ -183,7 +183,7 @@ timeline, see <a class="reference external" href="#custom-Konfiguration">Benutze
 <section id="known-limitations">
 <h3>Known limitations<a class="headerlink" href="#known-limitations" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>“Narrative” events that begin before 0001-01-01 in the timeline, will
+<li><p>„Narrative“ events that begin before 0001-01-01 in the timeline, will
 not be synchronized with novelibre, because novelibre can not handle
 these dates.</p></li>
 <li><p>The same applies to the section duration in this case, i.e. the event
@@ -193,26 +193,26 @@ differ.</p></li>
 </section>
 <section id="conversion-rules-for-neuly-erzeugend-novelibre-projekts">
 <h3>Conversion rules for neuly erzeugend novelibre-Projekts<a class="headerlink" href="#conversion-rules-for-neuly-erzeugend-novelibre-projekts" title="Link to this heading"></a></h3>
-<p>The names/column labels refer to timelines based on the “yWriter”
+<p>The names/column labels refer to timelines based on the „yWriter“
 template.</p>
 <ul class="simple">
 <li><p>If an Aeon event title occurs more than once, the program aborts with
 an error message.</p></li>
-<li><p>Events assigned to the “Narrative” arc are converted to regular
+<li><p>Events assigned to the „Narrative“ arc are converted to regular
 sections.</p></li>
-<li><p>Neue Abschnitte are put into a neu chapter named “Neue Abschnitte”.</p></li>
+<li><p>Neue Abschnitte are put into a neu chapter named „Neue Abschnitte“.</p></li>
 <li><p>Alle sections are sorted chronologically.</p></li>
-<li><p>The section status is “Gliederung”.</p></li>
+<li><p>The section status is „Gliederung“.</p></li>
 <li><p>The event title is used as section title (*).</p></li>
 <li><p>The start date is used as section date/time, if the start year is 1
 or above.</p></li>
 <li><p>The section duration is calculated, if the start year is 1 or above.</p></li>
 <li><p>Event tags are converted to section tags, if any (*).</p></li>
-<li><p>“Beschreibungs” are imported as section descriptions, if any (*).</p></li>
-<li><p>“Notizen” are used as section notes, if any (*).</p></li>
-<li><p>“Teilicipants” are imported as characters, if any (*).</p></li>
-<li><p>“Schauplätze” are imported, if any (*).</p></li>
-<li><p>“Gegenstände” are imported, if any (*).</p></li>
+<li><p>„Beschreibungs“ are imported as section descriptions, if any (*).</p></li>
+<li><p>„Notizen“ are used as section notes, if any (*).</p></li>
+<li><p>„Teilicipants“ are imported as characters, if any (*).</p></li>
+<li><p>„Schauplätze“ are imported, if any (*).</p></li>
+<li><p>„Gegenstände“ are imported, if any (*).</p></li>
 </ul>
 </section>
 <section id="aktualisieren-rules-for-existing-novelibre-projekts">
@@ -223,7 +223,7 @@ or above.</p></li>
 with an error message.</p></li>
 <li><p>If a novelibre section title occurs more than once, the converter
 aborts with an error message.</p></li>
-<li><p>Abschnitte are marked “unused” if the associated event is gelöscht in
+<li><p>Abschnitte are marked „unused“ if the associated event is gelöscht in
 Aeon.</p></li>
 <li><p>Abschnitt date, section time, and section duration are aktualisierend.</p></li>
 <li><p>Non-empty section description and section tags are aktualisierend.</p></li>
@@ -231,16 +231,16 @@ Aeon.</p></li>
 notes.</p></li>
 <li><p>The start date is overwritten, if the start year is 1 or above.</p></li>
 <li><p>The section duration is overwritten, if the start year is 1 or above.</p></li>
-<li><p>Neu “Normal” type sections are erzeugend from “Narrative” events, if
+<li><p>Neu „Normal“ type sections are erzeugend from „Narrative“ events, if
 missing.</p></li>
-<li><p>Neue Abschnitte are put into a neu chapter named “Neue Abschnitte”.</p></li>
+<li><p>Neue Abschnitte are put into a neu chapter named „Neue Abschnitte“.</p></li>
 <li><p>Neu plot lines, characters, locations, and items are added, if assigned to
-“Narrative” events.</p></li>
+„Narrative“ events.</p></li>
 <li><p>Arc, character, location, and item relationships are aktualisierend, if the
 entity names match.</p></li>
-<li><p>When processing unspecific “day/hour/minute” information, the default
+<li><p>When processing unspecific „day/hour/minute“ information, the default
 date from the novelibre-Projekt is used. f there is no default date
-set, “today” is used.</p></li>
+set, „today“ is used.</p></li>
 </ul>
 </section>
 <section id="aktualisieren-rules-for-aeon-timeline-2-projekts">
@@ -255,15 +255,15 @@ above.</p></li>
 <li><p>Aktualisierend event span is specified in days/hours/minutes as in
 novelibre.</p></li>
 <li><p>Non-empty event description and event tags are aktualisierend.</p></li>
-<li><p>Event properties “Beschreibung” and “Notizen” are erzeugend, if missing.</p></li>
-<li><p>Events erzeugend or aktualisierend from “Normal” sections are assigned to the
+<li><p>Event properties „Beschreibung“ and „Notizen“ are erzeugend, if missing.</p></li>
+<li><p>Events erzeugend or aktualisierend from „Normal“ sections are assigned to the
 <em>Narrative</em> arc.</p></li>
-<li><p>“Narrative” events are removed if the associated section is gelöscht
+<li><p>„Narrative“ events are removed if the associated section is gelöscht
 in novelibre.</p></li>
-<li><p>Entity types “Arc”, “Figur”, “Schauplatz”, and “Gegenstand” are erzeugend,
+<li><p>Entity types „Arc“, „Figur“, „Schauplatz“, and „Gegenstand“ are erzeugend,
 if missing.</p></li>
-<li><p>A “Narrative” arc is erzeugend, if missing.</p></li>
-<li><p>A “Storyline” arc role is erzeugend, if missing.</p></li>
+<li><p>A „Narrative“ arc is erzeugend, if missing.</p></li>
+<li><p>A „Storyline“ arc role is erzeugend, if missing.</p></li>
 <li><p>Neu arcs, characters, locations, and items are added, if assigned to
 sections.</p></li>
 <li><p>Arc, character, location, and item relationships are aktualisierend, if the
@@ -272,10 +272,10 @@ entity names match.</p></li>
 actual date and are sorted in reading order.</p></li>
 <li><p>When creating events from sections without any date/time information,
 they get the default date from the novelibre-Projekt, and are sorted
-in reading order. If there is no default date set, “today” is used.</p></li>
-<li><p>When processing unspecific “day/hour/minute” information, the default
+in reading order. If there is no default date set, „today“ is used.</p></li>
+<li><p>When processing unspecific „day/hour/minute“ information, the default
 date from the novelibre-Projekt is used. f there is no default date
-set, “today” is used.</p></li>
+set, „today“ is used.</p></li>
 </ul>
 </section>
 </section>

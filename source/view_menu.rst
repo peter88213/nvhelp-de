@@ -54,55 +54,55 @@ you can hide all tree elements except the main categories.
 Buch anzeigen
 -------------
 
-**Gehe zu the “Buch” branch and expand it**
+**Gehe zu the "Buch" branch and expand it**
 
 With **Ansicht > Ansicht Buch**,
-you can select and open the “Buch” branch.
+you can select and open the "Buch" branch.
 
 
 Figuren anzeigen
 ----------------
 
-**Gehe zu the “Figuren” branch and expand it**
+**Gehe zu the "Figuren" branch and expand it**
 
 With **Ansicht > Ansicht Figuren**,
-you can select and open the “Figuren” branch.
+you can select and open the "Figuren" branch.
 
 
 Schauplätze anzeigen
 --------------------
 
-**Gehe zu the “Schauplätze” branch and expand it**
+**Gehe zu the "Schauplätze" branch and expand it**
 
 With **Ansicht > Ansicht Schauplätze**,
-you can select and open the “Schauplätze” branch.
+you can select and open the "Schauplätze" branch.
 
 
 Gegenstände anzeigen
 --------------------
 
-**Gehe zu the “Gegenstände” branch and expand it**
+**Gehe zu the "Gegenstände" branch and expand it**
 
 With **Ansicht > Ansicht Gegenstände**,
-you can select and open the “Gegenstände” branch.
+you can select and open the "Gegenstände" branch.
 
 
 Plotlinien anzeigen
 -------------------
 
-**Gehe zu the “Plotlinien” branch and expand it**
+**Gehe zu the "Plotlinien" branch and expand it**
 
 With **Ansicht > Plotlinien anzeigen**,
-you can select and open the “Plotlinien” branch.
+you can select and open the "Plotlinien" branch.
 
 
 Projektnotizen anzeigen
 -----------------------
 
-**Gehe zu the “Projektnotizen” branch and expand it**
+**Gehe zu the "Projektnotizen" branch and expand it**
 
 With **Ansicht > Ansicht Planning**,
-you can select and open the “Projektnotizen” branch.
+you can select and open the "Projektnotizen" branch.
 
 
 Textbetrachter anzeigen/verbergen

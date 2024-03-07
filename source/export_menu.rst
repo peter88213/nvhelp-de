@@ -16,8 +16,8 @@ you can create a text document that is split into sections
 (to be seen in the Navigator).
 Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 
--  Only “normal” chapters and sections are exported. Kapitels and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Kapitels and
+   sections marked "unused" are not exported.
 -  Abschnittstitels are invisible, but appear in the *Navigator*.
 -  Kapitels and sections can neither be rearranged nor gelöscht.
 -  With *Writer*, you can split sections by
@@ -66,8 +66,8 @@ with a row per section, containing the following data:
 - Abschnittsnotizen
 
 .. note::
-   Only “normal” sections appear in the plot grid. 
-   Abschnitts of the “Unbenutzt” type are omitted.
+   Only "normal" sections appear in the plot grid. 
+   Abschnitts of the "Unbenutzt" type are omitted.
 
 Der Dateinamenszusatz lautet ``_grid_tmp``.
 
@@ -94,8 +94,8 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
    processors such as Google Docs. 
 
 
--  Only “normal” chapters and sections are exported. Kapitels and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Kapitels and
+   sections marked "unused" are not exported.
 -  The document contains chapter and section headings. However, changes
    will not be reimported.
 -  The document contains section ``[scx]`` markers. **Do not touch lines
@@ -138,14 +138,14 @@ e.g. when you are finished with *novelibre*.
 
 -  The document is placed in the same folder as the project.
 -  Dokument’s **filename**: ``<project name>.odt``.
--  Only “normal” chapters and sections are exported. Kapitels and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Kapitels and
+   sections marked "unused" are not exported.
 -  Teil Titels appear as first level heading.
 -  Kapitel Titels appear as second level heading.
 -  Abschnitts are separated by ``* * *``. The first line is not indented.
 -  Beginning from the second paragraph, paragraphs begin with indentation
    of the first line.
--  Abschnitts marked “attach to previous section” appear like continuous
+-  Abschnitts marked "attach to previous section" appear like continuous
    paragraphs.
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
@@ -161,8 +161,8 @@ you can create a text document containing a brief synopsis
 with part, chapter, and sections Titels only.
 Der Dateinamenszusatz lautet ``_brf_synopsis``.
 
--  Only “normal” chapters and sections are exported. Kapitels and
-   sections marked “unused” are not exported.
+-  Only "normal" chapters and sections are exported. Kapitels and
+   sections marked "unused" are not exported.
 -  Teil Titels appear as first level heading.
 -  Kapitel Titels appear as second level heading.
 -  Abschnittstitels appear as plain paragraphs.

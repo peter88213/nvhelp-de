@@ -51,7 +51,7 @@ Browsing the tree
    -  |Go forward| selects a node forward in the tree browsing history.
 
    .. hint::
-      On Windows, the “Vor” and “Zurück” mouse Schaltflächen (if any) 
+      On Windows, the "Vor" and "Zurück" mouse Schaltflächen (if any) 
       may also work.
 
 
@@ -61,7 +61,7 @@ Baumelemente verschieben
 Drag and drop while pressing the ``Alt`` key.
 
 .. caution::
-   Be aware, there is no “Undo” feature.
+   Be aware, there is no "Undo" feature.
 
 
 Baumelemente löschen
@@ -70,11 +70,11 @@ Baumelemente löschen
 Select the element to delete and hit the ``Del`` key.
 
 -  Teils and chapters are gelöscht.
--  Abschnitts are marked “unused” and moved to the “Papierkorb” chapter.
+-  Abschnitts are marked "unused" and moved to the "Papierkorb" chapter.
 -  Deleting a part has no effect on its subordinate chapters.
--  Deleting a chapter moves its sections to the “Papierkorb” chapter.
--  The “Papierkorb” chapter is created automatically, if needed.
--  When deleting the “Papierkorb” chapter, all its sections are gelöscht.
+-  Deleting a chapter moves its sections to the "Papierkorb" chapter.
+-  The "Papierkorb" chapter is created automatically, if needed.
+-  When deleting the "Papierkorb" chapter, all its sections are gelöscht.
 
 
 Textbetrachter

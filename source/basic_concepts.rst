@@ -70,12 +70,12 @@ Kontextmenü or Teil/Kapitel/Abschnitt-Menü. The type can be *Normal* or
 *Unbenutzt*.
 
 Normal
-   -  “Normal” type Teile, chapters, and sections are counted. The totals
+   -  "Normal" type Teile, chapters, and sections are counted. The totals
       are displayed in the status bar.
-   -  “Normal” type sections are exported to the Manuskript and included in
+   -  "Normal" type sections are exported to the Manuskript and included in
       the word count.
-   -  “Normal” type Teile and chapters can have subelements of each type.
-   -  “Normal” type tree elements are color coded according to the
+   -  "Normal" type Teile and chapters can have subelements of each type.
+   -  "Normal" type tree elements are color coded according to the
       `coloring mode settings <view_menu.html#coloring-mode>`__.
 
 Unbenutzt
@@ -83,14 +83,14 @@ Unbenutzt
    from word count totals and export.
 
    -  The subelements of unused Teile and chapters are unused as well.
-   -  If you mark a section “Unbenutzt”, its properties are preserved.
+   -  If you mark a section "Unbenutzt", its properties are preserved.
    -  Unbenutzt tree elements are displayed in gray.
 
 
 Abschnitts-Status
 -----------------
 
-You can assign a status to each “Normal” type section via Kontextmenü
+You can assign a status to each "Normal" type section via Kontextmenü
 or Abschnitt-Menü.
 
 -  You can choose a `coloring mode <view_menu.html#coloring-mode>`__
@@ -100,7 +100,7 @@ or Abschnitt-Menü.
    `work phase <book_view.html#writing-progress>`__,
    and choose a `coloring mode <view_menu.html#coloring-mode>`__
    that highlights sections that are behind schedule.
--  Neuly created sections are set to “Gliederung” by default.
+-  Neuly created sections are set to "Gliederung" by default.
 -  Word counts by status appear in the `Buch properties
    <book_view.html#writing-pogress>`__.
 

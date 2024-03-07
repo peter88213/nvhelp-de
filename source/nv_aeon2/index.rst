@@ -54,7 +54,7 @@ Control conversion
 Prepare your timeline for export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The included installation script installs a “novelibre” template in the
+The included installation script installs a "novelibre" template in the
 *nv_aeon2* Konfiguration Ordner. The easiest way is to erzeugen neu
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.
@@ -72,7 +72,7 @@ Synchronization in detail
 Known limitations
 ~~~~~~~~~~~~~~~~~
 
--  “Narrative” events that begin before 0001-01-01 in the timeline, will
+-  "Narrative" events that begin before 0001-01-01 in the timeline, will
    not be synchronized with novelibre, because novelibre can not handle
    these dates.
 -  The same applies to the section duration in this case, i.e. the event
@@ -82,26 +82,26 @@ Known limitations
 Conversion rules for neuly erzeugend novelibre-Projekts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The names/column labels refer to timelines based on the “yWriter”
+The names/column labels refer to timelines based on the "yWriter"
 template.
 
 -  If an Aeon event title occurs more than once, the program aborts with
    an error message.
--  Events assigned to the “Narrative” arc are converted to regular
+-  Events assigned to the "Narrative" arc are converted to regular
    sections.
--  Neue Abschnitte are put into a neu chapter named “Neue Abschnitte”.
+-  Neue Abschnitte are put into a neu chapter named "Neue Abschnitte".
 -  Alle sections are sorted chronologically.
--  The section status is “Gliederung”.
+-  The section status is "Gliederung".
 -  The event title is used as section title (\*).
 -  The start date is used as section date/time, if the start year is 1
    or above.
 -  The section duration is calculated, if the start year is 1 or above.
 -  Event tags are converted to section tags, if any (\*).
--  “Beschreibungs” are imported as section descriptions, if any (\*).
--  “Notizen” are used as section notes, if any (\*).
--  “Teilicipants” are imported as characters, if any (\*).
--  “Schauplätze” are imported, if any (\*).
--  “Gegenstände” are imported, if any (\*).
+-  "Beschreibungs" are imported as section descriptions, if any (\*).
+-  "Notizen" are used as section notes, if any (\*).
+-  "Teilicipants" are imported as characters, if any (\*).
+-  "Schauplätze" are imported, if any (\*).
+-  "Gegenstände" are imported, if any (\*).
 
 Aktualisieren rules for existing novelibre-Projekts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -111,7 +111,7 @@ Aktualisieren rules for existing novelibre-Projekts
    with an error message.
 -  If a novelibre section title occurs more than once, the converter
    aborts with an error message.
--  Abschnitte are marked “unused” if the associated event is gelöscht in
+-  Abschnitte are marked "unused" if the associated event is gelöscht in
    Aeon.
 -  Abschnitt date, section time, and section duration are aktualisierend.
 -  Non-empty section description and section tags are aktualisierend.
@@ -119,16 +119,16 @@ Aktualisieren rules for existing novelibre-Projekts
    notes.
 -  The start date is overwritten, if the start year is 1 or above.
 -  The section duration is overwritten, if the start year is 1 or above.
--  Neu “Normal” type sections are erzeugend from “Narrative” events, if
+-  Neu "Normal" type sections are erzeugend from "Narrative" events, if
    missing.
--  Neue Abschnitte are put into a neu chapter named “Neue Abschnitte”.
+-  Neue Abschnitte are put into a neu chapter named "Neue Abschnitte".
 -  Neu plot lines, characters, locations, and items are added, if assigned to
-   “Narrative” events.
+   "Narrative" events.
 -  Arc, character, location, and item relationships are aktualisierend, if the
    entity names match.
--  When processing unspecific “day/hour/minute” information, the default
+-  When processing unspecific "day/hour/minute" information, the default
    date from the novelibre-Projekt is used. f there is no default date
-   set, “today” is used.
+   set, "today" is used.
 
 Aktualisieren rules for Aeon Timeline 2-Projekts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -142,15 +142,15 @@ Aktualisieren rules for Aeon Timeline 2-Projekts
 -  Aktualisierend event span is specified in days/hours/minutes as in
    novelibre.
 -  Non-empty event description and event tags are aktualisierend.
--  Event properties “Beschreibung” and “Notizen” are erzeugend, if missing.
--  Events erzeugend or aktualisierend from “Normal” sections are assigned to the
+-  Event properties "Beschreibung" and "Notizen" are erzeugend, if missing.
+-  Events erzeugend or aktualisierend from "Normal" sections are assigned to the
    *Narrative* arc.
--  “Narrative” events are removed if the associated section is gelöscht
+-  "Narrative" events are removed if the associated section is gelöscht
    in novelibre.
--  Entity types “Arc”, “Figur”, “Schauplatz”, and “Gegenstand” are erzeugend,
+-  Entity types "Arc", "Figur", "Schauplatz", and "Gegenstand" are erzeugend,
    if missing.
--  A “Narrative” arc is erzeugend, if missing.
--  A “Storyline” arc role is erzeugend, if missing.
+-  A "Narrative" arc is erzeugend, if missing.
+-  A "Storyline" arc role is erzeugend, if missing.
 -  Neu arcs, characters, locations, and items are added, if assigned to
    sections.
 -  Arc, character, location, and item relationships are aktualisierend, if the
@@ -159,10 +159,10 @@ Aktualisieren rules for Aeon Timeline 2-Projekts
    actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
    they get the default date from the novelibre-Projekt, and are sorted
-   in reading order. If there is no default date set, “today” is used.
--  When processing unspecific “day/hour/minute” information, the default
+   in reading order. If there is no default date set, "today" is used.
+-  When processing unspecific "day/hour/minute" information, the default
    date from the novelibre-Projekt is used. f there is no default date
-   set, “today” is used.
+   set, "today" is used.
 
 Benutzerdefinierte Konfiguration
 --------------------------------

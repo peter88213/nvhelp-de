@@ -63,7 +63,7 @@ text:
 
    If the selection is already strong, the command removes the markup.
 
--  ``Ctrl``-``M`` removes “emphasized” and “strong” markup from the selection.
+-  ``Ctrl``-``M`` removes "emphasized" and "strong" markup from the selection.
 
 
 Undo/Redo
@@ -105,7 +105,7 @@ Wortzählung
    of the window.
 -  By default, word count is aktualisierend manually, either by pressing the
    ``F5`` key, or via the **Wortzählung > Aktualisieren**-Menü entry.
--  The word count can be aktualisierend “live”, i.e. just while entering text.
+-  The word count can be aktualisierend "live", i.e. just while entering text.
    This is enabled via the **Wortzählung > Laufende Aktualisierung einschalten**-Menü
    entry.
 -  Live aktualisieren is disabled by the **Wortzählung > Laufende Aktualisierung ausschalten**
@@ -122,7 +122,7 @@ Wortzählung
 
 With ``Ctrl``-``S``,
 you can apply changes to the section.
-Then “Modified” status is displayed in *novelibre*.
+Then "Modified" status is displayed in *novelibre*.
 
 -  If the project is locked in *novelibre*, you will be asked to unlock
    it before changes can be applied.

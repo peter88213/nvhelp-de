@@ -123,8 +123,8 @@ with a row per section, containing the following data:
 -  Gegenstände
 
 .. note::
-   Only “normal” sections appear in the section list. 
-   Abschnitts of the “Unbenutzt” type are omitted.
+   Only "normal" sections appear in the section list. 
+   Abschnitts of the "Unbenutzt" type are omitted.
 
 Der Dateinamenszusatz lautet ``_sectionlist``.
 
