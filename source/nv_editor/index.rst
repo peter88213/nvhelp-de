@@ -5,7 +5,17 @@ nv_editor
 
 Diese Seite gilt für die neueste Ausgabe von `nv_editor
 <https://github.com/peter88213/nv_editor/>`__ release.
-You can open it with **Hilfe > Bearbeitenor-Plugin Online-Hilfe**.
+You can open it with **Hilfe > Editor-Plugin Online-Hilfe**.
+
+
+Installing the plugin
+---------------------
+
+- Unzip the downloaded zipfile into a new folder.
+- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds an **Bearbeiten** entry to the *novelibre* **Abschnitt** menu,
+and an **Editor-Plugin Online-Hilfe** entry to the **Hilfe** menu.
 
 
 Launch the section editor

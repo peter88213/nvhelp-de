@@ -8,6 +8,16 @@ Diese Seite gilt für die neueste Ausgabe von `nv_collection
 You can open it with **Hilfe > Sammlung-Plugin Online-Hilfe**.
 
 
+Installing the plugin
+---------------------
+
+- Unzip the downloaded zipfile into a new folder.
+- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+
+The plugin adds a **Sammlung** entry to the *novelibre* **Datei** menu,
+and a **Sammlung-Plugin Online-Hilfe** entry to the **Hilfe** menu.
+
+
 Beginn the collection manager
 -----------------------------
 
@@ -32,7 +42,7 @@ Once you specified a valid file path, a blank collection appears.
 
 
 Create a neu Serie
--------------------
+------------------
 
 With **Serie > Hinzufügen**, you can add a neu Serie.
 Bearbeiten the Serie’ title and description in the right window.
