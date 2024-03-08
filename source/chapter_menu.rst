@@ -2,7 +2,7 @@ Kapitel-Menü
 ============
 
 
-**Kapitel operation**
+**Kapitel-Funktionen**
 
 .. figure:: _images/chapter_menu01.png
    :alt: novelibre screenshot
@@ -10,32 +10,34 @@ Kapitel-Menü
 Hinzufügen
 ----------
 
-**Hinzufügen a new chapter**
+**Ein neues Kapitel hinzufügen**
 
-With **Kapitel > Hinzufügen**,
-you can add a `chapter <basic_concepts.html#chapters>`__ to the tree.
+Mit **Kapitel > Hinzufügen**,
+kann man ein `Kapitel <basic_concepts.html#kapitel>`__
+in den Baum einfügen.
 
--  The new chapter is placed at the next free position after the selection, if
-   possible.
--  Otherwise, the new chapter is placed at the end of the
-   "Buch" branch.
--  The new chapter has an auto-generated Titel. You can change it in the right pane.
+- Das neue Kapitel wird an die nächste freie Stelle nach der Auswahl gesetzt,
+  falls möglich.
+- Andernfalls wird das neue Kapitel ans Ende des "Buch"-Zweigs gesetzt.
+- Das neue Kapitel hat einen automatisch erzeugten Titel.
+  Man kann ihn im rechten Bereich der Arbeitsfläche ändern.
 
 
 Typ wählen
 ----------
 
-**Set the type of the selected chapters**
+**Den Typ der ausgewählten Kapitel einstellen**
 
-With **Kapitel > Typ wählen**,
-you can set the `type <basic_concepts.html#part-chapter-section-types>`__
-of the selected chapter to *Normal* or *Unbenutzt* .
+Mit **Kapitel > Typ wählen**,
+kann man den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+der ausgewählten Kapitel zu *Normal* oder *Unbenutzt* ändern.
 
 .. figure:: _images/chapter_menu02.png
    :alt: novelibre screenshot
 
 .. note::
-   Setting the type of a chapter to *Unbenutzt* will also make its sections *Unbenutzt*.
+   Wenn man den Typ eines Kapitels zu *Unbenutzt* ändert, 
+   werden auch seine Abschnitte *Unbenutzt*.
 
 
 Ebene ändern
