@@ -33,6 +33,9 @@ Mehrere Abschnitte hinzufügen
 
 **Hinzufügen new sections in bulk**
 
+.. figure:: _images/section_menu04.png
+   :alt: novelibre screenshot
+
 With **Abschnitt > Mehrere Abschnitte hinzufügen**,
 you can add up to 20 sections to the tree.
 
