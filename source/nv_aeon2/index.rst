@@ -54,8 +54,8 @@ Control conversion
 Prepare your timeline for export
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The included installation script installs a "novelibre" template in the
-*nv_aeon2* Konfiguration Ordner. The easiest way is to erzeugen neu
+After installation, you can copy a "novelibre" template to the
+Aeon2 custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.
 
