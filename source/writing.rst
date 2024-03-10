@@ -30,15 +30,35 @@ or by clicking on the |Exportieren Manuskript| toolbar icon.
 
 If you have done this before and there is still a Manuskript document from
 the previous writing session, you will now be asked whether you want to
-continue working on this document. If this is the case, answer "Yes".
+continue working on this document. If this is the case, answer "Bestehendes öffnen".
 
 .. figure:: _images/writing02.png
    :alt: novelibre screenshot
    
    novelibre screenshot
 
-If you answer "No", *novelibre* creates a new Manuskript document.
+If you answer "Überschreiben", *novelibre* creates a new Manuskript document.
 "Cancel" aborts the export process and lets you return to the main window.
+
+If you have done this before and there is still a manuscript document from
+the previous writing session, you will now be asked whether you want to
+continue working on this document. If this is the case, answer "Open existing".
+
+.. figure:: _images/writing02.png
+   :alt: novelibre screenshot
+   
+   novelibre screenshot
+
+If you answer "Overwrite", *novelibre* creates a new manuscript document.
+"Abbrechen" aborts the export process and lets you return to the main window.
+
+.. hint::
+   *novelibre* checks whether an existing manuscript is newer or older
+   than the open project, and suggests a choice by activating the 
+   appropriate button. You can accept it by hitting the ``Enter`` key.
+   If your choice follows the suggestion, you see a message in green
+   at the bottom bar. Otherwise, the message is displayed in red, 
+   just as a reminder. 
 
 If you started the export using the **Exportieren**-Menü command, you may
 be asked whether you want to open the newly created document, depending
