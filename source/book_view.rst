@@ -79,14 +79,14 @@ Aufklappen or collapse this frame by clicking on the label.
 
 Auto number chapters/parts when refreshing the tree
    If this checkbox is ticked, all chapters/parts are automatically numbered
-   each time `the tree is refreshed <file_menu.html#refresh-tree>`__.
+   each time `the tree is refreshed <file_menu.html#baum-aktualisieren>`__.
    The chapter Titels are replaced with a ``prefix-number-suffix``
    pattern (without the dashes).
 
    .. hint::   
       You can optionally exclude individual chapters/parts from auto-numbering 
       in the `Kapitel/part properties 
-      <chapter_view.html#do-not-auto-number-this-chapter-part>`__.
+      <chapter_view.html#dieses-kapitel-nicht-automatisch-nummerieren-part>`__.
 
 Prefix and suffix entries can be completed by pressing the ``Enter`` key.
 
@@ -122,12 +122,12 @@ Editing the categories can be completed by pressing the ``Enter`` key.
 Abschnitt fields
    The heading replacements for *Ziel*, *Konflikt*, and *Ausgang* are
    used when you set the `Aktion/Reaktion frame
-   <section_view.html#action-reaction>`__ to **Benutzerdefiniert**.
+   <section_view.html#aktion-reaction>`__ to **Benutzerdefiniert**.
    You can do this individually for each section.
 
 Figur fields
-   If you want other categories than `Biographie <character_view.html#bio>`__
-   and `Ziele <character_view.html#goals>`__ for your characters, you
+   If you want other categories than `Biographie <character_view.html#biographie>`__
+   and `Ziele <character_view.html#ziele>`__ for your characters, you
    can enter them here. They will then apply to all characters.
 
    .. note::
@@ -144,7 +144,7 @@ Aufklappen or collapse this frame by clicking on the label.
    :alt: novelibre screenshot
 
 To get an overview of the course of the narrative time, you can enter
-date/time information `for each section <section_view.html#date-time>`__.
+date/time information `for each section <section_view.html#datum-time>`__.
 The date can be specific *(YYYY-MM-DD)* or unspecific (number of days,
 e.g. from the beginning of the story).
 
@@ -160,8 +160,8 @@ Bezugsdatum
       Even if you don't need specific dates for your story, specifying
       a reference date might be helpful. Thus, a day of the week
       can be displayed along with the `unspecific date 
-      <section_view.html#start>`__, and ages can be calculated for 
-      `related characters <section_view.html#relationships>`__.  
+      <section_view.html#beginn>`__, and ages can be calculated for 
+      `related characters <section_view.html#beziehungen>`__.  
 
 Datum in Tage umwandeln
    This transforms specific section dates into days, related to the
@@ -179,7 +179,7 @@ Tage in Datum umwandeln
 .. hint::
    The commands above convert all dated sections at once. If you want to 
    do the conversion for single sections, just go to the 
-   `Abschnitt properties view <section_view.html#start>`__.
+   `Abschnitt properties view <section_view.html#beginn>`__.
    
 
 Schreibfortschritt
@@ -227,7 +227,7 @@ Wörter geschrieben
 
 Arbeitsphase
    This setting is for the Baumansichter `"Arbeitsphase" coloring mode
-   <view_menu.html#coloring-mode>`__.
+   <view_menu.html#farbgebungsmodus>`__.
 
    - Abschnitts with the same completion status as the selected work
      phase are black.

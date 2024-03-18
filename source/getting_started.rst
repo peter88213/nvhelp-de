@@ -49,7 +49,7 @@ Titel.
    
 .. hint::
    If you decide to have *novelibre* `auto-number the chapters 
-   <book_view.html#auto-numbering>`__, you can skip this and keep the
+   <book_view.html#automatische-nummerierung>`__, you can skip this and keep the
    default chapter Titel. 
 
 There are several ways to add a section now. In this example, we
@@ -103,8 +103,8 @@ Or you can leave it at one chapter for the time being and create empty sections
 in it, which you can later distribute to chapters.
 The results of this preliminary work can be exported as text documents in the
 form of synopses, e.g on
-`chapter <chapter_menu.html#export-chapter-descriptions-for-editing>`__ or
-`section <section_menu.html#export-section-descriptions-for-editing>`__ level.
+`chapter <chapter_menu.html#kapitelbeschreibungen-zum-bearbeiten-exportieren>`__ or
+`section <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__ level.
 
 
 Creating a dramatic structure
@@ -133,23 +133,23 @@ Creating a plot grid
 ~~~~~~~~~~~~~~~~~~~~
 
 If you want to outline your novel using a `plot grid
-<plotting.html#plot-grid>`__, you can do this with
+<plotting.html#handlungsraster-(plot-grid)>`__, you can do this with
 *novelibre*:
 
 1. Create an empty new project as described above.
 2. Hinzufügen a single chapter.
 3. Select this chapter, then `add multiple sections
-   <section_menu.html#add-multiple-sections>`__.
+   <section_menu.html#mehrere-abschnitte-hinzufügen>`__.
 4. If you need a number of new sections above the limit,
    repeat step 3.
    However, it is recommended to start with a few sections
    that are easier to distribute to the chapters to be created later.
    You can extend the plot grid over time.
-5. Create the `Plotlinien <plot_menu.html#add-plot-line>`__ you need.
-6. `Exportieren a plot grid <export_menu.html#plot-grid-for-editing>`__
+5. Create the `Plotlinien <plot_menu.html#plotlinie-hinzufügen>`__ you need.
+6. `Exportieren a plot grid <export_menu.html#handlungsraster-(plot-grid)-zum-bearbeiten>`__
    and fill the table cells.
 7. `Importieren <import_menu.html>`__ the plot grid.
-8. `Hinzufügen more chapters <chapter_menu.html#add>`__ and
+8. `Hinzufügen more chapters <chapter_menu.html#hinzufügen>`__ and
    `move the sections <desktop.html#move-tree-elements>`__
    to them.
 
@@ -176,7 +176,7 @@ recognize its parts, chapters, and sections.
 
 .. caution::
    Formatting that is not `supported with novelibre 
-   <basic_concepts.html#formatting-text>`__ is lost.
+   <basic_concepts.html#text-formatieren>`__ is lost.
    The same applies to images. 
    So if your work depends on a sophisticated layout that is beyond 
    *novelibre's* capabilities, consider using comments as reminders 
@@ -203,7 +203,7 @@ with the *.novx* extension.
 .. tip::
    After importing an extensive piece of work, you may have a whole lot
    of sections that need to be named and described. 
-   A `plot grid <plotting.html#plot-grid>`__ might be a great help for
+   A `plot grid <plotting.html#handlungsraster-(plot-grid)>`__ might be a great help for
    doing this. 
 
 

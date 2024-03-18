@@ -16,11 +16,11 @@ Projektbaum
 The project tree in the left pane shows the organization of the project.
 
 -  The tree elements are color-coded according to the section type (see
-   `Basic concepts <basic_concepts.html#part-chapter-section-types>`__).
+   `Basic concepts <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
    *Normal* type sections are highlighted according to the selected coloring
-   mode (see *Optionens* in the `Ansicht-Menü <view_menu.html#coloring-mode>`__).
+   mode (see *Optionens* in the `Ansicht-Menü <view_menu.html#farbgebungsmodus>`__).
 -  The order of the columns can be changed (see *Optionen* in
-   the `Ansicht-Menü <view_menu.html#columns>`__).
+   the `Ansicht-Menü <view_menu.html#spalten>`__).
 -  Right-clicking on a tree element opens a `Kontextmenü
    <tree_context_menu.html>`__ with several options.
 -  The type of chapters and sections, as well as the completion status
@@ -95,7 +95,7 @@ contents with their Titels as headings.
    editor plugin, such as
    `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 -  Abschnitt text is color-coded according to the section type (see `Basic
-   concepts <basic_concepts.html#part-chapter-section-types>`__).
+   concepts <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
 -  With the **Markup anzeigen** checkbox, XML markup can be shown/hidden.
 
 

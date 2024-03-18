@@ -72,7 +72,7 @@ the text input field.
 .. hint::
    This text box can hold any character data that seem important to you.
    If "Ziele" is not the right category for you, you can change the label
-   in the `book settings <book_view.html#renamings>`__. 
+   in the `book settings <book_view.html#umbenennungen>`__. 
 
 Links
 -----
@@ -164,7 +164,7 @@ displayed in the Baumansicht as a reminder.
    They are not meant to be exported into a document.
    However, they appear in the `character list`_.
 
-.. _character list: characters_menu.html#export-character-list-spreadsheet
+.. _character list: characters_menu.html#exportieren-character-list-spreadsheet
 
 Navigationsschaltflächen
 ------------------------

@@ -46,7 +46,7 @@ Handlungsraster (Plot grid) zum Bearbeiten
 
 With **Exportieren > Handlungsraster (Plot grid) zum Bearbeiten**,
 you can create a spreadsheet as described in the
-`Plotting with novelibre <plotting.html#plot-grid>`__ chapter,
+`Plotting with novelibre <plotting.html#handlungsraster-(plot-grid)>`__ chapter,
 with a row per section, containing the following data:
 
 - The sequential section number as a hyperlink to the section in the
@@ -280,7 +280,7 @@ Nach dem Dokumentenexport zum Editieren das Projekt sperren
 This checkbox controls the behavior on opening documents for editing.
 
 - If ticked, *novelibre* will `lock the project
-  <basic_concepts.html#project-lock>`__ when launching *Writer* or *Calc*.
+  <basic_concepts.html#projekt-sperre>`__ when launching *Writer* or *Calc*.
 
 - If unticked, *novelibre* won't lock the project when launching
   *Writer* or *Calc*.

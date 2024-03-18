@@ -41,7 +41,7 @@ Unbenutzt
 ---------
 
 With te **Unbenutzt** checkbox, you can change the `section type
-<basic_concepts.html#part-chapter-section-types>`__.
+<basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 An den vorherigen Abschnitt anhängen
 ------------------------------------
@@ -73,7 +73,7 @@ assigned to the section.
    
    You can also assign a section to a Plotlinie by entering text
    in the corresponding *Plotlinie notes* cell of the 
-   `plot grid <plotting.html#plot-grid>`__. 
+   `plot grid <plotting.html#handlungsraster-(plot-grid)>`__. 
 
 Hinzufügen Plotlinie assignment
    When clicking on |Hinzufügen|, the "Pick mode"
@@ -99,7 +99,7 @@ Ansicht the related element
 Plotlinie notes
    You can enter section-related notes for the Plotlinie selected
    in the list of related Plotlinien. These notes appear in the
-   `plot grid <plotting.html#plot-grid>`__ where you also can
+   `plot grid <plotting.html#handlungsraster-(plot-grid)>`__ where you also can
    edit them.
 
 
@@ -130,7 +130,7 @@ something like this to ensure suspense, you can do so here.
 
 If this is not for you, but you would like to use a different method
 to set up a dramaturgical scene micro-structure, you can set the section
-to **Benutzerdefiniert** and get three `freely named <book_view.html#renamings>`_
+to **Benutzerdefiniert** and get three `freely named <book_view.html#umbenennungen>`_
 text fields.
 
 .. figure:: _images/section_view06.png
@@ -157,7 +157,7 @@ relationships.
 
 Alter anzeigen
    If a section is dated, you can call up the ages of the related
-   characters who have `birth dates <character_view.html#bio>`__.
+   characters who have `birth dates <character_view.html#biographie>`__.
 
 Hinzufügen Relationship
    When clicking on |Hinzufügen|, the "Pick mode"
@@ -222,7 +222,7 @@ Zeit
 
 Tag
    Format: Any number. Tag "0" is the `reference date
-   <book_view.html#narrative-time>`_, if set.
+   <book_view.html#erzählzeit>`_, if set.
 
 .. note::
    Alle entries are optional. You can either enter a date, or a day. 
@@ -236,13 +236,13 @@ Erzeugen
    follows directly the previous one.
 
 Datum/Tag umwandeln
-   If the `reference date <book_view.html#narrative-time>`__ is set,
+   If the `reference date <book_view.html#erzählzeit>`__ is set,
    The unspecific *Tag* can be transformed into a specific *Datum*,
    and vice versa.
 
    .. hint::
       If necessary, you can convert all sections at once in the 
-      `Buch properties view <book_view.html#narrative-time>`__.
+      `Buch properties view <book_view.html#erzählzeit>`__.
    
 
 Dauer
@@ -284,7 +284,7 @@ in the chapter row.
    They are not meant to be exported into a document.
    However, they appear in the `section list`_.
 
-.. _section list: section_menu.html#export-section-list-spreadsheet
+.. _section list: section_menu.html#exportieren-section-list-spreadsheet
 
 Navigationsschaltflächen
 ------------------------

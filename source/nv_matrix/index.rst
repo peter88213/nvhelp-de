@@ -14,8 +14,8 @@ Installing the plugin
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
-The plugin adds a **Matrix** entry to the *novelibre* main menu,
-and a **Hilfe > Matrix-Plugin Online-Hilfe** entry to the **Hilfe** menu.
+The plugin adds a **Matrix** entry to the *novelibre* main-Menü,
+and a **Hilfe > Matrix-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
 
 
 Beginn the matrix manager

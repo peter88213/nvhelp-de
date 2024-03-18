@@ -65,12 +65,12 @@ Handlungsraster (Plot grid)
 ---------------------------
 
 The *novelibre* `plot grid
-<export_menu.html#plot-grid-for-editing>`__ is a spreadsheet with a row for
+<export_menu.html#handlungsraster-(plot-grid)-zum-bearbeiten>`__ is a spreadsheet with a row for
 each section, and a set of plot-relevant section metadata in the columns.
 The first visible column contains links to the sections in the
 `Manuskript <export_menu.html#Manuskript-for-editing>`__.
 Each Plotlinie has its own column in the plot grid,
-Where the `Plotlinie notes <section_view.html#plot-lines>`__ are shown.
+Where the `Plotlinie notes <section_view.html#plotlinien>`__ are shown.
 The plot grid offers you a convenient way to enter the Plotlinie notes by
 seeing the big pictures of your plot construction.
 

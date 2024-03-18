@@ -14,8 +14,8 @@ Installing the plugin
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
-The plugin adds a **Sammlung** entry to the *novelibre* **Datei** menu,
-and a **Sammlung-Plugin Online-Hilfe** entry to the **Hilfe** menu.
+The plugin adds a **Sammlung** entry to the *novelibre* **Datei**-Menü,
+and a **Sammlung-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
 
 
 Beginn the collection manager

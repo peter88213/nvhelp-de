@@ -23,7 +23,7 @@ Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
 .. note::
-   Depending on your `Buch settings <book_view.html#auto-numbering>`_, 
+   Depending on your `Buch settings <book_view.html#automatische-nummerierung>`_, 
    *novelibre* might overwrite the Titel the next time the tree is refreshed.
    Thus, you don't need to edit the capter/part Titel, if auto numbering is
    activated and the selected chapter or part is not excluded from 
@@ -33,14 +33,14 @@ Unbenutzt
 ---------
 
 With te **Unbenutzt** checkbox, you can change the `chapter type
-<basic_concepts.html#part-chapter-section-types>`__.
+<basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 
 Dieses Kapitel/diesen Teil nicht automatisch nummerieren
 --------------------------------------------------------
 
 If this checkbox is ticked, the selected chapter or part will be excluded
-from `auto numbering <book_view.html#auto-numbering>`_, and the Titel
+from `auto numbering <book_view.html#automatische-nummerierung>`_, and the Titel
 you enter manually will persist.
 
 

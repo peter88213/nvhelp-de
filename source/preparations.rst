@@ -62,7 +62,7 @@ Making novelibre accessible on the Desktop
    It's a good idea to register the *novx* extension
    in the mimetypes as **text/xml**, so it can be opened
    with your web browser for display, using the 
-   `novx.css style sheet <file_menu.html#copy-style-sheet>`__. 
+   `novx.css style sheet <file_menu.html#style-sheet-kopieren>`__. 
 
 3. Öffnen the installation folder.
 
@@ -109,7 +109,7 @@ Associating .novx files with novelibre
    are displayed with the *novelibre* icon in the Explorer,
    and you can open them with *novelibre* by double-click.
    Further, you can display *.novx* files with a web browser,
-   using the `novx.css style sheet <file_menu.html#copy-style-sheet>`__.
+   using the `novx.css style sheet <file_menu.html#style-sheet-kopieren>`__.
 
    Double-click on the **add_novelibre.reg** script. Windows will
    display a warning and ask you for confirmation. If in doubt,

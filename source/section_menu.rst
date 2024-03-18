@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new section**
 
 With **Abschnitt > Hinzufügen**,
-you can add a `section <basic_concepts.html#sections>`__ to the tree.
+you can add a `section <basic_concepts.html#abschnitte>`__ to the tree.
 
 - The new section is placed at the next free position after the selection, if
   possible.
@@ -52,7 +52,7 @@ Typ wählen
 **Set the type of the selected section**
 
 With **Abschnitt > Typ wählen**,
-you can set the `type <basic_concepts.html#part-chapter-section-types>`__
+you can set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 of the selected section to *Normal* or *Unbenutzt* .
 
 .. figure:: _images/section_menu02.png
@@ -75,7 +75,7 @@ Status setzen
 
 With **Abschnitt > Status setzen**,
 you can set the `completion status
-<basic_concepts.html#section-completion-status>`__
+<basic_concepts.html#abschnitts-status>`__
 of the selected section to *Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*,
 or *Fertiggestellt*.
 

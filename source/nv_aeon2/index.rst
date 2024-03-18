@@ -15,7 +15,7 @@ Installing the plugin
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
 The plugin adds an **Aeon Timeline 2** entry to the *novelibre* **Tools**
-menu, and an **Aeon 2 plugin Online Help** entry to the **Help** menu.
+menu, and an **Aeon 2 plugin Online Help** entry to the **Help**-Menü.
 
 
 Installing the Aeon Timeline 2 custom template
@@ -95,7 +95,7 @@ For existing timelines you have two choices:
 -  Option 1: Hinzufügen or rename the required entities and event properties in
    the Timeline settings.
 -  Option 2: Benutzerdefiniertize the *nv_aeon2* Konfiguration to fit your
-   timeline, see `Benutzerdefiniert Konfiguration <#custom-Konfiguration>`__.
+   timeline, see `Benutzerdefiniert Konfiguration <#benutzerdefiniert-Konfiguration>`__.
 
 Synchronization in detail
 -------------------------

@@ -17,7 +17,7 @@ chapters, if needed.
 
 .. hint::
    You can convert chapters into Teile and vice versa by simply 
-   `changing the level <tree_context_menu.html#change-level>`__.
+   `changing the level <tree_context_menu.html#ebene-ändern>`__.
 
 .. note::
    A predecessor of *novelibre* was `novelyst 
@@ -58,7 +58,7 @@ section dividers by default, like so:
 
 However, if you need more fragmented sections when plotting and organizing
 than the reader should see later, you can also `append sections
-<section_view.html#append-to-previous-section>`__ to each
+<section_view.html#an-den-vorherigen-abschnitt-anhängen>`__ to each
 other as new paragraphs with no section divider inbetween.
 
 
@@ -76,7 +76,7 @@ Normal
       the word count.
    -  "Normal" type Teile and chapters can have subelements of each type.
    -  "Normal" type tree elements are color coded according to the
-      `coloring mode settings <view_menu.html#coloring-mode>`__.
+      `coloring mode settings <view_menu.html#farbgebungsmodus>`__.
 
 Unbenutzt
    You can mark Teile, chapters, and sections as unused to exclude them
@@ -93,16 +93,16 @@ Abschnitts-Status
 You can assign a status to each "Normal" type section via Kontextmenü
 or Abschnitt-Menü.
 
--  You can choose a `coloring mode <view_menu.html#coloring-mode>`__
+-  You can choose a `coloring mode <view_menu.html#farbgebungsmodus>`__
    to display sections in different colors depending on their
    completion status.
 -  Optionally, you can declare one of the status to be the current
-   `work phase <book_view.html#writing-progress>`__,
-   and choose a `coloring mode <view_menu.html#coloring-mode>`__
+   `work phase <book_view.html#schreibfortschritt>`__,
+   and choose a `coloring mode <view_menu.html#farbgebungsmodus>`__
    that highlights sections that are behind schedule.
 -  Neuly created sections are set to "Gliederung" by default.
 -  Word counts by status appear in the `Buch properties
-   <book_view.html#writing-pogress>`__.
+   <book_view.html#schreibfortschritt>`__.
 
 
 -----------------
@@ -127,7 +127,7 @@ quick reference that might come in handy when writing or editing.
 
 .. important::
    If you want to assign **viewpoint characters** to your sections, 
-   you first have to `create <characters_menu.html#add>`__ 
+   you first have to `create <characters_menu.html#hinzufügen>`__ 
    the characters that come into question. 
 
 
@@ -172,7 +172,7 @@ checking.
 Dokument overall
    The project language (Sprachencode acc. to ISO 639-1 and country code
    acc. to ISO 3166-2) can be set in the **Buch** settings (right pane)
-   under `Sprache des Dokuments <book_view.html#document-language>`__.
+   under `Sprache des Dokuments <book_view.html#sprache-des-dokuments>`__.
 
 Text passages in sections
    Paragraph-wise or inline text markup for other languages is supported by
@@ -185,7 +185,7 @@ Projekt-Sperre
 
 When exporting a document that can be edited outsides *novelibre*,
 the project can be automatically locked in order to prevent confusion.
-This behavior depends on the `Exportieren settings <export_menu.html#options>`__.
+This behavior depends on the `Exportieren settings <export_menu.html#optionen>`__.
 
 .. important::
    The project cannot be locked unless changes are saved. 
@@ -205,8 +205,8 @@ externally edited document.
 
 .. hint::
    The project lock is nothing more than a strong reminder. You can 
-   `unlock the project <file_menu.html#unlock>`__ at any time at your 
-   own risk. You also can manually `lock the project <file_menu.html#lock>`__,
+   `unlock the project <file_menu.html#entsperren>`__ at any time at your 
+   own risk. You also can manually `lock the project <file_menu.html#sperren>`__,
    if necessary. The |Sperren/Entsperren| toolbar Schaltfläche toggles the locking state.
 
 

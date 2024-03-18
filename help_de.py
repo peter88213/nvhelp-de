@@ -41,16 +41,16 @@ def read_translations(filePath):
             if not msgid in translations:
                 translations[msgid] = line[8:].rstrip('"\n')
 
-repos = [
-    'nv_aeon2',
-    'nv_collection',
-    'nv_editor',
-    'nv_matrix',
-    'nv_templates',
-    'nv_timeline',
-    'nv_updater',
-    ]
 
+repos = [
+    '/nv_aeon2',
+    '/nv_collection',
+    '/nv_editor',
+    '/nv_matrix',
+    '/nv_templates',
+    '/nv_timeline',
+    '/nv_updater',
+    ]
 
 translations = {}
 for repo in repos:
@@ -60,6 +60,17 @@ read_translations('../novelibre/i18n/de.po')
 # Sort the terms by length to minimize errors.
 sortedTranslations = sorted(translations, key=len, reverse=True)
 
+'''
+links = {}
+for t in translations:
+    links[f"#{t.lower().replace(' ','-')}"] = f"#{translations[t].lower().replace(' ','-')}"
+
+sortedTranslations = sorted(links, key=len, reverse=True)
+translations = links
+'''
+
+for helpFile in glob.iglob('*.rst', root_dir=f'../nvhelp-de/source'):
+    process_file(f'../nvhelp-de/source/{helpFile}', f'source/{helpFile}')
 for repo in repos:
     for helpFile in glob.iglob('*.rst', root_dir=f'../nvhelp-de/source/{repo}'):
         process_file(f'../nvhelp-de/source/{repo}/{helpFile}', f'source/{repo}/{helpFile}')

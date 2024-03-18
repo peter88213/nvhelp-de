@@ -39,9 +39,9 @@ Aus ODT erzeugen...
    -  If you select a previously exported document belonging to an existing
       project, this project will be updated and loaded.
    -  The ODT document can either be a `work in progress
-      <getting_started.html#starting-with-a-work-in-progress>`__,
+      <getting_started.html#beginning-with-a-work-in-progress>`__,
       i.e. a regular novel Manuskript with chapter headings and section contents,
-      r an `outline <getting_started.html#starting-with-an-outline>`__
+      r an `outline <getting_started.html#beginning-with-an-outline>`__
       containing the chapter and section structure with Titels and descriptions.
 
 
@@ -99,7 +99,7 @@ you can refresh the tree.
 -  "Normal" sections that have been moved to an "Unbenutzt" chapter are
    made "Unbenutzt".
 -  Teils and chapters are renumbered according to the `Automatische Nummerierung
-   settings <book_view.html#auto-numbering>`__.
+   settings <book_view.html#automatische-nummerierung>`__.
 -  The "Papierkorb" chapter is moved to the end of the book, if necessary.
 
 
@@ -109,7 +109,7 @@ Sperren
 **Protect the project while edited outsides**
 
 With **Datei > Sperren** or ``Ctrl``-``L``,
-you can `lock <basic_concepts.html#project-lock>`__ the project.
+you can `lock <basic_concepts.html#projekt-sperre>`__ the project.
 
 .. note::
    Alle changes must be saved before locking the project.

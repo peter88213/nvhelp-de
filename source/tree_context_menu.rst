@@ -92,7 +92,7 @@ Löschens the selected tree element and its children.
 Typ wählen
 ~~~~~~~~~~
 
-Sets the `type <basic_concepts.html#part-chapter-section-types>`__
+Sets the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 of the selected chapter or section.
 This can be *Normal* or *Unbenutzt*.
 
@@ -102,7 +102,7 @@ This can be *Normal* or *Unbenutzt*.
 Status setzen
 ~~~~~~~~~~~~~
 
-Sets the `completion status <basic_concepts.html#section-completion-status>`__
+Sets the `completion status <basic_concepts.html#abschnitts-status>`__
 of the selected section.
 
 .. hint::
@@ -193,7 +193,7 @@ Zusammenfassung nach Perspektive gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Exportierens the `descriptions of the sections
-<section_menu.html#export-section-descriptions-for-editing>`__
+<section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
 that have the selected character
 as viewpoint.
 
@@ -258,7 +258,7 @@ Zusammenfassung nach Plottlinie gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Exportierens the `descriptions of the sections
-<section_menu.html#export-section-descriptions-for-editing>`__
+<section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
 that belong to the selected Plotlinie.
 
 

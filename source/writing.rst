@@ -62,7 +62,7 @@ If you answer "Overwrite", *novelibre* creates a new manuscript document.
 
 If you started the export using the **Exportieren**-Menü command, you may
 be asked whether you want to open the newly created document, depending
-of your `Exportieren settings <export_menu.html#options>`__.
+of your `Exportieren settings <export_menu.html#optionen>`__.
 
 .. figure:: _images/writing03.png
    :alt: novelibre screenshot
@@ -73,8 +73,8 @@ If you answer "yes", *Writer* will be launched with
 the Manuskript document. Otherwise, the document is just
 kept for future use.
 
-Depending on your `Exportieren settings <export_menu.html#options>`__,
-*novelibre* now may `lock the project <basic_concepts.html#project-lock>`__,
+Depending on your `Exportieren settings <export_menu.html#optionen>`__,
+*novelibre* now may `lock the project <basic_concepts.html#projekt-sperre>`__,
 so that it can't be accidentally modified with *novelibre* while
 worked on in *Writer*.
 
@@ -135,7 +135,7 @@ to be entered in *novelibre* later.
 .. tip::
    As of *novelibre* version 3.0.2, you can use ``####`` to create
    an `appended section 
-   <section_view.html#append-to-previous-section>`__. 
+   <section_view.html#an-den-vorherigen-abschnitt-anhängen>`__. 
 
 The following example shows how to split an existing section:
 

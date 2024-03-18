@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new location**
 
 With **Schauplätze > Hinzufügen**,
-you can add a `location <basic_concepts.html#characters-and-story-world>`__
+you can add a `location <basic_concepts.html#figuren-und-erzählwelt>`__
 to the tree.
 
 -  If a location is selected, the new location is placed after the

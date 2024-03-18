@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new part**
 
 With **Teil > Hinzufügen**,
-you can add a `part <basic_concepts.html#parts>`__ to the tree.
+you can add a `part <basic_concepts.html#teile>`__ to the tree.
 
 - The new part is placed at the next free position on the
   chapter level after the selection, if possible.

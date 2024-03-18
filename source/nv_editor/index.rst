@@ -14,8 +14,8 @@ Installing the plugin
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
-The plugin adds an **Bearbeiten** entry to the *novelibre* **Abschnitt** menu,
-and an **Editor-Plugin Online-Hilfe** entry to the **Hilfe** menu.
+The plugin adds an **Bearbeiten** entry to the *novelibre* **Abschnitt**-Menü,
+and an **Editor-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
 
 
 Launch the section editor

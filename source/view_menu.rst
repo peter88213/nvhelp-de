@@ -180,7 +180,7 @@ Status
 Arbeitsphase
    Normal sections are highlighted if their completion status
    is behind the work phase defined in the `Buch properties
-   <book_view.html#writing-pogress>`__.
+   <book_view.html#schreibfortschritt>`__.
 
 
 Große Symbole in der Werkzeugleiste
