@@ -32,7 +32,7 @@ anywhere outside the text input field.
 Unbenutzt
 ---------
 
-With te **Unbenutzt** checkbox, you can change the `chapter type
+Mit te **Unbenutzt** checkbox, you can change the `chapter type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 

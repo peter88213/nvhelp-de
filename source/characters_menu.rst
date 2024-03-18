@@ -11,7 +11,7 @@ Hinzufügen
 
 **Hinzufügen a new character**
 
-With **Figuren > Hinzufügen**
+Mit **Figuren > Hinzufügen**
 you can add a `character <basic_concepts.html#figuren-und-erzählwelt>`__
 to the tree.
 
@@ -28,7 +28,7 @@ Status setzen
 
 **Set the character status**
 
-With **Figuren > Status setzen**,
+Mit **Figuren > Status setzen**,
 you can make the selected character *major* or *minor*.
 Major characters are highlighted in the Baumansicht.
 
@@ -46,7 +46,7 @@ Importieren
 
 **Importieren characters from another project**
 
-With **Figuren > Importieren**,
+Mit **Figuren > Importieren**,
 you can import a selection of characters from another project.
 First you select an XML file containing the character data.
 Then you select the characters you want to add to the current project.
@@ -61,7 +61,7 @@ Figurenbeschreibungen zum Bearbeiten exportieren
 
 **Exportieren an ODT document that can be imported again after editing**
 
-With **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**,
+Mit **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**,
 you can create a text document that contains
 character descriptions, bio, goals, and notes that can be edited in
 Office Writer and reimported.
@@ -73,7 +73,7 @@ Figurenliste exportieren (Tabelle)
 
 **Exportieren an ODS document that can be imported again after editing**
 
-With **Figuren > Figurenliste exportieren (Tabelle)**,
+Mit **Figuren > Figurenliste exportieren (Tabelle)**,
 you can create a spreadsheet that contains
 a character list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_charlist_tmp``.
@@ -91,7 +91,7 @@ Liste anzeigen
 
 **Show an HTML report with characters data**
 
-With **Figuren > Liste anzeigen**,
+Mit **Figuren > Liste anzeigen**,
 you can create a list-formatted HTML filethat contains
 a character list,
 and launch your system’s web browser for displaying it.

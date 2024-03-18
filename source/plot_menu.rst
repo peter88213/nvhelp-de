@@ -11,7 +11,7 @@ Plotlinie hinzufügen
 
 **Hinzufügen a new Plotlinie to the story**
 
-With **Plot > Hinzufügen Plotlinie**,
+Mit **Plot > Hinzufügen Plotlinie**,
 you can add a Projektnotiz to the tree .
 
 .. note::
@@ -26,7 +26,7 @@ Plotpunkt hinzufügen
 
 **Hinzufügen a new Plotpunkt to the selected Plotlinie**
 
-With **Plot > Plotpunkt hinzufügen**,
+Mit **Plot > Plotpunkt hinzufügen**,
 you can add a plot point to a Plotlinie.
 
 .. note::
@@ -42,7 +42,7 @@ Stadium einfügen
 
 **Insert a stage between the sections**
 
-With **Plot > Stadium einfügen**,
+Mit **Plot > Stadium einfügen**,
 you can insert a stage after the selected chapter or section.
 
 .. hint::
@@ -54,7 +54,7 @@ Ebene ändern
 
 **Change the level of the selected stages**
 
-With **Plot > Ebene ändern**,
+Mit **Plot > Ebene ändern**,
 you can change the level of the selected stages.
 
 .. figure:: _images/plot_menu02.png
@@ -72,7 +72,7 @@ Plot-Beschreibung exportieren
 
 **Exportieren an ODT document**
 
-With **Plot > Plot-Beschreibung exportieren**,
+Mit **Plot > Plot-Beschreibung exportieren**,
 you can create a text document that contains
 stages, Plotlinien, and plot points, each with description.
 Der Dateinamenszusatz lautet ``_plot``.
@@ -83,7 +83,7 @@ Plot-Liste exportieren (Tabelle)
 
 **Exportieren an ODS document**
 
-With **Plot > Plot-Liste exportieren (Tabelle)**,
+Mit **Plot > Plot-Liste exportieren (Tabelle)**,
 you can create a spreadsheet with a row for each section
 and a column for each Plotlinie.
 Associations between Plotlinien and sections are color-highlighted.
@@ -111,7 +111,7 @@ Plot-Liste anzeigen
 
 **Show an HTML report with plot elements**
 
-With **Plot > Plot-Liste anzeigen**,
+Mit **Plot > Plot-Liste anzeigen**,
 You can create a list-formatted HTML file that contains
 a plot list similar to the ODS plot list (see above),
 but without any hyperlinks,

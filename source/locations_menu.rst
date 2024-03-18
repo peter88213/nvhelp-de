@@ -11,7 +11,7 @@ Hinzufügen
 
 **Hinzufügen a new location**
 
-With **Schauplätze > Hinzufügen**,
+Mit **Schauplätze > Hinzufügen**,
 you can add a `location <basic_concepts.html#figuren-und-erzählwelt>`__
 to the tree.
 
@@ -27,7 +27,7 @@ Importieren
 
 **Importieren locations from another project**
 
-With **Schauplätze > Importieren**,
+Mit **Schauplätze > Importieren**,
 you can import a selection of locations from another project.
 First you select an XML file containing the location data.
 Then you select the locations you want to add to the current project.
@@ -42,7 +42,7 @@ Schauplatzbeschreibungen zum Bearbeiten exportieren
 
 **Exportieren an ODT document that can be imported again after editing**
 
-With **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**,
+Mit **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**,
 you can create a text document that contains
 location descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_locations_tmp``.
@@ -53,7 +53,7 @@ Schauplatzliste exportieren (Tabelle)
 
 **Exportieren an ODS document that can be imported again after editing**
 
-With **Gegenstände > Schauplatzliste exportieren (Tabelle)**,
+Mit **Gegenstände > Schauplatzliste exportieren (Tabelle)**,
 you can create a spreadsheet that contains
 a location list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_loclist_tmp``.
@@ -71,7 +71,7 @@ Liste anzeigen
 
 **Show an HTML report with locations data**
 
-With **Schauplätze > Liste anzeigen**,
+Mit **Schauplätze > Liste anzeigen**,
 you can create a list-formatted HTML file that contains
 a location list,
 and launch your system’s web browser for displaying it.

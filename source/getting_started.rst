@@ -123,7 +123,7 @@ page.
 There you also can learn how to set up multiple strands or character arcs.
 
 .. tip::
-   With the `nv_templates plugin
+   Mit the `nv_templates plugin
    <https://github.com/peter88213/nv_templates/>`__ you can have 
    *novelibre* set up your new project with a pre-made structure like the
    "Drei-Akt-Modell" or "Save The Cat". 

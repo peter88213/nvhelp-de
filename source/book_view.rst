@@ -190,7 +190,7 @@ Aufklappen or collapse this frame by clicking on the label.
 .. figure:: _images/book_view06.png
    :alt: novelibre screenshot
 
-With *novelibre*, you can set a word count target and track your
+Mit *novelibre*, you can set a word count target and track your
 writing progress.
 
 .. note::

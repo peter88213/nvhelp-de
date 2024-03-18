@@ -11,7 +11,7 @@ Hinzufügen
 
 **Hinzufügen a new item**
 
-With **Gegenstände > Hinzufügen**,
+Mit **Gegenstände > Hinzufügen**,
 you can add an `item <basic_concepts.html#figuren-und-erzählwelt>`__
 to the tree.
 
@@ -27,7 +27,7 @@ Importieren
 
 **Importieren items from another project**
 
-With **Gegenstände > Importieren**,
+Mit **Gegenstände > Importieren**,
 you can import a selection of items from another project.
 First you select an XML file containing the item data.
 Then you select the items you want to add to the current project.
@@ -42,7 +42,7 @@ Gegenstandsbeschreibungen zum Bearbeiten exportieren
 
 **Exportieren an ODT document that can be imported again after editing**
 
-With **Gegenstände > Gegenstandsbeschreibungen zum Bearbeiten exportieren**,
+Mit **Gegenstände > Gegenstandsbeschreibungen zum Bearbeiten exportieren**,
 you can create a text document that contains
 item descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_items_tmp``.
@@ -53,7 +53,7 @@ Gegenstandsliste exportieren (Tabelle)
 
 **Exportieren an ODS document that can be imported again after editing**
 
-With **Gegenstände > Gegenstandsliste exportieren (Tabelle)**,
+Mit **Gegenstände > Gegenstandsliste exportieren (Tabelle)**,
 you can create a spreadsheet that contains
 an item list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_itemlist_tmp``.
@@ -71,7 +71,7 @@ Liste anzeigen
 
 **Show an HTML report with items data**
 
-With **Gegenstände > Liste anzeigen**,
+Mit **Gegenstände > Liste anzeigen**,
 you can create a list-formatted HTML file that contains
 an item list,
 and launch your system’s web browser for displaying it.

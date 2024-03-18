@@ -20,7 +20,7 @@ Ausgewählte aufklappen
 
 **Show a whole branch**
 
-With **Ansicht > Ausgewählte aufklappen**,
+Mit **Ansicht > Ausgewählte aufklappen**,
 you can expand a selected tree element.
 
 
@@ -29,7 +29,7 @@ Ausgewählte einklappen
 
 **Hide child elements**
 
-With **Ansicht > Ausgewählte einklappen**,
+Mit **Ansicht > Ausgewählte einklappen**,
 you can collapse a selected branch.
 
 
@@ -38,7 +38,7 @@ Alles aufklappen
 
 **Show the whole tree**
 
-With **Ansicht > Alles aufklappen**,
+Mit **Ansicht > Alles aufklappen**,
 you can expand the whole tree.
 
 
@@ -47,7 +47,7 @@ Alle einklappen
 
 **Hide child elements**
 
-With **Ansicht > Alle einklappen**,
+Mit **Ansicht > Alle einklappen**,
 you can hide all tree elements except the main categories.
 
 
@@ -56,7 +56,7 @@ Buch anzeigen
 
 **Gehe zu the "Buch" branch and expand it**
 
-With **Ansicht > Ansicht Buch**,
+Mit **Ansicht > Ansicht Buch**,
 you can select and open the "Buch" branch.
 
 
@@ -65,7 +65,7 @@ Figuren anzeigen
 
 **Gehe zu the "Figuren" branch and expand it**
 
-With **Ansicht > Ansicht Figuren**,
+Mit **Ansicht > Ansicht Figuren**,
 you can select and open the "Figuren" branch.
 
 
@@ -74,7 +74,7 @@ Schauplätze anzeigen
 
 **Gehe zu the "Schauplätze" branch and expand it**
 
-With **Ansicht > Ansicht Schauplätze**,
+Mit **Ansicht > Ansicht Schauplätze**,
 you can select and open the "Schauplätze" branch.
 
 
@@ -83,7 +83,7 @@ Gegenstände anzeigen
 
 **Gehe zu the "Gegenstände" branch and expand it**
 
-With **Ansicht > Ansicht Gegenstände**,
+Mit **Ansicht > Ansicht Gegenstände**,
 you can select and open the "Gegenstände" branch.
 
 
@@ -92,7 +92,7 @@ Plotlinien anzeigen
 
 **Gehe zu the "Plotlinien" branch and expand it**
 
-With **Ansicht > Plotlinien anzeigen**,
+Mit **Ansicht > Plotlinien anzeigen**,
 you can select and open the "Plotlinien" branch.
 
 
@@ -101,7 +101,7 @@ Projektnotizen anzeigen
 
 **Gehe zu the "Projektnotizen" branch and expand it**
 
-With **Ansicht > Ansicht Planning**,
+Mit **Ansicht > Ansicht Planning**,
 you can select and open the "Projektnotizen" branch.
 
 
@@ -110,7 +110,7 @@ Textbetrachter anzeigen/verbergen
 
 **Show/hide the novel text**
 
-With **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``,
+Mit **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``,
 you can open or close the `text viewer <desktop.html>`__ window,
 showing part/chapter/section Titels and section content.
 
@@ -132,7 +132,7 @@ Eigenschaften anzeigen/verbergen
 
 **Show/hide the selected element’s properties**
 
-With **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``,
+Mit **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``,
 you can open or close the element properties window.
 
 .. hint::
@@ -146,7 +146,7 @@ Eigenschaften abtrennen/andocken
 **Show the selected element’s properties either in the main window or in
 its own window**
 
-With **Ansicht > Eigenschaften abtrennen/andocken** or ``Strg``-``Alt``-``D``,
+Mit **Ansicht > Eigenschaften abtrennen/andocken** or ``Strg``-``Alt``-``D``,
 you can detach or dock the element properties window .
 
 .. hint::
@@ -158,7 +158,7 @@ Optionen
 
 **Project independent program settings**
 
-With **Ansicht >  Optionen**,
+Mit **Ansicht >  Optionen**,
 You can open a dialog for settings concerning the display.
 
 .. figure:: _images/view_menu02.png

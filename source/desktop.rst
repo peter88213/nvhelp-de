@@ -98,7 +98,7 @@ contents with their Titels as headings.
    `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 -  Abschnitt text is color-coded according to the section type (see `Basic
    concepts <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
--  With the **Markup anzeigen** checkbox, XML markup can be shown/hidden.
+-  Mit the **Markup anzeigen** checkbox, XML markup can be shown/hidden.
 
 
 Eigenschaften

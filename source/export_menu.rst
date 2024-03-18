@@ -11,7 +11,7 @@ Manuskript zum Bearbeiten
 
 **Exportieren an ODT document that can be imported again after editing**
 
-With **Exportieren >  Manuskript zum Bearbeiten**,
+Mit **Exportieren >  Manuskript zum Bearbeiten**,
 you can create a text document that is split into sections
 (to be seen in the Navigator).
 Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
@@ -20,7 +20,7 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
    sections marked "unused" are not exported.
 -  Abschnittstitels are invisible, but appear in the *Navigator*.
 -  Kapitels and sections can neither be rearranged nor gelöscht.
--  With *Writer*, you can split sections by
+-  Mit *Writer*, you can split sections by
    inserting headings or a section divider:
 
    -  *Heading 1* → Neu part Titel. Optionally, you can add a
@@ -44,7 +44,7 @@ Handlungsraster (Plot grid) zum Bearbeiten
 
 **Exportieren an ODS document that can be imported again after editing**
 
-With **Exportieren > Handlungsraster (Plot grid) zum Bearbeiten**,
+Mit **Exportieren > Handlungsraster (Plot grid) zum Bearbeiten**,
 you can create a spreadsheet as described in the
 `Plotting with novelibre <plotting.html#handlungsraster-(plot-grid)>`__ chapter,
 with a row per section, containing the following data:
@@ -83,7 +83,7 @@ Manuskript für fremde Textverarbeitung
 
 **Exportieren an ODT document that can be imported again after editing**
 
-With **Exportieren >  Manuskript für fremde Textverarbeitung**,
+Mit **Exportieren >  Manuskript für fremde Textverarbeitung**,
 you can create a text document with visible section markers.
 Der Dateinamenszusatz lautet ``_proof_tmp``.
 
@@ -126,7 +126,7 @@ Manuskript zum Drucken (nur Exportieren)
 
 **Exportieren an ODT document**
 
-With **Exportieren >  Manuskript zum Drucken (nur Exportieren)**,
+Mit **Exportieren >  Manuskript zum Drucken (nur Exportieren)**,
 you can create a text document for further use,
 e.g. when you are finished with *novelibre*.
 
@@ -156,7 +156,7 @@ Kurzzusammenfassung (nur Exportieren)
 
 **Exportieren an ODT document**
 
-With **Exportieren >  Kurzzusammenfassung (nur Exportieren)**,
+Mit **Exportieren >  Kurzzusammenfassung (nur Exportieren)**,
 you can create a text document containing a brief synopsis
 with part, chapter, and sections Titels only.
 Der Dateinamenszusatz lautet ``_brf_synopsis``.
@@ -173,7 +173,7 @@ Querverweise (nur Exportieren)
 
 **Exportieren an ODT document**
 
-With **Exportieren >  Querverweise (nur Exportieren)**,
+Mit **Exportieren >  Querverweise (nur Exportieren)**,
 you can create a text document containing navigable cross references.
 Der Dateinamenszusatz lautet ``_xref``.
 
@@ -193,7 +193,7 @@ Figuren/Schauplätze/Gegenstände-Datendateien
 
 **Exportieren XML files that can be imported into other projects**
 
-With **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**,
+Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**,
 you can create a set of XML files containing the project’s characters,
 locations, and items with all their properties. These files can be used
 to transfer the characters, locations, and items to another project.
@@ -208,7 +208,7 @@ Plot-Beschreibung (export only)
 
 **Exportieren an ODT document**
 
-With **Exportieren >  Plot-Beschreibung (export only)**,
+Mit **Exportieren >  Plot-Beschreibung (export only)**,
 you can create a text document that contains the plot-defining elements.
 Der Dateinamenszusatz lautet ``_plot``.
 
@@ -225,7 +225,7 @@ Plot-Liste exportieren (Tabelle)
 
 **Exportieren an ODS document**
 
-With **Exportieren >  Plot-Liste exportieren (Tabelle)**,
+Mit **Exportieren >  Plot-Liste exportieren (Tabelle)**,
 you can create a spreadsheet that contains
 sections, Plotlinien, and plot points.
 Der Dateinamenszusatz lautet ``_plotlist``.
@@ -240,7 +240,7 @@ The spreadsheet is not meant to be reimported.
 Plot-Liste anzeigen
 -------------------
 
-With **Exportieren >  Plot-Liste anzeigen**,
+Mit **Exportieren >  Plot-Liste anzeigen**,
 you can create a list-formatted HTML file that contains
 sections, Plotlinien, and plot points,
 and launch your system’s web browser for displaying it.
@@ -254,7 +254,7 @@ Optionen
 
 **Project independent program settings**
 
-With **Exportieren >  Optionen**,
+Mit **Exportieren >  Optionen**,
 You can open a dialog for settings concerning the document export.
 
 .. figure:: _images/export_menu02.png

@@ -89,7 +89,7 @@ Rückgängig machen/Wiederherstellen
 Einen Abschnitt teilen
 ----------------------
 
-With **Datei > An der Cursorposition teilen** or ``Strg``-``Alt``-``S``,
+Mit **Datei > An der Cursorposition teilen** or ``Strg``-``Alt``-``S``,
 you can split the section at the cursor position.
 
 -  Alle the text from the cursor position is cut and pasted into a neuly
@@ -106,7 +106,7 @@ you can split the section at the cursor position.
 Einen Abschnitt erzeugen
 ------------------------
 
-With **Datei > Abschnitt erzeugen** or ``Strg``-``Alt``-``N``,
+Mit **Datei > Abschnitt erzeugen** or ``Strg``-``Alt``-``N``,
 you can erzeugen a section.
 
 -  Der neue Abschnitt is placed after the currently edited section.
@@ -135,7 +135,7 @@ Wortzählung
 Änderungen übernehmen
 ---------------------
 
-With ``Strg``-``S``,
+Mit ``Strg``-``S``,
 you can apply changes to the section.
 Then "Modified" status is displayed in *novelibre*.
 

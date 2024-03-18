@@ -11,7 +11,7 @@ Hinzufügen
 
 **Hinzufügen a new Projektnotiz**
 
-With **Projektnotizen > Hinzufügen**,
+Mit **Projektnotizen > Hinzufügen**,
 you can add a `Projektnotiz <project_note_view.html>`__
 to the tree.
 
@@ -27,7 +27,7 @@ Liste anzeigen
 
 **Show an HTML report with Projektnotizen**
 
-With **Projektnotizen > Liste anzeigen**,
+Mit **Projektnotizen > Liste anzeigen**,
 you can create a list-formatted HTML file that contains
 Titel und Inhalt of all Projektnotizen,
 and launch your system’s web browser for displaying it.

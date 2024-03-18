@@ -6,7 +6,7 @@ Importieren-Menü
 .. figure:: _images/import_menu02.png
    :alt: novelibre screenshot
 
-With the **Importieren** main-Menü entry,
+Mit the **Importieren** main-Menü entry,
 you can open a pop-up window with a list containing previously
 exported ODT documents that can be re-imported, thus updating the
 current project.

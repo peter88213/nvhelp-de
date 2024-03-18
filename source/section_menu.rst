@@ -11,7 +11,7 @@ Hinzufügen
 
 **Hinzufügen a new section**
 
-With **Abschnitt > Hinzufügen**,
+Mit **Abschnitt > Hinzufügen**,
 you can add a `section <basic_concepts.html#abschnitte>`__ to the tree.
 
 - The new section is placed at the next free position after the selection, if
@@ -36,7 +36,7 @@ Mehrere Abschnitte hinzufügen
 .. figure:: _images/section_menu04.png
    :alt: novelibre screenshot
 
-With **Abschnitt > Mehrere Abschnitte hinzufügen**,
+Mit **Abschnitt > Mehrere Abschnitte hinzufügen**,
 you can add up to 20 sections to the tree.
 
 - You will be prompted to enter the number of new sections.
@@ -51,7 +51,7 @@ Typ wählen
 
 **Set the type of the selected section**
 
-With **Abschnitt > Typ wählen**,
+Mit **Abschnitt > Typ wählen**,
 you can set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 of the selected section to *Normal* or *Unbenutzt* .
 
@@ -73,7 +73,7 @@ Status setzen
 .. figure:: _images/section_menu03.png
    :alt: novelibre screenshot
 
-With **Abschnitt > Status setzen**,
+Mit **Abschnitt > Status setzen**,
 you can set the `completion status
 <basic_concepts.html#abschnitts-status>`__
 of the selected section to *Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*,
@@ -91,10 +91,11 @@ Abschnittsbeschreibungen zum Bearbeiten exportieren
 
 **Exportieren an ODT document**
 
-With **Abschnitt > Abschnittsbeschreibungen zum Bearbeiten exportieren**
-This will generate a new ÖffnenDokument text document (odt) containing a
-**full synopsis** with part/chapter headings and section descriptions
-that can be edited and reimported.
+Mit **Abschnitt > Abschnittsbeschreibungen zum Bearbeiten exportieren**
+kann man ein neues OpenDocument-Textdokument (odt) erzeugen,
+das eine **vollständige Inhaltsangabe** mit Teile-/Kapitelüberschriften
+und Abschnittsbeschreibungen enthält,
+die bearbeitet und zurückgeschrieben werden können.
 Der Dateinamenszusatz lautet ``_sections_tmp``.
 
 
@@ -103,27 +104,29 @@ Abschnittsliste (nur Exportieren)
 
 **Exportieren an ODS document**
 
-With **Abschnitt > Abschnittsliste (nur Exportieren)**
-This will generate a new ÖffnenDokument spreadsheet (ods)
-with a row per section, containing the following data:
+Mit **Abschnitt > Abschnittsliste (nur Exportieren)**
+kann man eine neue OpenDocument-Tabelle (ods)
+mit einer Reihe pro Abschnitt erzeugen, welche die
+folgenden Daten umfasst:
 
-- The section ID as a hyperlink to the section in the Manuskript (if any)
--  Abschnittstitel
--  Abschnittsbeschreibung
--  Narrative date
--  Erzählzeit
--  Tags
--  Abschnittsnotizen
--  A/R
--  Ziel
--  Konflikt
--  Ausgang
--  Sequential section number
--  Wörter gesamt
--  Word count
--  Figuren
--  Schauplätze
--  Gegenstände
+- Die Abschnitts-ID als hyperlink zum Abschnitt im Manuskript
+  (falls vorhanden)
+- Abschnittstitel
+- Abschnittsbeschreibung
+- Erzähldatum
+- Erzählzeit
+- Tags
+- Abschnittsnotizen
+- A/R
+- Ziel
+- Konflikt
+- Ausgang
+- Fortlaufende Abschnittsnummer
+- Fortlaufende Wortzählung
+- Wortzahl des Abschnitts
+- Figuren
+- Schauplätze
+- Gegenstände
 
 .. note::
    Only "normal" sections appear in the section list. 

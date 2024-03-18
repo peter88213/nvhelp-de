@@ -45,7 +45,7 @@ Ebene ändern
 
 **Change the level of the selected chapters**
 
-With **Kapitel > Ebene ändern**,
+Mit **Kapitel > Ebene ändern**,
 you can turn chapters into parts and vice versa.
 
 .. figure:: _images/chapter_menu03.png
@@ -60,7 +60,7 @@ Kapitelbeschreibungen zum Bearbeiten exportieren
 
 **Exportieren an ODT document that can be imported again after editing**
 
-With **Kapitel > Kapitelbeschreibungen zum Bearbeiten exportieren**,
+Mit **Kapitel > Kapitelbeschreibungen zum Bearbeiten exportieren**,
 you can create a text document that contains
 a **brief synopsis** with part/chapter headings and chapter descriptions
 that can be edited and reimported.

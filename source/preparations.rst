@@ -58,7 +58,7 @@ novelibre auf den Desktop bringen
    You also may want to set *novelibre* as standard application for
    files with the *.novx* extension, and assign them the *novelibre*
    logo as file icon. 
-   With the XFCE desktop, none of this was too difficult for me.
+   Mit the XFCE desktop, none of this was too difficult for me.
    In doubt, refer to your desktop documentation. 
    
    It's a good idea to register the *novx* extension

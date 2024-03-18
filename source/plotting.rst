@@ -15,7 +15,7 @@ phase. This gives you color-coded subheadings in the Baumansicht.
 
    Acts
 
-With the `nv_templates plugin
+Mit the `nv_templates plugin
 <https://github.com/peter88213/nv_templates/>`__ you can
 load pre-made story structure models from Markdown template files, and
 you can save the story structure of your project for reuse.
