@@ -2,6 +2,10 @@
 
 German online help for [novelibre](https://github.com/peter88213/novelibre) and plugins.
 
+The main branch contains the text in English. The work in progress in German is in the 
+["translating" branch](https://github.com/peter88213/nvhelp-de/tree/translating).
+
+
 ## License
 
 The *novelibre* help pages are published under the 
