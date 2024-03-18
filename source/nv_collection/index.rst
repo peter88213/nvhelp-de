@@ -89,7 +89,7 @@ Bücher entfernen
 ----------------
 
 To remove a book from the collection,
-either select the book and hit the ``Del`` key,
+either select the book and hit the ``Entf``-Taste,
 or use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
 
 .. note::
@@ -101,7 +101,7 @@ Eine Serie löschen
 ------------------
 
 To delete a Serie,
-either select the Serie and hit the ``Del`` key,
+either select the Serie and hit the ``Entf``-Taste,
 or use **Serie > Ausgewählte Serie entfernen, aber die Bücher behalten**.
 
 .. note::
@@ -116,4 +116,4 @@ Beenden
 -------
 
 -  Under Windows you can exit with **Datei > Beenden** or ``Alt``-``F4``.
--  Otherwise you can exit with **Datei > Beenden** or ``Ctrl``-``Q``.
+-  Otherwise you can exit with **Datei > Beenden** or ``Strg``-``Q``.

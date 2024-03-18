@@ -25,11 +25,11 @@ to the tree.
 Liste anzeigen
 --------------
 
-**Show an HTML report with Projektnotizs**
+**Show an HTML report with Projektnotizen**
 
 With **Projektnotizen > Liste anzeigen**,
 you can create a list-formatted HTML file that contains
-Titel und Inhalt of all Projektnotizs,
+Titel und Inhalt of all Projektnotizen,
 and launch your system’s web browser for displaying it.
 
 .. note::

@@ -31,7 +31,7 @@ Dasselbe wie **Ansicht > Projektnotizen anzeigen**.
 
 -----------------
 
-|Speichern| Speichere das Projekt. Dasselbe wie **Datei > Speichern** or ``Ctrl``-``S``.
+|Speichern| Speichere das Projekt. Dasselbe wie **Datei > Speichern** or ``Strg``-``S``.
 
 |Sperren/Entsperren| Toggle the lock status of the project.
 
@@ -45,13 +45,13 @@ Dasselbe wie selecting the Manuskript under **Importieren**.
 -----------------
 
 |Hinzufügen| Element hinzufügen.
-Dasselbe wie ``Ctrl``-``N``.
+Dasselbe wie ``Strg``-``N``.
 
 |Hinzufügen child| Kindelement hinzufügen.
-Dasselbe wie ``Ctrl``-``Alt``-``N``.
+Dasselbe wie ``Strg``-``Alt``-``N``.
 
 |Hinzufügen parent| Element auf der Ebene der Eltern hinzufügen.
-Dasselbe wie ``Ctrl``-``Alt``-``Shift``-``N``.
+Dasselbe wie ``Strg``-``Alt``-``Shift``-``N``.
 
 |Löschen| Ausgewählte Elemente löschen.
 Dasselbe wie ``Del``.
@@ -59,10 +59,10 @@ Dasselbe wie ``Del``.
 -----------------
 
 |Textbetrachter anzeigen/verbergen| Textbetrachter anzeigen/verbergen.
-Dasselbe wie **Ansicht > Textbetrachter anzeigen/verbergen** or ``Ctrl``-``T``.
+Dasselbe wie **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``.
 
 |Eigenschaften anzeigen/verbergen| Eigenschaften anzeigen/verbergen.
-Dasselbe wie **Ansicht > Eigenschaften anzeigen/verbergen** or ``Ctrl``-``Alt``-``T``.
+Dasselbe wie **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``.
 
 
 .. |Go back| image:: _images/goBack.png

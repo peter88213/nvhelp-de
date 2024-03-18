@@ -1,7 +1,7 @@
 Kapitel/Teil-Eigenschaften
 ==========================
 
-The Kapitel/part properties view opens in the right pane
+The Kapitel/part properties view öffnet sich im rechten Fenster
 when you select a chapter or a part in the tree.
 You can edit the properties of the selected chapter or part.
 
@@ -18,7 +18,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the Eingabetaste.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 

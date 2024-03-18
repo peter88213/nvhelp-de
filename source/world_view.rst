@@ -1,7 +1,7 @@
 Schauplatz/Gegenstand-Eigenschaften
 ===================================
 
-The Schauplatz/Gegenstand properties view opens in the right pane when you
+The Schauplatz/Gegenstand properties view öffnet sich im rechten Fenster when you
 select a location or an Gegenstand in the tree.
 
 
@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the Eingabetaste.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
@@ -21,7 +21,7 @@ alias
 -----
 
 This entry field is for alias names. Editing can be completed
-by pressing the ``Enter`` key.
+by pressing the Eingabetaste.
 
 Tags
 ----
@@ -29,7 +29,7 @@ Tags
 Tags are a very freely usable tool for labeling locations and Gegenstands
 in the Baumansicht. Tags do not have to be defined elsewhere, but
 simply entered in the input field separated by semicolons.
-Editing can be completed by pressing the ``Enter`` key.
+Editing can be completed by pressing the Eingabetaste.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -78,7 +78,7 @@ Link hinzufügen
 
 
 Link entfernen
-   When clicking on |Entfernen| or pressing the ``Del`` key,
+   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
    the selected link is removed from the list.
 
 Link öffnen

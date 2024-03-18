@@ -55,7 +55,7 @@ If you answer "Overwrite", *novelibre* creates a new manuscript document.
 .. hint::
    *novelibre* checks whether an existing manuscript is newer or older
    than the open project, and suggests a choice by activating the 
-   appropriate button. You can accept it by hitting the ``Enter`` key.
+   appropriate button. You can accept it by hitting the Eingabetaste.
    If your choice follows the suggestion, you see a message in green
    at the bottom bar. Otherwise, the message is displayed in red, 
    just as a reminder. 

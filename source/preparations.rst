@@ -193,7 +193,7 @@ is best to keep the Navigator in sight. I prefer to dock it to the left
 of the work area. To do this, first press ``F5`` to open the Navigator.
 By default, it appears as a pop-up window that can be placed anywhere
 on the screen. To dock it, double-click in a free gray space while holding
-down the ``Ctrl`` key, as shown in the following image.
+down the ``Strg``-Taste, as shown in the following image.
 
 .. figure:: _images/preparations02.png
    :alt: LibreOffice Writer screenshot

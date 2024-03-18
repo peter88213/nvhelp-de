@@ -23,7 +23,7 @@ Den Abschnittseditor aufrufen
 
 Öffnen a section editor window by double-clicking on a section,
 or via the **Abschnitt > Bearbeiten**-Menü entry when a section is selected,
-or by hitting the ``Enter`` key.
+or by hitting the Eingabetaste.
 
 .. note::
 
@@ -38,16 +38,16 @@ Text auswählen
 -  Select a word via double-clicking.
 -  Select a paragraph via triple-clicking.
 -  Extend the selection via ``Shift``-``Arrow``.
--  Extend the selection to the next word via ``Ctrl``-``Shift``-``Arrow``.
--  ``Ctrl``-``A`` selects the whole text.
+-  Extend the selection to the next word via ``Strg``-``Shift``-``Arrow``.
+-  ``Strg``-``A`` selects the whole text.
 
 
 Text kopieren/einfügen
 ----------------------
 
--  ``Ctrl``-``C`` copies the selected text to the clipboard.
--  ``Ctrl``-``X`` cuts the selected text and moves it to the clipboard.
--  ``Ctrl``-``V`` pastes the clipboard text content to the cursor position.
+-  ``Strg``-``C`` copies the selected text to the clipboard.
+-  ``Strg``-``X`` cuts the selected text and moves it to the clipboard.
+-  ``Strg``-``V`` pastes the clipboard text content to the cursor position.
 
 
 Text formatieren
@@ -63,33 +63,33 @@ text:
 -  *Strongly emphasized* (usually shown as capitalized).
 -  *Citation* (paragraph visually distinguished from body text).
 
--  ``Ctrl``-``I`` places "emphasized" markup around the selected text or at the
+-  ``Strg``-``I`` places "emphasized" markup around the selected text or at the
    cursor, like so:
 
    :html:`<em>Example</em>`
 
    If the selection is already emphasized, the command removes the markup.
--  ``Ctrl``-``B`` places "strong" markup around the selected text or at the
+-  ``Strg``-``B`` places "strong" markup around the selected text or at the
    cursor, like so:
 
    :html:`<strong>Example</strong>`
 
    If the selection is already strong, the command removes the markup.
 
--  ``Ctrl``-``M`` removes "emphasized" and "strong" markup from the selection.
+-  ``Strg``-``M`` removes "emphasized" and "strong" markup from the selection.
 
 
 Rückgängig machen/Wiederherstellen
 ----------------------------------
 
--  ``Ctrl``-``Z`` undoes the last editing. Multiple undo is possible.
--  ``Ctrl``-``Y`` redoes the last undo. Multiple redo is possible.
+-  ``Strg``-``Z`` undoes the last editing. Multiple undo is possible.
+-  ``Strg``-``Y`` redoes the last undo. Multiple redo is possible.
 
 
 Einen Abschnitt teilen
 ----------------------
 
-With **Datei > An der Cursorposition teilen** or ``Ctrl``-``Alt``-``S``,
+With **Datei > An der Cursorposition teilen** or ``Strg``-``Alt``-``S``,
 you can split the section at the cursor position.
 
 -  Alle the text from the cursor position is cut and pasted into a neuly
@@ -106,7 +106,7 @@ you can split the section at the cursor position.
 Einen Abschnitt erzeugen
 ------------------------
 
-With **Datei > Abschnitt erzeugen** or ``Ctrl``-``Alt``-``N``,
+With **Datei > Abschnitt erzeugen** or ``Strg``-``Alt``-``N``,
 you can erzeugen a section.
 
 -  Der neue Abschnitt is placed after the currently edited section.
@@ -135,7 +135,7 @@ Wortzählung
 Änderungen übernehmen
 ---------------------
 
-With ``Ctrl``-``S``,
+With ``Strg``-``S``,
 you can apply changes to the section.
 Then "Modified" status is displayed in *novelibre*.
 
@@ -155,7 +155,7 @@ Das Editorfenster schließen
 -  Under Windows you can optionally exit with **Abschnitt > Beenden**
    or ``Alt``-``F4``.
 -  Otherwise you can optionally exit with **Abschnitt > Beenden**
-   or ``Ctrl``-``Q``.
+   or ``Strg``-``Q``.
 -  When closing the editor window, you will be asked for applying changes.
 
 

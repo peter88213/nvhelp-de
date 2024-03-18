@@ -2,7 +2,7 @@ Der Arbeitsbereich
 ==================
 
 
-The *novelibre* desktop is divided into three panes:
+Der Arbeitsbereich von *novelibre* ist in drei Fenster unterteilt:
 
 .. figure:: _images/desktop01.png
    :alt: Desktop
@@ -13,64 +13,66 @@ The *novelibre* desktop is divided into three panes:
 Projektbaum
 -----------
 
-The project tree in the left pane shows the organization of the project.
+Der Projektbaum im linken Fenster zeigt die Organisation des Projekts.
 
--  The tree elements are color-coded according to the section type (see
-   `Basic concepts <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
-   *Normal* type sections are highlighted according to the selected coloring
-   mode (see *Optionens* in the `Ansicht-Menü <view_menu.html#farbgebungsmodus>`__).
--  The order of the columns can be changed (see *Optionen* in
-   the `Ansicht-Menü <view_menu.html#spalten>`__).
--  Right-clicking on a tree element opens a `Kontextmenü
-   <tree_context_menu.html>`__ with several options.
--  The type of chapters and sections, as well as the completion status
-   of the sections are color coded and can be changed via Kontextmenü.
+- Die Elemente des Baums sind entsprechend des Abschnittstyps eingefärbt
+  (siehe `Grundlegende Konzepte <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
+  Abschnitte vom Typ *Normal* sind farblich hervorgehoben, je nach dem, welcher
+  Farbgebungsmodus eingestellt ist (siehe *Optionen*
+  im `Ansicht-Menü <view_menu.html#farbgebungsmodus>`__).
+- Die Anordnung der Spalten kann geändert werden (siehe *Optionen* im
+  `Ansicht-Menü <view_menu.html#spalten>`__).
+- Beim Rechtsklick auf ein Baumelement öffnet sich ein `Kontextmenü
+  <tree_context_menu.html>`__ mit verschiedenen Auswahlmöglichkeiten.
+- Der Typ der Kapitel und Abschnitte kann ebenso wie der Fertigstellungs-
+  status der Abschnitte über das Kontextmenü geändert werden.
 
 
 Projektbaumstruktur
 ~~~~~~~~~~~~~~~~~~~
 
--  The **Buch** branch contains the parts, chapters, and sections that
-   belong to the novel Manuskript.
--  The **Figuren/Schauplätze/Gegenstände** branches contain descriptions of
-   the story world’s elements that can be associated with the book’s
-   sections.
--  The **Plotlinien** branch contains the Plotlinien and plot points.
--  The **Projektnotizen** branch contains all Projektnotizs.
+- Der **Buch**-Zweig umfasst die Teile, Kapitel und Abschnitte, die zum
+  Romanmanuskript gehören.
+- Die **Figuren/Schauplätze/Gegenstände**-Zweige enthalten Beschreibungen
+  der Weltenbau-Elemente, die zu den Buchabschnitten in Beziehung gesetzt
+  werden können.
+- Der **Plotlinien**-Zweig umfasst die Plotlinien und Plotpunkte.
+- Der **Projektnotizen**-Zweig enthält alle Projektnotizen.
 
 
 Arbeiten im Projektbaum
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Browsing the tree
-   *novelibre* has a browsing history for the selected tree elements.
-   This allows you to go back and forth e.g. between a section and its
-   related characters.
+Sich durch den Baum bewegen
+   *novelibre* hat einen Browservelauf der ausgewählten Baumelemente.
+   Damit kann man sich vor- und zurückbewegen, zum Beispiel zwischen einem
+   Abschnitt und den Figuren, die in ihm vorkommen.
 
-   -  |Go back| selects a node back in the tree browsing history.
-   -  |Go forward| selects a node forward in the tree browsing history.
+   -  |Gehe zurück| geht einen Knoten zurück in im Browserverlauf.
+   -  |Gehe vor| geht einen Knoten vor in im Browserverlauf.
 
    .. hint::
-      On Windows, the "Vor" and "Zurück" mouse Schaltflächen (if any) 
-      may also work.
+      Unter Windows sollten die "Vor" und "Zurück"-Maustasten (falls 
+      vorhanden) ebenfalls funktionieren.  
 
 
 Baumelemente verschieben
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Drag and drop while pressing the ``Alt`` key.
+Bei gedrückter ``Alt``-Taste mit der Maus ziehen.
 
 .. caution::
-   Be aware, there is no "Undo" feature.
+   Bitte daran denken, dass es keine "Rückgängig"-Funktion gibt.
 
 
 Baumelemente löschen
 ^^^^^^^^^^^^^^^^^^^^
 
-Select the element to delete and hit the ``Del`` key.
+Das zu löschende Element auswählen und die ``Entf``-Taste drücken.
 
--  Teils and chapters are gelöscht.
--  Abschnitts are marked "unused" and moved to the "Papierkorb" chapter.
+- Teile und Kapitel werden gelöscht.
+- Abschnitte werden als "unbenutzt" gekennzeichnet und ins
+  "Papierkorb"-Kapitel verschoben.
 -  Deleting a part has no effect on its subordinate chapters.
 -  Deleting a chapter moves its sections to the "Papierkorb" chapter.
 -  The "Papierkorb" chapter is created automatically, if needed.
@@ -80,17 +82,17 @@ Select the element to delete and hit the ``Del`` key.
 Textbetrachter
 --------------
 
-The **Textbetrachter** in the middle pane shows the part/chapter/section
+Der **Textbetrachter** im mitleren Fenster shows the part/chapter/section
 contents with their Titels as headings.
 
 -  You can open or close the Textbetrachter with **Ansicht > Toggle Text
-   viewer**, or ``Ctrl``-``T``, or clicking on |Textbetrachter anzeigen/verbergen|.
+   viewer**, or ``Strg``-``T``, or clicking on |Textbetrachter anzeigen/verbergen|.
 -  On opening, the windows shows the text, where the tree is selected.
 -  When changing the tree selection, the text moves along.
 -  However, the text can be scrolled independently with the verical
    scrollbar, or the mousewheel.
 -  You can select text with the mouse, and copy it to the clipboard with
-   ``Ctrl``-``C``.
+   ``Strg``-``C``.
 -  You cannot edit the text. For this, you might want to install an
    editor plugin, such as
    `nv_editor <https://github.com/peter88213/nv_editor/>`__.
@@ -102,17 +104,17 @@ contents with their Titels as headings.
 Eigenschaften
 -------------
 
-The `Eigenschaften <properties.html>`__ in the right pane show properties
+The `Eigenschaften <properties.html>`__ im rechten Fenster show properties
 and metadata of the element selected in the project tree.
 
 -  The project settings can be made in the *Buch* properties view.
 -  You can open or close the element properties window with **Ansicht >
-   Eigenschaften anzeigen/verbergen** or ``Ctrl``-``Alt``-``T``, or clicking on
+   Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``, or clicking on
    |Eigenschaften anzeigen/verbergen|.
 -  On opening, the windows shows the editable properties of the selected
    element.
 -  You can detach or dock the element properties window with **Ansicht >
-   Eigenschaften abtrennen/andocken** or ``Ctrl``-``Alt``-``D``.
+   Eigenschaften abtrennen/andocken** or ``Strg``-``Alt``-``D``.
 -  On closing the detached window, the properties are docked again.
 
 On large screens, you can arrange *novelibre* and *Writer* with detached
@@ -125,8 +127,8 @@ windows.
    and novelibre (lower left) with detached Eigenschaften (right) 
 
 
-.. |Go back| image:: _images/goBack.png
-.. |Go forward| image:: _images/goForward.png
+.. |Gehe zurück| image:: _images/goBack.png
+.. |Gehe vor| image:: _images/goForward.png
 .. |Textbetrachter anzeigen/verbergen| image:: _images/viewer.png
 .. |Eigenschaften anzeigen/verbergen| image:: _images/properties.png
 

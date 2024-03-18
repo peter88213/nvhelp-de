@@ -50,7 +50,7 @@ Aus ODT erzeugen...
 
 **Öffnen a novel project**
 
-With **Datei > Öffnen** or ``Ctrl``-``O``,
+With **Datei > Öffnen** or ``Strg``-``O``,
 you can open an existing project file.
 
 .. note::
@@ -63,7 +63,7 @@ Neu laden
 
 **Neu laden the novel project**
 
-With **Datei > Neu laden** or ``Ctrl``-``R``,
+With **Datei > Neu laden** or ``Strg``-``R``,
 you can reload the project.
 
 .. tip::
@@ -79,7 +79,7 @@ Sicherungskopie wiederherstellen
 
 **Restore the latest backup file**
 
-With **Datei > Sicherungskopie wiederherstellen** or ``Ctrl``-``B``,
+With **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``,
 you can restore the latest backup file.
 You will get a warning, because changes may be lost.
 
@@ -108,7 +108,7 @@ Sperren
 
 **Protect the project while edited outsides**
 
-With **Datei > Sperren** or ``Ctrl``-``L``,
+With **Datei > Sperren** or ``Strg``-``L``,
 you can `lock <basic_concepts.html#projekt-sperre>`__ the project.
 
 .. note::
@@ -120,7 +120,7 @@ Entsperren
 
 **Make the project editable**
 
-With **Datei > Entsperren** or ``Ctrl``-``U``,
+With **Datei > Entsperren** or ``Strg``-``U``,
 you can unlock the project.
 
 
@@ -180,7 +180,7 @@ Speichern
 
 **Speichern the project**
 
-With **Datei > Speichern** or ``Ctrl``-``S``,
+With **Datei > Speichern** or ``Strg``-``S``,
 you can save the project.
 A backup copy is then automatically created.
 
@@ -194,7 +194,7 @@ Speichern unter...
 
 **Speichern the project with another file name/at another place**
 
-With **Datei > Speichern unter...** or ``Ctrl``-``Shift``-``S``,
+With **Datei > Speichern unter...** or ``Strg``-``Shift``-``S``,
 you can save the project with another file name/at another place.
 Then a file select dialog opens to specify the new path and file name.
 
@@ -224,7 +224,7 @@ Beenden/Beenden
 **Beenden the program**
 
 -  Under Windows you can exit with **Datei > Beenden** or ``Alt``-``F4``.
--  Otherwise you can exit with **Datei > Beenden** or ``Ctrl``-``Q``.
+-  Otherwise you can exit with **Datei > Beenden** or ``Strg``-``Q``.
 
 .. note::
    When exiting the program, you will be asked for saving the project,

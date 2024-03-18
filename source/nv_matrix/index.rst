@@ -27,7 +27,7 @@ Den Matrix-Manager aufrufen
 Beziehungen hinzufügen/entfernen
 --------------------------------
 
--  Hinzufügen/Entfernen relationships by klicking on the nodes with the ``Ctrl``
+-  Hinzufügen/Entfernen relationships by klicking on the nodes with the ``Strg``
    key pressed.
 
 

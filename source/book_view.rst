@@ -4,7 +4,7 @@ Bucheigenschaften
 .. |ico01| image:: _images/viewBook.png
    :alt: Buch
 
-The Buch properties view opens in the right pane when you
+The Buch properties view öffnet sich im rechten Fenster when you
 select "Buch" in the tree, or when you click on the |ico01|
 toolbar icon. It is the initial view after opening a *novelibre* project.
 
@@ -17,7 +17,7 @@ Titel, Beschreibung und Autor
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of book Titel and author can be completed by pressing the ``Enter`` key.
+The editing of book Titel and author can be completed by pressing the Eingabetaste.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
@@ -88,7 +88,7 @@ Auto number chapters/parts when refreshing the tree
       in the `Kapitel/part properties 
       <chapter_view.html#dieses-kapitel-nicht-automatisch-nummerieren-part>`__.
 
-Prefix and suffix entries can be completed by pressing the ``Enter`` key.
+Prefix and suffix entries can be completed by pressing the Eingabetaste.
 
 .. note::
    Make sure to add a space character to separate the prefix or
@@ -117,7 +117,7 @@ Aufklappen or collapse this frame by clicking on the label.
 to store information that should be at hand when writing.
 If the default categories do not fit into your individual story planning
 concept, you can rename these fields.
-Editing the categories can be completed by pressing the ``Enter`` key.
+Editing the categories can be completed by pressing the Eingabetaste.
 
 Abschnitt fields
    The heading replacements for *Ziel*, *Konflikt*, and *Ausgang* are
@@ -210,12 +210,12 @@ Schreibfortschritt protokollieren
 Wörter zu schreiben
    Here you can enter a number (without decimal points or separators)
    indicating your writing goal in words.
-   The entry can be completed by pressing the ``Enter`` key.
+   The entry can be completed by pressing the Eingabetaste.
 
 Anfangswert
    Here you can enter a number (without decimal points or separators)
    indicating the word count you want to start from.
-   The entry can be completed by pressing the ``Enter`` key.
+   The entry can be completed by pressing the Eingabetaste.
 
 Aktuelle Wortzahl als Anfangswert setzen
    Click this Schaltfläche to enter your current word count in the **Beginning

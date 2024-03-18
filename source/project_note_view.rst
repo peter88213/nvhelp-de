@@ -1,7 +1,7 @@
 Projektnotiz-Eigenschaften
 ==========================
 
-The Projektnotiz properties view opens in the right pane when you
+The Projektnotiz properties view öffnet sich im rechten Fenster when you
 select a Projektnotiz in the tree.
 You can edit the Titel und Inhalt of the selected Projektnotiz.
 
@@ -14,7 +14,7 @@ Titel und Inhalt
 
 Titel und Inhalt are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the Eingabetaste.
 Changes to the content are applied when the mouse is clicked
 anywhere outside the text input field.
 

@@ -1,7 +1,7 @@
 Plotlinieneigenschaften
 =======================
 
-The Plotlinie properties view opens in the right pane when you
+The Plotlinie properties view öffnet sich im rechten Fenster when you
 select a `Plotlinie <plotting.html#defining-plot-lines>`__ in the tree.
 
 .. figure:: _images/plotline_view01.png
@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the Eingabetaste.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 

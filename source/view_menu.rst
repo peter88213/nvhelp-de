@@ -11,7 +11,7 @@ Kapitelebene anzeigen
 
 **Hide the sections**
 
-with **Ansicht > Kapitelebene anzeigen** or ``Ctrl``-``Alt``-``C``,
+with **Ansicht > Kapitelebene anzeigen** or ``Strg``-``Alt``-``C``,
 you can collapse the tree, so that only parts and chapters are visible.
 
 
@@ -110,7 +110,7 @@ Textbetrachter anzeigen/verbergen
 
 **Show/hide the novel text**
 
-With **Ansicht > Textbetrachter anzeigen/verbergen** or ``Ctrl``-``T``,
+With **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``,
 you can open or close the `text viewer <desktop.html>`__ window,
 showing part/chapter/section Titels and section content.
 
@@ -121,7 +121,7 @@ showing part/chapter/section Titels and section content.
    -  However, the text can be scrolled independently with the verical
       scrollbar, or the mousewheel.
    -  You can select text with the mouse, and copy it to the clipboard with
-      ``Ctrl``-``C``.
+      ``Strg``-``C``.
    -  You cannot edit the text. For this, you might want to install an
       editor plugin, such as
       `nv_editor <https://github.com/peter88213/nv_editor/>`__.
@@ -132,7 +132,7 @@ Eigenschaften anzeigen/verbergen
 
 **Show/hide the selected element’s properties**
 
-With **Ansicht > Eigenschaften anzeigen/verbergen** or ``Ctrl``-``Alt``-``T``,
+With **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``,
 you can open or close the element properties window.
 
 .. hint::
@@ -146,7 +146,7 @@ Eigenschaften abtrennen/andocken
 **Show the selected element’s properties either in the main window or in
 its own window**
 
-With **Ansicht > Eigenschaften abtrennen/andocken** or ``Ctrl``-``Alt``-``D``,
+With **Ansicht > Eigenschaften abtrennen/andocken** or ``Strg``-``Alt``-``D``,
 you can detach or dock the element properties window .
 
 .. hint::

@@ -1,7 +1,7 @@
 Abschnittseigenschaften
 =======================
 
-The Abschnitt properties view opens in the right pane when you
+The Abschnitt properties view öffnet sich im rechten Fenster when you
 select a section in the tree.
 
 
@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the Eingabetaste.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
@@ -24,7 +24,7 @@ Tags
 Tags are a very freely usable tool for labeling sections in the
 Baumansicht. Tags do not have to be defined elsewhere, but simply
 entered in the input field separated by semicolons.
-Editing can be completed by pressing the ``Enter`` key.
+Editing can be completed by pressing the Eingabetaste.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -86,7 +86,7 @@ Hinzufügen Plotlinie assignment
       key. 
 
 Plotlinie entfernen assignment
-   When clicking on |Entfernen| or pressing the ``Del`` key,
+   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
    the selected Plotlinie is removed from the list.
 
 Ansicht the related element
@@ -171,7 +171,7 @@ Hinzufügen Relationship
       key. 
 
 Entfernen Relationship
-   When clicking on |Entfernen| or pressing the ``Del`` key,
+   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
    the selected relationship is removed from the list.
 
 Ansicht the related element
@@ -197,7 +197,7 @@ Datum/Zeit
 ----------
 
 Here you can enter information about the selected section's narrative time.
-Editing can be completed by pressing the ``Enter`` key.
+Editing can be completed by pressing the Eingabetaste.
 
 .. hint::
    Dedicated timeline software offers a more convenient way of entering date/time 

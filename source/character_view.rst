@@ -1,7 +1,7 @@
 Figureneigenschaften
 ====================
 
-The Figur properties view opens in the right pane when you
+The Figur properties view öffnet sich im rechten Fenster when you
 select a character in the tree.
 
 
@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the ``Enter`` key.
+The editing of the Titel can be completed by pressing the Eingabetaste.
 Changes to the description are applied when the mouse is clicked
 anywhere outside the text input field.
 
@@ -22,13 +22,13 @@ Vollst. Name
 
 The character's Titel as shown on the Karteikarte is used as
 a short name at several places. The full name can be entered
-separately. Editing can be completed by pressing the ``Enter`` key.
+separately. Editing can be completed by pressing the Eingabetaste.
 
 alias
 -----
 
 This entry field is for alias names. Editing can be completed
-by pressing the ``Enter`` key.
+by pressing the Eingabetaste.
 
 Tags
 ----
@@ -36,7 +36,7 @@ Tags
 Tags are a very freely usable tool for labeling characters in the
 Baumansicht. Tags do not have to be defined elsewhere, but simply
 entered in the input field separated by semicolons.
-Editing can be completed by pressing the ``Enter`` key.
+Editing can be completed by pressing the Eingabetaste.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -54,7 +54,7 @@ Birth/death date
    Format: *YYYY-MM-DD*, according to ISO 8601.
 
 The editing of the birth and death dates can be completed by pressing the
-``Enter`` key. Changes to the bio are applied when the mouse is
+Eingabetaste. Changes to the bio are applied when the mouse is
 clicked anywhere outside the text input field.
 
 
@@ -117,7 +117,7 @@ Link hinzufügen
 
 
 Link entfernen
-   When clicking on |Entfernen| or pressing the ``Del`` key,
+   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
    the selected link is removed from the list.
 
 Link öffnen
