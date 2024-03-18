@@ -29,8 +29,9 @@ intrepid users themselves. I do what I can to make these
 steps easier, and provide detailed instructions for Windows
 below. Enjoy!
 
-Installing the application
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Das Programm installieren
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Unzip the downloaded zipfile.
 2. Move into the unzipped folder and launch **setup.pyw**.
@@ -39,8 +40,9 @@ Installing the application
 .. figure:: _images/preparations04.png
    :alt: novelibre screenshot
 
-Making novelibre accessible on the Desktop
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+novelibre auf den Desktop bringen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. admonition:: Note for Linux users
 
@@ -101,8 +103,8 @@ Making novelibre accessible on the Desktop
       :alt: novelibre screenshot
 
 
-Associating .novx files with novelibre
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.novx-Dateien novelibre zuweisen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 7. Optionally, you can associate the **.novx** file extension
    with the *novelibre* application. Then the project files
@@ -144,8 +146,8 @@ Associating .novx files with novelibre
    *novelibre* will need a Python update in the near future.
    
 
-Updating the application or a plugin
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Das Programm oder ein plugin aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Just execute the Steps 1 and 2 as described above. If there
 is any further action required, the setup script will give you
@@ -161,8 +163,8 @@ or ÖffnenOffice *Writer*. Therefore, I will only give a few
 brief tips that relate specifically to the interaction with *novelibre*.
 
 
-Making the sections visible in the Manuskript
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Die Abschnitte im Manuskript sichtbar machen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An essential part of the workflow is writing with the *Writer*
 word processor. For this, *novelibre* creates editable Manuskript files
@@ -183,8 +185,8 @@ want to make the text boundaries visible in the *Writer* settings.
    has no effect on your *novelibre* project.
 
 
-Docking the Navigator
-~~~~~~~~~~~~~~~~~~~~~
+Den Navigator andocken
+~~~~~~~~~~~~~~~~~~~~~~
 
 To quickly find the chapters and sections of your novel in *Writer*, it
 is best to keep the Navigator in sight. I prefer to dock it to the left

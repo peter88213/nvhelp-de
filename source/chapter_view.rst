@@ -1,4 +1,4 @@
-Kapitel/Teil-Rigenschaften
+Kapitel/Teil-Eigenschaften
 ==========================
 
 The Kapitel/part properties view opens in the right pane

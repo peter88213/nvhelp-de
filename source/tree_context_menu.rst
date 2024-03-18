@@ -185,7 +185,7 @@ Hinzufügens a new character/location/item.
 Manuskript nach Perspektive gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exportierens a `Manuskript <export_menu.html#Manuskript-for-editing>`__
+Exportierens a `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 with the sections that have the selected character as viewpoint.
 
 
@@ -251,7 +251,7 @@ Hinzufügens a new Plotpunkt
 Manuskript nach Plotlinie gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exportierens a `Manuskript <export_menu.html#Manuskript-for-editing>`__
+Exportierens a `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 with the sections that belong to the selected Plotlinie.
 
 Zusammenfassung nach Plottlinie gefiltert exportieren

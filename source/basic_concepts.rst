@@ -1,9 +1,9 @@
-Basic concepts
-==============
+Grundlegende Konzepte
+=====================
 
 
-The Buch hierarchy
-------------------
+Die Buch-Hierarchie
+-------------------
 
 Teile
 ~~~~~
@@ -156,7 +156,7 @@ Kommentare, Fuß- und Endnoten
    You can instead use comments as placeholders. Replace them with your 
    images (or any other special formatting beyond the capabilities of 
    *novelibre*) at the end, when you prepare your `finished novel 
-   <export_menu.html#Manuskript-for-printing-export-only>`__ 
+   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ 
    for publisihing. 
 
 

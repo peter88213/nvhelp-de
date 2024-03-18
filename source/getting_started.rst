@@ -1,5 +1,5 @@
-Getting started
-===============
+Erste Schritte
+==============
 
 Von Null beginnen
 -----------------
@@ -59,8 +59,8 @@ right-click on the chapter, and select **Hinzufügen section**.
    :alt: novelibre screenshot
 
 
-Beginning the Manuskript immediately
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gleich mit dem Manuskript beginnen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As soon as the new section appears in the Baumansicht, we can export a
 Manuskript. Just click on the |Exportieren Manuskript| toolbar icon.
@@ -92,7 +92,7 @@ page <writing.html>`__, creating new sections and chapters as we write.
    In addition, *novelibre* then saves entries in the daily word count log.
    
    
-Creating a chapter structure
+Eine Kapitelstruktur anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you prefer to make a plan first before you start writing, *novelibre* is
@@ -107,8 +107,8 @@ form of synopses, e.g on
 `section <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__ level.
 
 
-Creating a dramatic structure
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Eine dramaturgische Struktur aufbauen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 However, you can also start on a more abstract level and first create and
 describe stages like acts or steps in order to later insert the sections as
@@ -126,11 +126,11 @@ There you also can learn how to set up multiple strands or character arcs.
    With the `nv_templates plugin
    <https://github.com/peter88213/nv_templates/>`__ you can have 
    *novelibre* set up your new project with a pre-made structure like the
-   "Three Act Model" or "Speichern The Cat". 
+   "Drei-Akt-Modell" or "Save The Cat". 
 
 
-Creating a plot grid
-~~~~~~~~~~~~~~~~~~~~
+Ein Handlungsraster anlegen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to outline your novel using a `plot grid
 <plotting.html#handlungsraster-(plot-grid)>`__, you can do this with
@@ -156,8 +156,8 @@ If you want to outline your novel using a `plot grid
 -----------------
 
 
-Beginning with a work in progress
----------------------------------
+Mit einem angefangenen Werk beginnen
+------------------------------------
 
 Let's assume that you have already written an extensive novel Manuskript with
 *Writer* and now want to continue with *novelibre*.
@@ -198,7 +198,7 @@ with the *.novx* extension.
    Once your novel is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
-   <export_menu.html#Manuskript-for-printing-export-only>`__ later on. 
+   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ later on. 
 
 .. tip::
    After importing an extensive piece of work, you may have a whole lot
@@ -208,8 +208,8 @@ with the *.novx* extension.
 
 
 
-Beginning with an outline
--------------------------
+Mit einer Gliederung beginnen
+-----------------------------
 
 Instead of a work in progress, you also can import an outline made with *Writer*
 into *novelibre* to get a novel project with empty, but named and described
@@ -242,5 +242,5 @@ with the *.novx* extension.
    Once your novel is imported into *novelibre*, your initial *ODT* document is no
    longer needed. So if you want to keep it, you best move it elsewhere, so that
    it is not overwritten by an `exported document 
-   <export_menu.html#Manuskript-for-printing-export-only>`__ later on. 
+   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ later on. 
       

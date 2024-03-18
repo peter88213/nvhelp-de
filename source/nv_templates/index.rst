@@ -8,8 +8,8 @@ Diese Seite gilt für die neueste Ausgabe von `nv_templates
 You can open it with **Hilfe > Vorlagen-Plugin Online-Hilfe**.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
@@ -25,8 +25,8 @@ Befehlsreferenz
 Datei > Neu
 ~~~~~~~~~~~
 
-Create from template
-^^^^^^^^^^^^^^^^^^^^
+Aus der Vorlage erzeugen
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 This erzeugens a neu project with the narrative structure from a Markdown
 template file.
@@ -35,6 +35,7 @@ template file.
    (novelibre v1.4+). If you cancel the dialog, you can select the file
    name later when saving the project.
 -  Then a second file select dialog asks for the template file to apply.
+
 
 Extras > Erzählstruktur-Vorlagen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -46,6 +47,7 @@ This loads the narrative structure from a Markdown template file.
 
 -  A file select dialog asks for the template file to apply.
 
+
 Speichern
 ^^^^^^^^^
 
@@ -53,45 +55,52 @@ This saves the narrative structure to a Markdown template file.
 
 -  A file select dialog asks for the neu template’s file name.
 
+
 Ordner öffnen
 ^^^^^^^^^^^^^
 
 This opens the templates fälter with the OS file manager, so you can
 manage and edit the templates.
 
-Conventions
------------
+
+Konventionen
+------------
 
 In *novelibre*, you can define a narrative structure with stages. See
 `Plotlinien <https://github.com/peter88213/novelibre/help/plotting>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
-Markdown file structure
-~~~~~~~~~~~~~~~~~~~~~~~
+
+Markdown-Dateistruktur
+~~~~~~~~~~~~~~~~~~~~~~
 
 The *Erzählstruktur-Vorlage* Markdown file defines such a structure with
 headings and ordinary text.
 
-First level heading for top level stages, e.g. acts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Überschrift erster Ordnung für die Hauptstadien, z.B. Akte
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The first level heading begins with ``#``, followed by a space and a
 stage title.
 
-Second level heading for minor stages or plot points
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Überschrift zweiter Ordnung für untergeordnete Stadien oder Plotpunkte
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The second level heading begins with ``##``, followed by a space and a
 stage title.
 
-Ordinary text
-^^^^^^^^^^^^^
+
+^Gewöhnlicher Text
+^^^^^^^^^^^^^^^^^^
 
 Any text under a heading is used as a description for the element
 generated from the heading.
 
-Example
-^^^^^^^
+
+Beispiel
+^^^^^^^^
 .. highlight:: markdown
 
 :: 

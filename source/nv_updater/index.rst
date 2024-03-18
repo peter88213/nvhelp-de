@@ -8,16 +8,15 @@ Diese Seite gilt für die neueste Ausgabe von `nv_updater
 You can open it with **Hilfe > Aktualisieren-Prüfer Online-Hilfe**.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
 
 
-Beginn the aktualisieren checker
---------------------------------
-
+Die Aktualisierungsprüfung starten
+----------------------------------
 
 -  Öffnen the aktualisieren checker from the Hauptmenü: **Extras > Check for
    aktualisierens**.

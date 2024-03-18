@@ -1,59 +1,59 @@
 Die Werkzeugleiste
 ==================
 
-Die Werkzeugleiste provides Schaltflächen for common actions in the proposed workflow.
+Die Werkzeugleiste enthält Schaltflächen für häufig benutzte Vorgänge im vorgeschlagenen Arbeitsablauf.
 
 -----------------
 
-|Go back| Go back in the browsing history.
+|Go back| im Browserverlauf zurückgehen.
 
-|Go forward| Go forward in the browsing history.
+|Go forward| im Browserverlauf vorangehen.
 
 -----------------
 
-|Buch anzeigen| Gehe zu the "Buch" branch and expand it.
+|Buch anzeigen| Gehe zum "Buch"-Zweig und klappe ihn auf.
 Dasselbe wie **Ansicht > Buch anzeigen**.
 
-|Figuren anzeigen| Gehe zu the "Figuren" branch and expand it.
+|Figuren anzeigen| Gehe zum "Figuren"-Zweig und klappe ihn auf.
 Dasselbe wie **Ansicht > Figuren anzeigen**.
 
-|Schauplätze anzeigen| Gehe zu the "Schauplätze" branch and expand it.
+|Schauplätze anzeigen| Gehe zum "Schauplätze"-Zweig und klappe ihn auf.
 Dasselbe wie **Ansicht > Schauplätze anzeigen**.
 
-|Gegenstände anzeigen| Gehe zu the "Gegenstände" branch and expand it.
+|Gegenstände anzeigen| Gehe zum "Gegenstände"-Zweig und klappe ihn auf.
 Dasselbe wie **Ansicht > Gegenstände anzeigen**.
 
-|Plotlinien anzeigen| Gehe zu the "Plotlinien" branch and expand it.
+|Plotlinien anzeigen| Gehe zum "Plotlinien"-Zweig und klappe ihn auf.
 Dasselbe wie **Ansicht > Plotlinien anzeigen**.
 
-|Projektnotizen anzeigen| Gehe zu the "Projektnotizen" branch and expand it.
+|Projektnotizen anzeigen| Gehe zum "Projektnotizen"-Zweig und klappe ihn auf.
 Dasselbe wie **Ansicht > Projektnotizen anzeigen**.
 
 -----------------
 
-|Speichern| Speichern the project. Dasselbe wie **Datei > Speichern** or ``Ctrl``-``S``.
+|Speichern| Speichere das Projekt. Dasselbe wie **Datei > Speichern** or ``Ctrl``-``S``.
 
 |Sperren/Entsperren| Toggle the lock status of the project.
 
-|Exportieren Manuskript| Exportieren the Manuskript for editing.
+|Exportieren Manuskript| Exportiere das Manuskript zum Bearbeiten.
 Dasselbe wie **Exportieren > Manuskript zum Bearbeiten**,
 but without confirmation for opening the document.
 
-|Änderungen am Manuskript übernehmen| Importieren the current Manuskript.
+|Änderungen am Manuskript übernehmen| Importiere das aktuelle Manuskript.
 Dasselbe wie selecting the Manuskript under **Importieren**.
 
 -----------------
 
-|Hinzufügen| Hinzufügen element.
+|Hinzufügen| Element hinzufügen.
 Dasselbe wie ``Ctrl``-``N``.
 
-|Hinzufügen child| Hinzufügen child element.
+|Hinzufügen child| Kindelement hinzufügen.
 Dasselbe wie ``Ctrl``-``Alt``-``N``.
 
-|Hinzufügen parent| Hinzufügen element on the parent’s level.
+|Hinzufügen parent| Element auf der Ebene der Eltern hinzufügen.
 Dasselbe wie ``Ctrl``-``Alt``-``Shift``-``N``.
 
-|Löschen| Löschen selected elements.
+|Löschen| Ausgewählte Elemente löschen.
 Dasselbe wie ``Del``.
 
 -----------------

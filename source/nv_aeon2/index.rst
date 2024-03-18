@@ -8,8 +8,8 @@ Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
 You can open it with **Hilfe > Aeon 2-Plugin Online-Hilfe**.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
@@ -18,8 +18,8 @@ The plugin adds an **Aeon Timeline 2** entry to the *novelibre* **Tools**
 menu, and an **Aeon 2 plugin Online Help** entry to the **Help**-Menü.
 
 
-Installing the Aeon Timeline 2 custom template
-----------------------------------------------
+Die Aeon Timeline 2 Benutzervorlage installieren
+------------------------------------------------
 
 After installation, you can copy a "novelibre German.xml" template to the
 Aeon2 custom template folder. The easiest way is to create new
@@ -49,16 +49,19 @@ Aeon Timeline 2 > Information
 -  Show information about an existing Aeon Timeline 2 project, if any.
    Aeon Timeline 2 and novelibre file dates are compared.
 
+
 Aeon Timeline 2 > Die Zeitleiste aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If a timeline exists, aktualisieren it from novelibre, otherwise erzeugena neu
 timeline.
 
+
 Aeon Timeline 2 > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Aktualisieren the novelibre-Projekt from the timeline, if existing.
+
 
 Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -67,11 +70,13 @@ The moon phase calculation is based on a ‘do it in your head’ algorithm
 by John Conway. In its current form, it’s only valid for the 20th and
 21st centuries.
 
+
 Aeon Timeline 2 > Die Zeitleiste bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Öffnen the project’s timeline, if existing, with the Timeline application.
 Sperren the project.
+
 
 Datei > Neu > Aus Aeon Timeline 2 erzeugen...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,11 +84,12 @@ Datei > Neu > Aus Aeon Timeline 2 erzeugen...
 Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
 the timeline’s file name exists, erzeugen a neu one from the timeline.
 
-Control conversion
-------------------
 
-Prepare your timeline for export
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Die Konvertierung steuern
+-------------------------
+
+Die Zeitleiste für den Export vorbereiten
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After installation, you can copy a "novelibre" template to the
 Aeon2 custom template folder. The easiest way is to create new
@@ -97,11 +103,12 @@ For existing timelines you have two choices:
 -  Option 2: Benutzerdefiniertize the *nv_aeon2* Konfiguration to fit your
    timeline, see `Benutzerdefiniert Konfiguration <#benutzerdefiniert-Konfiguration>`__.
 
-Synchronization in detail
--------------------------
 
-Known limitations
-~~~~~~~~~~~~~~~~~
+Die Synchronisierung im Einzelnen
+---------------------------------
+
+Bekannte Einschränkungen
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  "Narrative" events that begin before 0001-01-01 in the timeline, will
    not be synchronized with novelibre, because novelibre can not handle
@@ -110,10 +117,11 @@ Known limitations
    duration in Timeline and the section duration in novelibre may
    differ.
 
-Conversion rules for neuly erzeugend novelibre-Projekts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The names/column labels refer to timelines based on the "yWriter"
+Konvertierungsregeln für neu erzeugte novelibre-Projekte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The names/column labels refer to timelines based on the "novelibre"
 template.
 
 -  If an Aeon event title occurs more than once, the program aborts with
@@ -134,8 +142,9 @@ template.
 -  "Schauplätze" are imported, if any (\*).
 -  "Gegenstände" are imported, if any (\*).
 
-Aktualisieren rules for existing novelibre-Projekts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Aktualisierungsregeln für bestehende novelibre-Projekte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Only sections that have the same title as an event are aktualisierend.
 -  If an Aeon event title occurs more than once, the converter aborts
@@ -161,8 +170,9 @@ Aktualisieren rules for existing novelibre-Projekts
    date from the novelibre-Projekt is used. f there is no default date
    set, "today" is used.
 
-Aktualisieren rules for Aeon Timeline 2-Projekts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Aktualisierungsregeln für Aeon Timeline 2-Projekte
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  If an Aeon event title occurs more than once, the converter aborts
    with an error message.
@@ -195,11 +205,13 @@ Aktualisieren rules for Aeon Timeline 2-Projekts
    date from the novelibre-Projekt is used. f there is no default date
    set, "today" is used.
 
+
 Benutzerdefinierte Konfiguration
 --------------------------------
 
 You can override the default settings by providing a Konfigurationsdatei.
 Be always aware that faulty entries may cause program errors.
+
 
 Globale Konfiguration
 ~~~~~~~~~~~~~~~~~~~~~
@@ -209,6 +221,7 @@ directory in your user profile. It is applied to any project. Its
 entries override nv_aeon2’s built-in constants. This is the path:
 ``c:\Users\<user name>\.novx\config\nv_aeon2.ini``
 
+
 Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -217,6 +230,7 @@ placed in your project directory, i.e. the Ordner containing your
 novelibre and Aeon Timeline project files. It is only applied to this
 project. Its entries override aeon2nv’s built-in constants as well as
 the global Konfiguration, if any.
+
 
 How to provide/modify a Konfigurationsdatei
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

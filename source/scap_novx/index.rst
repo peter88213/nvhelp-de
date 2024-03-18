@@ -11,16 +11,17 @@ This page refers to the latest `scap_novx
 The scap_novx Python script creates a novelibre project from a Scapple outline.
 
 
-Instructions for use
---------------------
+Gebrauchsanweisung
+------------------
 
-Intended usage
-~~~~~~~~~~~~~~
+Vorgesehene Benutzung
+~~~~~~~~~~~~~~~~~~~~~
 
 The included installation script prompts you to create a shortcut on the desktop. You can launch the program by dragging a *scap* file and dropping it on the shortcut icon.
 
-Command line usage
-~~~~~~~~~~~~~~~~~~
+
+Auf der Kommandozeile
+~~~~~~~~~~~~~~~~~~~~~
 
 Alternatively, you can
 
@@ -29,20 +30,23 @@ Alternatively, you can
 
 usage: ``scap_novx.py [--silent] Sourcefile``
 
-positional arguments:
-^^^^^^^^^^^^^^^^^^^^^
+
+Positionsbezogene Parameter:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``Sourcefile``
 
 The path of the Scapple outline file.
 
-optional arguments:
-^^^^^^^^^^^^^^^^^^^
+
+Optionale Parameter:
+^^^^^^^^^^^^^^^^^^^^
 
 ``--silent``  suppress error messages and the request to confirm overwriting
 
-Mode of operation
------------------
+
+Funktionsweise
+--------------
 
 *Scappex* generates a new novelibre project file with the same file name as the Scapple source file,
 but with the extension ``.novx``. It is placed in the same directory as the source file.
@@ -50,8 +54,9 @@ but with the extension ``.novx``. It is placed in the same directory as the sour
 However, **if the novelibre project already exists, it would not be overwritten**. Character/Location/Item
 XML files are generated instead. They can be imported into any novelibre project.
 
-Conversion rules
-----------------
+
+Konvertierungsregeln
+--------------------
 
 - Notes with a shadow are converted to sections.
 - Notes with a shadow and "cloud" border are converted to "Notes" sections.
@@ -66,11 +71,12 @@ Conversion rules
 - Assign tags to sections/characters/locations/items by connecting the corresponding notes.
 - Assign a viewpoint character to a section by creating an arrow pointing from the character to the section. If a section is pointed to by several characters, or by no character, the viewpoint is random.
 
-How to mark notes for export
-----------------------------
 
-Import styles (optional)
-~~~~~~~~~~~~~~~~~~~~~~~~
+Wie man Einträge für den Export kennzeichnet
+--------------------------------------------
+
+Stile importieren (optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The scap_novx distribution comes with a sample Scapple project *styles.scap* including all required styles. You can either use this diagram as a template, or import the styles into your own Scapple diagram.
 
@@ -85,9 +91,10 @@ In the file picker dialog, select ``<unzipped scap_novx release folder>\sample\s
    :alt: Screenshot
    
    Screenshot: Apply style menu
-   
-Mark sections
-~~~~~~~~~~~~~
+
+
+Abschnitte kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Either apply the "Scene" style, if any, via context menu, or tick "Shadow" in the Inspector to mark the note as section.
 
@@ -98,18 +105,21 @@ Either apply the "Scene" style, if any, via context menu, or tick "Shadow" in th
    
 To make the section a "Notes" section, either apply the "NotesScene" style, or make its border style "Cloud" in the Inspector.
 
-Mark notes
-~~~~~~~~~~
+
+Notizen kennzeichnen
+~~~~~~~~~~~~~~~~~~~~
 
 Either apply the "Note" style, if any, via context menu, or make the note's border style "Cloud" in the Inspector.
 
-Mark tags
-~~~~~~~~~
+
+Tags kennzeichnen
+~~~~~~~~~~~~~~~~~
 
 Either apply the "Tag" style, if any, via context menu, or make the note's border style "Square" in the Inspector.
 
-Mark locations
-~~~~~~~~~~~~~~
+
+Schauplätze kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Either apply the "Location" style, if any, via context menu, or tick the big blue field above the text color swatch in the Inspector.
 
@@ -117,43 +127,49 @@ Either apply the "Location" style, if any, via context menu, or tick the big blu
    :alt: Screenshot
    
    Screenshot: Set text color
-   
-Mark major characters
-~~~~~~~~~~~~~~~~~~~~~
+
+
+Hauptfiguren kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Either apply the "Major character" style, if any, via context menu, or tick the big red field above the text color swatch in the Inspector.
 
-Mark minor characters
-~~~~~~~~~~~~~~~~~~~~~
+
+Nebenfiguren kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Either apply the "Minor character" style, if any, via context menu, or tick the big purple field above the text color swatch in the Inspector.
 
-Mark items
-~~~~~~~~~~
+
+Gegenstände kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Either apply the "Item" style, if any, via context menu, or tick the big green field above the text color swatch in the Inspector.
 
 
-Custom configuration
---------------------
+Benutzerdefinierte Konfiguration
+--------------------------------
 
 You can override the default settings by providing a configuration file. Be always aware that faulty entries may cause program errors.
 
-Global configuration
-~~~~~~~~~~~~~~~~~~~~
+
+Globale Konfiguration
+~~~~~~~~~~~~~~~~~~~~~
 
 An optional global configuration file can be placed in the configuration directory in your user profile. It is applied to any project. Its entries override scap_novx's built-in constants. This is the path:
 ``c:\Users\<user name>\.novx\scap_novx\scap_novx.ini``
 
 The setup script installs a sample configuration file containing scap_novx's default values. You can modify or delete it.
 
-Local project configuration
+
+Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An optional project configuration file ``scap_novx.ini2novx.ini`` can be placed in your project directory, i.e. the folder containing your novelibre and Timeline project files. It is only applied to this project. Its entries override scap_novx's built-in constants as well as the global configuration, if any.
 
-How to provide/modify a configuration file
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wie man eine Konfigurationsdatei erstellt oder anpasst
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The scap_novx distribution comes with a sample configuration file located in the ``sample`` subfolder. It contains scap_novx's default settings and options. This file is also automatically copied to the global configuration folder during installation. You best make a copy and edit it.
 
@@ -203,7 +219,7 @@ This is the configuration explained:
 
 
 
-Installation path
+Installationspfad
 -----------------
 
 The setup script installs *scap_novx.py* in the user profile. This is the installation path on Windows:

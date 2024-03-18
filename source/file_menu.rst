@@ -166,7 +166,7 @@ Manuskript verwerfen
 
 With **Datei > Manuskript verwerfen**,
 you can add the *.bak* extension to the `current Manuskript
-<export_menu#Manuskript-for-editing>`__.
+<export_menu#manuskript-zum-bearbeiten>`__.
 This may help to avoid confusion about changes made with *novelibre* and
 *Writer*.
 

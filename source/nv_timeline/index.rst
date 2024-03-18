@@ -8,8 +8,8 @@ Diese Seite gilt für die neueste Ausgabe von `nv_timeline
 You can open it with **Hilfe > Timeline-Plugin Online-Hilfe**.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
@@ -79,8 +79,9 @@ novelibre and Timeline project files. It is only applied to this
 project. Its entries override nv_timeline’s built-in constants as
 well as the global Konfiguration, if any.
 
-How to provide/modify a Konfigurationsdatei
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wie man eine Konfigurationsdatei erstellt oder anpasst
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The nv_timeline distribution comes with a sample Konfiguration
 file located in the ``sample`` Unterverzeichnis. It contains
@@ -114,16 +115,18 @@ This is the Konfiguration explained:
 
    # Tage between events with automatically generated dates.  
 
-How to reset the Konfiguration to defaults
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Just delete your global and local Konfigurationsdateis.
 
-Conventions
------------
 
-General
-~~~~~~~
+Konventionen
+------------
+
+Allgemein
+~~~~~~~~~
 
 -  The novelibre-Projekt file and the Timeline file are located in the
    same directory.
@@ -137,8 +140,9 @@ General
    changes. So if the program asks you for confirmation to overwrite a
    file, better check if it’s actually the target file.
 
-On the novelibre side
-~~~~~~~~~~~~~~~~~~~~~
+
+Auf der Seite von novelibre
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Only normal sections are synchronized with Timeline, or exported to
    Timeline. Unbenutzt sections will not show up in the timeline.
@@ -155,8 +159,9 @@ On the novelibre side
 -  Hinzufügening or removing sections will add or remove the corresponding
    event during synchronization.
 
-On the Timeline side
-~~~~~~~~~~~~~~~~~~~~
+
+Auf der Seite von Timeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  A section ID is a string looking like "sc1". It is auto-generated and
    must not be changed manually.
@@ -183,8 +188,8 @@ On the Timeline side
    dates are automatically generated with a one-day difference, starting
    from the novelibre-Projekt’s reference date.
 
-Known limitations
-~~~~~~~~~~~~~~~~~
+Bekannte Einschränkungen
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Abschnitt events that begin before 0001-01-01 in the timeline, will not
    be synchronized with novelibre, because novelibre can not handle

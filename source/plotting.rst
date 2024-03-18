@@ -2,11 +2,11 @@ Plotten mit novelibre
 =====================
 
 
-Anwenden a story structure model
---------------------------------
+Ein Strukturmodell anwenden
+---------------------------
 
 If you want to divide a story into stages according to a structure model
-(e.g. the *Three Act Model*, or the *Speichern The Cat* beatsheet), just
+(e.g. the *Three Act Model*, or the *Save The Cat* beatsheet), just
 insert the stages between the regular scenes at the beginning of each
 phase. This gives you color-coded subheadings in the Baumansicht.
 
@@ -22,8 +22,8 @@ you can save the story structure of your project for reuse.
 
 -----------------
 
-Defining Plotlinien
--------------------
+Plotlinien definieren
+---------------------
 
 *novelibre* provides *Plotlinien* as a powerful and flexible concept for
 plotting.
@@ -68,7 +68,7 @@ The *novelibre* `plot grid
 <export_menu.html#handlungsraster-(plot-grid)-zum-bearbeiten>`__ is a spreadsheet with a row for
 each section, and a set of plot-relevant section metadata in the columns.
 The first visible column contains links to the sections in the
-`Manuskript <export_menu.html#Manuskript-for-editing>`__.
+`Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__.
 Each Plotlinie has its own column in the plot grid,
 Where the `Plotlinie notes <section_view.html#plotlinien>`__ are shown.
 The plot grid offers you a convenient way to enter the Plotlinie notes by

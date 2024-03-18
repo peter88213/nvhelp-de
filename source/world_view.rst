@@ -114,14 +114,14 @@ Link öffnen
 Navigationsschaltflächen
 ------------------------
 
-Schauplatz view
-~~~~~~~~~~~~~~~
+Schauplatzansicht
+~~~~~~~~~~~~~~~~~
 
 - **Zurück** moves the selection to the previous location in the tree.
 - **Vor** moves the selection to the next location in the tree.
 
-Gegenstand view
-~~~~~~~~~~~~~~~
+Gegenstandsansicht
+~~~~~~~~~~~~~~~~~~
 
 - **Zurück** moves the selection to the previous Gegenstand in the tree.
 - **Vor** moves the selection to the next Gegenstand in the tree.

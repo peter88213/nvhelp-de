@@ -8,8 +8,8 @@ Diese Seite gilt für die neueste Ausgabe von `nv_collection
 You can open it with **Hilfe > Sammlung-Plugin Online-Hilfe**.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
@@ -18,22 +18,22 @@ The plugin adds a **Sammlung** entry to the *novelibre* **Datei**-Menü,
 and a **Sammlung-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
 
 
-Beginn the collection manager
------------------------------
+Die Sammlungen-Verwaltung aufrufen
+----------------------------------
 
 Öffnen the collection manager from the Hauptmenü:
 **Datei > Sammlung**.
 
 
-Öffnen a collection
--------------------
+Eine Sammlung öffnen
+--------------------
 
 By default, the latest collection selected is preset.
 You can change it with **Datei > Öffnen**.
 
 
-Create a neu collection
------------------------
+Eine neue Sammlung ereugen
+--------------------------
 
 With **Datei > Neu**, you can erzeugen a neu collection.
 This will close the current collection and open a file dialog
@@ -41,23 +41,23 @@ asking for the location and file name of the collection to erzeugen.
 Once you specified a valid file path, a blank collection appears.
 
 
-Create a neu Serie
-------------------
+Eine neue Serie erzeugen
+------------------------
 
 With **Serie > Hinzufügen**, you can add a neu Serie.
 Bearbeiten the Serie’ title and description in the right window.
 
 
-Hinzufügen Bücher to the collection
------------------------------------
+Bücher zur Sammlung hinzufügen
+------------------------------
 
 To add the current novelibre-Projekt as a book to the collection,
 use **Buch > Aktuelles Projekt zur Sammlung hinzufügen**.
 If a Serie is selected, the book is added as a part of this Serie.
 
 
-Aktualisieren book description
-------------------------------
+Die Buchbeschreibung aktualisieren
+----------------------------------
 
 To aktualisieren the book description from the current project,
 use **Buch > Buchdaten aus aktuellem Projekt aktualisieren**.
@@ -69,15 +69,15 @@ To aktualisieren the current project description from the book,
 use **Buch > Aktualisieren project data from the selected project**.
 
 
-Entfernen Bücher from the collection
-------------------------------------
+Bücher aus der Sammlung entfernen
+---------------------------------
 
 To remove the selected book from the collection,
 use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
 
 
-Move Serie and Bücher
----------------------
+Serien ünd Bücher veschieben
+----------------------------
 
 Drag and drop while pressing the ``Alt`` key.
 
@@ -85,7 +85,7 @@ Drag and drop while pressing the ``Alt`` key.
    Be aware, there is no "Undo" feature.
 
 
-Entfernen Bücher
+Bücher entfernen
 ----------------
 
 To remove a book from the collection,
@@ -97,8 +97,8 @@ or use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
    the project file associated is kept on disc.
 
 
-Löschen a Serie
----------------
+Eine Serie löschen
+------------------
 
 To delete a Serie,
 either select the Serie and hit the ``Del`` key,

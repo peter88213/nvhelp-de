@@ -8,8 +8,8 @@ Diese Seite gilt für die neueste Ausgabe von `nv_editor
 You can open it with **Hilfe > Editor-Plugin Online-Hilfe**.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
 - Unzip the downloaded zipfile into a new folder.
 - Move into this new folder and launch **setup.pyw**. This installs the plugin.
@@ -18,8 +18,8 @@ The plugin adds an **Bearbeiten** entry to the *novelibre* **Abschnitt**-Menü,
 and an **Editor-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
 
 
-Launch the section editor
--------------------------
+Den Abschnittseditor aufrufen
+-----------------------------
 
 Öffnen a section editor window by double-clicking on a section,
 or via the **Abschnitt > Bearbeiten**-Menü entry when a section is selected,
@@ -31,8 +31,9 @@ or by hitting the ``Enter`` key.
    -  If you choose a section already open, the window will be brought to
       the foreground.
 
-Select text
------------
+
+Text auswählen
+--------------
 
 -  Select a word via double-clicking.
 -  Select a paragraph via triple-clicking.
@@ -40,15 +41,17 @@ Select text
 -  Extend the selection to the next word via ``Ctrl``-``Shift``-``Arrow``.
 -  ``Ctrl``-``A`` selects the whole text.
 
-Kopieren/Einfügen text
+
+Text kopieren/einfügen
 ----------------------
 
 -  ``Ctrl``-``C`` copies the selected text to the clipboard.
 -  ``Ctrl``-``X`` cuts the selected text and moves it to the clipboard.
 -  ``Ctrl``-``V`` pastes the clipboard text content to the cursor position.
 
-Format text
------------
+
+Text formatieren
+----------------
 
 .. role:: html(code)
    :language: html
@@ -76,14 +79,15 @@ text:
 -  ``Ctrl``-``M`` removes "emphasized" and "strong" markup from the selection.
 
 
-Undo/Redo
----------
+Rückgängig machen/Wiederherstellen
+----------------------------------
 
 -  ``Ctrl``-``Z`` undoes the last editing. Multiple undo is possible.
 -  ``Ctrl``-``Y`` redoes the last undo. Multiple redo is possible.
 
-Split a section
----------------
+
+Einen Abschnitt teilen
+----------------------
 
 With **Datei > An der Cursorposition teilen** or ``Ctrl``-``Alt``-``S``,
 you can split the section at the cursor position.
@@ -98,8 +102,9 @@ you can split the section at the cursor position.
    edited section.
 -  The editor loads the neuly erzeugend section.
 
-Create a section
-----------------
+
+Einen Abschnitt erzeugen
+------------------------
 
 With **Datei > Abschnitt erzeugen** or ``Ctrl``-``Alt``-``N``,
 you can erzeugen a section.
@@ -142,7 +147,7 @@ Then "Modified" status is displayed in *novelibre*.
    XML validity. Malformed XML will not be accepted. 
 
 
-Schließen the editor window
+Das Editorfenster schließen
 ---------------------------
 
 -  To close the editor window, click on the **Schließen** button,

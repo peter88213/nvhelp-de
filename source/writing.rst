@@ -1,8 +1,8 @@
-Writing the Manuskript
-======================
+Am Manuskript schreiben
+=======================
 
-Beginning Writer as text editor
--------------------------------
+Writer als Texteditor aufrufen
+------------------------------
 
 .. note::
    The following example describes the Manuskript editing workflow 
@@ -103,8 +103,8 @@ the sections.
    and the impression of an original Manuskript page is retained. 
  
 
-Writing changes back to novelibre
----------------------------------
+Änderungen zu novelibre zurückschreiben
+---------------------------------------
 
 At the end of the writing session, save the changes, exit the *Writer*
 word processor, and return to *novelibre*. Simply click on the
@@ -123,8 +123,8 @@ appear.
       green, because the file is newer than the open project. 
 
 
-Creating new sections with Writer
----------------------------------
+Mit Writer neue Abschnitte anlegen
+----------------------------------
 
 If you need a new section while writing, you don't have to switch
 to *novelibre*. Simply start a new line with a special marker
@@ -153,8 +153,8 @@ but no other metadata.
    *novelibre* screenshot: Notice the selected new section 
 
 
-Creating new chapters with Writer
----------------------------------
+Mit Writer neue Kapitel anlegen
+-------------------------------
 
 If you need a new chapter while writing, you don't have to switch to
 *novelibre*. Simply start a new line *within the edited section*
