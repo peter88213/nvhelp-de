@@ -194,7 +194,7 @@ Speichern unter...
 
 **Speichern the project with another file name/at another place**
 
-Mit **Datei > Speichern unter...** or ``Strg``-``Shift``-``S``,
+Mit **Datei > Speichern unter...** or ``Strg``-``⇧``-``S``,
 you can save the project with another file name/at another place.
 Then a file select dialog opens to specify the new path and file name.
 

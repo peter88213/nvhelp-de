@@ -264,7 +264,7 @@ You can open a dialog for settings concerning the document export.
 Vor dem Öffnen exportierter Dokumente nachfragen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This checkbox controls the behavior on document export.
+This Auswahlfeld controls the behavior on document export.
 
 - If ticked, you will be asked whether you want to
   have *novelibre* launch *Writer* or *Calc* with the newly created
@@ -277,7 +277,7 @@ This checkbox controls the behavior on document export.
 Nach dem Dokumentenexport zum Editieren das Projekt sperren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This checkbox controls the behavior on opening documents for editing.
+This Auswahlfeld controls the behavior on opening documents for editing.
 
 - If ticked, *novelibre* will `lock the project
   <basic_concepts.html#projekt-sperre>`__ when launching *Writer* or *Calc*.

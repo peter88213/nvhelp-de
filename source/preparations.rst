@@ -217,10 +217,10 @@ Das Aussehen des Manuskripts anpassen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Manuskript created by *novelibre* has a layout that is similar to the
-"standard Manuskript format" which is widely used to provide an overview
+"Normseite" which is widely used to provide an overview
 of the total number of pages of a work to be printed.
 
-However, the set font "Courier Neu" is only available for Windows, and it is
+However, the set font "Courier New" is only available for Windows, and it is
 not particularly attractive (I, for my part, have installed  the free
 `Courier Prime font <https://quoteunquoteapps.com/courierprime/>`__
 on Windows and Linux, which gives me a pleasant typewriter feel).
@@ -246,7 +246,7 @@ your Manuskript with a single mouse click.
    If you just want to change the font without applying templates, 
    you can achieve this by having LibreOffice replace it automatically. 
    For this, open the **Optionen** dialog and go to **Fonts**. 
-   Tick the **Anwenden replacement table** checkbox. 
+   Tick the **Anwenden replacement table** Auswahlfeld. 
    Then enter the fonts of your choice. 
    
    *novelibre* uses "Courier Neu" for text documents, and "Calibri" 

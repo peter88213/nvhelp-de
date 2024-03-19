@@ -5,9 +5,9 @@ Der Arbeitsbereich
 Der Arbeitsbereich von *novelibre* ist in drei Fenster unterteilt:
 
 .. figure:: _images/desktop01.png
-   :alt: Desktop
+   :alt: Arbeitsbereich
 
-   Desktop
+   Arbeitsbereich
 
 
 Projektbaum
@@ -20,12 +20,12 @@ Der Projektbaum im linken Fenster zeigt die Organisation des Projekts.
   Abschnitte vom Typ *Normal* sind farblich hervorgehoben, je nach dem, welcher
   Farbgebungsmodus eingestellt ist (siehe *Optionen*
   im `Ansicht-Menü <view_menu.html#farbgebungsmodus>`__).
-- Die Anordnung der Spalten kann geändert werden (siehe *Optionen* im
+- Die Reihenfolge der Spalten kann geändert werden (siehe *Optionen* im
   `Ansicht-Menü <view_menu.html#spalten>`__).
 - Beim Rechtsklick auf ein Baumelement öffnet sich ein `Kontextmenü
   <tree_context_menu.html>`__ mit verschiedenen Auswahlmöglichkeiten.
-- Der Typ der Kapitel und Abschnitte kann ebenso wie der Fertigstellungs-
-  status der Abschnitte über das Kontextmenü geändert werden.
+- Der Typ der Kapitel und Abschnitte kann ebenso wie der Fertigstellungsstatus
+  der Abschnitte über das Kontextmenü geändert werden.
 
 
 Projektbaumstruktur
@@ -36,8 +36,10 @@ Projektbaumstruktur
 - Die **Figuren/Schauplätze/Gegenstände**-Zweige enthalten Beschreibungen
   der Weltenbau-Elemente, die zu den Buchabschnitten in Beziehung gesetzt
   werden können.
-- Der **Plotlinien**-Zweig umfasst die Plotlinien und Plotpunkte.
-- Der **Projektnotizen**-Zweig enthält alle Projektnotizen.
+- Der **Plotlinien**-Zweig umfasst die `Plotlinien und Plotpunkte
+  <plotting.html#plotlinien-definieren>`__.
+- Der **Projektnotizen**-Zweig enthält `Projektnotizen
+  <project_note_view.html>`__.
 
 
 Arbeiten im Projektbaum
@@ -48,8 +50,8 @@ Sich durch den Baum bewegen
    Damit kann man sich vor- und zurückbewegen, zum Beispiel zwischen einem
    Abschnitt und den Figuren, die in ihm vorkommen.
 
-   -  |Gehe zurück| geht einen Knoten zurück in im Browserverlauf.
-   -  |Gehe vor| geht einen Knoten vor in im Browserverlauf.
+   - |Gehe zurück| geht einen Knoten zurück in im Browserverlauf.
+   - |Gehe vor| geht einen Knoten vor in im Browserverlauf.
 
    .. hint::
       Unter Windows sollten die "Vor" und "Zurück"-Maustasten (falls 
@@ -71,60 +73,65 @@ Baumelemente löschen
 Das zu löschende Element auswählen und die ``Entf``-Taste drücken.
 
 - Teile und Kapitel werden gelöscht.
-- Abschnitte werden als "unbenutzt" gekennzeichnet und ins
-  "Papierkorb"-Kapitel verschoben.
--  Deleting a part has no effect on its subordinate chapters.
--  Deleting a chapter moves its sections to the "Papierkorb" chapter.
--  The "Papierkorb" chapter is created automatically, if needed.
--  When deleting the "Papierkorb" chapter, all its sections are gelöscht.
+- Abschnitte werden als "unbenutzt" gekennzeichnet und in den
+  "Papierkorb" verschoben.
+- Einen Teil zu löschen, hat keinen Einfluss auf nachgeordnete
+  Kapitel.
+- Wird ein Kapitel gelöscht, werden dessen Abschnitte in den
+  "Papierkorb" verschoben.
+- Das "Papierkorb"-Kapitel wird automatisch erstellt, wenn es gebraucht wird.
+- Wird das "Papierkorb"-Kapitel gelöscht, löscht das auch die enthaltenen Abschnitte.
 
 
 Textbetrachter
 --------------
 
-Der **Textbetrachter** im mitleren Fenster shows the part/chapter/section
-contents with their Titels as headings.
+Der **Textbetrachter** im mittleren Fenster zeigt die Inhalte der Teile,
+Kapitel und Abschnitte mit deren Titeln als Überschriften.
 
--  You can open or close the Textbetrachter with **Ansicht > Toggle Text
-   viewer**, or ``Strg``-``T``, or clicking on |Textbetrachter anzeigen/verbergen|.
--  On opening, the windows shows the text, where the tree is selected.
--  When changing the tree selection, the text moves along.
--  However, the text can be scrolled independently with the verical
-   scrollbar, or the mousewheel.
--  You can select text with the mouse, and copy it to the clipboard with
-   ``Strg``-``C``.
--  You cannot edit the text. For this, you might want to install an
-   editor plugin, such as
-   `nv_editor <https://github.com/peter88213/nv_editor/>`__.
--  Abschnitt text is color-coded according to the section type (see `Basic
-   concepts <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
--  Mit the **Markup anzeigen** checkbox, XML markup can be shown/hidden.
+- Mit **Ansicht > Textbetrachter anzeigen/verbergen** oder ``Strg``-``T``
+  oder Klick auf |Textbetrachter anzeigen/verbergen| kann man das mittlere
+  Fenster mit dem Textbetrachter öffnen und schließen.
+- Beim Öffnen zeigt der Textbetrachter den Text an der Stelle des aktuell
+  gewählten Abschnitts an.
+- Wird die Auswahl im Baum geändert, bewegt sich der angezeigte Text mit.
+- Allerdings kann man den Text auch unabhängig davon mit dem Mausrad oder
+  dem Scrollbalken scrollen.
+- Man kann Text mit der Maus auswählen und mit ``Strg``-``C`` in die
+  Zwischenablage kopieren.
+- Man kann den Text nicht im Betrachter bearbeiten.
+  Für so etwas benötigt man ein Editor-Plugin, wie zum Beispiel
+  `nv_editor <https://github.com/peter88213/nv_editor/>`__.
+- Der Abschnittstext ist entsprechend dem Abschnittstyp eingefärbt
+  (siehe `Gtundlegende Konzepte <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
+- Mit dem Auswahlfeld **Markup anzeigen** kann man das XML-Markup
+  anzeigen oder verbergen.
 
 
 Eigenschaften
 -------------
 
-The `Eigenschaften <properties.html>`__ im rechten Fenster show properties
-and metadata of the element selected in the project tree.
+Die `Eigenschaften-Ansicht <properties.html>`__ im rechten Fenster zeigt
+Eigenschaften und Metadaten des ausgewählten Baumelements an.
 
--  The project settings can be made in the *Buch* properties view.
--  You can open or close the element properties window with **Ansicht >
-   Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``, or clicking on
-   |Eigenschaften anzeigen/verbergen|.
--  On opening, the windows shows the editable properties of the selected
-   element.
--  You can detach or dock the element properties window with **Ansicht >
-   Eigenschaften abtrennen/andocken** or ``Strg``-``Alt``-``D``.
--  On closing the detached window, the properties are docked again.
+- Projekteinstellungen werden mit den *Buch*-Eigenschaften vorgenommen.
+- Mit **Ansicht > Eigenschaften anzeigen/verbergen** oder ``Strg``-``Alt``-``T``
+  oder Klick auf |Eigenschaften anzeigen/verbergen| kann man das rechte Fenster
+  mit den Eigenschaften öffnen und schließen.
+- Beim Öffnen zeigt das Fenster die Eigenschaften des aktuell gewählten
+  Baumelements an.
+- Mit **Ansicht > Eigenschaften abtrennen/andocken** oder ``Strg``-``Alt``-``D``
+  kann man das Eigenschaftsfenster abtrennen und wieder andocken.
+- Schließt man das abgetrennte Eigenschaftsfenster, wird es wieder angedockt.
 
-On large screens, you can arrange *novelibre* and *Writer* with detached
-windows.
+Auf großen Bildschirmen kann man *novelibre* und *Writer* mit abgekoppelten
+Fenstern anordnen.
 
 .. figure:: _images/full_desktop.png
-   :alt: Writer and novelibre screen arrangement
+   :alt: Bildschirmanordnung von Writer und novelibre 
    
-   Example: Arranging LibreOffice (middle) with detached Navigator (upper left) 
-   and novelibre (lower left) with detached Eigenschaften (right) 
+   Beispiel: LibreOffice (Mitte) mit abgetrenntem Navigator (oben links),
+   und novelibre (unten links) mit abgetrennten Eigenschaften (rechts) 
 
 
 .. |Gehe zurück| image:: _images/goBack.png
@@ -136,40 +143,43 @@ windows.
 Menüleiste
 ----------
 
-The bar at the top is the-Menü bar with the main-Menü,
-which is documented in the `Befehlsreferenz <command_reference.html>`__.
+Die Leiste ganz oben ist die Menüleiste mit dem Hauptmenü,
+das in der `Befehlsreferenz <command_reference.html>`__
+dokumentiert ist.
 
 
 Werkzeugleiste
 --------------
 
-The second bar from the top is the toolbar with
-`Schaltflächen for frequently used actions <toolbar.html>`__.
+Die zweite Leiste von oben ist die Werkzeugleiste mit den
+`Schaltflächen für häufige Vorgänge <toolbar.html>`__.
 
 
 Statusleiste
 ------------
 
-The second bar from the bottom is the status bar. It normally displays project
-statistics, such as word count. These are overwritten with program messages
-when necessary.
+Die zweite Leiste von unten ist die Statusleiste.
+Normalierweise zeigt sie statistische Angaben zum Projekt,
+wie zum Beispiel die Wortzahl.
+Bei Bedarf werden sie mit Meldungen des Programms überschrieben.
 
-- Messages on a green background indicate successful actions.
-- Messages on a red background indicate errors or warnings.
+- Meldungen vor grünem Hintergrund zeigen erfolgreiche Vorgänge an.
+- Meldungen vor rotem Hintergrund zeigen Warnungen oder Fehlermeldungen an.
 
 .. tip::
-   You can restore the normal view at any time by clicking on the status bar.
+   Die Normalansicht kann man jederzeit durch Klicken auf die 
+   Statusleiste wiederherstellen.
    
 
-Fußzeile
---------
+Fußleiste
+---------
 
-The footer bar at the bottom displays the project file path and the file date.
+Die Fußleiste ganz unten zeigt den Pfad und das Speicherdatum der Projektdatei an.
 
-Change notification
-   If there are unsaved changes, the footer bar is highlighted in goldenrod.
+Änderungsanzeige
+   Wenn es ungesicherte Änderungen gibt, ist die Fußleiste goldgelb.
 
-Project lock
-   If the project is locked, the footer bar is displayed in reversed colors.
+Projektsperre
+   Ist das Projekt gesperrt, wird die Fußleiste invertiert angezeigt.
 
 

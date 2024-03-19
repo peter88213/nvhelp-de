@@ -78,7 +78,7 @@ Aufklappen or collapse this frame by clicking on the label.
    :alt: novelibre screenshot
 
 Auto number chapters/parts when refreshing the tree
-   If this checkbox is ticked, all chapters/parts are automatically numbered
+   If this Auswahlfeld is ticked, all chapters/parts are automatically numbered
    each time `the tree is refreshed <file_menu.html#baum-aktualisieren>`__.
    The chapter Titels are replaced with a ``prefix-number-suffix``
    pattern (without the dashes).
@@ -96,12 +96,12 @@ Prefix and suffix entries can be completed by pressing the Eingabetaste.
 
 Römische Kapitelnummern
    By default, arabic numbers, like "1", "2", "3" ... are used for auto-numbering.
-   If this checkbox is ticked, Roman numbers, like "I", "II", "III", "IV" ...
+   If this Auswahlfeld is ticked, Roman numbers, like "I", "II", "III", "IV" ...
    are used instead.
 
 Reset chapter numbers when starting a new part
    By default, the chapters are numbered consistently across the parts.
-   If this checkbox is ticked, the chapter numbering starts again with "1"
+   If this Auswahlfeld is ticked, the chapter numbering starts again with "1"
    in each part.
 
 
@@ -200,7 +200,7 @@ writing progress.
 Schreibfortschritt protokollieren
    By default, *novelibre* stores a log entry with the word counts
    for each day on which you edit the project. You can prevent
-   this by unticking the **Schreibfortschritt protokollieren** checkbox.
+   this by unticking the **Schreibfortschritt protokollieren** Auswahlfeld.
 
    .. hint::
       For viewing the daily progress log, you may want to 

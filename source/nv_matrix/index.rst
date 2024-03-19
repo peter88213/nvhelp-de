@@ -35,7 +35,7 @@ Scrollen mit dem Mausrad
 ------------------------
 
 -  Use the mouse wheel for vertical scrolling.
--  Use the mouse wheel with the ``Shift`` key pressed for horizontal
+-  Use the mouse wheel with the ``⇧`` key pressed for horizontal
    scrolling.
 
 

@@ -40,7 +40,7 @@ in the Baumansicht's sort order.
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** checkbox, you can change the `section type
+Mit te **Unbenutzt** Auswahlfeld, you can change the `section type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 An den vorherigen Abschnitt anhängen

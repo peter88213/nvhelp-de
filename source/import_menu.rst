@@ -27,7 +27,7 @@ current project.
 -  After closing a listed document in *Writer* while the *Exportierened
    documents* window is open, you can click on the **Ansicht aktualisieren**
    Schaltfläche.
--  If the **Dokument nach dem Importierenieren verwerfen** checkbox is checked, a
+-  If the **Dokument nach dem Importierenieren verwerfen** Auswahlfeld is checked, a
    document will be gelöscht after re-import. This may help to avoid
    confusion about changes made with *novelibre* and *Writer*.
 

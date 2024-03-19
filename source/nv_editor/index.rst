@@ -37,8 +37,8 @@ Text auswählen
 
 -  Select a word via double-clicking.
 -  Select a paragraph via triple-clicking.
--  Extend the selection via ``Shift``-``Arrow``.
--  Extend the selection to the next word via ``Strg``-``Shift``-``Arrow``.
+-  Extend the selection via ``⇧``-``Pfeil``.
+-  Extend the selection to the next word via ``Strg``-``⇧``-``Pfeil``.
 -  ``Strg``-``A`` selects the whole text.
 
 

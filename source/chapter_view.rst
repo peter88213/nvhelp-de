@@ -32,14 +32,14 @@ anywhere outside the text input field.
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** checkbox, you can change the `chapter type
+Mit te **Unbenutzt** Auswahlfeld, you can change the `chapter type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 
 Dieses Kapitel/diesen Teil nicht automatisch nummerieren
 --------------------------------------------------------
 
-If this checkbox is ticked, the selected chapter or part will be excluded
+If this Auswahlfeld is ticked, the selected chapter or part will be excluded
 from `auto numbering <book_view.html#automatische-nummerierung>`_, and the Titel
 you enter manually will persist.
 

@@ -187,7 +187,7 @@ Große Symbole in der Werkzeugleiste
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 By default, the icon size is 16x16 pixels. If the *Große Symbole in der Werkzeugleiste*
-checkbox is ticked, 24x24 icons are used after the next program startup.
+Auswahlfeld is ticked, 24x24 icons are used after the next program startup.
 
 .. note::
    This applies not only to the toolbar, but also to all other
