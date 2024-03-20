@@ -14,7 +14,7 @@ Plugins
 
 -----------------
 
-|github| `View on GitHub <https://github.com/peter88213/nvhelp-en/>`__
+|github| `View on GitHub <https://github.com/peter88213/nvhelp-de/>`__
 
 |novelibre| `novelibre home page <https://github.com/peter88213/novelibre/>`__
 
@@ -22,4 +22,4 @@ Plugins
    :target: https://github.com/peter88213/novelibre/
 
 .. |github| image:: _images/github.png
-   :target: https://github.com/peter88213/
+   :target: https://github.com/peter88213/nvhelp-de/
