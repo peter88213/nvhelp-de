@@ -1,5 +1,13 @@
 nv_updater
-=================
+==========
+
+`English <https://peter88213.github.io/nvhelp-en/nv_updater/>`__
+
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs
+   ist noch in Arbeit.
+   Deshalb gibt es den Text vorerst nur auf englisch.
+   Die Abbildungen zeigen jedoch schon teilweise die deutsche Fassung.
 
 **User guide**
 

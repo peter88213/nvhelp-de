@@ -1,6 +1,14 @@
 nv_aeon2
 ========
 
+`English <https://peter88213.github.io/nvhelp-en/nv_aeon2>`__
+
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs
+   ist noch in Arbeit.
+   Deshalb gibt es den Text vorerst nur auf englisch.
+   Die Abbildungen zeigen jedoch schon teilweise die deutsche Fassung.
+
 **User guide**
 
 This page refers to the latest `nv_aeon2
@@ -113,7 +121,7 @@ Known limitations
 Conversion rules for newly created novelibre projects
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The names/column labels refer to timelines based on the "yWriter"
+The names/column labels refer to timelines based on the "novelibre"
 template.
 
 -  If an Aeon event title occurs more than once, the program aborts with

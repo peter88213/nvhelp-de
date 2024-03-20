@@ -1,6 +1,15 @@
 scap_novx
 =========
 
+`English <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
+
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs
+   ist noch in Arbeit.
+   Deshalb gibt es den Text vorerst nur auf englisch.
+   Die Abbildungen zeigen jedoch schon teilweise die deutsche Fassung.
+
+
 **User guide**
 
 This page refers to the latest `scap_novx

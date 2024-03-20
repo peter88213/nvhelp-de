@@ -1,6 +1,14 @@
 novx_xtg
 ========
 
+`English <https://peter88213.github.io/nvhelp-en/novx_xtg>`__
+
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs
+   ist noch in Arbeit.
+   Deshalb gibt es den Text vorerst nur auf englisch.
+   Die Abbildungen zeigen jedoch schon teilweise die deutsche Fassung.
+
 **User guide**
 
 This page refers to the latest `novx_xtg
