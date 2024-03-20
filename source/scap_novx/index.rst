@@ -1,7 +1,9 @@
 scap_novx
 =========
 
-`English <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
+|external-link| `English <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
+
+.. |external-link| image:: ../_images/external-link.png
 
 **Benutzerhandbuch**
 

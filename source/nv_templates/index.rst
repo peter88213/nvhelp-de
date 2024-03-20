@@ -1,7 +1,9 @@
 nv_templates
 ============
 
-`English <https://peter88213.github.io/nvhelp-en/nv_templates/>`__
+|external-link| `English <https://peter88213.github.io/nvhelp-en/nv_templates/>`__
+
+.. |external-link| image:: ../_images/external-link.png
 
 **Benutzerhandbuch**
 

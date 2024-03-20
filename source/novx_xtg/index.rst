@@ -1,7 +1,9 @@
 novx_xtg
 ========
 
-`English <https://peter88213.github.io/nvhelp-en/novx_xtg/>`__
+|external-link| `English <https://peter88213.github.io/nvhelp-en/novx_xtg/>`__
+
+.. |external-link| image:: ../_images/external-link.png
 
 **Benutzerhandbuch**
 

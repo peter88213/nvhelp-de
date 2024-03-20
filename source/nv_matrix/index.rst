@@ -1,7 +1,9 @@
 nv_matrix
 =========
 
-`English <https://peter88213.github.io/nvhelp-en/nv_matrix/>`__
+|external-link| `English <https://peter88213.github.io/nvhelp-en/nv_matrix/>`__
+
+.. |external-link| image:: ../_images/external-link.png
 
 **Benutzerhandbuch**
 

@@ -4,7 +4,9 @@
 .. |novelibre logo| image:: _images/nLogo32.png
    :target: https://github.com/peter88213/novelibre/
 
-`English <https://peter88213.github.io/nvhelp-en/>`__
+|external-link| `English <https://peter88213.github.io/nvhelp-en/>`__
+
+.. |external-link| image:: _images/external-link.png
 
 Diese Seite bezieht sich auf die aktuelle Ausgabe von `novelibre
 <https://github.com/peter88213/novelibre/>`__

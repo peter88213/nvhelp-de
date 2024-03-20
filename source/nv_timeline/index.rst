@@ -1,7 +1,9 @@
 nv_timeline
 ===========
 
-`English <https://peter88213.github.io/nvhelp-en/nv_timeline/>`__
+|external-link| `English <https://peter88213.github.io/nvhelp-en/nv_timeline/>`__
+
+.. |external-link| image:: ../_images/external-link.png
 
 **Benutzerhandbuch**
 
