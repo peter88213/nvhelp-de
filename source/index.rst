@@ -33,7 +33,7 @@ Man kann sie mit **Hilfe > Online-Hilfe** aufrufen.
 
 -----------------
 
-|github| `Auf GitHub ansehen <https://github.com/peter88213/nvhelp-en/>`__
+|github| `Auf GitHub ansehen <https://github.com/peter88213/nvhelp-de/>`__
 
 |novelibre| `novelibre Homepage <https://github.com/peter88213/novelibre/>`__
 
@@ -41,4 +41,4 @@ Man kann sie mit **Hilfe > Online-Hilfe** aufrufen.
    :target: https://github.com/peter88213/novelibre/
 
 .. |github| image:: _images/github.png
-   :target: https://github.com/peter88213/
+   :target: https://github.com/peter88213/nvhelp-de/
