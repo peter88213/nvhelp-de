@@ -1,6 +1,8 @@
 nv_collection
 =============
 
+`English <https://peter88213.github.io/nvhelp-en/nv_collection/>`__
+
 **Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_collection

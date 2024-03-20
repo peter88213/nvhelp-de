@@ -1,6 +1,8 @@
 novx_xtg
 ========
 
+`English <https://peter88213.github.io/nvhelp-en/novx_xtg/>`__
+
 **Benutzerhandbuch**
 
 `novx_xtg User guide (English) <https://peter88213.github.io/nvhelp-en/novx_xtg/>`__

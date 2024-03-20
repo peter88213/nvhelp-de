@@ -1,6 +1,8 @@
 nv_updater
 ==========
 
+`English <https://peter88213.github.io/nvhelp-en/nv_update/>`__
+
 **Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_updater

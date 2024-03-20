@@ -1,6 +1,8 @@
 nv_aeon2
 ========
 
+`English <https://peter88213.github.io/nvhelp-en/nv_aeon2/>`__
+
 **Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_aeon2

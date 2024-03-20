@@ -1,6 +1,8 @@
 scap_novx
 =========
 
+`English <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
+
 **Benutzerhandbuch**
 
 `scap_novx User guide (English) <https://peter88213.github.io/nvhelp-en/scap_novx/>`__

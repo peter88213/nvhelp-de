@@ -1,6 +1,8 @@
 nv_editor
 =========
 
+`English <https://peter88213.github.io/nvhelp-en/nv_editor/>`__
+
 **Benutzerhandbuch**
 
 Diese Seite gilt für die neueste Ausgabe von `nv_editor
