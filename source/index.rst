@@ -1,6 +1,3 @@
-|novelibre logo| novelibre Benutzerhandbuch
-===========================================
-
 .. |novelibre logo| image:: _images/nLogo32.png
    :target: https://github.com/peter88213/novelibre/
 
@@ -8,13 +5,20 @@
 
 .. |external-link| image:: _images/external-link.png
 
+-----------------
+
+===========================================
+|novelibre logo| novelibre Benutzerhandbuch
+===========================================
+
+
 Diese Seite bezieht sich auf die aktuelle Ausgabe von `novelibre
 <https://github.com/peter88213/novelibre/>`__
 Man kann sie mit **Hilfe > Online-Hilfe** aufrufen.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Inhalt
    
    preparations
    desktop

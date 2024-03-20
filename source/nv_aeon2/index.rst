@@ -1,9 +1,12 @@
-nv_aeon2
-========
-
 |external-link| `English <https://peter88213.github.io/nvhelp-en/nv_aeon2/>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+========
+nv_aeon2
+========
 
 **Benutzerhandbuch**
 

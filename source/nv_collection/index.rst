@@ -1,9 +1,12 @@
-nv_collection
-=============
-
 |external-link| `English <https://peter88213.github.io/nvhelp-en/nv_collection/>`__
 
 .. |external-link| image:: ../_images/external-link.png
+
+-----------------
+
+=============
+nv_collection
+=============
 
 **Benutzerhandbuch**
 
