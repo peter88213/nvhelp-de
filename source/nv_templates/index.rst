@@ -74,7 +74,7 @@ Konventionen
 ------------
 
 In *novelibre*, you can define a narrative structure with stages. See
-`Plotlinien <https://github.com/peter88213/novelibre/help/plotting>`__.
+`Plotten mit novelibre <../plotting.html>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 
 
