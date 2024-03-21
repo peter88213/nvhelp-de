@@ -18,7 +18,7 @@ release. You can open it with **Help > Online help**.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Inhalt
    
    preparations
    desktop
