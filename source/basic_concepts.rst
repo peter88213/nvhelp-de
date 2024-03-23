@@ -159,8 +159,8 @@ oder Überarbeiten.
 Text formatieren
 ----------------
 
-Es wird davon ausgegangen, dass für einen Romantext nur einige wenige
-Arten von Textauszeichnung benötigt werden.
+Es wird vorausgesetzt, dass ein Romantext nur einige wenige
+Arten von Textauszeichnung braucht.
 Beim Import von ODT unterstützt *novelibre* die folgenden Formate:
 
 -  *Betont*-Zeichenstil oder Kursivschrift.
@@ -175,7 +175,7 @@ Kommentare, Fuß- und Endnoten
 *novelibre* unterstützt ODT-Kommentare, Fußnoten und Endnoten.
 
 .. tip::
-   *novelibre* bietet keine Unterstützung für Bilder im Textkörper.
+   *novelibre* bietet keine Unterstützung für Bilder.
    Man kann dafür Kommentare als Platzhalter benutzen, um sie
    ganz am Schluss durch die Bilder (oder andere Sonderformatierungen, 
    die nicht durch *novelibre* abgedeckt sind) zu ersetzen, 
