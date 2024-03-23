@@ -135,7 +135,7 @@ to be entered in *novelibre* later.
 .. tip::
    As of *novelibre* version 3.0.2, you can use ``####`` to create
    an `appended section 
-   <section_view.html#an-den-vorherigen-abschnitt-anhängen>`__. 
+   <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__. 
 
 The following example shows how to split an existing section:
 

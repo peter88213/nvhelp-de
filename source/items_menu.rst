@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new item**
 
 Mit **Gegenstände > Hinzufügen**,
-you can add an `item <basic_concepts.html#figuren-und-erzählwelt>`__
+you can add an `item <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If an item is selected, the new item is placed after the selected

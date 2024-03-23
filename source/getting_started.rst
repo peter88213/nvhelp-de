@@ -139,17 +139,17 @@ If you want to outline your novel using a `plot grid
 1. Create an empty new project as described above.
 2. Hinzufügen a single chapter.
 3. Select this chapter, then `add multiple sections
-   <section_menu.html#mehrere-abschnitte-hinzufügen>`__.
+   <section_menu.html#mehrere-abschnitte-hinzufugen>`__.
 4. If you need a number of new sections above the limit,
    repeat step 3.
    However, it is recommended to start with a few sections
    that are easier to distribute to the chapters to be created later.
    You can extend the plot grid over time.
-5. Create the `Plotlinien <plot_menu.html#plotlinie-hinzufügen>`__ you need.
+5. Create the `Plotlinien <plot_menu.html#plotlinie-hinzufugen>`__ you need.
 6. `Exportieren a plot grid <export_menu.html#handlungsraster-(plot-grid)-zum-bearbeiten>`__
    and fill the table cells.
 7. `Importieren <import_menu.html>`__ the plot grid.
-8. `Hinzufügen more chapters <chapter_menu.html#hinzufügen>`__ and
+8. `Hinzufügen more chapters <chapter_menu.html#hinzufugen>`__ and
    `move the sections <desktop.html#move-tree-elements>`__
    to them.
 

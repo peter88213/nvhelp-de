@@ -8,100 +8,120 @@ Die Buch-Hierarchie
 Teile
 ~~~~~
 
-A novel is expected to be divided into chapters and sections. Teile
-are optional; technically they are first level chapters.
-However, in the *novelibre* project tree they are on the same
-level as the chapters, but they produce a heading one level above.
-Thus, Teile are mainly for inserting first level headings between the
-chapters, if needed.
+Es wird davon ausgegangen, dass ein Roman aus Kapiteln
+und Abschnitten besteht.
+Teile sind optional; technisch sind sie Kapitel auf der
+ersten Ebene.
+Dennoch befinden sie sich im Projektbaum von *novelibre*
+auf der selben Ebene wie die Kapitel, doch sie erhalten
+ihre Überschriften eine Ebene höher.
+Damit dienen Teile hauptsächlich dazu, zwischen den Kapiteln
+Überschriften erster Ordung einzufügen, wenn erforderlich.
+
 
 .. hint::
-   You can convert chapters into Teile and vice versa by simply 
-   `changing the level <tree_context_menu.html#ebene-ändern>`__.
+   Man kann Kapitel in Teile umwandeln und umgekehrt, indem
+   man einfach ihre `Ebene ändert
+   <tree_context_menu.html#ebene-andern>`__.
 
 .. note::
-   A predecessor of *novelibre* was `novelyst 
+   Ein Vorgänger von *novelibre* war `novelyst 
    <https://peter88213.github.io/novelyst/>`__. 
-   There, the Teile were on a higher hierarchy level in the project tree 
-   than the chapters, as it corresponds to logical perception. 
-   It was therefore possible to move Teile together with their subordinate 
-   chapters, or to mark entire Teile as "Unbenutzt". In practice, however, 
-   this proved to be cumbersome. I find it easier to move only the part 
-   boundaries and leave the chapter order unchanged when defining Teile. 
+   Dort sind die Teile auf einer höheren Hierarchieebene als 
+   die Kapitel im Projektbaum, so wie es der logischen 
+   Vorstellung entspricht.
+   Damit war es möglich, Teile mitsamt ihren untergeordneten
+   Kapiteln zu verschieben, oder gesamte Teile als "unbenutzt"
+   zu kennzeichnen.
+   In der Praxis erwies sich das jedoch als umständlich. 
+   Ich finde es einfacher, nur die Teile-Grenzen zu verschieben
+   und die Kapitelreihenfolge unverändert zu lassen, wenn
+   Teile definiert werden.  
 
 
 Kapitel
 ~~~~~~~
 
-A *novelibre* project must at least have one chapter. In the exported
-documents, regular chapters have a second level heading.
-
-For *novelibre*, the chapters only serve as containers for sections
-to which the actual dramaturgical function is assigned.
-This is why there are only a few `chapter properties <chapter_view.html>`__
-to be set.
+Ein *novelibre*-Projekt muss mindestens ein Kapitel haben.
+In exportierten Dokumenten haben reguläre Kapitel Überschriften
+zweiter Ordnung.
+Für *novelibre* dienen Kapitel nur als Behälter für Abschnitte,
+welchen die eigentliche dramaturgische Funktion zugeschrieben wird.
+Deshalb gibt es nur einige wenige
+`Kapiteleigenschaften <chapter_view.html>`__
+einzustellen.
 
 
 Abschnitte
 ~~~~~~~~~~
 
-Alle body text of a novel in *novelibre* belongs to sections.
-Abschnitte can be scenes, pieces of exposition, descriptions, narrative
-summaries---it is entirely up to you how you divide your text into
-sections. There is a variety of `metadata for sections
-<section_view.html>`__ for your free use.
+Bei *novelibre* gehört der gesamte Textinhalt zu Abschnitten.
+Abschnitte können Szenen, Erklärungen, Beschreibungen oder
+erzählerische Zusammenfassungen sein -- man ist vollkommen
+frei, wenn es darum geht, den Romantext in Abschnitte zu
+unterteilen.
+Es gibt eine Auswahl von `Abschnitts-Metadaten
+<section_view.html>`__ zur freien Verwendung.
 
-In the text body of the exported documents, sections are separated by
-section dividers by default, like so:
+Im Textkörper der eportieren Dokumente werden Abschnittswechsel
+per Voreinstellung durch Abschnittstrenner gekennzeichnet,
+etwa so:
 
 ``* * *``
 
-However, if you need more fragmented sections when plotting and organizing
-than the reader should see later, you can also `append sections
-<section_view.html#an-den-vorherigen-abschnitt-anhängen>`__ to each
-other as new paragraphs with no section divider inbetween.
+Wenn man allerdings beim Plotten und Organisieren kleinteligere
+Abschnitte braucht, als es die Leser später sehen sollen,
+kann man Abschnitte auch ohne Abschnittstrenner als einfache Absätze
+`an den vorherigen Abschnitt anhängen
+<section_view.html#an-den-vorherigen-abschnitt-anhangen>`__.
 
 
 Teil/Kapitel/Abschnittstypen
 ----------------------------
 
-Each part, chapter, and section is of a type that can be changed via
-Kontextmenü or Teil/Kapitel/Abschnitt-Menü. The type can be *Normal* or
-*Unbenutzt*.
+Jeder Teil, jedes Kapitel und jeder Abschnitt hat einen Typ, den
+man über das Kontextmenü oder das Teil/Kapitel/Abschnitt-Menü
+ändern kann.
+Der Typ kann *Normal* oder *Unbenutzt* sein.
 
 Normal
-   -  "Normal" type Teile, chapters, and sections are counted. The totals
-      are displayed in the status bar.
-   -  "Normal" type sections are exported to the Manuskript and included in
-      the word count.
-   -  "Normal" type Teile and chapters can have subelements of each type.
-   -  "Normal" type tree elements are color coded according to the
-      `coloring mode settings <view_menu.html#farbgebungsmodus>`__.
+   -  "Normale" Teile, Kapitel und Abschnitte werden gezählt.
+      Ihre Anzahl ist in der Statusleiste zu sehen.
+   -  "Normale" Abschnitte werden ins manuskript exportiert
+      und tragen zur Wortzählung bei.
+   -  "Normale" Teile und Kapitel können untergeordnete Elemente
+      von jedem Typ haben.
+   -  "Normale" Abschnitte werden im Projektbaum entsprechend dem
+      eingestellten `Farbgebungsmodus
+      <view_menu.html#farbgebungsmodus>`__ eingefärbt.
 
 Unbenutzt
-   You can mark Teile, chapters, and sections as unused to exclude them
-   from word count totals and export.
+   Man kann Teile, Kapitel und Abschnitte als unbenutzt kennzeichnen,
+   um sie von der Wortzählung und vom Export auszuschließen.
 
-   -  The subelements of unused Teile and chapters are unused as well.
-   -  If you mark a section "Unbenutzt", its properties are preserved.
-   -  Unbenutzt tree elements are displayed in gray.
+   -  Die Projektbaum-Unterelemente unbenutzter Teile und Kapitel
+      sind ebenfalls unbenutzt.
+   -  Kennzeichnet man einen Abschnitt als "Unbenutzt",
+      bleiben seine sonstigen Eigenschaften erhalten.
+   -  Unbenutzte Projektbaumelemente werden in grauer Farbe dargestellt.
 
 
 Abschnitts-Status
 -----------------
 
-You can assign a status to each "Normal" type section via Kontextmenü
-or Abschnitt-Menü.
+Über dasKontextmenü oder das Abschnitt-Menü kann man jedem
+"normalen" Abschnitt einen Fertigstellungsstatus zuordnen.
 
--  You can choose a `coloring mode <view_menu.html#farbgebungsmodus>`__
-   to display sections in different colors depending on their
-   completion status.
--  Optionally, you can declare one of the status to be the current
-   `work phase <book_view.html#schreibfortschritt>`__,
-   and choose a `coloring mode <view_menu.html#farbgebungsmodus>`__
-   that highlights sections that are behind schedule.
--  Neuly created sections are set to "Gliederung" by default.
--  Word counts by status appear in the `Buch properties
+-  Man kann einen `Farbgebungsmodus <view_menu.html#farbgebungsmodus>`__
+   einstellen, in dem Abschnitte je nach Status in unterschiedlichen
+   Farben dargestellt werden.
+-  Wahlweise kann man einen Status zur aktuellen
+   `Arbeitsphase <book_view.html#schreibfortschritt>`__,
+   erklären und einen `Farbgebungsmodus
+   <view_menu.html#farbgebungsmodus>`__
+   wählen, der Abschnitte hervorhebt, die nicht im Plan liegen.
+-  Neu erstellte Abschnitte erhalten den Status "Gliederung".
+-  Wortzahlen nach Status erscheinen in den `Bucheigenschaften
    <book_view.html#schreibfortschritt>`__.
 
 
@@ -111,24 +131,27 @@ or Abschnitt-Menü.
 Figuren und Erzählwelt
 ----------------------
 
-You can define characters, locations, and items, and you can relate
-them to sections to keep track of their place in the story.
-There is also some metadata stored with *novelibre*, mainly as a
-quick reference that might come in handy when writing or editing.
+Man kann Figuren, Schauplätze und Gegenstände definieren
+und sie mit Abschnitten in Beziehung setzen, um ihr
+Vorkommen in der Geschichte zu verfolgen.
+*novelibre* speichert auch einige Metadaten dazu,
+hauptsächlich als praktische Merkhilfe beim Schreiben
+oder Überarbeiten.
 
 .. note::
-   *novelibre* is not meant as a tool for extensive world building. 
-   For this, there is a plethora of dedicated applications, online
-   and offline wikis, and notetaking software. However, *novelibre* 
-   offers the option of linking images and files with the characters, 
-   locations, and items to facilitate access if your external 
-   application allows this.
+   *novelibre* ist nicht dazu gedacht, umfangreichen 
+   Weltenbau zu dokumentieren. 
+   Für so etwas gibt es eine Vielzahl spezialisierter Anwendungsprogramme, 
+   Online- und Offline-Wikis, und Notizverwaltungssoftware.  
+   *novelibre* bietet jedoch die Möglichkeit, Bilddateien und 
+   Dokumente mit den Figuren, Schauplätzen und Gegenständen zu 
+   verlinken, um den Zugriff darauf zu erleichern. 
    
 
 .. important::
-   If you want to assign **viewpoint characters** to your sections, 
-   you first have to `create <characters_menu.html#hinzufügen>`__ 
-   the characters that come into question. 
+   Um den Abschnitten **Perspektiv-Figuren** zuweisen zu können, 
+   müssen diese zuerst `erzeugt <characters_menu.html#hinzufugen>`__ 
+   werden. 
 
 
 -----------------
@@ -136,78 +159,88 @@ quick reference that might come in handy when writing or editing.
 Text formatieren
 ----------------
 
-It is assumed that very few types of text markup are needed for a novel
-text. When importing from ODT, *novelibre* supports the following
-formats:
+Es wird davon ausgegangen, dass für einen Romantext nur einige wenige
+Arten von Textauszeichnung benötigt werden.
+Beim Import von ODT unterstützt *novelibre* die folgenden Formate:
 
--  *Emphasized* style or italics.
--  *Strongly emphasized* style or bold.
--  *Quotations* (paragraph visually distinguished from body text).
--  *Unordered list item* (indented paragraph with a bullet).
+-  *Betont*-Zeichenstil oder Kursivschrift.
+-  *Stark betont*-Zeichenstil oder Fettschrift.
+-  *Zitat* (Vom Textkörper visuell abgesetzter Absatz).
+-  *Ungeordnetes Listenelement* (Eingerückter Absatz mit einem Aufzählungszeichen).
 
 
 Kommentare, Fuß- und Endnoten
 -----------------------------
 
-*odt* comments, footnotes, and endnotes are supported by *novelibre*.
+*novelibre* unterstützt ODT-Kommentare, Fußnoten und Endnoten.
 
 .. tip::
-   *novelibre* has no support for images in the text body. 
-   You can instead use comments as placeholders. Replace them with your 
-   images (or any other special formatting beyond the capabilities of 
-   *novelibre*) at the end, when you prepare your `finished novel 
+   *novelibre* bietet keine Unterstützung für Bilder im Textkörper.
+   Man kann dafür Kommentare als Platzhalter benutzen, um sie
+   ganz am Schluss durch die Bilder (oder andere Sonderformatierungen, 
+   die nicht durch *novelibre* abgedeckt sind) zu ersetzen, 
+   wenn es darum geht, den `fertiggestellten Roman 
    <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ 
-   for publisihing. 
+   für die Veröffentlichung vorzubereiten. 
 
 
 Über den Umgang mit der Dokumentensprache
 -----------------------------------------
 
-ODF documents are generally assigned a language that determines spell
-checking and country-specific character substitutions. In addition,
-Office Writer lets you assign text passages to languages other than the
-document language to mark foreign language usage or to suspend spell
-checking.
+ODF-Dokumenten ist üblicherweise eine Sprache zugeordnet, die
+über die Rechtschreibprüfung und länderspezifische Zeichenersetzung
+bestimmt.
+Darüberhinaus erlaubt *Writer*, Textpassagen andere Sprachen als die
+Dokumentensprache zuzuweisen, um fremdsprachlichen Text zu kennzeichnen,
+oder die Rechtschreibprüfung außer Kraft zu setzen.
 
-Dokument overall
-   The project language (Sprachencode acc. to ISO 639-1 and country code
-   acc. to ISO 3166-2) can be set in the **Buch** settings (right pane)
-   under `Sprache des Dokuments <book_view.html#sprache-des-dokuments>`__.
+Dokument gesamt
+   Die Projektsprache (Sprachencode gemäß ISO 639-1 und Ländercode
+   entsprechend ISO 3166-2) kann in den **Buch**-Einstellungen
+   (rechtes Fenster) unter `Sprache des Dokuments
+   <book_view.html#sprache-des-dokuments>`__ vorgegeben werden.
 
-Text passages in sections
-   Paragraph-wise or inline text markup for other languages is supported by
-   *novelibre*.
+Textpassagen in Abschnitten
+   *novelibre* unterstützt die zeichenweise und absatzweise Zuordnung
+   anderer Sprachen.
 
 -----------------
 
 Projekt-Sperre
 --------------
 
-When exporting a document that can be edited outsides *novelibre*,
-the project can be automatically locked in order to prevent confusion.
-This behavior depends on the `Exportieren settings <export_menu.html#optionen>`__.
+Wenn man ein Dokument exportiert, das außerhalb von *novelibre* bearbeitet
+werden kann, kann das Projekt automatisch gesperrt werden, um nicht
+durcheinander zu kommen.
+Das Verhalten hängt von den `Exportieren-Optionen <export_menu.html#optionen>`__
+ab.
 
 .. important::
-   The project cannot be locked unless changes are saved. 
+   Das Projekt kann nur gesperrt werden, wenn alle Änderungen gespeichert sind. 
 
-In locked state, the project cannot be modified via the user interface.
-The footer bar is then displayed in reversed colors, the-Menü entries
-for changing data or exporting other documents are greyed out, and
-the widgets in the *Eigenschaften* view are disabled.
+Im gesperrten Zustand kann das Projekt nicht über die Benutzerschnittstelle
+bearbeitet werden.
+Die Fußleiste wird dann invertiert dargestellt, die Menüeinträge
+für Dateneingabe und Export sind ausgegraut, und die Eingabeelemente
+im  *Eigenschaften*-Fenster sind deaktiviert.
 
-The project lock state is persistent. This is achieved by automatically
-creating a lock file named ``.LOCK.<project name>.novx#``. If you delete
-this file while *novelibre* is not running, the project will be unlocked
-upon next start.
+Die Projektsperre bleibt auch nach Programmbeendigung erhalten.
+Dazu wird automatisch eine Sperrdatei namens ``.LOCK.<project name>.novx#``
+angelegt.
+Löscht man diese Datei, während *novelibre* nicht läuft, ist das
+Projekt beim nächsten Programmstart entsperrt.
 
-Usually, the project is automatically unlocked after re-importing the
-externally edited document.
+Gewöhnlich wird das Projekt automatisch entsperrt, nachdem ein extern
+bearbeitetes Dokument zurück importiert wurde.
 
 .. hint::
-   The project lock is nothing more than a strong reminder. You can 
-   `unlock the project <file_menu.html#entsperren>`__ at any time at your 
-   own risk. You also can manually `lock the project <file_menu.html#sperren>`__,
-   if necessary. The |Sperren/Entsperren| toolbar Schaltfläche toggles the locking state.
+   Die Projektsperre ist nichts weiter als eine starke Merkhilfe.
+   man kann das Projekt jederzeit auf eigene Gefahr 
+   `von Hand entsperren <file_menu.html#entsperren>`__ . 
+   Man kann es auch `von Hand sperren <file_menu.html#sperren>`__,
+   fals erforderlich. 
+   Die Schaltfläche |Sperren/Entsperren| in der Werkzeugleiste
+   schaltet zwischen gesperrt und entsperrt hin und her.
 
 
 .. |Sperren/Entsperren| image:: _images/lock.png

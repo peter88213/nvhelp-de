@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new character**
 
 Mit **Figuren > Hinzufügen**
-you can add a `character <basic_concepts.html#figuren-und-erzählwelt>`__
+you can add a `character <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If a character is selected, the new character is placed after the

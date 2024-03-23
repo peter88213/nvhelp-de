@@ -222,7 +222,7 @@ Zeit
 
 Tag
    Format: Any number. Tag "0" is the `reference date
-   <book_view.html#erzählzeit>`_, if set.
+   <book_view.html#erzahlzeit>`_, if set.
 
 .. note::
    Alle entries are optional. You can either enter a date, or a day. 
@@ -236,13 +236,13 @@ Erzeugen
    follows directly the previous one.
 
 Datum/Tag umwandeln
-   If the `reference date <book_view.html#erzählzeit>`__ is set,
+   If the `reference date <book_view.html#erzahlzeit>`__ is set,
    The unspecific *Tag* can be transformed into a specific *Datum*,
    and vice versa.
 
    .. hint::
       If necessary, you can convert all sections at once in the 
-      `Buch properties view <book_view.html#erzählzeit>`__.
+      `Buch properties view <book_view.html#erzahlzeit>`__.
    
 
 Dauer
