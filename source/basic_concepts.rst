@@ -109,7 +109,7 @@ Unbenutzt
 Abschnitts-Status
 -----------------
 
-Über dasKontextmenü oder das Abschnitt-Menü kann man jedem
+Über das Kontextmenü oder das Abschnitt-Menü kann man jedem
 "normalen" Abschnitt einen Fertigstellungsstatus zuordnen.
 
 -  Man kann einen `Farbgebungsmodus <view_menu.html#farbgebungsmodus>`__

@@ -1,7 +1,7 @@
 Importieren-Menü
 ================
 
-**Update the project from previously exported ODT documents**
+**Das Projekt aus einem zuvor exportierten ODF-Dokument aktualisieren**
 
 .. figure:: _images/import_menu02.png
    :alt: novelibre screenshot
@@ -24,14 +24,41 @@ current project.
    **Importieren** Schaltfläche.
 -  You can delete documents by selecting them and clicking on the
    **Verwerfen** Schaltfläche.
+
+   .. hint::
+      Discard means: Rename by adding the extension *.bak*
+      to the file name.
+   
+   
 -  After closing a listed document in *Writer* while the *Exportierened
    documents* window is open, you can click on the **Ansicht aktualisieren**
    Schaltfläche.
--  If the **Dokument nach dem Importierenieren verwerfen** Auswahlfeld is checked, a
-   document will be gelöscht after re-import. This may help to avoid
-   confusion about changes made with *novelibre* and *Writer*.
 
-   .. note::
-   	Dokuments with split sections are always automatically
-   	discarded after re-import.
+Discarding documents after updating the project
+-----------------------------------------------
 
+Documents with split sections are always automatically discarded
+after re-import in order to avoid confusion about the changed
+section or chapter structure.
+Concerning re-imported documents that do not require modifying
+the project structure, you have three choices:
+
+Dokumente nur verwerfen, falls Abschnitte geteilt wurden
+   This is the default behavior.
+   The ODF documents are kept for future use.
+
+Dokumente nach dem Import immer verwerfen
+   After updating the *novelibre* project from an re-imported
+   ODF document, this document is automatically discarded.
+   To discard means: rename it by adding the *.bak* extension
+   to its file name.
+
+Auch gesperrte Dokumente importieren; nicht verwerfen
+   This is for fast and frequent project updates while keeping
+   the ODF documents open in *Writer* or *Calc* for editing.
+
+   .. important::
+      If you split sections in your ODT document, you cannot 
+      import it while open in *Writer*. 
+      This is because *novelibre* cannot discard it when locked
+      by *Writer*. 
