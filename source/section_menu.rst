@@ -109,19 +109,22 @@ kann man eine neue OpenDocument-Tabelle (ods)
 mit einer Reihe pro Abschnitt erzeugen, welche die
 folgenden Daten umfasst:
 
-- Die Abschnitts-ID als hyperlink zum Abschnitt im Manuskript
-  (falls vorhanden)
-- Abschnittstitel
-- Abschnittsbeschreibung
-- Erzähldatum
-- Erzählzeit
+- Abschnitts-ID (eingeklappt)
+- Abschnittsnummer (Hyperlink zum Manuskript)
+- Titel
+- Beschreibung
+- Perspektivfigur
+- Datum
+- Zeit
+- Tag
+- Dauer
 - Tags
 - Abschnittsnotizen
 - A/R
 - Ziel
 - Konflikt
 - Ausgang
-- Fortlaufende Abschnittsnummer
+- Fertigstellungsstatus
 - Fortlaufende Wortzählung
 - Wortzahl des Abschnitts
 - Figuren
