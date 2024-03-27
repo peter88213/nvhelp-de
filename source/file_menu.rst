@@ -50,7 +50,7 @@ Aus ODT erzeugen...
 
 **Öffnen a novel project**
 
-Mit **Datei > Öffnen** or ``Strg``-``O``,
+Mit **Datei > Öffnen** or ``Strg``-``O``
 kann man open an existing project file.
 
 .. note::
@@ -63,7 +63,7 @@ Neu laden
 
 **Neu laden the novel project**
 
-Mit **Datei > Neu laden** or ``Strg``-``R``,
+Mit **Datei > Neu laden** or ``Strg``-``R``
 kann man reload the project.
 
 .. tip::
@@ -79,7 +79,7 @@ Sicherungskopie wiederherstellen
 
 **Restore the latest backup file**
 
-Mit **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``,
+Mit **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``
 kann man restore the latest backup file.
 You will get a warning, because changes may be lost.
 
@@ -93,7 +93,7 @@ Baum aktualisieren
 
 **Enforce tree refresh after making changes**
 
-Mit **Datei > Baum aktualisieren** or ``F5``,
+Mit **Datei > Baum aktualisieren** or ``F5``
 kann man refresh the tree.
 
 -  "Normal" sections that have been moved to an "Unbenutzt" chapter are
@@ -108,7 +108,7 @@ Sperren
 
 **Protect the project while edited outsides**
 
-Mit **Datei > Sperren** or ``Strg``-``L``,
+Mit **Datei > Sperren** or ``Strg``-``L``
 kann man `lock <basic_concepts.html#projekt-sperre>`__ the project.
 
 .. note::
@@ -120,7 +120,7 @@ Entsperren
 
 **Make the project editable**
 
-Mit **Datei > Entsperren** or ``Strg``-``U``,
+Mit **Datei > Entsperren** or ``Strg``-``U``
 kann man unlock the project.
 
 
@@ -128,7 +128,7 @@ Projektordner öffnen
 --------------------
 **Launch the file manager**
 
-Mit **Datei > Projektordner öffnen** or ``Ctrl-P``,
+Mit **Datei > Projektordner öffnen** or ``Ctrl-P``
 kann man launch the file manager with the current project folder .
 This might come in handy, if you wish to delete files,
 open your project with another application, and so on.
@@ -180,7 +180,7 @@ Speichern
 
 **Speichern the project**
 
-Mit **Datei > Speichern** or ``Strg``-``S``,
+Mit **Datei > Speichern** or ``Strg``-``S``
 kann man save the project.
 A backup copy is then automatically created.
 
@@ -194,7 +194,7 @@ Speichern unter...
 
 **Speichern the project with another file name/at another place**
 
-Mit **Datei > Speichern unter...** or ``Strg``-``⇧``-``S``,
+Mit **Datei > Speichern unter...** or ``Strg``-``⇧``-``S``
 kann man save the project with another file name/at another place.
 Then a file select dialog opens to specify the new path and file name.
 
