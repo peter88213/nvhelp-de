@@ -67,6 +67,47 @@ you can change the level of the selected stages.
    The stage level is only for visual distinction. It has no
    influence on the program functions. 
 
+
+Handlungsraster (Plot grid) zum Bearbeiten exportieren
+------------------------------------------------------
+
+**Exportieren an ODS document that can be imported again after editing**
+
+Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**,
+you can create a spreadsheet as described in the
+`Plotting with novelibre <plotting.html#handlungsraster-plot-grid>`__ chapter,
+with a row per section, containing the following data:
+
+- The sequential section number as a hyperlink to the section in the
+  Manuskript (falls vorhanden)
+- Erzähldatum
+- Erzählzeit
+- Tag
+- Abschnittstitel
+- Abschnittsbeschreibung
+- Perspektive
+- One column per Plotlinie with the section's Plotlinie notes
+- Tags
+- A/R
+- Ziel
+- Konflikt
+- Ausgang
+- Abschnittsnotizen
+
+.. note::
+   Only "normal" sections appear in the plot grid. 
+   Abschnitts of the "Unbenutzt" type are omitted.
+
+Der Dateinamenszusatz lautet ``_grid_tmp``.
+
+.. note::
+   You can reorder, hide or delete columns and rows 
+   without affecting the reimport. 
+   Only the first column and the first row, which are hidden by default, 
+   must not be changed as they contain the structural information 
+   for the import. 
+
+
 Plot-Beschreibung exportieren
 -----------------------------
 

@@ -65,7 +65,7 @@ Handlungsraster (Plot grid)
 ---------------------------
 
 The *novelibre* `plot grid
-<export_menu.html#handlungsraster-(plot-grid)-zum-bearbeiten>`__ is a spreadsheet with a row for
+<plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__ is a spreadsheet with a row for
 each section, and a set of plot-relevant section metadata in the columns.
 The first visible column contains links to the sections in the
 `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__.

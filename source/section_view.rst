@@ -73,7 +73,7 @@ assigned to the section.
    
    You can also assign a section to a Plotlinie by entering text
    in the corresponding *Plotlinie notes* cell of the 
-   `plot grid <plotting.html#handlungsraster-(plot-grid)>`__. 
+   `plot grid <plotting.html#handlungsraster-plot-grid>`__. 
 
 Hinzufügen Plotlinie assignment
    When clicking on |Hinzufügen|, the "Pick mode"
@@ -99,7 +99,7 @@ Ansicht the related element
 Plotlinie notes
    You can enter section-related notes for the Plotlinie selected
    in the list of related Plotlinien. These notes appear in the
-   `plot grid <plotting.html#handlungsraster-(plot-grid)>`__ where you also can
+   `plot grid <plotting.html#handlungsraster-plot-grid>`__ where you also can
    edit them.
 
 

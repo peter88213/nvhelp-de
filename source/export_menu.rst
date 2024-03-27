@@ -39,45 +39,6 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
    as underline and strikethrough are lost.
 
 
-Handlungsraster (Plot grid) zum Bearbeiten
-------------------------------------------
-
-**Exportieren an ODS document that can be imported again after editing**
-
-Mit **Exportieren > Handlungsraster (Plot grid) zum Bearbeiten**,
-you can create a spreadsheet as described in the
-`Plotting with novelibre <plotting.html#handlungsraster-(plot-grid)>`__ chapter,
-with a row per section, containing the following data:
-
-- The sequential section number as a hyperlink to the section in the
-  Manuskript (falls vorhanden)
-- Erzähldatum
-- Erzählzeit
-- Tag
-- Abschnittstitel
-- Abschnittsbeschreibung
-- Perspektive
-- One column per Plotlinie with the section's Plotlinie notes
-- Tags
-- A/R
-- Ziel
-- Konflikt
-- Ausgang
-- Abschnittsnotizen
-
-.. note::
-   Only "normal" sections appear in the plot grid. 
-   Abschnitts of the "Unbenutzt" type are omitted.
-
-Der Dateinamenszusatz lautet ``_grid_tmp``.
-
-.. note::
-   You can reorder, hide or delete columns and rows 
-   without affecting the reimport. 
-   Only the first column and the first row, which are hidden by default, 
-   must not be changed as they contain the structural information 
-   for the import. 
-
 Manuskript für fremde Textverarbeitung
 --------------------------------------
 
@@ -203,50 +164,6 @@ to transfer the characters, locations, and items to another project.
    command in the **Figuren**, **Schauplätze**, or **Gegenstände**-Menü.
 
 
-Plot-Beschreibung (export only)
--------------------------------
-
-**Exportieren an ODT document**
-
-Mit **Exportieren >  Plot-Beschreibung (export only)**,
-you can create a text document that contains the plot-defining elements.
-Der Dateinamenszusatz lautet ``_plot``.
-
-Contents:
-
--  First and second level stages (Titels and descriptions).
--  Plotlinien (Titels and descriptions).
--  Plotpunkte (Titels, descriptions, and links to the associated
-   section, if any).
-
-
-Plot-Liste exportieren (Tabelle)
---------------------------------
-
-**Exportieren an ODS document**
-
-Mit **Exportieren >  Plot-Liste exportieren (Tabelle)**,
-you can create a spreadsheet that contains
-sections, Plotlinien, and plot points.
-Der Dateinamenszusatz lautet ``_plotlist``.
-
-The spreadsheet is not meant to be reimported.
-
-.. hint::
-   There are hyperlinks to the sections in the Manuskript, and to the
-   chapters in the plot description.
-
-
-Plot-Liste anzeigen
--------------------
-
-Mit **Exportieren >  Plot-Liste anzeigen**,
-you can create a list-formatted HTML file that contains
-sections, Plotlinien, and plot points,
-and launch your system’s web browser for displaying it.
-
--  The Report is a temporary file, auto-gelöscht on program exit.
--  If needed, you can have your web browser save or print it.
 
 
 Optionen

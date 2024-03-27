@@ -133,7 +133,7 @@ Ein Handlungsraster anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to outline your novel using a `plot grid
-<plotting.html#handlungsraster-(plot-grid)>`__, you can do this with
+<plotting.html#handlungsraster-plot-grid>`__, you can do this with
 *novelibre*:
 
 1. Create an empty new project as described above.
@@ -146,7 +146,7 @@ If you want to outline your novel using a `plot grid
    that are easier to distribute to the chapters to be created later.
    You can extend the plot grid over time.
 5. Create the `Plotlinien <plot_menu.html#plotlinie-hinzufugen>`__ you need.
-6. `Exportieren a plot grid <export_menu.html#handlungsraster-(plot-grid)-zum-bearbeiten>`__
+6. `Exportieren a plot grid <plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__
    and fill the table cells.
 7. `Importieren <import_menu.html>`__ the plot grid.
 8. `Hinzufügen more chapters <chapter_menu.html#hinzufugen>`__ and
@@ -203,7 +203,7 @@ with the *.novx* extension.
 .. tip::
    After importing an extensive piece of work, you may have a whole lot
    of sections that need to be named and described. 
-   A `plot grid <plotting.html#handlungsraster-(plot-grid)>`__ might be a great help for
+   A `plot grid <plotting.html#handlungsraster-plot-grid>`__ might be a great help for
    doing this. 
 
 
