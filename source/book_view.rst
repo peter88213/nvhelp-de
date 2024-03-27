@@ -42,7 +42,7 @@ the document in the Windows Explorer.
 Sprache des Dokuments
 ---------------------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/book_view02.png
    :alt: novelibre screenshot
@@ -72,7 +72,7 @@ If not set, the System locale setting will be used as default.
 Automatische Nummerierung
 -------------------------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/book_view03.png
    :alt: novelibre screenshot
@@ -108,7 +108,7 @@ Reset chapter numbers when starting a new part
 Umbenennungen
 -------------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/book_view04.png
    :alt: novelibre screenshot
@@ -116,7 +116,7 @@ Aufklappen or collapse this frame by clicking on the label.
 *novelibre* provides some ready-made fields for sections and characters
 to store information that should be at hand when writing.
 If the default categories do not fit into your individual story planning
-concept, you can rename these fields.
+concept kann man rename these fields.
 Editing the categories can be completed by pressing the Eingabetaste.
 
 Abschnitt fields
@@ -138,12 +138,12 @@ Figur fields
 Erzählzeit
 ----------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/book_view05.png
    :alt: novelibre screenshot
 
-To get an overview of the course of the narrative time, you can enter
+To get an overview of the course of the narrative time kann man enter
 date/time information `for each section <section_view.html#datum-time>`__.
 The date can be specific *(YYYY-MM-DD)* or unspecific (number of days,
 e.g. from the beginning of the story).
@@ -185,16 +185,16 @@ Tage in Datum umwandeln
 Schreibfortschritt
 ------------------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/book_view06.png
    :alt: novelibre screenshot
 
-Mit *novelibre*, you can set a word count target and track your
+Mit *novelibre* kann man set a word count target and track your
 writing progress.
 
 .. note::
-   Regardless of the entries made here, you can see the word count 
+   Regardless of the entries made here kann man see the word count 
    in the status bar at any time. 
 
 Schreibfortschritt protokollieren
@@ -208,12 +208,12 @@ Schreibfortschritt protokollieren
       <https://github.com/peter88213/nv_progress/>`__.
 
 Wörter zu schreiben
-   Here you can enter a number (without decimal points or separators)
+   Hier kann man enter a number (without decimal points or separators)
    indicating your writing goal in words.
    The entry can be completed by pressing the Eingabetaste.
 
 Anfangswert
-   Here you can enter a number (without decimal points or separators)
+   Hier kann man enter a number (without decimal points or separators)
    indicating the word count you want to start from.
    The entry can be completed by pressing the Eingabetaste.
 
@@ -226,13 +226,13 @@ Wörter geschrieben
    count is displayed. The percentage refers to the words to write.
 
 Arbeitsphase
-   This setting is for the Baumansichter `"Arbeitsphase" coloring mode
+   This setting is for the Baumansicht `"Arbeitsphase" coloring mode
    <view_menu.html#farbgebungsmodus>`__.
 
-   - Abschnitts with the same completion status as the selected work
+   - Abschnitte with the same completion status as the selected work
      phase are black.
-   - Abschnitts that are ahead of the selected work phase are green.
-   - Abschnitts that are behind the selected work phase are magenta.
+   - Abschnitte that are ahead of the selected work phase are green.
+   - Abschnitte that are behind the selected work phase are magenta.
 
 
 Buchumschlag-Miniaturbild

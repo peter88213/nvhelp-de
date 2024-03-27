@@ -9,10 +9,10 @@ Exportieren-Menü
 Manuskript zum Bearbeiten
 -------------------------
 
-**Exportieren an ODT document that can be imported again after editing**
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Exportieren >  Manuskript zum Bearbeiten**,
-you can create a text document that is split into sections
+Mit **Exportieren >  Manuskript zum Bearbeiten**
+kann man create a text document that is split into sections
 (to be seen in the Navigator).
 Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 
@@ -20,14 +20,14 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
    sections marked "unused" are not exported.
 -  Abschnittstitels are invisible, but appear in the *Navigator*.
 -  Kapitels and sections can neither be rearranged nor gelöscht.
--  Mit *Writer*, you can split sections by
+-  Mit *Writer* kann man split sections by
    inserting headings or a section divider:
 
-   -  *Heading 1* → Neu part Titel. Optionally, you can add a
+   -  *Heading 1* → Neu part Titel. Wahlweise kann man add a
       description, separated by ``|``.
-   -  *Heading 2* → Neu chapter Titel. Optionally, you can add a
+   -  *Heading 2* → Neu chapter Titel. Wahlweise kann man add a
       description, separated by ``|``.
-   -  ``###`` → Abschnitt divider. Optionally, you can append the section
+   -  ``###`` → Abschnitt divider. Wahlweise kann man append the section
       Titel to the section divider. You can also add a description,
       separated by ``|``.
 
@@ -42,10 +42,10 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 Manuskript für fremde Textverarbeitung
 --------------------------------------
 
-**Exportieren an ODT document that can be imported again after editing**
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Exportieren >  Manuskript für fremde Textverarbeitung**,
-you can create a text document with visible section markers.
+Mit **Exportieren >  Manuskript für fremde Textverarbeitung**
+kann man create a text document with visible section markers.
 Der Dateinamenszusatz lautet ``_proof_tmp``.
 
 .. note::
@@ -63,14 +63,14 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
    containing the markers** if you want to be able to write the document
    back to *novelibre* format.
 -  Kapitels and sections can neither be rearranged nor gelöscht.
--  When editing the document, you can split sections by inserting
+-  When editing the document kann man split sections by inserting
    headings or a section divider:
 
-   -  *Heading 1* → Neu part Titel. Optionally, you can add a
+   -  *Heading 1* → Neu part Titel. Wahlweise kann man add a
       description, separated by ``|``.
-   -  *Heading 2* → Neu chapter Titel. Optionally, you can add a
+   -  *Heading 2* → Neu chapter Titel. Wahlweise kann man add a
       description, separated by ``|``.
-   -  ``###`` → Abschnitt divider. Optionally, you can append the section
+   -  ``###`` → Abschnitt divider. Wahlweise kann man append the section
       Titel to the section divider. You can also add a description,
       separated by ``|``.
 
@@ -85,10 +85,10 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
 Manuskript zum Drucken (nur Exportieren)
 ----------------------------------------
 
-**Exportieren an ODT document**
+**Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Manuskript zum Drucken (nur Exportieren)**,
-you can create a text document for further use,
+Mit **Exportieren >  Manuskript zum Drucken (nur Exportieren)**
+kann man create a text document for further use,
 e.g. when you are finished with *novelibre*.
 
 .. hint::
@@ -103,10 +103,10 @@ e.g. when you are finished with *novelibre*.
    sections marked "unused" are not exported.
 -  Teil Titels appear as first level heading.
 -  Kapitel Titels appear as second level heading.
--  Abschnitts are separated by ``* * *``. The first line is not indented.
+-  Abschnitte are separated by ``* * *``. The first line is not indented.
 -  Beginning from the second paragraph, paragraphs begin with indentation
    of the first line.
--  Abschnitts marked "attach to previous section" appear like continuous
+-  Abschnitte marked "attach to previous section" appear like continuous
    paragraphs.
 -  Text markup: Bold and italics are supported. Other highlighting such
    as underline and strikethrough are lost.
@@ -115,10 +115,10 @@ e.g. when you are finished with *novelibre*.
 Kurzzusammenfassung (nur Exportieren)
 -------------------------------------
 
-**Exportieren an ODT document**
+**Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Kurzzusammenfassung (nur Exportieren)**,
-you can create a text document containing a brief synopsis
+Mit **Exportieren >  Kurzzusammenfassung (nur Exportieren)**
+kann man create a text document containing a brief synopsis
 with part, chapter, and sections Titels only.
 Der Dateinamenszusatz lautet ``_brf_synopsis``.
 
@@ -132,15 +132,15 @@ Der Dateinamenszusatz lautet ``_brf_synopsis``.
 Querverweise (nur Exportieren)
 ------------------------------
 
-**Exportieren an ODT document**
+**Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Querverweise (nur Exportieren)**,
-you can create a text document containing navigable cross references.
+Mit **Exportieren >  Querverweise (nur Exportieren)**
+kann man create a text document containing navigable cross references.
 Der Dateinamenszusatz lautet ``_xref``.
 
 The cross references are:
 
--  Abschnitts per character,
+-  Abschnitte per character,
 -  sections per location,
 -  sections per item,
 -  sections per tag,
@@ -154,8 +154,8 @@ Figuren/Schauplätze/Gegenstände-Datendateien
 
 **Exportieren XML files that can be imported into other projects**
 
-Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**,
-you can create a set of XML files containing the project’s characters,
+Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**
+kann man create a set of XML files containing the project’s characters,
 locations, and items with all their properties. These files can be used
 to transfer the characters, locations, and items to another project.
 
@@ -171,7 +171,7 @@ Optionen
 
 **Project independent program settings**
 
-Mit **Exportieren >  Optionen**,
+Mit **Exportieren >  Optionen**
 You can open a dialog for settings concerning the document export.
 
 .. figure:: _images/export_menu02.png

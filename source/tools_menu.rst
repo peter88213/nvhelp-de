@@ -15,8 +15,8 @@ Plugin manager
 
 **Die installierten Plugins anzeigen und verwalten**
 
-Mit **Extras > Plugin manager**,
-you can open the *Installierte Plugins* dialog.
+Mit **Extras > Plugin manager**
+kann man open the *Installierte Plugins* dialog.
 
 .. figure:: _images/tools_menu01.png
    :alt: novelibre screenshot
@@ -28,7 +28,7 @@ you can open the *Installierte Plugins* dialog.
 
 How to update a plugin
    1. Select the plugin you want to update. If the **Homepage** Schaltfläche is
-      activated, you can click on it, and your system browser opens the plugin
+      activated kann man click on it, and your system browser opens the plugin
       Homepage. Otherwise, you have to know the source of the plugin yourself.
    2. Gehe zu the plugin Homepage and download the latest release. Install it
       according to the instructions.
@@ -68,8 +68,8 @@ Installationsordner öffnen
 
 **Die Dateiverwaltung aufrufen**
 
-Mit **Extras > Installationsordner öffnen**,
-you can launch the file manager with the *novelibre* installation folder.
+Mit **Extras > Installationsordner öffnen**
+kann man launch the file manager with the *novelibre* installation folder.
 This might come in handy if you wish to edit configuration files,
 or install your own plugins.
 

@@ -16,9 +16,9 @@ phase. This gives you color-coded subheadings in the Baumansicht.
    Acts
 
 Mit the `nv_templates plugin
-<https://github.com/peter88213/nv_templates/>`__ you can
+<https://github.com/peter88213/nv_templates/>`__ kann man
 load pre-made story structure models from Markdown template files, and
-you can save the story structure of your project for reuse.
+kann man save the story structure of your project for reuse.
 
 -----------------
 
@@ -52,7 +52,7 @@ The association of scenes and plot points is shown in the "Plot"
 column of the Baumansicht.
 
 You can use Plotlinien to establish named connections between scenes, such as
-*setup -> payoff*, so you can keep track of this relationship even if
+*setup -> payoff*, so kann man keep track of this relationship even if
 the scenes are far away from each other.
 
 .. figure:: _images/causality01.png

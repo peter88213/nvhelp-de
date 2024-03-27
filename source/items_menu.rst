@@ -1,7 +1,7 @@
 Gegenstände-Menü
 ================
 
-**Gegenstand operation**
+**Gegenstand-Operationen**
 
 .. figure:: _images/items_menu01.png
    :alt: novelibre screenshot
@@ -9,10 +9,10 @@ Gegenstände-Menü
 Hinzufügen
 ----------
 
-**Hinzufügen a new item**
+**Einen Gegenstand erzeugen**
 
-Mit **Gegenstände > Hinzufügen**,
-you can add an `item <basic_concepts.html#figuren-und-erzahlwelt>`__
+Mit **Gegenstände > Hinzufügen**
+kann man add an `item <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If an item is selected, the new item is placed after the selected
@@ -27,8 +27,8 @@ Importieren
 
 **Importieren items from another project**
 
-Mit **Gegenstände > Importieren**,
-you can import a selection of items from another project.
+Mit **Gegenstände > Importieren**
+kann man import a selection of items from another project.
 First you select an XML file containing the item data.
 Then you select the items you want to add to the current project.
 
@@ -40,10 +40,10 @@ Then you select the items you want to add to the current project.
 Gegenstandsbeschreibungen zum Bearbeiten exportieren
 ----------------------------------------------------
 
-**Exportieren an ODT document that can be imported again after editing**
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Gegenstände > Gegenstandsbeschreibungen zum Bearbeiten exportieren**,
-you can create a text document that contains
+Mit **Gegenstände > Gegenstandsbeschreibungen zum Bearbeiten exportieren**
+kann man create a text document that contains
 item descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_items_tmp``.
 
@@ -51,10 +51,10 @@ Der Dateinamenszusatz lautet ``_items_tmp``.
 Gegenstandsliste exportieren (Tabelle)
 --------------------------------------
 
-**Exportieren an ODS document that can be imported again after editing**
+**Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Gegenstände > Gegenstandsliste exportieren (Tabelle)**,
-you can create a spreadsheet that contains
+Mit **Gegenstände > Gegenstandsliste exportieren (Tabelle)**
+kann man create a spreadsheet that contains
 an item list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_itemlist_tmp``.
 
@@ -69,13 +69,13 @@ Der Dateinamenszusatz lautet ``_itemlist_tmp``.
 Liste anzeigen
 --------------
 
-**Show an HTML report with items data**
+**Einen HTML-Report mit Gegenstandsdaten anzeigen**
 
-Mit **Gegenstände > Liste anzeigen**,
-you can create a list-formatted HTML file that contains
+Mit **Gegenstände > Liste anzeigen**
+kann man create a list-formatted HTML file that contains
 an item list,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed, you can have your web browser save or print it.
+   If needed kann man have your web browser save or print it.

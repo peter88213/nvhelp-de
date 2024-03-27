@@ -1,7 +1,7 @@
 Abschnitt-Menü
 ==============
 
-**Abschnitt operation**
+**Abschnitt-Operationen**
 
 .. figure:: _images/section_menu01.png
    :alt: novelibre screenshot
@@ -11,8 +11,8 @@ Hinzufügen
 
 **Hinzufügen a new section**
 
-Mit **Abschnitt > Hinzufügen**,
-you can add a `section <basic_concepts.html#abschnitte>`__ to the tree.
+Mit **Abschnitt > Hinzufügen**
+kann man add a `section <basic_concepts.html#abschnitte>`__ to the tree.
 
 - The new section is placed at the next free position after the selection, if
   possible.
@@ -36,8 +36,8 @@ Mehrere Abschnitte hinzufügen
 .. figure:: _images/section_menu04.png
    :alt: novelibre screenshot
 
-Mit **Abschnitt > Mehrere Abschnitte hinzufügen**,
-you can add up to 20 sections to the tree.
+Mit **Abschnitt > Mehrere Abschnitte hinzufügen**
+kann man add up to 20 sections to the tree.
 
 - You will be prompted to enter the number of new sections.
 - The number of sections to be added at once is limited to 20.
@@ -51,8 +51,8 @@ Typ wählen
 
 **Set the type of the selected section**
 
-Mit **Abschnitt > Typ wählen**,
-you can set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+Mit **Abschnitt > Typ wählen**
+kann man set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 of the selected section to *Normal* or *Unbenutzt* .
 
 .. figure:: _images/section_menu02.png
@@ -73,8 +73,8 @@ Status setzen
 .. figure:: _images/section_menu03.png
    :alt: novelibre screenshot
 
-Mit **Abschnitt > Status setzen**,
-you can set the `completion status
+Mit **Abschnitt > Status setzen**
+kann man set the `completion status
 <basic_concepts.html#abschnitts-status>`__
 of the selected section to *Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*,
 or *Fertiggestellt*.
@@ -89,7 +89,7 @@ or *Fertiggestellt*.
 Abschnittsbeschreibungen zum Bearbeiten exportieren
 ---------------------------------------------------
 
-**Exportieren an ODT document**
+**Ein ODT-Dokument exportieren**
 
 Mit **Abschnitt > Abschnittsbeschreibungen zum Bearbeiten exportieren**
 kann man ein neues OpenDocument-Textdokument (odt) erzeugen,
@@ -102,7 +102,7 @@ Der Dateinamenszusatz lautet ``_sections_tmp``.
 Abschnittsliste (nur Exportieren)
 ---------------------------------
 
-**Exportieren an ODS document**
+**Ein ODS-Dokument exportieren**
 
 Mit **Abschnitt > Abschnittsliste (nur Exportieren)**
 kann man eine neue OpenDocument-Tabelle (ods)
@@ -133,7 +133,7 @@ folgenden Daten umfasst:
 
 .. note::
    Only "normal" sections appear in the section list. 
-   Abschnitts of the "Unbenutzt" type are omitted.
+   Abschnitte of the "Unbenutzt" type are omitted.
 
 Der Dateinamenszusatz lautet ``_sectionlist``.
 

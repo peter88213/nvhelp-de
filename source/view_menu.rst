@@ -1,7 +1,7 @@
 Ansicht-Menü
 ============
 
-**Control the display**
+**Anzeige-Operationen**
 
 .. figure:: _images/view_menu01.png
    :alt: novelibre screenshot
@@ -9,100 +9,101 @@ Ansicht-Menü
 Kapitelebene anzeigen
 ---------------------
 
-**Hide the sections**
+**Die Abschnitte verbergen**
 
-with **Ansicht > Kapitelebene anzeigen** or ``Strg``-``Alt``-``C``,
-you can collapse the tree, so that only parts and chapters are visible.
+Mit **Ansicht > Kapitelebene anzeigen** oder ``Strg``-``Alt``-``C``
+kann man den Baum so zusammenklappen,
+dass nur Teile und Kapitel sichtbar sind.
 
 
 Ausgewählte aufklappen
 ----------------------
 
-**Show a whole branch**
+**Einen ganzen Zweig anzeigen**
 
-Mit **Ansicht > Ausgewählte aufklappen**,
-you can expand a selected tree element.
+Mit **Ansicht > Ausgewählte aufklappen**
+kann man einen ausgewählten Zweig aufklappen.
 
 
 Ausgewählte einklappen
 ----------------------
 
-**Hide child elements**
+**Kindelemente vebergen**
 
-Mit **Ansicht > Ausgewählte einklappen**,
-you can collapse a selected branch.
+Mit **Ansicht > Ausgewählte einklappen**
+kann man einen ausgewählten Zweig einklappen.
 
 
 Alles aufklappen
 ----------------
 
-**Show the whole tree**
+**Den ganzen Baum anzeigen**
 
-Mit **Ansicht > Alles aufklappen**,
-you can expand the whole tree.
+Mit **Ansicht > Alles aufklappen**
+kann man den ganzen Baum aufklappen.
 
 
 Alle einklappen
 ---------------
 
-**Hide child elements**
+**Kindelemente verbergen**
 
-Mit **Ansicht > Alle einklappen**,
-you can hide all tree elements except the main categories.
+Mit **Ansicht > Alle einklappen**
+kann man alle Baumelemente außer den Hauptkategorien verbergen.
 
 
 Buch anzeigen
 -------------
 
-**Gehe zu the "Buch" branch and expand it**
+**Zum "Buch"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Ansicht Buch**,
-you can select and open the "Buch" branch.
+Mit **Ansicht > Ansicht Buch**
+kann man den "Buch"-Zweig anwählen und öffnen.
 
 
 Figuren anzeigen
 ----------------
 
-**Gehe zu the "Figuren" branch and expand it**
+**Zum "Figuren"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Ansicht Figuren**,
-you can select and open the "Figuren" branch.
+Mit **Ansicht > Ansicht Figuren**
+kann man den "Figuren"-Zweig anwählen und öffnen.
 
 
 Schauplätze anzeigen
 --------------------
 
-**Gehe zu the "Schauplätze" branch and expand it**
+**Zum "Schauplätze"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Ansicht Schauplätze**,
-you can select and open the "Schauplätze" branch.
+Mit **Ansicht > Ansicht Schauplätze**
+kann man den "Schauplätze"-Zweig anwählen und öffnen.
 
 
 Gegenstände anzeigen
 --------------------
 
-**Gehe zu the "Gegenstände" branch and expand it**
+**Zum "Gegenstände"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Ansicht Gegenstände**,
-you can select and open the "Gegenstände" branch.
+Mit **Ansicht > Ansicht Gegenstände**
+kann man den "Gegenstände"-Zweig anwählen und öffnen.
 
 
 Plotlinien anzeigen
 -------------------
 
-**Gehe zu the "Plotlinien" branch and expand it**
+**Zum "Plotlinien"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Plotlinien anzeigen**,
-you can select and open the "Plotlinien" branch.
+Mit **Ansicht > Plotlinien anzeigen**
+kann man den "Plotlinien"-Zweig anwählen und öffnen.
 
 
 Projektnotizen anzeigen
 -----------------------
 
-**Gehe zu the "Projektnotizen" branch and expand it**
+**Zum "Projektnotizen"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Ansicht Planning**,
-you can select and open the "Projektnotizen" branch.
+Mit **Ansicht > Ansicht Planning**
+kann man den "Projektnotizen"-Zweig anwählen und öffnen.
 
 
 Textbetrachter anzeigen/verbergen
@@ -110,21 +111,13 @@ Textbetrachter anzeigen/verbergen
 
 **Show/hide the novel text**
 
-Mit **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``,
-you can open or close the `text viewer <desktop.html>`__ window,
-showing part/chapter/section Titels and section content.
+Mit **Ansicht > Textbetrachter anzeigen/verbergen** oder ``Strg``-``T``
+kann man das `Textbetrachter-Fenster <desktop.html>`__
+öffnen oder schließen.
 
 .. hint::
-
-   -  On reopening, the windows shows the text, where the tree is selected.
-   -  When changing the tree selection, the text moves along.
-   -  However, the text can be scrolled independently with the verical
-      scrollbar, or the mousewheel.
-   -  You can select text with the mouse, and copy it to the clipboard with
-      ``Strg``-``C``.
-   -  You cannot edit the text. For this, you might want to install an
-      editor plugin, such as
-      `nv_editor <https://github.com/peter88213/nv_editor/>`__.
+   Wird das Fenster wieder geöffnet, zeigt es den Text an der
+   Stelle des ausgewählten Abschnitts an.
 
 
 Eigenschaften anzeigen/verbergen
@@ -132,34 +125,36 @@ Eigenschaften anzeigen/verbergen
 
 **Show/hide the selected element’s properties**
 
-Mit **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``,
-you can open or close the element properties window.
+Mit **Ansicht > Eigenschaften anzeigen/verbergen** oder ``Strg``-``Alt``-``T``
+kann man das Eigenschaftenfenster öffnen oder schließen.
 
 .. hint::
-   On reopening, the window shows the properties of the currently 
-   selected element.
+   Wird das Fenster wieder geöffnet, zeigt es die Eigenschaften
+   des aktuell gewählten Elements an. 
 
 
 Eigenschaften abtrennen/andocken
 --------------------------------
 
-**Show the selected element’s properties either in the main window or in
-its own window**
+**Die Eigenschaften des ausgewählten Elements entweder im Arbeitsbereich
+oder in einem abgetrennten Fenster anzeigen**
 
-Mit **Ansicht > Eigenschaften abtrennen/andocken** or ``Strg``-``Alt``-``D``,
-you can detach or dock the element properties window .
+
+Mit **Ansicht > Eigenschaften abtrennen/andocken** oder ``Strg``-``Alt``-``D``
+kann man das Fenster mit den Elementeigenschaften abtrennen oder andocken.
 
 .. hint::
-   On closing the detached window, the properties are docked again.
+   Mit dem Schließen des abgetrennten Fensters werden 
+   die Eigenschaften wieder angedockt. 
 
 
 Optionen
 --------
 
-**Project independent program settings**
+**Projektunabhängige Programmeinstellungen**
 
-Mit **Ansicht >  Optionen**,
-You can open a dialog for settings concerning the display.
+Mit **Ansicht >  Optionen**
+kann man einen Dialog mit Einstellungen für die Anzeige öffnen.
 
 .. figure:: _images/view_menu02.png
    :alt: novelibre screenshot
@@ -168,39 +163,47 @@ You can open a dialog for settings concerning the display.
 Farbgebungsmodus
 ~~~~~~~~~~~~~~~~
 
-**Set criteria according to which normal sections are colored in the tree**
+**Die Kriterien bestimmen, nach denen normale Abschnitte
+im Baum eingefärbt werden**
 
 Keiner
-   Normal sections are black on white by default.
+   Normale Abschnitte sind per Vorsinstellung schwarz auf weiß.
 
 Status
-   Normal sections are colored according to their completion status
-   (*Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*, or *Fertiggestellt*).
+   Normale Abschnitte haben eine Farbe entsprechend ihres
+   Fertigstellungsstatus
+   (*Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*
+   oder *Fertiggestellt*).
 
 Arbeitsphase
-   Normal sections are highlighted if their completion status
-   is behind the work phase defined in the `Buch properties
-   <book_view.html#schreibfortschritt>`__.
+   Normale Abschnitte werden farblich hervorgehoben, wenn ihr
+   Fertigstellungsstatus nicht der in den
+   `Bucheigenschaften <book_view.html#schreibfortschritt>`__
+   eingestellten Arbeitsphase entspricht.
 
 
 Große Symbole in der Werkzeugleiste
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-By default, the icon size is 16x16 pixels. If the *Große Symbole in der Werkzeugleiste*
-Auswahlfeld is ticked, 24x24 icons are used after the next program startup.
+Die Größe der Symbole ist mit 16x16 Pixeln voreingestellt.
+Wenn das Auswahlfeld *Große Symbole in der Werkzeugleiste*
+angekreuzt ist, werden nach dem nächsten Programmstart
+Symbole mit 24x24 Pixeln benutzt.
 
 .. note::
-   This applies not only to the toolbar, but also to all other
-   icons that decorate the application’s control elements.
+   Das glit nicht nur für die Werkzeugleiste, 
+   sondern auch für alle anderen Symbole im Programm. 
 
 
 Spalten
 ~~~~~~~
 
-**Change the column order**
+**Die Spaltenanordnung ändern**
 
--  From top to bottom in the list means from left to right in the tree.
--  Just drag and drop to change the order.
+-  Von oben nach unten in der Liste bedeutet
+   von links nach rechts in der Baumansicht.
+-  Einfach mit der Maus ziehen, um die Reihenfolge zu ändern.
 
-Click the **Anwenden** Schaltfläche to apply changes.
+Die Änderungen werden mit dem Anklicken der
+**Anwenden**-Schaltfläche wirksam.
 

@@ -82,7 +82,7 @@ Löschen
 Löschens the selected tree element and its children.
 
 -  Teils and chapters are gelöscht.
--  Abschnitts are marked "unused" and moved to the "Papierkorb" chapter.
+-  Abschnitte are marked "unused" and moved to the "Papierkorb" chapter.
 -  Deleting a part has no effect on its subordinate chapters.
 -  Deleting a chapter moves its sections to the "Papierkorb" chapter.
 -  The "Papierkorb" chapter is created automatically, if needed.
@@ -214,7 +214,7 @@ Major characters are highlighted in the Baumansicht.
 
 .. note::
    The character status is only for visual distinction. It has no
-   influence on the program functions. Niemalstheless, you can use it
+   influence on the program functions. Niemalstheless kann man use it
    to mark viewpoint characters or characters with their own Plotlinien.
 
 .. hint::

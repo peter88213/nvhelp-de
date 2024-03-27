@@ -1,7 +1,7 @@
 Plot-Menü
 =========
 
-**Plot elements operation**
+**Plot elements-Operationen**
 
 .. figure:: _images/plot_menu01.png
    :alt: novelibre screenshot
@@ -11,8 +11,8 @@ Plotlinie hinzufügen
 
 **Hinzufügen a new Plotlinie to the story**
 
-Mit **Plot > Hinzufügen Plotlinie**,
-you can add a Projektnotiz to the tree .
+Mit **Plot > Hinzufügen Plotlinie**
+kann man add a Projektnotiz to the tree .
 
 .. note::
 
@@ -26,8 +26,8 @@ Plotpunkt hinzufügen
 
 **Hinzufügen a new Plotpunkt to the selected Plotlinie**
 
-Mit **Plot > Plotpunkt hinzufügen**,
-you can add a plot point to a Plotlinie.
+Mit **Plot > Plotpunkt hinzufügen**
+kann man add a plot point to a Plotlinie.
 
 .. note::
 
@@ -42,8 +42,8 @@ Stadium einfügen
 
 **Insert a stage between the sections**
 
-Mit **Plot > Stadium einfügen**,
-you can insert a stage after the selected chapter or section.
+Mit **Plot > Stadium einfügen**
+kann man insert a stage after the selected chapter or section.
 
 .. hint::
    By default, the new stage is on the second level. 
@@ -54,8 +54,8 @@ Ebene ändern
 
 **Change the level of the selected stages**
 
-Mit **Plot > Ebene ändern**,
-you can change the level of the selected stages.
+Mit **Plot > Ebene ändern**
+kann man change the level of the selected stages.
 
 .. figure:: _images/plot_menu02.png
    :alt: novelibre screenshot
@@ -71,10 +71,10 @@ you can change the level of the selected stages.
 Handlungsraster (Plot grid) zum Bearbeiten exportieren
 ------------------------------------------------------
 
-**Exportieren an ODS document that can be imported again after editing**
+**Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**,
-you can create a spreadsheet as described in the
+Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**
+kann man create a spreadsheet as described in the
 `Plotting with novelibre <plotting.html#handlungsraster-plot-grid>`__ chapter,
 with a row per section, containing the following data:
 
@@ -96,7 +96,7 @@ with a row per section, containing the following data:
 
 .. note::
    Only "normal" sections appear in the plot grid. 
-   Abschnitts of the "Unbenutzt" type are omitted.
+   Abschnitte of the "Unbenutzt" type are omitted.
 
 Der Dateinamenszusatz lautet ``_grid_tmp``.
 
@@ -111,10 +111,10 @@ Der Dateinamenszusatz lautet ``_grid_tmp``.
 Plot-Beschreibung exportieren
 -----------------------------
 
-**Exportieren an ODT document**
+**Ein ODT-Dokument exportieren**
 
-Mit **Plot > Plot-Beschreibung exportieren**,
-you can create a text document that contains
+Mit **Plot > Plot-Beschreibung exportieren**
+kann man create a text document that contains
 stages, Plotlinien, and plot points, each with description.
 Der Dateinamenszusatz lautet ``_plot``.
 
@@ -122,10 +122,10 @@ Der Dateinamenszusatz lautet ``_plot``.
 Plot-Liste exportieren (Tabelle)
 --------------------------------
 
-**Exportieren an ODS document**
+**Ein ODS-Dokument exportieren**
 
-Mit **Plot > Plot-Liste exportieren (Tabelle)**,
-you can create a spreadsheet with a row for each section
+Mit **Plot > Plot-Liste exportieren (Tabelle)**
+kann man create a spreadsheet with a row for each section
 and a column for each Plotlinie.
 Associations between Plotlinien and sections are color-highlighted.
 Plotpunkt Titels are displayed.
@@ -150,9 +150,9 @@ Der Dateinamenszusatz lautet ``_plotlist``.
 Plot-Liste anzeigen
 -------------------
 
-**Show an HTML report with plot elements**
+**Einen HTML-Report mit Plot-elementen anzeigen**
 
-Mit **Plot > Plot-Liste anzeigen**,
+Mit **Plot > Plot-Liste anzeigen**
 You can create a list-formatted HTML file that contains
 a plot list similar to the ODS plot list (see above),
 but without any hyperlinks,
@@ -165,5 +165,5 @@ and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed, you can have your web browser save or print it.
+   If needed kann man have your web browser save or print it.
 

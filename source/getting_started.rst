@@ -49,7 +49,7 @@ Titel.
    
 .. hint::
    If you decide to have *novelibre* `auto-number the chapters 
-   <book_view.html#automatische-nummerierung>`__, you can skip this and keep the
+   <book_view.html#automatische-nummerierung>`__ kann man skip this and keep the
    default chapter Titel. 
 
 There are several ways to add a section now. In this example, we
@@ -99,8 +99,8 @@ If you prefer to make a plan first before you start writing, *novelibre* is
 the right tool for you.
 Then you don't start *Writer* with an empty Manuskript, but first create
 a framework of empty chapters for which you enter content information.
-Or you can leave it at one chapter for the time being and create empty sections
-in it, which you can later distribute to chapters.
+Or kann man leave it at one chapter for the time being and create empty sections
+in it, which kann man later distribute to chapters.
 The results of this preliminary work can be exported as text documents in the
 form of synopses, e.g on
 `chapter <chapter_menu.html#kapitelbeschreibungen-zum-bearbeiten-exportieren>`__ or
@@ -110,7 +110,7 @@ form of synopses, e.g on
 Eine dramaturgische Struktur aufbauen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-However, you can also start on a more abstract level and first create and
+However kann man also start on a more abstract level and first create and
 describe stages like acts or steps in order to later insert the sections as
 scenes.
 For this, you first create at least one chapter. Then create your stages.
@@ -124,7 +124,7 @@ There you also can learn how to set up multiple strands or character arcs.
 
 .. tip::
    Mit the `nv_templates plugin
-   <https://github.com/peter88213/nv_templates/>`__ you can have 
+   <https://github.com/peter88213/nv_templates/>`__ kann man have 
    *novelibre* set up your new project with a pre-made structure like the
    "Drei-Akt-Modell" or "Save The Cat". 
 
@@ -133,7 +133,7 @@ Ein Handlungsraster anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to outline your novel using a `plot grid
-<plotting.html#handlungsraster-plot-grid>`__, you can do this with
+<plotting.html#handlungsraster-plot-grid>`__ kann man do this with
 *novelibre*:
 
 1. Create an empty new project as described above.

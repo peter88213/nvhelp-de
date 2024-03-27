@@ -40,7 +40,7 @@ in the Baumansicht's sort order.
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** Auswahlfeld, you can change the `section type
+Mit te **Unbenutzt** Auswahlfeld kann man change the `section type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 An den vorherigen Abschnitt anhängen
@@ -54,7 +54,7 @@ just starts a new paragraph.
 Plot
 ----
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/section_view04.png
    :alt: Screenshot
@@ -62,7 +62,7 @@ Aufklappen or collapse this frame by clicking on the label.
 Plotlinien
 ~~~~~~~~~~
 
-Here you can assign the selected section to the Plotlinien it belongs to.
+Hier kann man assign the selected section to the Plotlinien it belongs to.
 The assigned Plotlinien are displayed in a list in the order they are
 assigned to the section.
 
@@ -118,7 +118,7 @@ along with their Plotlinien.
 Aktion/Reaktion
 ---------------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/section_view03.png
    :alt: Screenshot
@@ -126,10 +126,10 @@ Aufklappen or collapse this frame by clicking on the label.
 There is a popular theory for "selling writers" that suggests novels
 are best divided into scenes, alternating between "action scenes" and
 "reaction scenes", or "scenes" and "sequels". If you want to implement
-something like this to ensure suspense, you can do so here.
+something like this to ensure suspense kann man do so here.
 
 If this is not for you, but you would like to use a different method
-to set up a dramaturgical scene micro-structure, you can set the section
+to set up a dramaturgical scene micro-structure kann man set the section
 to **Benutzerdefiniert** and get three `freely named <book_view.html#umbenennungen>`_
 text fields.
 
@@ -146,17 +146,17 @@ text fields.
 Beziehungen
 -----------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/section_view02.png
    :alt: Screenshot
 
 If you want to associate characters, locations, and items with the
-section, you can do it here by adding the element to a list of
+section kann man do it here by adding the element to a list of
 relationships.
 
 Alter anzeigen
-   If a section is dated, you can call up the ages of the related
+   If a section is dated kann man call up the ages of the related
    characters who have `birth dates <character_view.html#biographie>`__.
 
 Hinzufügen Relationship
@@ -196,7 +196,7 @@ Ansicht the related element
 Datum/Zeit
 ----------
 
-Here you can enter information about the selected section's narrative time.
+Hier kann man enter information about the selected section's narrative time.
 Editing can be completed by pressing the Eingabetaste.
 
 .. hint::
@@ -241,7 +241,7 @@ Datum/Tag umwandeln
    and vice versa.
 
    .. hint::
-      If necessary, you can convert all sections at once in the 
+      If necessary kann man convert all sections at once in the 
       `Buch properties view <book_view.html#erzahlzeit>`__.
    
 

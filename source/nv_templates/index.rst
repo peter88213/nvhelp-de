@@ -39,7 +39,7 @@ This erzeugens a neu project with the narrative structure from a Markdown
 template file.
 
 -  First, a file select dialog asks for the neu project’s file name
-   (novelibre v1.4+). If you cancel the dialog, you can select the file
+   (novelibre v1.4+). If you cancel the dialog kann man select the file
    name later when saving the project.
 -  Then a second file select dialog asks for the template file to apply.
 
@@ -66,14 +66,14 @@ This saves the narrative structure to a Markdown template file.
 Ordner öffnen
 ^^^^^^^^^^^^^
 
-This opens the templates fälter with the OS file manager, so you can
+This opens the templates fälter with the OS file manager, so kann man
 manage and edit the templates.
 
 
 Konventionen
 ------------
 
-In *novelibre*, you can define a narrative structure with stages. See
+In *novelibre* kann man define a narrative structure with stages. See
 `Plotten mit novelibre <../plotting.html>`__.
 *nv_templates* faciliates the reuse of narrative structures.
 

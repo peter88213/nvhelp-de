@@ -1,7 +1,7 @@
 Teil-Menü
 =========
 
-**Teil operation**
+**Teil-Operationen**
 
 .. figure:: _images/part_menu01.png
    :alt: novelibre screenshot
@@ -11,8 +11,8 @@ Hinzufügen
 
 **Hinzufügen a new part**
 
-Mit **Teil > Hinzufügen**,
-you can add a `part <basic_concepts.html#teile>`__ to the tree.
+Mit **Teil > Hinzufügen**
+kann man add a `part <basic_concepts.html#teile>`__ to the tree.
 
 - The new part is placed at the next free position on the
   chapter level after the selection, if possible.
@@ -25,10 +25,10 @@ you can add a `part <basic_concepts.html#teile>`__ to the tree.
 Teilebeschreibungen zum Bearbeiten exportieren
 ----------------------------------------------
 
-**Exportieren an ODT document that can be imported again after editing**
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Teil > Teilebeschreibungen zum Bearbeiten exportieren**,
-you can create a text document that contains
+Mit **Teil > Teilebeschreibungen zum Bearbeiten exportieren**
+kann man create a text document that contains
 a **very brief synopsis** with part headings and part descriptions.
 Der Dateinamenszusatz lautet ``_parts_tmp``.
 

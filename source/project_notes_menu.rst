@@ -1,7 +1,7 @@
 Projektnotizen-Menü
 ===================
 
-**Projektnotizen operation**
+**Projektnotizen-Operationen**
 
 .. figure:: _images/project_notes_menu01.png
    :alt: novelibre screenshot
@@ -9,10 +9,10 @@ Projektnotizen-Menü
 Hinzufügen
 ----------
 
-**Hinzufügen a new Projektnotiz**
+**Eine Projektnotiz erzeugen**
 
-Mit **Projektnotizen > Hinzufügen**,
-you can add a `Projektnotiz <project_note_view.html>`__
+Mit **Projektnotizen > Hinzufügen**
+kann man add a `Projektnotiz <project_note_view.html>`__
 to the tree.
 
 -  If a Projektnotiz is selected, the new Projektnotiz is placed
@@ -25,14 +25,14 @@ to the tree.
 Liste anzeigen
 --------------
 
-**Show an HTML report with Projektnotizen**
+**Einen HTML-Report mit Projektnotizen anzeigen**
 
-Mit **Projektnotizen > Liste anzeigen**,
-you can create a list-formatted HTML file that contains
+Mit **Projektnotizen > Liste anzeigen**
+kann man create a list-formatted HTML file that contains
 Titel und Inhalt of all Projektnotizen,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed, you can have your web browser save or print it.
+   If needed kann man have your web browser save or print it.
 

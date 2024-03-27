@@ -30,7 +30,7 @@ The included installation script prompts you to create a shortcut on the desktop
 Auf der Kommandozeile
 ~~~~~~~~~~~~~~~~~~~~~
 
-Alternatively, you can
+Alternatively kann man
 
 - launch the program on the command line passing the scapple file as an argument, or
 - launch the program via a batch file.
@@ -92,7 +92,7 @@ The scap_novx distribution comes with a sample Scapple project *styles.scap* inc
 
    Screenshot: Import styles dialog
    
-In the file picker dialog, select ``<unzipped scap_novx release folder>\sample\styles.scap``. Then you can apply the styles via context menu.
+In the file picker dialog, select ``<unzipped scap_novx release folder>\sample\styles.scap``. Then kann man apply the styles via context menu.
 
 .. figure:: _images/apply_styles.png
    :alt: Screenshot

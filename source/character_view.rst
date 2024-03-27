@@ -45,7 +45,7 @@ Editing can be completed by pressing the Eingabetaste.
 Biographie
 ----------
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/character_view02.png
    :alt: Screenshot
@@ -61,7 +61,7 @@ clicked anywhere outside the text input field.
 Ziele
 -----
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/character_view03.png
    :alt: Screenshot
@@ -71,13 +71,13 @@ the text input field.
 
 .. hint::
    This text box can hold any character data that seem important to you.
-   If "Ziele" is not the right category for you, you can change the label
+   If "Ziele" is not the right category for you kann man change the label
    in the `book settings <book_view.html#umbenennungen>`__. 
 
 Links
 -----
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/character_view04.png
    :alt: Screenshot
@@ -126,7 +126,7 @@ Link öffnen
 
    .. hint::
       If you want to open certain linked files with another application than the 
-      standard application, you can provide a *novelibre* "launcher" setting. 
+      standard application kann man provide a *novelibre* "launcher" setting. 
       For this, just create a text file named **launchers.ini** in the 
       ``.novelibre.config``  directory (where all configuration files are stored). 
       

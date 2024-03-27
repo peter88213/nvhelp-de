@@ -28,7 +28,7 @@ menu, and an **Aeon 2 plugin Online Help** entry to the **Help**-Menü.
 Die Aeon Timeline 2 Benutzervorlage installieren
 ------------------------------------------------
 
-After installation, you can copy a "novelibre German.xml" template to the
+After installation kann man copy a "novelibre German.xml" template to the
 Aeon2 custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.
@@ -98,7 +98,7 @@ Die Konvertierung steuern
 Die Zeitleiste für den Export vorbereiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After installation, you can copy a "novelibre" template to the
+After installation kann man copy a "novelibre" template to the
 Aeon2 custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
 properties that are converted to novelibre by default.

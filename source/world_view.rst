@@ -38,7 +38,7 @@ Editing can be completed by pressing the Eingabetaste.
 Links
 -----
 
-Aufklappen or collapse this frame by clicking on the label.
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
 .. figure:: _images/character_view04.png
    :alt: Screenshot
@@ -87,7 +87,7 @@ Link öffnen
 
    .. hint::
       If you want to open certain linked files with another application than the 
-      standard application, you can provide a *novelibre* "launcher" setting. 
+      standard application kann man provide a *novelibre* "launcher" setting. 
       For this, just create a text file named **launchers.ini** in the 
       ``.novelibre.config``  directory (where all configuration files are stored). 
       

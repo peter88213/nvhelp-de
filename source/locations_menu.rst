@@ -1,7 +1,7 @@
 Schauplätze-Menü
 ================
 
-**Schauplatz operation**
+**Schauplatz-Operationen**
 
 .. figure:: _images/locations_menu01.png
    :alt: novelibre screenshot
@@ -11,8 +11,8 @@ Hinzufügen
 
 **Hinzufügen a new location**
 
-Mit **Schauplätze > Hinzufügen**,
-you can add a `location <basic_concepts.html#figuren-und-erzahlwelt>`__
+Mit **Schauplätze > Hinzufügen**
+kann man add a `location <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If a location is selected, the new location is placed after the
@@ -27,8 +27,8 @@ Importieren
 
 **Importieren locations from another project**
 
-Mit **Schauplätze > Importieren**,
-you can import a selection of locations from another project.
+Mit **Schauplätze > Importieren**
+kann man import a selection of locations from another project.
 First you select an XML file containing the location data.
 Then you select the locations you want to add to the current project.
 
@@ -40,10 +40,10 @@ Then you select the locations you want to add to the current project.
 Schauplatzbeschreibungen zum Bearbeiten exportieren
 ---------------------------------------------------
 
-**Exportieren an ODT document that can be imported again after editing**
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**,
-you can create a text document that contains
+Mit **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**
+kann man create a text document that contains
 location descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_locations_tmp``.
 
@@ -51,10 +51,10 @@ Der Dateinamenszusatz lautet ``_locations_tmp``.
 Schauplatzliste exportieren (Tabelle)
 -------------------------------------
 
-**Exportieren an ODS document that can be imported again after editing**
+**Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Gegenstände > Schauplatzliste exportieren (Tabelle)**,
-you can create a spreadsheet that contains
+Mit **Gegenstände > Schauplatzliste exportieren (Tabelle)**
+kann man create a spreadsheet that contains
 a location list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_loclist_tmp``.
 
@@ -69,14 +69,14 @@ Der Dateinamenszusatz lautet ``_loclist_tmp``.
 Liste anzeigen
 --------------
 
-**Show an HTML report with locations data**
+**Einen HTML-Report mit Schaupatzdaten anzeigen**
 
-Mit **Schauplätze > Liste anzeigen**,
-you can create a list-formatted HTML file that contains
+Mit **Schauplätze > Liste anzeigen**
+kann man create a list-formatted HTML file that contains
 a location list,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed, you can have your web browser save or print it.
+   If needed kann man have your web browser save or print it.
 

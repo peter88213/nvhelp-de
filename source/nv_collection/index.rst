@@ -42,7 +42,7 @@ You can change it with **Datei > Öffnen**.
 Eine neue Sammlung ereugen
 --------------------------
 
-Mit **Datei > Neu**, you can erzeugen a neu collection.
+Mit **Datei > Neu** kann man erzeugen a neu collection.
 This will close the current collection and open a file dialog
 asking for the location and file name of the collection to erzeugen.
 Once you specified a valid file path, a blank collection appears.
@@ -51,7 +51,7 @@ Once you specified a valid file path, a blank collection appears.
 Eine neue Serie erzeugen
 ------------------------
 
-Mit **Serie > Hinzufügen**, you can add a neu Serie.
+Mit **Serie > Hinzufügen** kann man add a neu Serie.
 Bearbeiten the Serie’ title and description in the right window.
 
 
@@ -122,5 +122,5 @@ use **Serie > Entfernen selected Serie**.
 Beenden
 -------
 
--  Under Windows you can exit with **Datei > Beenden** or ``Alt``-``F4``.
--  Otherwise you can exit with **Datei > Beenden** or ``Strg``-``Q``.
+-  Under Windows kann man exit with **Datei > Beenden** or ``Alt``-``F4``.
+-  Otherwise kann man exit with **Datei > Beenden** or ``Strg``-``Q``.
