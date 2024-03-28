@@ -141,7 +141,7 @@ Link öffnen
       ::
      
          [SETTINGS]
-         .txt = C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe 
+         .zim = C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe 
          
       .. figure:: _images/launchers.png
          :alt: Screenshot
