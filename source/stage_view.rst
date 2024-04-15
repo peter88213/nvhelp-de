@@ -13,16 +13,16 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the Eingabetaste.
-Changes to the description are applied when the mouse is clicked
-anywhere outside the text input field.
+Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 
 "Haftmerker"
 ------------
 
 The yellow text area is for notes. Changes are applied
-when the mouse is clicked anywhere outside the text input field.
+when the mouse is clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 When the "sticky note" of a stage contains text, an "N" is
 displayed in the Baumansicht as a reminder.

@@ -4,7 +4,7 @@ Projektnotizen-Menü
 **Projektnotizen-Operationen**
 
 .. figure:: _images/project_notes_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ----------

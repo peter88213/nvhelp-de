@@ -15,7 +15,7 @@ we have neither a work in progress nor an outline of any kind. First
 of all, we create a new empty project with **Datei > Neu > Leeres Projekt**.
 
 .. figure:: _images/getting_started01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
 A file selection dialog opens and asks for the file name and location
 of the new project.
@@ -31,21 +31,21 @@ name. Perhaps also a description of our idea. To get started right away,
 we will postpone the remaining project settings until later.
 
 .. figure:: _images/getting_started02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
 We need at least one section in order to get space to begin writing.
 And this must belong to a chapter. So we now create the first
 chapter with **Kapitel > Hinzufügen**.
 
 .. figure:: _images/getting_started03.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
 After the chapter is created, *novelibre* sets the focus on the chapter
 Titel entry at the top of the right pane. Let's overwrite the default
 Titel.
 
 .. figure:: _images/getting_started04.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
 .. hint::
    If you decide to have *novelibre* `auto-number the chapters 
@@ -56,7 +56,7 @@ There are several ways to add a section now. In this example, we
 right-click on the chapter, and select **Hinzufügen section**.
 
 .. figure:: _images/getting_started05.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 
 Gleich mit dem Manuskript beginnen
@@ -68,13 +68,13 @@ Manuskript. Just click on the |Exportieren Manuskript| toolbar icon.
 .. |Exportieren Manuskript| image:: _images/Manuscript.png
 
 .. figure:: _images/getting_started06.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
 Fertiggestellt! *Writer* should now appear with the Manuskript open.
 Just start writing your novel within the text boundary.
 
 .. figure:: _images/getting_started07.png
-   :alt: Libreoffice screenshot
+   :alt: Libreoffice Screenshot
    
 We can now continue working with *Writer* `as described on the next
 page <writing.html>`__, creating new sections and chapters as we write.
@@ -116,7 +116,7 @@ scenes.
 For this, you first create at least one chapter. Then create your stages.
 
 .. figure:: _images/getting_started08.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 The system is described on the `Plotting with novelibre <plotting.html>`__
 page.
@@ -188,7 +188,7 @@ When your Manuskript is ready, create your new project
 with **Datei > Neu > Aus ODT erzeugen...**.
 
 .. figure:: _images/getting_started09.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 A file selection dialog opens and asks for the *ODT* document. The new project
 will be created in the same directory and named after the Manuskript file, but
@@ -232,7 +232,7 @@ When your Manuskript is ready, create your new project
 with **Datei > Neu > Aus ODT erzeugen...**.
 
 .. figure:: _images/getting_started09.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 A file selection dialog opens and asks for the *ODT* document. The new project
 will be created in the same directory and named after the Manuskript file, but

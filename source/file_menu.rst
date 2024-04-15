@@ -4,7 +4,7 @@ Datei-Menü
 **Datei-Operationen**
 
 .. figure:: _images/file_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Neu
 ---
@@ -19,7 +19,7 @@ This will open a submenu.
 	from which a *novelibre* project can be created.
 
 .. figure:: _images/file_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Leeres Projekt
    -  This will close the current project and create a blank project.
@@ -147,9 +147,9 @@ kann man copy the style sheet *novx.css* into the current project folder.
 This allows you to view the *.novx* project file with a web browser.
 
 .. figure:: _images/file_menu01.jpg
-   :alt: Edge browser screenshot
+   :alt: Edge browser Screenshot
 
-   Edge browser screenshot
+   Edge browser Screenshot
 
 .. hint::
 

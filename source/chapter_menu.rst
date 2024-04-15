@@ -5,7 +5,7 @@ Kapitel-Menü
 **Kapitel-Funktionen**
 
 .. figure:: _images/chapter_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ----------
@@ -33,7 +33,7 @@ kann man den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 der ausgewählten Kapitel zu *Normal* oder *Unbenutzt* ändern.
 
 .. figure:: _images/chapter_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 .. note::
    Wenn man den Typ eines Kapitels zu *Unbenutzt* ändert, 
@@ -49,7 +49,7 @@ Mit **Kapitel > Ebene ändern**
 kann man turn chapters into parts and vice versa.
 
 .. figure:: _images/chapter_menu03.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 -  **Erste Ebene** converts the selected parts into chapters.
 -  **Zweite Ebene** converts the selected chapters into parts.

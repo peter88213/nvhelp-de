@@ -4,7 +4,7 @@ Extras-Menü
 **Vermischte Funktionen**
 
 .. figure:: _images/tools_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 .. note:: 
    The *Extras*-Menü can be extended by plugins to add more
@@ -19,7 +19,7 @@ Mit **Extras > Plugin manager**
 kann man open the *Installierte Plugins* dialog.
 
 .. figure:: _images/tools_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 -  Successfully installed plugins are displayed black on white by
    default.

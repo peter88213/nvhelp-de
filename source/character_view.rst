@@ -13,16 +13,16 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the Eingabetaste.
-Changes to the description are applied when the mouse is clicked
-anywhere outside the text input field.
+Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 Vollst. Name
 ------------
 
 The character's Titel as shown on the Karteikarte is used as
 a short name at several places. The full name can be entered
-separately. Editing can be completed by pressing the Eingabetaste.
+separately. Editing kann mit der Eingabetaste beendet werden.
 
 alias
 -----
@@ -36,7 +36,7 @@ Tags
 Tags are a very freely usable tool for labeling characters in the
 Baumansicht. Tags do not have to be defined elsewhere, but simply
 entered in the input field separated by semicolons.
-Editing can be completed by pressing the Eingabetaste.
+Editing kann mit der Eingabetaste beendet werden.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -53,9 +53,9 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 Birth/death date
    Format: *YYYY-MM-DD*, according to ISO 8601.
 
-The editing of the birth and death dates can be completed by pressing the
+Die Bearbeitung von the birth and death dates can be completed by pressing the
 Eingabetaste. Changes to the bio are applied when the mouse is
-clicked anywhere outside the text input field.
+clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 
 Ziele
@@ -113,7 +113,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows 10 Explorer Screenshot
 
 
 Link entfernen
@@ -146,7 +146,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows 10 Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
@@ -158,7 +158,7 @@ Link öffnen
 ------------
 
 The yellow text area is for notes. Changes are applied
-when the mouse is clicked anywhere outside the text input field.
+when the mouse is clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 When the "sticky note" of a character contains text, an "N" is
 displayed in the Baumansicht as a reminder.

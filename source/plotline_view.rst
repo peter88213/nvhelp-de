@@ -5,7 +5,7 @@ The Plotlinie properties view öffnet sich im rechten Fenster when you
 select a `Plotlinie <plotting.html#defining-plot-lines>`__ in the tree.
 
 .. figure:: _images/plotline_view01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 
 Titel und Beschreibung
@@ -13,9 +13,9 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the Eingabetaste.
-Changes to the description are applied when the mouse is clicked
-anywhere outside the text input field.
+Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 
 Kurzname
@@ -25,7 +25,7 @@ Be sure to enter a short name to be displayed as a reference in the tree.
 A single character like "A", "B", "C" is recommended.
 
 .. figure:: _images/plotline_view02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
    Example: Plotlinie short names as displayed in the tree
    

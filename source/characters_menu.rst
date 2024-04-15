@@ -4,7 +4,7 @@ Figuren-Menü
 **Figur-Operationen**
 
 .. figure:: _images/characters_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ----------
@@ -33,7 +33,7 @@ kann man make the selected character *major* or *minor*.
 Major characters are highlighted in the Baumansicht.
 
 .. figure:: _images/characters_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 .. note::
    The character status is only for visual distinction. It has no

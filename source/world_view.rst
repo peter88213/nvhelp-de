@@ -13,9 +13,9 @@ Titel und Beschreibung
 
 Titel und Beschreibung are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the Eingabetaste.
-Changes to the description are applied when the mouse is clicked
-anywhere outside the text input field.
+Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 alias
 -----
@@ -29,7 +29,7 @@ Tags
 Tags are a very freely usable tool for labeling locations and Gegenstands
 in the Baumansicht. Tags do not have to be defined elsewhere, but
 simply entered in the input field separated by semicolons.
-Editing can be completed by pressing the Eingabetaste.
+Editing kann mit der Eingabetaste beendet werden.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -74,7 +74,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows 10 Explorer Screenshot
 
 
 Link entfernen
@@ -107,7 +107,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer screenshot
+         Windows 10 Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

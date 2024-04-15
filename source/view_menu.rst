@@ -4,7 +4,7 @@ Ansicht-Menü
 **Anzeige-Operationen**
 
 .. figure:: _images/view_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Kapitelebene anzeigen
 ---------------------
@@ -157,7 +157,7 @@ Mit **Ansicht >  Optionen**
 kann man einen Dialog mit Einstellungen für die Anzeige öffnen.
 
 .. figure:: _images/view_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 
 Farbgebungsmodus

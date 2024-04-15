@@ -14,9 +14,9 @@ Titel und Inhalt
 
 Titel und Inhalt are displayed in an editable "Karteikarte".
 
-The editing of the Titel can be completed by pressing the Eingabetaste.
+Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
 Changes to the content are applied when the mouse is clicked
-anywhere outside the text input field.
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 
 Navigationsschaltflächen

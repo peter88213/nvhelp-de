@@ -4,7 +4,7 @@ Exportieren-Menü
 **Dateiexport**
 
 .. figure:: _images/export_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Manuskript zum Bearbeiten
 -------------------------
@@ -175,7 +175,7 @@ Mit **Exportieren >  Optionen**
 You can open a dialog for settings concerning the document export.
 
 .. figure:: _images/export_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 
 Vor dem Öffnen exportierter Dokumente nachfragen

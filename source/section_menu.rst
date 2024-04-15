@@ -4,7 +4,7 @@ Abschnitt-Menü
 **Abschnitt-Operationen**
 
 .. figure:: _images/section_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ----------
@@ -34,7 +34,7 @@ Mehrere Abschnitte hinzufügen
 **Hinzufügen new sections in bulk**
 
 .. figure:: _images/section_menu04.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Mit **Abschnitt > Mehrere Abschnitte hinzufügen**
 kann man add up to 20 sections to the tree.
@@ -56,7 +56,7 @@ kann man set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 of the selected section to *Normal* or *Unbenutzt* .
 
 .. figure:: _images/section_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 .. hint::
 
@@ -71,7 +71,7 @@ Status setzen
 **Set the section completion status**
 
 .. figure:: _images/section_menu03.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Mit **Abschnitt > Status setzen**
 kann man set the `completion status

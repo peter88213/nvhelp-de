@@ -38,7 +38,7 @@ Das Programm installieren
    This installs the application for the local user.
 
 .. figure:: _images/preparations04.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 
 novelibre auf den Desktop bringen
@@ -69,7 +69,7 @@ novelibre auf den Desktop bringen
 3. Öffnen the installation folder.
 
    .. figure:: _images/preparations05.png
-      :alt: novelibre screenshot
+      :alt: novelibre Screenshot
 
 4. Drag and drop **run.pyw** to the desktop while holding
    down the ``Alt`` key. This creates a shortcut to launch
@@ -77,7 +77,7 @@ novelibre auf den Desktop bringen
    drag and drop *.novx* project files to this shortcut.
 
    .. figure:: _images/preparations06.png
-      :alt: novelibre screenshot
+      :alt: novelibre Screenshot
 
 5. Wahlweise kann man replace the "Python" icon with the
    *novelibre* logo you may find in the installation's
@@ -92,7 +92,7 @@ novelibre auf den Desktop bringen
    (3).
 
    .. figure:: _images/preparations07.png
-      :alt: novelibre screenshot
+      :alt: novelibre Screenshot
 
 6. To rename the shortcut to *novelibre*, right-click on
    the desktop shortcut and open the **Eigenschaften**
@@ -100,7 +100,7 @@ novelibre auf den Desktop bringen
    with "novelibre".
 
    .. figure:: _images/preparations08.png
-      :alt: novelibre screenshot
+      :alt: novelibre Screenshot
 
 
 .novx-Dateien novelibre zuweisen
@@ -119,7 +119,7 @@ novelibre auf den Desktop bringen
    or ask an expert you trust.
 
    .. figure:: _images/preparations09.png
-      :alt: novelibre screenshot
+      :alt: novelibre Screenshot
 
    .. hint::
       You can undo this by executing the **remove_novelibre.reg**
@@ -178,9 +178,9 @@ only write within the section boundaries. To do this, you might
 want to make the text boundaries visible in the *Writer* settings.
 
 .. figure:: _images/preparations01.png
-   :alt: LibreOffice Writer screenshot
+   :alt: LibreOffice Writer Screenshot
 
-   LibreOffice Writer screenshot: Make sure the **Ansicht > Text Boundaries**
+   LibreOffice Writer Screenshot: Make sure the **Ansicht > Text Boundaries**
    Menüeintrag is ticked. Writing outsides the visible text boundaries
    has no effect on your *novelibre* project.
 
@@ -196,9 +196,9 @@ on the screen. To dock it, double-click in a free gray space while holding
 down the ``Strg``-Taste, as shown in the following image.
 
 .. figure:: _images/preparations02.png
-   :alt: LibreOffice Writer screenshot
+   :alt: LibreOffice Writer Screenshot
 
-   LibreOffice Writer screenshot: The red "X" indicates the position for
+   LibreOffice Writer Screenshot: The red "X" indicates the position for
    double-clicking.
 
 .. tip::
@@ -208,9 +208,9 @@ down the ``Strg``-Taste, as shown in the following image.
    icon. This works if a document containing headings is loaded. 
 
    .. figure:: _images/preparations03.png
-      :alt: LibreOffice Writer screenshot
+      :alt: LibreOffice Writer Screenshot
    
-      LibreOffice Writer screenshot: The red "O" indicates the icon to click on.
+      LibreOffice Writer Screenshot: The red "O" indicates the icon to click on.
 
 
 Das Aussehen des Manuskripts anpassen
@@ -253,7 +253,7 @@ your Manuskript with a single mouse click.
    for spreadsheets. 
    
    .. figure:: _images/preparations10.png
-      :alt: LibreOffice screenshot
+      :alt: LibreOffice Screenshot
    
-      LibreOffice Optionen dialog screenshot.
+      LibreOffice Optionen dialog Screenshot.
    

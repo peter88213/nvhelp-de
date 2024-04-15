@@ -4,7 +4,7 @@ Schauplätze-Menü
 **Schauplatz-Operationen**
 
 .. figure:: _images/locations_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ----------

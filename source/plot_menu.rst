@@ -4,7 +4,7 @@ Plot-Menü
 **Plot elements-Operationen**
 
 .. figure:: _images/plot_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Plotlinie hinzufügen
 --------------------
@@ -58,7 +58,7 @@ Mit **Plot > Ebene ändern**
 kann man change the level of the selected stages.
 
 .. figure:: _images/plot_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 -  **Erste Ebene** is displayed in bold face.
 -  **Zweite Ebene** is displayed in regular font.
@@ -88,10 +88,10 @@ with a row per section, containing the following data:
 - Perspektive
 - One column per Plotlinie with the section's Plotlinie notes
 - Tags
-- A/R
-- Ziel
-- Konflikt
-- Ausgang
+- A/R/B
+- Ziel/Reaktion/(benutzerdefiniert)
+- Konflikt/Dilemma/(benutzerdefiniert)
+- Ausgang/Entscheidung/(benutzerdefiniert)
 - Abschnittsnotizen
 
 .. note::
@@ -136,9 +136,9 @@ Der Dateinamenszusatz lautet ``_plotlist``.
    the respective descriptions in other exported documents, if any.
 
 .. figure:: _images/plot_menu04.png
-   :alt: LibreOffice screenshot
+   :alt: LibreOffice Screenshot
 
-   LibreOffice screenshot. Note the hyperlink from the Plotlinie Titel in the
+   LibreOffice Screenshot. Note the hyperlink from the Plotlinie Titel in the
    plot list (left) to the Plotlinie in the plot description (right). 
 
 .. important::
@@ -159,9 +159,9 @@ but without any hyperlinks,
 and launch your system’s web browser for displaying it.
 
 .. figure:: _images/plot_menu03.jpg
-   :alt: Edge browser screenshot
+   :alt: Edge browser Screenshot
 
-   Edge browser screenshot
+   Edge browser Screenshot
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.

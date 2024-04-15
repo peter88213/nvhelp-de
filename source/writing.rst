@@ -24,18 +24,18 @@ or by clicking on the |Exportieren Manuskript| toolbar icon.
 
 
 .. figure:: _images/writing01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
-   novelibre screenshot
+   novelibre Screenshot
 
 If you have done this before and there is still a Manuskript document from
 the previous writing session, you will now be asked whether you want to
 continue working on this document. If this is the case, answer "Bestehendes öffnen".
 
 .. figure:: _images/writing02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
-   novelibre screenshot
+   novelibre Screenshot
 
 If you answer "Überschreiben", *novelibre* creates a new Manuskript document.
 "Cancel" aborts the export process and lets you return to the main window.
@@ -45,9 +45,9 @@ the previous writing session, you will now be asked whether you want to
 continue working on this document. If this is the case, answer "Open existing".
 
 .. figure:: _images/writing02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
-   novelibre screenshot
+   novelibre Screenshot
 
 If you answer "Overwrite", *novelibre* creates a new manuscript document.
 "Abbrechen" aborts the export process and lets you return to the main window.
@@ -65,9 +65,9 @@ be asked whether you want to open the newly created document, depending
 of your `Exportieren settings <export_menu.html#optionen>`__.
 
 .. figure:: _images/writing03.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
-   novelibre screenshot
+   novelibre Screenshot
    
 If you answer "yes", *Writer* will be launched with
 the Manuskript document. Otherwise, the document is just
@@ -91,9 +91,9 @@ to that location. You can now write within the frames that define
 the sections.
 
 .. figure:: _images/writing04.png
-   :alt: LibreOffice Writer screenshot
+   :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer screenshot: Note that the text boundaries are 
+   LibreOffice Writer Screenshot: Note that the text boundaries are 
    made visible here, which is `highly recommended 
    <preparations.html#setting-up-writer>`__.
    
@@ -117,9 +117,9 @@ appear.
    sheets or synopses, use the `Importieren-Menü <import_menu.html>`__. 
 
    .. figure:: _images/writing09.png
-      :alt: novelibre screenshot
+      :alt: novelibre Screenshot
       
-      novelibre screenshot: The Manuskript entry is highlighted in 
+      novelibre Screenshot: The Manuskript entry is highlighted in 
       green, because the file is newer than the open project. 
 
 
@@ -140,17 +140,17 @@ to be entered in *novelibre* later.
 The following example shows how to split an existing section:
 
 .. figure:: _images/writing05.png
-   :alt: LibreOffice Writer screenshot
+   :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer screenshot: Notice the highlighted section marker
+   LibreOffice Writer Screenshot: Notice the highlighted section marker
 
 Zurück in *novelibre*, you see the new section. It has got a Titel,
 but no other metadata.
 
 .. figure:: _images/writing06.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
    
-   *novelibre* screenshot: Notice the selected new section 
+   *novelibre* Screenshot: Notice the selected new section 
 
 
 Mit Writer neue Kapitel anlegen
@@ -172,9 +172,9 @@ with a second-level heading.
 The following example shows how to add a chapter with *Writer*:
 
 .. figure:: _images/writing07.png
-   :alt: LibreOffice Writer screenshot
+   :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer screenshot: It doesn't matter what the new
+   LibreOffice Writer Screenshot: It doesn't matter what the new
    chapter is Titeld
 
 Zurück in *novelibre*, you see a new chapter and a new section. Since
@@ -183,9 +183,9 @@ chapter Titel already fits, while the new section's Titel should
 be adjusted manually.
 
 .. figure:: _images/writing08.png
-   :alt: novelibre screenshot: Notice the selected new chapter
+   :alt: novelibre Screenshot: Notice the selected new chapter
    
-   novelibre screenshot
+   novelibre Screenshot
 
 .. |Exportieren Manuskript| image:: _images/Manuscript.png
 .. |Änderungen am Manuskript übernehmen| image:: _images/updateFromManuscript.png

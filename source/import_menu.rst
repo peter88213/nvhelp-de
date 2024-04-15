@@ -4,7 +4,7 @@ Importieren-Menü
 **Das Projekt aus einem zuvor exportierten ODF-Dokument aktualisieren**
 
 .. figure:: _images/import_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Mit the **Importieren** main-Menü entry,
 kann man open a pop-up window with a list containing previously
@@ -12,7 +12,7 @@ exported ODT documents that can be re-imported, thus updating the
 current project.
 
 .. figure:: _images/import_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 -  The document types and dates are shown.
 -  Dokuments that are newer than the project file are highlighted in

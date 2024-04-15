@@ -12,7 +12,7 @@ Buch-Kontextmenüeinräge
 -----------------------
 
 .. figure:: _images/context_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Abschnitt hinzufügen
 ~~~~~~~~~~~~~~~~~~~~
@@ -170,7 +170,7 @@ Figuren/Schauplätze/Gegenstände-Kontextmenüeinträge
 ---------------------------------------------------
 
 .. figure:: _images/context_menu02.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ~~~~~~~~~~
@@ -224,7 +224,7 @@ Plotlinien-Kontextmenüeinträge
 ------------------------------
 
 .. figure:: _images/context_menu03.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Plotlinie hinzufügen
 ~~~~~~~~~~~~~~~~~~~~

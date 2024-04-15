@@ -4,7 +4,7 @@ Gegenstände-Menü
 **Gegenstand-Operationen**
 
 .. figure:: _images/items_menu01.png
-   :alt: novelibre screenshot
+   :alt: novelibre Screenshot
 
 Hinzufügen
 ----------
