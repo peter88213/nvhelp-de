@@ -258,57 +258,67 @@ This is the Konfiguration explained:
 ::
 
    [SETTINGS]
-
+   
    narrative_arc = Narrative
-
+   
    # Name of the user-defined "Narrative" arc.
-
-   property_description = Beschreibung
-
+   
+   property_description = Description
+   
    # Name of the user-defined section description property.
-
-   property_notes = Notizen
-
+   
+   property_notes = Notes
+   
    # Name of the user-defined section notes property.
-
-   role_location = Schauplatz
-
+   
+   property_moonphase = Moon phase
+   # Name of the user-defined moon phase property.
+   
+   role_location = Location
+   
    # Name of the user-defined role for section locations.
-
-   role_item = Gegenstand
-
+   
+   role_item = Item
+   
    # Name of the user-defined role for items in a section.
-
-   role_character = Teilicipant
-
+   
+   role_character = Participant
+   
    # Name of the user-defined role for characters in a section.
-
-   type_character = Figur
-
-   # Name of the user-defined "Figur" type
-
-   type_location = Schauplatz
-
-   # Name of the user-defined "Schauplatz" type
-
-   type_item = Gegenstand
-
-   # Name of the user-defined "Gegenstand" type
-
+   
+   type_character = Character
+   
+   # Name of the user-defined "Character" type
+   
+   type_location = Location
+   
+   # Name of the user-defined "Location" type
+   
+   type_item = Item
+   
+   # Name of the user-defined "Item" type
+   
    color_section = Red
-
-   # Color of neu section events
-
+   
+   # Color of new section events
+   
    color_event = Yellow
+   
+   # Color of new non-section events
 
-   # Color of neu non-section events
 
    [OPTIONS]
-
+   
    add_moonphase = No
-
-   # Yes: Hinzufügen the moon phase to the event properties.
-   # No: Aktualisieren moon phase, if already defined as event property.
+   
+   # Yes: Add the moon phase to the event properties.
+   # No: Update moon phase, if already defined as event property.
+   
+   lock_on_export = No
+   
+   # Yes: Lock the novelibre project when opening the thimeline.
+   # No: Do not lock the novelibre project when opening the thimeline.
+   
 
 .. note:: 
    Your custom Konfigurationsdatei does not have to contain all the
