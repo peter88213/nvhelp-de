@@ -317,8 +317,8 @@ This is the Konfiguration explained:
    
    lock_on_export = No
    
-   # Yes: Lock the novelibre project when opening the thimeline.
-   # No: Do not lock the novelibre project when opening the thimeline.
+   # Yes: Lock the novelibre project when opening the timeline.
+   # No: Do not lock the novelibre project when opening the timeline.
    
 
 .. note:: 
