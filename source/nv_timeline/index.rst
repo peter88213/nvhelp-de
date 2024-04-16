@@ -123,6 +123,13 @@ This is the Konfiguration explained:
    # Tage between events with automatically generated dates.  
 
 
+   [OPTIONS]
+   
+   lock_on_export = No
+   
+   # Yes: Lock the novelibre project when opening the timeline.
+   # No: Do not lock the novelibre project when opening the timeline.
+
 Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
