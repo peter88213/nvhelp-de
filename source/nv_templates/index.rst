@@ -99,11 +99,11 @@ The second level heading begins with ``##``, followed by a space and a
 stage title.
 
 
-^Gewöhnlicher Text
-^^^^^^^^^^^^^^^^^^
+Gewöhnlicher Text
+^^^^^^^^^^^^^^^^^
 
-Any text under a heading is used as a description for the element
-generated from the heading.
+Der Text unterhalb einer Überschrift dient als Notizen für das Element,
+das aus der Überschrift erstellt wurde.
 
 
 Beispiel
