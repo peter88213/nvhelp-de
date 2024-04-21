@@ -108,15 +108,30 @@ Der Dateinamenszusatz lautet ``_grid_tmp``.
    for the import. 
 
 
-Plot-Beschreibung exportieren
------------------------------
+Erzählstruktur-Beschreibung zum Bearbeiten exportieren
+------------------------------------------------------
 
-**Ein ODT-Dokument exportieren**
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
-Mit **Plot > Plot-Beschreibung exportieren**
-kann man create a text document that contains
-stages, Plotlinien, and plot points, each with description.
-Der Dateinamenszusatz lautet ``_plot``.
+Mit **Plot > Erzählstruktur-Beschreibung zum Bearbeiten exportieren**,
+you can create a text document that contains
+all stages, each with description.
+File name suffix is ``_structure_tmp``.
+
+.. hint::
+   This is also a full synopsis, with the emphasis on the dramaturgical structure.
+
+
+Plotlinienbeschreibungen zum Bearbeiten exportieren
+---------------------------------------------------
+
+**Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
+
+Mit **Plot > Plotlinienbeschreibungen zum Bearbeiten exportieren**,
+you can create a text document that contains
+stages, plot lines, and plot points, each with description.
+The plot points are linked to the manuscript and to the section descriptions.
+File name suffix is ``_plotlines_tmp``.
 
 
 Plot-Liste exportieren (Tabelle)
