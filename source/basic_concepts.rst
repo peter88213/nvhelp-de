@@ -8,7 +8,7 @@ Die Buch-Hierarchie
 Teile
 ~~~~~
 
-Es wird davon ausgegangen, dass ein Roman aus Kapiteln
+Wir gehen davon aus, dass ein Roman aus Kapiteln
 und Abschnitten besteht.
 Teile sind optional; technisch sind sie Kapitel auf der
 ersten Ebene.
@@ -159,7 +159,7 @@ oder Überarbeiten.
 Text formatieren
 ----------------
 
-Es wird vorausgesetzt, dass ein Romantext nur einige wenige
+Wir setzen voraus, dass ein Romantext nur einige wenige
 Arten von Textauszeichnung braucht.
 Beim Import von ODT unterstützt *novelibre* die folgenden Formate:
 
