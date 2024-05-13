@@ -11,9 +11,9 @@ select a section in the tree.
 Titel und Beschreibung
 ----------------------
 
-Titel und Beschreibung are displayed in an editable "Karteikarte".
+Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
@@ -24,7 +24,7 @@ Tags
 Tags are a very freely usable tool for labeling sections in the
 Baumansicht. Tags do not have to be defined elsewhere, but simply
 entered in the input field separated by semicolons.
-Editing kann mit der Eingabetaste beendet werden.
+Die Bearbeitung kann mit der Eingabetaste beendet werden.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -141,7 +141,7 @@ text fields.
 .. note::
    The "Ziel/Konflikt/Ausgang" data is only for working with *novelibre*.
    It is not meant to be exported into a document.
-   However, it all appears in the `section list`_.
+   However, it all appears in the `Abschnittsliste`_.
 
 Beziehungen
 -----------
@@ -197,7 +197,7 @@ Datum/Zeit
 ----------
 
 Hier kann man enter information about the selected section's narrative time.
-Editing kann mit der Eingabetaste beendet werden.
+Die Bearbeitung kann mit der Eingabetaste beendet werden.
 
 .. hint::
    Dedicated timeline software offers a more convenient way of entering date/time 
@@ -271,20 +271,22 @@ Erzeugen
 "Haftmerker"
 ------------
 
-The yellow text area is for notes. Changes are applied
-when the mouse is clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
+Der gelbe Texteingabebereich ist für Notizen.
+Änderungen werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
-When the "sticky note" of a section contains text, an "N" is
-displayed in the Baumansicht as a reminder. If the branch of a chapter
-with sections containing notes is collapsed, the "N" is displayed
-in the chapter row.
+Wenn der "Haftmerker" einers Abschnitts Text enthält,
+erscheint in the Baumansicht ein "N" als Merker.
+
+Wenn ein Kapitelzweig mit Abschnitten, die notizen enthalten,
+eingeklappt wird, erscheint das "N" in der Kapitelzeile.
 
 .. note::
-   The "sticky notes" are only for working with *novelibre*.
-   They are not meant to be exported into a document.
-   However, they appear in the `section list`_.
+   Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
+   Sie werden nicht beim Dokumentenexport berücksichtigt.
+   Allerdings erscheinen sie in der `Abschnittsliste`_.
 
-.. _section list: section_menu.html#exportieren-section-list-spreadsheet
+.. _Abschnittsliste: section_menu.html#exportieren-section-list-spreadsheet
 
 Navigationsschaltflächen
 ------------------------

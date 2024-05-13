@@ -16,9 +16,9 @@ You can edit the properties of the selected chapter or part.
 Titel und Beschreibung
 ----------------------
 
-Titel und Beschreibung are displayed in an editable "Karteikarte".
+Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 

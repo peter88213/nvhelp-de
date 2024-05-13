@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nv_aeon2 &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+    <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=32436c57"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=70a09b52"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="nv_collection" href="../nv_collection/index.html" />
+    <link rel="prev" title="Plugins" href="../plugins.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+              <div class="version">
+                Version 3.8+
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_aeon2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#das-plugin-installieren">Das Plugin installieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#die-aeon-timeline-2-benutzervorlage-installieren">Die Aeon Timeline 2 Benutzervorlage installieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#befehlsreferenz">Befehlsreferenz</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#aeon-timeline-2-information">Aeon Timeline 2 &gt; Information</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aeon-timeline-2-die-zeitleiste-aktualisieren">Aeon Timeline 2 &gt; Die Zeitleiste aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aeon-timeline-2-das-projekt-aktualisieren">Aeon Timeline 2 &gt; Das Projekt aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aeon-timeline-2-mondphasen-hinzufugen-oder-aktualisieren">Aeon Timeline 2 &gt; Mondphasen hinzufügen oder aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aeon-timeline-2-die-zeitleiste-bearbeiten">Aeon Timeline 2 &gt; Die Zeitleiste bearbeiten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#datei-neu-aus-aeon-timeline-2-erzeugen">Datei &gt; Neu &gt; Aus Aeon Timeline 2 erzeugen…</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#die-konvertierung-steuern">Die Konvertierung steuern</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#die-zeitleiste-fur-den-export-vorbereiten">Die Zeitleiste für den Export vorbereiten</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#die-synchronisierung-im-einzelnen">Die Synchronisierung im Einzelnen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#bekannte-einschrankungen">Bekannte Einschränkungen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#konvertierungsregeln-fur-neu-erzeugte-novelibre-projekte">Konvertierungsregeln für neu erzeugte novelibre-Projekte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aktualisierungsregeln-fur-bestehende-novelibre-projekte">Aktualisierungsregeln für bestehende novelibre-Projekte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#aktualisierungsregeln-fur-aeon-timeline-2-projekte">Aktualisierungsregeln für Aeon Timeline 2-Projekte</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#benutzerdefinierte-konfiguration">Benutzerdefinierte Konfiguration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#globale-konfiguration">Globale Konfiguration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lokale-projektkonfiguration">Lokale Projektkonfiguration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#how-to-provide-modify-a-konfigurationsdatei">How to provide/modify a Konfigurationsdatei</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tools.html">Werkzeuge</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
+      <li class="breadcrumb-item active">nv_aeon2</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_aeon2/">English</a></p>
+<hr class="docutils" />
+<section id="nv-aeon2">
+<h1>nv_aeon2<a class="headerlink" href="#nv-aeon2" title="Link to this heading"></a></h1>
+<p><strong>Benutzerhandbuch</strong></p>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_aeon2/">nv_aeon2</a> release.
+You can open it with <strong>Hilfe &gt; Aeon 2-Plugin Online-Hilfe</strong>.</p>
+<section id="das-plugin-installieren">
+<h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Unzip the downloaded zipfile into a new folder.</p></li>
+<li><p>Move into this new folder and launch <strong>setup.pyw</strong>. This installs the plugin.</p></li>
+</ul>
+<p>The plugin adds an <strong>Aeon Timeline 2</strong> entry to the <em>novelibre</em> <strong>Tools</strong>
+menu, and an <strong>Aeon 2 plugin Online Help</strong> entry to the <strong>Help</strong>-Menü.</p>
+</section>
+<section id="die-aeon-timeline-2-benutzervorlage-installieren">
+<h2>Die Aeon Timeline 2 Benutzervorlage installieren<a class="headerlink" href="#die-aeon-timeline-2-benutzervorlage-installieren" title="Link to this heading"></a></h2>
+<p>After installation kann man copy a „novelibre German.xml“ template to the
+Aeon2 custom template folder. The easiest way is to create new
+timelines based on this template. It provides the entities and event
+properties that are converted to novelibre by default.</p>
+<p>You find the customized template in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> subdirectory
+of the unzipped <em>nv_aeon2</em> release folder. Just copy it into
+<code class="docutils literal notranslate"><span class="pre">AppData\Local\Scribble</span> <span class="pre">Code\Aeon</span> <span class="pre">Timeline</span> <span class="pre">2\CustomTemplates</span></code>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">&lt;your</span> <span class="pre">user</span> <span class="pre">name&gt;\AppData</span></code> folder is hidden, so you
+might have to go to the <em>Explorer</em> settings first to
+enable <em>Show hidden files</em>. Just disable this again after
+successfully having installed the custom template.</p>
+</div>
+<p>The next time you start <em>Aeon Timeline 2</em>,
+the new template appears in the <em>Custom Templates</em> area.</p>
+</section>
+<section id="befehlsreferenz">
+<h2>Befehlsreferenz<a class="headerlink" href="#befehlsreferenz" title="Link to this heading"></a></h2>
+<section id="aeon-timeline-2-information">
+<h3>Aeon Timeline 2 &gt; Information<a class="headerlink" href="#aeon-timeline-2-information" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Show information about an existing Aeon Timeline 2 project, if any.
+Aeon Timeline 2 and novelibre file dates are compared.</p></li>
+</ul>
+</section>
+<section id="aeon-timeline-2-die-zeitleiste-aktualisieren">
+<h3>Aeon Timeline 2 &gt; Die Zeitleiste aktualisieren<a class="headerlink" href="#aeon-timeline-2-die-zeitleiste-aktualisieren" title="Link to this heading"></a></h3>
+<p>If a timeline exists, aktualisieren it from novelibre, otherwise erzeugena neu
+timeline.</p>
+</section>
+<section id="aeon-timeline-2-das-projekt-aktualisieren">
+<h3>Aeon Timeline 2 &gt; Das Projekt aktualisieren<a class="headerlink" href="#aeon-timeline-2-das-projekt-aktualisieren" title="Link to this heading"></a></h3>
+<p>Aktualisieren the novelibre-Projekt from the timeline, if existing.</p>
+</section>
+<section id="aeon-timeline-2-mondphasen-hinzufugen-oder-aktualisieren">
+<h3>Aeon Timeline 2 &gt; Mondphasen hinzufügen oder aktualisieren<a class="headerlink" href="#aeon-timeline-2-mondphasen-hinzufugen-oder-aktualisieren" title="Link to this heading"></a></h3>
+<p>The moon phase calculation is based on a ‘do it in your head’ algorithm
+by John Conway. In its current form, it’s only valid for the 20th and
+21st centuries.</p>
+</section>
+<section id="aeon-timeline-2-die-zeitleiste-bearbeiten">
+<h3>Aeon Timeline 2 &gt; Die Zeitleiste bearbeiten<a class="headerlink" href="#aeon-timeline-2-die-zeitleiste-bearbeiten" title="Link to this heading"></a></h3>
+<p>Öffnen the project’s timeline, if existing, with the Timeline application.
+Sperren the project.</p>
+</section>
+<section id="datei-neu-aus-aeon-timeline-2-erzeugen">
+<h3>Datei &gt; Neu &gt; Aus Aeon Timeline 2 erzeugen…<a class="headerlink" href="#datei-neu-aus-aeon-timeline-2-erzeugen" title="Link to this heading"></a></h3>
+<p>Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
+the timeline’s file name exists, erzeugen a neu one from the timeline.</p>
+</section>
+</section>
+<section id="die-konvertierung-steuern">
+<h2>Die Konvertierung steuern<a class="headerlink" href="#die-konvertierung-steuern" title="Link to this heading"></a></h2>
+<section id="die-zeitleiste-fur-den-export-vorbereiten">
+<h3>Die Zeitleiste für den Export vorbereiten<a class="headerlink" href="#die-zeitleiste-fur-den-export-vorbereiten" title="Link to this heading"></a></h3>
+<p>After installation kann man copy a „novelibre“ template to the
+Aeon2 custom template folder. The easiest way is to create new
+timelines based on this template. It provides the entities and event
+properties that are converted to novelibre by default.</p>
+<p>For existing timelines you have two choices:</p>
+<ul class="simple">
+<li><p>Option 1: Hinzufügen or rename the required entities and event properties in
+the Timeline settings.</p></li>
+<li><p>Option 2: Benutzerdefiniertize the <em>nv_aeon2</em> Konfiguration to fit your
+timeline, see <a class="reference external" href="#benutzerdefiniert-Konfiguration">Benutzerdefiniert Konfiguration</a>.</p></li>
+</ul>
+</section>
+</section>
+<section id="die-synchronisierung-im-einzelnen">
+<h2>Die Synchronisierung im Einzelnen<a class="headerlink" href="#die-synchronisierung-im-einzelnen" title="Link to this heading"></a></h2>
+<section id="bekannte-einschrankungen">
+<h3>Bekannte Einschränkungen<a class="headerlink" href="#bekannte-einschrankungen" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>„Narrative“ events that begin before 0001-01-01 in the timeline, will
+not be synchronized with novelibre, because novelibre can not handle
+these dates.</p></li>
+<li><p>The same applies to the section duration in this case, i.e. the event
+duration in Timeline and the section duration in novelibre may
+differ.</p></li>
+</ul>
+</section>
+<section id="konvertierungsregeln-fur-neu-erzeugte-novelibre-projekte">
+<h3>Konvertierungsregeln für neu erzeugte novelibre-Projekte<a class="headerlink" href="#konvertierungsregeln-fur-neu-erzeugte-novelibre-projekte" title="Link to this heading"></a></h3>
+<p>The names/column labels refer to timelines based on the „novelibre“
+template.</p>
+<ul class="simple">
+<li><p>If an Aeon event title occurs more than once, the program aborts with
+an error message.</p></li>
+<li><p>Events assigned to the „Narrative“ arc are converted to regular
+sections.</p></li>
+<li><p>Neue Abschnitte are put into a neu chapter named „Neue Abschnitte“.</p></li>
+<li><p>Alle sections are sorted chronologically.</p></li>
+<li><p>The section status is „Gliederung“.</p></li>
+<li><p>The event title is used as section title (*).</p></li>
+<li><p>The start date is used as section date/time, if the start year is 1
+or above.</p></li>
+<li><p>The section duration is calculated, if the start year is 1 or above.</p></li>
+<li><p>Event tags are converted to section tags, if any (*).</p></li>
+<li><p>„Beschreibungs“ are imported as section descriptions, if any (*).</p></li>
+<li><p>„Notizen“ are used as section notes, if any (*).</p></li>
+<li><p>„Teilicipants“ are imported as characters, if any (*).</p></li>
+<li><p>„Schauplätze“ are imported, if any (*).</p></li>
+<li><p>„Gegenstände“ are imported, if any (*).</p></li>
+</ul>
+</section>
+<section id="aktualisierungsregeln-fur-bestehende-novelibre-projekte">
+<h3>Aktualisierungsregeln für bestehende novelibre-Projekte<a class="headerlink" href="#aktualisierungsregeln-fur-bestehende-novelibre-projekte" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Only sections that have the same title as an event are aktualisierend.</p></li>
+<li><p>If an Aeon event title occurs more than once, the converter aborts
+with an error message.</p></li>
+<li><p>If a novelibre section title occurs more than once, the converter
+aborts with an error message.</p></li>
+<li><p>Abschnitte are marked „unused“ if the associated event is gelöscht in
+Aeon.</p></li>
+<li><p>Abschnitt date, section time, and section duration are aktualisierend.</p></li>
+<li><p>Non-empty section description and section tags are aktualisierend.</p></li>
+<li><p>Notizen of events with a matching title are appended to the section
+notes.</p></li>
+<li><p>The start date is overwritten, if the start year is 1 or above.</p></li>
+<li><p>The section duration is overwritten, if the start year is 1 or above.</p></li>
+<li><p>Neu „Normal“ type sections are erzeugend from „Narrative“ events, if
+missing.</p></li>
+<li><p>Neue Abschnitte are put into a neu chapter named „Neue Abschnitte“.</p></li>
+<li><p>Neu plot lines, characters, locations, and items are added, if assigned to
+„Narrative“ events.</p></li>
+<li><p>Arc, character, location, and item relationships are aktualisierend, if the
+entity names match.</p></li>
+<li><p>When processing unspecific „day/hour/minute“ information, the default
+date from the novelibre-Projekt is used. f there is no default date
+set, „today“ is used.</p></li>
+</ul>
+</section>
+<section id="aktualisierungsregeln-fur-aeon-timeline-2-projekte">
+<h3>Aktualisierungsregeln für Aeon Timeline 2-Projekte<a class="headerlink" href="#aktualisierungsregeln-fur-aeon-timeline-2-projekte" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>If an Aeon event title occurs more than once, the converter aborts
+with an error message.</p></li>
+<li><p>If a novelibre section title occurs more than once, the converter
+aborts with an error message.</p></li>
+<li><p>Event date/time and event span are aktualisierend, if the start year is 1 or
+above.</p></li>
+<li><p>Aktualisierend event span is specified in days/hours/minutes as in
+novelibre.</p></li>
+<li><p>Non-empty event description and event tags are aktualisierend.</p></li>
+<li><p>Event properties „Beschreibung“ and „Notizen“ are erzeugend, if missing.</p></li>
+<li><p>Events erzeugend or aktualisierend from „Normal“ sections are assigned to the
+<em>Narrative</em> arc.</p></li>
+<li><p>„Narrative“ events are removed if the associated section is gelöscht
+in novelibre.</p></li>
+<li><p>Entity types „Arc“, „Figur“, „Schauplatz“, and „Gegenstand“ are erzeugend,
+if missing.</p></li>
+<li><p>A „Narrative“ arc is erzeugend, if missing.</p></li>
+<li><p>A „Storyline“ arc role is erzeugend, if missing.</p></li>
+<li><p>Neu arcs, characters, locations, and items are added, if assigned to
+sections.</p></li>
+<li><p>Arc, character, location, and item relationships are aktualisierend, if the
+entity names match.</p></li>
+<li><p>When creating events from sections without date/time, they get the
+actual date and are sorted in reading order.</p></li>
+<li><p>When creating events from sections without any date/time information,
+they get the default date from the novelibre-Projekt, and are sorted
+in reading order. If there is no default date set, „today“ is used.</p></li>
+<li><p>When processing unspecific „day/hour/minute“ information, the default
+date from the novelibre-Projekt is used. f there is no default date
+set, „today“ is used.</p></li>
+</ul>
+</section>
+</section>
+<section id="benutzerdefinierte-konfiguration">
+<h2>Benutzerdefinierte Konfiguration<a class="headerlink" href="#benutzerdefinierte-konfiguration" title="Link to this heading"></a></h2>
+<p>You can override the default settings by providing a Konfigurationsdatei.
+Be always aware that faulty entries may cause program errors.</p>
+<section id="globale-konfiguration">
+<h3>Globale Konfiguration<a class="headerlink" href="#globale-konfiguration" title="Link to this heading"></a></h3>
+<p>An optional global Konfigurationsdatei can be placed in the Konfiguration
+directory in your user profile. It is applied to any project. Its
+entries override nv_aeon2’s built-in constants. This is the path:
+<code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\config\nv_aeon2.ini</span></code></p>
+</section>
+<section id="lokale-projektkonfiguration">
+<h3>Lokale Projektkonfiguration<a class="headerlink" href="#lokale-projektkonfiguration" title="Link to this heading"></a></h3>
+<p>An optional project Konfigurationsdatei named <code class="docutils literal notranslate"><span class="pre">nv_aeon2.ini</span></code> can be
+placed in your project directory, i.e. the Ordner containing your
+novelibre and Aeon Timeline project files. It is only applied to this
+project. Its entries override aeon2nv’s built-in constants as well as
+the global Konfiguration, if any.</p>
+</section>
+<section id="how-to-provide-modify-a-konfigurationsdatei">
+<h3>How to provide/modify a Konfigurationsdatei<a class="headerlink" href="#how-to-provide-modify-a-konfigurationsdatei" title="Link to this heading"></a></h3>
+<p>The nv_aeon2 distribution comes with a sample Konfigurationsdatei
+located in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> Unterverzeichnis. It contains nv_aeon2’s
+default settings and options. This file is also automatically copied to
+the global Konfiguration Ordner during installation. You best make a
+copy and edit it.</p>
+<ul class="simple">
+<li><p>The SETTINGS section mainly refers to custom property, role, and type
+names.</p></li>
+<li><p>Comment lines begin with a <code class="docutils literal notranslate"><span class="pre">#</span></code> number sign. In the example, they
+refer to the code line immediately above.</p></li>
+</ul>
+<p>This is the Konfiguration explained:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+
+<span class="na">narrative_arc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Narrative</span>
+
+<span class="c1"># Name of the user-defined &quot;Narrative&quot; arc.</span>
+
+<span class="na">property_description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Description</span>
+
+<span class="c1"># Name of the user-defined section description property.</span>
+
+<span class="na">property_notes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Notes</span>
+
+<span class="c1"># Name of the user-defined section notes property.</span>
+
+<span class="na">property_moonphase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Moon phase</span>
+
+<span class="c1"># Name of the user-defined moon phase property.</span>
+
+<span class="na">role_location</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Location</span>
+
+<span class="c1"># Name of the user-defined role for section locations.</span>
+
+<span class="na">role_item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Item</span>
+
+<span class="c1"># Name of the user-defined role for items in a section.</span>
+
+<span class="na">role_character</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Participant</span>
+
+<span class="c1"># Name of the user-defined role for characters in a section.</span>
+
+<span class="na">type_character</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Character</span>
+
+<span class="c1"># Name of the user-defined &quot;Character&quot; type</span>
+
+<span class="na">type_location</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Location</span>
+
+<span class="c1"># Name of the user-defined &quot;Location&quot; type</span>
+
+<span class="na">type_item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Item</span>
+
+<span class="c1"># Name of the user-defined &quot;Item&quot; type</span>
+
+<span class="na">color_section</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Red</span>
+
+<span class="c1"># Color of new section events</span>
+
+<span class="na">color_event</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yellow</span>
+
+<span class="c1"># Color of new non-section events</span>
+
+
+<span class="k">[OPTIONS]</span>
+
+<span class="na">add_moonphase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">No</span>
+
+<span class="c1"># Yes: Add the moon phase to the event properties.</span>
+<span class="c1"># No: Update moon phase, if already defined as event property.</span>
+
+<span class="na">lock_on_export</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">No</span>
+
+<span class="c1"># Yes: Lock the novelibre project when opening the timeline.</span>
+<span class="c1"># No: Do not lock the novelibre project when opening the timeline.</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Your custom Konfigurationsdatei does not have to contain all the
+entries listed above. The changed entries are sufficient.</p>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../plugins.html" class="btn btn-neutral float-left" title="Plugins" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../nv_collection/index.html" class="btn btn-neutral float-right" title="nv_collection" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, peter88213.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

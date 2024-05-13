@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nv_collection &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+    <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=32436c57"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=70a09b52"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="nv_editor" href="../nv_editor/index.html" />
+    <link rel="prev" title="nv_aeon2" href="../nv_aeon2/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+              <div class="version">
+                Version 3.8+
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../nv_aeon2/index.html">nv_aeon2</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_collection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#das-plugin-installieren">Das Plugin installieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#die-sammlungen-verwaltung-aufrufen">Die Sammlungen-Verwaltung aufrufen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eine-sammlung-offnen">Eine Sammlung öffnen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eine-neue-sammlung-ereugen">Eine neue Sammlung ereugen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eine-neue-serie-erzeugen">Eine neue Serie erzeugen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bucher-zur-sammlung-hinzufugen">Bücher zur Sammlung hinzufügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#die-buchbeschreibung-aktualisieren">Die Buchbeschreibung aktualisieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bucher-aus-der-sammlung-entfernen">Bücher aus der Sammlung entfernen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#serien-und-bucher-veschieben">Serien ünd Bücher veschieben</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bucher-entfernen">Bücher entfernen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eine-serie-loschen">Eine Serie löschen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#beenden">Beenden</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tools.html">Werkzeuge</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
+      <li class="breadcrumb-item active">nv_collection</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_collection/">English</a></p>
+<hr class="docutils" />
+<section id="nv-collection">
+<h1>nv_collection<a class="headerlink" href="#nv-collection" title="Link to this heading"></a></h1>
+<p><strong>Benutzerhandbuch</strong></p>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_collection/">nv_collection</a> release.
+You can open it with <strong>Hilfe &gt; Sammlung-Plugin Online-Hilfe</strong>.</p>
+<section id="das-plugin-installieren">
+<h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Unzip the downloaded zipfile into a new folder.</p></li>
+<li><p>Move into this new folder and launch <strong>setup.pyw</strong>. This installs the plugin.</p></li>
+</ul>
+<p>The plugin adds a <strong>Sammlung</strong> entry to the <em>novelibre</em> <strong>Datei</strong>-Menü,
+and a <strong>Sammlung-Plugin Online-Hilfe</strong> entry to the <strong>Hilfe</strong>-Menü.</p>
+</section>
+<section id="die-sammlungen-verwaltung-aufrufen">
+<h2>Die Sammlungen-Verwaltung aufrufen<a class="headerlink" href="#die-sammlungen-verwaltung-aufrufen" title="Link to this heading"></a></h2>
+<p>Öffnen the collection manager from the Hauptmenü:
+<strong>Datei &gt; Sammlung</strong>.</p>
+</section>
+<section id="eine-sammlung-offnen">
+<h2>Eine Sammlung öffnen<a class="headerlink" href="#eine-sammlung-offnen" title="Link to this heading"></a></h2>
+<p>By default, the latest collection selected is preset.
+You can change it with <strong>Datei &gt; Öffnen</strong>.</p>
+</section>
+<section id="eine-neue-sammlung-ereugen">
+<h2>Eine neue Sammlung ereugen<a class="headerlink" href="#eine-neue-sammlung-ereugen" title="Link to this heading"></a></h2>
+<p>Mit <strong>Datei &gt; Neu</strong> kann man erzeugen a neu collection.
+This will close the current collection and open a file dialog
+asking for the location and file name of the collection to erzeugen.
+Once you specified a valid file path, a blank collection appears.</p>
+</section>
+<section id="eine-neue-serie-erzeugen">
+<h2>Eine neue Serie erzeugen<a class="headerlink" href="#eine-neue-serie-erzeugen" title="Link to this heading"></a></h2>
+<p>Mit <strong>Serie &gt; Hinzufügen</strong> kann man add a neu Serie.
+Bearbeiten the Serie’ title and description in the right window.</p>
+</section>
+<section id="bucher-zur-sammlung-hinzufugen">
+<h2>Bücher zur Sammlung hinzufügen<a class="headerlink" href="#bucher-zur-sammlung-hinzufugen" title="Link to this heading"></a></h2>
+<p>To add the current novelibre-Projekt as a book to the collection,
+use <strong>Buch &gt; Aktuelles Projekt zur Sammlung hinzufügen</strong>.
+If a Serie is selected, the book is added as a part of this Serie.</p>
+</section>
+<section id="die-buchbeschreibung-aktualisieren">
+<h2>Die Buchbeschreibung aktualisieren<a class="headerlink" href="#die-buchbeschreibung-aktualisieren" title="Link to this heading"></a></h2>
+<p>To aktualisieren the book description from the current project,
+use <strong>Buch &gt; Buchdaten aus aktuellem Projekt aktualisieren</strong>.</p>
+<div class="admonition caution">
+<p class="admonition-title">Vorsicht</p>
+<p>Be sure not to change the book title, because it is used as identifier.</p>
+</div>
+<p>To aktualisieren the current project description from the book,
+use <strong>Buch &gt; Aktualisieren project data from the selected project</strong>.</p>
+</section>
+<section id="bucher-aus-der-sammlung-entfernen">
+<h2>Bücher aus der Sammlung entfernen<a class="headerlink" href="#bucher-aus-der-sammlung-entfernen" title="Link to this heading"></a></h2>
+<p>To remove the selected book from the collection,
+use <strong>Buch &gt; Ausgewähltes Buch aus der Sammlung entfernen</strong>.</p>
+</section>
+<section id="serien-und-bucher-veschieben">
+<h2>Serien ünd Bücher veschieben<a class="headerlink" href="#serien-und-bucher-veschieben" title="Link to this heading"></a></h2>
+<p>Drag and drop while pressing the <code class="docutils literal notranslate"><span class="pre">Alt</span></code> key.</p>
+<div class="admonition caution">
+<p class="admonition-title">Vorsicht</p>
+<p>Be aware, there is no „Undo“ feature.</p>
+</div>
+</section>
+<section id="bucher-entfernen">
+<h2>Bücher entfernen<a class="headerlink" href="#bucher-entfernen" title="Link to this heading"></a></h2>
+<p>To remove a book from the collection,
+either select the book and hit the <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste,
+or use <strong>Buch &gt; Ausgewähltes Buch aus der Sammlung entfernen</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>When removing a book from the collection,
+the project file associated is kept on disc.</p>
+</div>
+</section>
+<section id="eine-serie-loschen">
+<h2>Eine Serie löschen<a class="headerlink" href="#eine-serie-loschen" title="Link to this heading"></a></h2>
+<p>To delete a Serie,
+either select the Serie and hit the <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste,
+or use <strong>Serie &gt; Ausgewählte Serie entfernen, aber die Bücher behalten</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>When deleting a collection, the Bücher are kept by default.</p>
+</div>
+<p>To delete the selected Serie and remove all its Bücher from the
+collection,
+use <strong>Serie &gt; Entfernen selected Serie</strong>.</p>
+</section>
+<section id="beenden">
+<h2>Beenden<a class="headerlink" href="#beenden" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Under Windows kann man exit with <strong>Datei &gt; Beenden</strong> or <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">F4</span></code>.</p></li>
+<li><p>Otherwise kann man exit with <strong>Datei &gt; Beenden</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code>.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nv_aeon2/index.html" class="btn btn-neutral float-left" title="nv_aeon2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../nv_editor/index.html" class="btn btn-neutral float-right" title="nv_editor" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, peter88213.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

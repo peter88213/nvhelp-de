@@ -35,12 +35,12 @@ Dasselbe wie **Ansicht > Projektnotizen anzeigen**.
 
 |Sperren/Entsperren| Toggle the lock status of the project.
 
+|Änderungen am Manuskript übernehmen| Importiere das aktuelle Manuskript.
+Entspricht der Auswahl des Manuskripts unter **Importieren**.
+
 |Exportieren Manuskript| Exportiere das Manuskript zum Bearbeiten.
 Dasselbe wie **Exportieren > Manuskript zum Bearbeiten**,
-but without confirmation for opening the document.
-
-|Änderungen am Manuskript übernehmen| Importiere das aktuelle Manuskript.
-Dasselbe wie selecting the Manuskript under **Importieren**.
+das Dokument wird jedoch ohne Rückfrage geöffnet.
 
 -----------------
 

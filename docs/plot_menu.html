@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plot-Menü &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+    <link rel="shortcut icon" href="_static/nLogo32.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=32436c57"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=70a09b52"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
+    <link rel="search" title="Suche" href="search.html" />
+    <link rel="next" title="Projektnotizen-Menü" href="project_notes_menu.html" />
+    <link rel="prev" title="Gegenstände-Menü" href="items_menu.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+              <div class="version">
+                Version 3.8+
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="file_menu.html">Datei-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="view_menu.html">Ansicht-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="part_menu.html">Teil-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html">Kapitel-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="section_menu.html">Abschnitt-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="characters_menu.html">Figuren-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="locations_menu.html">Schauplätze-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="items_menu.html">Gegenstände-Menü</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Plot-Menü</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#plotlinie-hinzufugen">Plotlinie hinzufügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plotpunkt-hinzufugen">Plotpunkt hinzufügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stadium-einfugen">Stadium einfügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ebene-andern">Ebene ändern</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#handlungsraster-plot-grid-zum-bearbeiten-exportieren">Handlungsraster (Plot grid) zum Bearbeiten exportieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#erzahlstruktur-beschreibung-zum-bearbeiten-exportieren">Erzählstruktur-Beschreibung zum Bearbeiten exportieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plotlinienbeschreibungen-zum-bearbeiten-exportieren">Plotlinienbeschreibungen zum Bearbeiten exportieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-liste-exportieren-tabelle">Plot-Liste exportieren (Tabelle)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-liste-anzeigen">Plot-Liste anzeigen</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html">Projektnotizen-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="export_menu.html">Exportieren-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="import_menu.html">Importieren-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools_menu.html">Extras-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="help_menu.html">Hilfe-Menü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html">Baumansicht Kontextmenü</a></li>
+<li class="toctree-l2"><a class="reference internal" href="toolbar.html">Die Werkzeugleiste</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tools.html">Werkzeuge</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="command_reference.html">Befehlsreferenz</a></li>
+      <li class="breadcrumb-item active">Plot-Menü</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="plot-menu">
+<h1>Plot-Menü<a class="headerlink" href="#plot-menu" title="Link to this heading"></a></h1>
+<p><strong>Plot elements-Operationen</strong></p>
+<figure class="align-default">
+<img alt="novelibre Screenshot" src="_images/plot_menu01.png" />
+</figure>
+<section id="plotlinie-hinzufugen">
+<h2>Plotlinie hinzufügen<a class="headerlink" href="#plotlinie-hinzufugen" title="Link to this heading"></a></h2>
+<p><strong>Hinzufügen a new Plotlinie to the story</strong></p>
+<p>Mit <strong>Plot &gt; Hinzufügen Plotlinie</strong>
+kann man add a Projektnotiz to the tree .</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<ul class="simple">
+<li><p>If a Plotlinie is selected, the new item is placed after the selected one.</p></li>
+<li><p>Otherwise, the new Plotlinie is placed at the last position.</p></li>
+<li><p>The new Plotlinie has an auto-generated Titel. You can change it in the
+right pane.</p></li>
+</ul>
+</div>
+</section>
+<section id="plotpunkt-hinzufugen">
+<h2>Plotpunkt hinzufügen<a class="headerlink" href="#plotpunkt-hinzufugen" title="Link to this heading"></a></h2>
+<p><strong>Hinzufügen a new Plotpunkt to the selected Plotlinie</strong></p>
+<p>Mit <strong>Plot &gt; Plotpunkt hinzufügen</strong>
+kann man add a plot point to a Plotlinie.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<ul class="simple">
+<li><p>If a plot point is selected, the new plot point is placed after the selected one.</p></li>
+<li><p>If a Plotlinie is selected, the new plot point is placed at the last position.</p></li>
+<li><p>Otherwise, no new plot point is generated.</p></li>
+<li><p>The new plot point has an auto-generated Titel. You can change it in
+the right pane.</p></li>
+</ul>
+</div>
+</section>
+<section id="stadium-einfugen">
+<h2>Stadium einfügen<a class="headerlink" href="#stadium-einfugen" title="Link to this heading"></a></h2>
+<p><strong>Insert a stage between the sections</strong></p>
+<p>Mit <strong>Plot &gt; Stadium einfügen</strong>
+kann man insert a stage after the selected chapter or section.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>By default, the new stage is on the second level.
+You can change the level to first (see below).</p>
+</div>
+</section>
+<section id="ebene-andern">
+<h2>Ebene ändern<a class="headerlink" href="#ebene-andern" title="Link to this heading"></a></h2>
+<p><strong>Change the level of the selected stages</strong></p>
+<p>Mit <strong>Plot &gt; Ebene ändern</strong>
+kann man change the level of the selected stages.</p>
+<figure class="align-default">
+<img alt="novelibre Screenshot" src="_images/plot_menu02.png" />
+</figure>
+<ul class="simple">
+<li><p><strong>Erste Ebene</strong> is displayed in bold face.</p></li>
+<li><p><strong>Zweite Ebene</strong> is displayed in regular font.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>The stage level is only for visual distinction. It has no
+influence on the program functions.</p>
+</div>
+</section>
+<section id="handlungsraster-plot-grid-zum-bearbeiten-exportieren">
+<h2>Handlungsraster (Plot grid) zum Bearbeiten exportieren<a class="headerlink" href="#handlungsraster-plot-grid-zum-bearbeiten-exportieren" title="Link to this heading"></a></h2>
+<p><strong>Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
+<p>Mit <strong>Plot &gt; Handlungsraster (Plot grid) zum Bearbeiten exportieren</strong>
+kann man create a spreadsheet as described in the
+<a class="reference external" href="plotting.html#handlungsraster-plot-grid">Plotting with novelibre</a> chapter,
+with a row per section, containing the following data:</p>
+<ul class="simple">
+<li><p>The sequential section number as a hyperlink to the section in the
+Manuskript (falls vorhanden)</p></li>
+<li><p>Erzähldatum</p></li>
+<li><p>Erzählzeit</p></li>
+<li><p>Tag</p></li>
+<li><p>Abschnittstitel</p></li>
+<li><p>Abschnittsbeschreibung</p></li>
+<li><p>Perspektive</p></li>
+<li><p>One column per Plotlinie with the section’s Plotlinie notes</p></li>
+<li><p>Tags</p></li>
+<li><p>A/R/B</p></li>
+<li><p>Ziel/Reaktion/(benutzerdefiniert)</p></li>
+<li><p>Konflikt/Dilemma/(benutzerdefiniert)</p></li>
+<li><p>Ausgang/Entscheidung/(benutzerdefiniert)</p></li>
+<li><p>Abschnittsnotizen</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Only „normal“ sections appear in the plot grid.
+Abschnitte of the „Unbenutzt“ type are omitted.</p>
+</div>
+<p>Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_grid_tmp</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>You can reorder, hide or delete columns and rows
+without affecting the reimport.
+Only the first column and the first row, which are hidden by default,
+must not be changed as they contain the structural information
+for the import.</p>
+</div>
+</section>
+<section id="erzahlstruktur-beschreibung-zum-bearbeiten-exportieren">
+<h2>Erzählstruktur-Beschreibung zum Bearbeiten exportieren<a class="headerlink" href="#erzahlstruktur-beschreibung-zum-bearbeiten-exportieren" title="Link to this heading"></a></h2>
+<p><strong>Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
+<p>Mit <strong>Plot &gt; Erzählstruktur-Beschreibung zum Bearbeiten exportieren</strong>,
+you can create a text document that contains
+all stages, each with description.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_structure_tmp</span></code>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>This is also a full synopsis, with the emphasis on the dramaturgical structure.</p>
+</div>
+</section>
+<section id="plotlinienbeschreibungen-zum-bearbeiten-exportieren">
+<h2>Plotlinienbeschreibungen zum Bearbeiten exportieren<a class="headerlink" href="#plotlinienbeschreibungen-zum-bearbeiten-exportieren" title="Link to this heading"></a></h2>
+<p><strong>Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
+<p>Mit <strong>Plot &gt; Plotlinienbeschreibungen zum Bearbeiten exportieren</strong>,
+you can create a text document that contains
+stages, plot lines, and plot points, each with description.
+The plot points are linked to the manuscript and to the section descriptions.
+File name suffix is <code class="docutils literal notranslate"><span class="pre">_plotlines_tmp</span></code>.</p>
+</section>
+<section id="plot-liste-exportieren-tabelle">
+<h2>Plot-Liste exportieren (Tabelle)<a class="headerlink" href="#plot-liste-exportieren-tabelle" title="Link to this heading"></a></h2>
+<p><strong>Ein ODS-Dokument exportieren</strong></p>
+<p>Mit <strong>Plot &gt; Plot-Liste exportieren (Tabelle)</strong>
+kann man create a spreadsheet with a row for each section
+and a column for each Plotlinie.
+Associations between Plotlinien and sections are color-highlighted.
+Plotpunkt Titels are displayed.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_plotlist</span></code>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>The Plotlinie Titels and the section Titels are hyperlinked to
+the respective descriptions in other exported documents, if any.</p>
+</div>
+<figure class="align-default" id="id1">
+<img alt="LibreOffice Screenshot" src="_images/plot_menu04.png" />
+<figcaption>
+<p><span class="caption-text">LibreOffice Screenshot. Note the hyperlink from the Plotlinie Titel in the
+plot list (left) to the Plotlinie in the plot description (right).</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition important">
+<p class="admonition-title">Wichtig</p>
+<p>Hyperlinks in ODS spreadsheets are absolute within the file system,
+so they might not work after moving the location of your project file
+to another folder or computer. In this case, you will have to
+export the spreadsheet anew.</p>
+</div>
+</section>
+<section id="plot-liste-anzeigen">
+<h2>Plot-Liste anzeigen<a class="headerlink" href="#plot-liste-anzeigen" title="Link to this heading"></a></h2>
+<p><strong>Einen HTML-Report mit Plot-elementen anzeigen</strong></p>
+<p>Mit <strong>Plot &gt; Plot-Liste anzeigen</strong>
+You can create a list-formatted HTML file that contains
+a plot list similar to the ODS plot list (see above),
+but without any hyperlinks,
+and launch your system’s web browser for displaying it.</p>
+<figure class="align-default" id="id2">
+<img alt="Edge browser Screenshot" src="_images/plot_menu03.jpg" />
+<figcaption>
+<p><span class="caption-text">Edge browser Screenshot</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>The report is a temporary file, auto-gelöscht on program exit.
+If needed kann man have your web browser save or print it.</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="items_menu.html" class="btn btn-neutral float-left" title="Gegenstände-Menü" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="project_notes_menu.html" class="btn btn-neutral float-right" title="Projektnotizen-Menü" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, peter88213.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

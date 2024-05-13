@@ -11,17 +11,18 @@ Titel und Beschreibung
 .. figure:: _images/world_view01.png
    :alt: Screenshot
 
-Titel und Beschreibung are displayed in an editable "Karteikarte".
+Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 alias
 -----
 
-This entry field is for alias names. Editing can be completed
-by pressing the Eingabetaste.
+This entry field is for alias names.
+Die Bearbeitung kann mit der Eingabetaste beendet werden.
+
 
 Tags
 ----
@@ -29,7 +30,7 @@ Tags
 Tags are a very freely usable tool for labeling locations and Gegenstands
 in the Baumansicht. Tags do not have to be defined elsewhere, but
 simply entered in the input field separated by semicolons.
-Editing kann mit der Eingabetaste beendet werden.
+Die Bearbeitung kann mit der Eingabetaste beendet werden.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 

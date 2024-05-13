@@ -29,8 +29,8 @@ Status setzen
 **Set the character status**
 
 Mit **Figuren > Status setzen**
-kann man make the selected character *major* or *minor*.
-Major characters are highlighted in the Baumansicht.
+kann man die Figur als *Hauptfigur* oder *Nebenfigur* kennzeichnen.
+Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
 
 .. figure:: _images/characters_menu02.png
    :alt: novelibre Screenshot

@@ -11,9 +11,9 @@ select a character in the tree.
 Titel und Beschreibung
 ----------------------
 
-Titel und Beschreibung are displayed in an editable "Karteikarte".
+Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
@@ -22,7 +22,7 @@ Vollst. Name
 
 The character's Titel as shown on the Karteikarte is used as
 a short name at several places. The full name can be entered
-separately. Editing kann mit der Eingabetaste beendet werden.
+separately. Die Bearbeitung kann mit der Eingabetaste beendet werden.
 
 alias
 -----
@@ -36,7 +36,7 @@ Tags
 Tags are a very freely usable tool for labeling characters in the
 Baumansicht. Tags do not have to be defined elsewhere, but simply
 entered in the input field separated by semicolons.
-Editing kann mit der Eingabetaste beendet werden.
+Die Bearbeitung kann mit der Eingabetaste beendet werden.
 
 .. caution::
    If you want to use a tag more than once, make sure you use 
@@ -157,18 +157,19 @@ Link öffnen
 "Haftmerker"
 ------------
 
-The yellow text area is for notes. Changes are applied
-when the mouse is clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
+Der gelbe Texteingabebereich ist für Notizen.
+Änderungen werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
-When the "sticky note" of a character contains text, an "N" is
-displayed in the Baumansicht as a reminder.
+Wenn der "Haftmerker" einer Figur Text enthält,
+erscheint in the Baumansicht ein "N" als Merker.
 
 .. note::
-   The "sticky notes" are only for working with *novelibre*.
-   They are not meant to be exported into a document.
-   However, they appear in the `character list`_.
+   Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
+   Sie werden nicht beim Dokumentenexport berücksichtigt.
+   Allerdings erscheinen sie in der `Figurenliste`_.
 
-.. _character list: characters_menu.html#exportieren-character-list-spreadsheet
+.. _Figurenliste: characters_menu.html#exportieren-character-list-spreadsheet
 
 Navigationsschaltflächen
 ------------------------

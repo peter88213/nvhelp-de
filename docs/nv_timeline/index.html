@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nv_timeline &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+
+  
+    <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=32436c57"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../_static/translations.js?v=70a09b52"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="nv_updater" href="../nv_updater/index.html" />
+    <link rel="prev" title="nv_templates" href="../nv_templates/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+              <div class="version">
+                Version 3.8+
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../nv_aeon2/index.html">nv_aeon2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_timeline</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#das-plugin-installieren">Das Plugin installieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#befehlsreferenz">Befehlsreferenz</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#timeline-information">Timeline &gt; Information</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#timeline-die-zeitleiste-erzeugen-oder-aktualisieren">Timeline &gt; Die Zeitleiste erzeugen oder aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#timeline-das-projekt-aktualisieren">Timeline &gt; Das Projekt aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#timeline-die-zeitleiste-bearbeiten">Timeline &gt; Die Zeitleiste bearbeiten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#datei-neu-aus-timeline-erzeugen">Datei &gt; Neu &gt; Aus Timeline erzeugen…</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#benutzerdefinierte-konfiguration">Benutzerdefinierte Konfiguration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#globale-konfiguration">Globale Konfiguration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lokale-projektkonfiguration">Lokale Projektkonfiguration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst">Wie man eine Konfigurationsdatei erstellt oder anpasst</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wie-man-die-konfiguration-auf-die-standardeinstellungen-zurucksetzt">Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#konventionen">Konventionen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#allgemein">Allgemein</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#auf-der-seite-von-novelibre">Auf der Seite von novelibre</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#auf-der-seite-von-timeline">Auf der Seite von Timeline</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bekannte-einschrankungen">Bekannte Einschränkungen</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tools.html">Werkzeuge</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
+      <li class="breadcrumb-item active">nv_timeline</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_timeline/">English</a></p>
+<hr class="docutils" />
+<section id="nv-timeline">
+<h1>nv_timeline<a class="headerlink" href="#nv-timeline" title="Link to this heading"></a></h1>
+<p><strong>Benutzerhandbuch</strong></p>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_timeline/">nv_timeline</a> release.
+You can open it with <strong>Hilfe &gt; Timeline-Plugin Online-Hilfe</strong>.</p>
+<section id="das-plugin-installieren">
+<h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Unzip the downloaded zipfile into a new folder.</p></li>
+<li><p>Move into this new folder and launch <strong>setup.pyw</strong>. This installs the plugin.</p></li>
+</ul>
+<p>The plugin adds a <strong>Timeline</strong> entry to the <em>novelibre</em> main-Menü,
+a <strong>Aus Timeline erzeugen</strong> to the <strong>Datei &gt; Neu</strong> submenu,
+and a <strong>Timeline-Plugin Online-Hilfe</strong> entry to the <strong>Hilfe</strong>-Menü.</p>
+</section>
+<section id="befehlsreferenz">
+<h2>Befehlsreferenz<a class="headerlink" href="#befehlsreferenz" title="Link to this heading"></a></h2>
+<section id="timeline-information">
+<h3>Timeline &gt; Information<a class="headerlink" href="#timeline-information" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Show information about an existing Timeline project, if any. Timeline
+and novelibre file dates are compared.</p></li>
+</ul>
+</section>
+<section id="timeline-die-zeitleiste-erzeugen-oder-aktualisieren">
+<h3>Timeline &gt; Die Zeitleiste erzeugen oder aktualisieren<a class="headerlink" href="#timeline-die-zeitleiste-erzeugen-oder-aktualisieren" title="Link to this heading"></a></h3>
+<p>If a timeline exists, aktualisieren it from novelibre, otherwise erzeugena neu
+timeline.</p>
+</section>
+<section id="timeline-das-projekt-aktualisieren">
+<h3>Timeline &gt; Das Projekt aktualisieren<a class="headerlink" href="#timeline-das-projekt-aktualisieren" title="Link to this heading"></a></h3>
+<p>Aktualisieren the novelibre-Projekt from the timeline, if existing.</p>
+</section>
+<section id="timeline-die-zeitleiste-bearbeiten">
+<h3>Timeline &gt; Die Zeitleiste bearbeiten<a class="headerlink" href="#timeline-die-zeitleiste-bearbeiten" title="Link to this heading"></a></h3>
+<p>Öffnen the project’s timeline, if existing, with the Timeline application.
+Sperren the project.</p>
+</section>
+<section id="datei-neu-aus-timeline-erzeugen">
+<h3>Datei &gt; Neu &gt; Aus Timeline erzeugen…<a class="headerlink" href="#datei-neu-aus-timeline-erzeugen" title="Link to this heading"></a></h3>
+<p>Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
+the timeline’s file name exists, erzeugen a neu one from the timeline.</p>
+</section>
+</section>
+<section id="benutzerdefinierte-konfiguration">
+<h2>Benutzerdefinierte Konfiguration<a class="headerlink" href="#benutzerdefinierte-konfiguration" title="Link to this heading"></a></h2>
+<p>You can override the default settings by providing a Konfigurationsdatei.
+Be always aware that faulty entries may cause program errors or
+unreadable Timeline projects. If you change a Konfiguration inbetween,
+previously synchronized projects might no longer match.</p>
+<section id="globale-konfiguration">
+<h3>Globale Konfiguration<a class="headerlink" href="#globale-konfiguration" title="Link to this heading"></a></h3>
+<p>An optional global Konfigurationsdatei can be placed in the Konfiguration
+directory in your user profile. It is applied to any project. Its
+entries override nv_timeline’s built-in constants. This is the
+path: <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\config\nv_timeline.ini</span></code></p>
+<p>The setup script installs a sample Konfigurationsdatei containing
+nv_timeline’s default values. You can modify or delete it.</p>
+</section>
+<section id="lokale-projektkonfiguration">
+<h3>Lokale Projektkonfiguration<a class="headerlink" href="#lokale-projektkonfiguration" title="Link to this heading"></a></h3>
+<p>An optional project Konfigurationsdatei named <code class="docutils literal notranslate"><span class="pre">nv_timeline.ini</span></code> can be
+placed in your project directory, i.e. the Ordner containing your
+novelibre and Timeline project files. It is only applied to this
+project. Its entries override nv_timeline’s built-in constants as
+well as the global Konfiguration, if any.</p>
+</section>
+<section id="wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst">
+<h3>Wie man eine Konfigurationsdatei erstellt oder anpasst<a class="headerlink" href="#wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst" title="Link to this heading"></a></h3>
+<p>The nv_timeline distribution comes with a sample Konfiguration
+file located in the <code class="docutils literal notranslate"><span class="pre">sample</span></code> Unterverzeichnis. It contains
+nv_timeline’s default settings and options. This file is also
+automatically copied to the global Konfiguration Ordner during
+installation. You best make a copy and edit it.</p>
+<ul class="simple">
+<li><p>The SETTINGS section comprises the program „constants“. If you change
+them, the program might behave differently than described in the
+documentation. So only touch them if you are clear about the
+consequences.</p></li>
+<li><p>Comment lines begin with a <code class="docutils literal notranslate"><span class="pre">#</span></code> number sign. In the example, they
+refer to the code line immediately above.</p></li>
+</ul>
+<p>This is the Konfiguration explained:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+
+<span class="na">section_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Abschnitt</span>
+
+<span class="c1"># Events with this label become sections in a neuly erzeugend</span>
+<span class="c1"># novelibre-Projekt.</span>
+
+<span class="na">section_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">170,240,160</span>
+
+<span class="c1"># Color for events imported as sections from novelibre.</span>
+
+<span class="na">neu_event_spacing</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">1</span>
+
+<span class="c1"># Tage between events with automatically generated dates.</span>
+
+
+<span class="k">[OPTIONS]</span>
+
+<span class="na">lock_on_export</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">No</span>
+
+<span class="c1"># Yes: Lock the novelibre project when opening the timeline.</span>
+<span class="c1"># No: Do not lock the novelibre project when opening the timeline.</span>
+</pre></div>
+</div>
+</section>
+<section id="wie-man-die-konfiguration-auf-die-standardeinstellungen-zurucksetzt">
+<h3>Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt<a class="headerlink" href="#wie-man-die-konfiguration-auf-die-standardeinstellungen-zurucksetzt" title="Link to this heading"></a></h3>
+<p>Just delete your global and local Konfigurationsdateis.</p>
+</section>
+</section>
+<section id="konventionen">
+<h2>Konventionen<a class="headerlink" href="#konventionen" title="Link to this heading"></a></h2>
+<section id="allgemein">
+<h3>Allgemein<a class="headerlink" href="#allgemein" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>The novelibre-Projekt file and the Timeline file are located in the
+same directory.</p></li>
+<li><p>They have the same file name and differ in the file extension.</p></li>
+<li><p>Either a timeline or a novelibre-Projekt is generated from the other
+file for the first time. After that, the two files can be
+synchronized against each other.</p></li>
+<li><p><strong>Please keep in mind:</strong> Synchronizing means overwriting target data
+with source data. Since nv_timeline works in both directions,
+there is always a danger of confusing source and target, thus losing
+changes. So if the program asks you for confirmation to overwrite a
+file, better check if it’s actually the target file.</p></li>
+</ul>
+</section>
+<section id="auf-der-seite-von-novelibre">
+<h3>Auf der Seite von novelibre<a class="headerlink" href="#auf-der-seite-von-novelibre" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Only normal sections are synchronized with Timeline, or exported to
+Timeline. Unbenutzt sections will not show up in the timeline.</p></li>
+<li><p>Abschnitte with an unspecific time stamp (day, hours, minutes) are
+synchronized with the timeline, if a reference date is set.</p></li>
+<li><p>Changes to the section date/time affect the event start date/time
+during synchronization.</p></li>
+<li><p>Changes to the section title affect the event text during
+synchronization.</p></li>
+<li><p>Changes to the section description affect the event description
+during synchronization.</p></li>
+<li><p>Changes to the section type may add or remove the corresponding event
+during synchronization.</p></li>
+<li><p>Hinzufügening or removing sections will add or remove the corresponding
+event during synchronization.</p></li>
+</ul>
+</section>
+<section id="auf-der-seite-von-timeline">
+<h3>Auf der Seite von Timeline<a class="headerlink" href="#auf-der-seite-von-timeline" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>A section ID is a string looking like „sc1“. It is auto-generated and
+must not be changed manually.</p></li>
+<li><p>Only events with a label containing the string „Abschnitt“ (user input)
+or a section ID (auto-generated) are exported as sections to a neu
+novelibre-Projekt.</p></li>
+<li><p>When creating a neu novelibre-Projekt from a timeline the first time,
+„Abschnitt“ labels are replaced with section ID labels.</p></li>
+<li><p>If a neu novelibre-Projekt is generated again with the same timeline,
+the section ID labels may change.</p></li>
+<li><p>Only events with a label containing a section ID are synchronized
+with an existing novelibre-Projekt.</p></li>
+<li><p>Changes to the event start date/time affect the section date/time
+during synchronization.</p></li>
+<li><p>Changes to the event text affect the section title during
+synchronization.</p></li>
+<li><p>Changes to the event description affect the section description
+during synchronization.</p></li>
+<li><p>The section structure of an existing novelibre-Projekt can not be
+changed in Timeline. Hinzufügening/removing events, or adding/removing
+section IDs from event labels will <em>not</em> add or remove the
+corresponding section during synchronization.</p></li>
+<li><p>When creating events from sections without date/time information, the
+dates are automatically generated with a one-day difference, starting
+from the novelibre-Projekt’s reference date.</p></li>
+</ul>
+</section>
+<section id="bekannte-einschrankungen">
+<h3>Bekannte Einschränkungen<a class="headerlink" href="#bekannte-einschrankungen" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Abschnitt events that begin before 0001-01-01 in the timeline, will not
+be synchronized with novelibre, because novelibre can not handle
+these dates.</p></li>
+<li><p>The same applies to the section duration in this case, i.e. the event
+duration in Timeline and the section duration in novelibre may
+differ.</p></li>
+<li><p>If a section event ends after 9999-12-31 in the timeline, the section
+duration is not synchronized with novelibre.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nv_templates/index.html" class="btn btn-neutral float-left" title="nv_templates" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../nv_updater/index.html" class="btn btn-neutral float-right" title="nv_updater" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, peter88213.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

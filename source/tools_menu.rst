@@ -16,7 +16,7 @@ Plugin manager
 **Die installierten Plugins anzeigen und verwalten**
 
 Mit **Extras > Plugin manager**
-kann man open the *Installierte Plugins* dialog.
+kann man den *Installierte Plugins*-Dialog öffnen.
 
 .. figure:: _images/tools_menu01.png
    :alt: novelibre Screenshot
@@ -69,7 +69,7 @@ Installationsordner öffnen
 **Die Dateiverwaltung aufrufen**
 
 Mit **Extras > Installationsordner öffnen**
-kann man launch the file manager with the *novelibre* installation folder.
+kann man den *novelibre*-Installationsordner im Dateimanager öffnen.
 This might come in handy if you wish to edit configuration files,
 or install your own plugins.
 

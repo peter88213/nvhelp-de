@@ -81,12 +81,12 @@ Löschen
 
 Löschens the selected tree element and its children.
 
--  Teils and chapters are gelöscht.
--  Abschnitte are marked "unused" and moved to the "Papierkorb" chapter.
+-  Teile und Kapitel werden gelöscht.
+-  Abschnitte weerden als "unbenutzt" markiert und ins "Papierkorb"-Kapitel verschoben.
 -  Deleting a part has no effect on its subordinate chapters.
 -  Deleting a chapter moves its sections to the "Papierkorb" chapter.
 -  The "Papierkorb" chapter is created automatically, if needed.
--  When deleting the "Papierkorb" chapter, all its sections are gelöscht.
+-  Löscht man das "Papierkorb"-Kapitel, werden auch die enthaltenen Abschnitte unwiederbringlich gelöscht.
 
 
 Typ wählen

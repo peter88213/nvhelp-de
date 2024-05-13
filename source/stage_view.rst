@@ -11,9 +11,9 @@ select a stage in the tree.
 Titel und Beschreibung
 ----------------------
 
-Titel und Beschreibung are displayed in an editable "Karteikarte".
+Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung von the Titel kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
@@ -21,15 +21,16 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 "Haftmerker"
 ------------
 
-The yellow text area is for notes. Changes are applied
-when the mouse is clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
+Der gelbe Texteingabebereich ist für Notizen.
+Änderungen werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
-When the "sticky note" of a stage contains text, an "N" is
-displayed in the Baumansicht as a reminder.
+Wenn der "Haftmerker" eines Stadiums Text enthält,
+erscheint in the Baumansicht ein "N" als Merker.
 
 .. note::
-   The "sticky notes" are only for working with *novelibre*.
-   They are not meant to be exported into a document.
+   Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
+   Sie werden nicht beim Dokumentenexport berücksichtigt.
 
 
 Navigationsschaltflächen
