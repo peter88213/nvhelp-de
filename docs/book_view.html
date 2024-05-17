@@ -16,7 +16,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=32436c57"></script>
+        <script src="_static/documentation_options.js?v=ce5d6fc3"></script>
         <script src="_static/doctools.js?v=888ff710"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/translations.js?v=70a09b52"></script>
@@ -39,7 +39,7 @@
             novelibre Benutzerhandbuch
           </a>
               <div class="version">
-                Version 3.8+
+                Version 4.0+
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -66,6 +66,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#umbenennungen">Umbenennungen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#erzahlzeit">Erzählzeit</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#schreibfortschritt">Schreibfortschritt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#buchumschlag-miniaturbild">Buchumschlag-Miniaturbild</a></li>
 </ul>
 </li>
@@ -214,19 +215,27 @@ erneut mit „1“</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/book_view04.png" />
 </figure>
-<p><em>novelibre</em> provides some ready-made fields for sections and characters
-to store information that should be at hand when writing.
-If the default categories do not fit into your individual story planning
-concept kann man rename these fields.
-Editing the categories kann mit der Eingabetaste beendet werden.</p>
+<p><em>novelibre</em> bietet einige vorgefertigte Felder für Abschnitte und Figuren,
+um Informationen zu speichern, die beim Schreiben zur Hand sein sollten.
+Wenn die voreingestellten Kategorien nicht in Ihr individuelles
+Story-Planungskonzept passen, können Sie diese Felder umbenennen.
+Die Bearbeitung der Kategorien kann mit der Eingabetaste beendet werden.</p>
 <dl>
-<dt>Abschnitt fields</dt><dd><p>The heading replacements for <em>Ziel</em>, <em>Konflikt</em>, and <em>Ausgang</em> are
-used when you set the <a class="reference external" href="section_view.html#aktion-reaction">Aktion/Reaktion frame</a> to <strong>Benutzerdefiniert</strong>.
-You can do this individually for each section.</p>
+<dt>„Keine Szene“-Felder</dt><dd><p>Die Überschriftersetzungen für <em>Handlungsfortschritt</em>, <em>Charakterisierung</em> und <em>Weltenbau</em>
+kommen zur Anwendung, wenn Sie im <a class="reference external" href="section_view.html#szene">„Szene“-Fenster</a> eines Abschnitts <strong>Keine Szene</strong> auswählen.
+Diese Kategorien gelten dann für alle Abschnitte,
+die keine Szenen darstellen.</p>
 </dd>
-<dt>Figur fields</dt><dd><p>If you want other categories than <a class="reference external" href="character_view.html#biographie">Biographie</a>
-and <a class="reference external" href="character_view.html#ziele">Ziele</a> for your characters, you
-can enter them here. They will then apply to all characters.</p>
+<dt>„Andere Szene“-Felder</dt><dd><p>Die Überschriftersetzungen für <em>Eröffnung</em>, <em>Emotionaler Höhepunkt</em> und <em>Ende</em>
+kommen zur Anwendung, wenn Sie im <a class="reference external" href="section_view.html#szene">„Szene“-Fenster</a> eines Abschnitts <strong>Andere</strong> auswählen.
+Diese Kategorien gelten dann für alle Abschnitte,
+die andere Szenen als „Aktion“ und „Reaktion“ darstellen.</p>
+</dd>
+<dt>„Figur“-Felder</dt><dd><p>Falls Sie für Ihre Figuren andere Kategorien als
+<a class="reference external" href="character_view.html#biographie">Biographie</a>
+und <a class="reference external" href="character_view.html#ziele">Ziele</a> wollen,
+können Sie diese Kategorien hier benennen.
+Sie gelten dann für alle Figuren gleichermaßen.</p>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
 <p>If you rename the <em>Biographie</em> frame, it will keep the Birth/death date
@@ -326,21 +335,89 @@ phase are black.</p></li>
 </dd>
 </dl>
 </section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Link to this heading"></a></h2>
+<p>Dieses Fenster mit Klick auf den Titel öffnen oder schließen.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/book_view13.png" />
+</figure>
+<p>This is a list for image and research document links.</p>
+<p>Although <em>novelibre</em> holds some character/location/item data, it is
+not the right application for extensive world building. For this,
+you may want to use more powerful software, like <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>. In this case, <em>novelibre</em> allows you to
+create links to the text files that will take you quickly to the right
+places in the wiki.</p>
+<p>Or you have collected some images that could inspire you when writing.
+Then simply create links to these images to open them with your
+system’s standard image viewer.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>If you have collected several images for a character in a folder
+that your standard image viewer can browse through, a single link
+to any image file is sufficient.</p>
+</div>
+<p>The links are displayed in a list in the order they are entered.</p>
+<dl>
+<dt>Link hinzufügen</dt><dd><p>When clicking on <img alt="Hinzufügen" src="_images/add.png" />, a file selection dialog opens. The selected
+file will be added to the link list.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>By default, the dialog shows image files. For other file types,
+change the selector in the lower right corner.</p>
+<figure class="align-default" id="id5">
+<img alt="Screenshot" src="_images/filePicker01.png" />
+<figcaption>
+<p><span class="caption-text">Windows 10 Explorer Screenshot</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+</dd>
+<dt>Link entfernen</dt><dd><p>When clicking on <img alt="Entfernen" src="_images/remove.png" /> or pressing the <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste,
+the selected link is removed from the list.</p>
+</dd>
+<dt>Link öffnen</dt><dd><p>When double-clicking on a link, or clicking on <img alt="Goto" src="_images/goto.png" />,
+the link is opened with the standard application for the link’s file type.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>If you want to open certain linked files with another application than the
+standard application kann man provide a <em>novelibre</em> „launcher“ setting.
+For this, just create a text file named <strong>launchers.ini</strong> in the
+<code class="docutils literal notranslate"><span class="pre">.novelibre.config</span></code>  directory (where all configuration files are stored).
+Here you can assign applications to the file extensions.</p>
+<p>Zim desktop wiki pages are a special case.
+For this, the Zim program is assigned to the <cite>.zim</cite> extension.</p>
+<p>This example shows a setting that makes <em>novelibre</em> open text files
+with the <em>Zim Desktop Wiki</em> application instead of the standard text
+editor:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+<span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe</span>
+</pre></div>
+</div>
+<figure class="align-default" id="id6">
+<img alt="Screenshot" src="_images/launchers.png" />
+<figcaption>
+<p><span class="caption-text">Windows 10 Explorer Screenshot</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+</dd>
+</dl>
+</section>
 <section id="buchumschlag-miniaturbild">
 <h2>Buchumschlag-Miniaturbild<a class="headerlink" href="#buchumschlag-miniaturbild" title="Link to this heading"></a></h2>
 <p>A cover thumbnail is displayed with the book properties if you
 provide a PNG image file with the project name along with the <em>.novx</em>
 file. The recommended image width is 100 to 200 pixels.</p>
-<figure class="align-default" id="id5">
+<figure class="align-default" id="id7">
 <img alt="Windows 10 Explorer Screenshot" src="_images/book_view12.png" />
 <figcaption>
-<p><span class="caption-text">Windows 10 Explorer Screenshot</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+<p><span class="caption-text">Windows 10 Explorer Screenshot</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<figure class="align-default" id="id6">
+<figure class="align-default" id="id8">
 <img alt="novelibre Screenshot" src="_images/book_view07.jpg" />
 <figcaption>
-<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>

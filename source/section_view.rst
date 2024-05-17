@@ -115,8 +115,8 @@ along with their Plotlinien.
    `plot point's properties <point_view.html#assigned-section>`__.
 
 
-Aktion/Reaktion
----------------
+Szene
+-----
 
 Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 
@@ -130,7 +130,7 @@ something like this to ensure suspense kann man do so here.
 
 If this is not for you, but you would like to use a different method
 to set up a dramaturgical scene micro-structure kann man set the section
-to **Benutzerdefiniert** and get three `freely named <book_view.html#umbenennungen>`_
+to **Andere** and get three `freely named <book_view.html#umbenennungen>`_
 text fields.
 
 .. figure:: _images/section_view06.png

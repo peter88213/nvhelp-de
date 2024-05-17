@@ -117,22 +117,32 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 .. figure:: _images/book_view04.png
    :alt: novelibre Screenshot
 
-*novelibre* provides some ready-made fields for sections and characters
-to store information that should be at hand when writing.
-If the default categories do not fit into your individual story planning
-concept kann man rename these fields.
-Editing the categories kann mit der Eingabetaste beendet werden.
+*novelibre* bietet einige vorgefertigte Felder für Abschnitte und Figuren,
+um Informationen zu speichern, die beim Schreiben zur Hand sein sollten.
+Wenn die voreingestellten Kategorien nicht in Ihr individuelles
+Story-Planungskonzept passen, können Sie diese Felder umbenennen.
+Die Bearbeitung der Kategorien kann mit der Eingabetaste beendet werden.
 
-Abschnitt fields
-   The heading replacements for *Ziel*, *Konflikt*, and *Ausgang* are
-   used when you set the `Aktion/Reaktion frame
-   <section_view.html#aktion-reaction>`__ to **Benutzerdefiniert**.
-   You can do this individually for each section.
+"Keine Szene"-Felder
+   Die Überschriftersetzungen für *Handlungsfortschritt*, *Charakterisierung* und *Weltenbau*
+   kommen zur Anwendung, wenn Sie im `"Szene"-Fenster
+   <section_view.html#szene>`__ eines Abschnitts **Keine Szene** auswählen.
+   Diese Kategorien gelten dann für alle Abschnitte,
+   die keine Szenen darstellen.
 
-Figur fields
-   If you want other categories than `Biographie <character_view.html#biographie>`__
-   and `Ziele <character_view.html#ziele>`__ for your characters, you
-   can enter them here. They will then apply to all characters.
+"Andere Szene"-Felder
+   Die Überschriftersetzungen für *Eröffnung*, *Emotionaler Höhepunkt* und *Ende*
+   kommen zur Anwendung, wenn Sie im `"Szene"-Fenster
+   <section_view.html#szene>`__ eines Abschnitts **Andere** auswählen.
+   Diese Kategorien gelten dann für alle Abschnitte,
+   die andere Szenen als "Aktion" und "Reaktion" darstellen.
+
+"Figur"-Felder
+   Falls Sie für Ihre Figuren andere Kategorien als
+   `Biographie <character_view.html#biographie>`__
+   und `Ziele <character_view.html#ziele>`__ wollen,
+   können Sie diese Kategorien hier benennen.
+   Sie gelten dann für alle Figuren gleichermaßen.
 
    .. note::
       If you rename the *Biographie* frame, it will keep the Birth/death date
@@ -237,6 +247,86 @@ Arbeitsphase
      phase are black.
    - Abschnitte that are ahead of the selected work phase are green.
    - Abschnitte that are behind the selected work phase are magenta.
+
+
+Links
+-----
+
+Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+
+.. figure:: _images/book_view13.png
+   :alt: Screenshot
+   
+This is a list for image and research document links.
+
+Although *novelibre* holds some character/location/item data, it is
+not the right application for extensive world building. For this,
+you may want to use more powerful software, like `Zim Desktop Wiki
+<https://zim-wiki.org/>`__. In this case, *novelibre* allows you to
+create links to the text files that will take you quickly to the right
+places in the wiki.
+
+Or you have collected some images that could inspire you when writing.
+Then simply create links to these images to open them with your
+system's standard image viewer.
+
+.. tip::
+   If you have collected several images for a character in a folder 
+   that your standard image viewer can browse through, a single link 
+   to any image file is sufficient.  
+   
+The links are displayed in a list in the order they are entered.
+
+Link hinzufügen
+   When clicking on |Hinzufügen|, a file selection dialog opens. The selected
+   file will be added to the link list.
+
+   .. hint::
+      By default, the dialog shows image files. For other file types, 
+      change the selector in the lower right corner. 
+      
+      .. figure:: _images/filePicker01.png
+         :alt: Screenshot
+         
+         Windows 10 Explorer Screenshot
+
+
+Link entfernen
+   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
+   the selected link is removed from the list.
+
+Link öffnen
+   When double-clicking on a link, or clicking on |Goto|,
+   the link is opened with the standard application for the link's file type.
+
+   .. hint::
+      If you want to open certain linked files with another application than the 
+      standard application kann man provide a *novelibre* "launcher" setting. 
+      For this, just create a text file named **launchers.ini** in the 
+      ``.novelibre.config``  directory (where all configuration files are stored). 
+      Here you can assign applications to the file extensions. 
+      
+      Zim desktop wiki pages are a special case. 
+      For this, the Zim program is assigned to the `.zim` extension. 
+      
+      This example shows a setting that makes *novelibre* open text files
+      with the *Zim Desktop Wiki* application instead of the standard text 
+      editor: 
+      
+      ::
+     
+         [SETTINGS]
+         .zim = C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe 
+         
+      .. figure:: _images/launchers.png
+         :alt: Screenshot
+         
+         Windows 10 Explorer Screenshot
+
+.. |Hinzufügen| image:: _images/add.png
+.. |Goto| image:: _images/goto.png
+.. |Entfernen| image:: _images/remove.png
+
 
 
 Buchumschlag-Miniaturbild
