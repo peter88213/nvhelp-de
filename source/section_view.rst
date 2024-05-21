@@ -136,12 +136,20 @@ text fields.
 .. figure:: _images/section_view06.png
    :alt: Screenshot
    
-   Example of a user-defined scene category
+   Example of a non-standard scene category
 
-.. note::
-   The "Ziel/Konflikt/Ausgang" data is only for working with *novelibre*.
-   It is not meant to be exported into a document.
-   However, it all appears in the `Abschnittsliste`_.
+On the other hand, not every section is a scene to which the categories
+mentioned above appliy. Sections can be characterized by mode of discourse 
+(e.g. Narration, Dramatic action, Dialogue, Description, Exposition).
+So if a section is not staged, you can set the section to **Keine Szene**,
+and get three `freely named <book_view.html#umbenennungen>`_
+text fields.
+
+.. figure:: _images/section_view07.png
+   :alt: Screenshot
+   
+   Example of a non-staged section category
+
 
 Beziehungen
 -----------
