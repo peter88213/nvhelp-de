@@ -10,6 +10,15 @@ nv_aeon2
 
 **Benutzerhandbuch**
 
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
+   Der Text ist
+   überwiegend noch englisch, wobei die Begriffe, die auf der Benutzeroberfläche
+   auftauchen, bereits automatisch übersetzt wurden.
+   Manchmal entsteht dadurch ein etwas merkwürdiges Kauderwelsch. 
+   Im Zweifelsfall könnne Sie von dieser Seite aus zur englischen Version 
+   des Benutzerhandbuchs wechseln (Link s.o.).
+
 Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
 <https://github.com/peter88213/nv_aeon2/>`__ release.
 You can open it with **Hilfe > Aeon 2-Plugin Online-Hilfe**.

@@ -10,6 +10,15 @@ nv_templates
 
 **Benutzerhandbuch**
 
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
+   Der Text ist
+   überwiegend noch englisch, wobei die Begriffe, die auf der Benutzeroberfläche
+   auftauchen, bereits automatisch übersetzt wurden.
+   Manchmal entsteht dadurch ein etwas merkwürdiges Kauderwelsch. 
+   Im Zweifelsfall könnne Sie von dieser Seite aus zur englischen Version 
+   des Benutzerhandbuchs wechseln (Link s.o.).
+
 Diese Seite gilt für die neueste Ausgabe von `nv_templates
 <https://github.com/peter88213/nv_templates/>`__ release.
 You can open it with **Hilfe > Vorlagen-Plugin Online-Hilfe**.
@@ -66,7 +75,7 @@ This saves the narrative structure to a Markdown template file.
 Ordner öffnen
 ^^^^^^^^^^^^^
 
-This opens the templates fälter with the OS file manager, so kann man
+This opens the templates Ordner with the OS file manager, so kann man
 manage and edit the templates.
 
 

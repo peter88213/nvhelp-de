@@ -10,7 +10,8 @@ novx_xtg
 
 **Benutzerhandbuch**
 
-`novx_xtg User guide (English) <https://peter88213.github.io/nvhelp-en/novx_xtg/>`__
+.. hint::
+   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
 
 This page refers to the latest `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__ release.
