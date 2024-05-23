@@ -38,13 +38,20 @@ Timeline > Information
 Timeline > Die Zeitleiste erzeugen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, aktualisieren it from novelibre, otherwise erzeugena neu
-timeline.
+If a timeline exists, aktualisieren it from novelibre, otherwise erzeuge
+eine neue Zeitleiste.
 
 Timeline > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Aktualisieren the novelibre-Projekt from the timeline, if existing.
+
+
+.. important::
+   Please make sure to save the timeline before trying to sync with novelibre. 
+   Since nv_timeline reads the .timeline file, unsaved changes may not be recognized. 
+   In case of doubt, close Timeline before syncing with novelibre.
+
 
 Timeline > Die Zeitleiste bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
