@@ -157,25 +157,28 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 .. figure:: _images/book_view05.png
    :alt: novelibre Screenshot
 
-To get an overview of the course of the narrative time kann man enter
-date/time information `for each section <section_view.html#datum-time>`__.
-The date can be specific *(YYYY-MM-DD)* or unspecific (number of days,
-e.g. from the beginning of the story).
+Um den Überblick über die erzählte Zeit zu behalten, kann man
+`jedem Abschnitt <section_view.html#datum-time>`__ Datums- und Zeitinformationen
+zuordnen.
+Das Datum kann man spezifisch *(JJJJ-MM-TT)* oder unspezifisch (Anzahl der
+Tage, z.B. seit Beginn) eingeben.
 
 Bezugsdatum
-   The reference date is optional. It can be used to convert relative dates
-   into absolute dates, or vice versa. The timeline software plugins may
-   use the reference date for creating events from sections that have no
-   date or an unspecific one.
+   Das Bezugsdatum ist optional. Es kann dazu dienen, unspezifische
+   Datumsangaben in spezifische umzuwandeln, oder umgekehrt.
+   Mit Hilfe des Referenzdatums können Zeitleisten-Plugins
+   Ereignisse aus Abschnitten ohne spezifischem Datum erzeugen.
 
-   Format: *YYYY-MM-DD*, according to ISO 8601.
+   Format: *JJJJ-MM-TT*, entsprechend ISO 8601.
 
    .. hint::
-      Even if you don't need specific dates for your story, specifying
-      a reference date might be helpful. Thus, a day of the week
-      can be displayed along with the `unspecific date 
-      <section_view.html#beginn>`__, and ages can be calculated for 
-      `related characters <section_view.html#beziehungen>`__.  
+      Selbst wenn Sie keine spezifischen Datumsangaben in Ihrer 
+      Geschichte benötigen, kann es hilfreich sein, ein Referenzdatum
+      anzugeben. 
+      Auf diese Weise wird der Wochentag zusammen mit dem 
+      `unspezifischen Datum <section_view.html#beginn>`__, angezeigt, 
+      und für die `Figuren im Abschnitt <section_view.html#beziehungen>`__ 
+      können Sie das Alter abrufen, sofern Sie ein Geburtsdatum angegeben haben.   
 
 Datum in Tage umwandeln
    This transforms specific section dates into days, related to the
