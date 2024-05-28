@@ -210,16 +210,16 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 .. figure:: _images/book_view06.png
    :alt: novelibre Screenshot
 
-Mit *novelibre* können Sie sich ein Ziel für die Wörterzahl setzen und
+Mit *novelibre* können Sie sich ein Ziel für die Wortanzahl setzen und
 Ihren Fortschritt verfolgen.
 
 .. note::
    Unabhängig von den hier gemachten Einstellungen können Sie 
-   die Wortzahl jederzeit in der Statuszeile sehen.
+   die Wortanzahl jederzeit in der Statuszeile sehen.
 
 Schreibfortschritt protokollieren
    Per Voreinstellung speichert *novelibre* täglich Protokolleinträge
-   mit den Wörterzahlen ab.
+   mit den Wortanzahlen ab.
    Sie können das abschalten, indem Sie den Haken im Auswahlfeld
    **Schreibfortschritt protokollieren** entfernen.
 
@@ -229,21 +229,21 @@ Schreibfortschritt protokollieren
       <https://github.com/peter88213/nv_progress/>`__ installieren.
 
 Wörter zu schreiben
-   Hier können Sie eine Zahl (Ohne Dezimaltrenner oder Leerzeichen)
+   Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
    eingeben, die Ihr Schreibziel in Wörtern angibt.
    Die Eingabe kann mit der Eingabetaste beendet werden.
 
 Anfangswert
-   Hier können Sie eine Zahl (Ohne Dezimaltrenner oder Leerzeichen)
-   eingeben, welche die Anfangs-Wörterzahl für Ihr Schreibziel angibt.
+   Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
+   eingeben, welche die Anfangs-Wortanzahl für Ihr Schreibziel angibt.
    Die Eingabe kann mit der Eingabetaste beendet werden.
 
 Aktuelle Wortzahl als Anfangswert setzen
-   Klicken Sie auf diese Schaltfläche, um die aktuelle Wörterzahl in das
+   Klicken Sie auf diese Schaltfläche, um die aktuelle Wortanzahl in das
    **Anfangswert**-Feld einzutragen.
 
 Wörter geschrieben
-   Hier wird die Differenz zwischen Ihrer derzeitigen Wörterzahl
+   Hier wird die Differenz zwischen Ihrer derzeitigen Wortanzahl
    und dem Anfangswert angezeigt.
    Der Prozentwert bezieht sich auf Ihr Schreibziel.
 
