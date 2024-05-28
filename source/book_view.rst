@@ -181,22 +181,25 @@ Bezugsdatum
       können Sie das Alter abrufen, sofern Sie ein Geburtsdatum angegeben haben.   
 
 Datum in Tage umwandeln
-   This transforms specific section dates into days, related to the
-   reference date.
+   Damit können Sie spezifische Abschnitts-Datumsangaben in Tage,
+   bezogen auf das Referenzdatum, umwandeln.
 
 Tage in Datum umwandeln
-   This transforms unspecific section dates into specific ones, using
-   the reference date.
+   Damit können Sie unspezifische Abschnitts-Datumsangaben
+   (auf das Referenzdatum bezogene Tage) in
+   spezifische Datumsangaben umwandeln.
 
 .. note::
-   For large novels, the conversion may take some time, depending on 
-   your system. During the conversion time, the clicked Schaltfläche will 
-   display *"Bitte warten ..."*.  
+   Bei umfangreichen Romanen kann die Umwandlung eine Zeitlang dauern, 
+   je nach Leistungsfähigkeit Ihres Systems.
+   Solange die Konvertierung läuft, zeigt die angeklickte Schaltfläche
+   *"Bitte warten ..."* an.  
 
 .. hint::
-   The commands above convert all dated sections at once. If you want to 
-   do the conversion for single sections, just go to the 
-   `Abschnitt properties view <section_view.html#beginn>`__.
+   Die oben beschriebenen Befehle konvertieren alle datierten 
+   Abschnitte auf einmal. 
+   Wenn Sie nur einzelne Abschnitte umwandeln wollen, gehen Sie einfach
+   zu den `Abschnittseigenschaften <section_view.html#beginn>`__.
    
 
 Schreibfortschritt
@@ -207,49 +210,51 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 .. figure:: _images/book_view06.png
    :alt: novelibre Screenshot
 
-Mit *novelibre* kann man set a word count target and track your
-writing progress.
+Mit *novelibre* können Sie sich ein Ziel für die Wörterzahl setzen und
+Ihren Fortschritt verfolgen.
 
 .. note::
-   Regardless of the entries made here kann man see the word count 
-   in the status bar at any time. 
+   Unabhängig von den hier gemachten Einstellungen können Sie 
+   die Wortzahl jederzeit in der Statuszeile sehen.
 
 Schreibfortschritt protokollieren
-   By default, *novelibre* stores a log entry with the word counts
-   for each day on which you edit the project. You can prevent
-   this by unticking the **Schreibfortschritt protokollieren** Auswahlfeld.
+   Per Voreinstellung speichert *novelibre* täglich Protokolleinträge
+   mit den Wörterzahlen ab.
+   Sie können das abschalten, indem Sie den Haken im Auswahlfeld
+   **Schreibfortschritt protokollieren** entfernen.
 
    .. hint::
-      For viewing the daily progress log, you may want to 
-      install the `nv_progress plugin 
-      <https://github.com/peter88213/nv_progress/>`__.
+      Sie können das Protokoll Ihres täglichen Schreibfortschritts
+      betrachten, wenn Sie das `nv_progress-Plugin 
+      <https://github.com/peter88213/nv_progress/>`__ installieren.
 
 Wörter zu schreiben
-   Hier kann man enter a number (without decimal points or separators)
-   indicating your writing goal in words.
-   The entry kann mit der Eingabetaste beendet werden.
+   Hier können Sie eine Zahl (Ohne Dezimaltrenner oder Leerzeichen)
+   eingeben, die Ihr Schreibziel in Wörtern angibt.
+   Die Eingabe kann mit der Eingabetaste beendet werden.
 
 Anfangswert
-   Hier kann man enter a number (without decimal points or separators)
-   indicating the word count you want to start from.
-   The entry kann mit der Eingabetaste beendet werden.
+   Hier können Sie eine Zahl (Ohne Dezimaltrenner oder Leerzeichen)
+   eingeben, welche die Anfangs-Wörterzahl für Ihr Schreibziel angibt.
+   Die Eingabe kann mit der Eingabetaste beendet werden.
 
 Aktuelle Wortzahl als Anfangswert setzen
-   Click this Schaltfläche to enter your current word count in the **Beginning
-   count** field.
+   Klicken Sie auf diese Schaltfläche, um die aktuelle Wörterzahl in das
+   **Anfangswert**-Feld einzutragen.
 
 Wörter geschrieben
-   Here the difference between your actual word count and the starting
-   count is displayed. The percentage refers to the words to write.
+   Hier wird die Differenz zwischen Ihrer derzeitigen Wörterzahl
+   und dem Anfangswert angezeigt.
+   Der Prozentwert bezieht sich auf Ihr Schreibziel.
 
 Arbeitsphase
-   This setting is for the Baumansicht `"Arbeitsphase" coloring mode
-   <view_menu.html#farbgebungsmodus>`__.
+   Diese Einstellung wird für den `Farbgebungsmodus "Arbeitsphase"
+   <view_menu.html#farbgebungsmodus>`__ benötigt.
 
-   - Abschnitte with the same completion status as the selected work
-     phase are black.
-   - Abschnitte that are ahead of the selected work phase are green.
-   - Abschnitte that are behind the selected work phase are magenta.
+   - Abschnitte mit dem selben Fertigstellungsstatus wie die eingestellte
+     Arbeitsphase sind schwarz.
+   - Abschnitte, die der eingestellten Arbeitsphase vorauseilen, sind grün.
+   - Abschnitte, die der eingestellten Arbeitsphase hinterherhinken, sind magenta.
 
 
 Links
