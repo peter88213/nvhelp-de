@@ -158,7 +158,7 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
    :alt: novelibre Screenshot
 
 Um den Überblick über die erzählte Zeit zu behalten, kann man
-`jedem Abschnitt <section_view.html#datum-time>`__ Datums- und Zeitinformationen
+jedem Abschnitt `Datums- und Zeitinformationen <section_view.html#datum-zeit>`__
 zuordnen.
 Das Datum kann man spezifisch *(JJJJ-MM-TT)* oder unspezifisch (Anzahl der
 Tage, z.B. seit Beginn) eingeben.
@@ -167,7 +167,7 @@ Bezugsdatum
    Das Bezugsdatum ist optional. Es kann dazu dienen, unspezifische
    Datumsangaben in spezifische umzuwandeln, oder umgekehrt.
    Mit Hilfe des Referenzdatums können Zeitleisten-Plugins
-   Ereignisse aus Abschnitten ohne spezifischem Datum erzeugen.
+   aus Abschnitten ohne spezifischem Datum Ereignisse erzeugen.
 
    Format: *JJJJ-MM-TT*, entsprechend ISO 8601.
 

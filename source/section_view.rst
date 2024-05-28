@@ -210,9 +210,9 @@ Die Bearbeitung kann mit der Eingabetaste beendet werden.
 .. hint::
    Dedicated timeline software offers a more convenient way of entering date/time 
    and duration information. So if chronology is important to your story, you
-   might want to take a look at the `Zeitline plugin 
+   might want to take a look at the `Timeline plugin 
    <https://github.com/peter88213/nv_timeline/>`__, or the 
-   `Aeon Zeitline 2 plugin <https://github.com/peter88213/nv_aeon2/>`__.
+   `Aeon Timeline 2 plugin <https://github.com/peter88213/nv_aeon2/>`__.
 
 .. figure:: _images/section_view05.png
    :alt: Screenshot
