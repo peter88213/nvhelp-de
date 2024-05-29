@@ -69,6 +69,8 @@
 <li class="toctree-l3"><a class="reference internal" href="#titel-und-beschreibung">Titel und Beschreibung</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#kurzname">Kurzname</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#abschnittszuordnungen">Abschnittszuordnungen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#haftmerker">„Haftmerker“</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#navigationsschaltflachen">Navigationsschaltflächen</a></li>
 </ul>
 </li>
@@ -140,6 +142,93 @@ clicking on the <strong>Abschnittszuordnungen löschen</strong> Schaltfläche.</
 <p class="admonition-title">Hinweis</p>
 <p>A convenient way to manage and keep track of section assignments is
 offered by the <a class="reference external" href="https://github.com/peter88213/nv_matrix/">nv_matrix plugin</a>.</p>
+</div>
+</section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Link to this heading"></a></h2>
+<p>Dieses Fenster mit Klick auf den Titel öffnen oder schließen.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/book_view13.png" />
+</figure>
+<p>Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.</p>
+<p>Obwohl <em>novelibre</em> Daten zu Figuren, Schauplätzen und Gegenständen
+verwalten kann, ist es nicht die richtige Anwendung für
+umfangreichen Weltenbau.
+Dafür sollte man leistungsfähigere Softwareprogramme verwenden,
+zum Beispiel <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>.
+Dazu kann <em>novelibre</em> Hyperlinks zu den Textdateien erzeugen,
+welche Sie schnell zu den richtigen Stellen im Wiki führen.</p>
+<p>Oder Sie haben einige Bilder gesammelt, die Sie beim Schreiben inspirieren.
+Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
+<em>novelibre</em> diese mit Ihrem System-Bildbetrachter öffnen.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Wenn sie mehrere Bilder z.B. zu einer Figur in einem Ordner
+gesammelt haben, den Ihr Standard-Bildbetrachter durchsuchen kann,
+ist ein einziger Link auf eines dieser Bilder ausreichend.</p>
+</div>
+<p>Die Links werden in einer Liste angezeigt, und zwar in der Reihenfolge
+der Eingabe.</p>
+<dl>
+<dt>Link hinzufügen</dt><dd><p>Wenn Sie auf <img alt="Hinzufügen" src="_images/add.png" /> klicken, öffnet sich ein Dateiauswahldialog.
+Die ausgewählte Datei wird der Linkliste hinzugefügt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Der Dialog zeigt zunächst nur Bilddateien.
+Für andere Dateitypen ändern Sie die Auswahl in der unteren
+rechten Ecke.</p>
+<figure class="align-default" id="id2">
+<img alt="Screenshot" src="_images/filePicker01.png" />
+<figcaption>
+<p><span class="caption-text">Windows 10 Explorer Screenshot</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+</dd>
+<dt>Link entfernen</dt><dd><p>Wenn Sie auf <img alt="Entfernen" src="_images/remove.png" /> klicken oder die <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste drücken,
+wird der ausgewählte Link von der Liste entfernt.</p>
+</dd>
+<dt>Link öffnen</dt><dd><p>Wenn sie auf einen Link doppelklicken, oder auf <img alt="Goto" src="_images/goto.png" /> klicken,
+Wird die Datei, auf die der Link verweist, mit der Standardanwendung
+für ihren Typ geöffnet.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Falls Sie bestimmte verlinkte Dateien mit einer anderen Anwendung
+als der System-Standardanwendung öffnen wollen,
+können Sie eine „Programmstarter“-Einstellung vornehmen.
+Dafür erzeugen Sie einfach eine Textdatei namens <strong>launchers.ini</strong>
+im Verzeichnis <code class="docutils literal notranslate"><span class="pre">.novx/config</span></code> (wo alle Konfigurationsdateien liegen).
+Hier in können Sie Erweiterungen Anwendungsprogramme zuordnen.</p>
+<p>Zim Desktop-Wiki-Seiten sind ein Sonderfall.
+Dafür ordnen Sie die <cite>.zim</cite>-Erweiterung dem Zim-Programm zu.</p>
+<p>Dieses Beispiel zeigt eine Einstellung, die <em>novelibre</em> Textdateien
+mit der <em>Zim Desktop Wiki</em>-anwendung öffnen lässt,
+statt mit dem Standard-Texteditor:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+<span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe</span>
+</pre></div>
+</div>
+<figure class="align-default" id="id3">
+<img alt="Screenshot" src="_images/launchers.png" />
+<figcaption>
+<p><span class="caption-text">Windows 10 Explorer Screenshot</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+</dd>
+</dl>
+</section>
+<section id="haftmerker">
+<h2>„Haftmerker“<a class="headerlink" href="#haftmerker" title="Link to this heading"></a></h2>
+<p>Der gelbe Texteingabebereich ist für Notizen.
+Änderungen werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.</p>
+<p>Wenn der „Haftmerker“ eines Plotpunkts Text enthält,
+erscheint in the Baumansicht ein „N“ als Merker.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die „Haftmerker“ sind nur für die Arbeit mit <em>novelibre</em> gedacht.
+Sie werden nicht beim Dokumentenexport berücksichtigt.</p>
 </div>
 </section>
 <section id="navigationsschaltflachen">
