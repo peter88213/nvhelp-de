@@ -88,7 +88,7 @@ with a row per section, containing the following data:
 - Perspektive
 - One column per Plotlinie with the section's Plotlinie notes
 - Tags
-- A/R/B
+- Szene
 - Ziel/Reaktion/(benutzerdefiniert)
 - Konflikt/Dilemma/(benutzerdefiniert)
 - Ausgang/Entscheidung/(benutzerdefiniert)

@@ -120,7 +120,7 @@ folgenden Daten umfasst:
 - Dauer
 - Tags
 - Abschnittsnotizen
-- A/R
+- Szene
 - Ziel
 - Konflikt
 - Ausgang
