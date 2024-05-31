@@ -10,43 +10,55 @@ nv_clipboard
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Der Text ist
-   überwiegend noch englisch, wobei die Begriffe, die auf der Benutzeroberfläche
-   auftauchen, bereits automatisch übersetzt wurden.
-   Manchmal entsteht dadurch ein etwas merkwürdiges Kauderwelsch. 
-   Im Zweifelsfall könnne Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
-This page refers to the latest `nv_clipboard
-<https://github.com/peter88213/nv_clipboard/>`__ release.
-You can open it with **Help > Collection plugin Online help**.
+Diese Seite gilt für die neueste Ausgabe von `nv_clipboard
+<https://github.com/peter88213/nv_clipboard/>`__.
+Sie können sie mit **Hilfe > Zwischenablage Online-Hilfe** öffnen.
 
 
-Installing the plugin
----------------------
+Das Plugin installieren
+-----------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus.
+  Damit installieren Sie das Plugin.
 
-The plugin adds three buttons to the *novelibre* `toolbar <../toolbar.html>`__,
-and a **Zwischenablage Online-Hilfe** entry to the **Help** menu.
+Das Plugin fügt der *novelibre*-`Werkzeugleiste <../toolbar.html>`__ zwei neue
+Schaltflächen hinzu,
+Außerdem den Eintrag **Zwischenablage Online-Hilfe** im **Hilfe**-Menü.
 
 
-Toolbar buttons provided by the nv_clipboard plugin
----------------------------------------------------
+Vom Zwischenablage-Plugin hinzugefügte Werkzeugleisten-Schaltflächen
+--------------------------------------------------------------------
 
 ..
-   |Cut| Move the selected element from the tree to the clipboard.
-   Same as ``Ctrl``-``X``.
+   |Cut| Das ausgewählte Element aus dem Baum in die Zwischenablage verschieben.
+   Same as ``Strg``-``X``.
 
-|Copy| Copy the selected element to the clipboard.
-Same as ``Ctrl``-``C``.
+|Copy| Das ausgewählte Element in die Zwischenablage kopieren.
+Dasselbe wie ``Strg``-``C``.
 
-|Paste| Paste the element stored in the clipboard to the tree.
-Same as ``Ctrl``-``V``.
+|Paste| Das Element aus der Zwischenablage in den Baum einfügen.
+Dasselbe wie ``Strg``-``V``.
 
+Sie können die folgenden Baumelemente über die Zwischenablage kopieren und einfügen:
+
+- Teile und Kapitel,
+- Abschnitte,
+- Stadien,
+- Plotlinien,
+- Plotpunkte,
+- Figuren,
+- Schauplätze,
+- Gegenstände,
+- Projektnotizen.
+
+.. hint::
+   Falls mehrere Elemente markiert sind, wird nur das erste kopiert.
+   Hat das Element jedoch "Kinder", werden diese auch kopiert und eingefügt. 
+
+.. attention::
+   Beziehungen werden beim Kopieren in die Zwischenablage nicht mitgenommen.
+   Das gilt auch für die Abschnitts-Perspektive.
 
 
 .. |Cut| image:: _images/cut.png

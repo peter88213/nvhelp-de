@@ -20,15 +20,15 @@ nv_aeon2
    des Benutzerhandbuchs wechseln (Link s.o.).
 
 Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
-<https://github.com/peter88213/nv_aeon2/>`__ release.
-You can open it with **Hilfe > Aeon 2-Plugin Online-Hilfe**.
+<https://github.com/peter88213/nv_aeon2/>`__.
+Sie können sie mit **Hilfe > Aeon 2-Plugin Online-Hilfe** öffnen.
 
 
 Das Plugin installieren
 -----------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
 The plugin adds an **Aeon Timeline 2** entry to the *novelibre* **Tools**
 menu, and an **Aeon 2 plugin Online Help** entry to the **Help**-Menü.

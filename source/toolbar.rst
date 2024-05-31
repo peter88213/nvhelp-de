@@ -54,7 +54,7 @@ Dasselbe wie ``Strg``-``Alt``-``N``.
 Dasselbe wie ``Strg``-``Alt``-``⇧``-``N``.
 
 |Löschen| Ausgewählte Elemente löschen.
-Dasselbe wie ``Del``.
+Dasselbe wie ``Entf``.
 
 -----------------
 

@@ -21,8 +21,8 @@ scap_novx
 
 `scap_novx User guide (English) <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
 
-This page refers to the latest `scap_novx
-<https://github.com/peter88213/scap_novx/>`__ release.
+Diese Seite gilt für die neueste Ausgabe von `scap_novx
+<https://github.com/peter88213/scap_novx/>`__.
 
 The scap_novx Python script creates a novelibre project from a Scapple outline.
 

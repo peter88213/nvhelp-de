@@ -20,15 +20,15 @@ nv_editor
    des Benutzerhandbuchs wechseln (Link s.o.).
 
 Diese Seite gilt für die neueste Ausgabe von `nv_editor
-<https://github.com/peter88213/nv_editor/>`__ release.
-You can open it with **Hilfe > Editor-Plugin Online-Hilfe**.
+<https://github.com/peter88213/nv_editor/>`__.
+Sie können sie mit **Hilfe > Editor-Plugin Online-Hilfe** öffnen.
 
 
 Das Plugin installieren
 -----------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
 The plugin adds an **Bearbeiten** entry to the *novelibre* **Abschnitt**-Menü,
 and an **Editor-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.

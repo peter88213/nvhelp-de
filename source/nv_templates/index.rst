@@ -20,15 +20,15 @@ nv_templates
    des Benutzerhandbuchs wechseln (Link s.o.).
 
 Diese Seite gilt für die neueste Ausgabe von `nv_templates
-<https://github.com/peter88213/nv_templates/>`__ release.
-You can open it with **Hilfe > Vorlagen-Plugin Online-Hilfe**.
+<https://github.com/peter88213/nv_templates/>`__.
+Sie können sie mit **Hilfe > Vorlagen-Plugin Online-Hilfe** öffnen.
 
 
 Das Plugin installieren
 -----------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
 The plugin adds a **Erzählstruktur-Vorlagen** entry to the *novelibre* **Extras**-Menü,
 einen **Aus Vorlage erzeugen**-Eintrag ins **Datei > Neu**-Untermenü,

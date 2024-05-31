@@ -13,8 +13,8 @@ novx_xtg
 .. hint::
    Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
 
-This page refers to the latest `novx_xtg
-<https://github.com/peter88213/novx_xtg/>`__ release.
+Diese Seite gilt für die neueste Ausgabe von `novx_xtg
+<https://github.com/peter88213/novx_xtg/>`__.
 
 The novx_xtg Python script runs through all chapters and sections of a novelibre 7 project and fills XTG templates.
 

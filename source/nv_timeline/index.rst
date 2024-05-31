@@ -20,15 +20,15 @@ nv_timeline
    des Benutzerhandbuchs wechseln (Link s.o.).
 
 Diese Seite gilt für die neueste Ausgabe von `nv_timeline
-<https://github.com/peter88213/nv_timeline/>`__ release.
-You can open it with **Hilfe > Timeline-Plugin Online-Hilfe**.
+<https://github.com/peter88213/nv_timeline/>`__.
+Sie können sie mit **Hilfe > Timeline-Plugin Online-Hilfe** öffnen.
 
 
 Das Plugin installieren
 -----------------------
 
-- Unzip the downloaded zipfile into a new folder.
-- Move into this new folder and launch **setup.pyw**. This installs the plugin.
+- Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
 The plugin adds a **Timeline** entry to the *novelibre* main-Menü,
 a **Aus Timeline erzeugen** to the **Datei > Neu** submenu,
