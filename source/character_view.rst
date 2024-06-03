@@ -71,7 +71,7 @@ the text input field.
 
 .. hint::
    This text box can hold any character data that seem important to you.
-   If "Ziele" is not the right category for you kann man change the label
+   If "Ziele" is not the right category for you können Sie change the label
    in the `book settings <book_view.html#umbenennungen>`__. 
 
 Links

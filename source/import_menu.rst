@@ -7,7 +7,7 @@ Importieren-Menü
    :alt: novelibre Screenshot
 
 Mit the **Importieren** main-Menü entry,
-kann man open a pop-up window with a list containing previously
+können Sie open a pop-up window with a list containing previously
 exported ODT documents that can be re-imported, thus updating the
 current project.
 
@@ -31,7 +31,7 @@ current project.
    
    
 -  After closing a listed document in *Writer* while the *Exportierened
-   documents* window is open kann man click on the **Ansicht aktualisieren**
+   documents* window is open können Sie click on the **Ansicht aktualisieren**
    Schaltfläche.
 
 Discarding documents after updating the project
@@ -58,7 +58,7 @@ Auch gesperrte Dokumente importieren; nicht verwerfen
    the ODF documents open in *Writer* or *Calc* for editing.
 
    .. important::
-      If you split sections in your ODT document kann mannot 
+      If you split sections in your ODT document können Sienot 
       import it while open in *Writer*. 
       This is because *novelibre* cannot discard it when locked
       by *Writer*. 

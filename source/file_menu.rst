@@ -11,7 +11,7 @@ Neu
 
 **Create a new novel project**
 
-Mit **Datei > Neu**  kann man create a new project.
+Mit **Datei > Neu**  können Sie create a new project.
 This will open a submenu.
 
 .. note:: 
@@ -24,7 +24,7 @@ This will open a submenu.
 Leeres Projekt
    -  This will close the current project and create a blank project.
    -  A file select dialog asks for the new project’s file name.
-      If you cancel the dialog kann man select the file name later
+      If you cancel the dialog können Sie select the file name later
       when saving the project.
 
 
@@ -51,7 +51,7 @@ Aus ODT erzeugen...
 **Öffnen a novel project**
 
 Mit **Datei > Öffnen** or ``Strg``-``O``
-kann man open an existing project file.
+können Sie open an existing project file.
 
 .. note::
    When opening a project, the current project will be closed. 
@@ -64,10 +64,10 @@ Neu laden
 **Neu laden the novel project**
 
 Mit **Datei > Neu laden** or ``Strg``-``R``
-kann man reload the project.
+können Sie reload the project.
 
 .. tip::
-   This way kann man undo changes made in the current session.
+   This way können Sie undo changes made in the current session.
 
 .. note::
    If the project has changed on disk since last opened, you will 
@@ -80,7 +80,7 @@ Sicherungskopie wiederherstellen
 **Restore the latest backup file**
 
 Mit **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``
-kann man restore the latest backup file.
+können Sie restore the latest backup file.
 You will get a warning, because changes may be lost.
 
 .. hint::
@@ -94,7 +94,7 @@ Baum aktualisieren
 **Enforce tree refresh after making changes**
 
 Mit **Datei > Baum aktualisieren** or ``F5``
-kann man refresh the tree.
+können Sie refresh the tree.
 
 -  "Normal" sections that have been moved to an "Unbenutzt" chapter are
    made "Unbenutzt".
@@ -109,7 +109,7 @@ Sperren
 **Protect the project while edited outsides**
 
 Mit **Datei > Sperren** or ``Strg``-``L``
-kann man `lock <basic_concepts.html#projekt-sperre>`__ the project.
+können Sie `lock <basic_concepts.html#projekt-sperre>`__ the project.
 
 .. note::
    Alle changes must be saved before locking the project.
@@ -121,7 +121,7 @@ Entsperren
 **Make the project editable**
 
 Mit **Datei > Entsperren** or ``Strg``-``U``
-kann man unlock the project.
+können Sie unlock the project.
 
 
 Projektordner öffnen
@@ -129,7 +129,7 @@ Projektordner öffnen
 **Launch the file manager**
 
 Mit **Datei > Projektordner öffnen** or ``Ctrl-P``
-kann man launch the file manager with the current project folder .
+können Sie launch the file manager with the current project folder .
 This might come in handy, if you wish to delete files,
 open your project with another application, and so on.
 
@@ -143,7 +143,7 @@ Style sheet kopieren
 **Provide a css style sheet in the project folder**
 
 Mit **Datei > Style sheet kopieren**
-kann man copy the style sheet *novx.css* into the current project folder.
+können Sie copy the style sheet *novx.css* into the current project folder.
 This allows you to view the *.novx* project file with a web browser.
 
 .. figure:: _images/file_menu01.jpg
@@ -165,7 +165,7 @@ Manuskript verwerfen
 **Verwerfen the current Manuskript by renaming it**
 
 Mit **Datei > Manuskript verwerfen**
-kann man add the *.bak* extension to the `current Manuskript
+können Sie add the *.bak* extension to the `current Manuskript
 <export_menu#manuskript-zum-bearbeiten>`__.
 This may help to avoid confusion about changes made with *novelibre* and
 *Writer*.
@@ -181,7 +181,7 @@ Speichern
 **Speichern the project**
 
 Mit **Datei > Speichern** or ``Strg``-``S``
-kann man save the project.
+können Sie save the project.
 A backup copy is then automatically created.
 
 .. note::
@@ -195,7 +195,7 @@ Speichern unter...
 **Speichern the project with another file name/at another place**
 
 Mit **Datei > Speichern unter...** or ``Strg``-``⇧``-``S``
-kann man save the project with another file name/at another place.
+können Sie save the project with another file name/at another place.
 Then a file select dialog opens to specify the new path and file name.
 
 .. note::
@@ -209,7 +209,7 @@ Schließen
 **Schließen the novel project**
 
 Mit **Datei > Schließen**
-kann man close the project without exiting the program.
+können Sie close the project without exiting the program.
 When closing the project, you will be asked for saving the project,
 if it has changed.
 
@@ -223,8 +223,8 @@ Beenden/Beenden
 
 **Beenden the program**
 
--  Under Windows kann man exit with **Datei > Beenden** or ``Alt``-``F4``.
--  Otherwise kann man exit with **Datei > Beenden** or ``Strg``-``Q``.
+-  Under Windows können Sie exit with **Datei > Beenden** or ``Alt``-``F4``.
+-  Otherwise können Sie exit with **Datei > Beenden** or ``Strg``-``Q``.
 
 .. note::
    When exiting the program, you will be asked for saving the project,

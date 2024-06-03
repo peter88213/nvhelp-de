@@ -12,7 +12,7 @@ Hinzufügen
 **Eine Projektnotiz erzeugen**
 
 Mit **Projektnotizen > Hinzufügen**
-kann man add a `Projektnotiz <project_note_view.html>`__
+können Sie add a `Projektnotiz <project_note_view.html>`__
 to the tree.
 
 -  If a Projektnotiz is selected, the new Projektnotiz is placed
@@ -28,11 +28,11 @@ Liste anzeigen
 **Einen HTML-Report mit Projektnotizen anzeigen**
 
 Mit **Projektnotizen > Liste anzeigen**
-kann man create a list-formatted HTML file that contains
+können Sie create a list-formatted HTML file that contains
 Titel und Inhalt of all Projektnotizen,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed kann man have your web browser save or print it.
+   If needed können Sie have your web browser save or print it.
 

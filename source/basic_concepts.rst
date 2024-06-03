@@ -20,8 +20,8 @@ Damit dienen Teile hauptsächlich dazu, zwischen den Kapiteln
 
 
 .. hint::
-   Man kann Kapitel in Teile umwandeln und umgekehrt, indem
-   man einfach ihre `Ebene ändert
+   Sie können Kapitel in Teile umwandeln und umgekehrt, indem
+   Sie einfach ihre `Ebene ändern
    <tree_context_menu.html#ebene-andern>`__.
 
 .. note::
@@ -57,7 +57,7 @@ Abschnitte
 
 Bei *novelibre* gehört der gesamte Textinhalt zu Abschnitten.
 Abschnitte können Szenen, Erklärungen, Beschreibungen oder
-erzählerische Zusammenfassungen sein -- man ist vollkommen
+erzählerische Zusammenfassungen sein -- Sie sind vollkommen
 frei, wenn es darum geht, den Romantext in Abschnitte zu
 unterteilen.
 Es gibt eine Auswahl von `Abschnitts-Metadaten
@@ -69,9 +69,9 @@ etwa so:
 
 ``* * *``
 
-Wenn man allerdings beim Plotten und Organisieren kleinteligere
-Abschnitte braucht, als es die Leser später sehen sollen,
-kann man Abschnitte auch ohne Abschnittstrenner als einfache Absätze
+Wenn Sie allerdings beim Plotten und Organisieren kleinteligere
+Abschnitte brauchen, als es die Leser später sehen sollen,
+könne Sie Abschnitte auch ohne Abschnittstrenner als einfache Absätze
 `an den vorherigen Abschnitt anhängen
 <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__.
 
@@ -80,8 +80,8 @@ Teil/Kapitel/Abschnittstypen
 ----------------------------
 
 Jeder Teil, jedes Kapitel und jeder Abschnitt hat einen Typ, den
-man über das Kontextmenü oder das Teil/Kapitel/Abschnitt-Menü
-ändern kann.
+Sie über das Kontextmenü oder das Teil/Kapitel/Abschnitt-Menü
+ändern können.
 Der Typ kann *Normal* oder *Unbenutzt* sein.
 
 Normal
@@ -96,12 +96,12 @@ Normal
       <view_menu.html#farbgebungsmodus>`__ eingefärbt.
 
 Unbenutzt
-   Man kann Teile, Kapitel und Abschnitte als unbenutzt kennzeichnen,
+   Sie können Teile, Kapitel und Abschnitte als unbenutzt kennzeichnen,
    um sie von der Wortzählung und vom Export auszuschließen.
 
    -  Die Projektbaum-Unterelemente unbenutzter Teile und Kapitel
       sind ebenfalls unbenutzt.
-   -  Kennzeichnet man einen Abschnitt als "Unbenutzt",
+   -  Kennzeichnen Sie einen Abschnitt als "Unbenutzt",
       bleiben seine sonstigen Eigenschaften erhalten.
    -  Unbenutzte Projektbaumelemente werden in grauer Farbe dargestellt.
 
@@ -109,13 +109,13 @@ Unbenutzt
 Abschnitts-Status
 -----------------
 
-Über das Kontextmenü oder das Abschnitt-Menü kann man jedem
+Über das Kontextmenü oder das Abschnitt-Menü können Sie jedem
 "normalen" Abschnitt einen Fertigstellungsstatus zuordnen.
 
--  Man kann einen `Farbgebungsmodus <view_menu.html#farbgebungsmodus>`__
+-  Sie können einen `Farbgebungsmodus <view_menu.html#farbgebungsmodus>`__
    einstellen, in dem Abschnitte je nach Status in unterschiedlichen
    Farben dargestellt werden.
--  Wahlweise kann man einen Status zur aktuellen
+-  Wahlweise können Sie einen Status zur aktuellen
    `Arbeitsphase <book_view.html#schreibfortschritt>`__,
    erklären und einen `Farbgebungsmodus
    <view_menu.html#farbgebungsmodus>`__
@@ -131,7 +131,7 @@ Abschnitts-Status
 Figuren und Erzählwelt
 ----------------------
 
-Man kann Figuren, Schauplätze und Gegenstände definieren
+Sie können Figuren, Schauplätze und Gegenstände definieren
 und sie mit Abschnitten in Beziehung setzen, um ihr
 Vorkommen in der Geschichte zu verfolgen.
 *novelibre* speichert auch einige Metadaten dazu,
@@ -150,8 +150,7 @@ oder Überarbeiten.
 
 .. important::
    Um den Abschnitten **Perspektiv-Figuren** zuweisen zu können, 
-   müssen diese zuerst `erzeugt <characters_menu.html#hinzufugen>`__ 
-   werden. 
+   müssen Sie diese zuerst `erzeugen <characters_menu.html#hinzufugen>`__. 
 
 
 -----------------
@@ -176,7 +175,7 @@ Kommentare, Fuß- und Endnoten
 
 .. tip::
    *novelibre* bietet keine Unterstützung für Bilder.
-   Man kann dafür Kommentare als Platzhalter benutzen, um sie
+   Sie können dafür Kommentare als Platzhalter benutzen, um sie
    ganz am Schluss durch die Bilder (oder andere Sonderformatierungen, 
    die nicht durch *novelibre* abgedeckt sind) zu ersetzen, 
    wenn es darum geht, den `fertiggestellten Roman 
@@ -235,9 +234,9 @@ bearbeitetes Dokument zurück importiert wurde.
 
 .. hint::
    Die Projektsperre ist nichts weiter als eine starke Merkhilfe.
-   man kann das Projekt jederzeit auf eigene Gefahr 
+   Sie können das Projekt jederzeit auf eigene Gefahr 
    `von Hand entsperren <file_menu.html#entsperren>`__ . 
-   Man kann es auch `von Hand sperren <file_menu.html#sperren>`__,
+   Sie können es auch `von Hand sperren <file_menu.html#sperren>`__,
    fals erforderlich. 
    Die Schaltfläche |Sperren/Entsperren| in der Werkzeugleiste
    schaltet zwischen gesperrt und entsperrt hin und her.

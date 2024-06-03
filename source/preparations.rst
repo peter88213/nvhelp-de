@@ -73,13 +73,13 @@ novelibre auf den Desktop bringen
 
 4. Drag and drop **run.pyw** to the desktop while holding
    down the ``Alt`` key. This creates a shortcut to launch
-   *novelibre* from the Windows desktop. Now kann man also
+   *novelibre* from the Windows desktop. Now können Sie also
    drag and drop *.novx* project files to this shortcut.
 
    .. figure:: _images/preparations06.png
       :alt: novelibre Screenshot
 
-5. Wahlweise kann man replace the "Python" icon with the
+5. Wahlweise können Sie replace the "Python" icon with the
    *novelibre* logo you may find in the installation's
    *icons* subdirectory.
 
@@ -106,16 +106,16 @@ novelibre auf den Desktop bringen
 .novx-Dateien novelibre zuweisen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-7. Wahlweise kann man associate the **.novx** file extension
+7. Wahlweise können Sie associate the **.novx** file extension
    with the *novelibre* application. Then the project files
    are displayed with the *novelibre* icon in the Explorer,
-   and kann man open them with *novelibre* by double-click.
-   Further kann man display *.novx* files with a web browser,
+   and können Sie open them with *novelibre* by double-click.
+   Further können Sie display *.novx* files with a web browser,
    using the `novx.css style sheet <file_menu.html#style-sheet-kopieren>`__.
 
    Double-click on the **add_novelibre.reg** script. Windows will
    display a warning and ask you for confirmation. If in doubt,
-   kann man inspect the *add_novelibre.reg* file with a text editor
+   können Sie inspect the *add_novelibre.reg* file with a text editor
    or ask an expert you trust.
 
    .. figure:: _images/preparations09.png
@@ -244,7 +244,7 @@ your Manuskript with a single mouse click.
    
 .. tip::
    If you just want to change the font without applying templates, 
-   kann man achieve this by having LibreOffice replace it automatically. 
+   können Sie achieve this by having LibreOffice replace it automatically. 
    For this, open the **Optionen** dialog and go to **Fonts**. 
    Tick the **Anwenden replacement table** Auswahlfeld. 
    Then enter the fonts of your choice. 

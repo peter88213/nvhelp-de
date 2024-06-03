@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new location**
 
 Mit **Schauplätze > Hinzufügen**
-kann man add a `location <basic_concepts.html#figuren-und-erzahlwelt>`__
+können Sie add a `location <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If a location is selected, the new location is placed after the
@@ -28,7 +28,7 @@ Importieren
 **Importieren locations from another project**
 
 Mit **Schauplätze > Importieren**
-kann man import a selection of locations from another project.
+können Sie import a selection of locations from another project.
 First you select an XML file containing the location data.
 Then you select the locations you want to add to the current project.
 
@@ -43,7 +43,7 @@ Schauplatzbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**
-kann man create a text document that contains
+können Sie create a text document that contains
 location descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_locations_tmp``.
 
@@ -54,7 +54,7 @@ Schauplatzliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Schauplatzliste exportieren (Tabelle)**
-kann man create a spreadsheet that contains
+können Sie create a spreadsheet that contains
 a location list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_loclist_tmp``.
 
@@ -72,11 +72,11 @@ Liste anzeigen
 **Einen HTML-Report mit Schaupatzdaten anzeigen**
 
 Mit **Schauplätze > Liste anzeigen**
-kann man create a list-formatted HTML file that contains
+können Sie create a list-formatted HTML file that contains
 a location list,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed kann man have your web browser save or print it.
+   If needed können Sie have your web browser save or print it.
 

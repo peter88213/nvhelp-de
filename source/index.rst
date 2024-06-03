@@ -22,7 +22,7 @@
 
 Diese Seite bezieht sich auf die aktuelle Ausgabe von `novelibre
 <https://github.com/peter88213/novelibre/>`__.
-Man kann sie mit **Hilfe > Online-Hilfe** aufrufen.
+Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
 
 .. toctree::
    :maxdepth: 2

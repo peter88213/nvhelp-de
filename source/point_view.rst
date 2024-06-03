@@ -37,7 +37,7 @@ Abschnitt zuordnen
 
 
 Zuordnung löschen
-   If a sectin is assigned to the plot point kann man disconnect it
+   If a sectin is assigned to the plot point können Sie disconnect it
    by clicking on the **Zuordnung löschen** Schaltfläche.
 
 

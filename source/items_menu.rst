@@ -12,7 +12,7 @@ Hinzufügen
 **Einen Gegenstand erzeugen**
 
 Mit **Gegenstände > Hinzufügen**
-kann man add an `item <basic_concepts.html#figuren-und-erzahlwelt>`__
+können Sie add an `item <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If an item is selected, the new item is placed after the selected
@@ -28,7 +28,7 @@ Importieren
 **Importieren items from another project**
 
 Mit **Gegenstände > Importieren**
-kann man import a selection of items from another project.
+können Sie import a selection of items from another project.
 First you select an XML file containing the item data.
 Then you select the items you want to add to the current project.
 
@@ -43,7 +43,7 @@ Gegenstandsbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Gegenstandsbeschreibungen zum Bearbeiten exportieren**
-kann man create a text document that contains
+können Sie create a text document that contains
 item descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_items_tmp``.
 
@@ -54,7 +54,7 @@ Gegenstandsliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Gegenstandsliste exportieren (Tabelle)**
-kann man create a spreadsheet that contains
+können Sie create a spreadsheet that contains
 an item list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_itemlist_tmp``.
 
@@ -72,10 +72,10 @@ Liste anzeigen
 **Einen HTML-Report mit Gegenstandsdaten anzeigen**
 
 Mit **Gegenstände > Liste anzeigen**
-kann man create a list-formatted HTML file that contains
+können Sie create a list-formatted HTML file that contains
 an item list,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed kann man have your web browser save or print it.
+   If needed können Sie have your web browser save or print it.

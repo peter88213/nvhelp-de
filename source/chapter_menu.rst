@@ -13,14 +13,14 @@ Hinzufügen
 **Ein neues Kapitel hinzufügen**
 
 Mit **Kapitel > Hinzufügen**
-kann man ein `Kapitel <basic_concepts.html#kapitel>`__
+können Sie ein `Kapitel <basic_concepts.html#kapitel>`__
 in den Baum einfügen.
 
 - Das neue Kapitel wird an die nächste freie Stelle nach der Auswahl gesetzt,
   falls möglich.
 - Andernfalls wird das neue Kapitel ans Ende des "Buch"-Zweigs gesetzt.
 - Das neue Kapitel hat einen automatisch erzeugten Titel.
-  Man kann ihn im rechten Bereich der Arbeitsfläche ändern.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 
 Typ wählen
@@ -29,7 +29,7 @@ Typ wählen
 **Den Typ der ausgewählten Kapitel einstellen**
 
 Mit **Kapitel > Typ wählen**
-kann man den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+können Sie den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 der ausgewählten Kapitel zu *Normal* oder *Unbenutzt* ändern.
 
 .. figure:: _images/chapter_menu02.png
@@ -46,7 +46,7 @@ Ebene ändern
 **Change the level of the selected chapters**
 
 Mit **Kapitel > Ebene ändern**
-kann man turn chapters into parts and vice versa.
+können Sie turn chapters into parts and vice versa.
 
 .. figure:: _images/chapter_menu03.png
    :alt: novelibre Screenshot
@@ -61,7 +61,7 @@ Kapitelbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Kapitel > Kapitelbeschreibungen zum Bearbeiten exportieren**
-kann man create a text document that contains
+können Sie create a text document that contains
 a **brief synopsis** with part/chapter headings and chapter descriptions
 that can be edited and reimported.
 Der Dateinamenszusatz lautet ``_chapters_tmp``.

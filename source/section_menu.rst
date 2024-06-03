@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new section**
 
 Mit **Abschnitt > Hinzufügen**
-kann man add a `section <basic_concepts.html#abschnitte>`__ to the tree.
+können Sie add a `section <basic_concepts.html#abschnitte>`__ to the tree.
 
 - The new section is placed at the next free position after the selection, if
   possible.
@@ -37,7 +37,7 @@ Mehrere Abschnitte hinzufügen
    :alt: novelibre Screenshot
 
 Mit **Abschnitt > Mehrere Abschnitte hinzufügen**
-kann man add up to 20 sections to the tree.
+können Sie add up to 20 sections to the tree.
 
 - You will be prompted to enter the number of new sections.
 - The number of sections to be added at once is limited to 20.
@@ -52,7 +52,7 @@ Typ wählen
 **Set the type of the selected section**
 
 Mit **Abschnitt > Typ wählen**
-kann man set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+können Sie set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 of the selected section to *Normal* or *Unbenutzt* .
 
 .. figure:: _images/section_menu02.png
@@ -74,7 +74,7 @@ Status setzen
    :alt: novelibre Screenshot
 
 Mit **Abschnitt > Status setzen**
-kann man set the `completion status
+können Sie set the `completion status
 <basic_concepts.html#abschnitts-status>`__
 of the selected section to *Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*,
 or *Fertiggestellt*.
@@ -92,7 +92,7 @@ Abschnittsbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren**
 
 Mit **Abschnitt > Abschnittsbeschreibungen zum Bearbeiten exportieren**
-kann man ein neues OpenDocument-Textdokument (odt) erzeugen,
+können Sie ein neues OpenDocument-Textdokument (odt) erzeugen,
 das eine **vollständige Inhaltsangabe** mit Teile-/Kapitelüberschriften
 und Abschnittsbeschreibungen enthält,
 die bearbeitet und zurückgeschrieben werden können.
@@ -105,7 +105,7 @@ Abschnittsliste (nur Exportieren)
 **Ein ODS-Dokument exportieren**
 
 Mit **Abschnitt > Abschnittsliste (nur Exportieren)**
-kann man eine neue OpenDocument-Tabelle (ods)
+können Sie eine neue OpenDocument-Tabelle (ods)
 mit einer Reihe pro Abschnitt erzeugen, welche die
 folgenden Daten umfasst:
 

@@ -12,7 +12,7 @@ Manuskript zum Bearbeiten
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Exportieren >  Manuskript zum Bearbeiten**
-kann man create a text document that is split into sections
+können Sie create a text document that is split into sections
 (to be seen in the Navigator).
 Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 
@@ -20,14 +20,14 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
    sections marked "unused" are not exported.
 -  Abschnittstitels are invisible, but appear in the *Navigator*.
 -  Kapitels and sections can neither be rearranged nor gelöscht.
--  Mit *Writer* kann man split sections by
+-  Mit *Writer* können Sie split sections by
    inserting headings or a section divider:
 
-   -  *Heading 1* → Neu part Titel. Wahlweise kann man add a
+   -  *Heading 1* → Neu part Titel. Wahlweise können Sie add a
       description, separated by ``|``.
-   -  *Heading 2* → Neu chapter Titel. Wahlweise kann man add a
+   -  *Heading 2* → Neu chapter Titel. Wahlweise können Sie add a
       description, separated by ``|``.
-   -  ``###`` → Abschnitt divider. Wahlweise kann man append the section
+   -  ``###`` → Abschnitt divider. Wahlweise können Sie append the section
       Titel to the section divider. You can also add a description,
       separated by ``|``.
 
@@ -45,7 +45,7 @@ Manuskript für fremde Textverarbeitung
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Exportieren >  Manuskript für fremde Textverarbeitung**
-kann man create a text document with visible section markers.
+können Sie create a text document with visible section markers.
 Der Dateinamenszusatz lautet ``_proof_tmp``.
 
 .. note::
@@ -63,14 +63,14 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
    containing the markers** if you want to be able to write the document
    back to *novelibre* format.
 -  Kapitels and sections can neither be rearranged nor gelöscht.
--  When editing the document kann man split sections by inserting
+-  When editing the document können Sie split sections by inserting
    headings or a section divider:
 
-   -  *Heading 1* → Neu part Titel. Wahlweise kann man add a
+   -  *Heading 1* → Neu part Titel. Wahlweise können Sie add a
       description, separated by ``|``.
-   -  *Heading 2* → Neu chapter Titel. Wahlweise kann man add a
+   -  *Heading 2* → Neu chapter Titel. Wahlweise können Sie add a
       description, separated by ``|``.
-   -  ``###`` → Abschnitt divider. Wahlweise kann man append the section
+   -  ``###`` → Abschnitt divider. Wahlweise können Sie append the section
       Titel to the section divider. You can also add a description,
       separated by ``|``.
 
@@ -88,7 +88,7 @@ Manuskript zum Drucken (nur Exportieren)
 **Ein ODT-Dokument exportieren**
 
 Mit **Exportieren >  Manuskript zum Drucken (nur Exportieren)**
-kann man create a text document for further use,
+können Sie create a text document for further use,
 e.g. when you are finished with *novelibre*.
 
 .. hint::
@@ -118,7 +118,7 @@ Kurzzusammenfassung (nur Exportieren)
 **Ein ODT-Dokument exportieren**
 
 Mit **Exportieren >  Kurzzusammenfassung (nur Exportieren)**
-kann man create a text document containing a brief synopsis
+können Sie create a text document containing a brief synopsis
 with part, chapter, and sections Titels only.
 Der Dateinamenszusatz lautet ``_brf_synopsis``.
 
@@ -135,7 +135,7 @@ Querverweise (nur Exportieren)
 **Ein ODT-Dokument exportieren**
 
 Mit **Exportieren >  Querverweise (nur Exportieren)**
-kann man create a text document containing navigable cross references.
+können Sie create a text document containing navigable cross references.
 Der Dateinamenszusatz lautet ``_xref``.
 
 The cross references are:
@@ -155,7 +155,7 @@ Figuren/Schauplätze/Gegenstände-Datendateien
 **Exportieren XML files that can be imported into other projects**
 
 Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**
-kann man create a set of XML files containing the project’s characters,
+können Sie create a set of XML files containing the project’s characters,
 locations, and items with all their properties. These files can be used
 to transfer the characters, locations, and items to another project.
 

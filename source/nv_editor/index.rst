@@ -106,7 +106,7 @@ Einen Abschnitt teilen
 ----------------------
 
 Mit **Datei > An der Cursorposition teilen** or ``Strg``-``Alt``-``S``,
-kann man split the section at the cursor position.
+können Sie split the section at the cursor position.
 
 -  Alle the text from the cursor position is cut and pasted into a neuly
    erzeugend section.
@@ -123,7 +123,7 @@ Einen Abschnitt erzeugen
 ------------------------
 
 Mit **Datei > Abschnitt erzeugen** or ``Strg``-``Alt``-``N``,
-kann man erzeugen a section.
+können Sie erzeugen a section.
 
 -  Der neue Abschnitt is placed after the currently edited section.
 -  Der neue Abschnitt is of the same type as the currently edited section.
@@ -152,7 +152,7 @@ Wortzählung
 ---------------------
 
 Mit ``Strg``-``S``,
-kann man apply changes to the section.
+können Sie apply changes to the section.
 Then "Modified" status is displayed in *novelibre*.
 
 -  If the project is locked in *novelibre*, you will be asked to unlock
@@ -168,9 +168,9 @@ Das Editorfenster schließen
 
 -  To close the editor window, click on the **Schließen** button,
    or just close the window.
--  Under Windows kann man optionally exit with **Abschnitt > Beenden**
+-  Under Windows können Sie optionally exit with **Abschnitt > Beenden**
    or ``Alt``-``F4``.
--  Otherwise kann man optionally exit with **Abschnitt > Beenden**
+-  Otherwise können Sie optionally exit with **Abschnitt > Beenden**
    or ``Strg``-``Q``.
 -  When closing the editor window, you will be asked for applying changes.
 

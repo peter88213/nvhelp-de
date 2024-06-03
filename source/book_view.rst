@@ -4,9 +4,9 @@ Bucheigenschaften
 .. |ico01| image:: _images/viewBook.png
    :alt: Buch
 
-The Bucheigenschaften-Ansicht öffnet sich im rechten Fenster, wenn man
-im Baum "Buch" wählt, oder wenn man in der Werkzeugleiste auf |ico01|
-klickt. Nach dem Öffnen eines *novelibre*-Projekts sieht man diese Ansicht.
+The Bucheigenschaften-Ansicht öffnet sich im rechten Fenster, wenn Sie
+im Baum "Buch" wählen, oder wenn Sie in der Werkzeugleiste auf |ico01|
+klicken. Nach dem Öffnen eines *novelibre*-Projekts sehen Sie diese Ansicht.
 
 .. figure:: _images/book_view01.png
    :alt: novelibre Screenshot
@@ -86,7 +86,7 @@ Kapitel/Teile automatisch nummerieren, wenn der Baum aktualisiert wird.
    (ohne die Bindestriche) ersetzt.
 
    .. hint::
-      Wahlweise kann man einzelne Kapitel/Teile über die 
+      Wahlweise können Sie einzelne Kapitel/Teile über die 
       `Kapitel/Teil-Eigenschaften 
       <chapter_view.html#dieses-kapitel-nicht-automatisch-nummerieren-part>`__.
       von der automatischen Nummerierung ausschließen,   
@@ -157,10 +157,10 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 .. figure:: _images/book_view05.png
    :alt: novelibre Screenshot
 
-Um den Überblick über die erzählte Zeit zu behalten, kann man
+Um den Überblick über die erzählte Zeit zu behalten, können Sie
 jedem Abschnitt `Datums- und Zeitinformationen <section_view.html#datum-zeit>`__
 zuordnen.
-Das Datum kann man spezifisch *(JJJJ-MM-TT)* oder unspezifisch (Anzahl der
+Das Datum können Sie spezifisch *(JJJJ-MM-TT)* oder unspezifisch (Anzahl der
 Tage, z.B. seit Beginn) eingeben.
 
 Bezugsdatum
@@ -270,7 +270,7 @@ Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.
 Obwohl *novelibre* Daten zu Figuren, Schauplätzen und Gegenständen
 verwalten kann, ist es nicht die richtige Anwendung für
 umfangreichen Weltenbau.
-Dafür sollte man leistungsfähigere Softwareprogramme verwenden,
+Dafür sollten Sie leistungsfähigere Softwareprogramme verwenden,
 zum Beispiel `Zim Desktop Wiki
 <https://zim-wiki.org/>`__.
 Dazu kann *novelibre* Hyperlinks zu den Textdateien erzeugen,
@@ -309,7 +309,7 @@ Link entfernen
 
 
 Link öffnen
-   Wenn sie auf einen Link doppelklicken, oder auf |Goto| klicken,
+   Wenn Sie auf einen Link doppelklicken, oder auf |Goto| klicken,
    Wird die Datei, auf die der Link verweist, mit der Standardanwendung
    für ihren Typ geöffnet.
 

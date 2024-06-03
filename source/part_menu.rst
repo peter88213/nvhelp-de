@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new part**
 
 Mit **Teil > Hinzufügen**
-kann man add a `part <basic_concepts.html#teile>`__ to the tree.
+können Sie add a `part <basic_concepts.html#teile>`__ to the tree.
 
 - The new part is placed at the next free position on the
   chapter level after the selection, if possible.
@@ -28,7 +28,7 @@ Teilebeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Teil > Teilebeschreibungen zum Bearbeiten exportieren**
-kann man create a text document that contains
+können Sie create a text document that contains
 a **very brief synopsis** with part headings and part descriptions.
 Der Dateinamenszusatz lautet ``_parts_tmp``.
 

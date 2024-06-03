@@ -40,7 +40,7 @@ in the Baumansicht's sort order.
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** Auswahlfeld kann man change the `section type
+Mit te **Unbenutzt** Auswahlfeld können Sie change the `section type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 An den vorherigen Abschnitt anhängen
@@ -62,7 +62,7 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 Plotlinien
 ~~~~~~~~~~
 
-Hier kann man assign the selected section to the Plotlinien it belongs to.
+Hier können Sie assign the selected section to the Plotlinien it belongs to.
 The assigned Plotlinien are displayed in a list in the order they are
 assigned to the section.
 
@@ -126,10 +126,10 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 There is a popular theory for "selling writers" that suggests novels
 are best divided into scenes, alternating between "action scenes" and
 "reaction scenes", or "scenes" and "sequels". If you want to implement
-something like this to ensure suspense kann man do so here.
+something like this to ensure suspense können Sie do so here.
 
 If this is not for you, but you would like to use a different method
-to set up a dramaturgical scene micro-structure kann man set the section
+to set up a dramaturgical scene micro-structure können Sie set the section
 to **Andere** and get three `freely named <book_view.html#umbenennungen>`_
 text fields.
 
@@ -160,11 +160,11 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
    :alt: Screenshot
 
 If you want to associate characters, locations, and items with the
-section kann man do it here by adding the element to a list of
+section können Sie do it here by adding the element to a list of
 relationships.
 
 Alter anzeigen
-   If a section is dated kann man call up the ages of the related
+   If a section is dated können Sie call up the ages of the related
    characters who have `birth dates <character_view.html#biographie>`__.
 
 Hinzufügen Relationship
@@ -204,7 +204,7 @@ Ansicht the related element
 Datum/Zeit
 ----------
 
-Hier kann man enter information about the selected section's narrative time.
+Hier können Sie enter information about the selected section's narrative time.
 Die Bearbeitung kann mit der Eingabetaste beendet werden.
 
 .. hint::
@@ -249,7 +249,7 @@ Datum/Tag umwandeln
    and vice versa.
 
    .. hint::
-      If necessary kann man convert all sections at once in the 
+      If necessary können Sie convert all sections at once in the 
       `Buch properties view <book_view.html#erzahlzeit>`__.
    
 

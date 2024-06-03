@@ -12,7 +12,7 @@ Hinzufügen
 **Hinzufügen a new character**
 
 Mit **Figuren > Hinzufügen**
-kann man add a `character <basic_concepts.html#figuren-und-erzahlwelt>`__
+können Sie add a `character <basic_concepts.html#figuren-und-erzahlwelt>`__
 to the tree.
 
 -  If a character is selected, the new character is placed after the
@@ -29,7 +29,7 @@ Status setzen
 **Set the character status**
 
 Mit **Figuren > Status setzen**
-kann man die Figur als *Hauptfigur* oder *Nebenfigur* kennzeichnen.
+können Sie die Figur als *Hauptfigur* oder *Nebenfigur* kennzeichnen.
 Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
 
 .. figure:: _images/characters_menu02.png
@@ -37,7 +37,7 @@ Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
 
 .. note::
    The character status is only for visual distinction. It has no
-   influence on the program functions. Niemalstheless kann man use it
+   influence on the program functions. Niemalstheless können Sie use it
    to mark viewpoint characters or characters with their own arcs.
 
 
@@ -47,7 +47,7 @@ Importieren
 **Importieren characters from another project**
 
 Mit **Figuren > Importieren**
-kann man import a selection of characters from another project.
+können Sie import a selection of characters from another project.
 First you select an XML file containing the character data.
 Then you select the characters you want to add to the current project.
 
@@ -62,7 +62,7 @@ Figurenbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**
-kann man create a text document that contains
+können Sie create a text document that contains
 character descriptions, bio, goals, and notes that can be edited in
 Office Writer and reimported.
 Der Dateinamenszusatz lautet ``_characters_tmp``.
@@ -74,7 +74,7 @@ Figurenliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Figuren > Figurenliste exportieren (Tabelle)**
-kann man create a spreadsheet that contains
+können Sie create a spreadsheet that contains
 a character list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_charlist_tmp``.
 
@@ -92,10 +92,10 @@ Liste anzeigen
 **Einen HTML-Report mit characters data**
 
 Mit **Figuren > Liste anzeigen**
-kann man create a list-formatted HTML filethat contains
+können Sie create a list-formatted HTML filethat contains
 a character list,
 and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed kann man have your web browser save or print it.
+   If needed können Sie have your web browser save or print it.

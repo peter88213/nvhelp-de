@@ -4,56 +4,58 @@ Erste Schritte
 Von Null beginnen
 -----------------
 
-If you start *novelibre* by dragging a *.novx* file onto the icon,
-that project will be opened. Otherwise, the project from the last
-session will be automatically reopened, if there is one.
+Wenn Sie *novelibre* starten, indem Sie eine *.novx* Datei auf das Symbol ziehen,
+wird dieses Projekt geöffnet. Andernfalls wird das Projekt der letzten
+Sitzung automatisch wieder geöffnet, falls es eines gibt.
 
-Let's assume that neither is the case, for example when the program
-is called up for the very first time after installation.
-Let's also assume that we have not yet made any preparations, i.e.
-we have neither a work in progress nor an outline of any kind. First
-of all, we create a new empty project with **Datei > Neu > Leeres Projekt**.
+Nehmen wir an, dass beides nicht der Fall ist, z. B. wenn das Programm
+zum allerersten Mal nach der Installation aufgerufen wird.
+Nehmen wir außerdem an, dass wir noch keine Vorbereitungen getroffen haben,
+d.h. wir haben weder ein angefangenes Werk noch eine Gliederung irgendeiner Art.
+Zunächst legen wir mit **Datei > Neu > Leeres Projekt** ein neues leeres Projekt an.
 
 .. figure:: _images/getting_started01.png
    :alt: novelibre Screenshot
    
-A file selection dialog opens and asks for the file name and location
-of the new project.
+Ein Dateiauswahldialog öffnet sich und fragt nach dem Dateinamen und dem Speicherort
+des neuen Projekts.
 
 .. tip::
-   It is advantageous to create a separate folder for the project, as 
-   all exported documents are also stored here. This also includes 
-   auxiliary files such as timelines or project-related configuration 
-   files for tools and plugins. 
+   Es ist von Vorteil, einen eigenen Ordner für das Projekt anzulegen, 
+   da alle exportierten Dokumente auch hier gespeichert werden. 
+   Dazu gehören auch Hilfsdateien wie Zeitleisten oder projektbezogene 
+   Konfigurationsdateien für Werkzeuge und Plugins. 
 
-It is not mandatory, but we should then enter a Titel and the author's
-name. Perhaps also a description of our idea. To get started right away,
-we will postpone the remaining project settings until later.
+Es ist nicht obligatorisch, aber wir sollten dann einen Titel
+und einen Autorennamen eingeben, vielleicht auch eine Beschreibung unserer Idee.
+Um gleich loslegen zu können, verschieben wir die restlichen
+Projekteinstellungen auf später.
 
 .. figure:: _images/getting_started02.png
    :alt: novelibre Screenshot
    
-We need at least one section in order to get space to begin writing.
-And this must belong to a chapter. So we now create the first
-chapter with **Kapitel > Hinzufügen**.
+Wir brauchen mindestens einen Abschnitt, um mit dem Schreiben beginnen zu können.
+Und dieser muss zu einem Kapitel gehören. Also erstellen wir jetzt das erste
+Kapitel mit **Kapitel > Hinzufügen**.
 
 .. figure:: _images/getting_started03.png
    :alt: novelibre Screenshot
    
-After the chapter is created, *novelibre* sets the focus on the chapter
-Titel entry at the top of the right pane. Let's overwrite the default
-Titel.
+Nachdem das Kapitel erstellt wurde, setzt *novelibre* den Fokus auf den
+Kapitel-Titel am oberen Rand des rechten Fensters.
+Überschreiben wir den vorgegebenen Titel.
 
 .. figure:: _images/getting_started04.png
    :alt: novelibre Screenshot
    
 .. hint::
-   If you decide to have *novelibre* `auto-number the chapters 
-   <book_view.html#automatische-nummerierung>`__ kann man skip this and keep the
-   default chapter Titel. 
+   Wenn sie sich dafür entscheiden, *novelibre* `die Kapitel automatisch 
+   nummerieren zu lassen <book_view.html#automatische-nummerierung>`__,
+   können Sie das überspringen und den voreingestellten Titel stehenlassen. 
 
-There are several ways to add a section now. In this example, we
-right-click on the chapter, and select **Hinzufügen section**.
+Es gibt nun mehrere Möglichkeiten, einen Abschnitt hinzuzufügen.
+In diesem Beispiel klicken wir mit der rechten Maustaste auf das Kapitel
+und wählen **Abschnitt Hinzufügen**.
 
 .. figure:: _images/getting_started05.png
    :alt: novelibre Screenshot
@@ -62,22 +64,24 @@ right-click on the chapter, and select **Hinzufügen section**.
 Gleich mit dem Manuskript beginnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As soon as the new section appears in the Baumansicht, we can export a
-Manuskript. Just click on the |Exportieren Manuskript| toolbar icon.
+Sobald der neue Abschnitt in der Baumansicht erscheint,
+können wir ein Manuskript exportieren.
+Klicken Sie einfach auf die Schaltfläche |Manuskript exportieren| in der Werkzeugleiste.
 
-.. |Exportieren Manuskript| image:: _images/Manuscript.png
+.. |Manuskript exportieren| image:: _images/Manuscript.png
 
 .. figure:: _images/getting_started06.png
    :alt: novelibre Screenshot
    
-Fertiggestellt! *Writer* should now appear with the Manuskript open.
-Just start writing your novel within the text boundary.
+Fertig! *Writer* sollte sich nun mit dem Manuskript öffnen.
+Fangen Sie einfach an, Ihren Roman innerhalb des Textrahmens zu schreiben.
 
 .. figure:: _images/getting_started07.png
    :alt: Libreoffice Screenshot
    
-We can now continue working with *Writer* `as described on the next
-page <writing.html>`__, creating new sections and chapters as we write.
+Wir können nun mit *Writer* weiterarbeiten,  `wie auf der folgenden Seite
+beschrieben <writing.html>`__, und während des Schreibens neue Abschnitte
+und Kapitel erzeugen.
 
 .. tip::
    You can now work on the Manuskript document "on the seat of your pants"
@@ -99,8 +103,8 @@ If you prefer to make a plan first before you start writing, *novelibre* is
 the right tool for you.
 Then you don't start *Writer* with an empty Manuskript, but first create
 a framework of empty chapters for which you enter content information.
-Or kann man leave it at one chapter for the time being and create empty sections
-in it, which kann man later distribute to chapters.
+Or können Sie leave it at one chapter for the time being and create empty sections
+in it, which können Sie later distribute to chapters.
 The results of this preliminary work can be exported as text documents in the
 form of synopses, e.g on
 `chapter <chapter_menu.html#kapitelbeschreibungen-zum-bearbeiten-exportieren>`__ or
@@ -110,7 +114,7 @@ form of synopses, e.g on
 Eine dramaturgische Struktur aufbauen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-However kann man also start on a more abstract level and first create and
+However können Sie also start on a more abstract level and first create and
 describe stages like acts or steps in order to later insert the sections as
 scenes.
 For this, you first create at least one chapter. Then create your stages.
@@ -124,7 +128,7 @@ There you also can learn how to set up multiple strands or character arcs.
 
 .. tip::
    Mit the `nv_templates plugin
-   <https://github.com/peter88213/nv_templates/>`__ kann man have 
+   <https://github.com/peter88213/nv_templates/>`__ können Sie have 
    *novelibre* set up your new project with a pre-made structure like the
    "Drei-Akt-Modell" or "Save The Cat". 
 
@@ -133,7 +137,7 @@ Ein Handlungsraster anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you want to outline your novel using a `plot grid
-<plotting.html#handlungsraster-plot-grid>`__ kann man do this with
+<plotting.html#handlungsraster-plot-grid>`__ können Sie do this with
 *novelibre*:
 
 1. Create an empty new project as described above.

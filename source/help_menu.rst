@@ -14,13 +14,13 @@ Online-Hilfe
 ------------
 
 Mit **Hilfe > Online-Hilfe**
-kann man launch your system web browser with the *novelibre* online help URL.
+können Sie launch your system web browser with the *novelibre* online help URL.
 
 novelibre Homepage
 ------------------
 
 Mit **Hilfe > novelibre Homepage**
-kann man launch your system web browser with the *novelibre* Homepage URL.
+können Sie launch your system web browser with the *novelibre* Homepage URL.
 
 .. hint::
    This is a quick way to get to the download link of the most recent 

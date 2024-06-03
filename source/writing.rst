@@ -11,13 +11,13 @@ Writer als Texteditor aufrufen
    Other word processing programs that claim to support the *ODT* 
    file format are generally not recommended. 
 
-As soon as your novel project has at least one section kann man start
+As soon as your novel project has at least one section können Sie start
 writing. For this, you save your project and export your novel
 to the *Writer* word processor either with **Exportieren > Manuskript zum Bearbeiten**,
 or by clicking on the |Exportieren Manuskript| toolbar icon.
 
 .. hint::
-   - If you use the-Menü command kann man have *novelibre* create a
+   - If you use the-Menü command können Sie have *novelibre* create a
      Manuskript, and ask whether it should be opened with *Writer*.
    - If you click on the toolbar icon, *Writer* will be launched 
      immediately after export.
@@ -128,12 +128,12 @@ Mit Writer neue Abschnitte anlegen
 
 If you need a new section while writing, you don't have to switch
 to *novelibre*. Simply start a new line with a special marker
-``###``. Wahlweise kann man add a section Titel, and, separated
+``###``. Wahlweise können Sie add a section Titel, and, separated
 by ``|``, a section description. Alle other metadata is intended
 to be entered in *novelibre* later.
 
 .. tip::
-   As of *novelibre* version 3.0.2 kann man use ``####`` to create
+   As of *novelibre* version 3.0.2 können Sie use ``####`` to create
    an `appended section 
    <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__. 
 

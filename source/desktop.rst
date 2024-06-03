@@ -47,7 +47,7 @@ Arbeiten im Projektbaum
 
 Sich durch den Baum bewegen
    *novelibre* hat einen Browservelauf der ausgewählten Baumelemente.
-   Damit kann man sich vor- und zurückbewegen, zum Beispiel zwischen einem
+   Damit können Sie sich vor- und zurückbewegen, zum Beispiel zwischen einem
    Abschnitt und den Figuren, die in ihm vorkommen.
 
    - |Gehe zurück| geht einen Knoten zurück in im Browserverlauf.
@@ -90,21 +90,21 @@ Der **Textbetrachter** im mittleren Fenster zeigt die Inhalte der Teile,
 Kapitel und Abschnitte mit deren Titeln als Überschriften.
 
 - Mit **Ansicht > Textbetrachter anzeigen/verbergen** oder ``Strg``-``T``
-  oder Klick auf |Textbetrachter anzeigen/verbergen| kann man das mittlere
+  oder Klick auf |Textbetrachter anzeigen/verbergen| können Sie das mittlere
   Fenster mit dem Textbetrachter öffnen und schließen.
 - Beim Öffnen zeigt der Textbetrachter den Text an der Stelle des aktuell
   gewählten Abschnitts an.
 - Wird die Auswahl im Baum geändert, bewegt sich der angezeigte Text mit.
-- Allerdings kann man den Text auch unabhängig davon mit dem Mausrad oder
+- Allerdings können Sie den Text auch unabhängig davon mit dem Mausrad oder
   dem Scrollbalken scrollen.
-- Man kann Text mit der Maus auswählen und mit ``Strg``-``C`` in die
+- Sie können Text mit der Maus auswählen und mit ``Strg``-``C`` in die
   Zwischenablage kopieren.
-- Man kann den Text nicht im Betrachter bearbeiten.
+- Sie können den Text nicht im Betrachter bearbeiten.
   Für so etwas benötigt man ein Editor-Plugin, wie zum Beispiel
   `nv_editor <https://github.com/peter88213/nv_editor/>`__.
 - Der Abschnittstext ist entsprechend dem Abschnittstyp eingefärbt
   (siehe `Gtundlegende Konzepte <basic_concepts.html#teil-kapitel-abschnittstypen>`__).
-- Mit dem Auswahlfeld **Markup anzeigen** kann man das XML-Markup
+- Mit dem Auswahlfeld **Markup anzeigen** können Sie das XML-Markup
   anzeigen oder verbergen.
 
 
@@ -116,15 +116,15 @@ Eigenschaften und Metadaten des ausgewählten Baumelements an.
 
 - Projekteinstellungen werden mit den *Buch*-Eigenschaften vorgenommen.
 - Mit **Ansicht > Eigenschaften anzeigen/verbergen** oder ``Strg``-``Alt``-``T``
-  oder Klick auf |Eigenschaften anzeigen/verbergen| kann man das rechte Fenster
+  oder Klick auf |Eigenschaften anzeigen/verbergen| können Sie das rechte Fenster
   mit den Eigenschaften öffnen und schließen.
 - Beim Öffnen zeigt das Fenster die Eigenschaften des aktuell gewählten
   Baumelements an.
 - Mit **Ansicht > Eigenschaften abtrennen/andocken** oder ``Strg``-``Alt``-``D``
-  kann man das Eigenschaftsfenster abtrennen und wieder andocken.
+  können Sie das Eigenschaftsfenster abtrennen und wieder andocken.
 - Schließt man das abgetrennte Eigenschaftsfenster, wird es wieder angedockt.
 
-Auf großen Bildschirmen kann man *novelibre* und *Writer* mit abgekoppelten
+Auf großen Bildschirmen können Sie *novelibre* und *Writer* mit abgekoppelten
 Fenstern anordnen.
 
 .. figure:: _images/full_desktop.png
@@ -167,7 +167,7 @@ Bei Bedarf werden sie mit Meldungen des Programms überschrieben.
 - Meldungen vor rotem Hintergrund zeigen Warnungen oder Fehlermeldungen an.
 
 .. tip::
-   Die Normalansicht kann man jederzeit durch Klicken auf die 
+   Die Normalansicht können Sie jederzeit durch Klicken auf die 
    Statusleiste wiederherstellen.
    
 

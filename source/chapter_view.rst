@@ -32,7 +32,7 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** Auswahlfeld kann man change the `chapter type
+Mit te **Unbenutzt** Auswahlfeld können Sie change the `chapter type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 

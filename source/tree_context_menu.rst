@@ -214,7 +214,7 @@ Major characters are highlighted in the Baumansicht.
 
 .. note::
    The character status is only for visual distinction. It has no
-   influence on the program functions. Niemalstheless kann man use it
+   influence on the program functions. Niemalstheless können Sie use it
    to mark viewpoint characters or characters with their own Plotlinien.
 
 .. hint::

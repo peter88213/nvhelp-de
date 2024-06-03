@@ -12,7 +12,7 @@ Plotlinie hinzufügen
 **Hinzufügen a new Plotlinie to the story**
 
 Mit **Plot > Hinzufügen Plotlinie**
-kann man add a Projektnotiz to the tree .
+können Sie add a Projektnotiz to the tree .
 
 .. note::
 
@@ -27,7 +27,7 @@ Plotpunkt hinzufügen
 **Hinzufügen a new Plotpunkt to the selected Plotlinie**
 
 Mit **Plot > Plotpunkt hinzufügen**
-kann man add a plot point to a Plotlinie.
+können Sie add a plot point to a Plotlinie.
 
 .. note::
 
@@ -43,7 +43,7 @@ Stadium einfügen
 **Insert a stage between the sections**
 
 Mit **Plot > Stadium einfügen**
-kann man insert a stage after the selected chapter or section.
+können Sie insert a stage after the selected chapter or section.
 
 .. hint::
    By default, the new stage is on the second level. 
@@ -55,7 +55,7 @@ Ebene ändern
 **Change the level of the selected stages**
 
 Mit **Plot > Ebene ändern**
-kann man change the level of the selected stages.
+können Sie change the level of the selected stages.
 
 .. figure:: _images/plot_menu02.png
    :alt: novelibre Screenshot
@@ -74,7 +74,7 @@ Handlungsraster (Plot grid) zum Bearbeiten exportieren
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**
-kann man create a spreadsheet as described in the
+können Sie create a spreadsheet as described in the
 `Plotting with novelibre <plotting.html#handlungsraster-plot-grid>`__ chapter,
 with a row per section, containing the following data:
 
@@ -140,7 +140,7 @@ Plot-Liste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren**
 
 Mit **Plot > Plot-Liste exportieren (Tabelle)**
-kann man create a spreadsheet with a row for each section
+können Sie create a spreadsheet with a row for each section
 and a column for each Plotlinie.
 Associations between Plotlinien and sections are color-highlighted.
 Plotpunkt Titels are displayed.
@@ -180,5 +180,5 @@ and launch your system’s web browser for displaying it.
 
 .. note::
    The report is a temporary file, auto-gelöscht on program exit.
-   If needed kann man have your web browser save or print it.
+   If needed können Sie have your web browser save or print it.
 

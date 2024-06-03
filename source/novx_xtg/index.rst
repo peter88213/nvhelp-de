@@ -30,7 +30,7 @@ The included installation script prompts you to create a shortcut on the desktop
 Command line usage
 ~~~~~~~~~~~~~~~~~~
 
-Alternatively kann man
+Alternatively können Sie
 
 - launch the program on the command line passing the novelibre project file as an argument, or
 - launch the program via a batch file.

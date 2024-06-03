@@ -12,7 +12,7 @@ Kapitelebene anzeigen
 **Die Abschnitte verbergen**
 
 Mit **Ansicht > Kapitelebene anzeigen** oder ``Strg``-``Alt``-``C``
-kann man den Baum so zusammenklappen,
+können Sie den Baum so zusammenklappen,
 dass nur Teile und Kapitel sichtbar sind.
 
 
@@ -22,7 +22,7 @@ Ausgewählte aufklappen
 **Einen ganzen Zweig anzeigen**
 
 Mit **Ansicht > Ausgewählte aufklappen**
-kann man einen ausgewählten Zweig aufklappen.
+können Sie einen ausgewählten Zweig aufklappen.
 
 
 Ausgewählte einklappen
@@ -31,7 +31,7 @@ Ausgewählte einklappen
 **Kindelemente vebergen**
 
 Mit **Ansicht > Ausgewählte einklappen**
-kann man einen ausgewählten Zweig einklappen.
+können Sie einen ausgewählten Zweig einklappen.
 
 
 Alles aufklappen
@@ -40,7 +40,7 @@ Alles aufklappen
 **Den ganzen Baum anzeigen**
 
 Mit **Ansicht > Alles aufklappen**
-kann man den ganzen Baum aufklappen.
+können Sie den ganzen Baum aufklappen.
 
 
 Alle einklappen
@@ -49,7 +49,7 @@ Alle einklappen
 **Kindelemente verbergen**
 
 Mit **Ansicht > Alle einklappen**
-kann man alle Baumelemente außer den Hauptkategorien verbergen.
+können Sie alle Baumelemente außer den Hauptkategorien verbergen.
 
 
 Buch anzeigen
@@ -58,7 +58,7 @@ Buch anzeigen
 **Zum "Buch"-Zweig gehen und ihn aufklappen**
 
 Mit **Ansicht > Ansicht Buch**
-kann man den "Buch"-Zweig anwählen und öffnen.
+können Sie den "Buch"-Zweig anwählen und öffnen.
 
 
 Figuren anzeigen
@@ -67,7 +67,7 @@ Figuren anzeigen
 **Zum "Figuren"-Zweig gehen und ihn aufklappen**
 
 Mit **Ansicht > Ansicht Figuren**
-kann man den "Figuren"-Zweig anwählen und öffnen.
+können Sie den "Figuren"-Zweig anwählen und öffnen.
 
 
 Schauplätze anzeigen
@@ -76,7 +76,7 @@ Schauplätze anzeigen
 **Zum "Schauplätze"-Zweig gehen und ihn aufklappen**
 
 Mit **Ansicht > Ansicht Schauplätze**
-kann man den "Schauplätze"-Zweig anwählen und öffnen.
+können Sie den "Schauplätze"-Zweig anwählen und öffnen.
 
 
 Gegenstände anzeigen
@@ -85,7 +85,7 @@ Gegenstände anzeigen
 **Zum "Gegenstände"-Zweig gehen und ihn aufklappen**
 
 Mit **Ansicht > Ansicht Gegenstände**
-kann man den "Gegenstände"-Zweig anwählen und öffnen.
+können Sie den "Gegenstände"-Zweig anwählen und öffnen.
 
 
 Plotlinien anzeigen
@@ -94,7 +94,7 @@ Plotlinien anzeigen
 **Zum "Plotlinien"-Zweig gehen und ihn aufklappen**
 
 Mit **Ansicht > Plotlinien anzeigen**
-kann man den "Plotlinien"-Zweig anwählen und öffnen.
+können Sie den "Plotlinien"-Zweig anwählen und öffnen.
 
 
 Projektnotizen anzeigen
@@ -103,7 +103,7 @@ Projektnotizen anzeigen
 **Zum "Projektnotizen"-Zweig gehen und ihn aufklappen**
 
 Mit **Ansicht > Ansicht Planning**
-kann man den "Projektnotizen"-Zweig anwählen und öffnen.
+können Sie den "Projektnotizen"-Zweig anwählen und öffnen.
 
 
 Textbetrachter anzeigen/verbergen
@@ -112,7 +112,7 @@ Textbetrachter anzeigen/verbergen
 **Show/hide the novel text**
 
 Mit **Ansicht > Textbetrachter anzeigen/verbergen** oder ``Strg``-``T``
-kann man das `Textbetrachter-Fenster <desktop.html>`__
+können Sie das `Textbetrachter-Fenster <desktop.html>`__
 öffnen oder schließen.
 
 .. hint::
@@ -126,7 +126,7 @@ Eigenschaften anzeigen/verbergen
 **Show/hide the selected element’s properties**
 
 Mit **Ansicht > Eigenschaften anzeigen/verbergen** oder ``Strg``-``Alt``-``T``
-kann man das Eigenschaftenfenster öffnen oder schließen.
+können Sie das Eigenschaftenfenster öffnen oder schließen.
 
 .. hint::
    Wird das Fenster wieder geöffnet, zeigt es die Eigenschaften
@@ -141,7 +141,7 @@ oder in einem abgetrennten Fenster anzeigen**
 
 
 Mit **Ansicht > Eigenschaften abtrennen/andocken** oder ``Strg``-``Alt``-``D``
-kann man das Fenster mit den Elementeigenschaften abtrennen oder andocken.
+können Sie das Fenster mit den Elementeigenschaften abtrennen oder andocken.
 
 .. hint::
    Mit dem Schließen des abgetrennten Fensters werden 
@@ -154,7 +154,7 @@ Optionen
 **Projektunabhängige Programmeinstellungen**
 
 Mit **Ansicht >  Optionen**
-kann man einen Dialog mit Einstellungen für die Anzeige öffnen.
+können Sie einen Dialog mit Einstellungen für die Anzeige öffnen.
 
 .. figure:: _images/view_menu02.png
    :alt: novelibre Screenshot
