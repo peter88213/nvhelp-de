@@ -118,7 +118,7 @@ Eine dramaturgische Struktur aufbauen
 
 Allerdings können Sie auch auf einer abstrakteren Ebene beginnen
 und zuerst Stadien wie Akte oder Schritte anlegen,
-um erst später die Abschnitte als Szenen einzufügen.
+um dann später die Abschnitte als Szenen einzufügen.
 Dazu erstellen Sie zunächst mindestens ein Kapitel.
 Dann erzeugen Sie Ihre Stadien.
 
@@ -172,31 +172,32 @@ wollen, können Sie das mit *novelibre* tun:
 Mit einem angefangenen Werk beginnen
 ------------------------------------
 
-Let's assume that you have already written an extensive novel Manuskript with
-*Writer* and now want to continue with *novelibre*.
-In this case you first make sure to set it up in a way, *novelibre* can
-recognize its parts, chapters, and sections.
+Nehmen wir an, Sie haben bereits ein umfangreiches Romanmanuskript 
+mit *Writer* begonnen und wollen nun mit *novelibre* weiterarbeiten. 
+In diesem Fall stellen Sie zunächst sicher, dass es so gestaltet ist, 
+dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann. 
 
 .. important::
-   How to set up a work in progress for import
-      A work in progress must not have any third level heading.
+   Einen Text für den Import vorbereiten
+      Im bestehenden Manuskript darf es keine Überschrift dritter Ordnung geben.
       
-      -  *Heading 1* → Teil Titel.
-      -  *Heading 2* → Kapitel Titel.
-      -  ``* * *`` → Abschnitt divider (not needed for the first section in a
-         chapter).
-      -  Alle other text is considered section content.
+      -  *Überschrift 1* → Teile-Titel.
+      -  *Überschrift 2* → Kapitel-Titel.
+      -  ``* * *`` → Abschnittstrenner (nicht vor dem ersten Abschnitt im Kapitel).
+      -  Der ganze restliche Text wird als Inhalt von Abschnitten behandelt.
 
 .. caution::
-   Formatting that is not `supported with novelibre 
-   <basic_concepts.html#text-formatieren>`__ is lost.
-   The same applies to images. 
-   So if your work depends on a sophisticated layout that is beyond 
-   *novelibre's* capabilities, consider using comments as reminders 
-   as you write. That will help you doing the special formatting at 
-   the end, when you prepare the finished novel for publication. 
-   If this is not enough, *novelibre* may not be  the right tool for you.
-      
+   Textauszeichnungen, die nicht `durch novelibre unterstützt werden 
+   <basic_concepts.html#text-formatieren>`__, gehen verloren.
+   Dasselbe gilt für Bilder. 
+   Wenn also Ihr Werk ein ausgefeiltes Layout braucht, 
+   das jenseits von *novelibres* Möglichkeiten liegt,
+   erwägen Sie, beim Schreiben Kommentare als Gedächtnisstützen einzufügen.
+   Das kann später helfen, die speziellen Formate anzuwenden, wenn Sie 
+   Ihren fertigen Roman für die Veröffentlichung vorbereiten. 
+   Falls das nicht genügt, ist *novelibre* vielleicht nicht das 
+   richtige Werkzeug für Sie. 
+     
 When your Manuskript is ready, create your new project
 with **Datei > Neu > Aus ODT erzeugen...**.
 
