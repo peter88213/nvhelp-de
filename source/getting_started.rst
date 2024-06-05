@@ -141,26 +141,30 @@ Charakterbögen anlegen.
 Ein Handlungsraster anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you want to outline your novel using a `plot grid
-<plotting.html#handlungsraster-plot-grid>`__ können Sie do this with
-*novelibre*:
+Falls Sie Ihren Roman mit einem `"Plot grid"-Handlungsraster
+<plotting.html#handlungsraster-plot-grid>`__ ausarbeiten 
+wollen, können Sie das mit *novelibre* tun:
 
-1. Create an empty new project as described above.
-2. Hinzufügen a single chapter.
-3. Select this chapter, then `add multiple sections
+1. Erstellen Sie ein neues leeres Projekt, wie oben beschrieben.
+2. Fügen Sie ein einzelnes Kapitel hinzu.
+3. Wählen Sie dieses Kapitel aus, und `fügen Sie dann mehrere
+   Abschnitte hinzu.
    <section_menu.html#mehrere-abschnitte-hinzufugen>`__.
-4. If you need a number of new sections above the limit,
-   repeat step 3.
-   However, it is recommended to start with a few sections
-   that are easier to distribute to the chapters to be created later.
-   You can extend the plot grid over time.
-5. Create the `Plotlinien <plot_menu.html#plotlinie-hinzufugen>`__ you need.
-6. `Exportieren a plot grid <plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__
-   and fill the table cells.
-7. `Importieren <import_menu.html>`__ the plot grid.
-8. `Hinzufügen more chapters <chapter_menu.html#hinzufugen>`__ and
-   `move the sections <desktop.html#move-tree-elements>`__
-   to them.
+4. Falls Sie mehr als die zulässige Anzahl Abschnitte brauchen,
+   wiederholen Sie Schritt 3.
+   Es ist jedoch sinnvoll, zuerst einmal mit weniger Abschnitten zu 
+   beginnen, die sich leichter auf die später zu erzeugenden Kapitel
+   verteilen lassen. 
+   Sie können das Handlungsraster mit der Zeit erweitern.
+5. Legen Sie die benötigten `Plotlinien <plot_menu.html#plotlinie-hinzufugen>`__ an.
+6. `Exportieren
+   <plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__
+   Sie ein Handlungsraster und füllen Sie die Tabellenzellen aus.
+7. `Importieren <import_menu.html>`__ Sie das Handlungsraster.
+8. `Erzeugen Sie mehr Kapitel <chapter_menu.html#hinzufugen>`__, 
+   und
+   `verteilen Sie die Abschnitte <desktop.html#baumelemente-verschieben>`__
+   darauf.
 
 -----------------
 
