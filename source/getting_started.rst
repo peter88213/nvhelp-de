@@ -84,53 +84,58 @@ beschrieben <writing.html>`__, und während des Schreibens neue Abschnitte
 und Kapitel erzeugen.
 
 .. tip::
-   You can now work on the Manuskript document "on the seat of your pants"
-   until it makes sense for  you to transfer the whole thing back to 
-   *novelibre* in order to create an overview and set up your project 
-   organization there.
+   Jetzt können Sie das Manuskriptdokument "aus dem Stegreif" bearbeiten,
+   bis es Ihnen sinnvoll erscheint, alles zu *novelibre* zurückzuspielen,
+   um dort eine Übersicht zu erzeugen und Ihr Projekt aufzusetzen.
    
-   However, I recommend doing this at least daily at the end of your writing 
-   session and exporting a new Manuskript document the next day. 
-   Then you won't get behind with entering the section Titels und Inhalt 
-   descriptions, and you will get your chapters numbered, if desired. 
-   In addition, *novelibre* then saves entries in the daily word count log.
+   Ich empfehle jedoch, das zumindest täglich am Ende Ihrer Schreibsitzung zu tun  
+   und am nächsten Tag ein neues Manuskriptdokument zu exportieren. 
+   Dann kommen Sie nicht in Verzug mit der Eingabe der Kapitelüberschriften
+   und der Inhaltsbeschreibungen, und Sie bekommen Ihre Kapitel nummeriert, 
+   falls gewünscht. 
+   Außerdem speichert *novelibre* dann Einträge im täglichen Wortzählprotokoll.
    
    
 Eine Kapitelstruktur anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you prefer to make a plan first before you start writing, *novelibre* is
-the right tool for you.
-Then you don't start *Writer* with an empty Manuskript, but first create
-a framework of empty chapters for which you enter content information.
-Or können Sie leave it at one chapter for the time being and create empty sections
-in it, which können Sie later distribute to chapters.
-The results of this preliminary work can be exported as text documents in the
-form of synopses, e.g on
-`chapter <chapter_menu.html#kapitelbeschreibungen-zum-bearbeiten-exportieren>`__ or
-`section <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__ level.
+Falls sie es vorziehen, vor dem eigentlichen Schreiben zuerst einmal
+einen Plan zu machen, ist *novelibre* das richtige Werkzeug für Sie.
+Dann rufen Sie nicht gleich *Writer* mit einem leeren Dokument auf,
+sondern erzeugen zuerst ein Gerüst aus leeren Kapiteln, für die Sie
+Inhaltsangaben eingeben.
+Oder Sie beslassen es zunächst bei einem einzigen leeren Kapitel,
+das Sie mit leeren Abschnitten füllen, die Sie dann später auf weitere
+Kapitel verteilen können.
+Die Ergebnisse Ihrer Vorbereitungen können als Textdokumente in Form
+von Zusammenfassungen exportiert werden, beispielsweise auf der Ebene
+von `Kapiteln <chapter_menu.html#kapitelbeschreibungen-zum-bearbeiten-exportieren>`__
+oder `Abschnitten <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__.
 
 
 Eine dramaturgische Struktur aufbauen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-However können Sie also start on a more abstract level and first create and
-describe stages like acts or steps in order to later insert the sections as
-scenes.
-For this, you first create at least one chapter. Then create your stages.
+Allerdings können Sie auch auf einer abstrakteren Ebene beginnen
+und zuerst Stadien wie Akte oder Schritte anlegen,
+um erst später die Abschnitte als Szenen einzufügen.
+Dazu erstellen Sie zunächst mindestens ein Kapitel.
+Dann erzeugen Sie Ihre Stadien.
 
 .. figure:: _images/getting_started08.png
    :alt: novelibre Screenshot
 
-The system is described on the `Plotting with novelibre <plotting.html>`__
-page.
-There you also can learn how to set up multiple strands or character arcs.
+Das Verfahren wird auf der Seite `Mit novelibre plotten <plotting.html>`__
+beschrieben.
+Dort erfahren Sie auch, wie Sie mehrere Handlungsstränge oder
+Charakterbögen anlegen.
 
 .. tip::
-   Mit the `nv_templates plugin
-   <https://github.com/peter88213/nv_templates/>`__ können Sie have 
-   *novelibre* set up your new project with a pre-made structure like the
-   "Drei-Akt-Modell" or "Save The Cat". 
+   Mit dem `nv_templates-Plugin
+   <https://github.com/peter88213/nv_templates/>`__ können Sie  
+   *novelibre* Ihr neues Projekt mit einer vorgefertigten 
+   Struktur wie dem "Drei-Akt-Modell" oder "Save The Cat"
+   aufsetzen lassen. 
 
 
 Ein Handlungsraster anlegen
