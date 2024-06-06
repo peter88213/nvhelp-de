@@ -211,7 +211,7 @@ Ich ziehe es vor, ihn links vom Arbeitsbereich anzudocken.
 Dazu drücken Sie zuerst ``F5``, um den Navigator zu öffnen.
 Per Voreinstellung erscheint er als Pop-up-Fenster, das 
 überall auf dem Bildschirm platziert werden kann. 
-Um ihn anzudocken, halten Sie die``Strg``-Taste gedrückt und
+Um ihn anzudocken, halten Sie die ``Strg``-Taste gedrückt und
 doppelklicken Sie in einen freien grauen Fensterbereich, 
 wie im folgenden Bild gezeigt.
 
