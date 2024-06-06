@@ -5,22 +5,26 @@ Writer als Texteditor aufrufen
 ------------------------------
 
 .. note::
-   The following example describes the Manuskript editing workflow 
-   with LibreOffice. The same applies to ÖffnenOffice.
+   Das folgende Beispiel beschreibt den Arbeitsablauf für das
+   Bearbeiten des Manuskripts mit LibreOffice. 
+   Dasselbe gilt auch für OpenOffice.
    
-   Other word processing programs that claim to support the *ODT* 
-   file format are generally not recommended. 
+   Andere Textverarbeitungsprogramme die versprechen, das 
+   *ODT*-Dateiformat zu unterstützen, werden generell nicht empfohlen.
 
-As soon as your novel project has at least one section können Sie start
-writing. For this, you save your project and export your novel
-to the *Writer* word processor either with **Exportieren > Manuskript zum Bearbeiten**,
-or by clicking on the |Exportieren Manuskript| toolbar icon.
+Sobald Ihr Romanprojekt mindestens einen Abschnitt hat, können
+Sie mit dem Schreiben beginnen. 
+Dazu speichern Sie Ihr Projekt und exportieren Ihren Roman in die
+*Writer*-Textverarbeitung. Das geht entweder mit
+**Exportieren > Manuskript zum Bearbeiten**, oder indem Sie
+in der Werkzeugleiste auf das Symbol |Exportieren Manuskript| klicken.
 
 .. hint::
-   - If you use the-Menü command können Sie have *novelibre* create a
-     Manuskript, and ask whether it should be opened with *Writer*.
-   - If you click on the toolbar icon, *Writer* will be launched 
-     immediately after export.
+   - Wenn Sie den Menübefehl verwenden, können Sie *novelibre* ein 
+     Manuskript erzeugen und nach einer Nachfrage mit *Writer*
+     öffnen lassen.
+   - Wenn Sie auf das Symbol in der Werkzeugleiste klicken, 
+     wird *Writer* nach dem Export automatisch aufgerufen. 
 
 
 .. figure:: _images/writing01.png
@@ -28,37 +32,26 @@ or by clicking on the |Exportieren Manuskript| toolbar icon.
    
    novelibre Screenshot
 
-If you have done this before and there is still a Manuskript document from
-the previous writing session, you will now be asked whether you want to
-continue working on this document. If this is the case, answer "Bestehendes öffnen".
+Falls Sie das schon einmal gemacht haben, und es immer noch ein 
+Manuskriptdokument von der letzten Sitzung gibt, werden Sie nun gefragt, 
+ob Sie damit weiterarbeiten wollen. Falls ja, wählen Sie "Bestehendes öffnen".
 
 .. figure:: _images/writing02.png
    :alt: novelibre Screenshot
    
    novelibre Screenshot
 
-If you answer "Überschreiben", *novelibre* creates a new Manuskript document.
-"Cancel" aborts the export process and lets you return to the main window.
+Falls Sie "Überschreiben" wählen, erzeugt *novelibre* ein neues Manuskriptdokument.
+"Abbruch" bricht den Exportvorgang ab und bringt Sie zum Arbeitsbereich zurück. 
 
-If you have done this before and there is still a manuscript document from
-the previous writing session, you will now be asked whether you want to
-continue working on this document. If this is the case, answer "Open existing".
-
-.. figure:: _images/writing02.png
-   :alt: novelibre Screenshot
-   
-   novelibre Screenshot
-
-If you answer "Overwrite", *novelibre* creates a new manuscript document.
-"Abbrechen" aborts the export process and lets you return to the main window.
 
 .. hint::
-   *novelibre* checks whether an existing manuscript is newer or older
-   than the open project, and suggests a choice by activating the 
-   appropriate button. You can accept it by hitting the Eingabetaste.
-   If your choice follows the suggestion, you see a message in green
-   at the bottom bar. Otherwise, the message is displayed in red, 
-   just as a reminder. 
+   *novelibre* prüft, ob ein existierendes Manuskript neuer oder älter 
+   als die Projektdatei ist, und schlägt eine Auswahl vor, indem es die 
+   passende Schaltfläche aktiviert. Sie können das mit der Eingabetaste 
+   akzeptieren. Wenn Ihre Auswahl dem Vorschlag entspricht, sehen Sie
+   in der Statusleiste eine grüne Meldung. Andernfalls ist die Meldung rot, 
+   nur zur Erinnerung. 
 
 If you started the export using the **Exportieren**-Menü command, you may
 be asked whether you want to open the newly created document, depending

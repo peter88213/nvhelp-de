@@ -23,7 +23,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
     <link rel="search" title="Suche" href="search.html" />
-    <link rel="next" title="Plotten mit novelibre" href="plotting.html" />
+    <link rel="next" title="Mit novelibre plotten" href="plotting.html" />
     <link rel="prev" title="Erste Schritte" href="getting_started.html" /> 
 </head>
 
@@ -62,7 +62,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#mit-writer-neue-kapitel-anlegen">Mit Writer neue Kapitel anlegen</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
@@ -98,22 +98,26 @@
 <h2>Writer als Texteditor aufrufen<a class="headerlink" href="#writer-als-texteditor-aufrufen" title="Link to this heading"></a></h2>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>The following example describes the Manuskript editing workflow
-with LibreOffice. The same applies to ÖffnenOffice.</p>
-<p>Other word processing programs that claim to support the <em>ODT</em>
-file format are generally not recommended.</p>
+<p>Das folgende Beispiel beschreibt den Arbeitsablauf für das
+Bearbeiten des Manuskripts mit LibreOffice.
+Dasselbe gilt auch für OpenOffice.</p>
+<p>Andere Textverarbeitungsprogramme die versprechen, das
+<em>ODT</em>-Dateiformat zu unterstützen, werden generell nicht empfohlen.</p>
 </div>
-<p>As soon as your novel project has at least one section können Sie start
-writing. For this, you save your project and export your novel
-to the <em>Writer</em> word processor either with <strong>Exportieren &gt; Manuskript zum Bearbeiten</strong>,
-or by clicking on the <img alt="Exportieren Manuskript" src="_images/Manuscript.png" /> toolbar icon.</p>
+<p>Sobald Ihr Romanprojekt mindestens einen Abschnitt hat, können
+Sie mit dem Schreiben beginnen.
+Dazu speichern Sie Ihr Projekt und exportieren Ihren Roman in die
+<em>Writer</em>-Textverarbeitung. Das geht entweder mit
+<strong>Exportieren &gt; Manuskript zum Bearbeiten</strong>, oder indem Sie
+in der Werkzeugleiste auf das Symbol <img alt="Exportieren Manuskript" src="_images/Manuscript.png" /> klicken.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
 <ul class="simple">
-<li><p>If you use the-Menü command können Sie have <em>novelibre</em> create a
-Manuskript, and ask whether it should be opened with <em>Writer</em>.</p></li>
-<li><p>If you click on the toolbar icon, <em>Writer</em> will be launched
-immediately after export.</p></li>
+<li><p>Wenn Sie den Menübefehl verwenden, können Sie <em>novelibre</em> ein
+Manuskript erzeugen und nach einer Nachfrage mit <em>Writer</em>
+öffnen lassen.</p></li>
+<li><p>Wenn Sie auf das Symbol in der Werkzeugleiste klicken,
+wird <em>Writer</em> nach dem Export automatisch aufgerufen.</p></li>
 </ul>
 </div>
 <figure class="align-default" id="id1">
@@ -122,44 +126,33 @@ immediately after export.</p></li>
 <p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<p>If you have done this before and there is still a Manuskript document from
-the previous writing session, you will now be asked whether you want to
-continue working on this document. If this is the case, answer „Bestehendes öffnen“.</p>
+<p>Falls Sie das schon einmal gemacht haben, und es immer noch ein
+Manuskriptdokument von der letzten Sitzung gibt, werden Sie nun gefragt,
+ob Sie damit weiterarbeiten wollen. Falls ja, wählen Sie „Bestehendes öffnen“.</p>
 <figure class="align-default" id="id2">
 <img alt="novelibre Screenshot" src="_images/writing02.png" />
 <figcaption>
 <p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<p>If you answer „Überschreiben“, <em>novelibre</em> creates a new Manuskript document.
-„Cancel“ aborts the export process and lets you return to the main window.</p>
-<p>If you have done this before and there is still a manuscript document from
-the previous writing session, you will now be asked whether you want to
-continue working on this document. If this is the case, answer „Open existing“.</p>
-<figure class="align-default" id="id3">
-<img alt="novelibre Screenshot" src="_images/writing02.png" />
-<figcaption>
-<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
-</figcaption>
-</figure>
-<p>If you answer „Overwrite“, <em>novelibre</em> creates a new manuscript document.
-„Abbrechen“ aborts the export process and lets you return to the main window.</p>
+<p>Falls Sie „Überschreiben“ wählen, erzeugt <em>novelibre</em> ein neues Manuskriptdokument.
+„Abbruch“ bricht den Exportvorgang ab und bringt Sie zum Arbeitsbereich zurück.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p><em>novelibre</em> checks whether an existing manuscript is newer or older
-than the open project, and suggests a choice by activating the
-appropriate button. You can accept it by hitting the Eingabetaste.
-If your choice follows the suggestion, you see a message in green
-at the bottom bar. Otherwise, the message is displayed in red,
-just as a reminder.</p>
+<p><em>novelibre</em> prüft, ob ein existierendes Manuskript neuer oder älter
+als die Projektdatei ist, und schlägt eine Auswahl vor, indem es die
+passende Schaltfläche aktiviert. Sie können das mit der Eingabetaste
+akzeptieren. Wenn Ihre Auswahl dem Vorschlag entspricht, sehen Sie
+in der Statusleiste eine grüne Meldung. Andernfalls ist die Meldung rot,
+nur zur Erinnerung.</p>
 </div>
 <p>If you started the export using the <strong>Exportieren</strong>-Menü command, you may
 be asked whether you want to open the newly created document, depending
 of your <a class="reference external" href="export_menu.html#optionen">Exportieren settings</a>.</p>
-<figure class="align-default" id="id4">
+<figure class="align-default" id="id3">
 <img alt="novelibre Screenshot" src="_images/writing03.png" />
 <figcaption>
-<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <p>If you answer „yes“, <em>Writer</em> will be launched with
@@ -181,11 +174,11 @@ a layout that is similar to the „standard Manuskript format“. The
 in the <em>Headings</em> area. Double click on a heading to move the cursor
 to that location. You can now write within the frames that define
 the sections.</p>
-<figure class="align-default" id="id5">
+<figure class="align-default" id="id4">
 <img alt="LibreOffice Writer Screenshot" src="_images/writing04.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer Screenshot: Note that the text boundaries are
-made visible here, which is <a class="reference external" href="preparations.html#setting-up-writer">highly recommended</a>.</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+made visible here, which is <a class="reference external" href="preparations.html#setting-up-writer">highly recommended</a>.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -206,11 +199,11 @@ appear.</p>
 <p>The toolbar icon mentioned above is only for the Manuskript. If
 you want to apply changes made in other documents like character
 sheets or synopses, use the <a class="reference external" href="import_menu.html">Importieren-Menü</a>.</p>
-<figure class="align-default" id="id6">
+<figure class="align-default" id="id5">
 <img alt="novelibre Screenshot" src="_images/writing09.png" />
 <figcaption>
 <p><span class="caption-text">novelibre Screenshot: The Manuskript entry is highlighted in
-green, because the file is newer than the open project.</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+green, because the file is newer than the open project.</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div>
@@ -228,18 +221,18 @@ to be entered in <em>novelibre</em> later.</p>
 an <a class="reference external" href="section_view.html#an-den-vorherigen-abschnitt-anhangen">appended section</a>.</p>
 </div>
 <p>The following example shows how to split an existing section:</p>
-<figure class="align-default" id="id7">
+<figure class="align-default" id="id6">
 <img alt="LibreOffice Writer Screenshot" src="_images/writing05.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Writer Screenshot: Notice the highlighted section marker</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+<p><span class="caption-text">LibreOffice Writer Screenshot: Notice the highlighted section marker</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <p>Zurück in <em>novelibre</em>, you see the new section. It has got a Titel,
 but no other metadata.</p>
-<figure class="align-default" id="id8">
+<figure class="align-default" id="id7">
 <img alt="novelibre Screenshot" src="_images/writing06.png" />
 <figcaption>
-<p><span class="caption-text"><em>novelibre</em> Screenshot: Notice the selected new section</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+<p><span class="caption-text"><em>novelibre</em> Screenshot: Notice the selected new section</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -257,21 +250,21 @@ or sections from the Manuskript.</p>
 want to rearrange chapters or sections, do it with <em>novelibre</em>.</p>
 </div>
 <p>The following example shows how to add a chapter with <em>Writer</em>:</p>
-<figure class="align-default" id="id9">
+<figure class="align-default" id="id8">
 <img alt="LibreOffice Writer Screenshot" src="_images/writing07.png" />
 <figcaption>
 <p><span class="caption-text">LibreOffice Writer Screenshot: It doesn’t matter what the new
-chapter is Titeld</span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+chapter is Titeld</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <p>Zurück in <em>novelibre</em>, you see a new chapter and a new section. Since
 the chapters are auto-numbered in this example project, the new
 chapter Titel already fits, while the new section’s Titel should
 be adjusted manually.</p>
-<figure class="align-default" id="id10">
+<figure class="align-default" id="id9">
 <img alt="novelibre Screenshot: Notice the selected new chapter" src="_images/writing08.png" />
 <figcaption>
-<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+<p><span class="caption-text">novelibre Screenshot</span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -282,7 +275,7 @@ be adjusted manually.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="getting_started.html" class="btn btn-neutral float-left" title="Erste Schritte" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
-        <a href="plotting.html" class="btn btn-neutral float-right" title="Plotten mit novelibre" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="plotting.html" class="btn btn-neutral float-right" title="Mit novelibre plotten" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

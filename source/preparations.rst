@@ -252,7 +252,7 @@ Schreibmaschinengefühl vermittelt).
 Außerdem ist die Silbentrennung abgeschaltet, 
 und die Seitengröße ist auf DIN A4 gesetzt, was nicht weltweit Standard ist.
 
-Nichts für Sie? Kein Problem. Dazu gibt es die **Dokumentvorlagen** in Writer.
+Nichts für Sie? Kein Problem. Dazu gibt es die **Dokumentvorlagen** in *Writer*.
 Wenn Ihnen das Aussehen des generierten Manuskripts nicht gefällt, 
 wenden Sie einfach eine Vorlage an, die Ihrem Geschmack und 
 Ihren Anforderungen entspricht.
@@ -267,7 +267,7 @@ mit einem einzigen Mausklick anpassen können.
 
 .. note::
    Eine Vorlage laden und die voreingestellte Schriftart oder 
-   Seitengröße zu ändern hat keinen Einfluss auf das Zurückspielen 
+   Seitengröße ändern nimmt keinen Einfluss auf das Zurückspielen 
    zu *novelibre*.
    
 .. tip::
