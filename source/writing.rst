@@ -9,7 +9,7 @@ Writer als Texteditor aufrufen
    Bearbeiten des Manuskripts mit LibreOffice. 
    Dasselbe gilt auch für OpenOffice.
    
-   Andere Textverarbeitungsprogramme die versprechen, das 
+   Andere Textverarbeitungsprogramme, die versprechen, das 
    *ODT*-Dateiformat zu unterstützen, werden generell nicht empfohlen.
 
 Sobald Ihr Romanprojekt mindestens einen Abschnitt hat, können
@@ -24,7 +24,7 @@ in der Werkzeugleiste auf das Symbol |Exportieren Manuskript| klicken.
      Manuskript erzeugen und nach einer Nachfrage mit *Writer*
      öffnen lassen.
    - Wenn Sie auf das Symbol in der Werkzeugleiste klicken, 
-     wird *Writer* nach dem Export automatisch aufgerufen. 
+     wird *Writer* sofort nach dem Export aufgerufen. 
 
 
 .. figure:: _images/writing01.png
