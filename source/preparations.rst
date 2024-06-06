@@ -261,7 +261,7 @@ doch die Kenntnis dieser Technik wird sich auszahlen,
 spätestens wenn es um die Gestaltung von Druckseiten 
 für das self publishing geht.
 
-Um den Umstand zu minimieren, empfehle ich meine `Style switcher-Erweiterung
+Um den Umstand zu minimieren, empfehle ich meine `StyleSwitcher-Erweiterung
 <https://peter88213.github.io/StyleSwitcher/>`__, mit der Sie Ihr Manuskript
 mit einem einzigen Mausklick anpassen können. 
 
