@@ -238,9 +238,9 @@ wie im folgenden Bild gezeigt.
 Das Aussehen des Manuskripts anpassen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Das von *novelibre* erzeugte Manuskript sieht einer "Normseite" 
-ähnlich, wie sie üblicherweise benutzt wird, um die Anzahl der
-Druckseiten für die Veröffentlichung abzuschätzen. 
+Das von *novelibre* erzeugte Manuskript entspricht einer Normseite 
+mit 30 Zeilen zu 60 Anschlägen, wie sie üblicherweise benutzt wird, um die 
+Anzahl der Druckseiten für die Veröffentlichung abzuschätzen. 
 
 Allerdings ist die eingesetzte Schriftart "Courier New" nur in 
 Windows verfügbar, und sie sieht im Druck auch nicht besonders gut aus 
