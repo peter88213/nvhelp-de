@@ -71,7 +71,7 @@
 <li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Grundlegende Konzepte</a></li>
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
 <li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
@@ -105,34 +105,38 @@
 <h1>Vorbereitungen<a class="headerlink" href="#vorbereitungen" title="Link to this heading"></a></h1>
 <section id="novelibre-einrichten">
 <h2>novelibre einrichten<a class="headerlink" href="#novelibre-einrichten" title="Link to this heading"></a></h2>
-<p>If <em>novelibre</em> were a commercial application, all the
-steps described below would be performed automatically
-by a setup program. On Windows, for instance, this would
-then be an <em>.exe</em> or <em>.msi</em> file that must be executed
-with special authorizations and may even require a costly
-certificate in order to be approved for download and
-installation.</p>
-<p>There is also the problem that a separate setup program would
-have to be created and maintained for each operating system.
-For Linux, it would be necessary to provide installation
-packages or images, whereby there are a multitude of different
-standards.</p>
-<p>Because I don’t run a software business, but am just a
-hobbyist and rather want to write novels, I’ve decided to
-go a different route: I provide a Python setup script
-that works the same
-way on all operating systems. The very last setup steps,
-which vary depending on the operating system and may also
-require special authorizations, must be carried out by the
-intrepid users themselves. I do what I can to make these
-steps easier, and provide detailed instructions for Windows
-below. Enjoy!</p>
+<p>Wäre <em>novelibre</em> ein käufliches Anwendungsprogramm,
+würden alle im folgenden beschriebenen Schritte
+automatisch durch ein Installationsprogramm ausgeführt werden.
+Unter Windows wäre das beispielsweise eine <em>.exe</em>
+oder <em>.msi</em>-Datei, die mit besonderen Rechten ausgeführt
+werden müsste und vielleicht sogar ein teures Zertifikat
+benötigte, um zum Herunterladen und zur Installation
+zugelassen zu werden.</p>
+<p>Dann gibt es noch das Problem, dass für jedes Betriebssystem
+ein eigenes Installationsprogramm erstellt und gepflegt
+werden müsste.
+Für Linux müssten Installationspakete oder Images bereitgestellt
+werden, wofür es eine Vielzahl unterschiedlicher Standards gibt.</p>
+<p>Weil ich keine Softwarefirma betreibe, sondern nur ein
+Hobbyprogrammierer bin, der seine Zeit eigentlich lieber
+mit Romanschreiben verbrächte, habe ich beschlossen, einen
+anderen Weg zu gehen:
+Ich stelle ein Python-Einrichtungsskript bereit,
+das unter allen Betriebssystemen gleich funktioniert.
+Die allerletzten Schritte, die vom verwendeten
+Betriebssystem abhängen und eventuell auch besondere
+Benutzerrechte erfordern, müssen die unerschrockenen
+Benutzer selbst ausführen.
+Ich tue mein Bestes, um diese Schritte zu erleichtern,
+und gebe im weiteren eine detaillierte Anleitung für Windows.
+Viel Vergnügen!</p>
 <section id="das-programm-installieren">
 <h3>Das Programm installieren<a class="headerlink" href="#das-programm-installieren" title="Link to this heading"></a></h3>
 <ol class="arabic simple">
-<li><p>Unzip the downloaded zipfile.</p></li>
-<li><p>Move into the unzipped folder and launch <strong>setup.pyw</strong>.
-This installs the application for the local user.</p></li>
+<li><p>Entpacken Sie die heruntergeladene Zip-Datei.</p></li>
+<li><p>Gehen Sie in den entpackten Ordner und starten Sie <strong>setup.pyw</strong>.
+Das installiert die Anwendung für den angemeldeten Benutzer.</p></li>
 </ol>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations04.png" />
@@ -140,58 +144,59 @@ This installs the application for the local user.</p></li>
 </section>
 <section id="novelibre-auf-den-desktop-bringen">
 <h3>novelibre auf den Desktop bringen<a class="headerlink" href="#novelibre-auf-den-desktop-bringen" title="Link to this heading"></a></h3>
-<div class="admonition-note-for-linux-users admonition">
-<p class="admonition-title">Note for Linux users</p>
-<p>In the following chapters, the Windows procedure is described.</p>
-<p>As a Linux user, you are expected to know how to set up
-a program launcher on your specific desktop.
-Roughly speaking, it is a matter of calling <strong>python3</strong>
-with <strong>~/.novx/novelibre.py</strong> and an optionally specified
-file as parameters.
-You might have to copy the <em>novelibre</em> icons to a dedicated image
-directory where your program launcher gets the icons from.
-You also may want to set <em>novelibre</em> as standard application for
-files with the <em>.novx</em> extension, and assign them the <em>novelibre</em>
-logo as file icon.
-Mit the XFCE desktop, none of this was too difficult for me.
-In doubt, refer to your desktop documentation.</p>
-<p>It’s a good idea to register the <em>novx</em> extension
-in the mimetypes as <strong>text/xml</strong>, so it can be opened
-with your web browser for display, using the
-<a class="reference external" href="file_menu.html#style-sheet-kopieren">novx.css style sheet</a>.</p>
+<div class="admonition-anmerkung-fur-linux-benutzer admonition">
+<p class="admonition-title">Anmerkung für Linux-Benutzer</p>
+<p>In den folgenden Kapiteln wird das Vorgehen unter
+Windows beschrieben.</p>
+<p>Wenn Sie Linux benutzen, erwarte ich, dass Sie einen
+Programmstarter auf Ihrem spezifischen Desktop einrichten können.
+Grob gesagt geht es darum, <strong>python3</strong> mit <strong>~/.novx/novelibre.py</strong>
+und einer optional angegebenen Datei als Parameter zu starten.
+Wahrscheinlich werden Sie die <em>novelibre</em>-Icons in ein
+spezielles Bilderverzeichnis kopieren müssen, wo der
+Programmstarter die Programmsysmbole sucht.
+Sie sollten außerdem <em>novelibre</em> als Standardanwendungsprogramm
+für Dateien mit der Endung <em>.novx</em> angeben, und diesen Dateien
+das <em>novelibre</em>-Symbol zuweisen.
+Auf dem XFCE-Desktop war das alles für mich nicht allzu schwierig.
+Schauen Sie im Zweifelsfall in Ihre Desktop-Dokumentation.</p>
+<p>Es ist eine gute Idee, die <em>novx</em>-Erweiterung in den mimetypes
+als <strong>text/xml</strong> zu registrieren, dann kann Ihr Webbrowser sie
+mit Hilfe des <a class="reference external" href="file_menu.html#style-sheet-kopieren">novx.css-Stylesheets</a> darstellen.</p>
 </div>
 <ol class="arabic" start="3">
-<li><p>Öffnen the installation folder.</p>
+<li><p>Öffnen Sie das Installationsverzeichnis.</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations05.png" />
 </figure>
 </li>
-<li><p>Drag and drop <strong>run.pyw</strong> to the desktop while holding
-down the <code class="docutils literal notranslate"><span class="pre">Alt</span></code> key. This creates a shortcut to launch
-<em>novelibre</em> from the Windows desktop. Now können Sie also
-drag and drop <em>.novx</em> project files to this shortcut.</p>
+<li><p>Ziehen Sie <strong>run.pyw</strong> bei gedrückter <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-Taste auf den
+Desktop. Das erzeugt eine Progrmmverknüpfung, um
+<em>novelibre</em> vom Windows-Desktop aufzurufen.
+Nun können Sie <em>.novx</em>-Dateien auch auf diese Verknüpfung ziehen.</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations06.png" />
 </figure>
 </li>
-<li><p>Wahlweise können Sie replace the „Python“ icon with the
-<em>novelibre</em> logo you may find in the installation’s
-<em>icons</em> subdirectory.</p>
-<p>To do this, right-click on the desktop shortcut and
-open the <strong>Eigenschaften</strong> dialog. Select the <strong>Shortcut</strong>
-Tab and click on the <strong>Change icon</strong> Schaltfläche (1). In the
-icon selection dialog, click on the <strong>Browse…</strong> Schaltfläche
-(2). This opens a file selection dialog. Move to
-<code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx\icons</span></code> and double-click on the „N“ logo
-(3).</p>
+<li><p>Wahlweise können Sie das „Python“-Programmsymbol durch das
+<em>novelibre</em>-Logo ersetzen, das Sie im Unterverzeichnis
+<em>icons</em> des Installationsordners finden.</p>
+<p>Dazu klicken Sie mit der rechten maustaste auf die Programmverknüpfung
+und öffnen den <strong>Eigenschaften</strong>-Dialog. Wählen Sie den
+<strong>Verknüpfung</strong>-Karteireiter und klicken Sie auf <strong>Anderes Symbol…</strong> (1).
+Im Symbolauswahldialog klicken Sie auf <strong>Durchsuchen…</strong> (2).
+Das öffnet Einen Dateiauswahldialog. Gehen Sie auf
+This opens a file selection dialog. Move to
+<code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx\icons</span></code> und doppelklicken Sie das „N“-Logo (3).</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations07.png" />
 </figure>
 </li>
-<li><p>To rename the shortcut to <em>novelibre</em>, right-click on
-the desktop shortcut and open the <strong>Eigenschaften</strong>
-dialog. In the first tab, replace „Shortcut to run.pyw“
-with „novelibre“.</p>
+<li><p>Um die Programmverknüpfung in <em>novelibre</em> umzubenennen,
+klicken Sie mit der rechten Maustaste darauf und öffnen
+den <strong>Eigenschaften</strong>-Dialog.
+Im ersten Karteireiter ersetzen Sie „Verknüpfung mit run.pyw“
+durch „novelibre“.</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations08.png" />
 </figure>
