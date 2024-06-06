@@ -198,63 +198,76 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
    Falls das nicht genügt, ist *novelibre* vielleicht nicht das 
    richtige Werkzeug für Sie. 
      
-When your Manuskript is ready, create your new project
-with **Datei > Neu > Aus ODT erzeugen...**.
+Wenn Ihr Manuskript vorbereitet ist, erzeugen Sie Ihr neues Projekt
+mit **Datei > Neu > Aus ODT erzeugen...**.
 
 .. figure:: _images/getting_started09.png
    :alt: novelibre Screenshot
 
-A file selection dialog opens and asks for the *ODT* document. The new project
-will be created in the same directory and named after the Manuskript file, but
-with the *.novx* extension.
+Es öffnet sich ein Dateiauswahldialog und fragt nach dem *ODT*-Dokument.
+Das neue Projekt wird im selben Verzeichnis angelegt und nach der 
+Manuskriptdatei benannt, aber mit der *.novx*-Erweiterung.
 
 .. caution::
-   Once your novel is imported into *novelibre*, your initial *ODT* document is no
-   longer needed. So if you want to keep it, you best move it elsewhere, so that
-   it is not overwritten by an `exported document 
-   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ later on. 
+   Sobald Ihr Roman in *novelibre* importiert ist, wird das ursprüngliche
+   *ODT*-Dokument nicht mehr gebraucht. 
+   Wenn sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
+   so dass es später nicht durch ein `exportiertes Dokument 
+   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird. 
 
 .. tip::
-   After importing an extensive piece of work, you may have a whole lot
-   of sections that need to be named and described. 
-   A `plot grid <plotting.html#handlungsraster-plot-grid>`__ might be a great help for
-   doing this. 
+   Nachdem Sie ein umfangreiches Werk importiert haben, 
+   könnten Sie eine ganze Menge Abschnitte zu betiteln und zu beschreiben haben.
+   Ein `Handlungsraster <plotting.html#handlungsraster-plot-grid>`__ 
+   könnte Ihnen dabei eine große Hilfe sein.
 
 
 
 Mit einer Gliederung beginnen
 -----------------------------
 
-Instead of a work in progress, you also can import an outline made with *Writer*
-into *novelibre* to get a novel project with empty, but named and described
-chapters and sections.
-At first glance, an outline looks the same as a work in progress, but it has
-third level headings for the sections, indicating their Titels. If *novelibre*
-finds third-level headings, it considers all body text to be description.
-In this case, formatting doesn't matter.
+Statt eines angefangenen Werks können Sie auch eine mit *Writer* geschriebene
+Gliederung nach *novelibre* importieren. Dann erhalten Sie ein Romanprojekt
+mit leeren, aber betitelten und beschriebenen Kapiteln und Abschnitten.
+Auf den ersten Blick sieht eine Gliederung einem angefangenen Werk sehr ähnlich,
+doch sie hat Überschriften dritter Ordnung für die Abschnittstitel.
+Wenn *novelibre* Überschriften dritter ordnung findet, betrachtet es
+den gesamten Textkörper als Beschreibung. 
+In diesem Fall werden Textauszeichnungen nicht berücksichtigt. 
 
 .. important::
-   How to set up an outline for import
-      An outline has at least one third level heading.
+   Eine Gliederung für den Import vorbereiten
+      Eine gliederung hat mindestens eine Überschrift dritter Ordnung.
       
-      -  *Heading 1* → Teil Titel.
-      -  *Heading 2* → Kapitel Titel.
-      -  *Heading 3* → Abschnittstitel.
-      -  Alle other text is considered to be chapter/section description.
+      -  *Überschrift 1* → Teile-Titel.
+      -  *Überschrift 2* → Kapitel-Titel.
+      -  *Überschrift 3* → Abschnittstitel.
+      -  Der ganze restliche Text wird als Beschreibung von Kapiteln und 
+         Abschnitten behandelt.
 
-When your Manuskript is ready, create your new project
-with **Datei > Neu > Aus ODT erzeugen...**.
+Wenn Ihre Gliederung vorbereitet ist, erzeugen Sie Ihr neues Projekt
+mit **Datei > Neu > Aus ODT erzeugen...**.
 
 .. figure:: _images/getting_started09.png
    :alt: novelibre Screenshot
 
-A file selection dialog opens and asks for the *ODT* document. The new project
-will be created in the same directory and named after the Manuskript file, but
-with the *.novx* extension.
+Es öffnet sich ein Dateiauswahldialog und fragt nach dem *ODT*-Dokument.
+Das neue Projekt wird im selben Verzeichnis angelegt und nach der 
+Gliederungsdatei benannt, aber mit der *.novx*-Erweiterung.
 
 .. caution::
-   Once your novel is imported into *novelibre*, your initial *ODT* document is no
-   longer needed. So if you want to keep it, you best move it elsewhere, so that
-   it is not overwritten by an `exported document 
-   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ later on. 
+   Sobald Ihre Gliederung in *novelibre* importiert ist, wird das ursprüngliche
+   *ODT*-Dokument nicht mehr gebraucht. 
+   Wenn sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
+   so dass es später nicht durch ein `exportiertes Dokument 
+   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird.
+   
+   Die aktuelle Gliederung können Sie jederzeit als "Beschreibungen" 
+   etrennt nach Teilen, Kapiteln und Abschnitten exportieren, 
+   bearbeiten und importieren. 
+   
+   
+   
+   
+   
       
