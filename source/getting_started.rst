@@ -231,13 +231,13 @@ Gliederung nach *novelibre* importieren. Dann erhalten Sie ein Romanprojekt
 mit leeren, aber betitelten und beschriebenen Kapiteln und Abschnitten.
 Auf den ersten Blick sieht eine Gliederung einem angefangenen Werk sehr ähnlich,
 doch sie hat Überschriften dritter Ordnung für die Abschnittstitel.
-Wenn *novelibre* Überschriften dritter ordnung findet, betrachtet es
+Wenn *novelibre* Überschriften dritter Ordnung findet, betrachtet es
 den gesamten Textkörper als Beschreibung. 
 In diesem Fall werden Textauszeichnungen nicht berücksichtigt. 
 
 .. important::
    Eine Gliederung für den Import vorbereiten
-      Eine gliederung hat mindestens eine Überschrift dritter Ordnung.
+      Eine Gliederung hat mindestens eine Überschrift dritter Ordnung.
       
       -  *Überschrift 1* → Teile-Titel.
       -  *Überschrift 2* → Kapitel-Titel.
