@@ -56,7 +56,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#das-programm-installieren">Das Programm installieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#novelibre-auf-den-desktop-bringen">novelibre auf den Desktop bringen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#novx-dateien-novelibre-zuweisen">.novx-Dateien novelibre zuweisen</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#das-programm-oder-ein-plugin-aktualisieren">Das Programm oder ein plugin aktualisieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#das-programm-oder-ein-plugin-aktualisieren">Das Programm oder ein Plugin aktualisieren</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#writer-einrichten">Writer einrichten</a><ul>
@@ -181,18 +181,17 @@ Nun können Sie <em>.novx</em>-Dateien auch auf diese Verknüpfung ziehen.</p>
 <li><p>Wahlweise können Sie das „Python“-Programmsymbol durch das
 <em>novelibre</em>-Logo ersetzen, das Sie im Unterverzeichnis
 <em>icons</em> des Installationsordners finden.</p>
-<p>Dazu klicken Sie mit der rechten maustaste auf die Programmverknüpfung
+<p>Dazu klicken Sie mit der rechten Maustaste auf die Programmverknüpfung
 und öffnen den <strong>Eigenschaften</strong>-Dialog. Wählen Sie den
 <strong>Verknüpfung</strong>-Karteireiter und klicken Sie auf <strong>Anderes Symbol…</strong> (1).
 Im Symbolauswahldialog klicken Sie auf <strong>Durchsuchen…</strong> (2).
-Das öffnet Einen Dateiauswahldialog. Gehen Sie auf
-This opens a file selection dialog. Move to
+Das öffnet einen Dateiauswahldialog. Gehen Sie auf
 <code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx\icons</span></code> und doppelklicken Sie das „N“-Logo (3).</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations07.png" />
 </figure>
 </li>
-<li><p>Um die Programmverknüpfung in <em>novelibre</em> umzubenennen,
+<li><p>Um die Programmverknüpfung zu <em>novelibre</em> umzubenennen,
 klicken Sie mit der rechten Maustaste darauf und öffnen
 den <strong>Eigenschaften</strong>-Dialog.
 Im ersten Karteireiter ersetzen Sie „Verknüpfung mit run.pyw“
@@ -206,143 +205,167 @@ durch „novelibre“.</p>
 <section id="novx-dateien-novelibre-zuweisen">
 <h3>.novx-Dateien novelibre zuweisen<a class="headerlink" href="#novx-dateien-novelibre-zuweisen" title="Link to this heading"></a></h3>
 <ol class="arabic" start="7">
-<li><p>Wahlweise können Sie associate the <strong>.novx</strong> file extension
-with the <em>novelibre</em> application. Then the project files
-are displayed with the <em>novelibre</em> icon in the Explorer,
-and können Sie open them with <em>novelibre</em> by double-click.
-Further können Sie display <em>.novx</em> files with a web browser,
-using the <a class="reference external" href="file_menu.html#style-sheet-kopieren">novx.css style sheet</a>.</p>
-<p>Double-click on the <strong>add_novelibre.reg</strong> script. Windows will
-display a warning and ask you for confirmation. If in doubt,
-können Sie inspect the <em>add_novelibre.reg</em> file with a text editor
-or ask an expert you trust.</p>
+<li><p>Wahlweise können Sie die Dateinamenserweiterung <strong>.novx</strong>
+der <em>novelibre</em>-Anwendung zuweisen.
+Dann werden Projektdateien im Explorer mit dem <em>novelibre</em>-Symbol
+angezeigt und können durch Doppelklick mit <em>novelibre</em> geöffnet werden.
+Außerdem können Sie <em>.novx</em>-Dateien mit Ihrem Webbrowser betrachten,
+wenn Sie ein <a class="reference external" href="file_menu.html#style-sheet-kopieren">novx.css Stylesheet</a>
+im selben Verzeichnis haben.</p>
+<p>Doppelklicken Sie auf das Skript <strong>add_novelibre.reg</strong>.
+Windows wird eine Warnung ausgeben und sie um Bestätigung bitten.
+Falls Ihnen Zweifel kommen, können Sie sich die Datei
+<em>add_novelibre.reg</em> in einem Texteditor ansehen,
+oder einen Experten Ihres Vertrauens hinzuziehen.</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/preparations09.png" />
 </figure>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p>You can undo this by executing the <strong>remove_novelibre.reg</strong>
-script. This removes all the <em>novelibre</em>-specific entries
-from the Windows registry while keeping the application.</p>
-<p>To uninstall the application and all its tools, plugins,
-and configuration data, just delete the <code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx</span></code>
-folder after executing the <strong>remove_novelibre.reg</strong> script.</p>
+<p>Sie können das rückgängig machen, indem Sie das Skript
+<strong>remove_novelibre.reg</strong> ausführen.
+Das entfernt alle Einträge zu <em>novelibre</em> aus der
+Windows-Registry, wobei die Anwendung erhalten bleibt.</p>
+<p>Um die Applikation mitsamt ihren Werkzeugen, Plugins
+und Konfigurationsdaten zu deinstallieren,
+löschen Sie einfach das Verzeichnis <code class="docutils literal notranslate"><span class="pre">&lt;home&gt;\.novx</span></code>,
+nachdem Sie das Skript <strong>remove_novelibre.reg</strong>
+ausgeführt haben.</p>
 </div>
 </li>
 </ol>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
-<p>Executing the program under Windows by double-clicking on the
-<em>.novx</em> file  works under the hood by calling the currently
-installed version of the Python interpreter.</p>
-<p>If you update Python at a later date, you must then re-run
-the <strong>setup.pyw</strong> script afterwards, and execute
-<strong>add_novelibre.reg</strong> again.
-Otherwise, Windows will not be able to find the new Python
-version and will fail when trying to open <em>.novx</em> files on
-double-clicking.</p>
-<p>Please keep that in mind, even if it’s pretty unlikely that
-<em>novelibre</em> will need a Python update in the near future.</p>
+<p>Wenn Sie <em>novelibre</em> unter Windows mit Doppelklick auf
+die <em>.novx</em>-Datei starten, ruft das unter der
+Motorhaube die aktuell installierte Version des
+Python-Interpreters auf.</p>
+<p>Falls sie zu einem späteren Zeitpunkt Python auf eine
+andere Version updaten, müssen Sie das Skript <strong>setup.pyw</strong>
+erneut aufrufen und danach <strong>add_novelibre.reg</strong> ausführen.
+Andernfalls wird Windows die neue Python-Version nicht
+finden, und Sie können <em>.novx</em>-Dateien nicht per Doppelklick
+öffnen.</p>
+<p>Bitte behalten Sie das im Hinterkopf, auch wenn es
+reichlich unwahrscheinlich ist, dass  <em>novelibre</em>
+in naher Zukunft ein Python-Update benötigt.</p>
 </div>
 </section>
 <section id="das-programm-oder-ein-plugin-aktualisieren">
-<h3>Das Programm oder ein plugin aktualisieren<a class="headerlink" href="#das-programm-oder-ein-plugin-aktualisieren" title="Link to this heading"></a></h3>
-<p>Just execute the Steps 1 and 2 as described above. If there
-is any further action required, the setup script will give you
-a message.</p>
+<h3>Das Programm oder ein Plugin aktualisieren<a class="headerlink" href="#das-programm-oder-ein-plugin-aktualisieren" title="Link to this heading"></a></h3>
+<p>Führen Sie einfach die Schritte 1 und 2 wie oben beschrieben aus.
+Sollten weitere Handlungen nötig sein, erhalten Sie eine Meldung
+vom Installationsskript.</p>
 </section>
 </section>
 <hr class="docutils" />
 <section id="writer-einrichten">
 <h2>Writer einrichten<a class="headerlink" href="#writer-einrichten" title="Link to this heading"></a></h2>
-<p>I assume that <em>novelibre</em> users are already familiar with LibreOffice
-or ÖffnenOffice <em>Writer</em>. Therefore, I will only give a few
-brief tips that relate specifically to the interaction with <em>novelibre</em>.</p>
+<p>Ich gehe davon aus, dass <em>novelibre</em>-Benutzer schon mit LibreOffice
+oder OpenOffice <em>Writer</em> vertraut sind.
+Daher will ich nur einige kurze Tipps geben, die sich speziell
+auf das Zusammenspiel mit <em>novelibre</em> beziehen.</p>
 <section id="die-abschnitte-im-manuskript-sichtbar-machen">
 <h3>Die Abschnitte im Manuskript sichtbar machen<a class="headerlink" href="#die-abschnitte-im-manuskript-sichtbar-machen" title="Link to this heading"></a></h3>
-<p>An essential part of the workflow is writing with the <em>Writer</em>
-word processor. For this, <em>novelibre</em> creates editable Manuskript files
-in the <em>Öffnen Dokument Text</em> format that are meant to be temporary.
-These documents contain structural information that enables
-<em>novelibre</em> to recognize and correctly sort the sections when
-reading them back.</p>
-<p>For the whole thing to work, it is extremely important that you
-only write within the section boundaries. To do this, you might
-want to make the text boundaries visible in the <em>Writer</em> settings.</p>
+<p>Ein wesentlicher Teil des Arbeitsablaufs ist das Schreiben mit dem
+Textverarbeitungsprogramm <em>Writer</em>.
+Dazu erstellt <em>novelibre</em> bearbeitbare Manuskriptdateien im Format
+<em>Open Document Text</em>, die als temporäre Dokumente gedacht sind.
+Diese Dokumente enthalten Strukturinformationen, die es <em>novelibre</em>
+ermöglichen, die Abschnitte beim Zurücklesen zu erkennen und richtig
+einzusortieren.</p>
+<p>Damit das alles funktioniert, ist es äußerst wichtig, dass Sie nur
+innerhalb der Abschnitte schreiben.
+Dazu sollten Sie die Textbegrenzungen in den Einstellungen
+von <em>Writer</em> sichtbar machen.</p>
 <figure class="align-default" id="id1">
 <img alt="LibreOffice Writer Screenshot" src="_images/preparations01.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Writer Screenshot: Make sure the <strong>Ansicht &gt; Text Boundaries</strong>
-Menüeintrag is ticked. Writing outsides the visible text boundaries
-has no effect on your <em>novelibre</em> project.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+<p><span class="caption-text">LibreOffice Writer Screenshot: Stellen Sie sicher, dass
+der Menüeintrag <strong>Ansicht &gt; Textbegrenzungen</strong> angekreuzt ist.
+Texteingaben außerhalb der Textbegrenzungen haben keinen
+Einfluss auf Ihr <em>novelibre</em>-Projekt.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
 <section id="den-navigator-andocken">
 <h3>Den Navigator andocken<a class="headerlink" href="#den-navigator-andocken" title="Link to this heading"></a></h3>
-<p>To quickly find the chapters and sections of your novel in <em>Writer</em>, it
-is best to keep the Navigator in sight. I prefer to dock it to the left
-of the work area. To do this, first press <code class="docutils literal notranslate"><span class="pre">F5</span></code> to open the Navigator.
-By default, it appears as a pop-up window that can be placed anywhere
-on the screen. To dock it, double-click in a free gray space while holding
-down the <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-Taste, as shown in the following image.</p>
+<p>Um in <em>Writer</em> schnell zu den Kapiteln und Abschnitten ihres
+Romans zu finden, bringen Sie am besten den Navigator ins Sichtfeld.
+Ich ziehe es vor, ihn links vom Arbeitsbereich anzudocken.
+Dazu drücken Sie zuerst <code class="docutils literal notranslate"><span class="pre">F5</span></code>, um den Navigator zu öffnen.
+Per Voreinstellung erscheint er als Pop-up-Fenster, das
+überall auf dem Bildschirm platziert werden kann.
+Um ihn anzudocken, halten Sie die``Strg``-Taste gedrückt und
+doppelklicken Sie in einen freien grauen Fensterbereich,
+wie im folgenden Bild gezeigt.</p>
 <figure class="align-default" id="id2">
 <img alt="LibreOffice Writer Screenshot" src="_images/preparations02.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Writer Screenshot: The red „X“ indicates the position for
-double-clicking.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+<p><span class="caption-text">LibreOffice Writer Screenshot: Das rote „X“ zeigt an,
+wo Sie zum Andocken doppelklicken müssen.</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition tip">
 <p class="admonition-title">Tipp</p>
-<p>The Navigator displays a confusing wealth of information.
-It is best to reduce this to the headings first. To do this, select
-„Headings“ at the top of the tree and then click on the „Content Navigation Ansicht“
-icon. This works if a document containing headings is loaded.</p>
+<p>Der Navigator zeigt eine verwirrende Informationsvielfalt.
+Am besten, Sie reduzieren sie zunächst auf die Überschriften.
+Dazu wählen Sie „Überschriften“ ganz oben im Baum aus
+und klicken dann auf die Schaltfläche „Inhalt der Navigationsansicht“.
+Das geht, wenn ein Dokument mit Überschriften geöffnet ist.</p>
 <figure class="align-default" id="id3">
 <img alt="LibreOffice Writer Screenshot" src="_images/preparations03.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Writer Screenshot: The red „O“ indicates the icon to click on.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+<p><span class="caption-text">LibreOffice Writer Screenshot: Das rote „O“ zeigt da Symbol,
+das angeklickt werden soll.</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="das-aussehen-des-manuskripts-anpassen">
 <h3>Das Aussehen des Manuskripts anpassen<a class="headerlink" href="#das-aussehen-des-manuskripts-anpassen" title="Link to this heading"></a></h3>
-<p>The Manuskript created by <em>novelibre</em> has a layout that is similar to the
-„Normseite“ which is widely used to provide an overview
-of the total number of pages of a work to be printed.</p>
-<p>However, the set font „Courier New“ is only available for Windows, and it is
-not particularly attractive (I, for my part, have installed  the free
-<a class="reference external" href="https://quoteunquoteapps.com/courierprime/">Courier Prime font</a>
-on Windows and Linux, which gives me a pleasant typewriter feel).</p>
-<p>In addition, hyphenation is turned off, and the page size is set to A4,
-which is not the worldwide standard.</p>
-<p>That’s not for you? No problem. This is what the <strong>document templates</strong> in
-<em>Writer</em> are for. So if you don’t like the look of the generated Manuskript,
-simply apply a template that suits your needs and tastes. Perhaps you have
-to design your favorite template first, but your knowledge of this technique
-will pay off when it comes to designing print pages for self-publishing.</p>
-<p>In order to minimize circumstances, I recommend my <a class="reference external" href="https://peter88213.github.io/StyleSwitcher/">Style switcher extension</a>, that allows you to customize
-your Manuskript with a single mouse click.</p>
+<p>Das von <em>novelibre</em> erzeugte Manuskript sieht einer „Normseite“
+ähnlich, wie sie üblicherweise benutzt wird, um die Anzahl der
+Druckseiten für die Veröffentlichung abzuschätzen.</p>
+<p>Allerdings ist die eingesetzte Schriftart „Courier New“ nur in
+Windows verfügbar, und sie sieht im Druck auch nicht besonders gut aus
+(ich für meinen Teil habe die freie Schriftart
+<a class="reference external" href="https://quoteunquoteapps.com/courierprime/">Courier Prime</a>
+unter Windows und Linux installiert, die mir ein angenehmes
+Schreibmaschinengefühl vermittelt).</p>
+<p>Außerdem ist die Silbentrennung abgeschaltet,
+und die Seitengröße ist auf DIN A4 gesetzt, was nicht weltweit Standard ist.</p>
+<p>Nichts für Sie? Kein Problem. Dazu gibt es die <strong>Dokumentvorlagen</strong> in Writer.
+Wenn Ihnen das Aussehen des generierten Manuskripts nicht gefällt,
+wenden Sie einfach eine Vorlage an, die Ihrem Geschmack und
+Ihren Anforderungen entspricht.
+Vielleicht müssen Sie dafür zuerst einmal Ihre eigene Vorlage erstellen,
+doch die Kenntnis dieser Technik wird sich auszahlen,
+spätestens wenn es um die Gestaltung von Druckseiten
+für das self publishing geht.</p>
+<p>Um den Umstand zu minimieren, empfehle ich meine <a class="reference external" href="https://peter88213.github.io/StyleSwitcher/">Style switcher-Erweiterung</a>, mit der Sie Ihr Manuskript
+mit einem einzigen Mausklick anpassen können.</p>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>Loading a template or changing the default font and page size has no
-impact on re-importing the document with <em>novelibre</em>.</p>
+<p>Eine Vorlage laden und die voreingestellte Schriftart oder
+Seitengröße zu ändern hat keinen Einfluss auf das Zurückspielen
+zu <em>novelibre</em>.</p>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tipp</p>
-<p>If you just want to change the font without applying templates,
-können Sie achieve this by having LibreOffice replace it automatically.
-For this, open the <strong>Optionen</strong> dialog and go to <strong>Fonts</strong>.
-Tick the <strong>Anwenden replacement table</strong> Auswahlfeld.
-Then enter the fonts of your choice.</p>
-<p><em>novelibre</em> uses „Courier Neu“ for text documents, and „Calibri“
-for spreadsheets.</p>
+<p>Falls Sie nur die Schriftart ändern wollen, ohne gleich
+Dokumentvorlagen anzuwenden, können Sie <em>LibreOffice</em>
+die Schriftart auch automatisch ersetzen lassen.
+Dazu öffnen Sie den Dialog <strong>Optionen</strong> und gehen zu
+<strong>Schriftarten</strong>.
+Kreuzen Sie das Feld <strong>Ersetzungstabelle anwenden</strong> an.
+Dann tragen Sie die Schriftarten Ihrer Wahl ein.</p>
+<p><em>novelibre</em> benutzt „Courier New“ für Textdokumente,
+und „Calibri“ für Tabellendokumente.</p>
 <figure class="align-default" id="id4">
 <img alt="LibreOffice Screenshot" src="_images/preparations10.png" />
 <figcaption>
-<p><span class="caption-text">LibreOffice Optionen dialog Screenshot.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+<p><span class="caption-text">Screenshot: LibreOffice Optionen-Dialog.</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div>

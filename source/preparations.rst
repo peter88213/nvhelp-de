@@ -88,18 +88,17 @@ novelibre auf den Desktop bringen
    *novelibre*-Logo ersetzen, das Sie im Unterverzeichnis
    *icons* des Installationsordners finden.
 
-   Dazu klicken Sie mit der rechten maustaste auf die Programmverknüpfung
+   Dazu klicken Sie mit der rechten Maustaste auf die Programmverknüpfung
    und öffnen den **Eigenschaften**-Dialog. Wählen Sie den 
    **Verknüpfung**-Karteireiter und klicken Sie auf **Anderes Symbol...** (1). 
    Im Symbolauswahldialog klicken Sie auf **Durchsuchen...** (2). 
-   Das öffnet Einen Dateiauswahldialog. Gehen Sie auf
-   This opens a file selection dialog. Move to
+   Das öffnet einen Dateiauswahldialog. Gehen Sie auf
    ``<home>\.novx\icons`` und doppelklicken Sie das "N"-Logo (3).
 
    .. figure:: _images/preparations07.png
       :alt: novelibre Screenshot
 
-6. Um die Programmverknüpfung in *novelibre* umzubenennen, 
+6. Um die Programmverknüpfung zu *novelibre* umzubenennen, 
    klicken Sie mit der rechten Maustaste darauf und öffnen
    den **Eigenschaften**-Dialog. 
    Im ersten Karteireiter ersetzen Sie "Verknüpfung mit run.pyw"
@@ -112,154 +111,182 @@ novelibre auf den Desktop bringen
 .novx-Dateien novelibre zuweisen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-7. Wahlweise können Sie associate the **.novx** file extension
-   with the *novelibre* application. Then the project files
-   are displayed with the *novelibre* icon in the Explorer,
-   and können Sie open them with *novelibre* by double-click.
-   Further können Sie display *.novx* files with a web browser,
-   using the `novx.css style sheet <file_menu.html#style-sheet-kopieren>`__.
+7. Wahlweise können Sie die Dateinamenserweiterung **.novx** 
+   der *novelibre*-Anwendung zuweisen. 
+   Dann werden Projektdateien im Explorer mit dem *novelibre*-Symbol
+   angezeigt und können durch Doppelklick mit *novelibre* geöffnet werden.
+   Außerdem können Sie *.novx*-Dateien mit Ihrem Webbrowser betrachten,
+   wenn Sie ein `novx.css Stylesheet <file_menu.html#style-sheet-kopieren>`__
+   im selben Verzeichnis haben.
 
-   Double-click on the **add_novelibre.reg** script. Windows will
-   display a warning and ask you for confirmation. If in doubt,
-   können Sie inspect the *add_novelibre.reg* file with a text editor
-   or ask an expert you trust.
+   Doppelklicken Sie auf das Skript **add_novelibre.reg**. 
+   Windows wird eine Warnung ausgeben und sie um Bestätigung bitten.
+   Falls Ihnen Zweifel kommen, können Sie sich die Datei 
+   *add_novelibre.reg* in einem Texteditor ansehen, 
+   oder einen Experten Ihres Vertrauens hinzuziehen. 
 
    .. figure:: _images/preparations09.png
       :alt: novelibre Screenshot
 
    .. hint::
-      You can undo this by executing the **remove_novelibre.reg**
-      script. This removes all the *novelibre*-specific entries 
-      from the Windows registry while keeping the application. 
+      Sie können das rückgängig machen, indem Sie das Skript
+      **remove_novelibre.reg** ausführen.
+      Das entfernt alle Einträge zu *novelibre* aus der 
+      Windows-Registry, wobei die Anwendung erhalten bleibt. 
       
-      To uninstall the application and all its tools, plugins, 
-      and configuration data, just delete the ``<home>\.novx``
-      folder after executing the **remove_novelibre.reg** script.
+      Um die Applikation mitsamt ihren Werkzeugen, Plugins 
+      und Konfigurationsdaten zu deinstallieren, 
+      löschen Sie einfach das Verzeichnis ``<home>\.novx``,
+      nachdem Sie das Skript **remove_novelibre.reg** 
+      ausgeführt haben.
 
 .. important::
-   Executing the program under Windows by double-clicking on the 
-   *.novx* file  works under the hood by calling the currently 
-   installed version of the Python interpreter. 
+   Wenn Sie *novelibre* unter Windows mit Doppelklick auf 
+   die *.novx*-Datei starten, ruft das unter der
+   Motorhaube die aktuell installierte Version des
+   Python-Interpreters auf. 
    
-   If you update Python at a later date, you must then re-run 
-   the **setup.pyw** script afterwards, and execute 
-   **add_novelibre.reg** again. 
-   Otherwise, Windows will not be able to find the new Python 
-   version and will fail when trying to open *.novx* files on
-   double-clicking. 
    
-   Please keep that in mind, even if it's pretty unlikely that 
-   *novelibre* will need a Python update in the near future.
+   Falls sie zu einem späteren Zeitpunkt Python auf eine 
+   andere Version updaten, müssen Sie das Skript **setup.pyw** 
+   erneut aufrufen und danach **add_novelibre.reg** ausführen.
+   Andernfalls wird Windows die neue Python-Version nicht 
+   finden, und Sie können *.novx*-Dateien nicht per Doppelklick
+   öffnen. 
+   
+   Bitte behalten Sie das im Hinterkopf, auch wenn es 
+   reichlich unwahrscheinlich ist, dass  *novelibre* 
+   in naher Zukunft ein Python-Update benötigt.
    
 
-Das Programm oder ein plugin aktualisieren
+Das Programm oder ein Plugin aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Just execute the Steps 1 and 2 as described above. If there
-is any further action required, the setup script will give you
-a message.
+Führen Sie einfach die Schritte 1 und 2 wie oben beschrieben aus.
+Sollten weitere Handlungen nötig sein, erhalten Sie eine Meldung
+vom Installationsskript.
 
 -----------------
 
 Writer einrichten
 -----------------
 
-I assume that *novelibre* users are already familiar with LibreOffice
-or ÖffnenOffice *Writer*. Therefore, I will only give a few
-brief tips that relate specifically to the interaction with *novelibre*.
+Ich gehe davon aus, dass *novelibre*-Benutzer schon mit LibreOffice
+oder OpenOffice *Writer* vertraut sind. 
+Daher will ich nur einige kurze Tipps geben, die sich speziell
+auf das Zusammenspiel mit *novelibre* beziehen. 
 
 
 Die Abschnitte im Manuskript sichtbar machen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An essential part of the workflow is writing with the *Writer*
-word processor. For this, *novelibre* creates editable Manuskript files
-in the *Öffnen Dokument Text* format that are meant to be temporary.
-These documents contain structural information that enables
-*novelibre* to recognize and correctly sort the sections when
-reading them back.
+Ein wesentlicher Teil des Arbeitsablaufs ist das Schreiben mit dem 
+Textverarbeitungsprogramm *Writer*. 
+Dazu erstellt *novelibre* bearbeitbare Manuskriptdateien im Format 
+*Open Document Text*, die als temporäre Dokumente gedacht sind.
+Diese Dokumente enthalten Strukturinformationen, die es *novelibre* 
+ermöglichen, die Abschnitte beim Zurücklesen zu erkennen und richtig 
+einzusortieren.
 
-For the whole thing to work, it is extremely important that you
-only write within the section boundaries. To do this, you might
-want to make the text boundaries visible in the *Writer* settings.
+Damit das alles funktioniert, ist es äußerst wichtig, dass Sie nur
+innerhalb der Abschnitte schreiben. 
+Dazu sollten Sie die Textbegrenzungen in den Einstellungen 
+von *Writer* sichtbar machen. 
 
 .. figure:: _images/preparations01.png
    :alt: LibreOffice Writer Screenshot
 
-   LibreOffice Writer Screenshot: Make sure the **Ansicht > Text Boundaries**
-   Menüeintrag is ticked. Writing outsides the visible text boundaries
-   has no effect on your *novelibre* project.
+   LibreOffice Writer Screenshot: Stellen Sie sicher, dass
+   der Menüeintrag **Ansicht > Textbegrenzungen** angekreuzt ist.
+   Texteingaben außerhalb der Textbegrenzungen haben keinen 
+   Einfluss auf Ihr *novelibre*-Projekt.
 
 
 Den Navigator andocken
 ~~~~~~~~~~~~~~~~~~~~~~
 
-To quickly find the chapters and sections of your novel in *Writer*, it
-is best to keep the Navigator in sight. I prefer to dock it to the left
-of the work area. To do this, first press ``F5`` to open the Navigator.
-By default, it appears as a pop-up window that can be placed anywhere
-on the screen. To dock it, double-click in a free gray space while holding
-down the ``Strg``-Taste, as shown in the following image.
+Um in *Writer* schnell zu den Kapiteln und Abschnitten ihres 
+Romans zu finden, bringen Sie am besten den Navigator ins Sichtfeld.
+Ich ziehe es vor, ihn links vom Arbeitsbereich anzudocken. 
+Dazu drücken Sie zuerst ``F5``, um den Navigator zu öffnen.
+Per Voreinstellung erscheint er als Pop-up-Fenster, das 
+überall auf dem Bildschirm platziert werden kann. 
+Um ihn anzudocken, halten Sie die``Strg``-Taste gedrückt und
+doppelklicken Sie in einen freien grauen Fensterbereich, 
+wie im folgenden Bild gezeigt.
 
 .. figure:: _images/preparations02.png
    :alt: LibreOffice Writer Screenshot
 
-   LibreOffice Writer Screenshot: The red "X" indicates the position for
-   double-clicking.
+   LibreOffice Writer Screenshot: Das rote "X" zeigt an, 
+   wo Sie zum Andocken doppelklicken müssen.
 
 .. tip::
-   The Navigator displays a confusing wealth of information. 
-   It is best to reduce this to the headings first. To do this, select 
-   "Headings" at the top of the tree and then click on the "Content Navigation Ansicht" 
-   icon. This works if a document containing headings is loaded. 
-
+   Der Navigator zeigt eine verwirrende Informationsvielfalt.
+   Am besten, Sie reduzieren sie zunächst auf die Überschriften. 
+   Dazu wählen Sie "Überschriften" ganz oben im Baum aus
+   und klicken dann auf die Schaltfläche "Inhalt der Navigationsansicht".
+   Das geht, wenn ein Dokument mit Überschriften geöffnet ist. 
+   
    .. figure:: _images/preparations03.png
       :alt: LibreOffice Writer Screenshot
    
-      LibreOffice Writer Screenshot: The red "O" indicates the icon to click on.
+      LibreOffice Writer Screenshot: Das rote "O" zeigt da Symbol,
+      das angeklickt werden soll.
 
 
 Das Aussehen des Manuskripts anpassen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Manuskript created by *novelibre* has a layout that is similar to the
-"Normseite" which is widely used to provide an overview
-of the total number of pages of a work to be printed.
+Das von *novelibre* erzeugte Manuskript sieht einer "Normseite" 
+ähnlich, wie sie üblicherweise benutzt wird, um die Anzahl der
+Druckseiten für die Veröffentlichung abzuschätzen. 
 
-However, the set font "Courier New" is only available for Windows, and it is
-not particularly attractive (I, for my part, have installed  the free
-`Courier Prime font <https://quoteunquoteapps.com/courierprime/>`__
-on Windows and Linux, which gives me a pleasant typewriter feel).
+Allerdings ist die eingesetzte Schriftart "Courier New" nur in 
+Windows verfügbar, und sie sieht im Druck auch nicht besonders gut aus 
+(ich für meinen Teil habe die freie Schriftart
+`Courier Prime <https://quoteunquoteapps.com/courierprime/>`__
+unter Windows und Linux installiert, die mir ein angenehmes
+Schreibmaschinengefühl vermittelt).
 
-In addition, hyphenation is turned off, and the page size is set to A4,
-which is not the worldwide standard.
+Außerdem ist die Silbentrennung abgeschaltet, 
+und die Seitengröße ist auf DIN A4 gesetzt, was nicht weltweit Standard ist.
 
-That's not for you? No problem. This is what the **document templates** in
-*Writer* are for. So if you don't like the look of the generated Manuskript,
-simply apply a template that suits your needs and tastes. Perhaps you have
-to design your favorite template first, but your knowledge of this technique
-will pay off when it comes to designing print pages for self-publishing.
+Nichts für Sie? Kein Problem. Dazu gibt es die **Dokumentvorlagen** in Writer.
+Wenn Ihnen das Aussehen des generierten Manuskripts nicht gefällt, 
+wenden Sie einfach eine Vorlage an, die Ihrem Geschmack und 
+Ihren Anforderungen entspricht.
+Vielleicht müssen Sie dafür zuerst einmal Ihre eigene Vorlage erstellen, 
+doch die Kenntnis dieser Technik wird sich auszahlen, 
+spätestens wenn es um die Gestaltung von Druckseiten 
+für das self publishing geht.
 
-In order to minimize circumstances, I recommend my `Style switcher extension
-<https://peter88213.github.io/StyleSwitcher/>`__, that allows you to customize
-your Manuskript with a single mouse click.
+Um den Umstand zu minimieren, empfehle ich meine `Style switcher-Erweiterung
+<https://peter88213.github.io/StyleSwitcher/>`__, mit der Sie Ihr Manuskript
+mit einem einzigen Mausklick anpassen können. 
 
 .. note::
-   Loading a template or changing the default font and page size has no 
-   impact on re-importing the document with *novelibre*.
+   Eine Vorlage laden und die voreingestellte Schriftart oder 
+   Seitengröße zu ändern hat keinen Einfluss auf das Zurückspielen 
+   zu *novelibre*.
    
 .. tip::
-   If you just want to change the font without applying templates, 
-   können Sie achieve this by having LibreOffice replace it automatically. 
-   For this, open the **Optionen** dialog and go to **Fonts**. 
-   Tick the **Anwenden replacement table** Auswahlfeld. 
-   Then enter the fonts of your choice. 
+   Falls Sie nur die Schriftart ändern wollen, ohne gleich 
+   Dokumentvorlagen anzuwenden, können Sie *LibreOffice* 
+   die Schriftart auch automatisch ersetzen lassen. 
+   Dazu öffnen Sie den Dialog **Optionen** und gehen zu
+   **Schriftarten**. 
+   Kreuzen Sie das Feld **Ersetzungstabelle anwenden** an. 
+   Dann tragen Sie die Schriftarten Ihrer Wahl ein. 
    
-   *novelibre* uses "Courier Neu" for text documents, and "Calibri" 
-   for spreadsheets. 
+   *novelibre* benutzt "Courier New" für Textdokumente, 
+   und "Calibri" für Tabellendokumente.
    
    .. figure:: _images/preparations10.png
       :alt: LibreOffice Screenshot
    
-      LibreOffice Optionen dialog Screenshot.
+      Screenshot: LibreOffice Optionen-Dialog.
+      
+      
+      
    
