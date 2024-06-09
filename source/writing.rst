@@ -118,61 +118,67 @@ und Ihre letzten Änderungen werden im Textbetrachter erscheinen.
 Mit Writer neue Abschnitte anlegen
 ----------------------------------
 
-If you need a new section while writing, you don't have to switch
-to *novelibre*. Simply start a new line with a special marker
-``###``. Wahlweise können Sie add a section Titel, and, separated
-by ``|``, a section description. Alle other metadata is intended
-to be entered in *novelibre* later.
+Wenn Sie während des Schreibens einen neuen Abschnitt brauchen, 
+müssen Sie deswegen nicht zu *novelibre* zurückkehren. 
+Beginnen Sie einfach eine neue Zeile mit der speziellen Markierung
+``###``. Wahlweise können Sie einen Abschnittstitel anhängen, 
+und, durch ``|`` getrennt, auch eine Abschnittsbeschreibung.
+Andere Metadaten sind dann bei Bedarf später in *novelibre* einzugeben. 
 
 .. tip::
-   As of *novelibre* version 3.0.2 können Sie use ``####`` to create
-   an `appended section 
-   <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__. 
+   Sie können ``####`` benutzen, um einen `angehängten Abschnitt 
+   <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__
+   zu erzeugen. 
 
-The following example shows how to split an existing section:
+Das folgende Beispiel zeigt, wie Sie einen bestehenden Abschnitt aufteilen:
 
 .. figure:: _images/writing05.png
    :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer Screenshot: Notice the highlighted section marker
+   LibreOffice Writer Screenshot: Beachten Sie die gekennzeichnete
+   Abschnittsmarkierung.
 
-Zurück in *novelibre*, you see the new section. It has got a Titel,
-but no other metadata.
+In *novelibre* sehen Sie dann den neuen Abschnitt. Er hat einen Titel,
+doch keine anderen Metadaten.
 
 .. figure:: _images/writing06.png
    :alt: novelibre Screenshot
    
-   *novelibre* Screenshot: Notice the selected new section 
+   *novelibre* Screenshot: Beachten Sie den ausgewählten Abschnitt.
 
 
 Mit Writer neue Kapitel anlegen
 -------------------------------
 
-If you need a new chapter while writing, you don't have to switch to
-*novelibre*. Simply start a new line *within the edited section*
-with a second-level heading.
+Wenn Sie während des Schreibens ein neuens Kapitel brauchen, 
+müssen Sie deswegen nicht zu *novelibre* zurückkehren. 
+Weisen Sie einfach einer neuen Zeile 
+*innerhalb des laufenden Abschnitts* das Format **Überschrift 2** zu.
 
 .. important::
-   *novelibre* only re-imports text within section defining frames. 
-   Technically, it always splits sections when creating new chapters 
-   or sections from the Manuskript.
+   *novelibre* importiert nur Text innerhalb der Rahmen zurück, 
+   welche die Abschnitte definieren. 
+   Technisch teilt es immer Abschnitte auf, wenn es aus dem Manuskript
+   neue Kapitel oder Abschnitte erzeugt.
+  
+   Sie können mit *Writer* auch keine Kapitel verschieben. 
+   Falls Sie Kapitel oder Abschnitte umsortieren wollen, 
+   tun Sie es mit *novelibre*.
    
-   You also cannot move chapters within *Writer*. If you 
-   want to rearrange chapters or sections, do it with *novelibre*.  
-   
-
-The following example shows how to add a chapter with *Writer*:
+Das folgende Beispiel zeigt, wie man mit *Writer*  ein Kapitel hinzufügt:
 
 .. figure:: _images/writing07.png
    :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer Screenshot: It doesn't matter what the new
-   chapter is Titeld
+   LibreOffice Writer Screenshot: Es kommt nicht darauf an, wie ein 
+   neues Kapitel in *Writer* betitelt wird.
 
-Zurück in *novelibre*, you see a new chapter and a new section. Since
-the chapters are auto-numbered in this example project, the new
-chapter Titel already fits, while the new section's Titel should
-be adjusted manually.
+In *novelibre* sehen Sie dann sowohl ein neues Kapitel als auch einen 
+neuen Abschnitt. 
+Weil die Kapitel in diesem Beispiel automatisch nummeriert werden, 
+passt die neue Kapitelüberschrift bereits, wohingegen der neue Abschnittstitel
+noch manuell angepasst werden sollte.
+
 
 .. figure:: _images/writing08.png
    :alt: novelibre Screenshot: Notice the selected new chapter
