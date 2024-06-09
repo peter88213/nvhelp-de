@@ -53,67 +53,66 @@ Falls Sie "Überschreiben" wählen, erzeugt *novelibre* ein neues Manuskriptdoku
    in der Statusleiste eine grüne Meldung. Andernfalls ist die Meldung rot, 
    nur zur Erinnerung. 
 
-If you started the export using the **Exportieren**-Menü command, you may
-be asked whether you want to open the newly created document, depending
-of your `Exportieren settings <export_menu.html#optionen>`__.
+Falls Sie den Export über den Menübefehl **Exportieren** eingeleitet haben,
+kann es sein, dass Sie entsprechend Ihren  `Exportoptionen <export_menu.html#optionen>`__
+gefragt werden, ob Sie das neu erzeugte Dokument öffnen wollen. 
 
 .. figure:: _images/writing03.png
    :alt: novelibre Screenshot
    
    novelibre Screenshot
    
-If you answer "yes", *Writer* will be launched with
-the Manuskript document. Otherwise, the document is just
-kept for future use.
+Wenn Sie mit "Ja" antworten, wird *Writer* mit dem Manuskriptdokument gestartet. 
+Andernfalls wird das Dokument einfach für den späteren Gebrauch aufbewahrt.
 
-Depending on your `Exportieren settings <export_menu.html#optionen>`__,
-*novelibre* now may `lock the project <basic_concepts.html#projekt-sperre>`__,
-so that it can't be accidentally modified with *novelibre* while
-worked on in *Writer*.
+Abhängig von Ihren `Exportoptionen <export_menu.html#optionen>`__
+kann *novelibre* jetzt `das Projekt sperren <basic_concepts.html#projekt-sperre>`__,
+damit Sie es nicht versehentlich ändern, solange es in *Writer* in Bearbeitung ist.
 
 .. note::
-   *novelibre* starts your standard application for files with the *.odt* 
-   extension. Usually, the setting is made by LibreOffice or ÖffnenOffice
-   during installation.
+   *novelibre* ruft Ihre Standardanwendung für Dateien mit der Endung
+   *.odt* auf. 
+   Üblicherweise trägt sich LibreOffice oder OpenOffice bei der 
+   Installation selbst als Standardanwendung ein.  
 
-After you change to *Writer*, you see the whole novel in
-a layout that is similar to the "standard Manuskript format". The
-*Navigator* (open with ``F5``) shows the chapter and section Titels
-in the *Headings* area. Double click on a heading to move the cursor
-to that location. You can now write within the frames that define
-the sections.
+Nachdem Sie zu *Writer* gewechselt haben, sehen Sie Ihren ganzen Roman
+als "Normseiten" formatiert. 
+Der *Navigator* (mit ``F5`` geöffnet) zeigt im *Überschriften*-Bereich
+die Kapitel- und Abschnittstitel an. Per Doppelklick auf eine dieser 
+Überschriften springen Sie an den jeweiligen Ort. 
+Nun können Sie innerhalb der Textbegrenzungen, die die Abschnitte
+definieren, losschreiben. 
+
 
 .. figure:: _images/writing04.png
    :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer Screenshot: Note that the text boundaries are 
-   made visible here, which is `highly recommended 
-   <preparations.html#setting-up-writer>`__.
+   LibreOffice Writer Screenshot: Beachten Sie, dass die Textbegrenzungen
+   hier angezeigt werden, was `sehr zu empfehlen 
+   <preparations.html#die-abschnitte-im-manuskript-sichtbar-machen>`__ ist.
    
 .. note::
-   The section Titels displayed in the Navigator are invisible 
-   in the workspace so that they do not disrupt the flow of writing, 
-   and the impression of an original Manuskript page is retained. 
+   Die Abschnittstitel, wie sie im Navigator zu sehen sind, 
+   sind im Arbeitsbereich unsichtbar, so dass sie nicht den 
+   Schreibfluss stören, und der Eindruck einer Original-Manuskriptseite
+   gewahrt bleibt. 
  
 
 Änderungen zu novelibre zurückschreiben
 ---------------------------------------
 
-At the end of the writing session, save the changes, exit the *Writer*
-word processor, and return to *novelibre*. Simply click on the
-|Änderungen am Manuskript übernehmen| toolbar icon, and your latest changes will
-appear.
+Nach Beendigung der Schreibsitzung speichern Sie die Änderungen ab, 
+verlassen die *Writer*-Textverarbeitung, und kehren zu *novelibre* zurück.
+Klicken Sie einfach in der Werkzeugleiste auf die Schaltfläche 
+|Änderungen am Manuskript übernehmen|, 
+und Ihre letzten Änderungen werden im Textbetrachter erscheinen. 
 
 .. note::
-   The toolbar icon mentioned above is only for the Manuskript. If 
-   you want to apply changes made in other documents like character
-   sheets or synopses, use the `Importieren-Menü <import_menu.html>`__. 
+   Das oben erwähnte Werkzeugleistensymbol gilt nur für das Manuskript. 
+   Wenn Sie Änderungen aus anderen Dokumenten übernehmen wollen, 
+   z.B. aus Figurenbeschreibungen, Zusammenfassungen oder dem Handlungsraster, 
+   benutzen Sie das `Importieren-Menü <import_menu.html>`__. 
 
-   .. figure:: _images/writing09.png
-      :alt: novelibre Screenshot
-      
-      novelibre Screenshot: The Manuskript entry is highlighted in 
-      green, because the file is newer than the open project. 
 
 
 Mit Writer neue Abschnitte anlegen

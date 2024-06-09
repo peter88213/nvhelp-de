@@ -211,7 +211,7 @@ Projekt-Sperre
 Wenn man ein Dokument exportiert, das außerhalb von *novelibre* bearbeitet
 werden kann, kann das Projekt automatisch gesperrt werden, um nicht
 durcheinander zu kommen.
-Das Verhalten hängt von den `Exportieren-Optionen <export_menu.html#optionen>`__
+Das Verhalten hängt von den `Exportoptionen <export_menu.html#optionen>`__
 ab.
 
 .. important::
