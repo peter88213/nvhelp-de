@@ -1,7 +1,7 @@
 Datei-Menü
 ==========
 
-**Datei-Operationen**
+**Dateioperationen**
 
 .. figure:: _images/file_menu01.png
    :alt: novelibre Screenshot
@@ -174,7 +174,7 @@ Manuskript verwerfen
 
 Mit **Datei > Manuskript verwerfen**
 können Sie add the *.bak* extension to the `current Manuskript
-<export_menu#manuskript-zum-bearbeiten>`__.
+<export_menu.html#manuskript-zum-bearbeiten>`__.
 This may help to avoid confusion about changes made with *novelibre* and
 *Writer*.
 
@@ -186,55 +186,60 @@ This may help to avoid confusion about changes made with *novelibre* and
 Speichern
 ---------
 
-**Speichern the project**
+**Das projekt speichern**
 
-Mit **Datei > Speichern** or ``Strg``-``S``
-können Sie save the project.
-A backup copy is then automatically created.
+Mit **Datei > Speichern** oder ``Strg``-``S``
+können Sie das Projekt speichern.
+Dabei wird automatisch eine Sicherungskopie des letzten Stands erzeugt.
 
 .. note::
-   If the project has changed on disk since last opened, you will 
-   get a warning.
+   Falls die Projektdatei seit dem letzten Öffnen oder Abspeichern 
+   auf der Festplatte geändert wurde, erhalten Sie eine Warnmeldung.
 
 
 Speichern unter...
 ------------------
 
-**Speichern the project with another file name/at another place**
+**Das Projekt unter einem anderen Namen/an einem anderen Ort speichern.**
 
 Mit **Datei > Speichern unter...** or ``Strg``-``⇧``-``S``
-können Sie save the project with another file name/at another place.
-Then a file select dialog opens to specify the new path and file name.
+können Sie das Projekt unter einem anderen Dateinamen oder an einem anderen 
+Ort speichern.
+Es öffenet sich ein Dateiauswahldialog, um den neuen Dateipfad und den
+Dateinamen anzugeben. 
 
 .. note::
-   Your current project remains as saved the last time. Changes since
-   then apply to the new project.
+   Ihr laufendes Projekt bleibt in dem Zustand, wie es zuletzt gespeichert 
+   wurde. 
+   Zwischenzeitliche Änderungen wirken sich dann auf das neue Projekt aus.
 
 
 Schließen
 ---------
 
-**Schließen the novel project**
+**Das Romanprojekt schließen**
 
 Mit **Datei > Schließen**
-können Sie close the project without exiting the program.
-When closing the project, you will be asked for saving the project,
-if it has changed.
+können sie das Projekt schließen, ohne das Programm zu beenden.
+Beim Schließen werden Sie gefragt, ob Sie das Projekt speichern wollen,
+falls es ungesicherte Änderungen gibt.
 
 .. note::
-   If you open another project, the current project is automatically
-   closed.
+   Falls Sie ein anderes Projekt öffnen, wird das aktuell geladene Projekt
+   automatisch geschlossen.
 
 
-Beenden/Beenden
----------------
+Beenden
+-------
 
-**Beenden the program**
+**Das Programm beenden**
 
--  Under Windows können Sie exit with **Datei > Beenden** or ``Alt``-``F4``.
--  Otherwise können Sie exit with **Datei > Beenden** or ``Strg``-``Q``.
+-  Unter Windows können Sie das Programm mit **Datei > Beenden** 
+   oder ``Alt``-``F4`` beenden.
+-  Andernfalls können Sie das Programm mit **Datei > Beenden** 
+   oder ``Strg``-``Q`` beenden.
 
 .. note::
-   When exiting the program, you will be asked for saving the project,
-   if it has changed.
+   Beim Beenden werden Sie gefragt, ob Sie das Projekt speichern wollen,
+   falls es ungesicherte Änderungen gibt.
 
