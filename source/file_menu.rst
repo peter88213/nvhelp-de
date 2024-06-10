@@ -9,83 +9,91 @@ Datei-Menü
 Neu
 ---
 
-**Create a new novel project**
+**Ein neues Romanprojekt anlegen**
 
-Mit **Datei > Neu**  können Sie create a new project.
-This will open a submenu.
+Mit **Datei > Neu**  können Sie ein neues Projekt erstellen.
+Damit öffnen Sie zunächst ein Untermenü.
 
-.. note:: 
-	The submenu can be extended by plugins to add more file types
-	from which a *novelibre* project can be created.
+.. note::
+   Das Untermenü kann durch Plugins erweitert werden, 
+   um mehr Dateiformate anzubieten, 
+   aus denen ein *novelibre*-Projekt erzeugt werden kann.
 
 .. figure:: _images/file_menu02.png
    :alt: novelibre Screenshot
 
 Leeres Projekt
-   -  This will close the current project and create a blank project.
-   -  A file select dialog asks for the new project’s file name.
-      If you cancel the dialog können Sie select the file name later
-      when saving the project.
+   -  Damit schließen Sie das laufende Projekt und erzeugen ein 
+      leeres Projekt.
+   -  Ein Dateiauswahldialog fragt nach Speicherort und Dateinamen 
+      des neuen Projekts.
+      Falls Sie diesen Dialog abbrechen, können Sie den Dateinamen 
+      auch später beim Abspeichern vergeben.
 
 
 Aus ODT erzeugen...
-   -  This will close the current project and open a file dialog asking
-      for an ODT document to create the new projec from.
-   -  The newly created project is saved automatically in the same
-      directory as the ODT document, using its file name and the extension
-      *.novx*.
-   -  If a project with the same file name as the ODT document already
-      exists, no new project will be created.
-   -  If you select a previously exported document belonging to an existing
-      project, this project will be updated and loaded.
-   -  The ODT document can either be a `work in progress
-      <getting_started.html#beginning-with-a-work-in-progress>`__,
-      i.e. a regular novel Manuskript with chapter headings and section contents,
-      r an `outline <getting_started.html#beginning-with-an-outline>`__
-      containing the chapter and section structure with Titels and descriptions.
+   -  Damit schließen Sie das laufende Projekt und erhalten einen 
+      Dateiauswahldialog, der nach einem ODT-Dokument fragt, aus dem 
+      das neue Projekt erzeugt werden soll.
+   -  Das neu angelegte Projekt wird automatisch im selben Verzeichnis wie
+      das ODT-Dokument abgelegt. Es hat den Dateinamen des Dokuments und 
+      die Erweiterung *.novx*.
+   -  Falls im Verzeichnis bereits ein Projekt mit dem Namen des ODT-Dokuments 
+      existiert, wird kein neues Projekt angelegt. 
+   -  Falls Sie ein zuvor exportiertes Dokument auswählen, das zu einem existierenden
+      Projekt gehört, wird dieses Projekt aktualisiert und geladen. 
+   -  Das ODT-Dokument kann entweder ein `angefangenes Werk
+      <getting_started.html#mit-einem-angefangenen-werk-beginnen>`__,
+      sein, d.h. ein Romanmanuskript mit Kapitelüberschriften und Abschnitten,
+      oder eine `Gliederung <getting_started.html#mit-einer-gliederung-beginnen>`__,
+      welche die Kapitel- und Abschnittsstruktur mit den Titeln und 
+      Beschreibungen enthält. 
 
 
 Öffnen...
 ---------
 
-**Öffnen a novel project**
+**Ein Romanprojekt öffnen**
 
-Mit **Datei > Öffnen** or ``Strg``-``O``
-können Sie open an existing project file.
+Mit **Datei > Öffnen** oder ``Strg``-``O``
+können Sie eine existierende Projektdatei öffnen.
 
 .. note::
-   When opening a project, the current project will be closed. 
-   If there are unsaved changes, you will be asked for saving.
+   Wenn Sie ein Projekt öffnen, wied das aktuell geladene Projekt geschlossen. 
+   Falls es noch ungesicherte Änderungen gibt, werden Sie Zum Abspeichern aufgefordert.
 
 
 Neu laden
 ---------
 
-**Neu laden the novel project**
+**Das Romanprojekt neu laden**
 
-Mit **Datei > Neu laden** or ``Strg``-``R``
-können Sie reload the project.
+Mit **Datei > Neu laden** oder ``Strg``-``R``
+können Sie das Projekt im Arbeitsspeicher 
+mit der zuletzt gesicherten Version überschreiben.
 
 .. tip::
-   This way können Sie undo changes made in the current session.
+   Auf diese Weise können Sie Änderungen der aktuellen Sitzung rückgängig machen.
 
 .. note::
-   If the project has changed on disk since last opened, you will 
-   get a warning.
+   Falls die Projektdatei seit dem letzten Öffnen oder Abspeichern 
+   auf der Festplatte geändert wurde, erhalten Sie eine Warnmeldung.
 
 
 Sicherungskopie wiederherstellen
 --------------------------------
 
-**Restore the latest backup file**
+**Die zuletzt erzeugte Sicherungskopie wiederherstellen**
 
 Mit **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``
-können Sie restore the latest backup file.
-You will get a warning, because changes may be lost.
+können Sie das Projekt im Arbeitsspeicher 
+mit der zuletzt erzeugten Sicherungsdatei überschreiben.
+Sie erhalten eine Warnung, dass Änderungen verlorengehen.
 
 .. hint::
-   After restoring the backup, a backup copy is no longer available.
-   You can create a new backup copy by saving the project.
+   Nach dem Wiederherstellen der Sicherungskopie gibt es keine Sicherungsdatei 
+   mehr im Projektverzeichnis.
+   Eine neue wird erzeugt, sobald Sie das Projekt speichern.
 
 
 Baum aktualisieren

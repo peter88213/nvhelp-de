@@ -56,7 +56,7 @@
 <li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Grundlegende Konzepte</a></li>
 <li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
 <li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
-<li class="toctree-l1"><a class="reference internal" href="plotting.html">Plotten mit novelibre</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Datei-Menü</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#neu">Neu</a></li>
@@ -129,79 +129,87 @@
 </figure>
 <section id="neu">
 <h2>Neu<a class="headerlink" href="#neu" title="Link to this heading"></a></h2>
-<p><strong>Create a new novel project</strong></p>
-<p>Mit <strong>Datei &gt; Neu</strong>  können Sie create a new project.
-This will open a submenu.</p>
+<p><strong>Ein neues Romanprojekt anlegen</strong></p>
+<p>Mit <strong>Datei &gt; Neu</strong>  können Sie ein neues Projekt erstellen.
+Damit öffnen Sie zunächst ein Untermenü.</p>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>The submenu can be extended by plugins to add more file types
-from which a <em>novelibre</em> project can be created.</p>
+<p>Das Untermenü kann durch Plugins erweitert werden,
+um mehr Dateiformate anzubieten,
+aus denen ein <em>novelibre</em>-Projekt erzeugt werden kann.</p>
 </div>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/file_menu02.png" />
 </figure>
 <dl class="simple">
 <dt>Leeres Projekt</dt><dd><ul class="simple">
-<li><p>This will close the current project and create a blank project.</p></li>
-<li><p>A file select dialog asks for the new project’s file name.
-If you cancel the dialog können Sie select the file name later
-when saving the project.</p></li>
+<li><p>Damit schließen Sie das laufende Projekt und erzeugen ein
+leeres Projekt.</p></li>
+<li><p>Ein Dateiauswahldialog fragt nach Speicherort und Dateinamen
+des neuen Projekts.
+Falls Sie diesen Dialog abbrechen, können Sie den Dateinamen
+auch später beim Abspeichern vergeben.</p></li>
 </ul>
 </dd>
 <dt>Aus ODT erzeugen…</dt><dd><ul class="simple">
-<li><p>This will close the current project and open a file dialog asking
-for an ODT document to create the new projec from.</p></li>
-<li><p>The newly created project is saved automatically in the same
-directory as the ODT document, using its file name and the extension
-<em>.novx</em>.</p></li>
-<li><p>If a project with the same file name as the ODT document already
-exists, no new project will be created.</p></li>
-<li><p>If you select a previously exported document belonging to an existing
-project, this project will be updated and loaded.</p></li>
-<li><p>The ODT document can either be a <a class="reference external" href="getting_started.html#beginning-with-a-work-in-progress">work in progress</a>,
-i.e. a regular novel Manuskript with chapter headings and section contents,
-r an <a class="reference external" href="getting_started.html#beginning-with-an-outline">outline</a>
-containing the chapter and section structure with Titels and descriptions.</p></li>
+<li><p>Damit schließen Sie das laufende Projekt und erhalten einen
+Dateiauswahldialog, der nach einem ODT-Dokument fragt, aus dem
+das neue Projekt erzeugt werden soll.</p></li>
+<li><p>Das neu angelegte Projekt wird automatisch im selben Verzeichnis wie
+das ODT-Dokument abgelegt. Es hat den Dateinamen des Dokuments und
+die Erweiterung <em>.novx</em>.</p></li>
+<li><p>Falls im Verzeichnis bereits ein Projekt mit dem Namen des ODT-Dokuments
+existiert, wird kein neues Projekt angelegt.</p></li>
+<li><p>Falls Sie ein zuvor exportiertes Dokument auswählen, das zu einem existierenden
+Projekt gehört, wird dieses Projekt aktualisiert und geladen.</p></li>
+<li><p>Das ODT-Dokument kann entweder ein <a class="reference external" href="getting_started.html#mit-einem-angefangenen-werk-beginnen">angefangenes Werk</a>,
+sein, d.h. ein Romanmanuskript mit Kapitelüberschriften und Abschnitten,
+oder eine <a class="reference external" href="getting_started.html#mit-einer-gliederung-beginnen">Gliederung</a>,
+welche die Kapitel- und Abschnittsstruktur mit den Titeln und
+Beschreibungen enthält.</p></li>
 </ul>
 </dd>
 </dl>
 </section>
 <section id="offnen">
 <h2>Öffnen…<a class="headerlink" href="#offnen" title="Link to this heading"></a></h2>
-<p><strong>Öffnen a novel project</strong></p>
-<p>Mit <strong>Datei &gt; Öffnen</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">O</span></code>
-können Sie open an existing project file.</p>
+<p><strong>Ein Romanprojekt öffnen</strong></p>
+<p>Mit <strong>Datei &gt; Öffnen</strong> oder <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">O</span></code>
+können Sie eine existierende Projektdatei öffnen.</p>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>When opening a project, the current project will be closed.
-If there are unsaved changes, you will be asked for saving.</p>
+<p>Wenn Sie ein Projekt öffnen, wied das aktuell geladene Projekt geschlossen.
+Falls es noch ungesicherte Änderungen gibt, werden Sie Zum Abspeichern aufgefordert.</p>
 </div>
 </section>
 <section id="neu-laden">
 <h2>Neu laden<a class="headerlink" href="#neu-laden" title="Link to this heading"></a></h2>
-<p><strong>Neu laden the novel project</strong></p>
-<p>Mit <strong>Datei &gt; Neu laden</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">R</span></code>
-können Sie reload the project.</p>
+<p><strong>Das Romanprojekt neu laden</strong></p>
+<p>Mit <strong>Datei &gt; Neu laden</strong> oder <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">R</span></code>
+können Sie das Projekt im Arbeitsspeicher
+mit der zuletzt gesicherten Version überschreiben.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tipp</p>
-<p>This way können Sie undo changes made in the current session.</p>
+<p>Auf diese Weise können Sie Änderungen der aktuellen Sitzung rückgängig machen.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>If the project has changed on disk since last opened, you will
-get a warning.</p>
+<p>Falls die Projektdatei seit dem letzten Öffnen oder Abspeichern
+auf der Festplatte geändert wurde, erhalten Sie eine Warnmeldung.</p>
 </div>
 </section>
 <section id="sicherungskopie-wiederherstellen">
 <h2>Sicherungskopie wiederherstellen<a class="headerlink" href="#sicherungskopie-wiederherstellen" title="Link to this heading"></a></h2>
-<p><strong>Restore the latest backup file</strong></p>
+<p><strong>Die zuletzt erzeugte Sicherungskopie wiederherstellen</strong></p>
 <p>Mit <strong>Datei &gt; Sicherungskopie wiederherstellen</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code>
-können Sie restore the latest backup file.
-You will get a warning, because changes may be lost.</p>
+können Sie das Projekt im Arbeitsspeicher
+mit der zuletzt erzeugten Sicherungsdatei überschreiben.
+Sie erhalten eine Warnung, dass Änderungen verlorengehen.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p>After restoring the backup, a backup copy is no longer available.
-You can create a new backup copy by saving the project.</p>
+<p>Nach dem Wiederherstellen der Sicherungskopie gibt es keine Sicherungsdatei
+mehr im Projektverzeichnis.
+Eine neue wird erzeugt, sobald Sie das Projekt speichern.</p>
 </div>
 </section>
 <section id="baum-aktualisieren">
