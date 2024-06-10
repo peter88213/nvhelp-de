@@ -95,78 +95,87 @@
 <h1>Mit novelibre plotten<a class="headerlink" href="#mit-novelibre-plotten" title="Link to this heading"></a></h1>
 <section id="ein-strukturmodell-anwenden">
 <h2>Ein Strukturmodell anwenden<a class="headerlink" href="#ein-strukturmodell-anwenden" title="Link to this heading"></a></h2>
-<p>If you want to divide a story into stages according to a structure model
-(e.g. the <em>Three Act Model</em>, or the <em>Save The Cat</em> beatsheet), just
-insert the stages between the regular scenes at the beginning of each
-phase. This gives you color-coded subheadings in the Baumansicht.</p>
+<p>Wenn Sie eine Geschichte entsprechend einem Strukturmodell
+(z.B. dem <em>Drei-Akt-Modell</em>, der <em>Heldenreise</em> oder dem
+<em>Save The Cat Beat Sheet</em>) in Stadien zerlegen wollen,
+fügen Sie einfach die Stadien zwischen den regulären Szenen
+ein, wo die jeweilige Phase beginnt.
+Das gibt Ihnen farblich abgesetzte Zwischenüberschriften
+in der Baumansicht.</p>
 <figure class="align-default" id="id1">
 <img alt="Acts" src="_images/acts01.png" />
 <figcaption>
 <p><span class="caption-text">Acts</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<p>Mit the <a class="reference external" href="https://github.com/peter88213/nv_templates/">nv_templates plugin</a> können Sie
-load pre-made story structure models from Markdown template files, and
-können Sie save the story structure of your project for reuse.</p>
+<p>Mit dem <a class="reference external" href="https://github.com/peter88213/nv_templates/">nv_templates-Plugin</a> können Sie
+vorgefertigte Strukturmodelle aus Markdown-Vorlagendateien laden,
+oder das Strukturmodell Ihrer Geschichte zur Wiederverwendung
+abspeichern.</p>
 </section>
 <hr class="docutils" />
 <section id="plotlinien-definieren">
 <h2>Plotlinien definieren<a class="headerlink" href="#plotlinien-definieren" title="Link to this heading"></a></h2>
-<p><em>novelibre</em> provides <em>Plotlinien</em> as a powerful and flexible concept for
-plotting.</p>
+<p><em>novelibre</em> bietet <em>Plotlinien</em> als ein mächtiges und flexibles Konzept
+zum Plotten an.</p>
 <figure class="align-default" id="id2">
 <img alt="Plotlinien" src="_images/plotlines01.png" />
 <figcaption>
 <p><span class="caption-text">Plotlinien</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<p>„Plotlinie“ can mean a variety of things: narrative strand,
-thread, character arc, storyline, subplot, sequence of cause and effect,
-sequence of setup and payoff, and so on.
-You can think of a Plotlinie as a line on which plot points are arranged
-that characterize the progression of the story.
-These plot points can be assigned to scenes to indicate the scene’s
-relevance to the plot.</p>
+<p>„Plotlinie“ kann eine Reihe von Bedeutungen haben:
+Erzählstrang, Figurenbogen, Handlungsfaden, Nebenhandlung,
+Abfolge von Vorbereitung und Durchführung, und so weiter.
+Sie können sich eine Plotlinie als eine Strecke vorstellen,
+entlang derer Plotpunkte angeordnet sind, welche den Fortgang
+der Handlung charakterisieren.
+Solchen Plotpunkten können Abschnitte zugeordnet werden, um deren
+Bedeutung für den Plot anzuzeigen.</p>
 <ul class="simple">
-<li><p><em>novelibre</em> lets you define any number of Plotlinien.</p></li>
-<li><p>Any number of scenes can be assigned to each Plotlinie.</p></li>
-<li><p>Any number of Plotlinien can be assigned to each scene.</p></li>
-<li><p>Each Plotlinie can contain any number of plot points.</p></li>
-<li><p>Each plot point can be assigned to exactly one scene.</p></li>
-<li><p>Any number of plot points can be assigned to each scene.</p></li>
+<li><p><em>novelibre</em> lässt Sie eine beliebige Zahl von Plotlinien definieren.</p></li>
+<li><p>Jeder Plotlinie können Sie beliebig viele Abschnitte zuordnen.</p></li>
+<li><p>Jedem Abschnitt können Sie beliebig viele Plotlinien zuordnen.</p></li>
+<li><p>Eine Plotlinie kann beliebig viele Plotpunkte umfassen.</p></li>
+<li><p>Ein Plotpunkt kann höchstens einem Abschnitt zugeordnet werden.</p></li>
+<li><p>Jedem Abschnitt können Sie beliebig viele Plotpunkte zuordnen.</p></li>
 </ul>
-<p>The association of scenes and plot points is shown in the „Plot“
-column of the Baumansicht.</p>
-<p>You can use Plotlinien to establish named connections between scenes, such as
-<em>setup -&gt; payoff</em>, so können Sie keep track of this relationship even if
-the scenes are far away from each other.</p>
+<p>Die Verbindung von Abschnitten und Plotpunkten ist in der Baumansicht
+in der Spalte „Plotpunkte“ zu sehen.</p>
+<p>Sie können Plotlinien auch verwenden, um benannte Verbindungen wie z.B.
+<em>Vorbereitung -&gt; Durchführung</em> oder <em>Ursache -&gt; Wirkung</em>
+zwischen Abschnitten herzustellen, so dass Sie solche Beziehungen verfolgen
+können, auch wenn die Abschnitte weit auseinanderliegen.</p>
 <figure class="align-default" id="id3">
 <img alt="Example" src="_images/causality01.png" />
 <figcaption>
-<p><span class="caption-text">Setup/payoff example</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+<p><span class="caption-text">Beispiel für Vorbereitung und Durchführung</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </section>
 <section id="handlungsraster-plot-grid">
 <h2>Handlungsraster (Plot grid)<a class="headerlink" href="#handlungsraster-plot-grid" title="Link to this heading"></a></h2>
-<p>The <em>novelibre</em> <a class="reference external" href="plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren">plot grid</a> is a spreadsheet with a row for
-each section, and a set of plot-relevant section metadata in the columns.
-The first visible column contains links to the sections in the
+<p><em>novelibres</em> <a class="reference external" href="plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren">Handlungsraster</a>
+ist eine Tabelle mit einer Reihe pro Abschnitt und und einer
+Zusammenstellung plotrelevanter Metadaten in den Spalten.
+Die erste sichtbare Spalte enthält Querverweise auf die Abschnitte im
 <a class="reference external" href="export_menu.html#manuskript-zum-bearbeiten">Manuskript</a>.
-Each Plotlinie has its own column in the plot grid,
-Where the <a class="reference external" href="section_view.html#plotlinien">Plotlinie notes</a> are shown.
-The plot grid offers you a convenient way to enter the Plotlinie notes by
-seeing the big pictures of your plot construction.</p>
+Jede Plotlinie hat ihre eigene Spalte im Handlungsraster,
+wo die <a class="reference external" href="section_view.html#plotlinien">Plotliniennotizen</a> zu sehen sind.
+Das Handlungsraster bietet Ihnen einen bequemen Weg,
+die Notizen zu den Plotlinien einzutragen und das Große Ganze
+Ihrer Plotkonstruktion zu überblicken.</p>
 <figure class="align-default" id="id4">
 <img alt="Example" src="_images/plot_grid01.png" />
 <figcaption>
-<p><span class="caption-text">Plot grid example</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+<p><span class="caption-text">Beispiel für ein Handlungsraster</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p>You can assign a section to a Plotlinie by entering text
-in the corresponding <em>Plotlinie notes</em> cell of the plot grid.</p>
+<p>Sie können einen Abschnitt einer Plotlinie zuordnen,
+indem Sie Text in die entsprechende Zelle für die
+Plotliniennotizen eingeben.</p>
 </div>
 </section>
 </section>
