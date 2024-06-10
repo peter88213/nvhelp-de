@@ -8,8 +8,8 @@ Ein Strukturmodell anwenden
 Wenn Sie eine Geschichte entsprechend einem Strukturmodell 
 (z.B. dem *Drei-Akt-Modell*, der *Heldenreise* oder dem 
 *Save The Cat Beat Sheet*) in Stadien zerlegen wollen,
-fügen Sie einfach die Stadien zwischen den regulären Szenen
-ein, wo die jeweilige Phase beginnt. 
+fügen Sie einfach die Stadien zwischen den Abschnitten
+ein, um den Beginn zu kennzeichnen. 
 Das gibt Ihnen farblich abgesetzte Zwischenüberschriften 
 in der Baumansicht.
 
