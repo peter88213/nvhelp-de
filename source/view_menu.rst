@@ -102,14 +102,14 @@ Projektnotizen anzeigen
 
 **Zum "Projektnotizen"-Zweig gehen und ihn aufklappen**
 
-Mit **Ansicht > Ansicht Planning**
+Mit **Ansicht > Projektnotizen anzeigen**
 können Sie den "Projektnotizen"-Zweig anwählen und öffnen.
 
 
 Textbetrachter anzeigen/verbergen
 ---------------------------------
 
-**Show/hide the novel text**
+**Den Romantext anzeigen/verbergen**
 
 Mit **Ansicht > Textbetrachter anzeigen/verbergen** oder ``Strg``-``T``
 können Sie das `Textbetrachter-Fenster <desktop.html>`__
@@ -123,7 +123,7 @@ können Sie das `Textbetrachter-Fenster <desktop.html>`__
 Eigenschaften anzeigen/verbergen
 --------------------------------
 
-**Show/hide the selected element’s properties**
+**Die Eigenschaften des ausgewählten Baumelements anzeigen/verbergen**
 
 Mit **Ansicht > Eigenschaften anzeigen/verbergen** oder ``Strg``-``Alt``-``T``
 können Sie das Eigenschaftenfenster öffnen oder schließen.
