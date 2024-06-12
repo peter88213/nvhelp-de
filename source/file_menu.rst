@@ -99,88 +99,92 @@ Sie erhalten eine Warnung, dass Änderungen verlorengehen.
 Baum aktualisieren
 ------------------
 
-**Enforce tree refresh after making changes**
+**Die Aktualisierung der Baumansicht erzwingen, nachdem Änderungen gemacht wurden**
 
-Mit **Datei > Baum aktualisieren** or ``F5``
-können Sie refresh the tree.
+Mit **Datei > Baum aktualisieren** oder ``F5``
+können Sie die Baumansicht manuell aktualisieren.
 
--  "Normal" sections that have been moved to an "Unbenutzt" chapter are
-   made "Unbenutzt".
--  Teils and chapters are renumbered according to the `Automatische Nummerierung
-   settings <book_view.html#automatische-nummerierung>`__.
--  The "Papierkorb" chapter is moved to the end of the book, if necessary.
+-  "Normale" Abschnitte, die in ein "unbenutztes" Kapitel verschoben wurden,
+   werden ebenfalls "unbenutzt".
+-  Teile und Kapitel werden entsprechend den `Einstellungen für die
+   automatische Nummerierung
+   <book_view.html#automatische-nummerierung>`__ nummeriert.
+-  Das "Papierkorb"-Kapitel wird, falls nötig, ans Ende des Buchbereichs verschoben.
 
 
 Sperren
 -------
 
-**Protect the project while edited outsides**
+**Das Projekt schützen, während es außerhalb bearbeitet wird**
 
-Mit **Datei > Sperren** or ``Strg``-``L``
-können Sie `lock <basic_concepts.html#projekt-sperre>`__ the project.
+Mit **Datei > Sperren** oder ``Strg``-``L``
+können Sie das Projekt `sperren <basic_concepts.html#projekt-sperre>`__.
 
 .. note::
-   Alle changes must be saved before locking the project.
+   Bevor Sie das Projekt sperren können, müssen alle Änderungen gespeichert sein.
 
 
 Entsperren
 ----------
 
-**Make the project editable**
+**Das Projekt zur Bearbeitung freigeben**
 
-Mit **Datei > Entsperren** or ``Strg``-``U``
-können Sie unlock the project.
+Mit **Datei > Entsperren** oder ``Strg``-``U``
+können Sie das Projekt entsperren.
 
 
 Projektordner öffnen
 --------------------
-**Launch the file manager**
+**Den Dateimanager aufrufen**
 
-Mit **Datei > Projektordner öffnen** or ``Ctrl-P``
-können Sie launch the file manager with the current project folder .
-This might come in handy, if you wish to delete files,
-open your project with another application, and so on.
+Mit **Datei > Projektordner öffnen** oder ``Ctrl-P``
+können Sie den Projektordner im Dateimanager öffnen.
+Das kann nützlich sein, wenn Sie z.B. Dateien löschen oder
+Konfigurationsdateien bearbeiten wollen.
 
 .. hint::
-   In case you edit the project "outsides", consider locking it before.
+   Falls sie Ihr Projekt "außerhalb" bearbeiten wollen, 
+   erwägen Sie, es vorher zu sperren.
 
 
 Style sheet kopieren
 --------------------
 
-**Provide a css style sheet in the project folder**
+**Ein css Style sheet im Projektordner bereitstellenr**
 
 Mit **Datei > Style sheet kopieren**
-können Sie copy the style sheet *novx.css* into the current project folder.
-This allows you to view the *.novx* project file with a web browser.
+können Sie das Style sheet *novx.css* in den aktuellen Projektordner
+kopieren.
+Damit können Sie die *.novx*-Projektdatei mit einem Webbrowser betrachten.
 
 .. figure:: _images/file_menu01.jpg
-   :alt: Edge browser Screenshot
+   :alt: Edge-Browser Screenshot
 
-   Edge browser Screenshot
+   Edge-Browser Screenshot
 
 .. hint::
-
-   Depending on your web browser and your operating system, the
-   *content type* resp. *MIME type* of *.novx* files must be registered as
-   *"text/xml"*. Under Windows, yo can do this by running the
-   ``<home>\.novx\add_novelibre.reg`` script.
+   Abhängig von Ihrem Webbrowser und dem Betriebssystem müssen
+   *content type* bzw. *MIME type* von *.novx*-Dateien als
+   *"text/xml"* registrieret sein. 
+   Unter Windows erreichen Sie das, indem Sie das Skript
+   ``<home>\.novx\add_novelibre.reg`` ausführen.
 
 
 Manuskript verwerfen
 --------------------
 
-**Verwerfen the current Manuskript by renaming it**
+**Das aktuelle Manuskript durch Umbenennen verwerfen**
 
 Mit **Datei > Manuskript verwerfen**
-können Sie add the *.bak* extension to the `current Manuskript
-<export_menu.html#manuskript-zum-bearbeiten>`__.
-This may help to avoid confusion about changes made with *novelibre* and
-*Writer*.
+können Sie dem `aktuellen Manuskript
+<export_menu.html#manuskript-zum-bearbeiten>`__
+die Erweiterung *.bak* anhängen.
+Das kann helfen, Verwirrung über Änderungen, die mit *novelibre* und
+*Writer* gemacht wurden, zu vermeiden.
 
 .. hint::
-   You can also discard any previously exported document "for editing"
-   via the `Importieren dialog <import_menu.html>`__. 
+   Sie können jedes bisher "zur Bearbeitung" exportierte Dokument
+   über den `Importieren-Dialog <import_menu.html>`__ löschen. 
 
 
 Speichern
