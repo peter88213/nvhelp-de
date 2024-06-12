@@ -357,12 +357,6 @@ Link öffnen
          
          Windows 10 Explorer Screenshot
 
-.. |Hinzufügen| image:: _images/add.png
-.. |Goto| image:: _images/goto.png
-.. |Entfernen| image:: _images/remove.png
-
-
-
 
 "Haftmerker"
 ------------

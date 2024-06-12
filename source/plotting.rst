@@ -11,12 +11,12 @@ Wenn Sie eine Geschichte entsprechend einem Strukturmodell
 fügen Sie einfach die Stadien zwischen den Abschnitten
 ein, um den Beginn zu kennzeichnen. 
 Das gibt Ihnen farblich abgesetzte Zwischenüberschriften 
-in der Baumansicht.
+in der Baumansicht. Diese erscheinen nicht im Manuskript.
 
 .. figure:: _images/acts01.png
-   :alt: Acts
+   :alt: Akte
 
-   Acts
+   Akte
 
 Mit dem `nv_templates-Plugin
 <https://github.com/peter88213/nv_templates/>`__ können Sie
