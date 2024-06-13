@@ -1,7 +1,7 @@
 Figuren-Menü
 ============
 
-**Figur-Operationen**
+**Figurenfunktionen**
 
 .. figure:: _images/characters_menu01.png
    :alt: novelibre Screenshot
@@ -9,18 +9,17 @@ Figuren-Menü
 Hinzufügen
 ----------
 
-**Hinzufügen a new character**
+**Eine neue Figur erzeugen**
 
 Mit **Figuren > Hinzufügen**
-können Sie add a `character <basic_concepts.html#figuren-und-erzahlwelt>`__
-to the tree.
+können Sie eine `Figur <basic_concepts.html#figuren-und-erzahlwelt>`__
+in den Baum einfügen.
 
--  If a character is selected, the new character is placed after the
-   selected one.
--  Otherwise, the new character is placed at the last position.
--  The new character has an auto-generated Titel. You can change it in
-   the right pane.
--  The status of newly created characters is *minor*.
+- Wenn eine Figur ausgewählt ist, wird die neue Figur dahinter platziert.
+- Andernfalls wird die neue Figur an den Schluss gesetzt.
+- Die neue Figur hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
+- Der Status der neuen Figur ist *Nebenfigur*.
 
 
 Status setzen
@@ -62,7 +61,7 @@ Figurenbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**
-können Sie create a text document that contains
+können Sie ein Textdokument erzeugen, das eine
 character descriptions, bio, goals, and notes that can be edited in
 Office Writer and reimported.
 Der Dateinamenszusatz lautet ``_characters_tmp``.
@@ -74,7 +73,7 @@ Figurenliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Figuren > Figurenliste exportieren (Tabelle)**
-können Sie create a spreadsheet that contains
+können Sie ein Tabellenkalkulationsdokument erzeugen, das eine
 a character list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_charlist_tmp``.
 

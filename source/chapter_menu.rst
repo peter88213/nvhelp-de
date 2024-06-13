@@ -1,8 +1,7 @@
 Kapitel-Menü
 ============
 
-
-**Kapitel-Funktionen**
+**Kapitelfunktionen**
 
 .. figure:: _images/chapter_menu01.png
    :alt: novelibre Screenshot
@@ -10,7 +9,7 @@ Kapitel-Menü
 Hinzufügen
 ----------
 
-**Ein neues Kapitel hinzufügen**
+**Ein neues Kapitel erzeugen**
 
 Mit **Kapitel > Hinzufügen**
 können Sie ein `Kapitel <basic_concepts.html#kapitel>`__
@@ -61,7 +60,7 @@ Kapitelbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Kapitel > Kapitelbeschreibungen zum Bearbeiten exportieren**
-können Sie create a text document that contains
+können Sie ein Textdokument erzeugen, das eine
 a **brief synopsis** with part/chapter headings and chapter descriptions
 that can be edited and reimported.
 Der Dateinamenszusatz lautet ``_chapters_tmp``.

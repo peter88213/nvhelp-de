@@ -1,7 +1,7 @@
 Plot-Menü
 =========
 
-**Plot elements-Operationen**
+**Plotelementfunktionen**
 
 .. figure:: _images/plot_menu01.png
    :alt: novelibre Screenshot
@@ -9,10 +9,12 @@ Plot-Menü
 Plotlinie hinzufügen
 --------------------
 
-**Hinzufügen a new Plotlinie to the story**
+**Eine neue Plotlinie erzeugen**
 
-Mit **Plot > Hinzufügen Plotlinie**
-können Sie add a Projektnotiz to the tree .
+Mit **Plot > Plotlinie hinzufügen**
+können eine Plotlinie
+in den Baum einfügen.
+
 
 .. note::
 
@@ -24,10 +26,10 @@ können Sie add a Projektnotiz to the tree .
 Plotpunkt hinzufügen
 --------------------
 
-**Hinzufügen a new Plotpunkt to the selected Plotlinie**
+**Einen neuen Plotpunkt erzeugen**
 
 Mit **Plot > Plotpunkt hinzufügen**
-können Sie add a plot point to a Plotlinie.
+können Sie einer Plotlinie einen Plotpunkt hinzufügen.
 
 .. note::
 
@@ -43,7 +45,7 @@ Stadium einfügen
 **Insert a stage between the sections**
 
 Mit **Plot > Stadium einfügen**
-können Sie insert a stage after the selected chapter or section.
+können Sie ein Stadium hinter dem ausgewählten Kapitel oder Abschnitt einfügen.
 
 .. hint::
    By default, the new stage is on the second level. 
@@ -74,9 +76,9 @@ Handlungsraster (Plot grid) zum Bearbeiten exportieren
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**
-können Sie create a spreadsheet as described in the
-`Plotting with novelibre <plotting.html#handlungsraster-plot-grid>`__ chapter,
-with a row per section, containing the following data:
+können Sie ein Tabellendokument erzeugen, wie im Kapitel
+`Mit novelibre plotten <plotting.html#handlungsraster-plot-grid>`__ beschrieben,
+mit einer Zeile pro Abschnitt und folgenden Spalten:
 
 - The sequential section number as a hyperlink to the section in the
   Manuskript (falls vorhanden)
@@ -114,7 +116,7 @@ Erzählstruktur-Beschreibung zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Plot > Erzählstruktur-Beschreibung zum Bearbeiten exportieren**,
-you can create a text document that contains
+können Sie ein Textdokument erzeugen, das
 all stages, each with description.
 File name suffix is ``_structure_tmp``.
 
@@ -128,7 +130,7 @@ Plotlinienbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Plot > Plotlinienbeschreibungen zum Bearbeiten exportieren**,
-you can create a text document that contains
+können Sie ein Textdokument erzeugen, das
 stages, plot lines, and plot points, each with description.
 The plot points are linked to the manuscript and to the section descriptions.
 File name suffix is ``_plotlines_tmp``.
@@ -140,8 +142,9 @@ Plot-Liste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren**
 
 Mit **Plot > Plot-Liste exportieren (Tabelle)**
-können Sie create a spreadsheet with a row for each section
-and a column for each Plotlinie.
+können Sie ein Tabellendokument
+mit einer Zeile pro Abschnitt und einer Spalte pro Plotlinie
+erzeugen.
 Associations between Plotlinien and sections are color-highlighted.
 Plotpunkt Titels are displayed.
 Der Dateinamenszusatz lautet ``_plotlist``.

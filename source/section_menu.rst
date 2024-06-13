@@ -1,7 +1,7 @@
 Abschnitt-Menü
 ==============
 
-**Abschnitt-Operationen**
+**Abschnittsfunktionen**
 
 .. figure:: _images/section_menu01.png
    :alt: novelibre Screenshot
@@ -9,23 +9,25 @@ Abschnitt-Menü
 Hinzufügen
 ----------
 
-**Hinzufügen a new section**
+**Einen neuen Abschnitt erzeugen**
 
 Mit **Abschnitt > Hinzufügen**
-können Sie add a `section <basic_concepts.html#abschnitte>`__ to the tree.
+können Sie einen `Abschnitt <basic_concepts.html#abschnitte>`__
+in den Baum einfügen.
 
-- The new section is placed at the next free position after the selection, if
-  possible.
-- Otherwise, no new section is generated.
-- The new section has an auto-generated Titel. You can change it in
-  the right pane.
+- Der neue Abschnitt wird an die nächste freie Stelle nach der Auswahl gesetzt,
+  falls möglich.
+- Andernfalls wird kein Abschnitt erzeugt.
+- Der neue Abschnitt hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
-Eigenschaften of a new section:
-   -  *Normal* type
-   -  *Gliederung* completion status
-   -  No viewpoint character assigned
-   -  No Plotlinie or tag assigned
-   -  No date/time set
+Eigenschaften eines neuen Abschnitts:
+   -  Typ: *Normal*
+   -  Fertigstellungsstatus: *Gliederung*
+   -  Keine Perspektivfigur zugewiesen
+   -  Keine Plotlinie zugewiesen
+   -  Keine Tags
+   -  Keine Angaben zu Datum, Zeit und Dauer
 
 
 Mehrere Abschnitte hinzufügen
@@ -92,8 +94,8 @@ Abschnittsbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren**
 
 Mit **Abschnitt > Abschnittsbeschreibungen zum Bearbeiten exportieren**
-können Sie ein neues OpenDocument-Textdokument (odt) erzeugen,
-das eine **vollständige Inhaltsangabe** mit Teile-/Kapitelüberschriften
+können Sie ein Textdokument erzeugen, das eine
+**vollständige Inhaltsangabe** mit Teile-/Kapitelüberschriften
 und Abschnittsbeschreibungen enthält,
 die bearbeitet und zurückgeschrieben werden können.
 Der Dateinamenszusatz lautet ``_sections_tmp``.
@@ -105,7 +107,7 @@ Abschnittsliste (nur Exportieren)
 **Ein ODS-Dokument exportieren**
 
 Mit **Abschnitt > Abschnittsliste (nur Exportieren)**
-können Sie eine neue OpenDocument-Tabelle (ods)
+können Sie ein Tabellenkalkulationsdokument
 mit einer Reihe pro Abschnitt erzeugen, welche die
 folgenden Daten umfasst:
 

@@ -1,7 +1,7 @@
 Schauplätze-Menü
 ================
 
-**Schauplatz-Operationen**
+**Schauplatzfunktionen**
 
 .. figure:: _images/locations_menu01.png
    :alt: novelibre Screenshot
@@ -9,17 +9,16 @@ Schauplätze-Menü
 Hinzufügen
 ----------
 
-**Hinzufügen a new location**
+**Einen neuen Schauplatz erzeugen**
 
 Mit **Schauplätze > Hinzufügen**
-können Sie add a `location <basic_concepts.html#figuren-und-erzahlwelt>`__
-to the tree.
+können Sie einen `Schauplatz <basic_concepts.html#figuren-und-erzahlwelt>`__
+in den Baum einfügen.
 
--  If a location is selected, the new location is placed after the
-   selected one.
--  Otherwise, the new location is placed at the last position.
--  The new location has an auto-generated Titel. You can change it in
-   the right pane.
+- Wenn ein Schauplatz ausgewählt ist, wird der neue Schauplatz dahinter platziert.
+- Andernfalls wird der neue Schauplatz an den Schluss gesetzt.
+- Der neue Schauplatz hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 
 Importieren
@@ -43,7 +42,7 @@ Schauplatzbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**
-können Sie create a text document that contains
+können Sie ein Textdokument erzeugen, das eine
 location descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_locations_tmp``.
 
@@ -54,7 +53,7 @@ Schauplatzliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Schauplatzliste exportieren (Tabelle)**
-können Sie create a spreadsheet that contains
+können Sie ein Tabellenkalkulationsdokument erzeugen, das eine
 a location list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_loclist_tmp``.
 

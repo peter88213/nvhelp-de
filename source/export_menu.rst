@@ -12,8 +12,8 @@ Manuskript zum Bearbeiten
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Exportieren >  Manuskript zum Bearbeiten**
-können Sie create a text document that is split into sections
-(to be seen in the Navigator).
+können Sie ein Textdokument erzeugen, das in Abschnitte aufgeteilt ist
+(im Navigator sichtbar).
 Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 
 -  Only "normal" chapters and sections are exported. Kapitels and
@@ -45,7 +45,7 @@ Manuskript für fremde Textverarbeitung
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Exportieren >  Manuskript für fremde Textverarbeitung**
-können Sie create a text document with visible section markers.
+können Sie ein Textdokument mit sichtbaren Abschnittsamarkierungen erzeugen.
 Der Dateinamenszusatz lautet ``_proof_tmp``.
 
 .. note::
@@ -88,8 +88,8 @@ Manuskript zum Drucken (nur Exportieren)
 **Ein ODT-Dokument exportieren**
 
 Mit **Exportieren >  Manuskript zum Drucken (nur Exportieren)**
-können Sie create a text document for further use,
-e.g. when you are finished with *novelibre*.
+können Sie ein Textdokument zum weiteren Gebrauch erzeugen,
+z.B. wenn sie mit *novelibre* fertig sind.
 
 .. hint::
    In contrast to the Manuskript for editing, this document is not divided 
@@ -118,8 +118,9 @@ Kurzzusammenfassung (nur Exportieren)
 **Ein ODT-Dokument exportieren**
 
 Mit **Exportieren >  Kurzzusammenfassung (nur Exportieren)**
-können Sie create a text document containing a brief synopsis
-with part, chapter, and sections Titels only.
+können Sie ein Textdokument erzeugen, das eine
+**kurze Zusammenfassung** mit den Titeln
+der Teile, Kapitel und Abschnitte enthält.
 Der Dateinamenszusatz lautet ``_brf_synopsis``.
 
 -  Only "normal" chapters and sections are exported. Kapitels and
@@ -135,7 +136,8 @@ Querverweise (nur Exportieren)
 **Ein ODT-Dokument exportieren**
 
 Mit **Exportieren >  Querverweise (nur Exportieren)**
-können Sie create a text document containing navigable cross references.
+können Sie ein Textdokument erzeugen, das
+Querverweise mit Hyperlinks enthält.
 Der Dateinamenszusatz lautet ``_xref``.
 
 The cross references are:
@@ -155,9 +157,10 @@ Figuren/Schauplätze/Gegenstände-Datendateien
 **Exportieren XML files that can be imported into other projects**
 
 Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**
-können Sie create a set of XML files containing the project’s characters,
-locations, and items with all their properties. These files can be used
-to transfer the characters, locations, and items to another project.
+können Sie einen Satz XML-Dateien mit den Figuren, Schauplätzen und
+Gegenständen des Projekts inklusive ihrer Eigenschaften enthält.
+Mit diesen Dateien können sie Figuren, Schauplätze und
+Gegenstände in ein anderes Projekt transferieren.
 
 .. hint::
    To import XML-Datendateis from another project, use the **Importieren**

@@ -1,7 +1,7 @@
 Gegenstände-Menü
 ================
 
-**Gegenstand-Operationen**
+**Gegenstandsfunktionen**
 
 .. figure:: _images/items_menu01.png
    :alt: novelibre Screenshot
@@ -9,17 +9,16 @@ Gegenstände-Menü
 Hinzufügen
 ----------
 
-**Einen Gegenstand erzeugen**
+**Einen neuen Gegenstand erzeugen**
 
 Mit **Gegenstände > Hinzufügen**
-können Sie add an `item <basic_concepts.html#figuren-und-erzahlwelt>`__
-to the tree.
+können Sie einen `Gegenstand <basic_concepts.html#figuren-und-erzahlwelt>`__
+in den Baum einfügen.
 
--  If an item is selected, the new item is placed after the selected
-   one.
--  Otherwise, the new item is placed at the last position.
--  The new item has an auto-generated Titel. You can change it in the
-   right pane.
+- Wenn ein Gegenstand ausgewählt ist, wird der neue Gegenstand dahinter platziert.
+- Andernfalls wird der neue Gegenstand an den Schluss gesetzt.
+- Der neue Gegenstand hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 
 Importieren
@@ -43,7 +42,7 @@ Gegenstandsbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Gegenstandsbeschreibungen zum Bearbeiten exportieren**
-können Sie create a text document that contains
+können Sie ein Textdokument erzeugen, das eine
 item descriptions that can be edited with *Writer* and reimported.
 Der Dateinamenszusatz lautet ``_items_tmp``.
 
@@ -54,7 +53,7 @@ Gegenstandsliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Gegenstandsliste exportieren (Tabelle)**
-können Sie create a spreadsheet that contains
+können Sie ein Tabellenkalkulationsdokument erzeugen, das eine
 an item list that can be edited with *Calc* and reimported.
 Der Dateinamenszusatz lautet ``_itemlist_tmp``.
 
