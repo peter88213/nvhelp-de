@@ -1,8 +1,8 @@
 Abschnittseigenschaften
 =======================
 
-The Abschnitt properties view öffnet sich im rechten Fenster when you
-select a section in the tree.
+Die Ansicht der Abschnittseigenschaften öffnet sich im rechten Fenster,
+wenn sie im Baum einen Abschnitt wählen.
 
 
 .. figure:: _images/section_view01.png
@@ -126,32 +126,37 @@ Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
 .. figure:: _images/section_view08.png
    :alt: Screenshot
 
-There is a popular theory for "selling writers" that suggests novels
-are best divided into scenes, alternating between "action scenes" and
-"reaction scenes", or "scenes" and "sequels". If you want to implement
-something like this to ensure suspense können Sie do so here.
+Es gibt eine verbreitete Theorie für "absatzstarke Autoren",
+nach der Romane am besten in Szenen unterteilt werden,
+wobei sich "Aktionsszenen" und "Reaktionsszenen", oder
+"Szenen" und "Folgen" wechselseitig ablösen.
+Falls Sie so etwas umsetzen wollen, können Sie das hier tun.
 
-If this is not for you, but you would like to use a different method
-to set up a dramaturgical scene micro-structure können Sie set the section
-to **Andere** and get three `freely named <book_view.html#umbenennungen>`_
-text fields.
+Falls das nichts für Sie ist, Sie aber eine andere Methode anwenden wollen,
+um ihre Szenen dramaturgisch zu gliedern,
+können sie den Abschnitt als **Andere** einstellen,
+um `frei benannte <book_view.html#umbenennungen>`_
+Textfelder zu erhalten.
 
 .. figure:: _images/section_view06.png
    :alt: Screenshot
    
-   Example of a non-standard scene category
+   Beispiel für eine vom Standard abweichende Szenenkategorie
 
-On the other hand, not every section is a scene to which the categories
-mentioned above appliy. Sections can be characterized by mode of discourse
-(e.g. Narration, Dramatic action, Dialogue, Description, Exposition).
-So if a section is not staged, you can set the section to **Keine Szene**,
-and get three `freely named <book_view.html#umbenennungen>`_
-text fields.
+Andererseits ist nicht jeder Abschnitt eine Szene, auf welche
+die pben erwähnten Kategorien zutreffen.
+Abschnitte können auch anderweitig charkterisiert werden,
+zum Beispiel als narrative Zusammenfassung, Dialog, Beschreibung
+oder Erklärung.
+Wenn also ein Abschnitt nicht szenisch ist, können Sie ihn als
+**Keine Szene** einstellen,
+um `frei benannte <book_view.html#umbenennungen>`_
+Textfelder zu erhalten.
 
 .. figure:: _images/section_view07.png
    :alt: Screenshot
    
-   Example of a non-staged section category
+   Beispiel für eine nicht-szenische Abschnittskategorie
 
 
 Beziehungen
