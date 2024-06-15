@@ -45,7 +45,7 @@ Die Bearbeitung kann mit der Eingabetaste beendet werden.
 Biographie
 ----------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/character_view02.png
    :alt: Screenshot
@@ -61,7 +61,7 @@ clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
 Ziele
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/character_view03.png
    :alt: Screenshot
@@ -77,7 +77,7 @@ the text input field.
 Links
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view13.png
    :alt: Screenshot

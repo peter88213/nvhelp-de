@@ -42,7 +42,7 @@ Windows Explorer über dem Dokument steht.
 Sprache des Dokuments
 ---------------------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view02.png
    :alt: novelibre Screenshot
@@ -73,7 +73,7 @@ als Standardeinstellung verwendet.
 Automatische Nummerierung
 -------------------------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view03.png
    :alt: novelibre Screenshot
@@ -112,7 +112,7 @@ Kapitelnummern per Teil
 Umbenennungen
 -------------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view04.png
    :alt: novelibre Screenshot
@@ -152,7 +152,7 @@ Die Bearbeitung der Kategorien kann mit der Eingabetaste beendet werden.
 Erzählzeit
 ----------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view05.png
    :alt: novelibre Screenshot
@@ -205,7 +205,7 @@ Tage in Datum umwandeln
 Schreibfortschritt
 ------------------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view06.png
    :alt: novelibre Screenshot
@@ -260,7 +260,7 @@ Arbeitsphase
 Links
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view13.png
    :alt: Screenshot

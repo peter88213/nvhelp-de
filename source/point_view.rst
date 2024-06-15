@@ -26,12 +26,12 @@ The label below "Abschnitt" displays the section Titel.
 
 
 Abschnitt zuordnen
-   When clicking on the **Abschnitt zuordnen** Schaltfläche, the "Pick mode"
+   When clicking on the **Abschnitt zuordnen** Schaltfläche, the "Auswahlmodus"
    is activated, and the cursor changes to a "plus" shape. By clicking
    on a section, this section will be assigned to the plot point.
 
    .. hint::
-      You can exit the "Pick mode" without selecting a section by
+      You can exit the "Auswahlmodus" without selecting a section by
       clicking on the highlighted status bar, or by pressing the ``Esc``
       key. 
 
@@ -48,7 +48,7 @@ Gehe zum Abschnitt
 Links
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view13.png
    :alt: Screenshot

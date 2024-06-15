@@ -21,7 +21,7 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Links
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view13.png
    :alt: Screenshot

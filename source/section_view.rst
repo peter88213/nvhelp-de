@@ -54,7 +54,7 @@ just starts a new paragraph.
 Plot
 ----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/section_view04.png
    :alt: Screenshot
@@ -76,12 +76,12 @@ assigned to the section.
    `plot grid <plotting.html#handlungsraster-plot-grid>`__. 
 
 Hinzufügen Plotlinie assignment
-   When clicking on |Hinzufügen|, the "Pick mode"
+   When clicking on |Hinzufügen|, the "Auswahlmodus"
    is activated, and the cursor changes to a "plus" shape. By clicking
    on a Plotlinie, it will be related with the section.
 
    .. hint::
-      You can exit the "Pick mode" without selecting an element by
+      You can exit the "Auswahlmodus" without selecting an element by
       clicking on the highlighted status bar, or by pressing the ``Esc``
       key. 
 
@@ -118,7 +118,7 @@ along with their Plotlinien.
 Szene
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/section_view03.png
    :alt: Screenshot
@@ -162,27 +162,28 @@ Textfelder zu erhalten.
 Beziehungen
 -----------
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/section_view02.png
    :alt: Screenshot
 
-If you want to associate characters, locations, and items with the
-section können Sie do it here by adding the element to a list of
-relationships.
+Wenn Sie Figuren, Schauplätze und Gegenstände mit dem Abschnitt
+in Verbindung bringen wollen, können sie das hier tun, indem
+Sie das jeweilige Element einer Liste von Beziehungen hinzufügen.
 
 Alter anzeigen
-   If a section is dated können Sie call up the ages of the related
-   characters who have `birth dates <character_view.html#biographie>`__.
+   Wenn ein Abschnitt ein Datum hat, können Sie das Alter der
+   verbundenen Figuren abrufen, die ein
+   `Geburtsdatum <character_view.html#biographie>`__ haben.
 
 Hinzufügen Relationship
-   When clicking on |Hinzufügen|, the "Pick mode"
+   Wenn Sie auf |Hinzufügen| klicken, wird der "Auswahlmodus"
    is activated, and the cursor changes to a "plus" shape. By clicking
    on a character/location/item, this element will be related with the
    section.
 
    .. hint::
-      You can exit the "Pick mode" without selecting an element by
+      You can exit the "Auswahlmodus" without selecting an element by
       clicking on the highlighted status bar, or by pressing the ``Esc``
       key. 
 
@@ -287,7 +288,7 @@ Erzeugen
 Links
 -----
 
-Dieses Fenster mit Klick auf den Titel öffnen oder schließen.
+Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 .. figure:: _images/book_view13.png
    :alt: Screenshot
