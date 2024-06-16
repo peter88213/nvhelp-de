@@ -14,7 +14,7 @@ Titel und Inhalt
 
 Titel und Inhalt are displayed in an editable "Karteikarte".
 
-Die Bearbeitung des Titelskönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung des Titels können Sie mit der Eingabetaste beenden.
 Changes to the content are applied when the mouse is clicked
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 

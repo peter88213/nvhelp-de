@@ -2,7 +2,7 @@ Abschnittseigenschaften
 =======================
 
 Die Ansicht der Abschnittseigenschaften öffnet sich im rechten Fenster,
-wenn sie im Baum einen Abschnitt wählen.
+wenn Sie im Baum einen Abschnitt wählen.
 
 
 .. figure:: _images/section_view01.png
@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung des Titelskönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung des Titels können Sie mit der Eingabetaste beenden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
