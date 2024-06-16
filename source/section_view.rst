@@ -41,8 +41,9 @@ Figuren in der selben Reihenfolge wie in der Baumansicht enthält.
 Unbenutzt
 ---------
 
-Mit dem **Unbenutzt** Auswahlfeld können Sie change the `section type
-<basic_concepts.html#teil-kapitel-abschnittstypen>`__.
+Mit dem **Unbenutzt**-Auswahlfeld können Sie den
+`Abschnittstyp <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+ändern.
 
 An den vorherigen Abschnitt anhängen
 ------------------------------------

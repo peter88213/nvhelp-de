@@ -142,7 +142,7 @@ Ein Handlungsraster anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Falls Sie Ihren Roman mit einem `"Plot grid"-Handlungsraster
-<plotting.html#handlungsraster-plot-grid>`__ ausarbeiten 
+<plotting.html#handlungsraster-plot-grid>`__ ausarbeiten
 wollen, können Sie das mit *novelibre* tun:
 
 1. Erstellen Sie ein neues leeres Projekt, wie oben beschrieben.
@@ -152,16 +152,16 @@ wollen, können Sie das mit *novelibre* tun:
    <section_menu.html#mehrere-abschnitte-hinzufugen>`__.
 4. Falls Sie mehr als die zulässige Anzahl Abschnitte brauchen,
    wiederholen Sie Schritt 3.
-   Es ist jedoch sinnvoll, zuerst einmal mit weniger Abschnitten zu 
+   Es ist jedoch sinnvoll, zuerst einmal mit weniger Abschnitten zu
    beginnen, die sich leichter auf die später zu erzeugenden Kapitel
-   verteilen lassen. 
+   verteilen lassen.
    Sie können das Handlungsraster mit der Zeit erweitern.
 5. Legen Sie die benötigten `Plotlinien <plot_menu.html#plotlinie-hinzufugen>`__ an.
 6. `Exportieren
    <plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__
    Sie ein Handlungsraster und füllen Sie die Tabellenzellen aus.
 7. `Importieren <import_menu.html>`__ Sie das Handlungsraster.
-8. `Erzeugen Sie mehr Kapitel <chapter_menu.html#hinzufugen>`__, 
+8. `Erzeugen Sie mehr Kapitel <chapter_menu.html#hinzufugen>`__,
    und
    `verteilen Sie die Abschnitte <desktop.html#baumelemente-verschieben>`__
    darauf.
@@ -172,10 +172,10 @@ wollen, können Sie das mit *novelibre* tun:
 Mit einem angefangenen Werk beginnen
 ------------------------------------
 
-Nehmen wir an, Sie haben bereits ein umfangreiches Romanmanuskript 
-mit *Writer* begonnen und wollen nun mit *novelibre* weiterarbeiten. 
-In diesem Fall stellen Sie zunächst sicher, dass es so gestaltet ist, 
-dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann. 
+Nehmen wir an, Sie haben bereits ein umfangreiches Romanmanuskript
+mit *Writer* begonnen und wollen nun mit *novelibre* weiterarbeiten.
+In diesem Fall stellen Sie zunächst sicher, dass es so gestaltet ist,
+dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
 
 .. important::
    Einen Text für den Import vorbereiten
@@ -205,7 +205,7 @@ mit **Datei > Neu > Aus ODT erzeugen...**.
    :alt: novelibre Screenshot
 
 Es öffnet sich ein Dateiauswahldialog und fragt nach dem *ODT*-Dokument.
-Das neue Projekt wird im selben Verzeichnis angelegt und nach der 
+Das neue Projekt wird im selben Verzeichnis angelegt und nach der
 Manuskriptdatei benannt, aber mit der *.novx*-Erweiterung.
 
 .. caution::
@@ -232,8 +232,8 @@ mit leeren, aber betitelten und beschriebenen Kapiteln und Abschnitten.
 Auf den ersten Blick sieht eine Gliederung einem angefangenen Werk sehr ähnlich,
 doch sie hat Überschriften dritter Ordnung für die Abschnittstitel.
 Wenn *novelibre* Überschriften dritter Ordnung findet, betrachtet es
-den gesamten Textkörper als Beschreibung. 
-In diesem Fall werden Textauszeichnungen nicht berücksichtigt. 
+den gesamten Textkörper als Beschreibung.
+In diesem Fall werden Textauszeichnungen nicht berücksichtigt.
 
 .. important::
    Eine Gliederung für den Import vorbereiten
@@ -252,7 +252,7 @@ mit **Datei > Neu > Aus ODT erzeugen...**.
    :alt: novelibre Screenshot
 
 Es öffnet sich ein Dateiauswahldialog und fragt nach dem *ODT*-Dokument.
-Das neue Projekt wird im selben Verzeichnis angelegt und nach der 
+Das neue Projekt wird im selben Verzeichnis angelegt und nach der
 Gliederungsdatei benannt, aber mit der *.novx*-Erweiterung.
 
 .. caution::
@@ -263,7 +263,7 @@ Gliederungsdatei benannt, aber mit der *.novx*-Erweiterung.
    <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird.
    
    Die aktuelle Gliederung können Sie jederzeit als "Beschreibungen" 
-   etrennt nach Teilen, Kapiteln und Abschnitten exportieren, 
+   (getrennt nach Teilen, Kapiteln und Abschnitten) exportieren, 
    bearbeiten und importieren. 
    
    

@@ -32,8 +32,9 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** Auswahlfeld können Sie change the `chapter type
-<basic_concepts.html#teil-kapitel-abschnittstypen>`__.
+Mit dem **Unbenutzt**-Auswahlfeld können Sie den
+`Kapiteltyp <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+ändern.
 
 
 Dieses Kapitel/diesen Teil nicht automatisch nummerieren
