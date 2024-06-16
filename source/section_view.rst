@@ -25,7 +25,7 @@ Tags sind ein frei benutzbares Werkzeug,
 um Abschnitte in der Baumansicht zu kennzeichnen.
 Tags müssen nicht anderswo definiert werden, sie werden einfach,
 durch Semikolons getrennt, ins Eingabefeld eingetragen.
-Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. caution::
    Achten Sie auf eine einheitliche Schreibweise, 
@@ -216,7 +216,7 @@ Datum/Zeit
 ----------
 
 Hier können Sie enter information about the selected section's narrative time.
-Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. hint::
    Dedicated timeline software offers a more convenient way of entering date/time 

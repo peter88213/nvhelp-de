@@ -22,7 +22,7 @@ Vollst. Name
 
 The character's Titel as shown on the Karteikarte is used as
 a short name at several places. The full name can be entered
-separately. Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
+separately. Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 alias
 -----
@@ -37,7 +37,7 @@ Tags sind ein frei benutzbares Werkzeug,
 um Figuren in der Baumansicht zu kennzeichnen.
 Tags müssen nicht anderswo definiert werden, sie werden einfach,
 durch Semikolons getrennt, ins Eingabefeld eingetragen.
-Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. caution::
    Achten Sie auf eine einheitliche Schreibweise, 

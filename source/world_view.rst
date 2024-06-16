@@ -21,7 +21,7 @@ alias
 -----
 
 This entry field is for alias names.
-Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 
 Tags
@@ -31,7 +31,7 @@ Tags sind ein frei benutzbares Werkzeug, um Schauplätze
 und Gegenstände in der Baumansicht zu kennzeichnen.
 Tags müssen nicht anderswo definiert werden, sie werden einfach,
 durch Semikolons getrennt, ins Eingabefeld eingetragen.
-Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. caution::
    Achten Sie auf eine einheitliche Schreibweise, 
