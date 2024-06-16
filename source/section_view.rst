@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titelskönnen Sie mit der Eingabetaste beenden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
@@ -21,35 +21,36 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Tags
 ----
 
-Tags are a very freely usable tool for labeling sections in the
-Baumansicht. Tags do not have to be defined elsewhere, but simply
-entered in the input field separated by semicolons.
-Die Bearbeitung kann mit der Eingabetaste beendet werden.
+Tags sind ein frei benutzbares Werkzeug,
+um Abschnitte in der Baumansicht zu kennzeichnen.
+Tags müssen nicht anderswo definiert werden, sie werden einfach,
+durch Semikolons getrennt, ins Eingabefeld eingetragen.
+Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
 
 .. caution::
-   If you want to use a tag more than once, make sure you use 
-   the same spelling in the different places. 
+   Achten Sie auf eine einheitliche Schreibweise, 
+   falls Sie Tags mehrmals verwenden wollen.
 
 Perspektive
 -----------
 
-The viewpoint character's short name is displayed in the Baumansicht.
-You can select it from a drop-down list containing all characters
-in the Baumansicht's sort order.
+Der Kurzname der Perspektivfigur wird in der Baumansicht angezeigt.
+Sie können ihn aus einer Drop-down-Liste auswählen, die alle
+Figuren in der selben Reihenfolge wie in der Baumansicht enthält.
 
 Unbenutzt
 ---------
 
-Mit te **Unbenutzt** Auswahlfeld können Sie change the `section type
+Mit dem **Unbenutzt** Auswahlfeld können Sie change the `section type
 <basic_concepts.html#teil-kapitel-abschnittstypen>`__.
 
 An den vorherigen Abschnitt anhängen
 ------------------------------------
 
-When ticked, there will be no section divider inserted above
-the selected section in exported documents. The section
-just starts a new paragraph.
-
+Wenn dieses Feld angekreuzt ist, erhalten exportierte
+Dokumente keinen Abschnittstrenner vor dem ausgewählten
+Abschnitt.
+Der Abschnitt beginnt dann einfach mit einem neuen Absatz.
 
 Plot
 ----
@@ -62,19 +63,20 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 Plotlinien
 ~~~~~~~~~~
 
-Hier können Sie assign the selected section to the Plotlinien it belongs to.
-The assigned Plotlinien are displayed in a list in the order they are
-assigned to the section.
+Hier können Sie den ausgewählten Absatz den Plotlinien zuweisen,
+zu denen er beiträgt.
+Die zugewiesenen Plotlinien werden in einer Liste dargestellt,
+in der Reihenfolge der Zuweisung zum Abschnitt.
 
 .. tip::
-   A more convenient way to manage and keep track of Plotlinie assignments is 
-   offered by the `nv_matrix plugin 
-   <https://github.com/peter88213/nv_matrix/>`__. 
+   Einen bequemeren Weg um Plotlinienzuweisungen zu verwalten und
+   zu überblicken, bietet das 
+   `nv_matrix plugin <https://github.com/peter88213/nv_matrix/>`__. 
    
-   You can also assign a section to a Plotlinie by entering text
-   in the corresponding *Plotlinie notes* cell of the 
-   `plot grid <plotting.html#handlungsraster-plot-grid>`__. 
-
+   Sie können einen Abschnitt auch einer Plotlinie zuweisen, 
+   indem Sie im `Handlungsraster <plotting.html#handlungsraster-plot-grid>`__
+   Text ins entsprechende Plotliniennotizen-Feld eintragen.
+   
 Hinzufügen Plotlinie assignment
    When clicking on |Hinzufügen|, the "Auswahlmodus"
    is activated, and the cursor changes to a "plus" shape. By clicking
@@ -214,7 +216,7 @@ Datum/Zeit
 ----------
 
 Hier können Sie enter information about the selected section's narrative time.
-Die Bearbeitung kann mit der Eingabetaste beendet werden.
+Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
 
 .. hint::
    Dedicated timeline software offers a more convenient way of entering date/time 

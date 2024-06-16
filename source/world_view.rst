@@ -13,7 +13,7 @@ Titel und Beschreibung
 
 Titel und Beschreibung werden als beschreibbare "Karteikarte" dargestellt.
 
-Die Bearbeitung des Titels kann mit der Eingabetaste beendet werden.
+Die Bearbeitung des Titelskönnen Sie mit der Eingabetaste beenden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
@@ -21,20 +21,21 @@ alias
 -----
 
 This entry field is for alias names.
-Die Bearbeitung kann mit der Eingabetaste beendet werden.
+Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
 
 
 Tags
 ----
 
-Tags are a very freely usable tool for labeling locations and Gegenstands
-in the Baumansicht. Tags do not have to be defined elsewhere, but
-simply entered in the input field separated by semicolons.
-Die Bearbeitung kann mit der Eingabetaste beendet werden.
+Tags sind ein frei benutzbares Werkzeug, um Schauplätze
+und Gegenstände in der Baumansicht zu kennzeichnen.
+Tags müssen nicht anderswo definiert werden, sie werden einfach,
+durch Semikolons getrennt, ins Eingabefeld eingetragen.
+Die Bearbeitungkönnen Sie mit der Eingabetaste beenden.
 
 .. caution::
-   If you want to use a tag more than once, make sure you use 
-   the same spelling in the different places. 
+   Achten Sie auf eine einheitliche Schreibweise, 
+   falls Sie Tags mehrmals verwenden wollen.
 
 Links
 -----

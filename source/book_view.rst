@@ -17,7 +17,7 @@ Titel, Beschreibung und Autor
 
 Titel und Beschreibung erscheinen auf einer "Karteikarte" zum Bearbeiten.
 
-Die Bearbeitung von Buchtitel und Autor kann mit der Eingabetaste beendet werden.
+Die Bearbeitung von Buchtitel und Autorkönnen Sie mit der Eingabetaste beenden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
@@ -91,7 +91,7 @@ Kapitel/Teile automatisch nummerieren, wenn der Baum aktualisiert wird.
       <chapter_view.html#dieses-kapitel-nicht-automatisch-nummerieren-part>`__.
       von der automatischen Nummerierung ausschließen,   
 
-Die Eingabe von Präfix und Suffix kann mit der Eingabetaste beendet werden.
+Die Eingabe von Präfix und Suffixkönnen Sie mit der Eingabetaste beenden.
 
 .. note::
    Bitte auch ein Leerzeichen zur Trennung von Präfix oder Suffix
@@ -121,7 +121,7 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 um Informationen zu speichern, die beim Schreiben zur Hand sein sollten.
 Wenn die voreingestellten Kategorien nicht in Ihr individuelles
 Story-Planungskonzept passen, können Sie diese Felder umbenennen.
-Die Bearbeitung der Kategorien kann mit der Eingabetaste beendet werden.
+Die Bearbeitung der Kategorienkönnen Sie mit der Eingabetaste beenden.
 
 "Keine Szene"-Felder
    Die Überschriftersetzungen für *Handlungsfortschritt*, *Charakterisierung* und *Weltenbau*
@@ -231,12 +231,12 @@ Schreibfortschritt protokollieren
 Wörter zu schreiben
    Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
    eingeben, die Ihr Schreibziel in Wörtern angibt.
-   Die Eingabe kann mit der Eingabetaste beendet werden.
+   Die Eingabekönnen Sie mit der Eingabetaste beenden.
 
 Anfangswert
    Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
    eingeben, welche die Anfangs-Wortanzahl für Ihr Schreibziel angibt.
-   Die Eingabe kann mit der Eingabetaste beendet werden.
+   Die Eingabekönnen Sie mit der Eingabetaste beenden.
 
 Aktuelle Wortzahl als Anfangswert setzen
    Klicken Sie auf diese Schaltfläche, um die aktuelle Wortanzahl in das
