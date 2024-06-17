@@ -97,8 +97,9 @@ Abschnittsbeschreibungen zum Bearbeiten exportieren
 Mit **Abschnitt > Abschnittsbeschreibungen zum Bearbeiten exportieren**
 können Sie ein Textdokument erzeugen, das eine
 **vollständige Inhaltsangabe** mit Teile-/Kapitelüberschriften
-und Abschnittsbeschreibungen enthält,
-die bearbeitet und zurückgeschrieben werden können.
+und Abschnittsbeschreibungen enthält.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_sections_tmp``.
 
 

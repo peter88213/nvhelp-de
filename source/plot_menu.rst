@@ -76,7 +76,7 @@ Handlungsraster (Plot grid) zum Bearbeiten exportieren
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**
-können Sie ein Tabellendokument erzeugen, wie im Kapitel
+können Sie ein Tabellenkalkulationsdokument erzeugen, wie im Kapitel
 `Mit novelibre plotten <plotting.html#handlungsraster-plot-grid>`__ beschrieben,
 mit einer Zeile pro Abschnitt und folgenden Spalten:
 
@@ -103,11 +103,11 @@ mit einer Zeile pro Abschnitt und folgenden Spalten:
 Der Dateinamenszusatz lautet ``_grid_tmp``.
 
 .. note::
-   You can reorder, hide or delete columns and rows 
-   without affecting the reimport. 
-   Only the first column and the first row, which are hidden by default, 
-   must not be changed as they contain the structural information 
-   for the import. 
+   Sie können Zeilen und Spalten umordnen, verbergen oder löschen, 
+   ohne dass es Auswirkungen auf den Re-Import hat. 
+   Nur die erste Zeile und die erste Spalte, die standardmäßig verborgen 
+   sind, dürfen nicht verändert werden, weil sie die Strukturinformationen 
+   für den Import enthalten. 
 
 
 Erzählstruktur-Beschreibung zum Bearbeiten exportieren

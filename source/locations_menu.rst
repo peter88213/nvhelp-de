@@ -53,16 +53,17 @@ Schauplatzliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Schauplatzliste exportieren (Tabelle)**
-können Sie ein Tabellenkalkulationsdokument erzeugen, das eine
-a location list that can be edited with *Calc* and reimported.
+können Sie ein Tabellenkalkulationsdokument mit einer Schauplatzliste erzeugen.
+Dieses Dokument kann mit *Calc* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_loclist_tmp``.
 
 .. note::
-   You can reorder, hide or delete columns and rows 
-   without affecting the reimport. 
-   Only the first column and the first row, which are hidden by default, 
-   must not be changed as they contain the structural information 
-   for the import. 
+   Sie können Zeilen und Spalten umordnen, verbergen oder löschen, 
+   ohne dass es Auswirkungen auf den Re-Import hat. 
+   Nur die erste Zeile und die erste Spalte, die standardmäßig verborgen 
+   sind, dürfen nicht verändert werden, weil sie die Strukturinformationen 
+   für den Import enthalten. 
 
 
 Liste anzeigen

@@ -61,7 +61,9 @@ Kapitelbeschreibungen zum Bearbeiten exportieren
 
 Mit **Kapitel > Kapitelbeschreibungen zum Bearbeiten exportieren**
 können Sie ein Textdokument erzeugen, das eine
-a **brief synopsis** with part/chapter headings and chapter descriptions
-that can be edited and reimported.
+**kurze Zusammenfassung** mit Teile-/Kapitelüberschriften
+und Kapitelbeschreibungen enthält.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_chapters_tmp``.
 

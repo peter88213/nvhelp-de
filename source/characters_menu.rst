@@ -25,7 +25,7 @@ in den Baum einfügen.
 Status setzen
 -------------
 
-**Set the character status**
+**Den Figurenstatus ändern**
 
 Mit **Figuren > Status setzen**
 können Sie die Figur als *Hauptfigur* oder *Nebenfigur* kennzeichnen.
@@ -35,24 +35,25 @@ Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
    :alt: novelibre Screenshot
 
 .. note::
-   The character status is only for visual distinction. It has no
-   influence on the program functions. Niemalstheless können Sie use it
-   to mark viewpoint characters or characters with their own arcs.
+   Der Figurenstatus dient nur zur visuellen Unterscheidung.
+   Er hat keine Auswirkung auf die Programmfunktion.
+   Sie können ihn einsetzen, um Perspektivfiguren 
+   oder Figuren mit eigenem Entwicklungsbogen zu kennzeichnen.
 
 
 Importieren
 -----------
 
-**Importieren characters from another project**
+**Figuren aus einem anderen Projekt importieren**
 
 Mit **Figuren > Importieren**
-können Sie import a selection of characters from another project.
-First you select an XML file containing the character data.
-Then you select the characters you want to add to the current project.
+können Sie eine Auswahl von Figuren aus einem anderen Projekt übernehmen.
+Zuerst wählen Sie eine XML-Datei aus, welche die Figurendaten enthält.
+Dann wählen Sie die Figuren aus, die Sie zum aktuellen Projekt hinzufügen wollen.
 
 .. hint::
-   To create an XML-Figurendatei for the current project, 
-   use **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien**.
+   Um für das aktuelle Projekt eine XML-Figurendatei zu erzeugen, 
+   rufen Sie **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien** auf.
 
 
 Figurenbeschreibungen zum Bearbeiten exportieren
@@ -61,9 +62,10 @@ Figurenbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Figuren > Figurenbeschreibungen zum Bearbeiten exportieren**
-können Sie ein Textdokument erzeugen, das eine
-character descriptions, bio, goals, and notes that can be edited in
-Office Writer and reimported.
+können Sie ein Textdokument erzeugen, das
+Figurenbeschreibungen mit Biographie, Zielen und Notizen enthält.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_characters_tmp``.
 
 
@@ -73,16 +75,17 @@ Figurenliste exportieren (Tabelle)
 **Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Figuren > Figurenliste exportieren (Tabelle)**
-können Sie ein Tabellenkalkulationsdokument erzeugen, das eine
-a character list that can be edited with *Calc* and reimported.
+können Sie ein Tabellenkalkulationsdokument mit einer Figurenliste erzeugen.
+Dieses Dokument kann mit *Calc* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_charlist_tmp``.
 
 .. note::
-   You can reorder, hide or delete columns and rows 
-   without affecting the reimport. 
-   Only the first column and the first row, which are hidden by default, 
-   must not be changed as they contain the structural information 
-   for the import. 
+   Sie können Zeilen und Spalten umordnen, verbergen oder löschen, 
+   ohne dass es Auswirkungen auf den Re-Import hat. 
+   Nur die erste Zeile und die erste Spalte, die standardmäßig verborgen 
+   sind, dürfen nicht verändert werden, weil sie die Strukturinformationen 
+   für den Import enthalten. 
 
 
 Liste anzeigen

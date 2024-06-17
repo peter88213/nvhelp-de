@@ -29,7 +29,9 @@ Teilebeschreibungen zum Bearbeiten exportieren
 
 Mit **Teil > Teilebeschreibungen zum Bearbeiten exportieren**
 können Sie ein Textdokument erzeugen, das eine
-**sehr kurze Zusammenfassung** mit den Überschriften und Beschreibungen
-der Teile enthält.
+**sehr kurze Zusammenfassung** mit Teileüberschriften
+und Teilebeschreibungen enthält.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_parts_tmp``.
 
