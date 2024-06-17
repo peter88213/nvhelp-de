@@ -1,12 +1,12 @@
 Bucheigenschaften
 =================
 
-.. |ico01| image:: _images/viewBook.png
-   :alt: Buch
+The Bucheigenschaften-Ansicht öffnet sich im rechten Fenster,
+wenn Sie im Baum "Buch" wählen,
+oder wenn Sie in der Werkzeugleiste auf |Show Book| klicken.
+Nach dem Öffnen eines *novelibre*-Projekts sehen Sie diese Ansicht.
 
-The Bucheigenschaften-Ansicht öffnet sich im rechten Fenster, wenn Sie
-im Baum "Buch" wählen, oder wenn Sie in der Werkzeugleiste auf |ico01|
-klicken. Nach dem Öffnen eines *novelibre*-Projekts sehen Sie diese Ansicht.
+.. |Show Book| image:: _images/viewBook.png
 
 .. figure:: _images/book_view01.png
    :alt: novelibre Screenshot
