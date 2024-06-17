@@ -1,8 +1,8 @@
 Stadium-Eigenschaften
 =====================
 
-The Stadium properties view öffnet sich im rechten Fenster when you
-select a stage in the tree.
+Die Ansicht der Stadium-Eigenschaften öffnet sich im rechten Fenster,
+wenn Sie ein Stadium auswählen.
 
 
 .. figure:: _images/stage_view01.png

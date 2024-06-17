@@ -1,9 +1,13 @@
 Schauplatz/Gegenstand-Eigenschaften
 ===================================
 
-The Schauplatz/Gegenstand properties view öffnet sich im rechten Fenster when you
-select a location or an Gegenstand in the tree.
+Die Ansicht der Schauplatz/Gegenstand-Eigenschaften öffnet sich im rechten Fenster,
+wenn Sie einen Schauplatz oder Gegenstand auswählen,
+oder wenn Sie in der Werkzeugleiste |Schauplätze anzeigen| bzw.
+|Gegenstände anzeigen| anklicken.
 
+.. |Schauplätze anzeigen| image:: _images/viewLocations.png
+.. |Gegenstände anzeigen| image:: _images/viewItems.png
 
 Titel und Beschreibung
 ----------------------

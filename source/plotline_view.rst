@@ -1,8 +1,11 @@
 Plotlinieneigenschaften
 =======================
 
-The Plotlinie properties view öffnet sich im rechten Fenster when you
-select a `Plotlinie <plotting.html#defining-plot-lines>`__ in the tree.
+Die Ansicht der Plotlinieneigenschaften öffnet sich im rechten Fenster,
+wenn Sie eine Plotlinie auswählen,
+oder wenn Sie in der Werkzeugleiste |Plotlinien anzeigen| anklicken.
+
+.. |Plotlinien anzeigen| image:: _images/viewArcs.png
 
 .. figure:: _images/plotline_view01.png
    :alt: novelibre Screenshot

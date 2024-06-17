@@ -1,9 +1,8 @@
 Plotpunkt-Eigenschaften
 =======================
 
-The Plotpunkt properties view öffnet sich im rechten Fenster when you
-select a plot point in the tree.
-
+Die Ansicht der Plotpunkt-Eigenschaften öffnet sich im rechten Fenster,
+wenn Sie einen Plotpunkt auswählen
 
 .. figure:: _images/point_view01.png
    :alt: Screenshot
@@ -21,8 +20,8 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Zugeordneter Abschnitt
 ----------------------
 
-You can connect the plot point to a section in the book.
-The label below "Abschnitt" displays the section Titel.
+Sie können den Plotpunkt einem Abschnitt im Buch zuordnen.
+Das Feld unter "Abschnitt" zeigt dann den Abschnittstitel.
 
 
 Abschnitt zuordnen
@@ -37,13 +36,21 @@ Abschnitt zuordnen
 
 
 Zuordnung löschen
-   If a sectin is assigned to the plot point können Sie disconnect it
-   by clicking on the **Zuordnung löschen** Schaltfläche.
+   Wenn dem Plotpunkt ein Abschnitt zugeordnet ist,
+   können Sie diese Verbindung trennen, indem Sie die
+   **Zuordnung löschen**-Schaltfläche anklicken.
 
 
 Gehe zum Abschnitt
-   Clicking on the **Gehe zum Abschnitt** Schaltfläche changes the selection and opens
-   the properties view of the assigned section.
+   Wenn Sie auf die Schaltfläche **Gehe zum Abschnitt** klicken,
+   wird dieser Abschnitt geöffnet,
+   und seine Eigenschaften werden angezeigt.
+
+   .. hint::
+      Mit |Go Back| gelangen Sie zurück zum ursprünglich gewählten 
+      Plotpunkt. 
+
+.. |Go back| image:: _images/goBack.png
 
 Links
 -----

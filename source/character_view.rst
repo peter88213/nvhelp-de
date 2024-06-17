@@ -1,9 +1,11 @@
 Figureneigenschaften
 ====================
 
-The Figur properties view öffnet sich im rechten Fenster when you
-select a character in the tree.
+Die Ansicht der Figureneigenschaften öffnet sich im rechten Fenster,
+wenn Sie eine Figur auswählen,
+oder wenn Sie in der Werkzeugleiste |Figuren anzeigen| anklicken.
 
+.. |Figuren anzeigen| image:: _images/viewCharacters.png
 
 .. figure:: _images/character_view01.png
    :alt: Screenshot
