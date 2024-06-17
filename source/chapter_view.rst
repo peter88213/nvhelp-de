@@ -22,11 +22,16 @@ Die Bearbeitung des Titels können Sie mit der Eingabetaste beenden.
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 .. note::
-   Depending on your `Buch settings <book_view.html#automatische-nummerierung>`_, 
-   *novelibre* might overwrite the Titel the next time the tree is refreshed.
-   Thus, you don't need to edit the capter/part Titel, if auto numbering is
-   activated and the selected chapter or part is not excluded from 
-   auto numbering (see below).
+   
+   Entsprechend Ihrer Vorgabe in den 
+   `Bucheigenschaften <book_view.html#automatische-nummerierung>`_
+   wird *novelibre* den Titel spätestens bei der nächsten Aktualisierung 
+   des Projektbaums ändern. 
+   Deshalb brauchen Sie den Kapitel- oder Teiletitel nicht einzugeben, 
+   falls die automatische Nummerierung auf der entsprechenden Ebene 
+   aktiviert und das aktuelle Kapitel bzw. der aktuelle Teil 
+   nicht von der Nummerierung ausgenommen ist (siehe unten). 
+
 
 Unbenutzt
 ---------
