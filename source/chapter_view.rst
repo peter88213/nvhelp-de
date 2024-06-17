@@ -1,14 +1,13 @@
 Kapitel/Teil-Eigenschaften
 ==========================
 
-The Kapitel/part properties view öffnet sich im rechten Fenster
-when you select a chapter or a part in the tree.
-You can edit the properties of the selected chapter or part.
+Die Ansicht der Kapitel/Teil-Eigenschaften öffnet sich im rechten Fenster,
+wenn Sie ein Kapitel oder einen Teil auswählen.
 
 .. hint::
-   You can change any chapter into a part or vice versa via the **Change
-   Level** entry in the Kontextmenü, the **Teil**-Menü, or the 
-   **Kapitel**-Menü.
+   Mit Hilfe des **Ebene ändern**-Eintrags im Kontextmenü, dem 
+   **Teil**-Menü oder dem **Kapitel**-Menü 
+   können sie jedes Kapitel in einen Teil umwandeln, oder umgekehrt.
 
 .. figure:: _images/chapter_view01.png
    :alt: Screenshot
