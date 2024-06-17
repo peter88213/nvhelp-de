@@ -2,10 +2,7 @@ Plotlinieneigenschaften
 =======================
 
 Die Ansicht der Plotlinieneigenschaften öffnet sich im rechten Fenster,
-wenn Sie eine Plotlinie auswählen,
-oder wenn Sie in der Werkzeugleiste |Plotlinien anzeigen| anklicken.
-
-.. |Plotlinien anzeigen| image:: _images/viewArcs.png
+wenn Sie eine Plotlinie auswählen.
 
 .. figure:: _images/plotline_view01.png
    :alt: novelibre Screenshot
@@ -24,27 +21,32 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Kurzname
 --------
 
-Be sure to enter a short name to be displayed as a reference in the tree.
-A single character like "A", "B", "C" is recommended.
+Geben Sie auf jeden Fall einen Kurznamen ein,
+der als Referenz im Projektbaum angezeigt wird.
+Ein einzelner Buchstabe wie "A", "B", "C" ist zu empfehlen.
 
 .. figure:: _images/plotline_view02.png
    :alt: novelibre Screenshot
 
-   Example: Plotlinie short names as displayed in the tree
+   Beispiel: Plotlinienkurznamen, wie sie im Baum dargestellt werden
+   
    
 Abschnittszuordnungen
 ---------------------
 
-The number of sections that belong to the selected Plotlinie is shown
-below the "Kurzname" entry. The assignments can be made in the
-`section properties view <section_view.html#plot>`__.
-You can unlink all sections from the selected Plotlinie at once by
-clicking on the **Abschnittszuordnungen löschen** Schaltfläche.
+Die Anzahl der Abschnitte, die zur ausgewählten Plotlinie gehören,
+wird unter dem  Eingabefeld "Kurzname" angezeigt.
+Sie können die Zuordnungen in den
+`Abschnittseigenschaften <section_view.html#plot>`__ treffen.
 
-.. hint::
-   A convenient way to manage and keep track of section assignments is 
-   offered by the `nv_matrix plugin 
-   <https://github.com/peter88213/nv_matrix/>`__. 
+Sie können alle Abschnitte von der ausgewählten Plotlinie trennen,
+indem Sie auf die Schaltfläche **Abschnittszuordnungen löschen**
+klicken.
+
+.. tip::
+   Einen bequemeren Weg, um Plotlinienzuweisungen zu verwalten und
+   zu überblicken, bietet das 
+   `nv_matrix-Plugin <https://github.com/peter88213/nv_matrix/>`__. 
 
 
 Links
@@ -90,7 +92,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 11 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 Link entfernen
@@ -126,7 +128,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

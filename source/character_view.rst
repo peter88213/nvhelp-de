@@ -2,10 +2,7 @@ Figureneigenschaften
 ====================
 
 Die Ansicht der Figureneigenschaften öffnet sich im rechten Fenster,
-wenn Sie eine Figur auswählen,
-oder wenn Sie in der Werkzeugleiste |Figuren anzeigen| anklicken.
-
-.. |Figuren anzeigen| image:: _images/viewCharacters.png
+wenn Sie eine Figur auswählen.
 
 .. figure:: _images/character_view01.png
    :alt: Screenshot
@@ -22,15 +19,16 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Vollst. Name
 ------------
 
-The character's Titel as shown on the Karteikarte is used as
-a short name at several places. The full name can be entered
-separately. Die Bearbeitung können Sie mit der Eingabetaste beenden.
+Der Titel der Figur, wie er auf der Karteikarte steht,
+dient an verschiedenen Stellen im Programm als Kurzname.
+Den vollständigen Namen können Sie hier gesondert eingeben.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 alias
 -----
 
-This entry field is for alias names. Editing can be completed
-by pressing the Eingabetaste.
+Dieses Eingabefeld ist für alternative Namen.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 Tags
 ----
@@ -53,12 +51,23 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 .. figure:: _images/character_view02.png
    :alt: Screenshot
 
-Birth/death date
-   Format: *YYYY-MM-DD*, according to ISO 8601.
+Geburtsdatum/Sterbedatum
+   Format: *JJJJ-MM-TT*, entsprechend ISO 8601.
 
-Die Bearbeitung von the birth and death dates can be completed by pressing the
-Eingabetaste. Changes to the bio are applied when the mouse is
-clicked irgendwo außerhalb des Texteingabefelds geklickt wird.
+Die Bearbeitung von Geburts- und Sterbedatum können Sie mit der
+Eingabetaste beenden.
+Änderungen an der Biographie werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
+
+.. hint::
+   Dieses Eingabefeld kann beliebige Figurendaten speichern, 
+   die Ihnen wichtig erscheinen.   
+   Falls "Biographie" nicht die passende Kategorie für Sie ist, 
+   können Sie den Bezeichner in den 
+   `Bucheigenschaften <book_view.html#umbenennungen>`__ ändern.
+   Die Eingabefelder für Geburts- und Sterbedatum bleiben dabei 
+   erhalten.      
+    
 
 
 Ziele
@@ -69,13 +78,15 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 .. figure:: _images/character_view03.png
    :alt: Screenshot
 
-Changes to the goals are applied when the mouse is clicked anywhere outside
-the text input field.
+Änderungen an den Zielen werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 .. hint::
-   This text box can hold any character data that seem important to you.
-   If "Ziele" is not the right category for you können Sie change the label
-   in the `book settings <book_view.html#umbenennungen>`__. 
+   Dieses Eingabefeld kann beliebige Figurendaten speichern, 
+   die Ihnen wichtig erscheinen.   
+   Falls "Ziele" nicht die passende Kategorie für Sie ist, 
+   können Sie den Bezeichner in den 
+   `Bucheigenschaften <book_view.html#umbenennungen>`__ ändern. 
 
 Links
 -----
@@ -120,7 +131,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 11 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 Link entfernen
@@ -156,7 +167,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

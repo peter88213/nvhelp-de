@@ -2,12 +2,7 @@ Schauplatz/Gegenstand-Eigenschaften
 ===================================
 
 Die Ansicht der Schauplatz/Gegenstand-Eigenschaften öffnet sich im rechten Fenster,
-wenn Sie einen Schauplatz oder Gegenstand auswählen,
-oder wenn Sie in der Werkzeugleiste |Schauplätze anzeigen| bzw.
-|Gegenstände anzeigen| anklicken.
-
-.. |Schauplätze anzeigen| image:: _images/viewLocations.png
-.. |Gegenstände anzeigen| image:: _images/viewItems.png
+wenn Sie einen Schauplatz oder Gegenstand auswählen.
 
 Titel und Beschreibung
 ----------------------
@@ -24,7 +19,7 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 alias
 -----
 
-This entry field is for alias names.
+Dieses Eingabefeld ist für alternative Namen.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 
@@ -84,7 +79,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 11 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 Link entfernen
@@ -120,7 +115,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

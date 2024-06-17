@@ -95,7 +95,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 11 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 Link entfernen
@@ -131,7 +131,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png

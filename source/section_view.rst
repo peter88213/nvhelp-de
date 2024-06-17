@@ -70,7 +70,7 @@ Die zugewiesenen Plotlinien werden in einer Liste dargestellt,
 in der Reihenfolge der Zuweisung zum Abschnitt.
 
 .. tip::
-   Einen bequemeren Weg um Plotlinienzuweisungen zu verwalten und
+   Einen bequemeren Weg, um Plotlinienzuweisungen zu verwalten und
    zu überblicken, bietet das 
    `nv_matrix-Plugin <https://github.com/peter88213/nv_matrix/>`__. 
    
@@ -342,7 +342,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 11 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 Link entfernen
@@ -378,7 +378,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 "Haftmerker"

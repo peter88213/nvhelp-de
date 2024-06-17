@@ -35,7 +35,7 @@ Windows Explorer über dem Dokument steht.
 .. figure:: _images/book_view09.png
    :alt: Screenshot
    
-   Windows 11 Explorer Screenshot
+   Windows Explorer Screenshot
    
 
 
@@ -145,8 +145,9 @@ Die Bearbeitung der Kategorien können Sie mit der Eingabetaste beenden.
    Sie gelten dann für alle Figuren gleichermaßen.
 
    .. note::
-      If you rename the *Biographie* frame, it will keep the Birth/death date
-      entries anyway.      
+      Falls Sie das *Biographie*-Fenster umbenennen, 
+      bleiben die Eingabefelder für Geburts- und
+      Sterbedatum erhalten.      
 
 
 Erzählzeit
@@ -300,7 +301,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 11 Explorer Screenshot
+         Windows Explorer Screenshot
 
 
 Link entfernen
@@ -336,7 +337,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
@@ -353,9 +354,9 @@ mit dem selben Namen wie das Projekt bereitstellen.
 Die empfohlene Bildbreite ist 100 bis 200 Pixel.
 
 .. figure:: _images/book_view12.png
-   :alt: Windows 10 Explorer Screenshot
+   :alt: Windows Explorer Screenshot
    
-   Windows 10 Explorer Screenshot
+   Windows Explorer Screenshot
    
 .. figure:: _images/book_view07.jpg
    :alt: novelibre Screenshot
