@@ -166,14 +166,14 @@ Tage, z.B. seit Beginn) eingeben.
 Bezugsdatum
    Das Bezugsdatum ist optional. Es kann dazu dienen, unspezifische
    Datumsangaben in spezifische umzuwandeln, oder umgekehrt.
-   Mit Hilfe des Referenzdatums können Zeitleisten-Plugins
+   Mit Hilfe des Bezugsdatums können Zeitleisten-Plugins
    aus Abschnitten ohne spezifischem Datum Ereignisse erzeugen.
 
    Format: *JJJJ-MM-TT*, entsprechend ISO 8601.
 
    .. hint::
       Selbst wenn Sie keine spezifischen Datumsangaben in Ihrer 
-      Geschichte benötigen, kann es hilfreich sein, ein Referenzdatum
+      Geschichte benötigen, kann es hilfreich sein, ein Bezugsdatum
       anzugeben. 
       Auf diese Weise wird der Wochentag zusammen mit dem 
       `unspezifischen Datum <section_view.html#beginn>`__, angezeigt, 
@@ -182,11 +182,11 @@ Bezugsdatum
 
 Datum in Tage umwandeln
    Damit können Sie spezifische Abschnitts-Datumsangaben in Tage,
-   bezogen auf das Referenzdatum, umwandeln.
+   bezogen auf das Bezugsdatum, umwandeln.
 
 Tage in Datum umwandeln
    Damit können Sie unspezifische Abschnitts-Datumsangaben
-   (auf das Referenzdatum bezogene Tage) in
+   (auf das Bezugsdatum bezogene Tage) in
    spezifische Datumsangaben umwandeln.
 
 .. note::

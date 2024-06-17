@@ -72,50 +72,52 @@ in der Reihenfolge der Zuweisung zum Abschnitt.
 .. tip::
    Einen bequemeren Weg um Plotlinienzuweisungen zu verwalten und
    zu überblicken, bietet das 
-   `nv_matrix plugin <https://github.com/peter88213/nv_matrix/>`__. 
+   `nv_matrix-Plugin <https://github.com/peter88213/nv_matrix/>`__. 
    
    Sie können einen Abschnitt auch einer Plotlinie zuweisen, 
    indem Sie im `Handlungsraster <plotting.html#handlungsraster-plot-grid>`__
    Text ins entsprechende Plotliniennotizen-Feld eintragen.
    
-Hinzufügen Plotlinie assignment
-   When clicking on |Hinzufügen|, the "Auswahlmodus"
-   is activated, and the cursor changes to a "plus" shape. By clicking
-   on a Plotlinie, it will be related with the section.
+Eine Plotlinienzuweisung hinzufügen
+   Wenn Sie auf |Hinzufügen| klicken, wird der "Auswahlmodus"
+   aktiviert, und der Cursor nimmt die Form eines "Plus"-Zeichens an.
+   Indem Sie auf eine Plotlinie klicken, verbinden Sie sie mit dem Abschnitt.
 
    .. hint::
-      You can exit the "Auswahlmodus" without selecting an element by
-      clicking on the highlighted status bar, or by pressing the ``Esc``
-      key. 
+      Sie können den "Auswahlmodus" auch ohne Auswahl beenden, 
+      indem Sie auf die eingefärbte Statusleiste klicken, 
+      oder die ``Esc``-Taste drücken. 
 
-Plotlinie entfernen assignment
-   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
-   the selected Plotlinie is removed from the list.
+Eine Plotlinienzuweisung entfernen
+   Wenn Sie auf |Entfernen| klicken oder die ``Entf``-Taste drücken,
+   wird die ausgewählte Plotlinie von der Liste entfernt.
 
-Ansicht the related element
-   When double-clicking on a Plotlinie, or clicking on |Goto|,
-   the selected Plotlinie is opened and its properties are displayed.
+Zur zugewiesenen Plotlinie springen
+   Wenn Sie auf eine zugewiesene Plotlinie doppelklicken,
+   oder wenn Sie auf |Goto| klicken, wird diese Plotlinie geöffnet,
+   und ihre Eingenschaften werden angezeigt.
 
    .. hint::
-      You can go back to the initially selected section with |Go Back|. 
-
-Plotlinie notes
-   You can enter section-related notes for the Plotlinie selected
-   in the list of related Plotlinien. These notes appear in the
-   `plot grid <plotting.html#handlungsraster-plot-grid>`__ where you also can
-   edit them.
-
+      Mit |Go Back| gelangen Sie zurück zum ursprünglich gewählten Abschnitt. 
+ 
+Plotliniennotizen
+   Sie können abschnittsbezogene Notizen für die Plotlinie eingeben,
+   die in der Liste der zugewiesenen Plotlinien ausgewählt ist.
+   Diese Notizen erscheinen im
+   `Handlungsraster <plotting.html#handlungsraster-plot-grid>`__,
+   wo Sie sie ebenfalls bearbeiten können.
 
 
 Plotpunkte
 ~~~~~~~~~~
 
-The plot points assigned with the selected section are displayed
-along with their Plotlinien.
+Die Plotpunkte, die dem ausgewälten Abwschnitt zugewiesen sind,
+werden zusammen mit ihren Plotlinien angezeigt.
 
 .. hint::
-   To change or clear the plot point assignment, go to the
-   `plot point's properties <point_view.html#assigned-section>`__.
+   Um die Zuweisung eines Plotpunkts zu ändern oder zu löschen, 
+   gehen Sie zu den  
+   `Plotpunkt-Eigenschaften <point_view.html#zugeordneter-abschnitt>`__.
 
 
 Szene
@@ -126,8 +128,12 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 .. figure:: _images/section_view03.png
    :alt: Screenshot
 
+   Beispiel für eine "Aktionsszene"
+
 .. figure:: _images/section_view08.png
    :alt: Screenshot
+
+   Beispiel für eine "Reaktionsszene" oder "Folge"
 
 Es gibt eine verbreitete Theorie für "absatzstarke Autoren",
 nach der Romane am besten in Szenen unterteilt werden,
@@ -136,8 +142,8 @@ wobei sich "Aktionsszenen" und "Reaktionsszenen", oder
 Falls Sie so etwas umsetzen wollen, können Sie das hier tun.
 
 Falls das nichts für Sie ist, Sie aber eine andere Methode anwenden wollen,
-um ihre Szenen dramaturgisch zu gliedern,
-können sie den Abschnitt als **Andere** einstellen,
+um ihre Szenen dramaturgisch zu beschreiben,
+können Sie den Abschnitt als **Andere** einstellen,
 um `frei benannte <book_view.html#umbenennungen>`_
 Textfelder zu erhalten.
 
@@ -147,8 +153,8 @@ Textfelder zu erhalten.
    Beispiel für eine vom Standard abweichende Szenenkategorie
 
 Andererseits ist nicht jeder Abschnitt eine Szene, auf welche
-die pben erwähnten Kategorien zutreffen.
-Abschnitte können auch anderweitig charkterisiert werden,
+die oben erwähnten Kategorien zutreffen.
+Abschnitte können auch anderweitig charakterisiert werden,
 zum Beispiel als narrative Zusammenfassung, Dialog, Beschreibung
 oder Erklärung.
 Wenn also ein Abschnitt nicht szenisch ist, können Sie ihn als
@@ -171,7 +177,7 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
    :alt: Screenshot
 
 Wenn Sie Figuren, Schauplätze und Gegenstände mit dem Abschnitt
-in Verbindung bringen wollen, können sie das hier tun, indem
+verbinden wollen, können Sie das hier tun, indem
 Sie das jeweilige Element einer Liste von Beziehungen hinzufügen.
 
 Alter anzeigen
@@ -179,32 +185,33 @@ Alter anzeigen
    verbundenen Figuren abrufen, die ein
    `Geburtsdatum <character_view.html#biographie>`__ haben.
 
-Hinzufügen Relationship
+Beziehung hinzufügen
    Wenn Sie auf |Hinzufügen| klicken, wird der "Auswahlmodus"
-   is activated, and the cursor changes to a "plus" shape. By clicking
-   on a character/location/item, this element will be related with the
-   section.
+   aktiviert, und der Cursor nimmt die Form eines "Plus"-Zeichens an.
+   Indem Sie auf eine Figur, einen Schauplatz oder einen Gegenstand
+   klicken, verbinden Sie dieses Element mit dem Abschnitt.
 
    .. hint::
-      You can exit the "Auswahlmodus" without selecting an element by
-      clicking on the highlighted status bar, or by pressing the ``Esc``
-      key. 
+      Sie können den "Auswahlmodus" auch ohne Auswahl beenden, 
+      indem Sie auf die eingefärbte Statusleiste klicken, 
+      oder die ``Esc``-Taste drücken. 
 
-Entfernen Relationship
-   When clicking on |Entfernen| or pressing the ``Entf``-Taste,
-   the selected relationship is removed from the list.
+Beziehung entfernen
+   Wenn Sie auf |Entfernen| klicken oder die ``Entf``-Taste drücken,
+   wird die ausgewählte Beziehung von der Liste entfernt.
 
-Ansicht the related element
-   When double-clicking on a related element, or clicking on |Goto|,
-   the selected element is opened and its properties are displayed.
+Zum verbundenen Element springen
+   Wenn Sie auf ein verbundenes Element doppelklicken,
+   oder wenn Sie auf |Goto| klicken, wird das ausgewählte Element geöffnet,
+   und seine Eingenschaften werden angezeigt.
 
    .. hint::
-      You can go back to the initially selected section with |Go Back|. 
+      Mit |Go Back| gelangen Sie zurück zum ursprünglich gewählten Abschnitt. 
 
 .. hint::
-   A convenient way to manage and keep track of relationships is offered 
-   by the `nv_matrix plugin 
-   <https://github.com/peter88213/nv_matrix/>`__. 
+   Einen bequemeren Weg um Beziehungen zu verwalten und
+   zu überblicken, bietet das 
+   `nv_matrix-Plugin <https://github.com/peter88213/nv_matrix/>`__. 
 
 
 .. |Hinzufügen| image:: _images/add.png
@@ -216,15 +223,17 @@ Ansicht the related element
 Datum/Zeit
 ----------
 
-Hier können Sie enter information about the selected section's narrative time.
+Hier können Sie Informationen zur Erzählzeit eingeben.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. hint::
-   Dedicated timeline software offers a more convenient way of entering date/time 
-   and duration information. So if chronology is important to your story, you
-   might want to take a look at the `Timeline plugin 
-   <https://github.com/peter88213/nv_timeline/>`__, or the 
-   `Aeon Timeline 2 plugin <https://github.com/peter88213/nv_aeon2/>`__.
+   Spezielle Zeitleistensoftware bietet Ihnen einen bequemeren Weg, 
+   Datum, Zeit und Dauer einzugeben. 
+   Falls Chronologie für Ihre Geschichte wichtig ist, sollten Sie 
+   sich das `Timeline-Plugin 
+   <https://github.com/peter88213/nv_timeline/>`__ oder das 
+   `Aeon Timeline 2-Plugin <https://github.com/peter88213/nv_aeon2/>`__
+   ansehen.
 
 .. figure:: _images/section_view05.png
    :alt: Screenshot
@@ -232,60 +241,62 @@ Die Bearbeitung können Sie mit der Eingabetaste beenden.
 Beginn
 ~~~~~~
 
-If the selected section is a scene, this is when it starts:
+Die Handlung des ausgewählten Abschnitts beginnt hier:
 
 Datum
-   Format: *YYYY-MM-DD*, according to ISO 8601.
+   Format: *JJJJ-MM-TT*, entsprechend ISO 8601.
 
 Zeit
-   Format: *hh:mm*, according to ISO 8601.
+   Format: *hh:mm*, entsprechend ISO 8601.
 
 Tag
-   Format: Any number. Tag "0" is the `reference date
-   <book_view.html#erzahlzeit>`_, if set.
+   Format: Jede Zahl. Tag "0" ist das
+   `Bezugsdatum <book_view.html#erzahlzeit>`_, falls angegeben.
 
 .. note::
-   Alle entries are optional. You can either enter a date, or a day. 
+   Alle Einträge sind optional. Sie können entweder ein Datum 
+   oder einen Tag angeben. 
    
 Datum/Zeit löschen
-   This will reset *Datum*, *Zeit*, and *Tag* simultaneously.
+   Das setzt *Datum*, *Zeit* und *Tag* gleichzeitig zurück.
 
 Erzeugen
-   This generates date and time from the date/time/duration data of the
-   `previous section <Navigationsschaltflächen_>`_, so the selected section
-   follows directly the previous one.
+   Das erzeugt Datum und Zeit aus Datum, Zeit und Dauer des
+   `vorhergehenden Abschnitts <Navigationsschaltflächen_>`_,
+   so dass der ausgewählte Abschnitt unmittelbar auf den
+   vorhergehenden folgt.
 
 Datum/Tag umwandeln
-   If the `reference date <book_view.html#erzahlzeit>`__ is set,
-   The unspecific *Tag* can be transformed into a specific *Datum*,
-   and vice versa.
+   Falls ein `Bezugsdatum <book_view.html#erzahlzeit>`__ angegeben ist,
+   kann der unspezifische *Tag* in ein spezifisches *Datum* umgewandelt
+   werden, und umgekehrt.
 
    .. hint::
-      If necessary können Sie convert all sections at once in the 
-      `Buch properties view <book_view.html#erzahlzeit>`__.
-   
+      Falls nötig, können Sie die Datumsangaben in der
+      `Bucheigenschaften-Ansicht <book_view.html#erzahlzeit>`__
+      auch für alle Abschnitte auf einmal umwandeln.  
 
 Dauer
 ~~~~~
 
 Tage
-   Any number should be accepted.
+   Jede Zahl sollte akzeptiert weden.
 
 Stunden
-   If a number greater than 24 is entered, the number of days
-   will be automatically increased.
+   Wenn Sie eine Zahl über 24 eingeben,
+   wird die Anzahl der Tage automatisch erhöht.
 
 Minuten
-   If a number greater than 60 is entered, the number of hours
-   will be automatically increased.
+   Wenn Sie eine Zahl über 60 eingeben,
+   wird die Anzahl der Stunden automatisch erhöht.
 
 Dauer löschen
-   This will reset *Tage*, *Stunden*, and *Minuten* simultaneously.
+   Das setzt *Tage*, *Stunden* und *Minuten* gleichzeitig zurück.
 
 Erzeugen
-   This generates the duration from the date/time data of the
-   `next section <Navigationsschaltflächen_>`_, so the next section
-   follows directly the current one.
+   Das erzeugt die Zeitdauer aus den Datum-Zeitangaben des
+   `folgenden Abschnitts <Navigationsschaltflächen_>`_,
+   so dass dieser direkt auf den aktuell gewählten folgt.
 
 
 Links
@@ -313,7 +324,7 @@ Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
 
 .. tip::
    Wenn sie mehrere Bilder z.B. zu einer Figur in einem Ordner
-   gesammelt haben, den Ihr Standard-Bildbetrachter durchsuchen kann,
+   gesammelt haben, den Ihr Standard-Bildbetrachter durchlaufen kann,
    ist ein einziger Link auf eines dieser Bilder ausreichend.
    
 Die Links werden in einer Liste angezeigt, und zwar in der Reihenfolge
@@ -341,7 +352,7 @@ Link entfernen
 
 Link öffnen
    Wenn sie auf einen Link doppelklicken, oder auf |Goto| klicken,
-   Wird die Datei, auf die der Link verweist, mit der Standardanwendung
+   wird die Datei, auf die der Link verweist, mit der Standardanwendung
    für ihren Typ geöffnet.
 
    .. hint::
@@ -377,10 +388,10 @@ Der gelbe Texteingabebereich ist für Notizen.
 Änderungen werden übernommen, wenn mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
-Wenn der "Haftmerker" einers Abschnitts Text enthält,
-erscheint in the Baumansicht ein "N" als Merker.
+Wenn der "Haftmerker" eines Abschnitts Text enthält,
+erscheint in the Baumansicht ein "N" als Hinweis.
 
-Wenn ein Kapitelzweig mit Abschnitten, die notizen enthalten,
+Wenn ein Kapitelzweig mit Abschnitten, die Notizen enthalten,
 eingeklappt wird, erscheint das "N" in der Kapitelzeile.
 
 .. note::
@@ -388,10 +399,10 @@ eingeklappt wird, erscheint das "N" in der Kapitelzeile.
    Sie werden nicht beim Dokumentenexport berücksichtigt.
    Allerdings erscheinen sie in der `Abschnittsliste`_.
 
-.. _Abschnittsliste: section_menu.html#exportieren-section-list-spreadsheet
+.. _Abschnittsliste: section_menu.html#abschnittsliste-nur-exportieren
 
 Navigationsschaltflächen
 ------------------------
 
-- **Zurück** moves the selection to the previous section in the tree.
-- **Vor** moves the selection to the next section in the tree.
+- **Zurück** bewegt die Auswahl auf den vorhergehenden Abschnitt im Baum.
+- **Vor** bewegt die Auswahl auf den nachfolgenden Abschnitt im Baum.

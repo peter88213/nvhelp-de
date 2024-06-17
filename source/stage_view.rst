@@ -113,7 +113,7 @@ Der gelbe Texteingabebereich ist für Notizen.
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 Wenn der "Haftmerker" eines Stadiums Text enthält,
-erscheint in the Baumansicht ein "N" als Merker.
+erscheint in the Baumansicht ein "N" als Hinweis.
 
 .. note::
    Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
@@ -123,5 +123,5 @@ erscheint in the Baumansicht ein "N" als Merker.
 Navigationsschaltflächen
 ------------------------
 
-- **Zurück** moves the selection to the previous stage on the same level in the tree.
-- **Vor** moves the selection to the next stage on the same level in the tree.
+- **Zurück** bewegt die Auswahl auf das vorhergehende Stadium im Baum.
+- **Vor** bewegt die Auswahl auf das nachfolgende Stadium im Baum.

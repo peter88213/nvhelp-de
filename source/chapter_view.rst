@@ -140,7 +140,7 @@ Der gelbe Texteingabebereich ist für Notizen.
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 Wenn der "Haftmerker" eines Plotpunkts Text enthält,
-erscheint in the Baumansicht ein "N" als Merker.
+erscheint in the Baumansicht ein "N" als Hinweis.
 
 .. note::
    Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
@@ -152,9 +152,9 @@ Navigationsschaltflächen
 ------------------------
 
 Kapitelansicht
-	- **Zurück** moves the selection to the previous chapter in the tree.
-	- **Vor** moves the selection to the next chapter in the tree.
+   - **Zurück** bewegt die Auswahl auf das vorhergehende Kapitel im Baum.
+   - **Vor** bewegt die Auswahl auf das nachfolgende Kapitel im Baum.
 
 Teileansicht
-	- **Zurück** moves the selection to the previous part in the tree.
-	- **Vor** moves the selection to the next part in the tree.
+   - **Zurück** bewegt die Auswahl auf den vorhergehenden Teil im Baum.
+   - **Vor** bewegt die Auswahl auf den nachfolgenden Teil im Baum.

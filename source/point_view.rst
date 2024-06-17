@@ -26,14 +26,14 @@ The label below "Abschnitt" displays the section Titel.
 
 
 Abschnitt zuordnen
-   When clicking on the **Abschnitt zuordnen** Schaltfläche, the "Auswahlmodus"
-   is activated, and the cursor changes to a "plus" shape. By clicking
-   on a section, this section will be assigned to the plot point.
+   Wenn sie auf |Hinzufügen| klicken, wird der "Auswahlmodus"
+   aktiviert, und der Cursor nimmt die Form eines "Plus"-Zeichens an.
+   Indem Sie auf einen Abschnitt klicken, verbinden Sie ihn mit dem Plotpunkt.
 
    .. hint::
-      You can exit the "Auswahlmodus" without selecting a section by
-      clicking on the highlighted status bar, or by pressing the ``Esc``
-      key. 
+      Sie können den "Auswahlmodus" auch ohne Auswahl beenden, 
+      indem Sie auf die eingefärbte Statusleiste klicken, 
+      oder die ``Esc``-Taste drücken. 
 
 
 Zuordnung löschen
@@ -97,7 +97,7 @@ Link entfernen
 
 
 Link öffnen
-   Wenn sie auf einen Link doppelklicken, oder auf |Goto| klicken,
+   Wenn Sie auf einen Link doppelklicken, oder auf |Goto| klicken,
    Wird die Datei, auf die der Link verweist, mit der Standardanwendung
    für ihren Typ geöffnet.
 
@@ -142,7 +142,7 @@ Der gelbe Texteingabebereich ist für Notizen.
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 Wenn der "Haftmerker" eines Plotpunkts Text enthält,
-erscheint in the Baumansicht ein "N" als Merker.
+erscheint in the Baumansicht ein "N" als Hinweis.
 
 .. note::
    Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
@@ -152,6 +152,6 @@ erscheint in the Baumansicht ein "N" als Merker.
 Navigationsschaltflächen
 ------------------------
 
-- **Zurück** moves the selection to the previous plot point in the tree.
-- **Vor** moves the selection to the next plot point in the tree.
+- **Zurück** bewegt die Auswahl auf den vorhergehenden Plotpunkt im Baum.
+- **Vor** bewegt die Auswahl auf den nachfolgenden Plotpunkt im Baum.
 

@@ -15,12 +15,12 @@ Titel und Inhalt
 Titel und Inhalt are displayed in an editable "Karteikarte".
 
 Die Bearbeitung des Titels können Sie mit der Eingabetaste beenden.
-Changes to the content are applied when the mouse is clicked
+Änderungen am Inhalt werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 
 Navigationsschaltflächen
 ------------------------
 
-- **Zurück** moves the selection to the previous Projektnotiz in the tree.
-- **Vor** moves the selection to the next Projektnotiz in the tree.
+- **Zurück** bewegt die Auswahl auf die vorhergehende Projektnotiz im Baum.
+- **Vor** bewegt die Auswahl auf die nachfolgende Projektnotiz im Baum.
