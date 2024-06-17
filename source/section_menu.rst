@@ -33,59 +33,60 @@ Eigenschaften eines neuen Abschnitts:
 Mehrere Abschnitte hinzufügen
 -----------------------------
 
-**Hinzufügen new sections in bulk**
+**Mehrere neue Abschnitte auf einmal erzeugen**
 
 .. figure:: _images/section_menu04.png
    :alt: novelibre Screenshot
 
 Mit **Abschnitt > Mehrere Abschnitte hinzufügen**
-können Sie add up to 20 sections to the tree.
+können Sie dem Baum bis zu 20 Abschnitte hinzufügen.
 
-- You will be prompted to enter the number of new sections.
-- The number of sections to be added at once is limited to 20.
-- The new sections are placed at the next free position after the selection, if
-  possible.
-- Otherwise, no new section is generated.
+- Sie werden nach der Anzahl der neuen Abschnitte gefragt.
+- Die Anzahl der neuen Abschnitte ist auf 20 begrenzt.
+- Die neuen Abschnitte werden an die nächste freie Stelle nach
+  der Auswahl gesetzt, falls möglich.
+- Andernfalls wird kein Abschnitt erzeugt.
 
 
 Typ wählen
 ----------
 
-**Set the type of the selected section**
+**Den Typ der ausgewählten Abschnitte ändern**
 
 Mit **Abschnitt > Typ wählen**
-können Sie set the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
-of the selected section to *Normal* or *Unbenutzt* .
+können Sie den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+der ausgewählten Abschnitte zu *Normal* oder *Unbenutzt* ändern.
 
 .. figure:: _images/section_menu02.png
    :alt: novelibre Screenshot
 
 .. hint::
 
-   Type change for multiple sections:
-      - Either select multiple sections, or
-      - select a chapter.
+   Um den Typ für mehrere Abschnitte gleichzeitig zu ändern:
+      - Entweder mehrere Abschnitte auswählen, oder
+      - das Kapitel auswählen.
 
 
 Status setzen
 -------------
 
-**Set the section completion status**
+**Den Fertigstellungsstatus des Abschnitts ändern**
 
 .. figure:: _images/section_menu03.png
    :alt: novelibre Screenshot
 
 Mit **Abschnitt > Status setzen**
-können Sie set the `completion status
+können Sie den `Fertigstellungsstatus
 <basic_concepts.html#abschnitts-status>`__
-of the selected section to *Gliederung*, *Entwurf*, *1. Überarbeitung*, *2. Überarbeitung*,
-or *Fertiggestellt*.
+der ausgewählten Abschnitte zu *Gliederung*, *Entwurf*,
+*1. Überarbeitung*, *2. Überarbeitung*
+oder *Fertiggestellt* setzen.
 
 .. hint::
 
-   Status change for multiple sections:
-      -  Either select multiple sections, or
-      -  select a parent node (chapter or Buch)
+   Um den Status für mehrere Abschnitte gleichzeitig zu ändern:
+      - Entweder mehrere Abschnitte auswählen, oder
+      - einen Elternknoten (Kapitel oder Buch) auswählen.
 
 
 Abschnittsbeschreibungen zum Bearbeiten exportieren
@@ -134,8 +135,8 @@ folgenden Daten umfasst:
 - Gegenstände
 
 .. note::
-   Only "normal" sections appear in the section list. 
-   Abschnitte of the "Unbenutzt" type are omitted.
+   Nur "normale" Abschnitte erscheinen in der Abschnittsliste. 
+   Abschnitte vom Typ "unbenutzt" werden ausgelassen.
 
 Der Dateinamenszusatz lautet ``_sectionlist``.
 
