@@ -42,16 +42,16 @@ der ausgewählten Kapitel zu *Normal* oder *Unbenutzt* ändern.
 Ebene ändern
 ------------
 
-**Change the level of the selected chapters**
+**Die Ebene der ausgewählten Kapitel ändern**
 
 Mit **Kapitel > Ebene ändern**
-können Sie turn chapters into parts and vice versa.
+können Sie Kapitel in Teile umwandeln und umgekehrt.
 
 .. figure:: _images/chapter_menu03.png
    :alt: novelibre Screenshot
 
--  **Erste Ebene** converts the selected parts into chapters.
--  **Zweite Ebene** converts the selected chapters into parts.
+-  **Erste Ebene** wandelt die ausgewählten Kapitel in Teile um.
+-  **Zweite Ebene** wandelt die ausgewählten Teile in Kapitel um.
 
 
 Kapitelbeschreibungen zum Bearbeiten exportieren
