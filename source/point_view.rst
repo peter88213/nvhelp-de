@@ -88,7 +88,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows 11 Explorer Screenshot
 
 
 Link entfernen

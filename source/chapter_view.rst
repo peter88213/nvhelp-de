@@ -40,9 +40,9 @@ Mit dem **Unbenutzt**-Auswahlfeld können Sie den
 Dieses Kapitel/diesen Teil nicht automatisch nummerieren
 --------------------------------------------------------
 
-Wenn dieses Auswahlfeld angekreuzt ist,, the selected chapter or part will be excluded
-from `auto numbering <book_view.html#automatische-nummerierung>`_, and the Titel
-you enter manually will persist.
+Wenn dieses Auswahlfeld angekreuzt ist, wird das ausgewählte Kapitel von der
+`automatischen Nummerierung <book_view.html#automatische-nummerierung>`_
+ausgenommen, und der von Ihnen manuell eingegebene Titel bleibt erhalten.
 
 
 Links
@@ -88,7 +88,7 @@ Link hinzufügen
       .. figure:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows 11 Explorer Screenshot
 
 
 Link entfernen
@@ -124,7 +124,7 @@ Link öffnen
       .. figure:: _images/launchers.png
          :alt: Screenshot
          
-         Windows 10 Explorer Screenshot
+         Windows 11 Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
