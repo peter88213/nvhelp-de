@@ -17,17 +17,17 @@ Titel, Beschreibung und Autor
 
 Titel und Beschreibung erscheinen auf einer "Karteikarte" zum Bearbeiten.
 
-Die Bearbeitung von Buchtitel und Autorkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung von Buchtitel und Autor können Sie mit der Eingabetaste beenden.
 Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
-After exporting the book to an *ODT* document, Titel and description
-appear in the document properties.
+Titel und Beschreibung werden beim Export in ODT-Dokumente übernommen.
+Dort erscheinen sie in den Dokumenteigenschaften.
 
 .. figure:: _images/book_view08.png
    :alt: Screenshot
 
-   LibreOffice Writer Screenshot
+   OpenOffice Writer Screenshot
 
 Diese Eigenschaften sind beispielsweise zu sehen, wenn der Mauszeiger im
 Windows Explorer über dem Dokument steht.
@@ -35,7 +35,7 @@ Windows Explorer über dem Dokument steht.
 .. figure:: _images/book_view09.png
    :alt: Screenshot
    
-   Windows 10 Explorer Screenshot
+   Windows 11 Explorer Screenshot
    
 
 
@@ -91,7 +91,7 @@ Kapitel/Teile automatisch nummerieren, wenn der Baum aktualisiert wird.
       <chapter_view.html#dieses-kapitel-nicht-automatisch-nummerieren-part>`__.
       von der automatischen Nummerierung ausschließen,   
 
-Die Eingabe von Präfix und Suffixkönnen Sie mit der Eingabetaste beenden.
+Die Eingabe von Präfix und Suffix können Sie mit der Eingabetaste beenden.
 
 .. note::
    Bitte auch ein Leerzeichen zur Trennung von Präfix oder Suffix
@@ -121,7 +121,7 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 um Informationen zu speichern, die beim Schreiben zur Hand sein sollten.
 Wenn die voreingestellten Kategorien nicht in Ihr individuelles
 Story-Planungskonzept passen, können Sie diese Felder umbenennen.
-Die Bearbeitung der Kategorienkönnen Sie mit der Eingabetaste beenden.
+Die Bearbeitung der Kategorien können Sie mit der Eingabetaste beenden.
 
 "Keine Szene"-Felder
    Die Überschriftersetzungen für *Handlungsfortschritt*, *Charakterisierung* und *Weltenbau*
@@ -231,12 +231,12 @@ Schreibfortschritt protokollieren
 Wörter zu schreiben
    Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
    eingeben, die Ihr Schreibziel in Wörtern angibt.
-   Die Eingabekönnen Sie mit der Eingabetaste beenden.
+   Die Eingabe können Sie mit der Eingabetaste beenden.
 
 Anfangswert
    Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
    eingeben, welche die Anfangs-Wortanzahl für Ihr Schreibziel angibt.
-   Die Eingabekönnen Sie mit der Eingabetaste beenden.
+   Die Eingabe können Sie mit der Eingabetaste beenden.
 
 Aktuelle Wortzahl als Anfangswert setzen
    Klicken Sie auf diese Schaltfläche, um die aktuelle Wortanzahl in das
