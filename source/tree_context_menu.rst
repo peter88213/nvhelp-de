@@ -1,11 +1,11 @@
 Baumansicht Kontextmenü
 =======================
 
-When right-clicking on a tree element in the left pane, a context
-menu opens that belongs to the type of the selected element.
+Wenn sie im linken Fenster auf ein Projektbaumelement rechtsklicken,
+öffnet sich ein passendes Kontextmenü.
 
 .. hint::
-   Greyed-out entries are not available, e.g. due to "project lock".
+   Ausgegraute Elemente sind nicht verfügbar, z.B. wegen "Projektsperre".
 
 
 Buch-Kontextmenüeinräge
@@ -17,153 +17,157 @@ Buch-Kontextmenüeinräge
 Abschnitt hinzufügen
 ~~~~~~~~~~~~~~~~~~~~
 
-Hinzufügens a new section.
+Einen neuen Abschnitt erzeugen.
 
--  The new section is placed at the next free position after the
-   selection.
--  The new section has an auto-generated Titel. You can change it in the
-   right pane.
+- Der neue Abschnitt wird an die nächste freie Stelle nach der Auswahl gesetzt.
+- Der neue Abschnitt hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
-Eigenschaften of a new section
-   -  *Normal* type
-   -  *Gliederung* completion status
-   -  No viewpoint character assigned
-   -  No Plotlinie or tag assigned
-   -  No date/time set
+Eigenschaften eines neuen Abschnitts:
+   -  Typ: *Normal*
+   -  Fertigstellungsstatus: *Gliederung*
+   -  Keine Perspektivfigur zugewiesen
+   -  Keine Plotlinie zugewiesen
+   -  Keine Tags
+   -  Keine Angaben zu Datum, Zeit und Dauer
 
 
 Kapitel hinzufügen
 ~~~~~~~~~~~~~~~~~~
 
-Hinzufügens a new chapter.
+Ein neues Kapitel erzeugen.
 
--  The new chapter is placed at the next free position after the
-   selection.
--  The new chapter has an auto-generated Titel. You can change it in the
-   right pane.
+- Das neue Kapitel wird an die nächste freie Stelle nach der Auswahl gesetzt.
+- Das neue Kapitel hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 
 Teil hinzufügen
 ~~~~~~~~~~~~~~~
 
-Hinzufügens a new part.
+Einen neuen Teil erzeugen.
 
--  The new part is placed at the next free position after the selection.
--  In the tree, the part is at the same level as the chapters, so the
-   chapters are not children of the part. This is to make it easier to
-   move the part boundaries.
--  The new part has an auto-generated Titel. You can change it in the
-   right pane.
+- Der neue Teil wird auf Kapitelebene an der nächsten freien Position
+  nach der Auswahl platziert.
+- Im Projektbaum ist der Teil auf der selben Ebene wie die Kapitel,
+  so dass die Kapitel nicht Kinder des Teils sind.
+  Damit ist es einfacher, die Teilegrenzen zu verschieben.
+- Der neue Teil hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 
 Stadium einfügen
 ~~~~~~~~~~~~~~~~
 
-Inserts a new stage at the next free position at stage level after the
-selection.
+Ein neues Stadium am nächsten freien Platz nach der Auswahl einfügen.
 
--  The new stage has an auto-generated Titel. You can change it in the
-   right pane.
--  The new stage is on the second level by default.
+- Das neue Stadium hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
+- Standardmäßig ist das neue Stadium auf der zweiten Ebene.
 
 
 Ebene ändern
 ~~~~~~~~~~~~
 
-Changes the level of a chapter or a stage.
+Die Ebene eines Kapitels oder Stadiums ändern.
 
--  **Erste Ebene** converts a selected part into a chapter.
--  **Zweite Ebene** converts a selected chapter into a part.
+-  **Erste Ebene** wandelt ein Kapitel in einen Teil um.
+-  **Zweite Ebene** wandelt einen Teil in ein Kapitel um.
 
 
 Löschen
 ~~~~~~~
 
-Löschens the selected tree element and its children.
+Das ausgewählte Baumelement mit allen seinen Kindern löschen.
 
--  Teile und Kapitel werden gelöscht.
--  Abschnitte weerden als "unbenutzt" markiert und ins "Papierkorb"-Kapitel verschoben.
--  Deleting a part has no effect on its subordinate chapters.
--  Deleting a chapter moves its sections to the "Papierkorb" chapter.
--  The "Papierkorb" chapter is created automatically, if needed.
--  Löscht man das "Papierkorb"-Kapitel, werden auch die enthaltenen Abschnitte unwiederbringlich gelöscht.
+- Teile und Kapitel werden gelöscht.
+- Abschnitte weerden als "unbenutzt" markiert und ins "Papierkorb"-Kapitel verschoben.
+- Einen Teil zu löschen, hat keinen Einfluss auf die nachgeordneten Kapitel.
+- Wird ein Kapitel gelöscht, verschiebt das seine Abschnitte ins "Papierkorb" Kapitel.
+- Das "Papierkorb"-Kapitel wird bei Bedarf automatisch erzeugt.
+- Löscht man das "Papierkorb"-Kapitel, werden auch die enthaltenen Abschnitte unwiederbringlich gelöscht.
 
 
 Typ wählen
 ~~~~~~~~~~
 
-Sets the `type <basic_concepts.html#teil-kapitel-abschnittstypen>`__
-of the selected chapter or section.
-This can be *Normal* or *Unbenutzt*.
+Den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
+des ausgewählten Kapitels oder Abschnitts einstellen.
+Dieser kann *Normal* oder *Unbenutzt* sein.
 
 .. note::
-   Setting the type of a chapter to *Unbenutzt* will also make its sections *Unbenutzt*.
+   Wenn man den Typ eines Kapitels zu *Unbenutzt* ändert, 
+   werden auch seine Abschnitte *Unbenutzt*.
 
 Status setzen
 ~~~~~~~~~~~~~
 
-Sets the `completion status <basic_concepts.html#abschnitts-status>`__
-of the selected section.
+Den `Fertigstellungsstatus <basic_concepts.html#abschnitts-status>`__
+des ausgewählten Abschnitts ändern.
 
 .. hint::
-   Select a parent node to set the status for multiple sections.
+   Wählen Sie einen Elternknoten aus, um den Status mehrerer Abschnitte zu ändern.
 
 
 Mit dem vorhergehenden zusammenfassen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Joins two sections, if within the same chapter, of the same type, and
-with the same viewpoint.
+Zwei Abschnitte zusammenfassen, falls sie zum selben Kapitel gehören,
+den selben Typ haben und die selbe Perspektivfigur.
 
--  Neu Titel = Titel of the prevoius section & Titel of the selected
-   section
--  The section contents are concatenated, separated by a paragraph
-   separator.
--  Beschreibungs are concatenated, separated by a paragraph separator.
--  Ziele are concatenated, separated by a paragraph separator.
--  Konflikts are concatenated, separated by a paragraph separator.
--  Ausgangs are concatenated, separated by a paragraph separator.
--  Notizen are concatenated, separated by a paragraph separator.
--  Figurenlistes are merged.
--  Schauplatzlistes are merged.
--  Gegenstandslistes are merged.
--  Plotlinie assignments are merged.
--  Plotpunkt associations are moved to the joined section,
-   if any.
--  Abschnitt durations are added.
+- Neuer Titel = Titel des vorhergehenden Abschnitts & Titel des
+  ausgewählten Abschnitts.
+- Die Abschnittsinhalte werden miteinander verbunden und durch einen
+  Absatzumbruch getrennt.
+- Beschreibungen werden miteinander verbunden und durch einen
+  Absatzumbruch getrennt.
+- Zielangaben werden miteinander verbunden und durch einen
+  Absatzumbruch getrennt.
+- Konfliktangaben werden miteinander verbunden und durch einen
+  Absatzumbruch getrennt.
+- Ausgangsangaben werden miteinander verbunden und durch einen
+  Absatzumbruch getrennt.
+- Notizen werden miteinander verbunden und durch einen
+  Absatzumbruch getrennt.
+- Figurenlisten werden kombiniert.
+- Schauplatzlisten werden kombiniert.
+- Gegenstandslisten werden kombiniert.
+- Plotlinienzuweisungen werden kombiniert.
+- Plotpunktzuweisungen, falls vorhanden, werden zum verbundenen Abschnitt verschoben.
+- Abschnittsdauern werden addiert.
 
 .. caution::
-   Be aware, there is no "Undo" feature.
+   Denken Sie daran, dass es keine Rückgängig-Funktion gibt.
 
 Kapitelebene anzeigen
 ~~~~~~~~~~~~~~~~~~~~~
 
-Hides the sections by collapsing the tree, so that only parts and
-chapters are visible.
+Verbirgt die Abschnitte durch Einklappen des Baums,
+sodass nur Teile und Kapitel sichtbar sind.
 
 
 Aufklappen
 ~~~~~~~~~~
 
-Shows a whole branch by expanding the selected tree element.
+Zeigt einen ganzen Ast, indem das ausgewählte Baumelement aufgeklappt wird.
 
 
 Einklappen
 ~~~~~~~~~~
 
-Hides the child elements of the selected tree element.
+Verbirgt die Kindelemente des ausgewählten Baumelements.
 
 
 Alles aufklappen
 ~~~~~~~~~~~~~~~~
 
-Shows the whole tree.
+Zeigt den ganzen Baum.
 
 
 Alle einklappen
 ~~~~~~~~~~~~~~~
 
-Hides all tree elements except the main categories.
+Verbirgt alle Baumelemente außer den Hauptkategorien.
 
 
 Figuren/Schauplätze/Gegenstände-Kontextmenüeinträge
@@ -175,50 +179,52 @@ Figuren/Schauplätze/Gegenstände-Kontextmenüeinträge
 Hinzufügen
 ~~~~~~~~~~
 
-Hinzufügens a new character/location/item.
+Figur/Schauplatz/Gegenstand erzeugen.
 
--  The new element is placed after the selected one.
--  The new element has an auto-generated Titel. You can change it in the
-   right pane.
--  The status of newly created characters is *minor*.
+- Das neue Element wird hinter dem gewählten platziert.
+- Das neue Element hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
+- Der Status einer neuen Figur ist *Nebenfigur*.
 
 Manuskript nach Perspektive gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exportierens a `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
-with the sections that have the selected character as viewpoint.
-
+Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
+mit den Abschnitten exportieren,
+welche die ausgewählte Figur als Perspektivfigur haben.
 
 Zusammenfassung nach Perspektive gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exportierens the `descriptions of the sections
+Die `Beschreibungen
 <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
-that have the selected character
-as viewpoint.
+derjenigen Abschnitte exportieren,
+welche die ausgewählte Figur als Perspektivfigur haben.
 
 
 Löschen
 ~~~~~~~
 
-Löschens the selected character/location/item.
+Figur/Schauplatz/Gegenstand löschen.
 
 .. caution::
-   Be aware, there is no "Undo" feature.
+   Denken Sie daran, dass es keine Rückgängig-Funktion gibt.
 
 Status setzen
 ~~~~~~~~~~~~~
 
-Sets the selected character’s status. This can be *major* or *minor*.
-Major characters are highlighted in the Baumansicht.
+Kennzeichnet die ausgewählte Figur als *Hauptfigur* oder *Nebenfigur*.
+Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
 
 .. note::
-   The character status is only for visual distinction. It has no
-   influence on the program functions. Niemalstheless können Sie use it
-   to mark viewpoint characters or characters with their own Plotlinien.
+   Der Figurenstatus dient nur zur visuellen Unterscheidung.
+   Er hat keine Auswirkung auf die Programmfunktion.
+   Sie können ihn einsetzen, um Perspektivfiguren 
+   oder Figuren mit eigener Plotlinie zu kennzeichnen.
 
 .. hint::
-   Select the *Figuren* root node to set the status for all characters.
+   Wählen Sie den Wurzelknoten *Figuren* aus, um den Status 
+   für alle Figuren gleichzeitig zu setzen.
 
 Plotlinien-Kontextmenüeinträge
 ------------------------------
@@ -229,47 +235,47 @@ Plotlinien-Kontextmenüeinträge
 Plotlinie hinzufügen
 ~~~~~~~~~~~~~~~~~~~~
 
-Hinzufügens a new Plotlinie
+Eine neue Plotlinie erzeugen.
 
--  If a Plotlinie is selected, the new item is placed after the selected one.
--  Otherwise, the new Plotlinie is placed at the last position.
--  The new Plotlinie has an auto-generated Titel. You can change it in the
-   right pane.
+- Wenn eine Plotlinie ausgewählt ist, wird die neue Plotlinie dahinter platziert.
+- Andernfalls wird die neue Plotlinie an den Schluss gesetzt.
+- Die neue Plotlinie hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 Plotpunkt hinzufügen
 ~~~~~~~~~~~~~~~~~~~~
 
-Hinzufügens a new Plotpunkt
+Einen neuen Plotpunkt erzeugen.
 
-- If a plot point is selected, the new plot point is placed after
-  the selected one.
-- If a Plotlinie is selected, the new plot point is placed at the last position.
-- Otherwise, no new plot point is generated.
-- The new plot point has an auto-generated Titel. You can change it in
-  the right pane.
+- Wenn ein Plotpunkt ausgewählt ist, wird der neue Plotpunkt dahinter platziert.
+- Wenn eine Plotlinie ausgewählt ist, wird der neue Plotpunkt an letzter Stelle platziert.
+- Der neue Plotpunkt hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 Manuskript nach Plotlinie gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exportierens a `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
-with the sections that belong to the selected Plotlinie.
+Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
+mit den Abschnitten exportieren,
+welche zur ausgewählten Plotlinie gehören.
 
 Zusammenfassung nach Plottlinie gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Exportierens the `descriptions of the sections
+Die `Beschreibungen
 <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
-that belong to the selected Plotlinie.
-
+derjenigen Abschnitte exportieren,
+welche zur ausgewählten Plotlinie gehören.
 
 Löschen
 ~~~~~~~
 
-Löschens the selected Plotlinie/plot point.
+Plotlinie/Plotpunkt löschen.
 
 .. caution::
-   Be aware, there is no "Undo" feature. If you delete a Plotlinie, all its
-   plot points will be gelöscht, too.
+   Denken Sie daran, dass es keine Rückgängig-Funktion gibt.
+   Wenn Sie eine Plotlinie löschen, löschen sie gleichzeitig
+   ihre Plotpunkte.
    
    
 Projektnotizen-Kontextmenüeinträge
@@ -278,16 +284,16 @@ Projektnotizen-Kontextmenüeinträge
 Projektnotiz hinzufügen
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Hinzufügens a new Projektnotiz
+Eine Projektnotiz erzeugen.
 
-- If a Projektnotiz is selected, the new Projektnotiz is placed after
-  the selected one.
-- Andernfalls, the new Projektnotiz is placed at the last position.
-- The new Projektnotiz has an auto-generated Titel. You can change it in
-  the right pane.
+- Wenn eine Projektnotiz ausgewählt ist, wird die neue Projektnotiz
+  dahinter platziert.
+- Andernfalls wird die neue Projektnotiz an den Schluss gesetzt.
+- Die neue Projektnotiz hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 Löschen
 ~~~~~~~
 
-Löschens the selected Projektnotiz.
+Die ausgewählte Projektnotiz löschen.
 

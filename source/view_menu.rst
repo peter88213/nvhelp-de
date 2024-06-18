@@ -12,7 +12,7 @@ Kapitelebene anzeigen
 **Die Abschnitte verbergen**
 
 Mit **Ansicht > Kapitelebene anzeigen** oder ``Strg``-``Alt``-``C``
-können Sie den Baum so zusammenklappen,
+können Sie den Baum so einklappen,
 dass nur Teile und Kapitel sichtbar sind.
 
 

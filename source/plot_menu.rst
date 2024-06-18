@@ -38,7 +38,7 @@ können Sie einer Plotlinie einen Plotpunkt hinzufügen.
 Stadium einfügen
 ----------------
 
-**Insert a stage between the sections**
+**Ein neues Stadium zwischen den Abschnitten einfügen**
 
 Mit **Plot > Stadium einfügen**
 können Sie ein Stadium hinter dem ausgewählten Kapitel oder Abschnitt einfügen.

@@ -38,7 +38,7 @@ Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
    Der Figurenstatus dient nur zur visuellen Unterscheidung.
    Er hat keine Auswirkung auf die Programmfunktion.
    Sie können ihn einsetzen, um Perspektivfiguren 
-   oder Figuren mit eigenem Entwicklungsbogen zu kennzeichnen.
+   oder Figuren mit eigener Plotlinie zu kennzeichnen.
 
 
 Importieren
