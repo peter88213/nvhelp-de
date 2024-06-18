@@ -9,8 +9,8 @@ Extras-Menü
 .. note:: 
    Das *Extras*-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.
 
-Plugin manager
---------------
+Pluginmanager
+-------------
 
 **Die installierten Plugins anzeigen und verwalten**
 
@@ -43,24 +43,27 @@ Wie Sie ein Plugin deinstallieren
    
    ``<Hauptversionsnummer>.<Nebenversionsnummer>.<Patchlevel>``
    
-   In the **novelibre API** column, you see the plugin’s compatibility
-   information, consisting of two numbers that are separated by points.
+   In der Spalte **novelibre API** sehen Sie die Kompatibilitätsinformation
+   des Plugins, die aus zwei zurch einen Punkt getrennte Zahlen besteht.
    
-   ``<major version number>.<minor version number>``
+   ``<Hauptversionsnummer>.<Nebenversionsnummer>``
    
-   The rule for compatibility
-      -  The plugin’s *novelibre API* major version number must be the same as
-         *novelibre’s* major version number.
-      -  The plugin’s *novelibre API* minor version number must be less than
-         or equal to *novelibre’s* minor version number.
+   Die Regel für die Kompatibilität
+      - Die *novelibre API* Hauptversionsnummer des Plugins muss mit der
+        Hauptversionsnummer von *novelibre* übereinstimmen.
+      - Die *novelibre API* Nebenversionsnummer des Plugins muss kleiner
+        oder gleich wie die Nebenversionsnummer von *novelibre* sein.
    
-   Fix incompatibilities
-      -  If the plugin’s *novelibre API* major version number is greater than
-         *novelibre’s* major version number, *novelibre* needs to be updated.
-      -  If the plugin’s *novelibre API* major version number is less than
-         *novelibre’s* major version number, the plugin needs to be updated.
-      -  If the plugin’s *novelibre API* minor version number is greater than
-         *novelibre’s* minor version number, *novelibre* needs to be updated.
+   InKompatibilität beheben
+      - Wenn die *novelibre API* Hauptversionsnummer des Plugins größer
+        als die Hauptversionsnummer von *novelibre* ist,
+        muss *novelibre* aktualisiert werden.
+      - Wenn die *novelibre API* Hauptversionsnummer des Plugins kleiner
+        als die Hauptversionsnummer von *novelibre* ist,
+        muss das Plugin aktualisiert werden.
+      - Wenn die *novelibre API* Nebenversionsnummer des Plugins größer
+        als die Nebenversionsnummer von *novelibre* ist,
+        muss *novelibre* aktualisiert werden.
 
 
 Installationsordner öffnen

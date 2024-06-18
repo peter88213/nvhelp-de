@@ -72,7 +72,7 @@
 <li class="toctree-l2"><a class="reference internal" href="export_menu.html">Exportieren-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="import_menu.html">Importieren-Menü</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Extras-Menü</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#plugin-manager">Plugin manager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pluginmanager">Pluginmanager</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#installationsordner-offnen">Installationsordner öffnen</a></li>
 </ul>
 </li>
@@ -120,8 +120,8 @@
 <p class="admonition-title">Bemerkung</p>
 <p>Das <em>Extras</em>-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.</p>
 </div>
-<section id="plugin-manager">
-<h2>Plugin manager<a class="headerlink" href="#plugin-manager" title="Link to this heading"></a></h2>
+<section id="pluginmanager">
+<h2>Pluginmanager<a class="headerlink" href="#pluginmanager" title="Link to this heading"></a></h2>
 <p><strong>Die installierten Plugins anzeigen und verwalten</strong></p>
 <p>Mit <strong>Extras &gt; Plugin manager</strong>
 können Sie den <em>Installierte Plugins</em>-Dialog öffnen.</p>
@@ -152,24 +152,27 @@ Installieren Sie das Plugin gemäß Anleitung.</p></li>
 <p>Auf dem Fensterrahmen sehen Sie die Version von <em>novelibre</em>,
 die aus drei Zahlen besteht, die durch Punkte getrennt sind.</p>
 <p><code class="docutils literal notranslate"><span class="pre">&lt;Hauptversionsnummer&gt;.&lt;Nebenversionsnummer&gt;.&lt;Patchlevel&gt;</span></code></p>
-<p>In the <strong>novelibre API</strong> column, you see the plugin’s compatibility
-information, consisting of two numbers that are separated by points.</p>
-<p><code class="docutils literal notranslate"><span class="pre">&lt;major</span> <span class="pre">version</span> <span class="pre">number&gt;.&lt;minor</span> <span class="pre">version</span> <span class="pre">number&gt;</span></code></p>
+<p>In der Spalte <strong>novelibre API</strong> sehen Sie die Kompatibilitätsinformation
+des Plugins, die aus zwei zurch einen Punkt getrennte Zahlen besteht.</p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;Hauptversionsnummer&gt;.&lt;Nebenversionsnummer&gt;</span></code></p>
 <dl class="simple">
-<dt>The rule for compatibility</dt><dd><ul class="simple">
-<li><p>The plugin’s <em>novelibre API</em> major version number must be the same as
-<em>novelibre’s</em> major version number.</p></li>
-<li><p>The plugin’s <em>novelibre API</em> minor version number must be less than
-or equal to <em>novelibre’s</em> minor version number.</p></li>
+<dt>Die Regel für die Kompatibilität</dt><dd><ul class="simple">
+<li><p>Die <em>novelibre API</em> Hauptversionsnummer des Plugins muss mit der
+Hauptversionsnummer von <em>novelibre</em> übereinstimmen.</p></li>
+<li><p>Die <em>novelibre API</em> Nebenversionsnummer des Plugins muss kleiner
+oder gleich wie die Nebenversionsnummer von <em>novelibre</em> sein.</p></li>
 </ul>
 </dd>
-<dt>Fix incompatibilities</dt><dd><ul class="simple">
-<li><p>If the plugin’s <em>novelibre API</em> major version number is greater than
-<em>novelibre’s</em> major version number, <em>novelibre</em> needs to be updated.</p></li>
-<li><p>If the plugin’s <em>novelibre API</em> major version number is less than
-<em>novelibre’s</em> major version number, the plugin needs to be updated.</p></li>
-<li><p>If the plugin’s <em>novelibre API</em> minor version number is greater than
-<em>novelibre’s</em> minor version number, <em>novelibre</em> needs to be updated.</p></li>
+<dt>InKompatibilität beheben</dt><dd><ul class="simple">
+<li><p>Wenn die <em>novelibre API</em> Hauptversionsnummer des Plugins größer
+als die Hauptversionsnummer von <em>novelibre</em> ist,
+muss <em>novelibre</em> aktualisiert werden.</p></li>
+<li><p>Wenn die <em>novelibre API</em> Hauptversionsnummer des Plugins kleiner
+als die Hauptversionsnummer von <em>novelibre</em> ist,
+muss das Plugin aktualisiert werden.</p></li>
+<li><p>Wenn die <em>novelibre API</em> Nebenversionsnummer des Plugins größer
+als die Nebenversionsnummer von <em>novelibre</em> ist,
+muss <em>novelibre</em> aktualisiert werden.</p></li>
 </ul>
 </dd>
 </dl>
