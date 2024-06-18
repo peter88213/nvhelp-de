@@ -24,16 +24,16 @@ in den Baum einfügen.
 Importieren
 -----------
 
-**Importieren locations from another project**
+**Schauplätze aus einem anderen Projekt importieren**
 
 Mit **Schauplätze > Importieren**
-können Sie import a selection of locations from another project.
-First you select an XML file containing the location data.
-Then you select the locations you want to add to the current project.
+können Sie eine Auswahl von Schauplätzen aus einem anderen Projekt übernehmen.
+Zuerst wählen Sie eine XML-Datei aus, welche die Schauplatzdaten enthält.
+Dann wählen Sie die Schauplätze aus, die Sie zum aktuellen Projekt hinzufügen wollen.
 
 .. hint::
-   To create an XML-Schauplatzdatei for the current project, 
-   use **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien**.
+   Um für das aktuelle Projekt eine XML-Schauplatzdatei zu erzeugen, 
+   rufen Sie **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien** auf.
 
 
 Schauplatzbeschreibungen zum Bearbeiten exportieren

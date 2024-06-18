@@ -24,16 +24,16 @@ in den Baum einfügen.
 Importieren
 -----------
 
-**Importieren items from another project**
+**Gegenstände aus einem anderen Projekt importieren**
 
 Mit **Gegenstände > Importieren**
-können Sie import a selection of items from another project.
-First you select an XML file containing the item data.
-Then you select the items you want to add to the current project.
+können Sie eine Auswahl von Gegenständen aus einem anderen Projekt übernehmen.
+Zuerst wählen Sie eine XML-Datei aus, welche die Gegenstandsdaten enthält.
+Dann wählen Sie die Gegenstände aus, die Sie zum aktuellen Projekt hinzufügen wollen.
 
 .. hint::
-   To create an XML-Gegenstandsdatei for the current project, 
-   use **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien**.
+   Um für das aktuelle Projekt eine XML-Gegenstandsdatei zu erzeugen, 
+   rufen Sie **Exportieren > Figuren/Schauplätze/Gegenstände-Datendateien** auf.
 
 
 Gegenstandsbeschreibungen zum Bearbeiten exportieren

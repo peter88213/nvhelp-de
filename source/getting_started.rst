@@ -4,7 +4,7 @@ Erste Schritte
 Von Null beginnen
 -----------------
 
-Wenn Sie *novelibre* starten, indem Sie eine *.novx* Datei auf das Symbol ziehen,
+Wenn Sie *novelibre* starten, indem Sie eine *.novx*-Datei auf das Symbol ziehen,
 wird dieses Projekt geöffnet. Andernfalls wird das Projekt der letzten
 Sitzung automatisch wieder geöffnet, falls es eines gibt.
 
