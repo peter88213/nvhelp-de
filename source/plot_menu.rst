@@ -78,17 +78,17 @@ Handlungsraster (Plot grid) zum Bearbeiten exportieren
 Mit **Plot > Handlungsraster (Plot grid) zum Bearbeiten exportieren**
 können Sie ein Tabellenkalkulationsdokument erzeugen, wie im Kapitel
 `Mit novelibre plotten <plotting.html#handlungsraster-plot-grid>`__ beschrieben,
-mit einer Zeile pro Abschnitt und folgenden Spalten:
+mit einer Zeile pro Abschnitt und den folgenden Spalten:
 
-- The sequential section number as a hyperlink to the section in the
-  Manuskript (falls vorhanden)
+- Abschnitts-ID (eingeklappt)
+- Abschnittsnummer (Hyperlink zum Manuskript)
 - Erzähldatum
 - Erzählzeit
 - Tag
 - Abschnittstitel
 - Abschnittsbeschreibung
-- Perspektive
-- One column per Plotlinie with the section's Plotlinie notes
+- Perspektivfigur (Kurzname)
+- eine Spalte pro Plotlinie mit den Plotliniennotizen des Abschnitts
 - Tags
 - Szene
 - Ziel/Reaktion/(benutzerdefiniert)
@@ -97,8 +97,8 @@ mit einer Zeile pro Abschnitt und folgenden Spalten:
 - Abschnittsnotizen
 
 .. note::
-   Only "normal" sections appear in the plot grid. 
-   Abschnitte of the "Unbenutzt" type are omitted.
+   Nur "normale" Abschnitte erscheinen im Handlungsraster. 
+   Abschnitte vom Typ "unbenutzt" werden ausgelassen.
 
 Der Dateinamenszusatz lautet ``_grid_tmp``.
 
@@ -117,11 +117,14 @@ Erzählstruktur-Beschreibung zum Bearbeiten exportieren
 
 Mit **Plot > Erzählstruktur-Beschreibung zum Bearbeiten exportieren**,
 können Sie ein Textdokument erzeugen, das
-all stages, each with description.
-File name suffix is ``_structure_tmp``.
+alle Stadien mit Beschreibung enthält.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
+Der Dateinamenszusatz lautet ``_structure_tmp``.
 
 .. hint::
-   This is also a full synopsis, with the emphasis on the dramaturgical structure.
+   Dies kann auch eine vollständige Inhaltsangabe darstellen, 
+   wobei der Schwerpunkt auf dem dramaturgischen Aufbau liegt. 
 
 
 Plotlinienbeschreibungen zum Bearbeiten exportieren
@@ -131,9 +134,11 @@ Plotlinienbeschreibungen zum Bearbeiten exportieren
 
 Mit **Plot > Plotlinienbeschreibungen zum Bearbeiten exportieren**,
 können Sie ein Textdokument erzeugen, das
-stages, plot lines, and plot points, each with description.
-The plot points are linked to the manuscript and to the section descriptions.
-File name suffix is ``_plotlines_tmp``.
+Stadien, Plotlinien und Plotpunkte enthält, jeweils mit Beschreibung.
+Die Plotpunkte sind mit dem Manuskript und mit den Abschnittsbeschreibungen velinkt.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
+Der Dateinamenszusatz lautet ``_plotlines_tmp``.
 
 
 Plot-Liste exportieren (Tabelle)
@@ -145,8 +150,9 @@ Mit **Plot > Plot-Liste exportieren (Tabelle)**
 können Sie ein Tabellendokument
 mit einer Zeile pro Abschnitt und einer Spalte pro Plotlinie
 erzeugen.
-Associations between Plotlinien and sections are color-highlighted.
-Plotpunkt Titels are displayed.
+Verbindungspunkte zwischen Plotlinien und Abschnitten sind
+farblich hervorgehoben.
+Plotpunkttitel sind eingetragen.
 Der Dateinamenszusatz lautet ``_plotlist``.
 
 .. hint::
@@ -168,20 +174,22 @@ Der Dateinamenszusatz lautet ``_plotlist``.
 Plot-Liste anzeigen
 -------------------
 
-**Einen HTML-Report mit Plot-elementen anzeigen**
+**Einen HTML-Report mit Plotelementen anzeigen**
 
 Mit **Plot > Plot-Liste anzeigen**
-You can create a list-formatted HTML file that contains
-a plot list similar to the ODS plot list (see above),
-but without any hyperlinks,
-and launch your system’s web browser for displaying it.
+erzeugen Sie eine als Tabelle formatierte HTML-Seite
+mit einer Plotliste wie der ODS-Plotliste (siehe oben),
+doch ohne Hyperlinks,
+und starten Ihren System-Webbrowser zur Anzeige.
 
 .. figure:: _images/plot_menu03.jpg
-   :alt: Edge browser Screenshot
+   :alt: Edge-Browser Screenshot
 
-   Edge browser Screenshot
+   Edge-Bbrowser Screenshot
 
 .. note::
-   The report is a temporary file, auto-gelöscht on program exit.
-   If needed können Sie have your web browser save or print it.
+   Der Report ist eine temporäre Datei, die bei 
+   Programmbeendigung automatisch gelöscht wird.
+   Lassen Sie sie bei Bedarf von Ihrem Browser 
+   sichern oder ausdrucken.
 

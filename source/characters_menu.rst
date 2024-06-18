@@ -91,13 +91,15 @@ Der Dateinamenszusatz lautet ``_charlist_tmp``.
 Liste anzeigen
 --------------
 
-**Einen HTML-Report mit characters data**
+**Einen HTML-Report mit Figurendaten anzeigen**
 
 Mit **Figuren > Liste anzeigen**
-können Sie create a list-formatted HTML filethat contains
-a character list,
-and launch your system’s web browser for displaying it.
+erzeugen Sie eine als Tabelle formatierte HTML-Seite
+mit einer Figurenliste
+und starten Ihren System-Webbrowser zur Anzeige.
 
 .. note::
-   The report is a temporary file, auto-gelöscht on program exit.
-   If needed können Sie have your web browser save or print it.
+   Der Report ist eine temporäre Datei, die bei 
+   Programmbeendigung automatisch gelöscht wird.
+   Lassen Sie sie bei Bedarf von Ihrem Browser 
+   sichern oder ausdrucken.

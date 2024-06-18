@@ -28,6 +28,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    :maxdepth: 2
    :caption: Inhalt
    
+   introduction
    preparations
    desktop
    basic_concepts

@@ -110,14 +110,13 @@ Abschnittsliste (nur Exportieren)
 
 Mit **Abschnitt > Abschnittsliste (nur Exportieren)**
 können Sie ein Tabellenkalkulationsdokument
-mit einer Reihe pro Abschnitt erzeugen, welche die
-folgenden Daten umfasst:
+mit einer Zeile pro Abschnitt und den folgenden Spalten:
 
 - Abschnitts-ID (eingeklappt)
 - Abschnittsnummer (Hyperlink zum Manuskript)
 - Titel
 - Beschreibung
-- Perspektivfigur
+- Perspektivfigur (Kurzname)
 - Datum
 - Zeit
 - Tag

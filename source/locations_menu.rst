@@ -42,8 +42,10 @@ Schauplatzbeschreibungen zum Bearbeiten exportieren
 **Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann**
 
 Mit **Gegenstände > Schauplatzbeschreibungen zum Bearbeiten exportieren**
-können Sie ein Textdokument erzeugen, das eine
-location descriptions that can be edited with *Writer* and reimported.
+können Sie ein Textdokument erzeugen, das
+Schauplatzbeschreibungen enthält.
+Dieses Dokument kann mit *Writer* bearbeitet und zu *novelibre*
+zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_locations_tmp``.
 
 
@@ -72,11 +74,13 @@ Liste anzeigen
 **Einen HTML-Report mit Schaupatzdaten anzeigen**
 
 Mit **Schauplätze > Liste anzeigen**
-können Sie create a list-formatted HTML file that contains
-a location list,
-and launch your system’s web browser for displaying it.
+erzeugen Sie eine als Tabelle formatierte HTML-Seite
+mit einer Schauplatzliste
+und starten Ihren System-Webbrowser zur Anzeige.
 
 .. note::
-   The report is a temporary file, auto-gelöscht on program exit.
-   If needed können Sie have your web browser save or print it.
+   Der Report ist eine temporäre Datei, die bei 
+   Programmbeendigung automatisch gelöscht wird.
+   Lassen Sie sie bei Bedarf von Ihrem Browser 
+   sichern oder ausdrucken.
 
