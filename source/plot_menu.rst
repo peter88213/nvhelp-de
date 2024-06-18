@@ -16,12 +16,10 @@ können eine Plotlinie
 in den Baum einfügen.
 
 
-.. note::
-
-   -  If a Plotlinie is selected, the new item is placed after the selected one.
-   -  Otherwise, the new Plotlinie is placed at the last position.
-   -  The new Plotlinie has an auto-generated Titel. You can change it in the
-      right pane.
+- Wenn eine Plotlinie ausgewählt ist, wird die neue Plotlinie dahinter platziert.
+- Andernfalls wird die neue Plotlinie an den Schluss gesetzt.
+- Die neue Plotlinie hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 Plotpunkt hinzufügen
 --------------------
@@ -31,13 +29,11 @@ Plotpunkt hinzufügen
 Mit **Plot > Plotpunkt hinzufügen**
 können Sie einer Plotlinie einen Plotpunkt hinzufügen.
 
-.. note::
-
-   - If a plot point is selected, the new plot point is placed after the selected one.
-   - If a Plotlinie is selected, the new plot point is placed at the last position.
-   - Otherwise, no new plot point is generated.
-   - The new plot point has an auto-generated Titel. You can change it in
-     the right pane.
+- Wenn ein Plotpunkt ausgewählt ist, wird der neue Plotpunkt dahinter platziert.
+- Wenn eine Plotlinie ausgewählt ist, wird der neue Plotpunkt an letzter Stelle platziert.
+- Andernfalls wird kein neuer Plotpunkt erzeugt.
+- Der neue Plotpunkt hat einen automatisch erzeugten Titel.
+  Sie können ihn im rechten Bereich der Arbeitsfläche ändern.
 
 Stadium einfügen
 ----------------
@@ -48,26 +44,26 @@ Mit **Plot > Stadium einfügen**
 können Sie ein Stadium hinter dem ausgewählten Kapitel oder Abschnitt einfügen.
 
 .. hint::
-   By default, the new stage is on the second level. 
-   You can change the level to first (see below).
+   Standardmäßig ist das neue Stadium auf der zweiten Ebene.
+   Sie können die Ebene ändern (siehe unten).
 
 Ebene ändern
 ------------
 
-**Change the level of the selected stages**
+**Die Ebene der ausgewählten Stadien ändern**
 
 Mit **Plot > Ebene ändern**
-können Sie change the level of the selected stages.
+können Sie die Ebene der ausgewählten Stadien ändern.
 
 .. figure:: _images/plot_menu02.png
    :alt: novelibre Screenshot
 
--  **Erste Ebene** is displayed in bold face.
--  **Zweite Ebene** is displayed in regular font.
+-  **Erste Ebene** wird in fetter Schrift dargestellt.
+-  **Zweite Ebene** word in normaler Schrift dargestellt.
 
 .. note::
-   The stage level is only for visual distinction. It has no
-   influence on the program functions. 
+   Die Ebene eines Stadiums dient nur zur visuellen Unterscheidung.
+   Sie hat keine Auswirkung auf die Programmfunktion.
 
 
 Handlungsraster (Plot grid) zum Bearbeiten exportieren
@@ -156,20 +152,22 @@ Plotpunkttitel sind eingetragen.
 Der Dateinamenszusatz lautet ``_plotlist``.
 
 .. hint::
-   The Plotlinie Titels and the section Titels are hyperlinked to 
-   the respective descriptions in other exported documents, if any.
-
+   Die Titel der Plotlinien und der Abschnitte sind als Querverweise
+   zu den entsprechenden Stellen im Manuskript ausgeführt. 
+ 
 .. figure:: _images/plot_menu04.png
    :alt: LibreOffice Screenshot
 
-   LibreOffice Screenshot. Note the hyperlink from the Plotlinie Titel in the
-   plot list (left) to the Plotlinie in the plot description (right). 
+   LibreOffice Screenshot. Beachten Sie den Plotlinientitel in der
+   Plotliste (links) zur Plotlinie in der Plotbeschreibung (rechts).
 
 .. important::
-   Hyperlinks in ODS spreadsheets are absolute within the file system, 
-   so they might not work after moving the location of your project file
-   to another folder or computer. In this case, you will have to 
-   export the spreadsheet anew.  
+   Hyperlinks in ODS-Tabellendokumenten sind im Dateisystem absolut,
+   so dass sie eventuell nicht mehr funktionieren, nachdem Sie den 
+   Speicherort Ihres Projekts zu einem anderen Ordner oder Computer
+   verschoben haben. 
+   In diesem Fall müssen Sie Ihr Tabellendokument erneut exportieren.  
+
 
 Plot-Liste anzeigen
 -------------------
@@ -183,9 +181,9 @@ doch ohne Hyperlinks,
 und starten Ihren System-Webbrowser zur Anzeige.
 
 .. figure:: _images/plot_menu03.jpg
-   :alt: Edge-Browser Screenshot
+   :alt: Edge-Browser-Screenshot
 
-   Edge-Bbrowser Screenshot
+   Edge-Browser-Screenshot
 
 .. note::
    Der Report ist eine temporäre Datei, die bei 
