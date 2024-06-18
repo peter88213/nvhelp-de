@@ -7,8 +7,7 @@ Extras-Menü
    :alt: novelibre Screenshot
 
 .. note:: 
-   The *Extras*-Menü can be extended by plugins to add more
-   features.
+   Das *Extras*-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.
 
 Plugin manager
 --------------
@@ -21,27 +20,28 @@ können Sie den *Installierte Plugins*-Dialog öffnen.
 .. figure:: _images/tools_menu01.png
    :alt: novelibre Screenshot
 
--  Successfully installed plugins are displayed black on white by
-   default.
--  Outdated plugins are grayed out.
--  Plugins that cannot run are displayed in red, with an error message.
+- Erfolgreich installierte Plugins werden standardmäßig schwarz auf weiß dargestellt.
+- Veraltete Plugins werden ausgegraut.
+- Plugins, die nicht funktionieren, werden zusammen mit einer Fehlermeldung in roter
+  Schrift dargestellt.
 
-How to update a plugin
-   1. Select the plugin you want to update. If the **Homepage** Schaltfläche is
-      activated können Sie click on it, and your system browser opens the plugin
-      Homepage. Otherwise, you have to know the source of the plugin yourself.
-   2. Gehe zu the plugin Homepage and download the latest release. Install it
-      according to the instructions.
+Wie Sie ein Plugin aktualisieren
+   1. Wählen Sie das Plugin aus, das Sie aktualisieren wollen.
+      Falls die **Homepage**-Schaltfläche aktiviert ist,
+      können Sie darauf klicken, und Ihr System-Webbrowser öffnet die Homepage.
+      Andernfalls müssen Sie die Quelle des Plugins selbst kennen.
+   2. Gehen Sie zur Plugin-Homepage und laden Sie die neueste Version herunter.
+      Installieren Sie das Plugin gemäß Anleitung.
 
-How to uninstall a plugin
-   Select the plugin, and click on the **Löschen** Schaltfläche.
+Wie Sie ein Plugin deinstallieren
+   Wählen Sie das Plugin aus und klicken Sie auf die **Löschen**-Schaltfläche.
 
-.. admonition:: About version compatibility
+.. admonition:: Über die Kompatibilität von Versionen
     
-   On the window frame, you see the *novelibre* version, consisting of
-   three numbers that are separated by points.
+   Auf dem Fensterrahmen sehen Sie die Version von *novelibre*, 
+   die aus drei Zahlen besteht, die durch Punkte getrennt sind.
    
-   ``<major version number>.<minor version number>.<patch level>``
+   ``<Hauptversionsnummer>.<Nebenversionsnummer>.<Patchlevel>``
    
    In the **novelibre API** column, you see the plugin’s compatibility
    information, consisting of two numbers that are separated by points.
@@ -70,6 +70,6 @@ Installationsordner öffnen
 
 Mit **Extras > Installationsordner öffnen**
 können Sie den *novelibre*-Installationsordner im Dateimanager öffnen.
-This might come in handy if you wish to edit configuration files,
-or install your own plugins.
+Das kann praktisch sein, wenn Sie Konfigurationsdateien bearbeiten
+oder eigene Plugins installieren wollen.
 

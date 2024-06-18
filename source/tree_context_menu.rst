@@ -1,11 +1,12 @@
-Baumansicht Kontextmenü
+Baumansicht-Kontextmenü
 =======================
 
-Wenn sie im linken Fenster auf ein Projektbaumelement rechtsklicken,
+Wenn Sie im linken Fenster auf ein Projektbaumelement rechtsklicken,
 öffnet sich ein passendes Kontextmenü.
 
 .. hint::
-   Ausgegraute Elemente sind nicht verfügbar, z.B. wegen "Projektsperre".
+   Ausgegraute Elemente sind nicht verfügbar, z.B. wegen 
+   `Projektsperre <basic_concepts.html#projekt-sperre>`__.
 
 
 Buch-Kontextmenüeinräge
