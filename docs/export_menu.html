@@ -72,9 +72,9 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Exportieren-Menü</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#manuskript-zum-bearbeiten">Manuskript zum Bearbeiten</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#manuskript-fur-fremde-textverarbeitung">Manuskript für fremde Textverarbeitung</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#manuskript-zum-drucken-nur-exportieren">Manuskript zum Drucken (nur Exportieren)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#kurzzusammenfassung-nur-exportieren">Kurzzusammenfassung (nur Exportieren)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#querverweise-nur-exportieren">Querverweise (nur Exportieren)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#manuskript-zum-drucken-nur-export">Manuskript zum Drucken (nur Export)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kurzzusammenfassung-nur-export">Kurzzusammenfassung (nur Export)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#querverweise-nur-export">Querverweise (nur Export)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#figuren-schauplatze-gegenstande-datendateien">Figuren/Schauplätze/Gegenstände-Datendateien</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#optionen">Optionen</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#vor-dem-offnen-exportierter-dokumente-nachfragen">Vor dem Öffnen exportierter Dokumente nachfragen</a></li>
@@ -133,29 +133,31 @@ können Sie ein Textdokument erzeugen, das in Abschnitte aufgeteilt ist
 (im Navigator sichtbar).
 Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_Manuskript_tmp</span></code>.</p>
 <ul>
-<li><p>Only „normal“ chapters and sections are exported. Kapitels and
-sections marked „unused“ are not exported.</p></li>
-<li><p>Abschnittstitels are invisible, but appear in the <em>Navigator</em>.</p></li>
-<li><p>Kapitels and sections can neither be rearranged nor gelöscht.</p></li>
-<li><p>Mit <em>Writer</em> können Sie split sections by
-inserting headings or a section divider:</p>
-<ul class="simple">
-<li><p><em>Heading 1</em> → Neu part Titel. Wahlweise können Sie add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><em>Heading 2</em> → Neu chapter Titel. Wahlweise können Sie add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Abschnitt divider. Wahlweise können Sie append the section
-Titel to the section divider. You can also add a description,
-separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p>Nur „normale“ Kapitel und Abschnitte werden exportiert.
+Kapitel und Abschnitte vom Typ „unbenutzt“ werden ausgelassen.</p></li>
+<li><p>Abschnittstitel sind unsichtbar, erscheinen aber im <em>Navigator</em>.</p></li>
+<li><p>Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.</p></li>
+<li><p>Mit <em>Writer</em> können Sie Abschnitte aufteilen, indem sie Überschriften
+oder einen Abschnitstrenner einfügen:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><em>Überschrift 1</em> → Titel des neuen Teils.
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><em>Überschrift 2</em> → Titel des neuen Kapitels
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Abschnittstrenner.
+Wahlweise können Sie  an den Trenner einen Abschnittstitel, und,
+durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
 </ul>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
-<p>Dokuments with split sections are automatically
-discarded after the <em>novelibre</em> project is updated.</p>
+<p>Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
+zu <em>novelibre</em> automatisch gelöscht.</p>
 </div>
+</div></blockquote>
 </li>
-<li><p>Text markup: Bold and italics are supported. Other highlighting such
-as underline and strikethrough are lost.</p></li>
+<li><p>Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
+Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.</p></li>
 </ul>
 </section>
 <section id="manuskript-fur-fremde-textverarbeitung">
@@ -166,143 +168,144 @@ können Sie ein Textdokument mit sichtbaren Abschnittsamarkierungen erzeugen.
 Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_proof_tmp</span></code>.</p>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>This document retains its section information even if it is
-converted to other formats and back again. This may work with
-popular commercial word processors and even with web-based word
-processors such as Google Docs.</p>
+<p>Dieses Dokument behält seine Abschnittsinformationen auch dann,
+wenn es in andere Dateiformate konvertiert wird und umgekehrt.
+Das sollte mit verbreiteten kommerziellen Textverarbeitungsprogrammen
+funktionieren, auch mit webbasierten Textverarbeitungen wie Google Docs.</p>
 </div>
 <ul>
-<li><p>Only „normal“ chapters and sections are exported. Kapitels and
-sections marked „unused“ are not exported.</p></li>
-<li><p>The document contains chapter and section headings. However, changes
-will not be reimported.</p></li>
-<li><p>The document contains section <code class="docutils literal notranslate"><span class="pre">[scx]</span></code> markers. <strong>Do not touch lines
-containing the markers</strong> if you want to be able to write the document
-back to <em>novelibre</em> format.</p></li>
-<li><p>Kapitels and sections can neither be rearranged nor gelöscht.</p></li>
-<li><p>When editing the document können Sie split sections by inserting
-headings or a section divider:</p>
-<ul class="simple">
-<li><p><em>Heading 1</em> → Neu part Titel. Wahlweise können Sie add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><em>Heading 2</em> → Neu chapter Titel. Wahlweise können Sie add a
-description, separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Abschnitt divider. Wahlweise können Sie append the section
-Titel to the section divider. You can also add a description,
-separated by <code class="docutils literal notranslate"><span class="pre">|</span></code>.</p></li>
+<li><p>Nur „normale“ Kapitel und Abschnitte werden exportiert.
+Kapitel und Abschnitte vom Typ „unbenutzt“ werden ausgelassen.</p></li>
+<li><p>Das Dokument enthält Kapitel- und Abschnittsüberschriften.
+Änderungen daran werden jedoch nicht reimportiert.</p></li>
+<li><p>Das Dokument enthält Abschnittsmarkierungen in der Form <code class="docutils literal notranslate"><span class="pre">[scx]</span></code>.
+<strong>Ändern Sie nichts an den Zeilen mit Abschnittsmarkierungen</strong>
+sonst können Sie das geänderte Dokument nicht in <em>novelibre</em> reimportieren.</p></li>
+<li><p>Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.</p></li>
+<li><p>Mit <em>Writer</em> können Sie Abschnitte aufteilen, indem sie Überschriften
+oder einen Abschnitstrenner einfügen:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><em>Überschrift 1</em> → Titel des neuen Teils.
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><em>Überschrift 2</em> → Titel des neuen Kapitels
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Abschnittstrenner.
+Wahlweise können Sie  an den Trenner einen Abschnittstitel, und,
+durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
 </ul>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
-<p>Dokuments with split sections are automatically
-discarded after the <em>novelibre</em> project is updated.</p>
+<p>Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
+zu <em>novelibre</em> automatisch gelöscht.</p>
 </div>
+</div></blockquote>
 </li>
-<li><p>Text markup: Bold and italics are supported. Other highlighting such
-as underline and strikethrough are lost.</p></li>
+<li><p>Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
+Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.</p></li>
 </ul>
 </section>
-<section id="manuskript-zum-drucken-nur-exportieren">
-<h2>Manuskript zum Drucken (nur Exportieren)<a class="headerlink" href="#manuskript-zum-drucken-nur-exportieren" title="Link to this heading"></a></h2>
+<section id="manuskript-zum-drucken-nur-export">
+<h2>Manuskript zum Drucken (nur Export)<a class="headerlink" href="#manuskript-zum-drucken-nur-export" title="Link to this heading"></a></h2>
 <p><strong>Ein ODT-Dokument exportieren</strong></p>
-<p>Mit <strong>Exportieren &gt;  Manuskript zum Drucken (nur Exportieren)</strong>
+<p>Mit <strong>Exportieren &gt;  Manuskript zum Drucken (nur Export)</strong>
 können Sie ein Textdokument zum weiteren Gebrauch erzeugen,
 z.B. wenn sie mit <em>novelibre</em> fertig sind.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p>In contrast to the Manuskript for editing, this document is not divided
-internally into sections, which could facilitate further processing and
-reformatting.</p>
+<p>Im Gegensatz zum editierbaren Manuskript ist dieses Dokument nicht intern
+in Abschnitte unterteilt.
+Das soll die weitere Verarbeitung und Formatierung erleichtern.</p>
 </div>
 <ul class="simple">
-<li><p>The document is placed in the same folder as the project.</p></li>
-<li><p>Dokument’s <strong>filename</strong>: <code class="docutils literal notranslate"><span class="pre">&lt;project</span> <span class="pre">name&gt;.odt</span></code>.</p></li>
-<li><p>Only „normal“ chapters and sections are exported. Kapitels and
-sections marked „unused“ are not exported.</p></li>
-<li><p>Teil Titels appear as first level heading.</p></li>
-<li><p>Kapitel Titels appear as second level heading.</p></li>
-<li><p>Abschnitte are separated by <code class="docutils literal notranslate"><span class="pre">*</span> <span class="pre">*</span> <span class="pre">*</span></code>. The first line is not indented.</p></li>
-<li><p>Beginning from the second paragraph, paragraphs begin with indentation
-of the first line.</p></li>
-<li><p>Abschnitte marked „attach to previous section“ appear like continuous
-paragraphs.</p></li>
-<li><p>Text markup: Bold and italics are supported. Other highlighting such
-as underline and strikethrough are lost.</p></li>
+<li><p>Das Dokument wird im selben Dateiverzeichnis wie das Projekt platziert.</p></li>
+<li><p>Der <strong>Dateiname</strong>: <code class="docutils literal notranslate"><span class="pre">&lt;Projektname&gt;.odt</span></code>.</p></li>
+<li><p>Nur „normale“ Kapitel und Abschnitte werden exportiert.
+Kapitel und Abschnitte vom Typ „unbenutzt“ werden ausgelassen.</p></li>
+<li><p>Teiletitel erscheinen als Überschriften auf erster Ebene.</p></li>
+<li><p>Kapiteltitel erscheinen als Überschriften auf zweiter Ebene.</p></li>
+<li><p>Abschnitte sind durch <code class="docutils literal notranslate"><span class="pre">*</span> <span class="pre">*</span> <span class="pre">*</span></code> getrennt.
+Die erste Zeile des jeweils ersten Absatzes ist nicht eingezogen.</p></li>
+<li><p>Vom zweiten Absatz an beginnen die Absätze mit eingezogener Erstzeile.</p></li>
+<li><p>Abschnitte, die mit
+<a class="reference external" href="section_view.html#an-den-vorherigen-abschnitt-anhangen">An den vorherigen Abschnitt anhängen</a> markiert sind,
+erscheinen als fortlaufende Absätze.</p></li>
 </ul>
 </section>
-<section id="kurzzusammenfassung-nur-exportieren">
-<h2>Kurzzusammenfassung (nur Exportieren)<a class="headerlink" href="#kurzzusammenfassung-nur-exportieren" title="Link to this heading"></a></h2>
+<section id="kurzzusammenfassung-nur-export">
+<h2>Kurzzusammenfassung (nur Export)<a class="headerlink" href="#kurzzusammenfassung-nur-export" title="Link to this heading"></a></h2>
 <p><strong>Ein ODT-Dokument exportieren</strong></p>
-<p>Mit <strong>Exportieren &gt;  Kurzzusammenfassung (nur Exportieren)</strong>
+<p>Mit <strong>Exportieren &gt;  Kurzzusammenfassung (nur Export)</strong>
 können Sie ein Textdokument erzeugen, das eine
 <strong>kurze Zusammenfassung</strong> mit den Titeln
 der Teile, Kapitel und Abschnitte enthält.
 Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_brf_synopsis</span></code>.</p>
 <ul class="simple">
-<li><p>Only „normal“ chapters and sections are exported. Kapitels and
-sections marked „unused“ are not exported.</p></li>
-<li><p>Teil Titels appear as first level heading.</p></li>
-<li><p>Kapitel Titels appear as second level heading.</p></li>
-<li><p>Abschnittstitels appear as plain paragraphs.</p></li>
+<li><p>Nur „normale“ Kapitel und Abschnitte werden exportiert.
+Kapitel und Abschnitte vom Typ „unbenutzt“ werden ausgelassen.</p></li>
+<li><p>Teiletitel erscheinen als Überschriften auf erster Ebene.</p></li>
+<li><p>Kapiteltitel erscheinen als Überschriften auf zweiter Ebene.</p></li>
+<li><p>Abschnittstitel erscheinen als normale Absätze.</p></li>
 </ul>
 </section>
-<section id="querverweise-nur-exportieren">
-<h2>Querverweise (nur Exportieren)<a class="headerlink" href="#querverweise-nur-exportieren" title="Link to this heading"></a></h2>
+<section id="querverweise-nur-export">
+<h2>Querverweise (nur Export)<a class="headerlink" href="#querverweise-nur-export" title="Link to this heading"></a></h2>
 <p><strong>Ein ODT-Dokument exportieren</strong></p>
-<p>Mit <strong>Exportieren &gt;  Querverweise (nur Exportieren)</strong>
+<p>Mit <strong>Exportieren &gt;  Querverweise (nur Export)</strong>
 können Sie ein Textdokument erzeugen, das
 Querverweise mit Hyperlinks enthält.
 Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_xref</span></code>.</p>
-<p>The cross references are:</p>
+<p>Die Querverweise sind:</p>
 <ul class="simple">
-<li><p>Abschnitte per character,</p></li>
-<li><p>sections per location,</p></li>
-<li><p>sections per item,</p></li>
-<li><p>sections per tag,</p></li>
-<li><p>characters per tag,</p></li>
-<li><p>locations per tag,</p></li>
-<li><p>items per tag.</p></li>
+<li><p>Abschnitte pro Figur,</p></li>
+<li><p>Abschnitte pro Schauplatz,</p></li>
+<li><p>Abschnitte pro Gegenstand,</p></li>
+<li><p>Abschnitte pro Tag,</p></li>
+<li><p>Figuren pro Tag,</p></li>
+<li><p>Schauplätze pro Tag,</p></li>
+<li><p>Gegenstände pro Tag.</p></li>
 </ul>
 </section>
 <section id="figuren-schauplatze-gegenstande-datendateien">
 <h2>Figuren/Schauplätze/Gegenstände-Datendateien<a class="headerlink" href="#figuren-schauplatze-gegenstande-datendateien" title="Link to this heading"></a></h2>
-<p><strong>Exportieren XML files that can be imported into other projects</strong></p>
+<p><strong>XML-Dateien exportieren, die in anderen Projekten importiert werden können</strong></p>
 <p>Mit <strong>Exportieren &gt;  Figuren/Schauplätze/Gegenstände-Datendateien</strong>
 können Sie einen Satz XML-Dateien mit den Figuren, Schauplätzen und
 Gegenständen des Projekts inklusive ihrer Eigenschaften enthält.
-Mit diesen Dateien können sie Figuren, Schauplätze und
+Mit diesen Dateien können Sie Figuren, Schauplätze und
 Gegenstände in ein anderes Projekt transferieren.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p>To import XML-Datendateis from another project, use the <strong>Importieren</strong>
-command in the <strong>Figuren</strong>, <strong>Schauplätze</strong>, or <strong>Gegenstände</strong>-Menü.</p>
+<p>Um XML-Datendateien aus einem anderen Projekt zu importieren,
+rufen Sie im <strong>Figuren</strong>, <strong>Schauplätze</strong> oder
+<strong>Gegenstände</strong>-Menü <strong>Importieren</strong> auf.</p>
 </div>
 </section>
 <section id="optionen">
 <h2>Optionen<a class="headerlink" href="#optionen" title="Link to this heading"></a></h2>
-<p><strong>Project independent program settings</strong></p>
+<p><strong>Projektunabhängige Programmeinstellungen</strong></p>
 <p>Mit <strong>Exportieren &gt;  Optionen</strong>
-You can open a dialog for settings concerning the document export.</p>
+können Sie einen Dialog für Einstellungen zum Dokumentenexport öffnen.</p>
 <figure class="align-default">
 <img alt="novelibre Screenshot" src="_images/export_menu02.png" />
 </figure>
 <section id="vor-dem-offnen-exportierter-dokumente-nachfragen">
 <h3>Vor dem Öffnen exportierter Dokumente nachfragen<a class="headerlink" href="#vor-dem-offnen-exportierter-dokumente-nachfragen" title="Link to this heading"></a></h3>
-<p>This Auswahlfeld controls the behavior on document export.</p>
+<p>Dieses Auswahlfeld steuert das Verhalten beim Dokumentenexport.</p>
 <ul class="simple">
-<li><p>If ticked, you will be asked whether you want to
-have <em>novelibre</em> launch <em>Writer</em> or <em>Calc</em> with the newly created
-document opened.</p></li>
-<li><p>If unticked, <em>novelibre</em> will launch <em>Writer</em> or
-<em>Calc</em> with the newly created document opened right away.</p></li>
+<li><p>Wenn angekreuzt, werden Sie gefragt, ob <em>novelibre</em> neu erzeugte
+Dokumente in <em>Writer</em> oder <em>Calc</em> öffnen soll.</p></li>
+<li><p>Wenn nicht angekreuzt, wird <em>novelibre</em> neu erzeugte
+Dokumente in <em>Writer</em> oder <em>Calc</em> ohne Rückfrage öffnen.</p></li>
 </ul>
 </section>
 <section id="nach-dem-dokumentenexport-zum-editieren-das-projekt-sperren">
 <h3>Nach dem Dokumentenexport zum Editieren das Projekt sperren<a class="headerlink" href="#nach-dem-dokumentenexport-zum-editieren-das-projekt-sperren" title="Link to this heading"></a></h3>
-<p>This Auswahlfeld controls the behavior on opening documents for editing.</p>
+<p>Dieses Auswahlfeld steuert das Verhalten beim Öffnen von Dokumenten zur Bearbeitung.</p>
 <ul class="simple">
-<li><p>If ticked, <em>novelibre</em> will <a class="reference external" href="basic_concepts.html#projekt-sperre">lock the project</a> when launching <em>Writer</em> or <em>Calc</em>.</p></li>
-<li><p>If unticked, <em>novelibre</em> won’t lock the project when launching
-<em>Writer</em> or <em>Calc</em>.</p></li>
+<li><p>Wenn angekreuzt, wird <em>novelibre</em> das <a class="reference external" href="basic_concepts.html#projekt-sperre">Projekt automatisch sperren</a>, wenn es <em>Writer</em> oder <em>Calc</em> aufruft.</p></li>
+<li><p>Wenn nicht angekreuzt, wird <em>novelibre</em> das Projekt nicht sperren,
+wenn es <em>Writer</em> oder <em>Calc</em> aufruft.</p></li>
 </ul>
 </section>
 </section>

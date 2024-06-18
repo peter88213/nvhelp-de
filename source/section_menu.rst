@@ -103,12 +103,12 @@ zurückgespielt werden.
 Der Dateinamenszusatz lautet ``_sections_tmp``.
 
 
-Abschnittsliste (nur Exportieren)
----------------------------------
+Abschnittsliste (nur Export)
+----------------------------
 
 **Ein ODS-Dokument exportieren**
 
-Mit **Abschnitt > Abschnittsliste (nur Exportieren)**
+Mit **Abschnitt > Abschnittsliste (nur Export)**
 können Sie ein Tabellenkalkulationsdokument
 mit einer Zeile pro Abschnitt und den folgenden Spalten:
 

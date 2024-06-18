@@ -16,27 +16,27 @@ können Sie ein Textdokument erzeugen, das in Abschnitte aufgeteilt ist
 (im Navigator sichtbar).
 Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
 
--  Only "normal" chapters and sections are exported. Kapitels and
-   sections marked "unused" are not exported.
--  Abschnittstitels are invisible, but appear in the *Navigator*.
--  Kapitels and sections can neither be rearranged nor gelöscht.
--  Mit *Writer* können Sie split sections by
-   inserting headings or a section divider:
+- Nur "normale" Kapitel und Abschnitte werden exportiert.
+  Kapitel und Abschnitte vom Typ "unbenutzt" werden ausgelassen.
+- Abschnittstitel sind unsichtbar, erscheinen aber im *Navigator*.
+- Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.
+- Mit *Writer* können Sie Abschnitte aufteilen, indem sie Überschriften
+  oder einen Abschnitstrenner einfügen:
 
-   -  *Heading 1* → Neu part Titel. Wahlweise können Sie add a
-      description, separated by ``|``.
-   -  *Heading 2* → Neu chapter Titel. Wahlweise können Sie add a
-      description, separated by ``|``.
-   -  ``###`` → Abschnitt divider. Wahlweise können Sie append the section
-      Titel to the section divider. You can also add a description,
-      separated by ``|``.
+   - *Überschrift 1* → Titel des neuen Teils.
+     Wahlweise können Sie, durch ``|`` getrennt, eine Beschreibung anhängen.
+   - *Überschrift 2* → Titel des neuen Kapitels
+     Wahlweise können Sie, durch ``|`` getrennt, eine Beschreibung anhängen.
+   - ``###`` → Abschnittstrenner.
+     Wahlweise können Sie  an den Trenner einen Abschnittstitel, und,
+     durch ``|`` getrennt, eine Beschreibung anhängen.
 
    .. important:: 
-      Dokuments with split sections are automatically
-      discarded after the *novelibre* project is updated.
+      Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
+      zu *novelibre* automatisch gelöscht.
 
--  Text markup: Bold and italics are supported. Other highlighting such
-   as underline and strikethrough are lost.
+- Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
+  Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.
 
 
 Manuskript für fremde Textverarbeitung
@@ -49,133 +49,132 @@ können Sie ein Textdokument mit sichtbaren Abschnittsamarkierungen erzeugen.
 Der Dateinamenszusatz lautet ``_proof_tmp``.
 
 .. note::
-   This document retains its section information even if it is 
-   converted to other formats and back again. This may work with 
-   popular commercial word processors and even with web-based word 
-   processors such as Google Docs. 
+   Dieses Dokument behält seine Abschnittsinformationen auch dann, 
+   wenn es in andere Dateiformate konvertiert wird und umgekehrt.
+   Das sollte mit verbreiteten kommerziellen Textverarbeitungsprogrammen
+   funktionieren, auch mit webbasierten Textverarbeitungen wie Google Docs. 
 
 
--  Only "normal" chapters and sections are exported. Kapitels and
-   sections marked "unused" are not exported.
--  The document contains chapter and section headings. However, changes
-   will not be reimported.
--  The document contains section ``[scx]`` markers. **Do not touch lines
-   containing the markers** if you want to be able to write the document
-   back to *novelibre* format.
--  Kapitels and sections can neither be rearranged nor gelöscht.
--  When editing the document können Sie split sections by inserting
-   headings or a section divider:
+- Nur "normale" Kapitel und Abschnitte werden exportiert.
+  Kapitel und Abschnitte vom Typ "unbenutzt" werden ausgelassen.
+- Das Dokument enthält Kapitel- und Abschnittsüberschriften.
+  Änderungen daran werden jedoch nicht reimportiert.
+- Das Dokument enthält Abschnittsmarkierungen in der Form ``[scx]``.
+  **Ändern Sie nichts an den Zeilen mit Abschnittsmarkierungen**
+  sonst können Sie das geänderte Dokument nicht in *novelibre* reimportieren.
+- Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.
+- Mit *Writer* können Sie Abschnitte aufteilen, indem sie Überschriften
+  oder einen Abschnitstrenner einfügen:
 
-   -  *Heading 1* → Neu part Titel. Wahlweise können Sie add a
-      description, separated by ``|``.
-   -  *Heading 2* → Neu chapter Titel. Wahlweise können Sie add a
-      description, separated by ``|``.
-   -  ``###`` → Abschnitt divider. Wahlweise können Sie append the section
-      Titel to the section divider. You can also add a description,
-      separated by ``|``.
+   - *Überschrift 1* → Titel des neuen Teils.
+     Wahlweise können Sie, durch ``|`` getrennt, eine Beschreibung anhängen.
+   - *Überschrift 2* → Titel des neuen Kapitels
+     Wahlweise können Sie, durch ``|`` getrennt, eine Beschreibung anhängen.
+   - ``###`` → Abschnittstrenner.
+     Wahlweise können Sie  an den Trenner einen Abschnittstitel, und,
+     durch ``|`` getrennt, eine Beschreibung anhängen.
 
    .. important:: 
-      Dokuments with split sections are automatically
-      discarded after the *novelibre* project is updated.
+      Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
+      zu *novelibre* automatisch gelöscht.
 
--  Text markup: Bold and italics are supported. Other highlighting such
-   as underline and strikethrough are lost.
+-  Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
+   Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.
 
 
-Manuskript zum Drucken (nur Exportieren)
-----------------------------------------
+Manuskript zum Drucken (nur Export)
+-----------------------------------
 
 **Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Manuskript zum Drucken (nur Exportieren)**
+Mit **Exportieren >  Manuskript zum Drucken (nur Export)**
 können Sie ein Textdokument zum weiteren Gebrauch erzeugen,
 z.B. wenn sie mit *novelibre* fertig sind.
 
 .. hint::
-   In contrast to the Manuskript for editing, this document is not divided 
-   internally into sections, which could facilitate further processing and 
-   reformatting. 
+   Im Gegensatz zum editierbaren Manuskript ist dieses Dokument nicht intern
+   in Abschnitte unterteilt. 
+   Das soll die weitere Verarbeitung und Formatierung erleichtern.
 
 
--  The document is placed in the same folder as the project.
--  Dokument’s **filename**: ``<project name>.odt``.
--  Only "normal" chapters and sections are exported. Kapitels and
-   sections marked "unused" are not exported.
--  Teil Titels appear as first level heading.
--  Kapitel Titels appear as second level heading.
--  Abschnitte are separated by ``* * *``. The first line is not indented.
--  Beginning from the second paragraph, paragraphs begin with indentation
-   of the first line.
--  Abschnitte marked "attach to previous section" appear like continuous
-   paragraphs.
--  Text markup: Bold and italics are supported. Other highlighting such
-   as underline and strikethrough are lost.
+- Das Dokument wird im selben Dateiverzeichnis wie das Projekt platziert.
+- Der **Dateiname**: ``<Projektname>.odt``.
+- Nur "normale" Kapitel und Abschnitte werden exportiert.
+  Kapitel und Abschnitte vom Typ "unbenutzt" werden ausgelassen.
+- Teiletitel erscheinen als Überschriften auf erster Ebene.
+- Kapiteltitel erscheinen als Überschriften auf zweiter Ebene.
+- Abschnitte sind durch ``* * *`` getrennt.
+  Die erste Zeile des jeweils ersten Absatzes ist nicht eingezogen.
+- Vom zweiten Absatz an beginnen die Absätze mit eingezogener Erstzeile.
+- Abschnitte, die mit
+  `An den vorherigen Abschnitt anhängen
+  <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__ markiert sind,
+  erscheinen als fortlaufende Absätze.
 
 
-Kurzzusammenfassung (nur Exportieren)
--------------------------------------
+Kurzzusammenfassung (nur Export)
+--------------------------------
 
 **Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Kurzzusammenfassung (nur Exportieren)**
+Mit **Exportieren >  Kurzzusammenfassung (nur Export)**
 können Sie ein Textdokument erzeugen, das eine
 **kurze Zusammenfassung** mit den Titeln
 der Teile, Kapitel und Abschnitte enthält.
 Der Dateinamenszusatz lautet ``_brf_synopsis``.
 
--  Only "normal" chapters and sections are exported. Kapitels and
-   sections marked "unused" are not exported.
--  Teil Titels appear as first level heading.
--  Kapitel Titels appear as second level heading.
--  Abschnittstitels appear as plain paragraphs.
+- Nur "normale" Kapitel und Abschnitte werden exportiert.
+  Kapitel und Abschnitte vom Typ "unbenutzt" werden ausgelassen.
+- Teiletitel erscheinen als Überschriften auf erster Ebene.
+- Kapiteltitel erscheinen als Überschriften auf zweiter Ebene.
+- Abschnittstitel erscheinen als normale Absätze.
 
 
-Querverweise (nur Exportieren)
-------------------------------
+Querverweise (nur Export)
+-------------------------
 
 **Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Querverweise (nur Exportieren)**
+Mit **Exportieren >  Querverweise (nur Export)**
 können Sie ein Textdokument erzeugen, das
 Querverweise mit Hyperlinks enthält.
 Der Dateinamenszusatz lautet ``_xref``.
 
-The cross references are:
+Die Querverweise sind:
 
--  Abschnitte per character,
--  sections per location,
--  sections per item,
--  sections per tag,
--  characters per tag,
--  locations per tag,
--  items per tag.
+-  Abschnitte pro Figur,
+-  Abschnitte pro Schauplatz,
+-  Abschnitte pro Gegenstand,
+-  Abschnitte pro Tag,
+-  Figuren pro Tag,
+-  Schauplätze pro Tag,
+-  Gegenstände pro Tag.
 
 
 Figuren/Schauplätze/Gegenstände-Datendateien
 --------------------------------------------
 
-**Exportieren XML files that can be imported into other projects**
+**XML-Dateien exportieren, die in anderen Projekten importiert werden können**
 
 Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**
 können Sie einen Satz XML-Dateien mit den Figuren, Schauplätzen und
 Gegenständen des Projekts inklusive ihrer Eigenschaften enthält.
-Mit diesen Dateien können sie Figuren, Schauplätze und
+Mit diesen Dateien können Sie Figuren, Schauplätze und
 Gegenstände in ein anderes Projekt transferieren.
 
 .. hint::
-   To import XML-Datendateis from another project, use the **Importieren**
-   command in the **Figuren**, **Schauplätze**, or **Gegenstände**-Menü.
-
-
+   Um XML-Datendateien aus einem anderen Projekt zu importieren, 
+   rufen Sie im **Figuren**, **Schauplätze** oder 
+   **Gegenstände**-Menü **Importieren** auf.
 
 
 Optionen
 --------
 
-**Project independent program settings**
+**Projektunabhängige Programmeinstellungen**
 
 Mit **Exportieren >  Optionen**
-You can open a dialog for settings concerning the document export.
+können Sie einen Dialog für Einstellungen zum Dokumentenexport öffnen.
 
 .. figure:: _images/export_menu02.png
    :alt: novelibre Screenshot
@@ -184,23 +183,22 @@ You can open a dialog for settings concerning the document export.
 Vor dem Öffnen exportierter Dokumente nachfragen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This Auswahlfeld controls the behavior on document export.
+Dieses Auswahlfeld steuert das Verhalten beim Dokumentenexport.
 
-- If ticked, you will be asked whether you want to
-  have *novelibre* launch *Writer* or *Calc* with the newly created
-  document opened.
+- Wenn angekreuzt, werden Sie gefragt, ob *novelibre* neu erzeugte
+  Dokumente in *Writer* oder *Calc* öffnen soll.
 
-- If unticked, *novelibre* will launch *Writer* or
-  *Calc* with the newly created document opened right away.
+- Wenn nicht angekreuzt, wird *novelibre* neu erzeugte
+  Dokumente in *Writer* oder *Calc* ohne Rückfrage öffnen.
 
 
 Nach dem Dokumentenexport zum Editieren das Projekt sperren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This Auswahlfeld controls the behavior on opening documents for editing.
+Dieses Auswahlfeld steuert das Verhalten beim Öffnen von Dokumenten zur Bearbeitung.
 
-- If ticked, *novelibre* will `lock the project
-  <basic_concepts.html#projekt-sperre>`__ when launching *Writer* or *Calc*.
+- Wenn angekreuzt, wird *novelibre* das `Projekt automatisch sperren
+  <basic_concepts.html#projekt-sperre>`__, wenn es *Writer* oder *Calc* aufruft.
 
-- If unticked, *novelibre* won't lock the project when launching
-  *Writer* or *Calc*.
+- Wenn nicht angekreuzt, wird *novelibre* das Projekt nicht sperren,
+  wenn es *Writer* oder *Calc* aufruft.
