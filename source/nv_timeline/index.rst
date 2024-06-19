@@ -28,6 +28,7 @@ Das Plugin installieren
 
 Das Plugin fügt dem *novelibre*-Hauptmenü
 den Eintrag **Timeline** hinzu,
+außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Timeline erzeugen...**,
 und dem **Hilfe**-Menü den Eintrag **Timeline-Plugin Online-Hilfe**.
 
 

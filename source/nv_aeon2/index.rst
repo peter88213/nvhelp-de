@@ -28,6 +28,7 @@ Das Plugin installieren
 
 Das Plugin fügt dem *novelibre*-Hauptmenü
 den Eintrag **Aeon Timeline 2** hinzu,
+außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Aeon Timeline 2 erzeugen...**,
 und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
 
 
