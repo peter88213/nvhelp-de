@@ -10,15 +10,6 @@ nv_updater
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Der Text ist
-   überwiegend noch englisch, wobei die Begriffe, die auf der Benutzeroberfläche
-   auftauchen, bereits automatisch übersetzt wurden.
-   Manchmal entsteht dadurch ein etwas merkwürdiges Kauderwelsch. 
-   Im Zweifelsfall könnne Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_updater
 <https://github.com/peter88213/nv_updater/>`__.
 Sie können sie mit **Hilfe > Update-Prüfer Online-Hilfe** öffnen.
@@ -31,23 +22,22 @@ Das Plugin installieren
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
 
-Die Aktualisierungsprüfung starten
-----------------------------------
+Die Update-Prüfung starten
+--------------------------
 
--  Öffnen the aktualisieren checker from the Hauptmenü: **Extras > Check for
-   aktualisierens**.
--  If an aktualisieren is found, a message pops up. You can choose:
+-  Starten Sie die Update-Prüfung über das Hauptmenü: **Extras > Auf Updates prüfen**.
+-  Wenn ein Update gefunden wird, erscheint eine Meldung. Sie haben die Wahl:
 
-   -  **Yes** starts your web browser with the aktualisieren URL.
-   -  **No** skips this aktualisieren.
-   -  **Cancel** cancels the aktualisieren check.
+   - **Ja** öffnet Ihren Webbrowser mit der Download-Adresse.
+   - **Nein** überspringt dieses Update.
+   - **Abbruch** bricht die Update-Prüfung ab.
 
--  If no aktualisieren is found, a message pops up at the end.
+-  Falls kein Update gefunden wird, erscheint am Ende eine Meldung.
 
 .. important::
-   The *nv_updater* plugin only initiates the download process via the
-   system web browser. If a download directory is preset, all zip files
-   with the downloaded releases will end up there. You then perform the
-   actual installation manually as usual.
-
-   
+   Das *nv_updater*-Plugin stößt nur den Download durch den 
+   System-Webbrowser an. 
+   Wenn ein Downloadverzeichnis vorgegeben ist, werden alle Zip-Dateien
+   mit den Programmupdates dort abgelegt.
+   Dann führen Sie die Installation wie gewohnt aus. 
+ 
