@@ -33,7 +33,8 @@ Dasselbe wie **Ansicht > Projektnotizen anzeigen**.
 
 |Speichern| Speichere das Projekt. Dasselbe wie **Datei > Speichern** or ``Strg``-``S``.
 
-|Sperren/Entsperren| Toggle the lock status of the project.
+|Sperren/Entsperren| Ändere den Zustand der Projektsperre.
+.
 
 |Änderungen am Manuskript übernehmen| Importiere das aktuelle Manuskript.
 Entspricht der Auswahl des Manuskripts unter **Importieren**.
