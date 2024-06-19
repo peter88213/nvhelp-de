@@ -111,6 +111,9 @@ Abschnitts-Status
 
 Über das Kontextmenü oder das Abschnitt-Menü können Sie jedem
 "normalen" Abschnitt einen Fertigstellungsstatus zuordnen.
+Zur Auswahl stehen *Gliederung*, *Entwurf*,
+*1. Überarbeitung*, *2. Überarbeitung*
+oder *Fertiggestellt*.
 
 -  Sie können einen `Farbgebungsmodus <view_menu.html#farbgebungsmodus>`__
    einstellen, in dem Abschnitte je nach Status in unterschiedlichen
@@ -139,7 +142,7 @@ hauptsächlich als praktische Merkhilfe beim Schreiben
 oder Überarbeiten.
 
 .. note::
-   *novelibre* ist nicht dazu gedacht, umfangreichen 
+   *novelibre* ist nicht dafür gedacht, umfangreichen 
    Weltenbau zu dokumentieren. 
    Für so etwas gibt es eine Vielzahl spezialisierter Anwendungsprogramme, 
    Online- und Offline-Wikis, und Notizverwaltungssoftware.  
