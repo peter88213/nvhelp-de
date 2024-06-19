@@ -11,11 +11,6 @@
 |novelibre logo| novelibre Benutzerhandbuch
 ===========================================
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
 Diese Seite bezieht sich auf die aktuelle Ausgabe von `novelibre
 <https://github.com/peter88213/novelibre/>`__.
 Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.

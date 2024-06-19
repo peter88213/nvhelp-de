@@ -49,16 +49,16 @@ Wie Sie ein Plugin deinstallieren
    ``<Hauptversionsnummer>.<Nebenversionsnummer>``
    
    Die Regel für die Kompatibilität
-      - Die *novelibre API* Hauptversionsnummer des Plugins muss mit der
+      - Die *novelibre API*-Hauptversionsnummer des Plugins muss mit der
         Hauptversionsnummer von *novelibre* übereinstimmen.
       - Die *novelibre API* Nebenversionsnummer des Plugins muss kleiner
         oder gleich wie die Nebenversionsnummer von *novelibre* sein.
    
-   InKompatibilität beheben
-      - Wenn die *novelibre API* Hauptversionsnummer des Plugins größer
+   Inkompatibilität beheben
+      - Wenn die *novelibre API*-Hauptversionsnummer des Plugins größer
         als die Hauptversionsnummer von *novelibre* ist,
         muss *novelibre* aktualisiert werden.
-      - Wenn die *novelibre API* Hauptversionsnummer des Plugins kleiner
+      - Wenn die *novelibre API*-Hauptversionsnummer des Plugins kleiner
         als die Hauptversionsnummer von *novelibre* ist,
         muss das Plugin aktualisiert werden.
       - Wenn die *novelibre API* Nebenversionsnummer des Plugins größer

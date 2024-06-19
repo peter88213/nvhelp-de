@@ -6,59 +6,64 @@ Importieren-Menü
 .. figure:: _images/import_menu02.png
    :alt: novelibre Screenshot
 
-Mit the **Importieren** main-Menü entry,
-können Sie open a pop-up window with a list containing previously
-exported ODT documents that can be re-imported, thus updating the
-current project.
+Mit the **Importieren**-Eintrag im Hauptmenü
+können Sie eine Liste von zuvor exportierten ODF-Dokumenten aufrufen.
+Sie können diese Dokumente importieren, um das Projekt zu aktualisieren.
 
 .. figure:: _images/import_menu01.png
    :alt: novelibre Screenshot
 
--  The document types and dates are shown.
--  Dokuments that are newer than the project file are highlighted in
-   green.
--  Dokuments that cannot be imported because they are open in
-   *Writer* are highlighted in red.
--  You can update the project from a document either by double-clicking
-   on the list entry, or by selecting the document and clicking on the
-   **Importieren** Schaltfläche.
--  You can delete documents by selecting them and clicking on the
-   **Verwerfen** Schaltfläche.
+- Dokumenttyp und Datum werden angezeigt.
+- Dokumente, die neuer als die Projektdatei sind,
+  sind in grüner Schrift eingetragen.
+- Dokumente, die nicht importiert sind, weil sie in *Writer* offen sind,
+  sind in roter Schrift eingetragen.
+- Sie können das Projekt aus einem Dokument aktualisieren,
+  indem Sie entweder auf den Listeneintrag doppelklicken,
+  oder indem Sie das Dokument in der Liste auswählen und
+  auf die **Importieren**-Schaltfläche klicken.
+- Sie können Dokumente entfernen,
+  indem Sie sie in der Liste auswählen und
+  auf die **Verwerfen**-Schaltfläche klicken.
 
    .. hint::
-      Discard means: Rename by adding the extension *.bak*
-      to the file name.
+      Verwerfen heißt umbenennen, indem die Erweiterung *.bak*
+      an den Dateinamen angehängt wird.
    
    
--  After closing a listed document in *Writer* while the *Exportierened
-   documents* window is open können Sie click on the **Ansicht aktualisieren**
-   Schaltfläche.
+-  Nachdem Sie in *Writer* ein Dokument geschlossen haben,
+   während das Fenster *Exportierte Dokumente* noch offen ist,
+   können Sie auf die Schaltfläche **Ansicht aktualisieren**
+   klicken.
 
-Discarding documents after updating the project
------------------------------------------------
+Dokumente verwerfen, nachdem das Projekt aktualisiert wurde
+-----------------------------------------------------------
 
-Documents with split sections are always automatically discarded
-after re-import in order to avoid confusion about the changed
-section or chapter structure.
-Concerning re-imported documents that do not require modifying
-the project structure, you have three choices:
+Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
+automatisch verworfen, um Verwirrung durch die geänderte
+Kapitel- oder Abschnittsstruktur zu vermeiden.
+Was Dokumente angeht, die keine Änderung der Projektstruktur
+erfordern, haben Sie drei Möglichkeiten zur Wahl:
 
 Dokumente nur verwerfen, falls Abschnitte geteilt wurden
-   This is the default behavior.
-   The ODF documents are kept for future use.
+   Das ist das standardmäßige Verhalten.
+   Die ODF-Dokumente werden zum späteren Gebrauch aufbewahrt.
 
 Dokumente nach dem Import immer verwerfen
-   After updating the *novelibre* project from an re-imported
-   ODF document, this document is automatically discarded.
-   To discard means: rename it by adding the *.bak* extension
-   to its file name.
+   Nachdem das *novelibre*-Projekt aus einem reimportierten
+   ODF-Dokument aktualisiert worden ist,
+   wird dieses Dokument automatisch verworfen.
 
 Auch gesperrte Dokumente importieren; nicht verwerfen
-   This is for fast and frequent project updates while keeping
-   the ODF documents open in *Writer* or *Calc* for editing.
+   Das ermöglicht häufige schnelle Projektaktualisierungen,
+   während die ODF-Dokumente in *Writer* oder *Calc*
+   zur Bearbeitung geöffnet bleiben.
 
    .. important::
-      If you split sections in your ODT document können Sienot 
-      import it while open in *Writer*. 
-      This is because *novelibre* cannot discard it when locked
-      by *Writer*. 
+      Falls Sie in Ihrem ODT-Dokument Abschnitte aufgeteilt
+      haben, 
+      können sie es nicht reimportieren, solange es in 
+      *Writer* offen ist. 
+      Das ist so, weil *novelibre* es nicht verwerfen kann, 
+      solange es durch *Writer* gesperrt ist.
+      
