@@ -23,31 +23,31 @@ Damit öffnen Sie zunächst ein Untermenü.
    :alt: novelibre Screenshot
 
 Leeres Projekt
-   -  Damit schließen Sie das laufende Projekt und erzeugen ein 
+   -  Damit schließen Sie das laufende Projekt und erzeugen ein
       leeres Projekt.
-   -  Ein Dateiauswahldialog fragt nach Speicherort und Dateinamen 
+   -  Ein Dateiauswahldialog fragt nach Speicherort und Dateinamen
       des neuen Projekts.
-      Falls Sie diesen Dialog abbrechen, können Sie den Dateinamen 
+      Falls Sie diesen Dialog abbrechen, können Sie den Dateinamen
       auch später beim Abspeichern vergeben.
 
 
 Aus ODT erzeugen...
-   -  Damit schließen Sie das laufende Projekt und erhalten einen 
-      Dateiauswahldialog, der nach einem ODT-Dokument fragt, aus dem 
+   -  Damit schließen Sie das laufende Projekt und erhalten einen
+      Dateiauswahldialog, der nach einem ODT-Dokument fragt, aus dem
       das neue Projekt erzeugt werden soll.
    -  Das neu angelegte Projekt wird automatisch im selben Verzeichnis wie
-      das ODT-Dokument abgelegt. Es hat den Dateinamen des Dokuments und 
+      das ODT-Dokument abgelegt. Es hat den Dateinamen des Dokuments und
       die Erweiterung *.novx*.
-   -  Falls im Verzeichnis bereits ein Projekt mit dem Namen des ODT-Dokuments 
-      existiert, wird kein neues Projekt angelegt. 
+   -  Falls im Verzeichnis bereits ein Projekt mit dem Namen des ODT-Dokuments
+      existiert, wird kein neues Projekt angelegt.
    -  Falls Sie ein zuvor exportiertes Dokument auswählen, das zu einem existierenden
-      Projekt gehört, wird dieses Projekt aktualisiert und geladen. 
+      Projekt gehört, wird dieses Projekt aktualisiert und geladen.
    -  Das ODT-Dokument kann entweder ein `angefangenes Werk
       <getting_started.html#mit-einem-angefangenen-werk-beginnen>`__,
       sein, d.h. ein Romanmanuskript mit Kapitelüberschriften und Abschnitten,
       oder eine `Gliederung <getting_started.html#mit-einer-gliederung-beginnen>`__,
-      welche die Kapitel- und Abschnittsstruktur mit den Titeln und 
-      Beschreibungen enthält. 
+      welche die Kapitel- und Abschnittsstruktur mit den Titeln und
+      Beschreibungen enthält.
 
 
 Öffnen...
@@ -69,7 +69,7 @@ Neu laden
 **Das Romanprojekt neu laden**
 
 Mit **Datei > Neu laden** oder ``Strg``-``R``
-können Sie das Projekt im Arbeitsspeicher 
+können Sie das Projekt im Arbeitsspeicher
 mit der zuletzt gesicherten Version überschreiben.
 
 .. tip::
@@ -86,7 +86,7 @@ Sicherungskopie wiederherstellen
 **Die zuletzt erzeugte Sicherungskopie wiederherstellen**
 
 Mit **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``
-können Sie das Projekt im Arbeitsspeicher 
+können Sie das Projekt im Arbeitsspeicher
 mit der zuletzt erzeugten Sicherungsdatei überschreiben.
 Sie erhalten eine Warnung, dass Änderungen verlorengehen.
 
@@ -150,7 +150,7 @@ Konfigurationsdateien bearbeiten wollen.
 Style sheet kopieren
 --------------------
 
-**Ein css Style sheet im Projektordner bereitstellenr**
+**Ein css Style sheet im Projektordner bereitstellen**
 
 Mit **Datei > Style sheet kopieren**
 können Sie das Style sheet *novx.css* in den aktuellen Projektordner
@@ -207,10 +207,10 @@ Speichern unter...
 **Das Projekt unter einem anderen Namen/an einem anderen Ort speichern.**
 
 Mit **Datei > Speichern unter...** or ``Strg``-``⇧``-``S``
-können Sie das Projekt unter einem anderen Dateinamen oder an einem anderen 
+können Sie das Projekt unter einem anderen Dateinamen oder an einem anderen
 Ort speichern.
 Es öffenet sich ein Dateiauswahldialog, um den neuen Dateipfad und den
-Dateinamen anzugeben. 
+Dateinamen anzugeben.
 
 .. note::
    Ihr laufendes Projekt bleibt in dem Zustand, wie es zuletzt gespeichert 
@@ -238,9 +238,9 @@ Beenden
 
 **Das Programm beenden**
 
--  Unter Windows können Sie das Programm mit **Datei > Beenden** 
+-  Unter Windows können Sie das Programm mit **Datei > Beenden**
    oder ``Alt``-``F4`` beenden.
--  Andernfalls können Sie das Programm mit **Datei > Beenden** 
+-  Andernfalls können Sie das Programm mit **Datei > Beenden**
    oder ``Strg``-``Q`` beenden.
 
 .. note::
