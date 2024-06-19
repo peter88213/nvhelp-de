@@ -26,10 +26,10 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
-The plugin adds a **Erzählstruktur-Vorlagen** entry to the *novelibre* **Extras**-Menü,
-einen **Aus Vorlage erzeugen**-Eintrag ins **Datei > Neu**-Untermenü,
-and a **Vorlagen-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
-
+Das Plugin fügt dem *novelibre*-**Extras**-Menü
+den Eintrag **Erzählstruktur-Vorlagen** hinzu,
+außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Vorlage erzeugen**,
+und dem **Hilfe**-Menü den Eintrag **Vorlagen-Plugin Online-Hilfe**.
 
 Befehlsreferenz
 ---------------

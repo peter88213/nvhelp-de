@@ -26,8 +26,9 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
-The plugin adds a **Sammlung** entry to the *novelibre* **Datei**-Menü,
-and a **Sammlung-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
+Das Plugin fügt dem *novelibre*-**Datei**-Menü
+den Eintrag **Sammlung** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Sammlung-Plugin Online-Hilfe**.
 
 
 Die Sammlungen-Verwaltung aufrufen

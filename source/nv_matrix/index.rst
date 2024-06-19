@@ -23,7 +23,7 @@ Das Plugin installieren
 
 Das Plugin fügt dem *novelibre*-Hauptmenü
 den Eintrag **Matrix** hinzu,
-und dem **Hilfe**-Menü den Eintrag **Hilfe > Matrix-Plugin Online-Hilfe**.
+und dem **Hilfe**-Menü den Eintrag **Matrix-Plugin Online-Hilfe**.
 
 
 Den Matrix-Manager aufrufen

@@ -26,8 +26,9 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
-The plugin adds an **Bearbeiten** entry to the *novelibre* **Abschnitt**-Menü,
-and an **Editor-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
+Das Plugin fügt dem *novelibre*-**Abschnitt**-Menü
+den Eintrag **Bearbeiten** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Editor-Plugin Online-Hilfe**.
 
 
 Den Abschnittseditor aufrufen

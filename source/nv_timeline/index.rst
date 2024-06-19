@@ -26,9 +26,9 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
-The plugin adds a **Timeline** entry to the *novelibre* main-Menü,
-a **Aus Timeline erzeugen** to the **Datei > Neu** submenu,
-and a **Timeline-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
+Das Plugin fügt dem *novelibre*-Hauptmenü
+den Eintrag **Timeline** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Timeline-Plugin Online-Hilfe**.
 
 
 Befehlsreferenz

@@ -26,8 +26,9 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
-The plugin adds an **Aeon Timeline 2** entry to the *novelibre* **Tools**
-menu, and an **Aeon 2 plugin Online Help** entry to the **Help**-Menü.
+Das Plugin fügt dem *novelibre*-Hauptmenü
+den Eintrag **Aeon Timeline 2** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
 
 
 Die Aeon Timeline 2 Benutzervorlage installieren

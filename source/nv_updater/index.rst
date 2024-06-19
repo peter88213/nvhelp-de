@@ -21,6 +21,9 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
+Das Plugin fügt dem *novelibre*-**Extras**-Menü
+den Eintrag **Auf Updates prüfen** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Update-Prüfer Online-Hilfe**.
 
 Die Update-Prüfung starten
 --------------------------
