@@ -10,11 +10,6 @@ nv_matrix
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_matrix
 <https://github.com/peter88213/nv_matrix/>`__.
 Sie können sie mit **Hilfe > Matrix-Plugin Online-Hilfe** öffnen.
@@ -26,32 +21,33 @@ Das Plugin installieren
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
 - Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
 
-The plugin adds a **Matrix** entry to the *novelibre* main-Menü,
-and a **Hilfe > Matrix-Plugin Online-Hilfe** entry to the **Hilfe**-Menü.
+Das Plugin fügt dem *novelibre*-Hauptmenü
+den Eintrag **Matrix** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Hilfe > Matrix-Plugin Online-Hilfe**.
 
 
 Den Matrix-Manager aufrufen
 ---------------------------
 
--  Öffnen the matrix manager from the Hauptmenü: **Matrix**.
+- Öffnen Sie den Matrix-Manager über das Hauptmenü: **Matrix**.
 
 
 Beziehungen hinzufügen/entfernen
 --------------------------------
 
--  Hinzufügen/Entfernen relationships by klicking on the nodes with the ``Strg``
-   key pressed.
+- Sie können Beziehungen hinzufügen oder entfernen, indem Sie die
+  entsprechenden Knotenpunkte mit gedrückter ``Strg``-Taste
+  anklicken.
 
 
 Scrollen mit dem Mausrad
 ------------------------
 
--  Use the mouse wheel for vertical scrolling.
--  Use the mouse wheel with the ``⇧`` key pressed for horizontal
-   scrolling.
+- Benutzen Sie das Mausrad für senkrechtes Scrollen.
+- Benutzen Sie das Mausrad mit gedrückter ``⇧``-Taste für waagerechtes Scrollen.
 
 
 Beenden
 -------
 
--  Schließen the window.
+-  Schließen Sie das Fenster.
