@@ -10,11 +10,6 @@ nv_editor
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_editor
 <https://github.com/peter88213/nv_editor/>`__.
 Sie können sie mit **Hilfe > Editor-Plugin Online-Hilfe** öffnen.
@@ -111,62 +106,63 @@ können Sie den Abschnitt an der Corsorposition teilen.
 -  Der neue Abschnitt hat denselben Fertigstellungstatus wie der aktuell bearbeitete.
 -  Der neue Abschnitt ist vom selben Typ wie der aktuell bearbeitete.
 -  Der neue Abschnitt hat dieselbe Perspektivfigur wie der aktuell bearbeitete.
--  Der Editor lädt den neuen Abschnitt.
+-  Der Editor wechselt zum neuen Abschnitt.
 
 
 Einen Abschnitt erzeugen
 ------------------------
 
 Mit **Datei > Abschnitt erzeugen** or ``Strg``-``Alt``-``N``,
-können Sie erzeugen a section.
+können Sie einen neuen Abschnitt erzeugen.
 
--  Der neue Abschnitt is placed after the currently edited section.
--  Der neue Abschnitt is of the same type as the currently edited section.
--  Der Editor lädt den neuen Abschnitt.
+-  Der neue Abschnitt wird nach dem aktuell bearbeiteten Abschnitt platziert.
+-  Der neue Abschnitt ist vom selben Typ wie der aktuell bearbeitete.
+-  Der Editor wechselt zum neuen Abschnitt.
 
 Wortzählung
 -----------
 
--  The section word count is displayed at the status bar at the bottom
-   of the window.
--  By default, word count is aktualisierend manually, either by pressing the
-   ``F5`` key, or via the **Wortzählung > Aktualisieren**-Menü entry.
--  The word count can be aktualisierend "live", i.e. just while entering text.
-   This is enabled via the **Wortzählung > Laufende Aktualisierung einschalten**-Menü
-   entry.
--  Live aktualisieren is disabled by the **Wortzählung > Laufende Aktualisierung ausschalten**
-   Menüeintrag.
+-  Die Wortanzahl des bearbeiteten Abschnitts wird in der Statusleiste
+   unten im Fenster angezeigt.
+-  Standardmäßig wird die Wortzahl manuell aktualisiert,
+   entweder durch Drücken der Taste ``F5``,
+   oder über den Menübefehl **Wortzählung > Aktualisieren**.
+-  Die Wortzahl kann auch laufend während der Texteingabe aktualisiert werden.
+   Das wird über den Menüeintrag **Wortzählung > Laufende Aktualisierung einschalten**
+   freigeschaltet.
+-  Die laufende Wortzählung kann über **Wortzählung > Laufende Aktualisierung ausschalten**
+   ausgeschaltet werden.
 
 .. note::
-   Live updating the word count is resource intensive and may slow down
-   the program when editing big sections. This is why it’s disabled by
-   default.
+   Die laufende Aktualisierung der Wortzahl kostet Rechenleistung
+   und kann das Programm bei der Bearbeitung großer Abschnitte verlangsamen.
+   Deshalb ist sie standardmäßig ausgeschaltet.
 
 
 Änderungen übernehmen
 ---------------------
 
 Mit ``Strg``-``S``,
-können Sie apply changes to the section.
-Then "Modified" status is displayed in *novelibre*.
+können Sie die Änderungen für den Abschnitt übernehmen.
+Dann zeigt *novelibre* den "Geändert"-Status an.
 
--  If the project is locked in *novelibre*, you will be asked to unlock
-   it before changes can be applied.
+-  Falls das Projekt in *novelibre* gesperrt ist,
+   werden Sie aufgefordert, es zu entsperren, bevor Änderungen übernommen werden.
 
 .. note::
-   Before applying changes, the program checks the editor content for
-   XML validity. Malformed XML will not be accepted. 
+   Bevor es Änderungen übernimmt, prüft das Programm den Editorinhalt
+   auf XML-Validität. Missgebildetes XML wird nicht akzeptiert.
 
 
 Das Editorfenster schließen
 ---------------------------
 
--  To close the editor window, click on the **Schließen** button,
-   or just close the window.
--  Under Windows können Sie optionally exit with **Abschnitt > Beenden**
-   or ``Alt``-``F4``.
--  Otherwise können Sie optionally exit with **Abschnitt > Beenden**
-   or ``Strg``-``Q``.
--  When closing the editor window, you will be asked for applying changes.
+-  Um die Bearbeitung zu beenden, klicken Sie auf die Schaltfläche **Schließen**,
+   oder Sie wählen den Menüeintrag **Abschnitt > Beenden**,
+   oder Sie schließen einfach das Fenster.
+-  Unter Windows können Sie die Bearbeitung wahlweise mit ``Alt``-``F4`` beenden.
+-  Andernfalls  können Sie die Bearbeitung wahlweise ``Strg``-``Q`` beenden.
+-  Wenn Sie das Editorfenster schließen, werden Sie gegebenenfalls
+   gefragt, ob Sie Änderungen übernehmen wollen.
 
 
