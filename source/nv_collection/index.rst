@@ -10,11 +10,6 @@ nv_collection
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_collection
 <https://github.com/peter88213/nv_collection/>`__.
 Sie können sie mit **Hilfe > Sammlung-Plugin Online-Hilfe** öffnen.
@@ -24,109 +19,115 @@ Das Plugin installieren
 -----------------------
 
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
-- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus.
+  Damit installieren Sie das Plugin.
 
 Das Plugin fügt dem *novelibre*-**Datei**-Menü
 den Eintrag **Sammlung** hinzu,
 und dem **Hilfe**-Menü den Eintrag **Sammlung-Plugin Online-Hilfe**.
 
 
-Die Sammlungen-Verwaltung aufrufen
-----------------------------------
+Die Sammlungsverwaltung aufrufen
+--------------------------------
 
-Öffnen the collection manager from the Hauptmenü:
+Sie können die Sammlungsverwaltung über das *novelibre*-Dateimenü aufrufen:
 **Datei > Sammlung**.
 
 
 Eine Sammlung öffnen
 --------------------
 
-By default, the latest collection selected is preset.
-You can change it with **Datei > Öffnen**.
+Standardmäßig ist die Sammlung der letzten Sitzung voreingestellt.
+Sie können das mit **Datei > Öffnen** ändern.
 
 
 Eine neue Sammlung ereugen
 --------------------------
 
-Mit **Datei > Neu** können Sie erzeugen a neu collection.
-This will close the current collection and open a file dialog
-asking for the location and file name of the collection to erzeugen.
-Once you specified a valid file path, a blank collection appears.
+Mit **Datei > Neu** können Sie eine neue Sammlung erzeugen.
+Das wird die aktuelle Sammlung schließen und einen
+Dateiauswahldialog öffnen, der nach Ort und Dateiname
+der neuen Sammlung fragt.
+Sobald Sie einen gültigen Dateipfad angegeben haben,
+erscheint eine leere Sammlung.
 
 
 Eine neue Serie erzeugen
 ------------------------
 
-Mit **Serie > Hinzufügen** können Sie add a neu Serie.
-Bearbeiten the Serie’ title and description in the right window.
+Mit **Serie > Hinzufügen** können Sie eine neue Serie erzeugen.
+Bearbeiten Sie den Titel und die Beschreibung der Serie
+im rechten Fenster der Dateiverwaltung.
 
 
 Bücher zur Sammlung hinzufügen
 ------------------------------
 
-To add the current novelibre-Projekt as a book to the collection,
-use **Buch > Aktuelles Projekt zur Sammlung hinzufügen**.
-If a Serie is selected, the book is added as a part of this Serie.
+Um das aktuelle *novelibre*-Projekt als Buch zur Sammlung hinzuzufügen,
+rufen Sie **Buch > Aktuelles Projekt zur Sammlung hinzufügen** auf.
+Ist eine Serie ausgewählt, wird das Buch als Teil dieser Serie
+hinzugefügt.
 
 
 Die Buchbeschreibung aktualisieren
 ----------------------------------
 
-To aktualisieren the book description from the current project,
-use **Buch > Buchdaten aus aktuellem Projekt aktualisieren**.
+Um die Buchbeschreibung aus dem aktuellen *novelibre*-Projekt zu übernehmen,
+rufen Sie **Buch > Buchdaten aus aktuellem Projekt aktualisieren** auf.
 
 .. caution::
-   Be sure not to change the book title, because it is used as identifier.
+   Ändern Sie nicht den Buchtitel, denn er dient zur Identifikation.
 
-To aktualisieren the current project description from the book,
-use **Buch > Aktualisieren project data from the selected project**.
+Um die Beschreibung des ausgewählten Buchs in das *novelibre*-Projekt
+zu übernehmen,
+rufen Sie **Buch > Projektdaten aus ausgewähltem Buch aktualisieren** auf.
 
 
 Bücher aus der Sammlung entfernen
 ---------------------------------
 
-To remove the selected book from the collection,
-use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
+um das ausgewählte Buch aus der Sammlung zu entfernen,
+rufen Sie **Buch > Ausgewähltes Buch aus der Sammlung entfernen** auf.
 
 
 Serien ünd Bücher veschieben
 ----------------------------
 
-Drag and drop while pressing the ``Alt`` key.
+Mit gedrückter ``Alt``-Taste ziehen.
 
 .. caution::
-   Be aware, there is no "Undo" feature.
+   Denken Sie daran, es gibt keine "Rückgängig"-Funktion.
 
 
 Bücher entfernen
 ----------------
 
-To remove a book from the collection,
-either select the book and hit the ``Entf``-Taste,
-or use **Buch > Ausgewähltes Buch aus der Sammlung entfernen**.
+Um ein Buch aus der Sammlung zu entfernen,
+wählen Sie es aus und drücken entweder die ``Entf``-Taste,
+oder rufen Sie **Buch > Ausgewähltes Buch aus der Sammlung entfernen** auf.
 
 .. note::
-   When removing a book from the collection, 
-   the project file associated is kept on disc.
+   Wenn Sie ein Buch aus der Sammlung entfernen, 
+   bleibt die dazugehörige Projektdatei auf der Festplatte erhalten.
 
 
 Eine Serie löschen
 ------------------
 
-To delete a Serie,
-either select the Serie and hit the ``Entf``-Taste,
-or use **Serie > Ausgewählte Serie entfernen, aber die Bücher behalten**.
+Um eine Serie zu löschen,
+wählen Sie sie aus und und drücken entweder die ``Entf``-Taste,
+oder rufen Sie **Serie > Ausgewählte Serie entfernen, aber die Bücher behalten** auf.
 
 .. note::
-   When deleting a collection, the Bücher are kept by default.
+   Wenn Sie eine Serie löschen, bleiben die Bücher standardmäßig erhalten.
 
-To delete the selected Serie and remove all its Bücher from the
-collection,
-use **Serie > Entfernen selected Serie**.
+Um eine Serie zu löschen und alle enthaltenen Bücher aus der Sammlung zu entfernen,
+rufen Sie **Serie > Ausgewählte Serie mitsamt den Büchern entfernen** auf.
 
 
 Beenden
 -------
 
--  Under Windows können Sie exit with **Datei > Beenden** or ``Alt``-``F4``.
--  Otherwise können Sie exit with **Datei > Beenden** or ``Strg``-``Q``.
+- Beenden Sie die Sammlungsverwaltung mit **Datei > Beenden**.
+- Unter Windows können Sie die Sammlungsverwaltung wahlweise mit ``Alt``-``F4`` beenden.
+- Andernfalls  können Sie die Sammlungsverwaltung wahlweise ``Strg``-``Q`` beenden.
