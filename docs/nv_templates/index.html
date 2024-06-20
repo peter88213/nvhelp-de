@@ -115,14 +115,11 @@
 <section id="nv-templates">
 <h1>nv_templates<a class="headerlink" href="#nv-templates" title="Link to this heading"></a></h1>
 <p><strong>Benutzerhandbuch</strong></p>
-<div class="admonition hint">
-<p class="admonition-title">Hinweis</p>
-<p>Die deutsche Übersetzung des <em>novelibre</em>-Benutzerhandbuchs ist noch in Arbeit.
-Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version
-des Benutzerhandbuchs wechseln (Link s.o.).</p>
-</div>
 <p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_templates/">nv_templates</a>.
 Sie können sie mit <strong>Hilfe &gt; Vorlagen-Plugin Online-Hilfe</strong> öffnen.</p>
+<p>Mit <em>novelibre</em> können Sie eine Erzählstruktur mit Stadien definieren
+(siehe <a class="reference external" href="../plotting.html">Plotten mit novelibre</a>).
+<em>nv_templates</em> vereinfacht die Wiederverwendung von Erzählstrukturen.</p>
 <section id="das-plugin-installieren">
 <h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -138,15 +135,18 @@ und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Vorlagen-Plugin Online-
 <h2>Befehlsreferenz<a class="headerlink" href="#befehlsreferenz" title="Link to this heading"></a></h2>
 <section id="datei-neu">
 <h3>Datei &gt; Neu<a class="headerlink" href="#datei-neu" title="Link to this heading"></a></h3>
-<section id="aus-der-vorlage-erzeugen">
-<h4>Aus der Vorlage erzeugen<a class="headerlink" href="#aus-der-vorlage-erzeugen" title="Link to this heading"></a></h4>
-<p>This erzeugens a neu project with the narrative structure from a Markdown
-template file.</p>
+<section id="aus-vorlage-erzeugen">
+<h4>Aus Vorlage erzeugen…<a class="headerlink" href="#aus-vorlage-erzeugen" title="Link to this heading"></a></h4>
+<p>Damit schließen Sie das laufende Projekt und erzeugen ein
+neues Projekt mit der Erzählstruktur aus einer
+Markdown-formatierten Vorlagendatei.</p>
 <ul class="simple">
-<li><p>First, a file select dialog asks for the neu project’s file name
-(novelibre v1.4+). If you cancel the dialog können Sie select the file
-name later when saving the project.</p></li>
-<li><p>Then a second file select dialog asks for the template file to apply.</p></li>
+<li><p>Ein Dateiauswahldialog fragt nach Speicherort und Dateinamen
+des neuen Projekts.
+Falls Sie diesen Dialog abbrechen, können Sie den Dateinamen
+auch später beim Abspeichern vergeben.</p></li>
+<li><p>Dann fragt ein zweiter Dateiauswahldialog nach der Vorlagendatei,
+die angewandt werden soll.</p></li>
 </ul>
 </section>
 </section>
@@ -154,47 +154,48 @@ name later when saving the project.</p></li>
 <h3>Extras &gt; Erzählstruktur-Vorlagen<a class="headerlink" href="#extras-erzahlstruktur-vorlagen" title="Link to this heading"></a></h3>
 <section id="laden">
 <h4>Laden<a class="headerlink" href="#laden" title="Link to this heading"></a></h4>
-<p>This loads the narrative structure from a Markdown template file.</p>
+<p>Damit laden Sie eine Erzählstruktur aus einer Markdown-formatierten
+Vorlagendatei in Ihr aktuelles Projekt.</p>
 <ul class="simple">
-<li><p>A file select dialog asks for the template file to apply.</p></li>
+<li><p>Ein Dateiauswahldialog fragt nach der Vorlagendatei,
+die angewandt werden soll.</p></li>
 </ul>
 </section>
 <section id="speichern">
 <h4>Speichern<a class="headerlink" href="#speichern" title="Link to this heading"></a></h4>
-<p>This saves the narrative structure to a Markdown template file.</p>
+<p>Damit speichern Sie die Erzählstruktur Ihres aktuellen Projekts
+in eine Markdown-formatierte Vorlagendatei.</p>
 <ul class="simple">
-<li><p>A file select dialog asks for the neu template’s file name.</p></li>
+<li><p>Ein Dateiauswahldialog fragt nach dem Dateinamen
+der neuen Vorlagedatei.</p></li>
 </ul>
 </section>
 <section id="ordner-offnen">
 <h4>Ordner öffnen<a class="headerlink" href="#ordner-offnen" title="Link to this heading"></a></h4>
-<p>This opens the templates Ordner with the OS file manager, so können Sie
-manage and edit the templates.</p>
+<p>Damit können Sie den Vorlagenordner im Dateimanager öffnen, um zum
+Beispiel die Vorlagendateien zu verwalten und zu bearbeiten.</p>
 </section>
 </section>
 </section>
 <section id="konventionen">
 <h2>Konventionen<a class="headerlink" href="#konventionen" title="Link to this heading"></a></h2>
-<p>In <em>novelibre</em> können Sie define a narrative structure with stages. See
-<a class="reference external" href="../plotting.html">Plotten mit novelibre</a>.
-<em>nv_templates</em> faciliates the reuse of narrative structures.</p>
 <section id="markdown-dateistruktur">
 <h3>Markdown-Dateistruktur<a class="headerlink" href="#markdown-dateistruktur" title="Link to this heading"></a></h3>
-<p>The <em>Erzählstruktur-Vorlage</em> Markdown file defines such a structure with
-headings and ordinary text.</p>
+<p>Die  <em>Erzählstruktur-Vorlagendatei</em> definiert eine Erzählstruktur
+mit Hilfe von Markdown-Überschriften und normalem Text.</p>
 <section id="uberschrift-erster-ordnung-fur-die-hauptstadien-z-b-akte">
 <h4>Überschrift erster Ordnung für die Hauptstadien, z.B. Akte<a class="headerlink" href="#uberschrift-erster-ordnung-fur-die-hauptstadien-z-b-akte" title="Link to this heading"></a></h4>
-<p>The first level heading begins with <code class="docutils literal notranslate"><span class="pre">#</span></code>, followed by a space and a
-stage title.</p>
+<p>Die Überschrift erster Ordnung beginnt mit <code class="docutils literal notranslate"><span class="pre">#</span></code>,
+gefolgt von einem Leerzeichen und dem Titel des Stadiums.</p>
 </section>
-<section id="uberschrift-zweiter-ordnung-fur-untergeordnete-stadien-oder-plotpunkte">
-<h4>Überschrift zweiter Ordnung für untergeordnete Stadien oder Plotpunkte<a class="headerlink" href="#uberschrift-zweiter-ordnung-fur-untergeordnete-stadien-oder-plotpunkte" title="Link to this heading"></a></h4>
-<p>The second level heading begins with <code class="docutils literal notranslate"><span class="pre">##</span></code>, followed by a space and a
-stage title.</p>
+<section id="uberschrift-zweiter-ordnung-fur-untergeordnete-stadien-oder-wendepunkte">
+<h4>Überschrift zweiter Ordnung für untergeordnete Stadien oder Wendepunkte<a class="headerlink" href="#uberschrift-zweiter-ordnung-fur-untergeordnete-stadien-oder-wendepunkte" title="Link to this heading"></a></h4>
+<p>Die Überschrift erster Ordnung beginnt mit <code class="docutils literal notranslate"><span class="pre">##</span></code>,
+gefolgt von einem Leerzeichen und dem Titel des Stadiums.</p>
 </section>
 <section id="gewohnlicher-text">
 <h4>Gewöhnlicher Text<a class="headerlink" href="#gewohnlicher-text" title="Link to this heading"></a></h4>
-<p>Der Text unterhalb einer Überschrift dient als Notizen für das Element,
+<p>Der Text unterhalb einer Überschrift besteht aus Notizen für das Element,
 das aus der Überschrift erstellt wurde.</p>
 </section>
 <section id="beispiel">
@@ -268,7 +269,7 @@ Die &quot;letzte Schlacht&quot;. Der Konflikt wird entschieden. Der Protagonist 
 Der Konflikt ist gelöst, der Protagonist ein neuer Mensch geworden: Was hat sich durch den Konflikt verändert? Wie geht es mit dem Protagonisten weiter?
 </pre></div>
 </div>
-<p>This file generates the following structure in an empty project:</p>
+<p>Diese Datei erzeugt die folgende Struktur in einem leeren Projekt:</p>
 <figure class="align-default">
 <img alt="Screenshot" src="../_images/structure01.png" />
 </figure>

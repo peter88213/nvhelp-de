@@ -10,14 +10,14 @@ nv_templates
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_templates
 <https://github.com/peter88213/nv_templates/>`__.
 Sie können sie mit **Hilfe > Vorlagen-Plugin Online-Hilfe** öffnen.
+
+
+Mit *novelibre* können Sie eine Erzählstruktur mit Stadien definieren
+(siehe `Plotten mit novelibre <../plotting.html>`__).
+*nv_templates* vereinfacht die Wiederverwendung von Erzählstrukturen.
 
 
 Das Plugin installieren
@@ -37,17 +37,19 @@ Befehlsreferenz
 Datei > Neu
 ~~~~~~~~~~~
 
-Aus der Vorlage erzeugen
-^^^^^^^^^^^^^^^^^^^^^^^^
+Aus Vorlage erzeugen...
+^^^^^^^^^^^^^^^^^^^^^^^
 
-This erzeugens a neu project with the narrative structure from a Markdown
-template file.
+Damit schließen Sie das laufende Projekt und erzeugen ein
+neues Projekt mit der Erzählstruktur aus einer
+Markdown-formatierten Vorlagendatei.
 
--  First, a file select dialog asks for the neu project’s file name
-   (novelibre v1.4+). If you cancel the dialog können Sie select the file
-   name later when saving the project.
--  Then a second file select dialog asks for the template file to apply.
-
+- Ein Dateiauswahldialog fragt nach Speicherort und Dateinamen
+  des neuen Projekts.
+  Falls Sie diesen Dialog abbrechen, können Sie den Dateinamen
+  auch später beim Abspeichern vergeben.
+- Dann fragt ein zweiter Dateiauswahldialog nach der Vorlagendatei,
+  die angewandt werden soll.
 
 Extras > Erzählstruktur-Vorlagen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -55,59 +57,56 @@ Extras > Erzählstruktur-Vorlagen
 Laden
 ^^^^^
 
-This loads the narrative structure from a Markdown template file.
+Damit laden Sie eine Erzählstruktur aus einer Markdown-formatierten
+Vorlagendatei in Ihr aktuelles Projekt.
 
--  A file select dialog asks for the template file to apply.
+- Ein Dateiauswahldialog fragt nach der Vorlagendatei,
+  die angewandt werden soll.
 
 
 Speichern
 ^^^^^^^^^
 
-This saves the narrative structure to a Markdown template file.
+Damit speichern Sie die Erzählstruktur Ihres aktuellen Projekts
+in eine Markdown-formatierte Vorlagendatei.
 
--  A file select dialog asks for the neu template’s file name.
+- Ein Dateiauswahldialog fragt nach dem Dateinamen
+  der neuen Vorlagedatei.
 
 
 Ordner öffnen
 ^^^^^^^^^^^^^
 
-This opens the templates Ordner with the OS file manager, so können Sie
-manage and edit the templates.
-
+Damit können Sie den Vorlagenordner im Dateimanager öffnen, um zum
+Beispiel die Vorlagendateien zu verwalten und zu bearbeiten.
 
 Konventionen
 ------------
 
-In *novelibre* können Sie define a narrative structure with stages. See
-`Plotten mit novelibre <../plotting.html>`__.
-*nv_templates* faciliates the reuse of narrative structures.
-
-
 Markdown-Dateistruktur
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The *Erzählstruktur-Vorlage* Markdown file defines such a structure with
-headings and ordinary text.
-
+Die  *Erzählstruktur-Vorlagendatei* definiert eine Erzählstruktur
+mit Hilfe von Markdown-Überschriften und normalem Text.
 
 Überschrift erster Ordnung für die Hauptstadien, z.B. Akte
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The first level heading begins with ``#``, followed by a space and a
-stage title.
+Die Überschrift erster Ordnung beginnt mit ``#``,
+gefolgt von einem Leerzeichen und dem Titel des Stadiums.
 
 
-Überschrift zweiter Ordnung für untergeordnete Stadien oder Plotpunkte
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Überschrift zweiter Ordnung für untergeordnete Stadien oder Wendepunkte
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The second level heading begins with ``##``, followed by a space and a
-stage title.
+Die Überschrift erster Ordnung beginnt mit ``##``,
+gefolgt von einem Leerzeichen und dem Titel des Stadiums.
 
 
 Gewöhnlicher Text
 ^^^^^^^^^^^^^^^^^
 
-Der Text unterhalb einer Überschrift dient als Notizen für das Element,
+Der Text unterhalb einer Überschrift besteht aus Notizen für das Element,
 das aus der Überschrift erstellt wurde.
 
 
@@ -185,7 +184,7 @@ Beispiel
 
     Der Konflikt ist gelöst, der Protagonist ein neuer Mensch geworden: Was hat sich durch den Konflikt verändert? Wie geht es mit dem Protagonisten weiter?
     
-This file generates the following structure in an empty project:
+Diese Datei erzeugt die folgende Struktur in einem leeren Projekt:
 
 .. figure:: _images/structure01.png
    :alt: Screenshot
