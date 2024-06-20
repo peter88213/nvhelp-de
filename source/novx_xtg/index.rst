@@ -12,13 +12,12 @@ novx_xtg
 
 .. hint::
    Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
 
 Diese Seite gilt für die neueste Ausgabe von `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__.
 
-The novx_xtg Python script runs through all chapters and sections of a novelibre 7 project and fills XTG templates.
+The novx_xtg Python script runs through all chapters and sections
+of a *novelibre* project and fills XTG templates.
 
 
 Instructions for use
@@ -27,7 +26,8 @@ Instructions for use
 Intended usage
 ~~~~~~~~~~~~~~
 
-The included installation script prompts you to create a shortcut on the desktop. You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.
+The included installation script prompts you to create a shortcut on the desktop.
+You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.
 
 Command line usage
 ~~~~~~~~~~~~~~~~~~

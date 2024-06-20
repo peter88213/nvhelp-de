@@ -34,33 +34,34 @@ und dem **Hilfe**-Menü den Eintrag **Editor-Plugin Online-Hilfe**.
 Den Abschnittseditor aufrufen
 -----------------------------
 
-Öffnen a section editor window by double-clicking on a section,
-or via the **Abschnitt > Bearbeiten**-Menü entry when a section is selected,
-or by hitting the Eingabetaste.
+Siw öffnen ein Abschnittseditorfenster,
+indem Sie im Projektbaum auf einen Abschnitt doppelklicken,
+oder über den **Abschnitt > Bearbeiten**-Menüeintrag, wenn ein Abschnitt ausgewählt ist,
+oder mit der Eingabetaste.
 
 .. note::
-
-   -  If the project is locked, editor windows cannot be opened.
-   -  If you choose a section already open, the window will be brought to
-      the foreground.
+   
+   - Wenn das Projekt gesperrt ist, können keine Editorfenster geöffnet werden.
+   - Wenn Sie einen Abschnitt auswählen, für den bereits ein Editorfenster offen ist, 
+     wird dieses Fenster in den Vordergrund gebracht.
 
 
 Text auswählen
 --------------
 
--  Select a word via double-clicking.
--  Select a paragraph via triple-clicking.
--  Extend the selection via ``⇧``-``Pfeil``.
--  Extend the selection to the next word via ``Strg``-``⇧``-``Pfeil``.
--  ``Strg``-``A`` selects the whole text.
+-  Wortauswahl durch Doppelklick.
+-  Absatzauswahl durch Dreifachklick.
+-  Auswahl erweitern mit ``⇧``-``Pfeil``.
+-  Auswahl bis zum nächsten Wort erweitern mit ``Strg``-``⇧``-``Pfeil``.
+-  ``Strg``-``A`` wählt den gesamten Text aus.
 
 
 Text kopieren/einfügen
 ----------------------
 
--  ``Strg``-``C`` copies the selected text to the clipboard.
--  ``Strg``-``X`` cuts the selected text and moves it to the clipboard.
--  ``Strg``-``V`` pastes the clipboard text content to the cursor position.
+-  ``Strg``-``C`` kopiert den ausgewählten Text in die Zwischenablage.
+-  ``Strg``-``X`` verschiebt den ausgewählten Text in die Zwischenablage.
+-  ``Strg``-``V`` Fügt den Text aus der Zwischenablage an der Cursorposition ein.
 
 
 Text formatieren
@@ -69,41 +70,46 @@ Text formatieren
 .. role:: html(code)
    :language: html
 
-It is assumed that very few types of text markup are needed for a novel
-text:
+Wir setzen voraus, dass ein Romantext nur einige wenige
+Arten von Textauszeichnung braucht.
+Beim Import von ODT unterstützt *novelibre* die folgenden Formate:
 
--  *Emphasized* (usually shown as italics).
--  *Strongly emphasized* (usually shown as capitalized).
--  *Citation* (paragraph visually distinguished from body text).
+-  *Betont*-Zeichenstil oder Kursivschrift.
+-  *Stark betont*-Zeichenstil oder Fettschrift.
+-  *Zitat* (Vom Textkörper visuell abgesetzter Absatz).
 
--  ``Strg``-``I`` places "emphasized" markup around the selected text or at the
-   cursor, like so:
+-  ``Strg``-``I`` umschließt den ausgewählten Text mit "Betont"-Markup,
+   so wie hier:
 
-   :html:`<em>Example</em>`
+   :html:`<em>Beispiel</em>`
 
-   If the selection is already emphasized, the command removes the markup.
--  ``Strg``-``B`` places "strong" markup around the selected text or at the
-   cursor, like so:
+   Falls die Auswahl bereits betont ist, wird das Markup entfernt.
 
-   :html:`<strong>Example</strong>`
+-  ``Strg``-``B`` umschließt den ausgewählten Text mit "Stark betont"-Markup,
+   so wie hier:
 
-   If the selection is already strong, the command removes the markup.
+   :html:`<strong>Beispiel</strong>`
 
--  ``Strg``-``M`` removes "emphasized" and "strong" markup from the selection.
+   Falls die Auswahl bereits stark betont ist, wird das Markup entfernt.
+
+-  ``Strg``-``M`` entfernt "Betont" und "Stark betont"-Markup
+   rund um die Auswahl.
 
 
 Rückgängig machen/Wiederherstellen
 ----------------------------------
 
--  ``Strg``-``Z`` undoes the last editing. Multiple undo is possible.
--  ``Strg``-``Y`` redoes the last undo. Multiple redo is possible.
+-  ``Strg``-``Z`` macht den letzten Bearbeitungsschritt rückgängig.
+   Auch mehrmals möglich.
+-  ``Strg``-``Y``stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
+   Auch mehrmals möglich.
 
 
 Einen Abschnitt teilen
 ----------------------
 
 Mit **Datei > An der Cursorposition teilen** or ``Strg``-``Alt``-``S``,
-können Sie split the section at the cursor position.
+können Sie den Abschnitt an der Corsorposition teilen.
 
 -  Alle the text from the cursor position is cut and pasted into a neuly
    erzeugend section.
@@ -113,7 +119,7 @@ können Sie split the section at the cursor position.
 -  Der neue Abschnitt is of the same type as the currently edited section.
 -  Der neue Abschnitt has the same viewpoint character as the currently
    edited section.
--  The editor loads the neuly erzeugend section.
+-  Der Editor lädt den neuen Abschnitt.
 
 
 Einen Abschnitt erzeugen
@@ -124,7 +130,7 @@ können Sie erzeugen a section.
 
 -  Der neue Abschnitt is placed after the currently edited section.
 -  Der neue Abschnitt is of the same type as the currently edited section.
--  The editor loads the neuly erzeugend section.
+-  Der Editor lädt den neuen Abschnitt.
 
 Wortzählung
 -----------

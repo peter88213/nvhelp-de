@@ -12,10 +12,7 @@ scap_novx
 
 .. hint::
    Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
 
-`scap_novx User guide (English) <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
 
 Diese Seite gilt für die neueste Ausgabe von `scap_novx
 <https://github.com/peter88213/scap_novx/>`__.

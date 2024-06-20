@@ -136,68 +136,73 @@ und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Editor-Plugin Online-Hi
 </section>
 <section id="den-abschnittseditor-aufrufen">
 <h2>Den Abschnittseditor aufrufen<a class="headerlink" href="#den-abschnittseditor-aufrufen" title="Link to this heading"></a></h2>
-<p>Öffnen a section editor window by double-clicking on a section,
-or via the <strong>Abschnitt &gt; Bearbeiten</strong>-Menü entry when a section is selected,
-or by hitting the Eingabetaste.</p>
+<p>Siw öffnen ein Abschnittseditorfenster,
+indem Sie im Projektbaum auf einen Abschnitt doppelklicken,
+oder über den <strong>Abschnitt &gt; Bearbeiten</strong>-Menüeintrag, wenn ein Abschnitt ausgewählt ist,
+oder mit der Eingabetaste.</p>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
 <ul class="simple">
-<li><p>If the project is locked, editor windows cannot be opened.</p></li>
-<li><p>If you choose a section already open, the window will be brought to
-the foreground.</p></li>
+<li><p>Wenn das Projekt gesperrt ist, können keine Editorfenster geöffnet werden.</p></li>
+<li><p>Wenn Sie einen Abschnitt auswählen, für den bereits ein Editorfenster offen ist,
+wird dieses Fenster in den Vordergrund gebracht.</p></li>
 </ul>
 </div>
 </section>
 <section id="text-auswahlen">
 <h2>Text auswählen<a class="headerlink" href="#text-auswahlen" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Select a word via double-clicking.</p></li>
-<li><p>Select a paragraph via triple-clicking.</p></li>
-<li><p>Extend the selection via <code class="docutils literal notranslate"><span class="pre">⇧</span></code>-<code class="docutils literal notranslate"><span class="pre">Pfeil</span></code>.</p></li>
-<li><p>Extend the selection to the next word via <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">⇧</span></code>-<code class="docutils literal notranslate"><span class="pre">Pfeil</span></code>.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">A</span></code> selects the whole text.</p></li>
+<li><p>Wortauswahl durch Doppelklick.</p></li>
+<li><p>Absatzauswahl durch Dreifachklick.</p></li>
+<li><p>Auswahl erweitern mit <code class="docutils literal notranslate"><span class="pre">⇧</span></code>-<code class="docutils literal notranslate"><span class="pre">Pfeil</span></code>.</p></li>
+<li><p>Auswahl bis zum nächsten Wort erweitern mit <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">⇧</span></code>-<code class="docutils literal notranslate"><span class="pre">Pfeil</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">A</span></code> wählt den gesamten Text aus.</p></li>
 </ul>
 </section>
 <section id="text-kopieren-einfugen">
 <h2>Text kopieren/einfügen<a class="headerlink" href="#text-kopieren-einfugen" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> copies the selected text to the clipboard.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code> cuts the selected text and moves it to the clipboard.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> pastes the clipboard text content to the cursor position.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> kopiert den ausgewählten Text in die Zwischenablage.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code> verschiebt den ausgewählten Text in die Zwischenablage.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> Fügt den Text aus der Zwischenablage an der Cursorposition ein.</p></li>
 </ul>
 </section>
 <section id="text-formatieren">
 <h2>Text formatieren<a class="headerlink" href="#text-formatieren" title="Link to this heading"></a></h2>
-<p>It is assumed that very few types of text markup are needed for a novel
-text:</p>
+<p>Wir setzen voraus, dass ein Romantext nur einige wenige
+Arten von Textauszeichnung braucht.
+Beim Import von ODT unterstützt <em>novelibre</em> die folgenden Formate:</p>
 <ul>
-<li><p><em>Emphasized</em> (usually shown as italics).</p></li>
-<li><p><em>Strongly emphasized</em> (usually shown as capitalized).</p></li>
-<li><p><em>Citation</em> (paragraph visually distinguished from body text).</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> places „emphasized“ markup around the selected text or at the
-cursor, like so:</p>
-<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>Example<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span></code></p>
-<p>If the selection is already emphasized, the command removes the markup.</p>
+<li><p><em>Betont</em>-Zeichenstil oder Kursivschrift.</p></li>
+<li><p><em>Stark betont</em>-Zeichenstil oder Fettschrift.</p></li>
+<li><p><em>Zitat</em> (Vom Textkörper visuell abgesetzter Absatz).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> umschließt den ausgewählten Text mit „Betont“-Markup,
+so wie hier:</p>
+<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>Beispiel<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span></code></p>
+<p>Falls die Auswahl bereits betont ist, wird das Markup entfernt.</p>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> places „strong“ markup around the selected text or at the
-cursor, like so:</p>
-<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Example<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span></code></p>
-<p>If the selection is already strong, the command removes the markup.</p>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> umschließt den ausgewählten Text mit „Stark betont“-Markup,
+so wie hier:</p>
+<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Beispiel<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span></code></p>
+<p>Falls die Auswahl bereits stark betont ist, wird das Markup entfernt.</p>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> removes „emphasized“ and „strong“ markup from the selection.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> entfernt „Betont“ und „Stark betont“-Markup
+rund um die Auswahl.</p></li>
 </ul>
 </section>
 <section id="ruckgangig-machen-wiederherstellen">
 <h2>Rückgängig machen/Wiederherstellen<a class="headerlink" href="#ruckgangig-machen-wiederherstellen" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Z</span></code> undoes the last editing. Multiple undo is possible.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Y</span></code> redoes the last undo. Multiple redo is possible.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Z</span></code> macht den letzten Bearbeitungsschritt rückgängig.
+Auch mehrmals möglich.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<a href="#id1"><span class="problematic" id="id2">``</span></a>Y``stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
+Auch mehrmals möglich.</p></li>
 </ul>
 </section>
 <section id="einen-abschnitt-teilen">
 <h2>Einen Abschnitt teilen<a class="headerlink" href="#einen-abschnitt-teilen" title="Link to this heading"></a></h2>
 <p>Mit <strong>Datei &gt; An der Cursorposition teilen</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>,
-können Sie split the section at the cursor position.</p>
+können Sie den Abschnitt an der Corsorposition teilen.</p>
 <ul class="simple">
 <li><p>Alle the text from the cursor position is cut and pasted into a neuly
 erzeugend section.</p></li>
@@ -207,7 +212,7 @@ erzeugend section.</p></li>
 <li><p>Der neue Abschnitt is of the same type as the currently edited section.</p></li>
 <li><p>Der neue Abschnitt has the same viewpoint character as the currently
 edited section.</p></li>
-<li><p>The editor loads the neuly erzeugend section.</p></li>
+<li><p>Der Editor lädt den neuen Abschnitt.</p></li>
 </ul>
 </section>
 <section id="einen-abschnitt-erzeugen">
@@ -217,7 +222,7 @@ können Sie erzeugen a section.</p>
 <ul class="simple">
 <li><p>Der neue Abschnitt is placed after the currently edited section.</p></li>
 <li><p>Der neue Abschnitt is of the same type as the currently edited section.</p></li>
-<li><p>The editor loads the neuly erzeugend section.</p></li>
+<li><p>Der Editor lädt den neuen Abschnitt.</p></li>
 </ul>
 </section>
 <section id="wortzahlung">
