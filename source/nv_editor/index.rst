@@ -34,7 +34,7 @@ und dem **Hilfe**-Menü den Eintrag **Editor-Plugin Online-Hilfe**.
 Den Abschnittseditor aufrufen
 -----------------------------
 
-Siw öffnen ein Abschnittseditorfenster,
+Siw öffnen ein Editorfenster,
 indem Sie im Projektbaum auf einen Abschnitt doppelklicken,
 oder über den **Abschnitt > Bearbeiten**-Menüeintrag, wenn ein Abschnitt ausgewählt ist,
 oder mit der Eingabetaste.
@@ -70,13 +70,6 @@ Text formatieren
 .. role:: html(code)
    :language: html
 
-Wir setzen voraus, dass ein Romantext nur einige wenige
-Arten von Textauszeichnung braucht.
-Beim Import von ODT unterstützt *novelibre* die folgenden Formate:
-
--  *Betont*-Zeichenstil oder Kursivschrift.
--  *Stark betont*-Zeichenstil oder Fettschrift.
--  *Zitat* (Vom Textkörper visuell abgesetzter Absatz).
 
 -  ``Strg``-``I`` umschließt den ausgewählten Text mit "Betont"-Markup,
    so wie hier:
@@ -100,9 +93,9 @@ Rückgängig machen/Wiederherstellen
 ----------------------------------
 
 -  ``Strg``-``Z`` macht den letzten Bearbeitungsschritt rückgängig.
-   Auch mehrmals möglich.
+   Auch mehrfach möglich.
 -  ``Strg``-``Y``stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
-   Auch mehrmals möglich.
+   Auch mehrfach möglich.
 
 
 Einen Abschnitt teilen
@@ -111,14 +104,13 @@ Einen Abschnitt teilen
 Mit **Datei > An der Cursorposition teilen** or ``Strg``-``Alt``-``S``,
 können Sie den Abschnitt an der Corsorposition teilen.
 
--  Alle the text from the cursor position is cut and pasted into a neuly
-   erzeugend section.
--  Der neue Abschnitt is placed after the currently edited section.
--  Der neue Abschnitt is appended to the currently edited section.
--  Der neue Abschnitt has the same status as the currently edited section.
--  Der neue Abschnitt is of the same type as the currently edited section.
--  Der neue Abschnitt has the same viewpoint character as the currently
-   edited section.
+-  Der gesamte Text ab der Cursorposition wird in einen neu erzeugten Abschnitt verschoben.
+-  Der neue Abschnitt wird nach dem aktuell bearbeiteten Abschnitt platziert.
+-  Der neue Abschnitt wird an den aktuell bearbeiteten Abschnitt
+   `angehängt <../section_view.html#an-den-vorherigen-abschnitt-anhangen>`__.
+-  Der neue Abschnitt hat denselben Fertigstellungstatus wie der aktuell bearbeitete.
+-  Der neue Abschnitt ist vom selben Typ wie der aktuell bearbeitete.
+-  Der neue Abschnitt hat dieselbe Perspektivfigur wie der aktuell bearbeitete.
 -  Der Editor lädt den neuen Abschnitt.
 
 
