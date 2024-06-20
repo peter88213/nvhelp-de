@@ -12,11 +12,7 @@ scap_novx
 
 .. hint::
    Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
-   Der Text ist
-   überwiegend noch englisch, wobei die Begriffe, die auf der Benutzeroberfläche
-   auftauchen, bereits automatisch übersetzt wurden.
-   Manchmal entsteht dadurch ein etwas merkwürdiges Kauderwelsch. 
-   Im Zweifelsfall könnne Sie von dieser Seite aus zur englischen Version 
+   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
    des Benutzerhandbuchs wechseln (Link s.o.).
 
 `scap_novx User guide (English) <https://peter88213.github.io/nvhelp-en/scap_novx/>`__
