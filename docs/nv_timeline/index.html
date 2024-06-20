@@ -173,13 +173,14 @@ In case of doubt, close Timeline before syncing with novelibre.</p>
 </section>
 <section id="timeline-die-zeitleiste-bearbeiten">
 <h3>Timeline &gt; Die Zeitleiste bearbeiten<a class="headerlink" href="#timeline-die-zeitleiste-bearbeiten" title="Link to this heading"></a></h3>
-<p>Öffnen the project’s timeline, if existing, with the Timeline application.
-Sperren the project.</p>
+<p>Die Zeitleiste zum Projekt mit <em>Timeline</em> öffnen, falls vorhanden.
+Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.</p>
 </section>
 <section id="datei-neu-aus-timeline-erzeugen">
 <h3>Datei &gt; Neu &gt; Aus Timeline erzeugen…<a class="headerlink" href="#datei-neu-aus-timeline-erzeugen" title="Link to this heading"></a></h3>
-<p>Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
-the timeline’s file name exists, erzeugen a neu one from the timeline.</p>
+<p>Damit öffnen Sie einen Dateiauswahldialog, um eine <em>.timeline</em>-Datei auszuwählen.
+Falls noch kein <em>novelibre</em>-Projekt mit dem gleichen Dateinamen existiert,
+wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.</p>
 </section>
 </section>
 <section id="benutzerdefinierte-konfiguration">
@@ -225,24 +226,25 @@ refer to the code line immediately above.</p></li>
 
 <span class="na">section_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Abschnitt</span>
 
-<span class="c1"># Events with this label become sections in a neuly erzeugend</span>
-<span class="c1"># novelibre-Projekt.</span>
+<span class="c1"># Ereignisse mit diesem Label werden in ein neu erzeugtes</span>
+<span class="c1"># novelibre-Projekt als Abschnitte übernommen.</span>
 
 <span class="na">section_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">170,240,160</span>
 
-<span class="c1"># Color for events imported as sections from novelibre.</span>
+<span class="c1"># Die Farbe für Ereignisse, die novelibre-Abschnitten entsprechen.</span>
 
-<span class="na">neu_event_spacing</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">1</span>
+<span class="na">new_event_spacing</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">1</span>
 
-<span class="c1"># Tage between events with automatically generated dates.</span>
+<span class="c1"># Anzahl der Tage, die zwischen Ereignissen</span>
+<span class="c1"># mit automatisch erzeugten Datum liegen.</span>
 
 
 <span class="k">[OPTIONS]</span>
 
 <span class="na">lock_on_export</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">No</span>
 
-<span class="c1"># Yes: Lock the novelibre project when opening the timeline.</span>
-<span class="c1"># No: Do not lock the novelibre project when opening the timeline.</span>
+<span class="c1"># Yes:Das novelibre-Projekt beim Start von Timeline automatisch sperren.</span>
+<span class="c1"># No: Das Projekt beim Start von Timeline nicht automatisch sperren.</span>
 </pre></div>
 </div>
 </section>

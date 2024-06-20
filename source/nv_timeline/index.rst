@@ -62,14 +62,16 @@ Aktualisieren the novelibre-Projekt from the timeline, if existing.
 Timeline > Die Zeitleiste bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Öffnen the project’s timeline, if existing, with the Timeline application.
-Sperren the project.
+Die Zeitleiste zum Projekt mit *Timeline* öffnen, falls vorhanden.
+Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
 
 Datei > Neu > Aus Timeline erzeugen...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
-the timeline’s file name exists, erzeugen a neu one from the timeline.
+Damit öffnen Sie einen Dateiauswahldialog, um eine *.timeline*-Datei auszuwählen.
+Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
+wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.
+
 
 Benutzerdefinierte Konfiguration
 --------------------------------
@@ -124,24 +126,25 @@ This is the Konfiguration explained:
 
    section_label = Abschnitt
 
-   # Events with this label become sections in a neuly erzeugend 
-   # novelibre-Projekt. 
+   # Ereignisse mit diesem Label werden in ein neu erzeugtes
+   # novelibre-Projekt als Abschnitte übernommen. 
 
    section_color = 170,240,160
 
-   # Color for events imported as sections from novelibre.
+   # Die Farbe für Ereignisse, die novelibre-Abschnitten entsprechen.
 
-   neu_event_spacing = 1
+   new_event_spacing = 1
 
-   # Tage between events with automatically generated dates.  
+   # Anzahl der Tage, die zwischen Ereignissen
+   # mit automatisch erzeugten Datum liegen.  
 
 
    [OPTIONS]
    
    lock_on_export = No
    
-   # Yes: Lock the novelibre project when opening the timeline.
-   # No: Do not lock the novelibre project when opening the timeline.
+   # Yes:Das novelibre-Projekt beim Start von Timeline automatisch sperren.
+   # No: Das Projekt beim Start von Timeline nicht automatisch sperren.
 
 Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

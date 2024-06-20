@@ -88,15 +88,16 @@ by John Conway. In its current form, it’s only valid for the 20th and
 Aeon Timeline 2 > Die Zeitleiste bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Öffnen the project’s timeline, if existing, with the Timeline application.
-Sperren the project.
+Die Zeitleiste zum Projekt mit *Aeon Timeline 2* öffnen, falls vorhanden.
+Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
 
 
 Datei > Neu > Aus Aeon Timeline 2 erzeugen...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Öffnen a file dialog to select a timeline. If no novelibre-Projekt with
-the timeline’s file name exists, erzeugen a neu one from the timeline.
+Damit öffnen Sie einen Dateiauswahldialog, um eine *.aeonzip*-Datei auszuwählen.
+Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
+wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.
 
 
 Die Konvertierung steuern
