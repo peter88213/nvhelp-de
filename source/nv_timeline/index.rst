@@ -104,7 +104,7 @@ Lokale Projektkonfiguration
 
 Sie können eine optionale Projekt-Konfigurationsdatei namens
 ``nv_timeline.ini`` in Ihrem Projektverzeichnis ablegen,
-d.h. in den Ordner, der Ihre *novelibre*- und *Timeline*-Projektdateien
+d.h. in dem Ordner, der Ihre *novelibre*- und *Timeline*-Projektdateien
 enthält.
 Sie gilt dann nur für das Projekt.
 Ihre Einträge überschreiben sowohl die Voreinstellungen von
@@ -114,20 +114,23 @@ Ihre Einträge überschreiben sowohl die Voreinstellungen von
 Wie man eine Konfigurationsdatei erstellt oder anpasst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die *nv_timeline* distribution comes with a sample Konfiguration
-file located in the ``sample`` Unterverzeichnis. It contains
-*nv_timeline*’s default settings and options. This file is also
-automatically copied to the global Konfiguration Ordner during
-installation. You best make a copy and edit it.
+Die *nv_timeline*-Distribution wird mit einer Beispielkonfigurationsdatei
+geliefert, die sich im Unterordner ``sample`` befindet.
+Sie enthält die Standardeinstellungen und Optionen von *nv_timeline*.
+Diese Datei wird auch während der Installation automatisch in den
+globalen Konfigurationsordner kopiert.
+Am besten erstellen Sie eine Kopie und bearbeiten sie.
 
--  The SETTINGS section comprises the program "constants". If you change
-   them, the program might behave differently than described in the
-   documentation. So only touch them if you are clear about the
-   consequences.
--  Comment lines begin with a ``#`` number sign. In the example, they
-   refer to the code line immediately above.
+-  Der Abschnitt SETTINGS enthält die Programm-"Konstanten".
+   Wenn Sie sie ändern, kann es sein, dass sich das Programm
+   anders als in der Dokumentation beschrieben verhält.
+   Deshalb sollten Sie sie nur anfassen, wenn Sie sich über
+   die Konsequenzen im Klaren sind.
+-  Kommentarzeilen beginnen mit einem Rautenzeichen ``#``.
+   Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
+   Codezeile.
 
-This is the Konfiguration explained:
+Das ist die Konfiguration mit Erklärungen:
 
 ::
 
@@ -158,7 +161,7 @@ This is the Konfiguration explained:
 Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Just delete your global and local Konfigurationsdateis.
+Löschen Sie einfach Ihre globalen and lokalen Konfigurationsdateien.
 
 
 Konventionen
