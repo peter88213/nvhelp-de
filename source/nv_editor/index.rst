@@ -14,15 +14,18 @@ Diese Seite gilt für die neueste Ausgabe von `nv_editor
 <https://github.com/peter88213/nv_editor/>`__.
 Sie können sie mit **Hilfe > Editor-Plugin Online-Hilfe** öffnen.
 
-Mit dem Abschnittseditor können Sie auf die Schnelle einzelne Abschnitte bearbeiten und aufteilen.
-Der Editor bietet einen Zugriff auf die interne Auszeichnung, die HTML ähnelt.
+Mit dem Abschnittseditor können Sie auf die Schnelle einzelne
+Abschnitte bearbeiten und aufteilen.
+Der Editor bietet einen Zugriff auf die interne Auszeichnung,
+die HTML ähnelt.
 
 
 Das Plugin installieren
 -----------------------
 
 - Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
-- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
+- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus.
+Damit installieren Sie das Plugin.
 
 Das Plugin fügt dem *novelibre*-**Abschnitt**-Menü
 den Eintrag **Bearbeiten** hinzu,
