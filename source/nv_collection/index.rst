@@ -14,7 +14,7 @@ Diese Seite gilt für die neueste Ausgabe von `nv_collection
 <https://github.com/peter88213/nv_collection/>`__.
 Sie können sie mit **Hilfe > Sammlung-Plugin Online-Hilfe** öffnen.
 
-Wenn Sie mehrere *novelibre*-Projekte haben, können Sie in einer
+Wenn Sie mehrere *novelibre*-Projekte haben, können Sie sie in einer
 Sammlung verwalten, auch nach Serien gegliedert.
 Eine Sammlung ermöglicht Ihnen den schnellen Zugriff auf Ihre Projekte.
 
