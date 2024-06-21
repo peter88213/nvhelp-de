@@ -38,25 +38,27 @@ Befehlsreferenz
 Timeline > Information
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing Timeline project, if any. Timeline
-   and novelibre file dates are compared.
+- Informationen über ein bestehendes *Timeline*-Projekt anzeigen, falls vorhanden.
+  Das Dateidatum des *Timeline*- und des *novelibre*-Projekts vergleichen.
 
 Timeline > Die Zeitleiste erzeugen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, aktualisieren it from novelibre, otherwise erzeuge
-eine neue Zeitleiste.
+Falls eine Zeitleiste existiert, aktualisiere sie aus *novelibre*,
+andernfalls erzeuge eine neue Zeitleiste.
 
 Timeline > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Aktualisieren the novelibre-Projekt from the timeline, if existing.
+Aktualisiere das *novelibre*-Projekt aus der Zeitleiste, falls vorhanden.
 
 
 .. important::
-   Please make sure to save the timeline before trying to sync with novelibre. 
-   Since nv_timeline reads the .timeline file, unsaved changes may not be recognized. 
-   In case of doubt, close Timeline before syncing with novelibre.
+   Vergessen Sie nicht, die Zeitleiste vor dem Synchronisieren mit *novelibre* 
+   abzuspeichern.
+   Da *nv_timeline* die *.timeline*-Datei liest, bleiben ungesicherte Änderungen 
+   unberücksichtigt.
+   Im Zweifelsfall beenden Sie *Timeline*, bevor Sie mit *novelibre* synchronisieren.
 
 
 Timeline > Die Zeitleiste bearbeiten
@@ -76,38 +78,45 @@ wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.
 Benutzerdefinierte Konfiguration
 --------------------------------
 
-You can override the default settings by providing a Konfigurationsdatei.
+Sie können die Voreinstellungen mit einer Konfigurationsdatei überschreiben.
+Denken Sie aber immer daran, dass fehlerhafte Einträge zu
+Programmstörungen oder unlesbaren *Timeline*-Projekten führen können.
 Be always aware that faulty entries may cause program errors or
-unreadable Timeline projects. If you change a Konfiguration inbetween,
-previously synchronized projects might no longer match.
+Falls Sie zwischendurch eine Konfiguration ändern,
+können zuvor synchronisierte Projekte eventuell  nicht mehr zusammenpassen.
 
 Globale Konfiguration
 ~~~~~~~~~~~~~~~~~~~~~
 
-An optional global Konfigurationsdatei can be placed in the Konfiguration
-directory in your user profile. It is applied to any project. Its
-entries override nv_timeline’s built-in constants. This is the
-path: ``c:\Users\<user name>\.novx\config\nv_timeline.ini``
+Sie können eine optionale globale Konfigurationsdatei im
+Konfigurationsverzeichnis der Installation ablegen.
+Sie wird auf jedes Projekt angewendet.
+Ihre Einträge überschreiben die Voreinstellungen von *nv_timeline*.
+Dies ist der Pfad unter Windows:
+``c:\Users\<user name>\.novx\config\nv_timeline.ini``
 
-The setup script installs a sample Konfigurationsdatei containing
-nv_timeline’s default values. You can modify or delete it.
+Das Setup-Skript installiert eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von *nv_timeline*
+Sie können sie ändern oder löschen.
 
 Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project Konfigurationsdatei named ``nv_timeline.ini`` can be
-placed in your project directory, i.e. the Ordner containing your
-novelibre and Timeline project files. It is only applied to this
-project. Its entries override nv_timeline’s built-in constants as
-well as the global Konfiguration, if any.
+Sie können eine optionale Projekt-Konfigurationsdatei namens
+``nv_timeline.ini`` in Ihrem Projektverzeichnis ablegen,
+d.h. in den Ordner, der Ihre *novelibre*- und *Timeline*-Projektdateien
+enthält.
+Sie gilt dann nur für das Projekt.
+Ihre Einträge überschreiben sowohl die Voreinstellungen von
+*nv_timeline* als auch die globale Konfiguration, falls vorhanden.
 
 
 Wie man eine Konfigurationsdatei erstellt oder anpasst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The nv_timeline distribution comes with a sample Konfiguration
+Die *nv_timeline* distribution comes with a sample Konfiguration
 file located in the ``sample`` Unterverzeichnis. It contains
-nv_timeline’s default settings and options. This file is also
+*nv_timeline*’s default settings and options. This file is also
 automatically copied to the global Konfiguration Ordner during
 installation. You best make a copy and edit it.
 
@@ -158,21 +167,21 @@ Konventionen
 Allgemein
 ~~~~~~~~~
 
--  The novelibre-Projekt file and the Timeline file are located in the
+-  The *novelibre*-Projekt file and the Timeline file are located in the
    same directory.
 -  They have the same file name and differ in the file extension.
--  Either a timeline or a novelibre-Projekt is generated from the other
+-  Either a timeline or a *novelibre*-Projekt is generated from the other
    file for the first time. After that, the two files can be
    synchronized against each other.
 -  **Please keep in mind:** Synchronizing means overwriting target data
-   with source data. Since nv_timeline works in both directions,
+   with source data. Since *nv_timeline* works in both directions,
    there is always a danger of confusing source and target, thus losing
    changes. So if the program asks you for confirmation to overwrite a
    file, better check if it’s actually the target file.
 
 
-Auf der Seite von novelibre
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Auf der Seite von *novelibre*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Only normal sections are synchronized with Timeline, or exported to
    Timeline. Unbenutzt sections will not show up in the timeline.
@@ -197,36 +206,36 @@ Auf der Seite von Timeline
    must not be changed manually.
 -  Only events with a label containing the string "Abschnitt" (user input)
    or a section ID (auto-generated) are exported as sections to a neu
-   novelibre-Projekt.
--  When creating a neu novelibre-Projekt from a timeline the first time,
+   *novelibre*-Projekt.
+-  When creating a neu *novelibre*-Projekt from a timeline the first time,
    "Abschnitt" labels are replaced with section ID labels.
--  If a neu novelibre-Projekt is generated again with the same timeline,
+-  If a neu *novelibre*-Projekt is generated again with the same timeline,
    the section ID labels may change.
 -  Only events with a label containing a section ID are synchronized
-   with an existing novelibre-Projekt.
+   with an existing *novelibre*-Projekt.
 -  Changes to the event start date/time affect the section date/time
    during synchronization.
 -  Changes to the event text affect the section title during
    synchronization.
 -  Changes to the event description affect the section description
    during synchronization.
--  The section structure of an existing novelibre-Projekt can not be
+-  The section structure of an existing *novelibre*-Projekt can not be
    changed in Timeline. Hinzufügening/removing events, or adding/removing
    section IDs from event labels will *not* add or remove the
    corresponding section during synchronization.
 -  When creating events from sections without date/time information, the
    dates are automatically generated with a one-day difference, starting
-   from the novelibre-Projekt’s reference date.
+   from the *novelibre*-Projekt’s reference date.
 
 Bekannte Einschränkungen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Abschnitt events that begin before 0001-01-01 in the timeline, will not
-   be synchronized with novelibre, because novelibre can not handle
+   be synchronized with *novelibre*, because *novelibre* can not handle
    these dates.
 -  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline and the section duration in novelibre may
+   duration in Timeline and the section duration in *novelibre* may
    differ.
 -  If a section event ends after 9999-12-31 in the timeline, the section
-   duration is not synchronized with novelibre.
+   duration is not synchronized with *novelibre*.
 

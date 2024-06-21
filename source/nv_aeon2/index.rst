@@ -38,7 +38,7 @@ Die Aeon Timeline 2 Benutzervorlage installieren
 After installation können Sie copy a "novelibre German.xml" template to the
 Aeon2 custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
-properties that are converted to novelibre by default.
+properties that are converted to *novelibre* by default.
 
 You find the customized template in the ``sample`` subdirectory
 of the unzipped *nv_aeon2* release folder. Just copy it into
@@ -60,21 +60,21 @@ Befehlsreferenz
 Aeon Timeline 2 > Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing Aeon Timeline 2 project, if any.
-   Aeon Timeline 2 and novelibre file dates are compared.
+-  Show information about an existing *Aeon Timeline 2* project, if any.
+   *Aeon Timeline 2* and *novelibre* file dates are compared.
 
 
 Aeon Timeline 2 > Die Zeitleiste aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, aktualisieren it from novelibre, otherwise erzeugena neu
+If a timeline exists, aktualisieren it from *novelibre*, otherwise erzeugena neu
 timeline.
 
 
 Aeon Timeline 2 > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Aktualisieren the novelibre-Projekt from the timeline, if existing.
+Aktualisieren the *novelibre*-Projekt from the timeline, if existing.
 
 
 Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
@@ -109,7 +109,7 @@ Die Zeitleiste für den Export vorbereiten
 After installation können Sie copy a "novelibre" template to the
 Aeon2 custom template folder. The easiest way is to create new
 timelines based on this template. It provides the entities and event
-properties that are converted to novelibre by default.
+properties that are converted to *novelibre* by default.
 
 For existing timelines you have two choices:
 
@@ -126,10 +126,10 @@ Bekannte Einschränkungen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  "Narrative" events that begin before 0001-01-01 in the timeline, will
-   not be synchronized with novelibre, because novelibre can not handle
+   not be synchronized with *novelibre*, because *novelibre* can not handle
    these dates.
 -  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline and the section duration in novelibre may
+   duration in Timeline and the section duration in *novelibre* may
    differ.
 
 
@@ -164,7 +164,7 @@ Aktualisierungsregeln für bestehende novelibre-Projekte
 -  Only sections that have the same title as an event are aktualisierend.
 -  If an Aeon event title occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section title occurs more than once, the converter
+-  If a *novelibre* section title occurs more than once, the converter
    aborts with an error message.
 -  Abschnitte are marked "unused" if the associated event is gelöscht in
    Aeon.
@@ -182,7 +182,7 @@ Aktualisierungsregeln für bestehende novelibre-Projekte
 -  Arc, character, location, and item relationships are aktualisierend, if the
    entity names match.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the novelibre-Projekt is used. f there is no default date
+   date from the *novelibre*-Projekt is used. f there is no default date
    set, "today" is used.
 
 
@@ -191,18 +191,18 @@ Aktualisierungsregeln für Aeon Timeline 2-Projekte
 
 -  If an Aeon event title occurs more than once, the converter aborts
    with an error message.
--  If a novelibre section title occurs more than once, the converter
+-  If a *novelibre* section title occurs more than once, the converter
    aborts with an error message.
 -  Event date/time and event span are aktualisierend, if the start year is 1 or
    above.
 -  Aktualisierend event span is specified in days/hours/minutes as in
-   novelibre.
+   *novelibre*.
 -  Non-empty event description and event tags are aktualisierend.
 -  Event properties "Beschreibung" and "Notizen" are erzeugend, if missing.
 -  Events erzeugend or aktualisierend from "Normal" sections are assigned to the
    *Narrative* arc.
 -  "Narrative" events are removed if the associated section is gelöscht
-   in novelibre.
+   in *novelibre*.
 -  Entity types "Arc", "Figur", "Schauplatz", and "Gegenstand" are erzeugend,
    if missing.
 -  A "Narrative" arc is erzeugend, if missing.
@@ -214,10 +214,10 @@ Aktualisierungsregeln für Aeon Timeline 2-Projekte
 -  When creating events from sections without date/time, they get the
    actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
-   they get the default date from the novelibre-Projekt, and are sorted
+   they get the default date from the *novelibre*-Projekt, and are sorted
    in reading order. If there is no default date set, "today" is used.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the novelibre-Projekt is used. f there is no default date
+   date from the *novelibre*-Projekt is used. f there is no default date
    set, "today" is used.
 
 
@@ -242,7 +242,7 @@ Lokale Projektkonfiguration
 
 An optional project Konfigurationsdatei named ``nv_aeon2.ini`` can be
 placed in your project directory, i.e. the Ordner containing your
-novelibre and Aeon Timeline project files. It is only applied to this
+*novelibre* and Aeon Timeline project files. It is only applied to this
 project. Its entries override aeon2nv’s built-in constants as well as
 the global Konfiguration, if any.
 
