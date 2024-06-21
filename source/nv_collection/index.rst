@@ -14,6 +14,9 @@ Diese Seite gilt für die neueste Ausgabe von `nv_collection
 <https://github.com/peter88213/nv_collection/>`__.
 Sie können sie mit **Hilfe > Sammlung-Plugin Online-Hilfe** öffnen.
 
+Wenn Sie mehrere *novelibre*-Projekte haben, können Sie in einer
+Sammlung verwalten, auch nach Serien gegliedert.
+Eine Sammlung ermöglicht Ihnen den schnellen Zugriff auf Ihre Projekte.
 
 Das Plugin installieren
 -----------------------
@@ -93,7 +96,7 @@ rufen Sie **Buch > Ausgewähltes Buch aus der Sammlung entfernen** auf.
 Serien ünd Bücher veschieben
 ----------------------------
 
-Mit gedrückter ``Alt``-Taste ziehen.
+Bei gedrückter ``Alt``-Taste mit der Maus ziehen.
 
 .. caution::
    Denken Sie daran, es gibt keine "Rückgängig"-Funktion.
@@ -130,4 +133,4 @@ Beenden
 
 - Beenden Sie die Sammlungsverwaltung mit **Datei > Beenden**.
 - Unter Windows können Sie die Sammlungsverwaltung wahlweise mit ``Alt``-``F4`` beenden.
-- Andernfalls  können Sie die Sammlungsverwaltung wahlweise ``Strg``-``Q`` beenden.
+- Andernfalls  können Sie die Sammlungsverwaltung wahlweise mit ``Strg``-``Q`` beenden.

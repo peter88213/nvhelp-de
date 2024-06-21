@@ -64,7 +64,7 @@ Baumelemente verschieben
 Bei gedrückter ``Alt``-Taste mit der Maus ziehen.
 
 .. caution::
-   Bitte daran denken, dass es keine "Rückgängig"-Funktion gibt.
+   Denken Sie daran, es gibt keine "Rückgängig"-Funktion.
 
 
 Baumelemente löschen

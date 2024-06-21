@@ -14,6 +14,9 @@ Diese Seite gilt für die neueste Ausgabe von `nv_editor
 <https://github.com/peter88213/nv_editor/>`__.
 Sie können sie mit **Hilfe > Editor-Plugin Online-Hilfe** öffnen.
 
+Mit dem Abschnittseditor können Sie auf die Schnelle einzelne Abschnitte bearbeiten und aufteilen.
+Der Editor bietet einen Zugriff auf die interne Auszeichnung, die HTML ähnelt.
+
 
 Das Plugin installieren
 -----------------------
@@ -161,7 +164,7 @@ Das Editorfenster schließen
    oder Sie wählen den Menüeintrag **Abschnitt > Beenden**,
    oder Sie schließen einfach das Fenster.
 -  Unter Windows können Sie die Bearbeitung wahlweise mit ``Alt``-``F4`` beenden.
--  Andernfalls  können Sie die Bearbeitung wahlweise ``Strg``-``Q`` beenden.
+-  Andernfalls  können Sie die Bearbeitung wahlweise mit ``Strg``-``Q`` beenden.
 -  Wenn Sie das Editorfenster schließen, werden Sie gegebenenfalls
    gefragt, ob Sie Änderungen übernehmen wollen.
 
