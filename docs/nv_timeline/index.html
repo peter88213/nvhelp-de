@@ -70,9 +70,9 @@
 <li class="toctree-l3"><a class="reference internal" href="#das-plugin-installieren">Das Plugin installieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#befehlsreferenz">Befehlsreferenz</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#timeline-information">Timeline &gt; Information</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-die-zeitleiste-erzeugen-oder-aktualisieren">Timeline &gt; Die Zeitleiste erzeugen oder aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#timeline-den-zeitstrahl-erzeugen-oder-aktualisieren">Timeline &gt; Den Zeitstrahl erzeugen oder aktualisieren</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#timeline-das-projekt-aktualisieren">Timeline &gt; Das Projekt aktualisieren</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-die-zeitleiste-bearbeiten">Timeline &gt; Die Zeitleiste bearbeiten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#timeline-den-zeitstrahl-bearbeiten">Timeline &gt; Den Zeitstrahl bearbeiten</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#datei-neu-aus-timeline-erzeugen">Datei &gt; Neu &gt; Aus Timeline erzeugen…</a></li>
 </ul>
 </li>
@@ -156,33 +156,33 @@ und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Timeline-Plugin Online-
 Das Dateidatum des <em>Timeline</em>- und des <em>novelibre</em>-Projekts vergleichen.</p></li>
 </ul>
 </section>
-<section id="timeline-die-zeitleiste-erzeugen-oder-aktualisieren">
-<h3>Timeline &gt; Die Zeitleiste erzeugen oder aktualisieren<a class="headerlink" href="#timeline-die-zeitleiste-erzeugen-oder-aktualisieren" title="Link to this heading"></a></h3>
-<p>Falls eine Zeitleiste existiert, aktualisiere sie aus <em>novelibre</em>,
-andernfalls erzeuge eine neue Zeitleiste.</p>
+<section id="timeline-den-zeitstrahl-erzeugen-oder-aktualisieren">
+<h3>Timeline &gt; Den Zeitstrahl erzeugen oder aktualisieren<a class="headerlink" href="#timeline-den-zeitstrahl-erzeugen-oder-aktualisieren" title="Link to this heading"></a></h3>
+<p>Falls ein Zeitstrahl existiert, aktualisiere ihn aus <em>novelibre</em>,
+andernfalls erzeuge einen neuen Zeitstrahl.</p>
 </section>
 <section id="timeline-das-projekt-aktualisieren">
 <h3>Timeline &gt; Das Projekt aktualisieren<a class="headerlink" href="#timeline-das-projekt-aktualisieren" title="Link to this heading"></a></h3>
-<p>Aktualisiere das <em>novelibre</em>-Projekt aus der Zeitleiste, falls vorhanden.</p>
+<p>Aktualisiere das <em>novelibre</em>-Projekt aus dem Zeitstrahl, falls vorhanden.</p>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
-<p>Vergessen Sie nicht, die Zeitleiste vor dem Synchronisieren mit <em>novelibre</em>
+<p>Vergessen Sie nicht, den Zeitstrahl vor dem Synchronisieren mit <em>novelibre</em>
 abzuspeichern.
 Da <em>nv_timeline</em> die <em>.timeline</em>-Datei liest, bleiben ungesicherte Änderungen
 unberücksichtigt.
 Im Zweifelsfall beenden Sie <em>Timeline</em>, bevor Sie mit <em>novelibre</em> synchronisieren.</p>
 </div>
 </section>
-<section id="timeline-die-zeitleiste-bearbeiten">
-<h3>Timeline &gt; Die Zeitleiste bearbeiten<a class="headerlink" href="#timeline-die-zeitleiste-bearbeiten" title="Link to this heading"></a></h3>
-<p>Die Zeitleiste zum Projekt mit <em>Timeline</em> öffnen, falls vorhanden.
+<section id="timeline-den-zeitstrahl-bearbeiten">
+<h3>Timeline &gt; Den Zeitstrahl bearbeiten<a class="headerlink" href="#timeline-den-zeitstrahl-bearbeiten" title="Link to this heading"></a></h3>
+<p>Den Zeitstrahl zum Projekt mit <em>Timeline</em> öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.</p>
 </section>
 <section id="datei-neu-aus-timeline-erzeugen">
 <h3>Datei &gt; Neu &gt; Aus Timeline erzeugen…<a class="headerlink" href="#datei-neu-aus-timeline-erzeugen" title="Link to this heading"></a></h3>
 <p>Damit öffnen Sie einen Dateiauswahldialog, um eine <em>.timeline</em>-Datei auszuwählen.
 Falls noch kein <em>novelibre</em>-Projekt mit dem gleichen Dateinamen existiert,
-wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.</p>
+wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.</p>
 </section>
 </section>
 <section id="benutzerdefinierte-konfiguration">
@@ -262,7 +262,7 @@ Codezeile.</p></li>
 </section>
 <section id="wie-man-die-konfiguration-auf-die-standardeinstellungen-zurucksetzt">
 <h3>Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt<a class="headerlink" href="#wie-man-die-konfiguration-auf-die-standardeinstellungen-zurucksetzt" title="Link to this heading"></a></h3>
-<p>Löschen Sie einfach Ihre globalen and lokalen Konfigurationsdateien.</p>
+<p>Löschen Sie einfach Ihre globalen und lokalen Konfigurationsdateien.</p>
 </section>
 </section>
 <section id="konventionen">
@@ -270,22 +270,32 @@ Codezeile.</p></li>
 <section id="allgemein">
 <h3>Allgemein<a class="headerlink" href="#allgemein" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>The <em>novelibre</em>-Projekt file and the Timeline file are located in the
-same directory.</p></li>
-<li><p>They have the same file name and differ in the file extension.</p></li>
-<li><p>Either a timeline or a <em>novelibre</em>-Projekt is generated from the other
-file for the first time. After that, the two files can be
-synchronized against each other.</p></li>
-<li><p><strong>Please keep in mind:</strong> Synchronizing means overwriting target data
-with source data. Since <em>nv_timeline</em> works in both directions,
-there is always a danger of confusing source and target, thus losing
-changes. So if the program asks you for confirmation to overwrite a
-file, better check if it’s actually the target file.</p></li>
+<li><p>Die <em>novelibre</em>-Projektdatei und die <em>Timeline</em>-Datei befinden
+sich im selben Verzeichnis.</p></li>
+<li><p>Sie haben den selben Dateinamen, aber unterschiedliche Erweiterungen.</p></li>
+<li><p>Beim ersten Mal wird entweder ein <em>Timeline</em>- oder ein <em>novelibre</em>-Projekt
+aus dem jeweils anderen erzeugt. Danach können die beiden miteinander
+synchronisiert werden.</p></li>
 </ul>
+<div class="admonition caution">
+<p class="admonition-title">Vorsicht</p>
+<p>Synchronisieren heißt Zieldaten mit Quelldaten
+überschreiben.
+Da <em>nv_timeline</em> in beide Richtungen arbeitet,
+besteht immer die Gefahr, Quelle und Ziel zu verwechseln und so
+Änderungen zu verlieren.
+Wenn Sie also nach einer Bestätigung gefragt werden,
+eine Datei zu überschreiben,
+prüfen Sie besser noch einmal nach, ob es sich dabei tatsächlich
+um  das gewünschte Ziel handelt.</p>
+</div>
 </section>
 <section id="auf-der-seite-von-novelibre">
 <h3>Auf der Seite von <em>novelibre</em><a class="headerlink" href="#auf-der-seite-von-novelibre" title="Link to this heading"></a></h3>
 <ul class="simple">
+<li><p>Nur normale Abschnitte werden mit <em>Timeline</em> synchronisiert oder zu
+<em>Timeline</em> exportiert.
+Unbenutzte Abschnitte erscheinen nicht auf dem Zeitstrahl.</p></li>
 <li><p>Only normal sections are synchronized with Timeline, or exported to
 Timeline. Unbenutzt sections will not show up in the timeline.</p></li>
 <li><p>Abschnitte with an unspecific time stamp (day, hours, minutes) are
@@ -305,7 +315,7 @@ event during synchronization.</p></li>
 <section id="auf-der-seite-von-timeline">
 <h3>Auf der Seite von Timeline<a class="headerlink" href="#auf-der-seite-von-timeline" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>A section ID is a string looking like „sc1“. It is auto-generated and
+<li><p>A section ID is a string looking like „sc1“. It is auto-generated und
 must not be changed manually.</p></li>
 <li><p>Only events with a label containing the string „Abschnitt“ (user input)
 or a section ID (auto-generated) are exported as sections to a neu
@@ -334,11 +344,11 @@ from the <em>novelibre</em>-Projekt’s reference date.</p></li>
 <section id="bekannte-einschrankungen">
 <h3>Bekannte Einschränkungen<a class="headerlink" href="#bekannte-einschrankungen" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Abschnitt events that begin before 0001-01-01 in the timeline, will not
-be synchronized with <em>novelibre</em>, because <em>novelibre</em> can not handle
-these dates.</p></li>
+<li><p>Ereignisse, die auf dem Zeitstrahl vor dem Datum 0001-01-01
+liegen, können nicht mit <em>novelibre</em> synchronisiert werden,
+weil <em>novelibre</em> damit nicht umgehen kann.</p></li>
 <li><p>The same applies to the section duration in this case, i.e. the event
-duration in Timeline and the section duration in <em>novelibre</em> may
+duration in Timeline und the section duration in <em>novelibre</em> may
 differ.</p></li>
 <li><p>If a section event ends after 9999-12-31 in the timeline, the section
 duration is not synchronized with <em>novelibre</em>.</p></li>

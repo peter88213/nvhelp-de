@@ -64,7 +64,7 @@ Aeon Timeline 2 > Information
    *Aeon Timeline 2* and *novelibre* file dates are compared.
 
 
-Aeon Timeline 2 > Die Zeitleiste aktualisieren
+Aeon Timeline 2 > Den Zeitstrahl aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If a timeline exists, aktualisieren it from *novelibre*, otherwise erzeugena neu
@@ -85,10 +85,10 @@ by John Conway. In its current form, it’s only valid for the 20th and
 21st centuries.
 
 
-Aeon Timeline 2 > Die Zeitleiste bearbeiten
+Aeon Timeline 2 > Den Zeitstrahl bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die Zeitleiste zum Projekt mit *Aeon Timeline 2* öffnen, falls vorhanden.
+Den Zeitstrahl zum Projekt mit *Aeon Timeline 2* öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
 
 
@@ -97,13 +97,13 @@ Datei > Neu > Aus Aeon Timeline 2 erzeugen...
 
 Damit öffnen Sie einen Dateiauswahldialog, um eine *.aeonzip*-Datei auszuwählen.
 Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
-wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.
+wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.
 
 
 Die Konvertierung steuern
 -------------------------
 
-Die Zeitleiste für den Export vorbereiten
+Den Zeitstrahl für den Export vorbereiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After installation können Sie copy a "novelibre" template to the
@@ -125,9 +125,9 @@ Die Synchronisierung im Einzelnen
 Bekannte Einschränkungen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
--  "Narrative" events that begin before 0001-01-01 in the timeline, will
-   not be synchronized with *novelibre*, because *novelibre* can not handle
-   these dates.
+-  Ereignisse, die auf dem Zeitstrahl vor dem Datum 0001-01-01
+   liegen, können nicht mit *novelibre* synchronisiert werden,
+   weil *novelibre* damit nicht umgehen kann.
 -  The same applies to the section duration in this case, i.e. the event
    duration in Timeline and the section duration in *novelibre* may
    differ.
@@ -247,78 +247,79 @@ project. Its entries override aeon2nv’s built-in constants as well as
 the global Konfiguration, if any.
 
 
-How to provide/modify a Konfigurationsdatei
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wie man eine Konfigurationsdatei erstellt oder anpasst
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The nv_aeon2 distribution comes with a sample Konfigurationsdatei
-located in the ``sample`` Unterverzeichnis. It contains nv_aeon2’s
-default settings and options. This file is also automatically copied to
-the global Konfiguration Ordner during installation. You best make a
-copy and edit it.
+Die *nv_aeon2*-Distribution wird mit einer Beispielkonfigurationsdatei
+geliefert, die sich im Unterordner ``sample`` befindet.
+Sie enthält die Standardeinstellungen und Optionen von *nv_aeon2*.
+Diese Datei wird auch während der Installation automatisch in den
+globalen Konfigurationsordner kopiert.
+Am besten erstellen Sie eine Kopie und bearbeiten sie.
 
 -  The SETTINGS section mainly refers to custom property, role, and type
    names.
--  Comment lines begin with a ``#`` number sign. In the example, they
-   refer to the code line immediately above.
+-  Kommentarzeilen beginnen mit einem Rautenzeichen ``#``.
+   Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
+   Codezeile.
 
-This is the Konfiguration explained:
+Das ist die Konfiguration mit Erklärungen:
 
 ::
 
    [SETTINGS]
    
-   narrative_arc = Narrative
+   narrative_arc = Romanhandlung
    
    # Name of the user-defined "Narrative" arc.
    
-   property_description = Description
+   property_description = Beschreibung
    
-   # Name of the user-defined section description property.
+   # Name of the user-defined scene description property.
    
-   property_notes = Notes
+   property_notes = Notizen
    
-   # Name of the user-defined section notes property.
+   # Name of the user-defined scene notes property.
    
-   property_moonphase = Moon phase
+   property_moonphase = Mondphase
    
    # Name of the user-defined moon phase property.
    
-   role_location = Location
+   role_location = Schauplatz
    
-   # Name of the user-defined role for section locations.
+   # Name of the user-defined role for scene locations.
    
    role_item = Item
    
-   # Name of the user-defined role for items in a section.
+   # Name of the user-defined role for items in a scene.
    
-   role_character = Participant
+   role_character = Anwesend
    
-   # Name of the user-defined role for characters in a section.
+   # Name of the user-defined role for characters in a scene.
    
-   type_character = Character
+   type_character = Figur
    
    # Name of the user-defined "Character" type
    
-   type_location = Location
+   type_location = Ort
    
    # Name of the user-defined "Location" type
    
-   type_item = Item
+   type_item = Gegenstand
    
    # Name of the user-defined "Item" type
    
-   color_section = Red
+   color_scene = Red
    
-   # Color of new section events
+   # Color of new scene events
    
    color_event = Yellow
    
-   # Color of new non-section events
-
-
+   # Color of new non-scene events
+   
    [OPTIONS]
    
-   add_moonphase = No
+   add_moonphase = Yes
    
    # Yes: Add the moon phase to the event properties.
    # No: Update moon phase, if already defined as event property.

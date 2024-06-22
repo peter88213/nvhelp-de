@@ -41,30 +41,30 @@ Timeline > Information
 - Informationen über ein bestehendes *Timeline*-Projekt anzeigen, falls vorhanden.
   Das Dateidatum des *Timeline*- und des *novelibre*-Projekts vergleichen.
 
-Timeline > Die Zeitleiste erzeugen oder aktualisieren
+Timeline > Den Zeitstrahl erzeugen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Falls eine Zeitleiste existiert, aktualisiere sie aus *novelibre*,
-andernfalls erzeuge eine neue Zeitleiste.
+Falls ein Zeitstrahl existiert, aktualisiere ihn aus *novelibre*,
+andernfalls erzeuge einen neuen Zeitstrahl.
 
 Timeline > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Aktualisiere das *novelibre*-Projekt aus der Zeitleiste, falls vorhanden.
+Aktualisiere das *novelibre*-Projekt aus dem Zeitstrahl, falls vorhanden.
 
 
 .. important::
-   Vergessen Sie nicht, die Zeitleiste vor dem Synchronisieren mit *novelibre* 
+   Vergessen Sie nicht, den Zeitstrahl vor dem Synchronisieren mit *novelibre* 
    abzuspeichern.
    Da *nv_timeline* die *.timeline*-Datei liest, bleiben ungesicherte Änderungen 
    unberücksichtigt.
    Im Zweifelsfall beenden Sie *Timeline*, bevor Sie mit *novelibre* synchronisieren.
 
 
-Timeline > Die Zeitleiste bearbeiten
+Timeline > Den Zeitstrahl bearbeiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die Zeitleiste zum Projekt mit *Timeline* öffnen, falls vorhanden.
+Den Zeitstrahl zum Projekt mit *Timeline* öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
 
 Datei > Neu > Aus Timeline erzeugen...
@@ -72,7 +72,7 @@ Datei > Neu > Aus Timeline erzeugen...
 
 Damit öffnen Sie einen Dateiauswahldialog, um eine *.timeline*-Datei auszuwählen.
 Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
-wird das aktuelle Projekt geschlossen und ein neues aus der Zeitleiste erzeugt.
+wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.
 
 
 Benutzerdefinierte Konfiguration
@@ -161,7 +161,7 @@ Das ist die Konfiguration mit Erklärungen:
 Wie man die Konfiguration auf die Standardeinstellungen zurücksetzt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Löschen Sie einfach Ihre globalen and lokalen Konfigurationsdateien.
+Löschen Sie einfach Ihre globalen und lokalen Konfigurationsdateien.
 
 
 Konventionen
@@ -170,22 +170,31 @@ Konventionen
 Allgemein
 ~~~~~~~~~
 
--  The *novelibre*-Projekt file and the Timeline file are located in the
-   same directory.
--  They have the same file name and differ in the file extension.
--  Either a timeline or a *novelibre*-Projekt is generated from the other
-   file for the first time. After that, the two files can be
-   synchronized against each other.
--  **Please keep in mind:** Synchronizing means overwriting target data
-   with source data. Since *nv_timeline* works in both directions,
-   there is always a danger of confusing source and target, thus losing
-   changes. So if the program asks you for confirmation to overwrite a
-   file, better check if it’s actually the target file.
+- Die *novelibre*-Projektdatei und die *Timeline*-Datei befinden
+  sich im selben Verzeichnis.
+- Sie haben den selben Dateinamen, aber unterschiedliche Erweiterungen.
+- Beim ersten Mal wird entweder ein *Timeline*- oder ein *novelibre*-Projekt
+  aus dem jeweils anderen erzeugt. Danach können die beiden miteinander
+  synchronisiert werden.
+
+.. caution:: 
+   Synchronisieren heißt Zieldaten mit Quelldaten 
+   überschreiben. 
+   Da *nv_timeline* in beide Richtungen arbeitet,
+   besteht immer die Gefahr, Quelle und Ziel zu verwechseln und so 
+   Änderungen zu verlieren. 
+   Wenn Sie also nach einer Bestätigung gefragt werden, 
+   eine Datei zu überschreiben, 
+   prüfen Sie besser noch einmal nach, ob es sich dabei tatsächlich
+   um  das gewünschte Ziel handelt. 
 
 
 Auf der Seite von *novelibre*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+- Nur normale Abschnitte werden mit *Timeline* synchronisiert oder zu
+  *Timeline* exportiert.
+  Unbenutzte Abschnitte erscheinen nicht auf dem Zeitstrahl.
 -  Only normal sections are synchronized with Timeline, or exported to
    Timeline. Unbenutzt sections will not show up in the timeline.
 -  Abschnitte with an unspecific time stamp (day, hours, minutes) are
@@ -205,7 +214,7 @@ Auf der Seite von *novelibre*
 Auf der Seite von Timeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  A section ID is a string looking like "sc1". It is auto-generated and
+-  A section ID is a string looking like "sc1". It is auto-generated und
    must not be changed manually.
 -  Only events with a label containing the string "Abschnitt" (user input)
    or a section ID (auto-generated) are exported as sections to a neu
@@ -233,11 +242,11 @@ Auf der Seite von Timeline
 Bekannte Einschränkungen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Abschnitt events that begin before 0001-01-01 in the timeline, will not
-   be synchronized with *novelibre*, because *novelibre* can not handle
-   these dates.
+-  Ereignisse, die auf dem Zeitstrahl vor dem Datum 0001-01-01
+   liegen, können nicht mit *novelibre* synchronisiert werden,
+   weil *novelibre* damit nicht umgehen kann.
 -  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline and the section duration in *novelibre* may
+   duration in Timeline und the section duration in *novelibre* may
    differ.
 -  If a section event ends after 9999-12-31 in the timeline, the section
    duration is not synchronized with *novelibre*.
