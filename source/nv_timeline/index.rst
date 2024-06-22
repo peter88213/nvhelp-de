@@ -88,8 +88,9 @@ können zuvor synchronisierte Projekte eventuell  nicht mehr zusammenpassen.
 Globale Konfiguration
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sie können eine optionale globale Konfigurationsdatei im
-Konfigurationsverzeichnis der Installation ablegen.
+Sie können eine optionale globale Konfigurationsdatei
+namens ``nv_timeline.ini``
+im Konfigurationsverzeichnis der Installation ablegen.
 Sie wird auf jedes Projekt angewendet.
 Ihre Einträge überschreiben die Voreinstellungen von *nv_timeline*.
 Dies ist der Pfad unter Windows:
@@ -195,8 +196,6 @@ Auf der Seite von *novelibre*
 - Nur normale Abschnitte werden mit *Timeline* synchronisiert oder zu
   *Timeline* exportiert.
   Unbenutzte Abschnitte erscheinen nicht auf dem Zeitstrahl.
--  Only normal sections are synchronized with Timeline, or exported to
-   Timeline. Unbenutzt sections will not show up in the timeline.
 -  Abschnitte with an unspecific time stamp (day, hours, minutes) are
    synchronized with the timeline, if a reference date is set.
 -  Changes to the section date/time affect the event start date/time

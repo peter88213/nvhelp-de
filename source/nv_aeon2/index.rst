@@ -231,20 +231,29 @@ Be always aware that faulty entries may cause program errors.
 Globale Konfiguration
 ~~~~~~~~~~~~~~~~~~~~~
 
-An optional global Konfigurationsdatei can be placed in the Konfiguration
-directory in your user profile. It is applied to any project. Its
-entries override nv_aeon2’s built-in constants. This is the path:
+Sie können eine optionale globale Konfigurationsdatei
+namens ``nv_aeon2.ini``
+im Konfigurationsverzeichnis der Installation ablegen.
+Sie wird auf jedes Projekt angewendet.
+Ihre Einträge überschreiben die Voreinstellungen von *nv_aeon2*.
+Dies ist der Pfad unter Windows:
 ``c:\Users\<user name>\.novx\config\nv_aeon2.ini``
+
+Das Setup-Skript installiert eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von *nv_aeon2*
+Sie können sie ändern oder löschen.
 
 
 Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project Konfigurationsdatei named ``nv_aeon2.ini`` can be
-placed in your project directory, i.e. the Ordner containing your
-*novelibre* and Aeon Timeline project files. It is only applied to this
-project. Its entries override aeon2nv’s built-in constants as well as
-the global Konfiguration, if any.
+Sie können eine optionale Projekt-Konfigurationsdatei namens
+``nv_aeon2.ini`` in Ihrem Projektverzeichnis ablegen,
+d.h. in dem Ordner, der Ihre *novelibre*- und
+*Aeon Timeline 2*-Projektdateien enthält.
+Sie gilt dann nur für das Projekt.
+Ihre Einträge überschreiben sowohl die Voreinstellungen von
+*nv_aeon2* als auch die globale Konfiguration, falls vorhanden.
 
 
 Wie man eine Konfigurationsdatei erstellt oder anpasst
