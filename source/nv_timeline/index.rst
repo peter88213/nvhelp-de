@@ -13,7 +13,7 @@ nv_timeline
 .. hint::
    Die deutsche Übersetzung des *nv_timeline*-Benutzerhandbuchs ist noch in Arbeit.
    Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
+   des Benutzerhandbuchs wechseln (Link oben).
 
 Diese Seite gilt für die neueste Ausgabe von `nv_timeline
 <https://github.com/peter88213/nv_timeline/>`__.
@@ -199,18 +199,18 @@ Auf der Seite von *novelibre*
 - Nur normale Abschnitte werden mit *Timeline* synchronisiert oder zu
   *Timeline* exportiert.
   Unbenutzte Abschnitte erscheinen nicht auf dem Zeitstrahl.
--  Abschnitte with an unspecific time stamp (day, hours, minutes) are
-   synchronized with the timeline, if a reference date is set.
--  Changes to the section date/time affect the event start date/time
-   during synchronization.
--  Changes to the section title affect the event text during
-   synchronization.
--  Changes to the section description affect the event description
-   during synchronization.
--  Changes to the section type may add or remove the corresponding event
-   during synchronization.
--  Hinzufügening or removing sections will add or remove the corresponding
-   event during synchronization.
+- Abschnitte mit unspezifischer Datumsangabe (Tag) werden mit
+  dem Zeitstrahl synchronisiert, sofern ein Bezugsdatum angegeben ist.
+- Änderungen an Datum/Zeit des Abschnitts wirken bei der Synchronisation
+  auf Startdatum/Zeit des Ereignisses.
+- Änderungen am Abschnittstitel wirken bei der Synchronisation
+  auf den Ereignistext.
+- Änderungen an der Abschnittsbeschreibung wirken bei der Synchronisation
+  auf die Ereignisbeschreibung.
+- Änderungen am Abschnittstyp können dazu führen, dass bei der Synchronisation
+  Ereignisse entfernt oder hinzugefügt werden.
+- Das Hinzufügen oder Löschen von Abschnitten führt bei der Synchronisation
+  zum Hinzufügen oder Löschen der entsprechenden Ereignisse.
 
 
 Auf der Seite von Timeline
@@ -247,9 +247,8 @@ Bekannte Einschränkungen
 -  Ereignisse, die auf dem Zeitstrahl vor dem Datum 0001-01-01
    liegen, können nicht mit *novelibre* synchronisiert werden,
    weil *novelibre* damit nicht umgehen kann.
--  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline und the section duration in *novelibre* may
-   differ.
--  If a section event ends after 9999-12-31 in the timeline, the section
-   duration is not synchronized with *novelibre*.
+-  Dasselbe gilt in diesem Fall für die Ereignisdauer, d.h.
+   Die Zeitdauer kann dann in *Timeline* und *novelibre* unterschiedlich sein.
+-  Falls ein Ereignis auf dem Zeitstrahl nach 9999-12-31 endet,
+   wird die Dauer nicht mit *novelibre* synchronisiert.
 

@@ -13,7 +13,7 @@ novx_xtg
 .. hint::
    Die deutsche Übersetzung des *novx_xtg*-Benutzerhandbuchs ist noch in Arbeit.
    Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
+   des Benutzerhandbuchs wechseln (Link oben).
 
 Diese Seite gilt für die neueste Ausgabe von `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__.

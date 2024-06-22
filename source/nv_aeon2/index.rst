@@ -13,7 +13,7 @@ nv_aeon2
 .. hint::
    Die deutsche Übersetzung des *nv_aeon2*-Benutzerhandbuchs ist noch in Arbeit.
    Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link s.o.).
+   des Benutzerhandbuchs wechseln (Link oben).
 
 Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
 <https://github.com/peter88213/nv_aeon2/>`__.
@@ -80,9 +80,10 @@ Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisie
 Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The moon phase calculation is based on a ‘do it in your head’ algorithm
-by John Conway. In its current form, it’s only valid for the 20th and
-21st centuries.
+Die Berechnung der Mondphase beruht auf einem überschlägigen Verfahren
+von John Conway.
+In ihrer derzeitigen Ausführung ist sie nur für das 20. und 21. Jahrhundert
+gültig.
 
 
 Aeon Timeline 2 > Den Zeitstrahl bearbeiten
@@ -106,17 +107,20 @@ Die Konvertierung steuern
 Den Zeitstrahl für den Export vorbereiten
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After installation können Sie copy a "novelibre" template to the
-Aeon2 custom template folder. The easiest way is to create new
-timelines based on this template. It provides the entities and event
-properties that are converted to *novelibre* by default.
+Nach der Installation können Sie eine "novelibre"-Vorlage
+in das *Aeon Timeline 2*-Benutzervorlagenverzeichnis kopieren.
+Es ist am einfachsten, neue Zeitstrahlen mit Hilfe dieser Vorlage zu erzeugen.
+Sie stellt diejenigen *Entities* und *Event Properties* bereit,
+die standardmäßig mit *novelibre* synchronisiert werden.
 
-For existing timelines you have two choices:
+für existierende Zeitstrahlen haben Sie zwei Möglichkeiten zur Auswahl:
 
--  Option 1: Hinzufügen or rename the required entities and event properties in
-   the Timeline settings.
--  Option 2: Benutzerdefiniertize the *nv_aeon2* Konfiguration to fit your
-   timeline, see `Benutzerdefiniert Konfiguration <#benutzerdefiniert-Konfiguration>`__.
+-  Option 1: Fügen Sie in *Aeon Timeline 2*
+   die erforderlichen *Entities* und *Event Properties* hinzu
+   oder benennen Sie sie um.
+-  Option 2: Passen Sie die Konfiguration von *nv_aeon2* an,
+   damit sie zum Zeitstrahl passt, siehe
+   `Benutzerdefinierte Konfiguration <#benutzerdefinierte-konfiguration>`__.
 
 
 Die Synchronisierung im Einzelnen
