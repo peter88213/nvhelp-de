@@ -11,7 +11,7 @@ nv_aeon2
 **Benutzerhandbuch**
 
 .. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
+   Die deutsche Übersetzung des *nv_aeon2*-Benutzerhandbuchs ist noch in Arbeit.
    Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
    des Benutzerhandbuchs wechseln (Link s.o.).
 

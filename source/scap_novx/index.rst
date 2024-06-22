@@ -11,7 +11,9 @@ scap_novx
 **Benutzerhandbuch**
 
 .. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
+   Die deutsche Übersetzung des *scap_novx*-Benutzerhandbuchs ist noch in Arbeit.
+   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
+   des Benutzerhandbuchs wechseln (Link s.o.).
 
 
 Diese Seite gilt für die neueste Ausgabe von `scap_novx
@@ -37,13 +39,13 @@ Alternatively können Sie
 - launch the program on the command line passing the scapple file as an argument, or
 - launch the program via a batch file.
 
-usage: ``scap_novx.py [--silent] Sourcefile``
+Aufruf: ``scap_novx.py [--silent] Quelldatei``
 
 
 Positionsbezogene Parameter:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-``Sourcefile``
+``Quelldatei``
 
 The path of the Scapple outline file.
 

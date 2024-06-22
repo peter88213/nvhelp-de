@@ -11,7 +11,9 @@ novx_xtg
 **Benutzerhandbuch**
 
 .. hint::
-   Die deutsche Übersetzung des *novelibre*-Benutzerhandbuchs ist noch in Arbeit.
+   Die deutsche Übersetzung des *novx_xtg*-Benutzerhandbuchs ist noch in Arbeit.
+   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
+   des Benutzerhandbuchs wechseln (Link s.o.).
 
 Diese Seite gilt für die neueste Ausgabe von `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__.
@@ -20,34 +22,37 @@ The novx_xtg Python script runs through all chapters and sections
 of a *novelibre* project and fills XTG templates.
 
 
-Instructions for use
---------------------
+Gebrauchsanweisung
+------------------
 
-Intended usage
-~~~~~~~~~~~~~~
+Vorgesehene Benutzung
+~~~~~~~~~~~~~~~~~~~~~
 
 The included installation script prompts you to create a shortcut on the desktop.
 You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.
 
-Command line usage
-~~~~~~~~~~~~~~~~~~
 
-Alternatively können Sie
+Auf der Kommandozeile
+~~~~~~~~~~~~~~~~~~~~~
+
+Sie können wahlweise
 
 - launch the program on the command line passing the novelibre project file as an argument, or
 - launch the program via a batch file.
 
-usage: ``novx_xtg.pyw [--silent] Sourcefile``
+Aufruf: ``novx_xtg.pyw [--silent] Quelldatei``
 
-positional arguments:
-^^^^^^^^^^^^^^^^^^^^^
 
-``Sourcefile``
+Positionsbezogene Parameter:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``Quelldatei``
 
 The path of the novelibre project file.
 
-optional arguments:
-^^^^^^^^^^^^^^^^^^^
+
+Optionale Parameter:
+^^^^^^^^^^^^^^^^^^^^
 
 ``--silent``  suppress error messages and the request to confirm the use of default values
 
@@ -63,10 +68,12 @@ About XTG
 The XTG file format uses the *XPress Tags* language, the knowledge of which is assumed. You can
 download the manual *A Guide to XPress Tags* for your program version from the *Quark* web site.
 
+
 novelibre text markup
 ~~~~~~~~~~~~~~~~~~~~~
 
 Bold and italics are supported. Other highlighting such as underline and strikethrough are lost.
+
 
 Quotation marks and punctuation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
