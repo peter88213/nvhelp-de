@@ -10,11 +10,6 @@ nv_timeline
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *nv_timeline*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link oben).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_timeline
 <https://github.com/peter88213/nv_timeline/>`__.
 Sie können sie mit **Hilfe > Timeline-Plugin Online-Hilfe** öffnen.
@@ -140,7 +135,7 @@ Das ist die Konfiguration mit Erklärungen:
 
    [SETTINGS]
 
-   section_label = Abschnitt
+   section_label = Section
 
    # Ereignisse mit diesem Label werden in ein neu erzeugtes
    # novelibre-Projekt als Abschnitte übernommen. 
@@ -199,10 +194,12 @@ Auf der Seite von *novelibre*
 - Nur normale Abschnitte werden mit *Timeline* synchronisiert oder zu
   *Timeline* exportiert.
   Unbenutzte Abschnitte erscheinen nicht auf dem Zeitstrahl.
-- Abschnitte mit unspezifischer Datumsangabe (Tag) werden mit
+- Abschnitte mit unspezifischer Datums-/Zeitangabe (Tag) werden mit
   dem Zeitstrahl synchronisiert, sofern ein Bezugsdatum angegeben ist.
-- Änderungen an Datum/Zeit des Abschnitts wirken bei der Synchronisation
+- Änderungen an Datum/Zeit eines Abschnitts wirken bei der Synchronisation
   auf Startdatum/Zeit des Ereignisses.
+- Änderungen an der Dauer eines Abschnitts wirken bei der Synchronisation
+  auf Enddatum/Zeit des Ereignisses.
 - Änderungen am Abschnittstitel wirken bei der Synchronisation
   auf den Ereignistext.
 - Änderungen an der Abschnittsbeschreibung wirken bei der Synchronisation
@@ -213,33 +210,36 @@ Auf der Seite von *novelibre*
   zum Hinzufügen oder Löschen der entsprechenden Ereignisse.
 
 
-Auf der Seite von Timeline
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Auf der Seite von *Timeline*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  A section ID is a string looking like "sc1". It is auto-generated und
-   must not be changed manually.
--  Only events with a label containing the string "Abschnitt" (user input)
-   or a section ID (auto-generated) are exported as sections to a neu
-   *novelibre*-Projekt.
--  When creating a neu *novelibre*-Projekt from a timeline the first time,
-   "Abschnitt" labels are replaced with section ID labels.
--  If a neu *novelibre*-Projekt is generated again with the same timeline,
-   the section ID labels may change.
--  Only events with a label containing a section ID are synchronized
-   with an existing *novelibre*-Projekt.
--  Changes to the event start date/time affect the section date/time
-   during synchronization.
--  Changes to the event text affect the section title during
-   synchronization.
--  Changes to the event description affect the section description
-   during synchronization.
--  The section structure of an existing *novelibre*-Projekt can not be
-   changed in Timeline. Hinzufügening/removing events, or adding/removing
-   section IDs from event labels will *not* add or remove the
-   corresponding section during synchronization.
--  When creating events from sections without date/time information, the
-   dates are automatically generated with a one-day difference, starting
-   from the *novelibre*-Projekt’s reference date.
+- Eine Abschnitts-ID ist eine Zeichenkette, die wie "sc1" aussieht.
+  Sie wird automatisch erzeugt und darf nicht von Hand geändert werden.
+- Nur Ereignisse mit einem Label, das die Zeichenkette "Section"
+  (Benutzereingabe) oder eine Abschnitts-ID (automatisch erzeugt)
+  enthält, werden als Abschnitte in ein neues *novelibre*-Projekt übernommen.
+- Wenn ein neues *novelibre*-Projekt zum ersten Mal aus einem Zeitstrahl
+  erzeugt wird, ersetzt das Programm "Section"-Labels mit Abschnitts-IDs.
+- Wenn ein neues *novelibre*-Projekt noch einmal aus diesem Zeitstrahl erzeugt wird,
+  können sich die Abschnitts-ID-Labels ändern.
+- Nur Ereignisse mit einem Label, das eine Abschnitts-ID enthält,
+  werden mit einem existierenden *novelibre*-Projekt synchronisiert.
+- Änderungen an Startdatum/Zeit eines Ereignisses wirken bei der Synchronisation
+  auf Datum/Zeit des Abschnitts.
+- Änderungen an Enddatum/Zeit eines Ereignisses wirken bei der Synchronisation
+  auf die Dauer des Abschnitts.
+- Änderungen am Ereignistext wirken bei der Synchronisation
+  auf den Abschnittstitel.
+- Änderungen an der Ereignisbeschreibung wirken bei der Synchronisation
+  auf die Abschnittsbeschreibung.
+- Die Baumstruktur eines existierenden *novelibre*-Projekts kann nicht
+  in *Timeline* geändert werden. Ereignisse hinzuzufügen oder zu löschen,
+  oder Abschnitts-IDs in den Ereignis-Labels zu bearbeiten,
+  wird *nicht* zum Hinzufügen oder Löschen der entsprechenden Abschnitte führen.
+- Wenn das Programm Ereignisse aus Abschnitten ohne Datums-/Zeitangaben erzeugt,
+  erhalten sie automatisch Datumsangaben mit Abständen von einem Tag,
+  angefangen beim Bezugsdatum des Projekts.
+
 
 Bekannte Einschränkungen
 ~~~~~~~~~~~~~~~~~~~~~~~~
