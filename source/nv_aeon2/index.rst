@@ -60,21 +60,21 @@ Befehlsreferenz
 Aeon Timeline 2 > Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Show information about an existing *Aeon Timeline 2* project, if any.
-   *Aeon Timeline 2* and *novelibre* file dates are compared.
+Damit bekommen Sie Informationen über ein bestehendes *Aeon Timeline 2*-Projekt angezeigt,
+falls vorhanden.
+Das Dateidatum des *Aeon Timeline 2*- wird mit dem des *novelibre*-Projekts verglichen.
 
 
 Aeon Timeline 2 > Den Zeitstrahl aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If a timeline exists, aktualisieren it from *novelibre*, otherwise erzeugena neu
-timeline.
+Damit wird ein existierender Zeitstrahl aus dem *novelibre*-Projekt aktualisiert.
 
 
 Aeon Timeline 2 > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Aktualisieren the *novelibre*-Projekt from the timeline, if existing.
+Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisiert.
 
 
 Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren

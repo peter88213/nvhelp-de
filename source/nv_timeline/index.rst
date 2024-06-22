@@ -38,19 +38,22 @@ Befehlsreferenz
 Timeline > Information
 ~~~~~~~~~~~~~~~~~~~~~~
 
-- Informationen über ein bestehendes *Timeline*-Projekt anzeigen, falls vorhanden.
-  Das Dateidatum des *Timeline*- und des *novelibre*-Projekts vergleichen.
+Damit bekommen Sie Informationen über ein bestehendes *Timeline*-Projekt angezeigt,
+falls vorhanden.
+Das Dateidatum des *Timeline*- wird mit dem des *novelibre*-Projekts verglichen.
+
 
 Timeline > Den Zeitstrahl erzeugen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Falls ein Zeitstrahl existiert, aktualisiere ihn aus *novelibre*,
-andernfalls erzeuge einen neuen Zeitstrahl.
+Damit wird ein existierender Zeitstrahl aus dem *novelibre*-Projekt aktualisiert.
+Ein fehlender Zeitstrahl wird neu erzeugt.
+
 
 Timeline > Das Projekt aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Aktualisiere das *novelibre*-Projekt aus dem Zeitstrahl, falls vorhanden.
+Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisiert.
 
 
 .. important::
