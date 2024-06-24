@@ -18,8 +18,8 @@ novx_xtg
 Diese Seite gilt für die neueste Ausgabe von `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__.
 
-The novx_xtg Python script runs through all chapters and sections
-of a *novelibre* project and fills XTG templates.
+Das Python-Skript *novx_xtg.py* durchläuft alle kapitel und Abschnitte
+eines *novelibre*-Projekts und füllt XTG-Vorlagen aus.
 
 
 Gebrauchsanweisung
@@ -28,17 +28,20 @@ Gebrauchsanweisung
 Vorgesehene Benutzung
 ~~~~~~~~~~~~~~~~~~~~~
 
-The included installation script prompts you to create a shortcut on the desktop.
-You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.
+Das mitgelieferte Installationsskript fordert Sie auf, eine Verknüpfung
+auf dem Desktop anzulegen.
+Die können das Programm dann aufrufen, indem Sie mit der Maus eine
+*.novx*-Datei auf das Symbol ziehen.
 
 
 Auf der Kommandozeile
 ~~~~~~~~~~~~~~~~~~~~~
 
-Sie können wahlweise
+Wahlweise können Sie auch
 
-- launch the program on the command line passing the novelibre project file as an argument, or
-- launch the program via a batch file.
+- das Programm von der Kommandozeile aus aufrufen und das *novelibre*-Projekt
+  als Parameter übergeben, oder
+- das Programm aus einer Batchdatei heraus aufrufen.
 
 Aufruf: ``novx_xtg.pyw [--silent] Quelldatei``
 
@@ -48,40 +51,40 @@ Positionsbezogene Parameter:
 
 ``Quelldatei``
 
-The path of the novelibre project file.
+Der Dateipfad der *novelibre*-Projektdatei.
 
 
 Optionale Parameter:
 ^^^^^^^^^^^^^^^^^^^^
 
-``--silent``  suppress error messages and the request to confirm the use of default values
+``--silent``  Fehlermeldungen und Nachfragen unterdrücken.
 
 ---
 
 
-General
--------
+Allgemein
+---------
 
-About XTG
-~~~~~~~~~
+Über XTG
+~~~~~~~~
 
 The XTG file format uses the *XPress Tags* language, the knowledge of which is assumed. You can
 download the manual *A Guide to XPress Tags* for your program version from the *Quark* web site.
 
 
-novelibre text markup
-~~~~~~~~~~~~~~~~~~~~~
+novelibre Textauszeichnungen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Bold and italics are supported. Other highlighting such as underline and strikethrough are lost.
 
 
-Quotation marks and punctuation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Anführungszeichen und Interpunktion
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is assumed that quotation marks and punctuation marks are already set correctly; this is best done in advance with a word processor, e.g. via novelibre's "proof read" function.
 
 
-Configuration
+Konfiguration
 -------------
 
 - Place a subfolder named **novx_xtg** in the novelibre project folder. It contains the configuration file
@@ -92,8 +95,8 @@ Configuration
 - If a template file or a configuration entry is missing, *novx_xtg* uses the lower priority source as a fallback.
 
 
-Configuration file
-~~~~~~~~~~~~~~~~~~
+Konfigurationsdatei
+~~~~~~~~~~~~~~~~~~~
 
 This is an exapmle configuration file containing the default values mentioned above:
 
@@ -161,8 +164,8 @@ This is an exapmle configuration file containing the default values mentioned ab
 
 
 
-Style tags
-^^^^^^^^^^
+Formatmarkierungen
+^^^^^^^^^^^^^^^^^^
 
 - **textbody** - The QX paragraph style applied to all paragraphs in a section, except the first. The first paragraph's style can be set in the section level templates.
 - **italic** - The opening tag to replace novelibre's *italic* formatting.
@@ -174,8 +177,8 @@ Style tags
 - **figure** - The opening tag to format figures (e.g. switch the font to get "osf" text figures).
 - **figure0** - The closing tag to format figures.
 
-Options
-^^^^^^^
+Optionen
+^^^^^^^^
 
 - **adjust_digits** - Replace regular spaces between digits with thin spaces.
 - **space_points** - Insert a thin space after each point that separates digits.
@@ -184,8 +187,8 @@ Options
 You can define styles in ``fileHeader.XTG``, but it is preferable to use the names of styles that already exist in the QX book project instead.
 
 
-List of templates
------------------
+Vorlagenliste
+-------------
 
 Project level templates
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -208,8 +211,8 @@ Section level templates
 - **appendedSectionTemplate.XTG** - Applied to sections to be appended to the previous section.
 
 
-Placeholders
-------------
+Platzhalter
+-----------
 
 Syntax
 ~~~~~~

@@ -19,7 +19,8 @@ scap_novx
 Diese Seite gilt für die neueste Ausgabe von `scap_novx
 <https://github.com/peter88213/scap_novx/>`__.
 
-The scap_novx Python script creates a novelibre project from a Scapple outline.
+Das Python-Skript *scap_novx.py* erzeugt ein *novelibre*-Projekt aus einer
+*Scapple*-Gliederung.
 
 
 Gebrauchsanweisung
@@ -28,16 +29,20 @@ Gebrauchsanweisung
 Vorgesehene Benutzung
 ~~~~~~~~~~~~~~~~~~~~~
 
-The included installation script prompts you to create a shortcut on the desktop. You can launch the program by dragging a *scap* file and dropping it on the shortcut icon.
+Das mitgelieferte Installationsskript fordert Sie auf, eine Verknüpfung
+auf dem Desktop anzulegen.
+Die können das Programm dann aufrufen, indem Sie mit der Maus eine
+*.scap*-Datei auf das Symbol ziehen.
 
 
 Auf der Kommandozeile
 ~~~~~~~~~~~~~~~~~~~~~
 
-Alternatively können Sie
+Wahlweise können Sie auch
 
-- launch the program on the command line passing the scapple file as an argument, or
-- launch the program via a batch file.
+- das Programm von der Kommandozeile aus aufrufen und die *Scapple*-Datei als
+  Parameter übergeben, oder
+- das Programm aus einer Batchdatei heraus aufrufen.
 
 Aufruf: ``scap_novx.py [--silent] Quelldatei``
 
@@ -47,13 +52,13 @@ Positionsbezogene Parameter:
 
 ``Quelldatei``
 
-The path of the Scapple outline file.
+Der Dateipfad der *Scapple*-Gliederungsdatei.
 
 
 Optionale Parameter:
 ^^^^^^^^^^^^^^^^^^^^
 
-``--silent``  suppress error messages and the request to confirm overwriting
+``--silent``  Fehlermeldungen und Nachfragen unterdrücken.
 
 
 Funktionsweise

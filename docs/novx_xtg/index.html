@@ -68,23 +68,23 @@
 <li class="toctree-l4"><a class="reference internal" href="#auf-der-kommandozeile">Auf der Kommandozeile</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#general">General</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#about-xtg">About XTG</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#novelibre-text-markup">novelibre text markup</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#quotation-marks-and-punctuation">Quotation marks and punctuation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#allgemein">Allgemein</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#uber-xtg">Über XTG</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#novelibre-textauszeichnungen">novelibre Textauszeichnungen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#anfuhrungszeichen-und-interpunktion">Anführungszeichen und Interpunktion</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#configuration">Configuration</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#configuration-file">Configuration file</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#konfiguration">Konfiguration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#konfigurationsdatei">Konfigurationsdatei</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#list-of-templates">List of templates</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vorlagenliste">Vorlagenliste</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#project-level-templates">Project level templates</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#chapter-level-templates">Chapter level templates</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#section-level-templates">Section level templates</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#placeholders">Placeholders</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#platzhalter">Platzhalter</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#syntax">Syntax</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#project-template-placeholders">„Project template“ placeholders</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#chapter-template-placeholders">„Chapter template“ placeholders</a></li>
@@ -134,61 +134,64 @@ Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version
 des Benutzerhandbuchs wechseln (Link oben).</p>
 </div>
 <p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/novx_xtg/">novx_xtg</a>.</p>
-<p>The novx_xtg Python script runs through all chapters and sections
-of a <em>novelibre</em> project and fills XTG templates.</p>
+<p>Das Python-Skript <em>novx_xtg.py</em> durchläuft alle kapitel und Abschnitte
+eines <em>novelibre</em>-Projekts und füllt XTG-Vorlagen aus.</p>
 <section id="gebrauchsanweisung">
 <h2>Gebrauchsanweisung<a class="headerlink" href="#gebrauchsanweisung" title="Link to this heading"></a></h2>
 <section id="vorgesehene-benutzung">
 <h3>Vorgesehene Benutzung<a class="headerlink" href="#vorgesehene-benutzung" title="Link to this heading"></a></h3>
-<p>The included installation script prompts you to create a shortcut on the desktop.
-You can launch the program by dragging a novelibre project file and dropping it on the shortcut icon.</p>
+<p>Das mitgelieferte Installationsskript fordert Sie auf, eine Verknüpfung
+auf dem Desktop anzulegen.
+Die können das Programm dann aufrufen, indem Sie mit der Maus eine
+<em>.novx</em>-Datei auf das Symbol ziehen.</p>
 </section>
 <section id="auf-der-kommandozeile">
 <h3>Auf der Kommandozeile<a class="headerlink" href="#auf-der-kommandozeile" title="Link to this heading"></a></h3>
-<p>Sie können wahlweise</p>
+<p>Wahlweise können Sie auch</p>
 <ul class="simple">
-<li><p>launch the program on the command line passing the novelibre project file as an argument, or</p></li>
-<li><p>launch the program via a batch file.</p></li>
+<li><p>das Programm von der Kommandozeile aus aufrufen und das <em>novelibre</em>-Projekt
+als Parameter übergeben, oder</p></li>
+<li><p>das Programm aus einer Batchdatei heraus aufrufen.</p></li>
 </ul>
 <p>Aufruf: <code class="docutils literal notranslate"><span class="pre">novx_xtg.pyw</span> <span class="pre">[--silent]</span> <span class="pre">Quelldatei</span></code></p>
 <section id="positionsbezogene-parameter">
 <h4>Positionsbezogene Parameter:<a class="headerlink" href="#positionsbezogene-parameter" title="Link to this heading"></a></h4>
 <p><code class="docutils literal notranslate"><span class="pre">Quelldatei</span></code></p>
-<p>The path of the novelibre project file.</p>
+<p>Der Dateipfad der <em>novelibre</em>-Projektdatei.</p>
 </section>
 <section id="optionale-parameter">
 <h4>Optionale Parameter:<a class="headerlink" href="#optionale-parameter" title="Link to this heading"></a></h4>
-<p><code class="docutils literal notranslate"><span class="pre">--silent</span></code>  suppress error messages and the request to confirm the use of default values</p>
+<p><code class="docutils literal notranslate"><span class="pre">--silent</span></code>  Fehlermeldungen und Nachfragen unterdrücken.</p>
 <p>—</p>
 </section>
 </section>
 </section>
-<section id="general">
-<h2>General<a class="headerlink" href="#general" title="Link to this heading"></a></h2>
-<section id="about-xtg">
-<h3>About XTG<a class="headerlink" href="#about-xtg" title="Link to this heading"></a></h3>
+<section id="allgemein">
+<h2>Allgemein<a class="headerlink" href="#allgemein" title="Link to this heading"></a></h2>
+<section id="uber-xtg">
+<h3>Über XTG<a class="headerlink" href="#uber-xtg" title="Link to this heading"></a></h3>
 <p>The XTG file format uses the <em>XPress Tags</em> language, the knowledge of which is assumed. You can
 download the manual <em>A Guide to XPress Tags</em> for your program version from the <em>Quark</em> web site.</p>
 </section>
-<section id="novelibre-text-markup">
-<h3>novelibre text markup<a class="headerlink" href="#novelibre-text-markup" title="Link to this heading"></a></h3>
+<section id="novelibre-textauszeichnungen">
+<h3>novelibre Textauszeichnungen<a class="headerlink" href="#novelibre-textauszeichnungen" title="Link to this heading"></a></h3>
 <p>Bold and italics are supported. Other highlighting such as underline and strikethrough are lost.</p>
 </section>
-<section id="quotation-marks-and-punctuation">
-<h3>Quotation marks and punctuation<a class="headerlink" href="#quotation-marks-and-punctuation" title="Link to this heading"></a></h3>
+<section id="anfuhrungszeichen-und-interpunktion">
+<h3>Anführungszeichen und Interpunktion<a class="headerlink" href="#anfuhrungszeichen-und-interpunktion" title="Link to this heading"></a></h3>
 <p>It is assumed that quotation marks and punctuation marks are already set correctly; this is best done in advance with a word processor, e.g. via novelibre’s „proof read“ function.</p>
 </section>
 </section>
-<section id="configuration">
-<h2>Configuration<a class="headerlink" href="#configuration" title="Link to this heading"></a></h2>
+<section id="konfiguration">
+<h2>Konfiguration<a class="headerlink" href="#konfiguration" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>Place a subfolder named <strong>novx_xtg</strong> in the novelibre project folder. It contains the configuration file
 and all template files as listed below to be applied to this project. The best way is to copy the provided sample folder and customize the contained files with a text editor according to your needs.</p></li>
 <li><p>If there is no configuration data in the project file, data stored in <cite>c:Users&lt;user name&gt;.novxnovx_xtgconfig</cite> is used prior  to the script’s default configuration data.</p></li>
 <li><p>If a template file or a configuration entry is missing, <em>novx_xtg</em> uses the lower priority source as a fallback.</p></li>
 </ul>
-<section id="configuration-file">
-<h3>Configuration file<a class="headerlink" href="#configuration-file" title="Link to this heading"></a></h3>
+<section id="konfigurationsdatei">
+<h3>Konfigurationsdatei<a class="headerlink" href="#konfigurationsdatei" title="Link to this heading"></a></h3>
 <p>This is an exapmle configuration file containing the default values mentioned above:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[STYLES]</span>
 <span class="na">first_paragraph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">@Text body:</span>
@@ -251,8 +254,8 @@ and all template files as listed below to be applied to this project. The best w
 <span class="c1"># If No, create one XTG file for the entire document.</span>
 </pre></div>
 </div>
-<section id="style-tags">
-<h4>Style tags<a class="headerlink" href="#style-tags" title="Link to this heading"></a></h4>
+<section id="formatmarkierungen">
+<h4>Formatmarkierungen<a class="headerlink" href="#formatmarkierungen" title="Link to this heading"></a></h4>
 <ul class="simple">
 <li><p><strong>textbody</strong> - The QX paragraph style applied to all paragraphs in a section, except the first. The first paragraph’s style can be set in the section level templates.</p></li>
 <li><p><strong>italic</strong> - The opening tag to replace novelibre’s <em>italic</em> formatting.</p></li>
@@ -265,8 +268,8 @@ and all template files as listed below to be applied to this project. The best w
 <li><p><strong>figure0</strong> - The closing tag to format figures.</p></li>
 </ul>
 </section>
-<section id="options">
-<h4>Options<a class="headerlink" href="#options" title="Link to this heading"></a></h4>
+<section id="optionen">
+<h4>Optionen<a class="headerlink" href="#optionen" title="Link to this heading"></a></h4>
 <ul class="simple">
 <li><p><strong>adjust_digits</strong> - Replace regular spaces between digits with thin spaces.</p></li>
 <li><p><strong>space_points</strong> - Insert a thin space after each point that separates digits.</p></li>
@@ -276,8 +279,8 @@ and all template files as listed below to be applied to this project. The best w
 </section>
 </section>
 </section>
-<section id="list-of-templates">
-<h2>List of templates<a class="headerlink" href="#list-of-templates" title="Link to this heading"></a></h2>
+<section id="vorlagenliste">
+<h2>Vorlagenliste<a class="headerlink" href="#vorlagenliste" title="Link to this heading"></a></h2>
 <section id="project-level-templates">
 <h3>Project level templates<a class="headerlink" href="#project-level-templates" title="Link to this heading"></a></h3>
 <ul class="simple">
@@ -301,8 +304,8 @@ and all template files as listed below to be applied to this project. The best w
 </ul>
 </section>
 </section>
-<section id="placeholders">
-<h2>Placeholders<a class="headerlink" href="#placeholders" title="Link to this heading"></a></h2>
+<section id="platzhalter">
+<h2>Platzhalter<a class="headerlink" href="#platzhalter" title="Link to this heading"></a></h2>
 <section id="syntax">
 <h3>Syntax<a class="headerlink" href="#syntax" title="Link to this heading"></a></h3>
 <p>There are two options:</p>
