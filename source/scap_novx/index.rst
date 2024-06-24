@@ -64,7 +64,7 @@ Optionale Parameter:
 Funktionsweise
 --------------
 
-*Scappex* erzeugt eine neue *novelibre*-Projektdatei im selben Verzeichnis und
+*scap_novx* erzeugt eine neue *novelibre*-Projektdatei im selben Verzeichnis und
 mit dem selben Namen wie die Scapple-Quelldatei, doch mit der Erweiterung `.novx``.
 
 
