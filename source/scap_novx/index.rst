@@ -64,11 +64,14 @@ Optionale Parameter:
 Funktionsweise
 --------------
 
-*Scappex* generates a new novelibre project file with the same file name as the Scapple source file,
-but with the extension ``.novx``. It is placed in the same directory as the source file.
+*Scappex* erzeugt eine neue *novelibre*-Projektdatei im selben Verzeichnis und
+mit dem selben Namen wie die Scapple-Quelldatei, doch mit der Erweiterung `.novx``.
 
-However, **if the novelibre project already exists, it would not be overwritten**. Character/Location/Item
-XML files are generated instead. They can be imported into any novelibre project.
+
+.. note::
+   Falls das *novelibre*-Projekt bereits existiert, wird es nicht überschrieben. 
+   Stattdessen werden XML-Figuren-, Schauplatz- und Gegenstandsdateien erzeugt, 
+   die in jedes *novelibre*-Projekt importiert werden können. 
 
 
 Konvertierungsregeln
@@ -76,7 +79,7 @@ Konvertierungsregeln
 
 - Notes with a shadow are converted to sections.
 - Notes with a shadow and "cloud" border are converted to "Notes" sections.
-- Scenes are ordered by their position in the Scapple diagram (from top left to bottom right).
+- Sections are ordered by their position in the Scapple diagram (from top left to bottom right).
 - Notes with a "cloud" border without shadow are converted to section and character notes.
 - Notes with a square border are converted to tags.
 - Notes with red text are converted to major characters.
@@ -112,15 +115,13 @@ In the file picker dialog, select ``<unzipped scap_novx release folder>\sample\s
 Abschnitte kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Scene" style, if any, via context menu, or tick "Shadow" in the Inspector to mark the note as section.
+Either apply the "Section" style, if any, via context menu, or tick "Shadow" in the Inspector to mark the note as section.
 
 .. figure:: _images/mark_section.png
    :alt: Screenshot
    
    Screenshot: Set note shadow
    
-To make the section a "Notes" section, either apply the "NotesScene" style, or make its border style "Cloud" in the Inspector.
-
 
 Notizen kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~
@@ -238,7 +239,8 @@ This is the configuration explained:
 Installationspfad
 -----------------
 
-The setup script installs *scap_novx.py* in the user profile. This is the installation path on Windows:
+The setup script installs *scap_novx.py* in the user profile.
+This is the installation path on Windows:
 
 ``c:\Users\<user name>\.novx\scap_novx``
 

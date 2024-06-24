@@ -164,17 +164,21 @@ Parameter übergeben, oder</p></li>
 </section>
 <section id="funktionsweise">
 <h2>Funktionsweise<a class="headerlink" href="#funktionsweise" title="Link to this heading"></a></h2>
-<p><em>Scappex</em> generates a new novelibre project file with the same file name as the Scapple source file,
-but with the extension <code class="docutils literal notranslate"><span class="pre">.novx</span></code>. It is placed in the same directory as the source file.</p>
-<p>However, <strong>if the novelibre project already exists, it would not be overwritten</strong>. Character/Location/Item
-XML files are generated instead. They can be imported into any novelibre project.</p>
+<p><em>Scappex</em> erzeugt eine neue <em>novelibre</em>-Projektdatei im selben Verzeichnis und
+mit dem selben Namen wie die Scapple-Quelldatei, doch mit der Erweiterung <cite>.novx`</cite>.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Falls das <em>novelibre</em>-Projekt bereits existiert, wird es nicht überschrieben.
+Stattdessen werden XML-Figuren-, Schauplatz- und Gegenstandsdateien erzeugt,
+die in jedes <em>novelibre</em>-Projekt importiert werden können.</p>
+</div>
 </section>
 <section id="konvertierungsregeln">
 <h2>Konvertierungsregeln<a class="headerlink" href="#konvertierungsregeln" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>Notes with a shadow are converted to sections.</p></li>
 <li><p>Notes with a shadow and „cloud“ border are converted to „Notes“ sections.</p></li>
-<li><p>Scenes are ordered by their position in the Scapple diagram (from top left to bottom right).</p></li>
+<li><p>Sections are ordered by their position in the Scapple diagram (from top left to bottom right).</p></li>
 <li><p>Notes with a „cloud“ border without shadow are converted to section and character notes.</p></li>
 <li><p>Notes with a square border are converted to tags.</p></li>
 <li><p>Notes with red text are converted to major characters.</p></li>
@@ -207,14 +211,13 @@ XML files are generated instead. They can be imported into any novelibre project
 </section>
 <section id="abschnitte-kennzeichnen">
 <h3>Abschnitte kennzeichnen<a class="headerlink" href="#abschnitte-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Either apply the „Scene“ style, if any, via context menu, or tick „Shadow“ in the Inspector to mark the note as section.</p>
+<p>Either apply the „Section“ style, if any, via context menu, or tick „Shadow“ in the Inspector to mark the note as section.</p>
 <figure class="align-default" id="id3">
 <img alt="Screenshot" src="../_images/mark_section.png" />
 <figcaption>
 <p><span class="caption-text">Screenshot: Set note shadow</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
-<p>To make the section a „Notes“ section, either apply the „NotesScene“ style, or make its border style „Cloud“ in the Inspector.</p>
 </section>
 <section id="notizen-kennzeichnen">
 <h3>Notizen kennzeichnen<a class="headerlink" href="#notizen-kennzeichnen" title="Link to this heading"></a></h3>
@@ -310,7 +313,8 @@ XML files are generated instead. They can be imported into any novelibre project
 </section>
 <section id="installationspfad">
 <h2>Installationspfad<a class="headerlink" href="#installationspfad" title="Link to this heading"></a></h2>
-<p>The setup script installs <em>scap_novx.py</em> in the user profile. This is the installation path on Windows:</p>
+<p>The setup script installs <em>scap_novx.py</em> in the user profile.
+This is the installation path on Windows:</p>
 <p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\scap_novx</span></code></p>
 </section>
 </section>
