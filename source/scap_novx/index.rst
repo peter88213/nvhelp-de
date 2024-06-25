@@ -77,18 +77,17 @@ mit dem selben Namen wie die Scapple-Quelldatei, doch mit der Erweiterung `.novx
 Konvertierungsregeln
 --------------------
 
-- Notes with a shadow are converted to sections.
-- Notes with a shadow and "cloud" border are converted to "Notes" sections.
-- Sections are ordered by their position in the Scapple diagram (from top left to bottom right).
-- Notes with a "cloud" border without shadow are converted to section and character notes.
-- Notes with a square border are converted to tags.
-- Notes with red text are converted to major characters.
-- Notes with purple text are converted to minor characters.
-- Notes with blue text are converted to locations.
-- Notes with green text are converted to items.
-- Assign characters/locations/items to a section by connecting the corresponding notes.
-- Assign tags to sections/characters/locations/items by connecting the corresponding notes.
-- Assign a viewpoint character to a section by creating an arrow pointing from the character to the section. If a section is pointed to by several characters, or by no character, the viewpoint is random.
+- Notizen mit einem Schatten werden zu Abschnitten konvertiert.
+- Abschnitte werden nach ihrer Anordnung im Scapple-Diagramm sortiert (von oben links nach unten rechts).
+- Notizen mit einem "Wolken"-Rand ohne Schatten werden zu Abschnitts- und Figurennotizen konvertiert.
+- Notizen mit einem eckigen Rand werden zu Tags konvertiert.
+- Notizen mit rotem Text werden zu Hauptfiguren konvertiert.
+- Notizen mit violettem Text werden zu Nebenfiguren konvertiert.
+- Notizen mit blauem Text werden zu Schauplätzen konvertiert.
+- Notizen mit grünem Text werden zu Gegenständen konvertiert.
+- Weisen Sie Figuren, Schauplätze und Gegenstände einem Abschnitt zu, indem Sie die entsprechenden Notizen verbinden.
+- Weisen Sie Tags Abschnitten, Figuren, Schauplätzen und Gegenständen zu, indem Sie die entsprechenden Notizen verbinden.
+- Weisen Sie Perspektivfiguren Abschnitten zu, indem Sie Pfeile von der Figur zum Abschnitt erzeugen.
 
 
 Wie man Einträge für den Export kennzeichnet
