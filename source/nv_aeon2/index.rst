@@ -35,23 +35,27 @@ und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
 Die Aeon Timeline 2 Benutzervorlage installieren
 ------------------------------------------------
 
-After installation können Sie copy a "novelibre German.xml" template to the
-Aeon2 custom template folder. The easiest way is to create new
-timelines based on this template. It provides the entities and event
-properties that are converted to *novelibre* by default.
+Nach der Installation können Sie eine Vorlagendatei namens
+"novelibre German.xml" in den Aeon 2-Ordner für Benutzervorlagen kopieren.
+Es ist dann einfach, neue Zeitleisten aus dieser Vorlage zu erzeugen.
+Sie stellt die Entities und Properties bereit, die standardmäßig
+mit *novelibre* synchronisiert werden.
 
-You find the customized template in the ``sample`` subdirectory
-of the unzipped *nv_aeon2* release folder. Just copy it into
+Sie finden die Benutzervorlage im Unterverzeichnis
+``sample`` des entpackten *nv_aeon2* Release-Verzeichnisses.
+Kopieren Sie sie einfach in das folgende Verzeichnis:
 ``AppData\Local\Scribble Code\Aeon Timeline 2\CustomTemplates``.
 
 .. hint::
-   The ``<your user name>\AppData`` folder is hidden, so you
-   might have to go to the *Explorer* settings first to
-   enable *Show hidden files*. Just disable this again after
-   successfully having installed the custom template.
+   Der Ordner ``<Benutzername>\AppData`` ist verborgen,
+   deshalb müssen Sie eventuell zuerst zu den 
+   *Explorer*-Einstellungen gehen und *Verborgene Dateien anzeigen*
+   erlauben. 
+   Nachdem Sie die Benutzervorlage erfolgreich installiert haben, 
+   können Sie das wieder zurückstellen. 
     
-The next time you start *Aeon Timeline 2*,
-the new template appears in the *Custom Templates* area.
+Wenn Sie *Aeon Timeline 2* das nächste Mal aufrufen, erscheint
+die Benutzervorlage im Bereich *Custom Templates* zur Auswahl.
 
 
 Befehlsreferenz
