@@ -192,7 +192,7 @@ and all template files as listed below to be applied to this project. The best w
 </ul>
 <section id="konfigurationsdatei">
 <h3>Konfigurationsdatei<a class="headerlink" href="#konfigurationsdatei" title="Link to this heading"></a></h3>
-<p>This is an exapmle configuration file containing the default values mentioned above:</p>
+<p>This is an example configuration file containing the default values mentioned above:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[STYLES]</span>
 <span class="na">first_paragraph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">@Text body:</span>
 
@@ -318,13 +318,8 @@ and all template files as listed below to be applied to this project. The best w
 <h3>„Project template“ placeholders<a class="headerlink" href="#project-template-placeholders" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p><strong>$Title</strong> - Project title</p></li>
-<li><p><strong>$Desc</strong> - Project description, html-formatted</p></li>
+<li><p><strong>$Desc</strong> - Project description</p></li>
 <li><p><strong>$AuthorName</strong> - Author’s name</p></li>
-<li><p><strong>$AuthorBio</strong> - Information about the author</p></li>
-<li><p><strong>$FieldTitle1</strong> - Rating names: field 1</p></li>
-<li><p><strong>$FieldTitle2</strong> - Rating names: field 2</p></li>
-<li><p><strong>$FieldTitle3</strong> - Rating names: field 3</p></li>
-<li><p><strong>$FieldTitle4</strong> - Rating names: field 4</p></li>
 <li><p><strong>$Language</strong> - Language code acc. to ISO 639-1</p></li>
 <li><p><strong>$Country</strong> - Country code acc. to ISO 3166-2</p></li>
 </ul>
@@ -335,9 +330,13 @@ and all template files as listed below to be applied to this project. The best w
 <li><p><strong>$ID</strong> - Chapter ID,</p></li>
 <li><p><strong>$ChapterNumber</strong> - Chapter number (in sort order),</p></li>
 <li><p><strong>$Title</strong> - Chapter title</p></li>
-<li><p><strong>$Desc</strong> - Chapter description, html-formatted</p></li>
+<li><p><strong>$Desc</strong> - Chapter description</p></li>
+<li><p><strong>$Notes</strong> - Chapter notes</p></li>
+<li><p><strong>$ProjectName</strong> - URL-coded file name without suffix and extension</p></li>
+<li><p><strong>$ProjectPath</strong> - URL-coded fpath to the project directory</p></li>
 <li><p><strong>$Language</strong> - Language code acc. to ISO 639-1</p></li>
 <li><p><strong>$Country</strong> - Country code acc. to ISO 3166-2</p></li>
+<li><p><strong>$ManuscriptSuffix</strong> - File name suffix of the manuscript</p></li>
 </ul>
 </section>
 <section id="section-template-placeholders">
@@ -346,23 +345,14 @@ and all template files as listed below to be applied to this project. The best w
 <li><p><strong>$ID</strong> - Section ID,</p></li>
 <li><p><strong>$SectionNumber</strong> - Section number (in sort order),</p></li>
 <li><p><strong>$Title</strong> - Section title</p></li>
-<li><p><strong>$Desc</strong> - Section description, html-formatted</p></li>
+<li><p><strong>$Desc</strong> - Section description</p></li>
 <li><p><strong>$WordCount</strong> - Section word count</p></li>
 <li><p><strong>$WordsTotal</strong> - Accumulated word count including the current section</p></li>
-<li><p><strong>$LetterCount</strong> - Section letter count</p></li>
-<li><p><strong>$LettersTotal</strong> - Accumulated letter count including the current section</p></li>
 <li><p><strong>$Status</strong> - Section status (Outline, Draft etc.)</p></li>
-<li><p><strong>$SectionContent</strong> - Section content, html-formatted</p></li>
-<li><p><strong>$FieldTitle1</strong> - Rating names: field 1</p></li>
-<li><p><strong>$FieldTitle2</strong> - Rating names: field 2</p></li>
-<li><p><strong>$FieldTitle3</strong> - Rating names: field 3</p></li>
-<li><p><strong>$FieldTitle4</strong> - Rating names: field 4</p></li>
-<li><p><strong>$Field1</strong> - Section rating: field 1</p></li>
-<li><p><strong>$Field2</strong> - Section rating: field 2</p></li>
-<li><p><strong>$Field3</strong> - Section rating: field 3</p></li>
-<li><p><strong>$Field4</strong> - Section rating: field 4</p></li>
+<li><p><strong>$SectionContent</strong> - Section content</p></li>
 <li><p><strong>$Date</strong> - Specific section date (yyyy-mm-dd)</p></li>
 <li><p><strong>$Time</strong> - Time section begins: (hh:mm)</p></li>
+<li><p><strong>$OdsTime</strong> - Time section begins: (PThhHmmMssS)</p></li>
 <li><p><strong>$Day</strong> - Day section begins</p></li>
 <li><p><strong>$ScDate</strong> - Date or day (localized)</p></li>
 <li><p><strong>$DateYear</strong> - Year</p></li>
@@ -374,19 +364,22 @@ and all template files as listed below to be applied to this project. The best w
 <li><p><strong>$LastsHours</strong> - Amount of time section lasts: hours</p></li>
 <li><p><strong>$LastsMinutes</strong> - Amount of time section lasts: minutes</p></li>
 <li><p><strong>Duration</strong> - Combination of days and hours and minutes</p></li>
-<li><p><strong>$ReactionSection</strong> - A(ction) or R(eaction)</p></li>
-<li><p><strong>$Goal</strong> - The section protagonist’s goal, html-formatted</p></li>
-<li><p><strong>$Conflict</strong> - The section conflict, html-formatted</p></li>
-<li><p><strong>$Outcome</strong> - The section outcome, html-formatted</p></li>
+<li><p><strong>$Scene</strong> - The sections’s kind of scene, if any</p></li>
+<li><p><strong>$Goal</strong> - The section protagonist’s goal</p></li>
+<li><p><strong>$Conflict</strong> - The section conflict</p></li>
+<li><p><strong>$Outcome</strong> - The section outcome</p></li>
 <li><p><strong>$Tags</strong> - Comma-separated list of section tags</p></li>
-<li><p><strong>$Image</strong> - Image filename</p></li>
 <li><p><strong>$Characters</strong> - Comma-separated list of characters assigned to the section</p></li>
 <li><p><strong>$Viewpoint</strong> - Viewpoint character</p></li>
 <li><p><strong>$Locations</strong> - Comma-separated list of locations assigned to the section</p></li>
 <li><p><strong>$Items</strong> - Comma-separated list of items assigned to the section</p></li>
 <li><p><strong>$Notes</strong> - Section notes</p></li>
+<li><p><strong>$ProjectName</strong> - URL-coded file name without suffix and extension</p></li>
+<li><p><strong>$ProjectPath</strong> - URL-coded fpath to the project directory</p></li>
 <li><p><strong>$Language</strong> - Language code acc. to ISO 639-1</p></li>
 <li><p><strong>$Country</strong> - Country code acc. to ISO 3166-2</p></li>
+<li><p><strong>$ManuscriptSuffix</strong> - File name suffix of the manuscript</p></li>
+<li><p><strong>$SectionsSuffix</strong> - File name suffix of the section descriptions</p></li>
 </ul>
 </section>
 </section>

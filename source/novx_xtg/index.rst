@@ -98,7 +98,7 @@ Konfiguration
 Konfigurationsdatei
 ~~~~~~~~~~~~~~~~~~~
 
-This is an exapmle configuration file containing the default values mentioned above:
+This is an example configuration file containing the default values mentioned above:
 
 ::
 
@@ -227,16 +227,8 @@ There are two options:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - **$Title** - Project title
-- **$Desc** - Project description, html-formatted
+- **$Desc** - Project description
 - **$AuthorName** - Author's name
-- **$AuthorBio** - Information about the author
-
-
-- **$FieldTitle1** - Rating names: field 1
-- **$FieldTitle2** - Rating names: field 2
-- **$FieldTitle3** - Rating names: field 3
-- **$FieldTitle4** - Rating names: field 4
-
 - **$Language** - Language code acc. to ISO 639-1
 - **$Country** - Country code acc. to ISO 3166-2
 
@@ -245,73 +237,56 @@ There are two options:
 
 - **$ID** - Chapter ID,
 - **$ChapterNumber** - Chapter number (in sort order),
-
 - **$Title** - Chapter title
-- **$Desc** - Chapter description, html-formatted
-
+- **$Desc** - Chapter description
+- **$Notes** - Chapter notes
+- **$ProjectName** - URL-coded file name without suffix and extension
+- **$ProjectPath** - URL-coded fpath to the project directory
 - **$Language** - Language code acc. to ISO 639-1
 - **$Country** - Country code acc. to ISO 3166-2
+- **$ManuscriptSuffix** - File name suffix of the manuscript
 
 "Section template" placeholders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - **$ID** - Section ID,
 - **$SectionNumber** - Section number (in sort order),
-
 - **$Title** - Section title
-- **$Desc** - Section description, html-formatted
-
+- **$Desc** - Section description
 - **$WordCount** - Section word count
 - **$WordsTotal** - Accumulated word count including the current section
-- **$LetterCount** - Section letter count
-- **$LettersTotal** - Accumulated letter count including the current section
-
 - **$Status** - Section status (Outline, Draft etc.)
-- **$SectionContent** - Section content, html-formatted
-
-- **$FieldTitle1** - Rating names: field 1
-- **$FieldTitle2** - Rating names: field 2
-- **$FieldTitle3** - Rating names: field 3
-- **$FieldTitle4** - Rating names: field 4
-- **$Field1** - Section rating: field 1
-- **$Field2** - Section rating: field 2
-- **$Field3** - Section rating: field 3
-- **$Field4** - Section rating: field 4
-
+- **$SectionContent** - Section content
 - **$Date** - Specific section date (yyyy-mm-dd)
 - **$Time** - Time section begins: (hh:mm)
+- **$OdsTime** - Time section begins: (PThhHmmMssS)
 - **$Day** - Day section begins
-
 - **$ScDate** - Date or day (localized)
-
 - **$DateYear** - Year
 - **$DateMonth** - Month (number)
 - **$DateDay** - Day (number)
 - **$DateWeekday** - Day of the week (name)
 - **$MonthName** - Month (name)
-
 - **$LastsDays** - Amount of time section lasts: days
 - **$LastsHours** - Amount of time section lasts: hours
 - **$LastsMinutes** - Amount of time section lasts: minutes
-
 - **Duration** - Combination of days and hours and minutes
-
-- **$ReactionSection** - A(ction) or R(eaction)
-- **$Goal** - The section protagonist's goal, html-formatted
-- **$Conflict** - The section conflict, html-formatted
-- **$Outcome** - The section outcome, html-formatted
+- **$Scene** - The sections's kind of scene, if any
+- **$Goal** - The section protagonist's goal
+- **$Conflict** - The section conflict
+- **$Outcome** - The section outcome
 - **$Tags** - Comma-separated list of section tags
-- **$Image** - Image filename
-
 - **$Characters** - Comma-separated list of characters assigned to the section
 - **$Viewpoint** - Viewpoint character
 - **$Locations** - Comma-separated list of locations assigned to the section
 - **$Items** - Comma-separated list of items assigned to the section
-
 - **$Notes** - Section notes
-
+- **$ProjectName** - URL-coded file name without suffix and extension
+- **$ProjectPath** - URL-coded fpath to the project directory
 - **$Language** - Language code acc. to ISO 639-1
 - **$Country** - Country code acc. to ISO 3166-2
+- **$ManuscriptSuffix** - File name suffix of the manuscript
+- **$SectionsSuffix** - File name suffix of the section descriptions
 
 
 Installationspfad
