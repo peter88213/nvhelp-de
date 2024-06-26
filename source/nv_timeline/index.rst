@@ -76,10 +76,9 @@ wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.
 Benutzerdefinierte Konfiguration
 --------------------------------
 
-Sie können die Voreinstellungen mit einer Konfigurationsdatei überschreiben.
+Sie können die Voreinstellungen mit Hilfe einer Konfigurationsdatei überschreiben.
 Denken Sie aber immer daran, dass fehlerhafte Einträge zu
 Programmstörungen oder unlesbaren *Timeline*-Projekten führen können.
-Be always aware that faulty entries may cause program errors or
 Falls Sie zwischendurch eine Konfiguration ändern,
 können zuvor synchronisierte Projekte eventuell  nicht mehr zusammenpassen.
 

@@ -10,12 +10,6 @@ scap_novx
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *scap_novx*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link oben).
-
-
 Diese Seite gilt für die neueste Ausgabe von `scap_novx
 <https://github.com/peter88213/scap_novx/>`__.
 
@@ -29,7 +23,7 @@ Gebrauchsanweisung
 Vorgesehene Benutzung
 ~~~~~~~~~~~~~~~~~~~~~
 
-Das mitgelieferte Installationsskript fordert Sie auf, eine Verknüpfung
+Das mitgelieferte Setup-Skript fordert Sie auf, eine Verknüpfung
 auf dem Desktop anzulegen.
 Die können das Programm dann aufrufen, indem Sie mit der Maus eine
 *.scap*-Datei auf das Symbol ziehen.
@@ -96,104 +90,143 @@ Wie man Einträge für den Export kennzeichnet
 Stile importieren (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The scap_novx distribution comes with a sample Scapple project *styles.scap* including all required styles. You can either use this diagram as a template, or import the styles into your own Scapple diagram.
+Zusammen mit der *scap_novx*-Distribution wird ein *Scapple*-Beispielprojekt
+namens *styles.scap* geliefert, das alle erforderlichen Formate enthält.
+Sie können entweder dieses Diagramm als Vorlage verwenden,
+oder dessen Formate in Ihr eigenes Diagramm importieren.
+
 
 .. figure:: _images/import_styles.png
    :alt: Screenshot
 
-   Screenshot: Import styles dialog
+   Screenshot: Formatimport-Dialog
    
-In the file picker dialog, select ``<unzipped scap_novx release folder>\sample\styles.scap``. Then können Sie apply the styles via context menu.
+Wählen Sie im Dateiauswahldialog
+``<entpackter Ordner mit der scap_novx-Version>\sample\styles.scap``.
+Dann können Sie die Formate per Kontextmenü zuweisen.
+
 
 .. figure:: _images/apply_styles.png
    :alt: Screenshot
    
-   Screenshot: Apply style menu
+   Screenshot: Das Formatmenü anwenden
 
 
 Abschnitte kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Section" style, if any, via context menu, or tick "Shadow" in the Inspector to mark the note as section.
+Wenden Sie entweder das "Section"-Format per Kontextmenü an,
+oder kreuzen Sie im Inspector "Shadow" an.
 
 .. figure:: _images/mark_section.png
    :alt: Screenshot
    
-   Screenshot: Set note shadow
+   Screenshot: Eine Notiz mit einem Schatten versehen
    
 
-Notizen kennzeichnen
-~~~~~~~~~~~~~~~~~~~~
+novelibre-Notizen kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Note" style, if any, via context menu, or make the note's border style "Cloud" in the Inspector.
+Wenden Sie entweder das "Note"-Format per Kontextmenü an,
+oder weisen Sie der Notiz im Inspector den "Cloud"-Rahmen zu.
 
 
 Tags kennzeichnen
 ~~~~~~~~~~~~~~~~~
 
-Either apply the "Tag" style, if any, via context menu, or make the note's border style "Square" in the Inspector.
+Wenden Sie entweder das "Tag"-Format per Kontextmenü an,
+oder weisen Sie der Notiz im Inspector den "Square"-Rahmen zu.
 
 
 Schauplätze kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Location" style, if any, via context menu, or tick the big blue field above the text color swatch in the Inspector.
+Wenden Sie entweder das "Location"-Format per Kontextmenü an,
+oder wählen Sie im Inspector das große blaue Farbauswahlfeld aus.
 
 .. figure:: _images/mark_location.png
    :alt: Screenshot
    
-   Screenshot: Set text color
+   Screenshot: Textfarbe einstellen
 
 
 Hauptfiguren kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Major character" style, if any, via context menu, or tick the big red field above the text color swatch in the Inspector.
+Wenden Sie entweder das "MajorCharacter"-Format per Kontextmenü an,
+oder wählen Sie im Inspector das große rote Farbauswahlfeld aus.
 
 
 Nebenfiguren kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Minor character" style, if any, via context menu, or tick the big purple field above the text color swatch in the Inspector.
+Wenden Sie entweder das "MinorCharacter"-Format per Kontextmenü an,
+oder wählen Sie im Inspector das große violette Farbauswahlfeld aus.
 
 
 Gegenstände kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Either apply the "Item" style, if any, via context menu, or tick the big green field above the text color swatch in the Inspector.
+Wenden Sie entweder das "Item"-Format per Kontextmenü an,
+oder wählen Sie im Inspector das große grüne Farbauswahlfeld aus.
 
 
 Benutzerdefinierte Konfiguration
 --------------------------------
 
-You can override the default settings by providing a configuration file. Be always aware that faulty entries may cause program errors.
+Sie können die Voreinstellungen mit Hilfe einer Konfigurationsdatei überschreiben.
+Denken Sie aber immer daran, dass fehlerhafte Einträge den Programmablauf stören können.
 
 
 Globale Konfiguration
 ~~~~~~~~~~~~~~~~~~~~~
 
-An optional global configuration file can be placed in the configuration directory in your user profile. It is applied to any project. Its entries override scap_novx's built-in constants. This is the path:
-``c:\Users\<user name>\.novx\scap_novx\scap_novx.ini``
+Sie können eine optionale globale Konfigurationsdatei
+namens ``scap_novx.ini``
+im Konfigurationsverzeichnis der Installation ablegen.
+Sie wird auf jedes Projekt angewendet.
+Ihre Einträge überschreiben die Voreinstellungen von *nv_aeon2*.
+Dies ist der Pfad unter Windows:
+``c:\Users\<Benutzername>\.novx\scap_novx\scap_novx.ini``
 
-The setup script installs a sample configuration file containing scap_novx's default values. You can modify or delete it.
+Das Setup-Skript installiert eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von *scap_novx*
+Sie können sie ändern oder löschen.
 
 
 Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An optional project configuration file ``scap_novx.ini2novx.ini`` can be placed in your project directory, i.e. the folder containing your novelibre and Timeline project files. It is only applied to this project. Its entries override scap_novx's built-in constants as well as the global configuration, if any.
+Sie können eine optionale Projekt-Konfigurationsdatei namens
+``scap_novx.ini`` in Ihrem Projektverzeichnis ablegen,
+d.h. in dem Ordner, der Ihre *novelibre*- und
+*Scapple*-Projektdateien enthält.
+Sie gilt dann nur für das Projekt.
+Ihre Einträge überschreiben sowohl die Voreinstellungen von
+*scap_novx* als auch die globale Konfiguration, falls vorhanden.
 
 
 Wie man eine Konfigurationsdatei erstellt oder anpasst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The scap_novx distribution comes with a sample configuration file located in the ``sample`` subfolder. It contains scap_novx's default settings and options. This file is also automatically copied to the global configuration folder during installation. You best make a copy and edit it.
+Die *scap_novx*-Distribution wird mit einer Beispielkonfigurationsdatei
+geliefert, die sich im Unterordner ``sample`` befindet.
+Sie enthält die Standardeinstellungen und Optionen von *scap_novx*.
+Diese Datei wird auch während der Installation automatisch in den
+globalen Konfigurationsordner kopiert.
+Am besten erstellen Sie eine Kopie und bearbeiten sie.
 
-- The SETTINGS section mainly refers to colors, i.e. The text colors that mark the characters/locations/items in Scapple. If you change them, the program might behave differently than described in the description of the conversion rules below.
-- The OPTIONS section comprises options for regular program execution.
-- Comment lines begin with a ``#`` number sign. In the example, they refer to the code line immediately above.
+- Der Abschnitt SETTINGS bezieht sich hauptsächlich auf die Farben,
+  d.h. auf die Textfarben, mit denen die Figuren, Schauplätze und
+  Gegenstände in Scapple markieren.
+  Wenn Sie sie ändern, kann sich das Programm anders verhalten anders verhalten
+  als in der Beschreibung der Konvertierungsregeln weiter unten beschrieben.
+- Der Abschnitt OPTIONS umfasst Optionen für die reguläre Programmausführung.
+- Kommentarzeilen beginnen mit einem Rautenzeichen ``#``.
+  Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
+  Codezeile.
 
-This is the configuration explained:
+Das ist die Konfiguration mit Erklärungen:
 
 ::
 
@@ -201,45 +234,45 @@ This is the configuration explained:
 
    location_color = 0.0 0.0 1.0
 
-   # RGB text color that marks the locations in Scapple.
+   # RGB Textfarbe für Schauplätze in Scapple..
 
    item_color = 0.0 0.5 0.0
 
-   # RGB text color that marks the items in Scapple.
+   # RGB Textfarbe für Gegenstände in Scapple..
 
    major_chara_color = 1.0 0.0 0.0
 
-   # RGB text color that marks the major racters in Scapple.
+   # RGB Textfarbe für Hauptfiguren in Scapple..
 
    minor_chara_color = 0.5 0.0 0.5
 
-   # RGB text color that marks the minor characters in Scapple.
+   # RGB Textfarbe für Nebenfiguren in Scapple..
 
    [OPTIONS]
 
    export_sections = Yes
 
-   # Yes: create sections from Scapple notes.
+   # Yes: Aus Scapple-Notizen Abschnitte erzeugen.
 
    export_characters = Yes
 
-   # Yes: create characters from Scapple notes.
+   # Yes: Aus Scapple-Notizen Figuren erzeugen.
 
    export_locations = Yes
 
-   # Yes: create location from Scapple notes.
+   # Yes: Aus Scapple-Notizen Schauplätze erzeugen.
 
    export_items = Yes
 
-   # Yes: create items from Scapple notes.
+   # Yes: Aus Scapple-Notizen Gegenstände erzeugen.
 
 
 
 Installationspfad
 -----------------
 
-The setup script installs *scap_novx.py* in the user profile.
-This is the installation path on Windows:
+Das Setup-Skript kopiert  *scap_novx.py* an einen definierten Ort.
+Unter Windows ist das der folgende Ordner:
 
-``c:\Users\<user name>\.novx\scap_novx``
+``c:\Users\<Benutzername>\.novx\scap_novx``
 

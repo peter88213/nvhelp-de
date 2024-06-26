@@ -28,7 +28,7 @@ Gebrauchsanweisung
 Vorgesehene Benutzung
 ~~~~~~~~~~~~~~~~~~~~~
 
-Das mitgelieferte Installationsskript fordert Sie auf, eine Verknüpfung
+Das mitgelieferte Setup-Skript fordert Sie auf, eine Verknüpfung
 auf dem Desktop anzulegen.
 Die können das Programm dann aufrufen, indem Sie mit der Maus eine
 *.novx*-Datei auf das Symbol ziehen.
@@ -314,9 +314,11 @@ There are two options:
 - **$Country** - Country code acc. to ISO 3166-2
 
 
-Installation path
+Installationspfad
 -----------------
 
-The setup script installs *novx_xtg.pyw* in the user profile. This is the installation path on Windows:
+Das Setup-Skript kopiert *scap_novx.py* an einen definierten Ort.
+Unter Windows ist das der folgende Ordner:
 
-``c:\Users\<user name>.novx\novx_xtg``
+``c:\Users\<Benutzername>\.novx\novx_xtg``
+

@@ -164,7 +164,7 @@ Das Programm oder ein Plugin aktualisieren
 
 Führen Sie einfach die Schritte 1 und 2 wie oben beschrieben aus.
 Sollten weitere Handlungen nötig sein, erhalten Sie eine Meldung
-vom Installationsskript.
+vom Setup-Skript.
 
 -----------------
 

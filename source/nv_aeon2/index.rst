@@ -228,8 +228,8 @@ Aktualisierungsregeln für Aeon Timeline 2-Projekte
 Benutzerdefinierte Konfiguration
 --------------------------------
 
-You can override the default settings by providing a Konfigurationsdatei.
-Be always aware that faulty entries may cause program errors.
+Sie können die Voreinstellungen mit Hilfe einer Konfigurationsdatei überschreiben.
+Denken Sie aber immer daran, dass fehlerhafte Einträge den Programmablauf stören können.
 
 
 Globale Konfiguration
@@ -241,7 +241,7 @@ im Konfigurationsverzeichnis der Installation ablegen.
 Sie wird auf jedes Projekt angewendet.
 Ihre Einträge überschreiben die Voreinstellungen von *nv_aeon2*.
 Dies ist der Pfad unter Windows:
-``c:\Users\<user name>\.novx\config\nv_aeon2.ini``
+``c:\Users\<Benutzername>\.novx\config\nv_aeon2.ini``
 
 Das Setup-Skript installiert eine Musterkonfigurationsdatei
 mit den voreingestellten Werten von *nv_aeon2*
