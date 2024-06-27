@@ -151,8 +151,8 @@ template.
    an error message.
 -  Events assigned to the "Narrative" arc are converted to regular
    sections.
--  Neue Abschnitte are put into a neu chapter named "Neue Abschnitte".
--  Alle sections are sorted chronologically.
+-  New Sections are put into a neu chapter named "Neue Abschnitte".
+-  All sections are sorted chronologically.
 -  The section status is "Gliederung".
 -  The event title is used as section title (\*).
 -  The start date is used as section date/time, if the start year is 1
@@ -169,25 +169,25 @@ template.
 Aktualisierungsregeln für bestehende novelibre-Projekte
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Only sections that have the same title as an event are aktualisierend.
+-  Only sections that have the same title as an event are updated.
 -  If an Aeon event title occurs more than once, the converter aborts
    with an error message.
 -  If a *novelibre* section title occurs more than once, the converter
    aborts with an error message.
--  Abschnitte are marked "unused" if the associated event is gelöscht in
+-  Sections are marked "unused" if the associated event is deleted in
    Aeon.
--  Abschnitt date, section time, and section duration are aktualisierend.
--  Non-empty section description and section tags are aktualisierend.
+-  Section date, section time, and section duration are updated.
+-  Non-empty section description and section tags are updated.
 -  Notizen of events with a matching title are appended to the section
    notes.
 -  The start date is overwritten, if the start year is 1 or above.
 -  The section duration is overwritten, if the start year is 1 or above.
--  Neu "Normal" type sections are erzeugend from "Narrative" events, if
+-  New "Normal" type sections are generated from "Narrative" events, if
    missing.
--  Neue Abschnitte are put into a neu chapter named "Neue Abschnitte".
--  Neu plot lines, characters, locations, and items are added, if assigned to
+-  New Sections are put into a neu chapter named "Neue Abschnitte".
+-  New plot lines, characters, locations, and items are added, if assigned to
    "Narrative" events.
--  Arc, character, location, and item relationships are aktualisierend, if the
+-  Arc, character, location, and item relationships are updated, if the
    entity names match.
 -  When processing unspecific "day/hour/minute" information, the default
    date from the *novelibre*-Projekt is used. f there is no default date
@@ -201,23 +201,23 @@ Aktualisierungsregeln für Aeon Timeline 2-Projekte
    with an error message.
 -  If a *novelibre* section title occurs more than once, the converter
    aborts with an error message.
--  Event date/time and event span are aktualisierend, if the start year is 1 or
+-  Event date/time and event span are updated, if the start year is 1 or
    above.
--  Aktualisierend event span is specified in days/hours/minutes as in
+-  Updated event span is specified in days/hours/minutes as in
    *novelibre*.
--  Non-empty event description and event tags are aktualisierend.
--  Event properties "Beschreibung" and "Notizen" are erzeugend, if missing.
--  Events erzeugend or aktualisierend from "Normal" sections are assigned to the
+-  Non-empty event description and event tags are updated.
+-  Event properties "Beschreibung" and "Notizen" are generated, if missing.
+-  Events erzeugend or updated from "Normal" sections are assigned to the
    *Narrative* arc.
--  "Narrative" events are removed if the associated section is gelöscht
+-  "Narrative" events are removed if the associated section is deleted
    in *novelibre*.
--  Entity types "Arc", "Figur", "Schauplatz", and "Gegenstand" are erzeugend,
+-  Entity types "Arc", "Character", "Location", and "Item" are erzeugend,
    if missing.
 -  A "Narrative" arc is erzeugend, if missing.
 -  A "Storyline" arc role is erzeugend, if missing.
--  Neu arcs, characters, locations, and items are added, if assigned to
+-  New arcs, characters, locations, and items are added, if assigned to
    sections.
--  Arc, character, location, and item relationships are aktualisierend, if the
+-  Arc, character, location, and item relationships are updated, if the
    entity names match.
 -  When creating events from sections without date/time, they get the
    actual date and are sorted in reading order.
