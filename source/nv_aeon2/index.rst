@@ -136,9 +136,9 @@ Bekannte Einschränkungen
 -  Ereignisse, die auf dem Zeitstrahl vor dem Datum 0001-01-01
    liegen, können nicht mit *novelibre* synchronisiert werden,
    weil *novelibre* damit nicht umgehen kann.
--  The same applies to the section duration in this case, i.e. the event
-   duration in Timeline and the section duration in *novelibre* may
-   differ.
+-  Dasselbe gilt in diesem Fall für die Ereignisdauer, d.h.
+   Die Zeitdauer kann dann in *Aeon Timeline 2* und *novelibre*
+   unterschiedlich sein.
 
 
 Konvertierungsregeln für neu erzeugte novelibre-Projekte
@@ -159,11 +159,11 @@ template.
    or above.
 -  The section duration is calculated, if the start year is 1 or above.
 -  Event tags are converted to section tags, if any (\*).
--  "Beschreibungs" are imported as section descriptions, if any (\*).
--  "Notizen" are used as section notes, if any (\*).
--  "Teilicipants" are imported as characters, if any (\*).
--  "Schauplätze" are imported, if any (\*).
--  "Gegenstände" are imported, if any (\*).
+-  "Descriptions" are imported as section descriptions, if any (\*).
+-  "Notes" are used as section notes, if any (\*).
+-  "Participants" are imported as characters, if any (\*).
+-  "Locations" are imported, if any (\*).
+-  "Items" are imported, if any (\*).
 
 
 Aktualisierungsregeln für bestehende novelibre-Projekte
@@ -274,11 +274,12 @@ Diese Datei wird auch während der Installation automatisch in den
 globalen Konfigurationsordner kopiert.
 Am besten erstellen Sie eine Kopie und bearbeiten sie.
 
--  The SETTINGS section mainly refers to custom property, role, and type
-   names.
--  Kommentarzeilen beginnen mit einem Rautenzeichen ``#``.
-   Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
-   Codezeile.
+- Der Abschnitt SETTINGS bezieht sich hauptsächlich auf die
+  benutzerdefinierten Bezeichnungen für Properties, Roles
+  und Types.
+- Kommentarzeilen beginnen mit einem Rautenzeichen ``#``.
+  Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
+  Codezeile.
 
 Das ist die Konfiguration mit Erklärungen:
 
@@ -286,57 +287,59 @@ Das ist die Konfiguration mit Erklärungen:
 
    [SETTINGS]
    
-   narrative_arc = Romanhandlung
+   narrative_arc = Narrative
    
    # Name of the user-defined "Narrative" arc.
    
-   property_description = Beschreibung
+   property_description = Description
    
-   # Name of the user-defined scene description property.
+   # Name of the user-defined section description property.
    
-   property_notes = Notizen
+   property_notes = Notes
    
-   # Name of the user-defined scene notes property.
+   # Name of the user-defined section notes property.
    
-   property_moonphase = Mondphase
+   property_moonphase = Moon phase
    
    # Name of the user-defined moon phase property.
    
-   role_location = Schauplatz
+   role_location = Location
    
-   # Name of the user-defined role for scene locations.
+   # Name of the user-defined role for section locations.
    
    role_item = Item
    
-   # Name of the user-defined role for items in a scene.
+   # Name of the user-defined role for items in a section.
    
-   role_character = Anwesend
+   role_character = Participant
    
-   # Name of the user-defined role for characters in a scene.
+   # Name of the user-defined role for characters in a section.
    
-   type_character = Figur
+   type_character = Character
    
    # Name of the user-defined "Character" type
    
-   type_location = Ort
+   type_location = Location
    
    # Name of the user-defined "Location" type
    
-   type_item = Gegenstand
+   type_item = Item
    
    # Name of the user-defined "Item" type
    
-   color_scene = Red
+   color_section = Red
    
-   # Color of new scene events
+   # Color of new section events
    
    color_event = Yellow
    
-   # Color of new non-scene events
+   # Color of new non-section events
+   
+   
    
    [OPTIONS]
    
-   add_moonphase = Yes
+   add_moonphase = No
    
    # Yes: Add the moon phase to the event properties.
    # No: Update moon phase, if already defined as event property.
@@ -348,5 +351,6 @@ Das ist die Konfiguration mit Erklärungen:
    
 
 .. note:: 
-   Your custom Konfigurationsdatei does not have to contain all the
-   entries listed above. The changed entries are sufficient.
+   Ihre benutzerdefinierte Konfigurationsdatei muss nicht alle Einträge
+   enthalten, die oben aufgelistet sind.
+   Es genügen die durch Sie geänderten Einträge.

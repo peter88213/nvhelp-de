@@ -238,9 +238,9 @@ damit sie zum Zeitstrahl passt, siehe
 <li><p>Ereignisse, die auf dem Zeitstrahl vor dem Datum 0001-01-01
 liegen, können nicht mit <em>novelibre</em> synchronisiert werden,
 weil <em>novelibre</em> damit nicht umgehen kann.</p></li>
-<li><p>The same applies to the section duration in this case, i.e. the event
-duration in Timeline and the section duration in <em>novelibre</em> may
-differ.</p></li>
+<li><p>Dasselbe gilt in diesem Fall für die Ereignisdauer, d.h.
+Die Zeitdauer kann dann in <em>Aeon Timeline 2</em> und <em>novelibre</em>
+unterschiedlich sein.</p></li>
 </ul>
 </section>
 <section id="konvertierungsregeln-fur-neu-erzeugte-novelibre-projekte">
@@ -260,11 +260,11 @@ sections.</p></li>
 or above.</p></li>
 <li><p>The section duration is calculated, if the start year is 1 or above.</p></li>
 <li><p>Event tags are converted to section tags, if any (*).</p></li>
-<li><p>„Beschreibungs“ are imported as section descriptions, if any (*).</p></li>
-<li><p>„Notizen“ are used as section notes, if any (*).</p></li>
-<li><p>„Teilicipants“ are imported as characters, if any (*).</p></li>
-<li><p>„Schauplätze“ are imported, if any (*).</p></li>
-<li><p>„Gegenstände“ are imported, if any (*).</p></li>
+<li><p>„Descriptions“ are imported as section descriptions, if any (*).</p></li>
+<li><p>„Notes“ are used as section notes, if any (*).</p></li>
+<li><p>„Participants“ are imported as characters, if any (*).</p></li>
+<li><p>„Locations“ are imported, if any (*).</p></li>
+<li><p>„Items“ are imported, if any (*).</p></li>
 </ul>
 </section>
 <section id="aktualisierungsregeln-fur-bestehende-novelibre-projekte">
@@ -367,8 +367,9 @@ Diese Datei wird auch während der Installation automatisch in den
 globalen Konfigurationsordner kopiert.
 Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
 <ul class="simple">
-<li><p>The SETTINGS section mainly refers to custom property, role, and type
-names.</p></li>
+<li><p>Der Abschnitt SETTINGS bezieht sich hauptsächlich auf die
+benutzerdefinierten Bezeichnungen für Properties, Roles
+und Types.</p></li>
 <li><p>Kommentarzeilen beginnen mit einem Rautenzeichen <code class="docutils literal notranslate"><span class="pre">#</span></code>.
 Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
 Codezeile.</p></li>
@@ -376,57 +377,59 @@ Codezeile.</p></li>
 <p>Das ist die Konfiguration mit Erklärungen:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
-<span class="na">narrative_arc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Romanhandlung</span>
+<span class="na">narrative_arc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Narrative</span>
 
 <span class="c1"># Name of the user-defined &quot;Narrative&quot; arc.</span>
 
-<span class="na">property_description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Beschreibung</span>
+<span class="na">property_description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Description</span>
 
-<span class="c1"># Name of the user-defined scene description property.</span>
+<span class="c1"># Name of the user-defined section description property.</span>
 
-<span class="na">property_notes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Notizen</span>
+<span class="na">property_notes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Notes</span>
 
-<span class="c1"># Name of the user-defined scene notes property.</span>
+<span class="c1"># Name of the user-defined section notes property.</span>
 
-<span class="na">property_moonphase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Mondphase</span>
+<span class="na">property_moonphase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Moon phase</span>
 
 <span class="c1"># Name of the user-defined moon phase property.</span>
 
-<span class="na">role_location</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Schauplatz</span>
+<span class="na">role_location</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Location</span>
 
-<span class="c1"># Name of the user-defined role for scene locations.</span>
+<span class="c1"># Name of the user-defined role for section locations.</span>
 
 <span class="na">role_item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Item</span>
 
-<span class="c1"># Name of the user-defined role for items in a scene.</span>
+<span class="c1"># Name of the user-defined role for items in a section.</span>
 
-<span class="na">role_character</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Anwesend</span>
+<span class="na">role_character</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Participant</span>
 
-<span class="c1"># Name of the user-defined role for characters in a scene.</span>
+<span class="c1"># Name of the user-defined role for characters in a section.</span>
 
-<span class="na">type_character</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Figur</span>
+<span class="na">type_character</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Character</span>
 
 <span class="c1"># Name of the user-defined &quot;Character&quot; type</span>
 
-<span class="na">type_location</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Ort</span>
+<span class="na">type_location</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Location</span>
 
 <span class="c1"># Name of the user-defined &quot;Location&quot; type</span>
 
-<span class="na">type_item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Gegenstand</span>
+<span class="na">type_item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Item</span>
 
 <span class="c1"># Name of the user-defined &quot;Item&quot; type</span>
 
-<span class="na">color_scene</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Red</span>
+<span class="na">color_section</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Red</span>
 
-<span class="c1"># Color of new scene events</span>
+<span class="c1"># Color of new section events</span>
 
 <span class="na">color_event</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yellow</span>
 
-<span class="c1"># Color of new non-scene events</span>
+<span class="c1"># Color of new non-section events</span>
+
+
 
 <span class="k">[OPTIONS]</span>
 
-<span class="na">add_moonphase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
+<span class="na">add_moonphase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">No</span>
 
 <span class="c1"># Yes: Add the moon phase to the event properties.</span>
 <span class="c1"># No: Update moon phase, if already defined as event property.</span>
@@ -439,8 +442,9 @@ Codezeile.</p></li>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
-<p>Your custom Konfigurationsdatei does not have to contain all the
-entries listed above. The changed entries are sufficient.</p>
+<p>Ihre benutzerdefinierte Konfigurationsdatei muss nicht alle Einträge
+enthalten, die oben aufgelistet sind.
+Es genügen die durch Sie geänderten Einträge.</p>
 </div>
 </section>
 </section>
