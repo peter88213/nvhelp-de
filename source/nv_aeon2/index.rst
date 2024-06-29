@@ -190,7 +190,7 @@ Aktualisierungsregeln für bestehende novelibre-Projekte
 -  Arc, character, location, and item relationships are updated, if the
    entity names match.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the *novelibre*-Projekt is used. f there is no default date
+   date from the *novelibre* project is used. f there is no default date
    set, "today" is used.
 
 
@@ -206,27 +206,25 @@ Aktualisierungsregeln für Aeon Timeline 2-Projekte
 -  Updated event span is specified in days/hours/minutes as in
    *novelibre*.
 -  Non-empty event description and event tags are updated.
--  Event properties "Beschreibung" and "Notizen" are generated, if missing.
--  Events erzeugend or updated from "Normal" sections are assigned to the
+-  Event properties "Description" and "Notes" are generated, if missing.
+-  Events created or updated from "Normal" sections are assigned to the
    *Narrative* arc.
 -  "Narrative" events are removed if the associated section is deleted
    in *novelibre*.
--  Entity types "Arc", "Character", "Location", and "Item" are erzeugend,
+-  Entity types "Arc", "Character", "Location", and "Item" are created,
    if missing.
--  A "Narrative" arc is erzeugend, if missing.
--  A "Storyline" arc role is erzeugend, if missing.
+-  A "Narrative" arc is created, if missing.
+-  A "Storyline" arc role is created, if missing.
 -  New arcs, characters, locations, and items are added, if assigned to
    sections.
 -  Arc, character, location, and item relationships are updated, if the
    entity names match.
--  When creating events from sections without date/time, they get the
-   actual date and are sorted in reading order.
 -  When creating events from sections without any date/time information,
-   they get the default date from the *novelibre*-Projekt, and are sorted
+   they get the default date from the *novelibre* project, and are sorted
    in reading order. If there is no default date set, "today" is used.
 -  When processing unspecific "day/hour/minute" information, the default
-   date from the *novelibre*-Projekt is used. f there is no default date
-   set, "today" is used.
+   date from the *novelibre* project is used for date calculation.
+   If there is no default date set, "today" is used as reference date.
 
 
 Benutzerdefinierte Konfiguration
