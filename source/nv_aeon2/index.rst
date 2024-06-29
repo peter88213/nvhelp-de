@@ -303,17 +303,9 @@ Das ist die Konfiguration mit Erklärungen:
    
    # Name of the user-defined moon phase property.
    
-   role_location = Location
+   type_arc = Arc
    
-   # Name of the user-defined role for section locations.
-   
-   role_item = Item
-   
-   # Name of the user-defined role for items in a section.
-   
-   role_character = Participant
-   
-   # Name of the user-defined role for characters in a section.
+   # Name of the user-defined "Arc" type
    
    type_character = Character
    
@@ -327,6 +319,26 @@ Das ist die Konfiguration mit Erklärungen:
    
    # Name of the user-defined "Item" type
    
+   role_arc = Arc
+   
+   # Name of the user-defined role for regular arcs.
+   
+   role_plotline = Storyline
+   
+   # Name of the user-defined role for plot line arcs.
+   
+   role_character = Participant
+   
+   # Name of the user-defined role for characters in a section.
+   
+   role_location = Location
+   
+   # Name of the user-defined role for section locations.
+   
+   role_item = Item
+   
+   # Name of the user-defined role for items in a section.
+   
    color_section = Red
    
    # Color of new section events
@@ -334,9 +346,8 @@ Das ist die Konfiguration mit Erklärungen:
    color_event = Yellow
    
    # Color of new non-section events
-   
-   
-   
+
+
    [OPTIONS]
    
    add_moonphase = No
