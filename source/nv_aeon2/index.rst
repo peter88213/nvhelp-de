@@ -84,10 +84,17 @@ Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisie
 Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die Berechnung der Mondphase beruht auf einem überschlägigen Verfahren
-von John Conway.
-In ihrer derzeitigen Ausführung ist sie nur für das 20. und 21. Jahrhundert
-gültig.
+Die Ereigniseigenschaft "Mondphase" setzt sich zusammen aus:
+
+- dem Phasentag (0 bis 29, wobei 0=Neumond, 15=voll etc.),
+- der sichtbaren Form,
+- dem beleuchteten Bruchteil.
+
+.. note::
+   Die Berechnung der Mondphase beruht auf einem überschlägigen Verfahren
+   von John Conway.
+   In ihrer derzeitigen Ausführung ist sie nur für das 20. und 21. Jahrhundert
+   gültig.
 
 
 Aeon Timeline 2 > Den Zeitstrahl bearbeiten

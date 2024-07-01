@@ -16,7 +16,7 @@
   
         <script src="_static/jquery.js?v=5d32c60e"></script>
         <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="_static/documentation_options.js?v=9dd8fba9"></script>
+        <script src="_static/documentation_options.js?v=85459fab"></script>
         <script src="_static/doctools.js?v=888ff710"></script>
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="_static/translations.js?v=70a09b52"></script>
@@ -39,7 +39,7 @@
             novelibre Benutzerhandbuch
           </a>
               <div class="version">
-                Version 4.3+
+                Version 4.4+
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -355,6 +355,24 @@ ansehen.</p>
 oder einen Tag angeben.</p>
 </div>
 <dl>
+<dt>Mondphase</dt><dd><p>Wenn die nötigen Datumsangaben vorliegen, können Sie die Mondphase dazu abrufen.</p>
+<figure class="align-default">
+<img alt="Screenshot" src="_images/section_view09.png" />
+</figure>
+<p>Die Mondphasenangabe setzt sich zusammen aus:</p>
+<ul class="simple">
+<li><p>dem Phasentag (0 bis 29, wobei 0=Neumond, 15=voll etc.),</p></li>
+<li><p>der sichtbaren Form,</p></li>
+<li><p>dem beleuchteten Bruchteil.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die Berechnung der Mondphase beruht auf einem überschlägigen Verfahren
+von John Conway.
+In ihrer derzeitigen Ausführung ist sie nur für das 20. und 21. Jahrhundert
+gültig.</p>
+</div>
+</dd>
 <dt>Datum/Zeit löschen</dt><dd><p>Das setzt <em>Datum</em>, <em>Zeit</em> und <em>Tag</em> gleichzeitig zurück.</p>
 </dd>
 <dt>Erzeugen</dt><dd><p>Das erzeugt Datum und Zeit aus Datum, Zeit und Dauer des

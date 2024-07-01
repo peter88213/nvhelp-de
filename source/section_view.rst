@@ -256,7 +256,25 @@ Tag
 .. note::
    Alle Einträge sind optional. Sie können entweder ein Datum 
    oder einen Tag angeben. 
-   
+
+Mondphase
+   Wenn die nötigen Datumsangaben vorliegen, können Sie die Mondphase dazu abrufen.
+
+   .. figure:: _images/section_view09.png
+      :alt: Screenshot
+
+   Die Mondphasenangabe setzt sich zusammen aus:
+
+   - dem Phasentag (0 bis 29, wobei 0=Neumond, 15=voll etc.),
+   - der sichtbaren Form,
+   - dem beleuchteten Bruchteil.
+
+   .. note::
+      Die Berechnung der Mondphase beruht auf einem überschlägigen Verfahren
+      von John Conway.
+      In ihrer derzeitigen Ausführung ist sie nur für das 20. und 21. Jahrhundert
+      gültig.
+
 Datum/Zeit löschen
    Das setzt *Datum*, *Zeit* und *Tag* gleichzeitig zurück.
 
