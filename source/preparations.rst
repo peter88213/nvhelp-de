@@ -50,8 +50,11 @@ Schritt 1
 
         Beispiel (Windows Explorer)
 
-   - oder führen Sie ```python novelibre_vx.x.x.pyzw``` (Windows),
-     bzw. ```python3 novelibre_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
+   - oder führen Sie
+
+     ```python novelibre_vx.x.x.pyzw``` (Windows), bzw.
+
+     ```python3 novelibre_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
      .. figure:: _images/preparations12.png
         :alt: Beispiel (Windows Eingabeaufforderung)
