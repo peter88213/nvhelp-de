@@ -41,51 +41,52 @@ Viel Vergnügen!
 Das Programm installieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Starten Sie entweder die heruntergeladene Datei
-  **novelibre_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
+Schritt 1
+   - Starten Sie entweder die heruntergeladene Datei
+     **novelibre_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
 
-.. figure:: _images/preparations11.png
-   :alt: Beispiel (Windows Explorer)
-   
-   Beispiel (Windows Explorer)
+     .. figure:: _images/preparations11.png
+        :alt: Beispiel (Windows Explorer)
 
-- oder führen Sie ```python novelibre_vx.x.x.pyzw``` (Windows),
-  bzw. ```python3 novelibre_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
+        Beispiel (Windows Explorer)
 
-.. figure:: _images/preparations12.png
-   :alt: Beispiel (Windows Eingabeaufforderung)
-   
-   Beispiel (Windows Eingabeaufforderung)
+   - oder führen Sie ```python novelibre_vx.x.x.pyzw``` (Windows),
+     bzw. ```python3 novelibre_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
-*"x.x.x"* ist dabei die Versionsnummer.
+     .. figure:: _images/preparations12.png
+        :alt: Beispiel (Windows Eingabeaufforderung)
 
-In beiden Fällen sollte ein Popup-Fenster erscheinen und den Erfolg
-der Installation anzeigen.
+        Beispiel (Windows Eingabeaufforderung)
 
-.. figure:: _images/preparations13.png
-   :alt: Beispiel (Windows)
-   
-   Beispiel (Windows)
+   *"x.x.x"* ist dabei die Versionsnummer.
 
- 
-.. important::
-   Viele Webbrowser erkennen den Download als ausführbare Datei
-   und bieten an, sie direkt zu öffnen. 
-   Damit wird die Installation gestartet.
-   
-   .. figure:: _images/preparations14.png
-      :alt: Beispiel (Chrome-Browser)
+   In beiden Fällen sollte ein Popup-Fenster erscheinen und den Erfolg
+   der Installation anzeigen.
+
+   .. figure:: _images/preparations13.png
+      :alt: Beispiel (Windows)
+
+      Beispiel (Windows)
+
+
+   .. important::
+      Viele Webbrowser erkennen den Download als ausführbare Datei
+      und bieten an, sie direkt zu öffnen. 
+      Damit wird die Installation gestartet.
       
-      Beispiel (Chrome-Browser)
-   
-   
-   Abhängig von den Sicherheitseinstellungen kann es allerdings 
-   auch passieren, dass der Browser den Download der ausführbaren 
-   Datei zunächst verweigert. 
-   In diesem Fall ist Ihre Bestätigung oder eine zusätzliche Handlung 
-   erforderlich. 
-   Falls das nicht geht, können Sie auf den Download der zip-Datei
-   ausweichen. 
+      .. figure:: _images/preparations14.png
+         :alt: Beispiel (Chrome-Browser)
+         
+         Beispiel (Chrome-Browser)
+      
+      
+      Abhängig von den Sicherheitseinstellungen kann es allerdings 
+      auch passieren, dass der Browser den Download der ausführbaren 
+      Datei zunächst verweigert. 
+      In diesem Fall ist Ihre Bestätigung oder eine zusätzliche Handlung 
+      erforderlich. 
+      Falls das nicht geht, können Sie auf den Download der zip-Datei
+      ausweichen. 
  
  
 novelibre auf den Desktop bringen
@@ -114,12 +115,14 @@ novelibre auf den Desktop bringen
    mit Hilfe des `novx.css-Stylesheets 
    <file_menu.html#style-sheet-kopieren>`__ darstellen. 
 
-3. Öffnen Sie das Installationsverzeichnis.
+Schritt 2
+   Öffnen Sie das Installationsverzeichnis.
 
    .. figure:: _images/preparations05.png
       :alt: novelibre Screenshot
 
-4. Ziehen Sie **run.pyw** bei gedrückter ``Alt``-Taste auf den
+Schritt 3
+   Ziehen Sie **run.pyw** bei gedrückter ``Alt``-Taste auf den
    Desktop. Das erzeugt eine Progrmmverknüpfung, um
    *novelibre* vom Windows-Desktop aufzurufen.
    Nun können Sie *.novx*-Dateien auch auf diese Verknüpfung ziehen.
@@ -127,7 +130,8 @@ novelibre auf den Desktop bringen
    .. figure:: _images/preparations06.png
       :alt: novelibre Screenshot
 
-5. Wahlweise können Sie das "Python"-Programmsymbol durch das
+Schritt 4
+   Wahlweise können Sie das "Python"-Programmsymbol durch das
    *novelibre*-Logo ersetzen, das Sie im Unterverzeichnis
    *icons* des Installationsordners finden.
 
@@ -141,7 +145,8 @@ novelibre auf den Desktop bringen
    .. figure:: _images/preparations07.png
       :alt: novelibre Screenshot
 
-6. Um die Programmverknüpfung zu *novelibre* umzubenennen,
+Schritt 5
+   Um die Programmverknüpfung zu *novelibre* umzubenennen,
    klicken Sie mit der rechten Maustaste darauf und öffnen
    den **Eigenschaften**-Dialog.
    Im ersten Karteireiter ersetzen Sie "Verknüpfung mit run.pyw"
@@ -154,7 +159,8 @@ novelibre auf den Desktop bringen
 .novx-Dateien novelibre zuweisen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-7. Wahlweise können Sie die Dateinamenserweiterung **.novx**
+Schritt 6
+   Wahlweise können Sie die Dateinamenserweiterung **.novx**
    der *novelibre*-Anwendung zuweisen.
    Dann werden Projektdateien im Explorer mit dem *novelibre*-Symbol
    angezeigt und können durch Doppelklick mit *novelibre* geöffnet werden.
@@ -190,9 +196,9 @@ novelibre auf den Desktop bringen
    Python-Interpreters auf. 
    
    
-   Falls sie zu einem späteren Zeitpunkt Python auf eine 
-   andere Version updaten, müssen *novelibre* erneut installieren
-   und danach **add_novelibre.reg** ausführen.
+   Falls Sie zu einem späteren Zeitpunkt Ihre Python-Installation 
+   auf eine andere Version updaten, sollten Sie *novelibre* erneut 
+   installieren und danach **add_novelibre.reg** ausführen.
    Andernfalls wird Windows die neue Python-Version nicht 
    finden, und Sie können *.novx*-Dateien nicht per Doppelklick
    öffnen. 
