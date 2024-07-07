@@ -36,6 +36,20 @@ außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Aeon Timeline 2 erzeu
 und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
 
 
+.. important::
+   Viele Webbrowser erkennen den Download als ausführbare Datei
+   und bieten an, sie direkt zu öffnen. 
+   Damit wird die Installation gestartet.
+   
+   Abhängig von den Sicherheitseinstellungen kann es allerdings 
+   auch passieren, dass der Browser den Download der ausführbaren 
+   Datei zunächst verweigert. 
+   In diesem Fall ist Ihre Bestätigung oder eine zusätzliche Handlung 
+   erforderlich. 
+   Falls das nicht geht, können Sie auf den Download der zip-Datei
+   ausweichen. 
+ 
+ 
 Die Aeon Timeline 2 Benutzervorlage installieren
 ------------------------------------------------
 

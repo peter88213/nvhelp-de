@@ -30,6 +30,20 @@ Schaltflächen hinzu,
 Außerdem den Eintrag **Zwischenablage Online-Hilfe** im **Hilfe**-Menü.
 
 
+.. important::
+   Viele Webbrowser erkennen den Download als ausführbare Datei
+   und bieten an, sie direkt zu öffnen. 
+   Damit wird die Installation gestartet.
+   
+   Abhängig von den Sicherheitseinstellungen kann es allerdings 
+   auch passieren, dass der Browser den Download der ausführbaren 
+   Datei zunächst verweigert. 
+   In diesem Fall ist Ihre Bestätigung oder eine zusätzliche Handlung 
+   erforderlich. 
+   Falls das nicht geht, können Sie auf den Download der zip-Datei
+   ausweichen. 
+ 
+ 
 Vom Zwischenablage-Plugin hinzugefügte Werkzeugleisten-Schaltflächen
 --------------------------------------------------------------------
 
