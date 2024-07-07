@@ -63,6 +63,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../plugins.html">Plugins</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../tools.html">Werkzeuge</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">scap_novx</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#das-programm-installieren">Das Programm installieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#gebrauchsanweisung">Gebrauchsanweisung</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#vorgesehene-benutzung">Vorgesehene Benutzung</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#auf-der-kommandozeile">Auf der Kommandozeile</a></li>
@@ -127,11 +128,21 @@
 <p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/scap_novx/">scap_novx</a>.</p>
 <p>Das Python-Skript <em>scap_novx.py</em> erzeugt ein <em>novelibre</em>-Projekt aus einer
 <em>Scapple</em>-Gliederung.</p>
+<section id="das-programm-installieren">
+<h2>Das Programm installieren<a class="headerlink" href="#das-programm-installieren" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Starten Sie entweder die heruntergeladene Datei
+<strong>scap_novx_vx.x.x.pyzw</strong> durch Doppelklick (Windows/Linux-Desktop),</p></li>
+<li><p>oder führen Sie <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">scap_novx_vx.x.x.pyzw`</span></code> (Windows),
+bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">scap_novx_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
+</ul>
+<p><em>„x.x.x“</em> ist dabei die Versionsnummer.</p>
+</section>
 <section id="gebrauchsanweisung">
 <h2>Gebrauchsanweisung<a class="headerlink" href="#gebrauchsanweisung" title="Link to this heading"></a></h2>
 <section id="vorgesehene-benutzung">
 <h3>Vorgesehene Benutzung<a class="headerlink" href="#vorgesehene-benutzung" title="Link to this heading"></a></h3>
-<p>Das mitgelieferte Setup-Skript fordert Sie auf, eine Verknüpfung
+<p>Das Installationsprogramm fordert Sie auf, eine Verknüpfung
 auf dem Desktop anzulegen.
 Die können das Programm dann aufrufen, indem Sie mit der Maus eine
 <em>.scap</em>-Datei auf das Symbol ziehen.</p>
@@ -189,7 +200,10 @@ die in jedes <em>novelibre</em>-Projekt importiert werden können.</p>
 <h3>Stile importieren (optional)<a class="headerlink" href="#stile-importieren-optional" title="Link to this heading"></a></h3>
 <p>Zusammen mit der <em>scap_novx</em>-Distribution wird ein <em>Scapple</em>-Beispielprojekt
 namens <em>styles.scap</em> geliefert, das alle erforderlichen Formate enthält.
-Sie können entweder dieses Diagramm als Vorlage verwenden,
+Sie finden dieses Beispielprojekt im
+<em>novelibre</em>-Installationsverzeichnis unter</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\scap_novx\sample\</span></code></p>
+<p>Sie können entweder dieses Diagramm als Vorlage verwenden,
 oder dessen Formate in Ihr eigenes Diagramm importieren.</p>
 <figure class="align-default" id="id1">
 <img alt="Screenshot" src="../_images/import_styles.png" />
@@ -268,9 +282,6 @@ Sie wird auf jedes Projekt angewendet.
 Ihre Einträge überschreiben die Voreinstellungen von <em>nv_aeon2</em>.
 Dies ist der Pfad unter Windows:
 <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\scap_novx\scap_novx.ini</span></code></p>
-<p>Das Setup-Skript installiert eine Musterkonfigurationsdatei
-mit den voreingestellten Werten von <em>scap_novx</em>
-Sie können sie ändern oder löschen.</p>
 </section>
 <section id="lokale-projektkonfiguration">
 <h3>Lokale Projektkonfiguration<a class="headerlink" href="#lokale-projektkonfiguration" title="Link to this heading"></a></h3>
@@ -284,12 +295,11 @@ Ihre Einträge überschreiben sowohl die Voreinstellungen von
 </section>
 <section id="wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst">
 <h3>Wie man eine Konfigurationsdatei erstellt oder anpasst<a class="headerlink" href="#wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst" title="Link to this heading"></a></h3>
-<p>Die <em>scap_novx</em>-Distribution wird mit einer Beispielkonfigurationsdatei
-geliefert, die sich im Unterordner <code class="docutils literal notranslate"><span class="pre">sample</span></code> befindet.
-Sie enthält die Standardeinstellungen und Optionen von <em>scap_novx</em>.
-Diese Datei wird auch während der Installation automatisch in den
-globalen Konfigurationsordner kopiert.
-Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
+<p>Sie finden eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von <em>scap_novx</em> im
+<em>novelibre</em>-Installationsverzeichnis unter</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\scap_novx\sample\</span></code></p>
+<p>Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
 <ul class="simple">
 <li><p>Der Abschnitt SETTINGS bezieht sich hauptsächlich auf die Farben,
 d.h. auf die Textfarben, mit denen die Figuren, Schauplätze und
@@ -301,7 +311,7 @@ als in der Beschreibung der Konvertierungsregeln weiter unten beschrieben.</p></
 Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
 Codezeile.</p></li>
 </ul>
-<p>Das ist die Konfiguration mit Erklärungen:</p>
+<p>Das ist die Konfigurationsdatei mit Erklärungen:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
 <span class="na">location_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.0 0.0 1.0</span>

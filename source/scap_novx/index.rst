@@ -16,6 +16,16 @@ Diese Seite gilt für die neueste Ausgabe von `scap_novx
 Das Python-Skript *scap_novx.py* erzeugt ein *novelibre*-Projekt aus einer
 *Scapple*-Gliederung.
 
+Das Programm installieren
+-------------------------
+
+- Starten Sie entweder die heruntergeladene Datei
+  **scap_novx_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
+- oder führen Sie ```python scap_novx_vx.x.x.pyzw``` (Windows),
+  bzw. ```python3 scap_novx_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
+
+*"x.x.x"* ist dabei die Versionsnummer.
+
 
 Gebrauchsanweisung
 ------------------
@@ -23,7 +33,7 @@ Gebrauchsanweisung
 Vorgesehene Benutzung
 ~~~~~~~~~~~~~~~~~~~~~
 
-Das mitgelieferte Setup-Skript fordert Sie auf, eine Verknüpfung
+Das Installationsprogramm fordert Sie auf, eine Verknüpfung
 auf dem Desktop anzulegen.
 Die können das Programm dann aufrufen, indem Sie mit der Maus eine
 *.scap*-Datei auf das Symbol ziehen.
@@ -92,6 +102,11 @@ Stile importieren (optional)
 
 Zusammen mit der *scap_novx*-Distribution wird ein *Scapple*-Beispielprojekt
 namens *styles.scap* geliefert, das alle erforderlichen Formate enthält.
+Sie finden dieses Beispielprojekt im
+*novelibre*-Installationsverzeichnis unter
+
+``c:\Users\<Benutzername>\.novx\scap_novx\sample\``
+
 Sie können entweder dieses Diagramm als Vorlage verwenden,
 oder dessen Formate in Ihr eigenes Diagramm importieren.
 
@@ -189,10 +204,6 @@ Ihre Einträge überschreiben die Voreinstellungen von *nv_aeon2*.
 Dies ist der Pfad unter Windows:
 ``c:\Users\<Benutzername>\.novx\scap_novx\scap_novx.ini``
 
-Das Setup-Skript installiert eine Musterkonfigurationsdatei
-mit den voreingestellten Werten von *scap_novx*
-Sie können sie ändern oder löschen.
-
 
 Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -209,11 +220,12 @@ Ihre Einträge überschreiben sowohl die Voreinstellungen von
 Wie man eine Konfigurationsdatei erstellt oder anpasst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die *scap_novx*-Distribution wird mit einer Beispielkonfigurationsdatei
-geliefert, die sich im Unterordner ``sample`` befindet.
-Sie enthält die Standardeinstellungen und Optionen von *scap_novx*.
-Diese Datei wird auch während der Installation automatisch in den
-globalen Konfigurationsordner kopiert.
+Sie finden eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von *scap_novx* im
+*novelibre*-Installationsverzeichnis unter
+
+``c:\Users\<Benutzername>\.novx\scap_novx\sample\``
+
 Am besten erstellen Sie eine Kopie und bearbeiten sie.
 
 - Der Abschnitt SETTINGS bezieht sich hauptsächlich auf die Farben,
@@ -226,7 +238,7 @@ Am besten erstellen Sie eine Kopie und bearbeiten sie.
   Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
   Codezeile.
 
-Das ist die Konfiguration mit Erklärungen:
+Das ist die Konfigurationsdatei mit Erklärungen:
 
 ::
 

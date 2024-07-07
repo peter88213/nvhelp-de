@@ -18,8 +18,18 @@ novx_xtg
 Diese Seite gilt für die neueste Ausgabe von `novx_xtg
 <https://github.com/peter88213/novx_xtg/>`__.
 
-Das Python-Skript *novx_xtg.py* durchläuft alle kapitel und Abschnitte
+Das Python-Skript *novx_xtg.py* durchläuft alle Kapitel und Abschnitte
 eines *novelibre*-Projekts und füllt XTG-Vorlagen aus.
+
+Das Programm installieren
+-------------------------
+
+- Starten Sie entweder die heruntergeladene Datei
+  **novx_xtg_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
+- oder führen Sie ```python novx_xtg_vx.x.x.pyzw``` (Windows),
+  bzw. ```python3 novx_xtg_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
+
+*"x.x.x"* ist dabei die Versionsnummer.
 
 
 Gebrauchsanweisung
@@ -28,7 +38,7 @@ Gebrauchsanweisung
 Vorgesehene Benutzung
 ~~~~~~~~~~~~~~~~~~~~~
 
-Das mitgelieferte Setup-Skript fordert Sie auf, eine Verknüpfung
+Das Installationsprogramm fordert Sie auf, eine Verknüpfung
 auf dem Desktop anzulegen.
 Die können das Programm dann aufrufen, indem Sie mit der Maus eine
 *.novx*-Datei auf das Symbol ziehen.
@@ -75,7 +85,8 @@ download the manual *A Guide to XPress Tags* for your program version from the *
 novelibre Textauszeichnungen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Bold and italics are supported. Other highlighting such as underline and strikethrough are lost.
+Bold and italics are supported. Other highlighting such as
+underline and strikethrough are lost.
 
 
 Anführungszeichen und Interpunktion
@@ -95,10 +106,20 @@ Konfiguration
 - If a template file or a configuration entry is missing, *novx_xtg* uses the lower priority source as a fallback.
 
 
+.. hint::
+   Sie finden einen Musterkonfigurationsordner mit Vorlagen und
+   den voreingestellten Werten von *novx_xtg* im
+   *novelibre*-Installationsverzeichnis unter
+   
+   ``c:\Users\<Benutzername>\.novx\novx_xtg\sample\``
+   
+   Am besten erstellen Sie eine Kopie und bearbeiten sie.
+
+
 Konfigurationsdatei
 ~~~~~~~~~~~~~~~~~~~
 
-This is an example configuration file containing the default values mentioned above:
+Das ist die Konfigurationsdatei mit Erklärungen:
 
 ::
 

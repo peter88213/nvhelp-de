@@ -18,8 +18,12 @@ Sie können sie mit **Hilfe > Timeline-Plugin Online-Hilfe** öffnen.
 Das Plugin installieren
 -----------------------
 
-- Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.
-- Gehen Sie in diesen Ordner und führen Sie **setup.pyw** aus. Damit installieren Sie das Plugin.
+- Starten Sie entweder die heruntergeladene Datei
+  **nv_timeline_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
+- oder führen Sie ```python nv_timeline_vx.x.x.pyzw``` (Windows),
+  bzw. ```python3 nv_timeline_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
+
+*"x.x.x"* ist dabei die Versionsnummer.
 
 Das Plugin fügt dem *novelibre*-Hauptmenü
 den Eintrag **Timeline** hinzu,
@@ -93,9 +97,6 @@ Ihre Einträge überschreiben die Voreinstellungen von *nv_timeline*.
 Dies ist der Pfad unter Windows:
 ``c:\Users\<user name>\.novx\config\nv_timeline.ini``
 
-Das Setup-Skript installiert eine Musterkonfigurationsdatei
-mit den voreingestellten Werten von *nv_timeline*
-Sie können sie ändern oder löschen.
 
 Lokale Projektkonfiguration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,11 +113,12 @@ Ihre Einträge überschreiben sowohl die Voreinstellungen von
 Wie man eine Konfigurationsdatei erstellt oder anpasst
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Die *nv_timeline*-Distribution wird mit einer Beispielkonfigurationsdatei
-geliefert, die sich im Unterordner ``sample`` befindet.
-Sie enthält die Standardeinstellungen und Optionen von *nv_timeline*.
-Diese Datei wird auch während der Installation automatisch in den
-globalen Konfigurationsordner kopiert.
+Sie finden eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von *nv_timeline* im
+*novelibre*-Installationsverzeichnis unter
+
+``c:\Users\<Benutzername>\.novx\nv_timeline_sample\``
+
 Am besten erstellen Sie eine Kopie und bearbeiten sie.
 
 -  Der Abschnitt SETTINGS enthält die Programm-"Konstanten".
@@ -128,7 +130,7 @@ Am besten erstellen Sie eine Kopie und bearbeiten sie.
    Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
    Codezeile.
 
-Das ist die Konfiguration mit Erklärungen:
+Das ist die Konfigurationsdatei mit Erklärungen:
 
 ::
 

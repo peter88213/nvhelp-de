@@ -6,7 +6,7 @@ novelibre einrichten
 
 Wäre *novelibre* ein käufliches Anwendungsprogramm,
 würden alle im folgenden beschriebenen Schritte
-automatisch durch ein Installationsprogramm ausgeführt werden.
+automatisch durch das Installationsprogramm ausgeführt werden.
 Unter Windows wäre das beispielsweise eine *.exe*
 oder *.msi*-Datei, die mit besonderen Rechten ausgeführt
 werden müsste und vielleicht sogar ein teures Zertifikat
@@ -23,8 +23,12 @@ Weil ich keine Softwarefirma betreibe, sondern nur ein
 Hobbyprogrammierer bin, der seine Zeit eigentlich lieber
 mit Romanschreiben verbrächte, habe ich beschlossen, einen
 anderen Weg zu gehen:
-Ich stelle ein Python-Einrichtungsskript bereit,
-das unter allen Betriebssystemen gleich funktioniert.
+Ich stelle ein ausführbares Python-Zip-Archiv bereit,
+das unter allen Betriebssystemen gleich funktioniert,
+sofern Python korrekt installiert ist.
+Für die Installation und den Betrieb von *novelibre*
+ist keine Internetverbindung notwendig.
+
 Die allerletzten Schritte, die vom verwendeten
 Betriebssystem abhängen und eventuell auch besondere
 Benutzerrechte erfordern, müssen die unerschrockenen
@@ -37,14 +41,33 @@ Viel Vergnügen!
 Das Programm installieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Entpacken Sie die heruntergeladene Zip-Datei.
-2. Gehen Sie in den entpackten Ordner und starten Sie **setup.pyw**.
-   Das installiert die Anwendung für den angemeldeten Benutzer.
+- Starten Sie entweder die heruntergeladene Datei
+  **novelibre_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
 
-.. figure:: _images/preparations04.png
-   :alt: novelibre Screenshot
+.. figure:: _images/preparations11.png
+   :alt: Beispiel (Windows Explorer)
+   
+   Beispiel (Windows Explorer)
 
+- oder führen Sie ```python novelibre_vx.x.x.pyzw``` (Windows),
+  bzw. ```python3 novelibre_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
+.. figure:: _images/preparations12.png
+   :alt: Beispiel (Windows Eingabeaufforderung)
+   
+   Beispiel (Windows Eingabeaufforderung)
+
+*"x.x.x"* ist dabei die Versionsnummer.
+
+In beiden Fällen sollte ein Popup-Fenster erscheinen und den Erfolg
+der Installation anzeigen.
+
+.. figure:: _images/preparations13.png
+   :alt: Beispiel (Windows)
+   
+   Beispiel (Windows)
+
+ 
 novelibre auf den Desktop bringen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

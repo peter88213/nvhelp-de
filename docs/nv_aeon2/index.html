@@ -144,9 +144,12 @@ Sie können sie mit <strong>Hilfe &gt; Aeon 2-Plugin Online-Hilfe</strong> öffn
 <section id="das-plugin-installieren">
 <h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.</p></li>
-<li><p>Gehen Sie in diesen Ordner und führen Sie <strong>setup.pyw</strong> aus. Damit installieren Sie das Plugin.</p></li>
+<li><p>Starten Sie entweder die heruntergeladene Datei
+<strong>nv_aeon2_vx.x.x.pyzw</strong> durch Doppelklick (Windows/Linux-Desktop),</p></li>
+<li><p>oder führen Sie <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_aeon2_vx.x.x.pyzw`</span></code> (Windows),
+bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_aeon2_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
 </ul>
+<p><em>„x.x.x“</em> ist dabei die Versionsnummer.</p>
 <p>Das Plugin fügt dem <em>novelibre</em>-Hauptmenü
 den Eintrag <strong>Aeon Timeline 2</strong> hinzu,
 außerdem dem <strong>Datei &gt; Neu</strong>-Untermenü den Eintrag <strong>Aus Aeon Timeline 2 erzeugen…</strong>,
@@ -159,10 +162,10 @@ und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Aeon 2-Plugin Online-Hi
 Es ist dann einfach, neue Zeitleisten aus dieser Vorlage zu erzeugen.
 Sie stellt die Entities und Properties bereit, die standardmäßig
 mit <em>novelibre</em> synchronisiert werden.</p>
-<p>Sie finden die Benutzervorlage im Unterverzeichnis
-<code class="docutils literal notranslate"><span class="pre">sample</span></code> des entpackten <em>nv_aeon2</em> Release-Verzeichnisses.
-Kopieren Sie sie einfach in das folgende Verzeichnis:
-<code class="docutils literal notranslate"><span class="pre">AppData\Local\Scribble</span> <span class="pre">Code\Aeon</span> <span class="pre">Timeline</span> <span class="pre">2\CustomTemplates</span></code>.</p>
+<p>Sie finden die Benutzervorlage im <em>novelibre</em>-Installationsverzeichnis unter</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\nv_aeon2_sample\</span></code></p>
+<p>Kopieren Sie sie einfach in das folgende Verzeichnis:</p>
+<p><code class="docutils literal notranslate"><span class="pre">AppData\Local\Scribble</span> <span class="pre">Code\Aeon</span> <span class="pre">Timeline</span> <span class="pre">2\CustomTemplates</span></code>.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
 <p>Der Ordner <code class="docutils literal notranslate"><span class="pre">&lt;Benutzername&gt;\AppData</span></code> ist verborgen,
@@ -351,9 +354,6 @@ Sie wird auf jedes Projekt angewendet.
 Ihre Einträge überschreiben die Voreinstellungen von <em>nv_aeon2</em>.
 Dies ist der Pfad unter Windows:
 <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\config\nv_aeon2.ini</span></code></p>
-<p>Das Setup-Skript installiert eine Musterkonfigurationsdatei
-mit den voreingestellten Werten von <em>nv_aeon2</em>
-Sie können sie ändern oder löschen.</p>
 </section>
 <section id="lokale-projektkonfiguration">
 <h3>Lokale Projektkonfiguration<a class="headerlink" href="#lokale-projektkonfiguration" title="Link to this heading"></a></h3>
@@ -367,12 +367,11 @@ Ihre Einträge überschreiben sowohl die Voreinstellungen von
 </section>
 <section id="wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst">
 <h3>Wie man eine Konfigurationsdatei erstellt oder anpasst<a class="headerlink" href="#wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst" title="Link to this heading"></a></h3>
-<p>Die <em>nv_aeon2</em>-Distribution wird mit einer Beispielkonfigurationsdatei
-geliefert, die sich im Unterordner <code class="docutils literal notranslate"><span class="pre">sample</span></code> befindet.
-Sie enthält die Standardeinstellungen und Optionen von <em>nv_aeon2</em>.
-Diese Datei wird auch während der Installation automatisch in den
-globalen Konfigurationsordner kopiert.
-Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
+<p>Sie finden eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von <em>nv_aeon2</em> im
+<em>novelibre</em>-Installationsverzeichnis unter</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\nv_aeon2_sample\</span></code></p>
+<p>Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
 <ul class="simple">
 <li><p>Der Abschnitt SETTINGS bezieht sich hauptsächlich auf die
 benutzerdefinierten Bezeichnungen für Properties, Roles
@@ -381,7 +380,7 @@ und Types.</p></li>
 Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
 Codezeile.</p></li>
 </ul>
-<p>Das ist die Konfiguration mit Erklärungen:</p>
+<p>Das ist die Konfigurationsdatei mit Erklärungen:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
 <span class="na">narrative_arc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Narrative</span>

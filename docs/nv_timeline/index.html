@@ -133,9 +133,12 @@ Sie können sie mit <strong>Hilfe &gt; Timeline-Plugin Online-Hilfe</strong> öf
 <section id="das-plugin-installieren">
 <h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Entpacken Sie die heruntergeladene Zip-Datei in einen neuen Ordner.</p></li>
-<li><p>Gehen Sie in diesen Ordner und führen Sie <strong>setup.pyw</strong> aus. Damit installieren Sie das Plugin.</p></li>
+<li><p>Starten Sie entweder die heruntergeladene Datei
+<strong>nv_timeline_vx.x.x.pyzw</strong> durch Doppelklick (Windows/Linux-Desktop),</p></li>
+<li><p>oder führen Sie <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_timeline_vx.x.x.pyzw`</span></code> (Windows),
+bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_timeline_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
 </ul>
+<p><em>„x.x.x“</em> ist dabei die Versionsnummer.</p>
 <p>Das Plugin fügt dem <em>novelibre</em>-Hauptmenü
 den Eintrag <strong>Timeline</strong> hinzu,
 außerdem dem <strong>Datei &gt; Neu</strong>-Untermenü den Eintrag <strong>Aus Timeline erzeugen…</strong>,
@@ -194,9 +197,6 @@ Sie wird auf jedes Projekt angewendet.
 Ihre Einträge überschreiben die Voreinstellungen von <em>nv_timeline</em>.
 Dies ist der Pfad unter Windows:
 <code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;user</span> <span class="pre">name&gt;\.novx\config\nv_timeline.ini</span></code></p>
-<p>Das Setup-Skript installiert eine Musterkonfigurationsdatei
-mit den voreingestellten Werten von <em>nv_timeline</em>
-Sie können sie ändern oder löschen.</p>
 </section>
 <section id="lokale-projektkonfiguration">
 <h3>Lokale Projektkonfiguration<a class="headerlink" href="#lokale-projektkonfiguration" title="Link to this heading"></a></h3>
@@ -210,12 +210,11 @@ Ihre Einträge überschreiben sowohl die Voreinstellungen von
 </section>
 <section id="wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst">
 <h3>Wie man eine Konfigurationsdatei erstellt oder anpasst<a class="headerlink" href="#wie-man-eine-konfigurationsdatei-erstellt-oder-anpasst" title="Link to this heading"></a></h3>
-<p>Die <em>nv_timeline</em>-Distribution wird mit einer Beispielkonfigurationsdatei
-geliefert, die sich im Unterordner <code class="docutils literal notranslate"><span class="pre">sample</span></code> befindet.
-Sie enthält die Standardeinstellungen und Optionen von <em>nv_timeline</em>.
-Diese Datei wird auch während der Installation automatisch in den
-globalen Konfigurationsordner kopiert.
-Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
+<p>Sie finden eine Musterkonfigurationsdatei
+mit den voreingestellten Werten von <em>nv_timeline</em> im
+<em>novelibre</em>-Installationsverzeichnis unter</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\nv_timeline_sample\</span></code></p>
+<p>Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
 <ul class="simple">
 <li><p>Der Abschnitt SETTINGS enthält die Programm-„Konstanten“.
 Wenn Sie sie ändern, kann es sein, dass sich das Programm
@@ -226,7 +225,7 @@ die Konsequenzen im Klaren sind.</p></li>
 Im Beispiel beziehen sie sich auf die unmittelbar darüberliegende
 Codezeile.</p></li>
 </ul>
-<p>Das ist die Konfiguration mit Erklärungen:</p>
+<p>Das ist die Konfigurationsdatei mit Erklärungen:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 
 <span class="na">section_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Section</span>

@@ -63,6 +63,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../tools.html">Werkzeuge</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../scap_novx/index.html">scap_novx</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">novx_xtg</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#das-programm-installieren">Das Programm installieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#gebrauchsanweisung">Gebrauchsanweisung</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#vorgesehene-benutzung">Vorgesehene Benutzung</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#auf-der-kommandozeile">Auf der Kommandozeile</a></li>
@@ -134,13 +135,23 @@ Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version
 des Benutzerhandbuchs wechseln (Link oben).</p>
 </div>
 <p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/novx_xtg/">novx_xtg</a>.</p>
-<p>Das Python-Skript <em>novx_xtg.py</em> durchläuft alle kapitel und Abschnitte
+<p>Das Python-Skript <em>novx_xtg.py</em> durchläuft alle Kapitel und Abschnitte
 eines <em>novelibre</em>-Projekts und füllt XTG-Vorlagen aus.</p>
+<section id="das-programm-installieren">
+<h2>Das Programm installieren<a class="headerlink" href="#das-programm-installieren" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Starten Sie entweder die heruntergeladene Datei
+<strong>novx_xtg_vx.x.x.pyzw</strong> durch Doppelklick (Windows/Linux-Desktop),</p></li>
+<li><p>oder führen Sie <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">novx_xtg_vx.x.x.pyzw`</span></code> (Windows),
+bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">novx_xtg_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
+</ul>
+<p><em>„x.x.x“</em> ist dabei die Versionsnummer.</p>
+</section>
 <section id="gebrauchsanweisung">
 <h2>Gebrauchsanweisung<a class="headerlink" href="#gebrauchsanweisung" title="Link to this heading"></a></h2>
 <section id="vorgesehene-benutzung">
 <h3>Vorgesehene Benutzung<a class="headerlink" href="#vorgesehene-benutzung" title="Link to this heading"></a></h3>
-<p>Das mitgelieferte Setup-Skript fordert Sie auf, eine Verknüpfung
+<p>Das Installationsprogramm fordert Sie auf, eine Verknüpfung
 auf dem Desktop anzulegen.
 Die können das Programm dann aufrufen, indem Sie mit der Maus eine
 <em>.novx</em>-Datei auf das Symbol ziehen.</p>
@@ -175,7 +186,8 @@ download the manual <em>A Guide to XPress Tags</em> for your program version fro
 </section>
 <section id="novelibre-textauszeichnungen">
 <h3>novelibre Textauszeichnungen<a class="headerlink" href="#novelibre-textauszeichnungen" title="Link to this heading"></a></h3>
-<p>Bold and italics are supported. Other highlighting such as underline and strikethrough are lost.</p>
+<p>Bold and italics are supported. Other highlighting such as
+underline and strikethrough are lost.</p>
 </section>
 <section id="anfuhrungszeichen-und-interpunktion">
 <h3>Anführungszeichen und Interpunktion<a class="headerlink" href="#anfuhrungszeichen-und-interpunktion" title="Link to this heading"></a></h3>
@@ -190,9 +202,17 @@ and all template files as listed below to be applied to this project. The best w
 <li><p>If there is no configuration data in the project file, data stored in <cite>c:Users&lt;user name&gt;.novxnovx_xtgconfig</cite> is used prior  to the script’s default configuration data.</p></li>
 <li><p>If a template file or a configuration entry is missing, <em>novx_xtg</em> uses the lower priority source as a fallback.</p></li>
 </ul>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Sie finden einen Musterkonfigurationsordner mit Vorlagen und
+den voreingestellten Werten von <em>novx_xtg</em> im
+<em>novelibre</em>-Installationsverzeichnis unter</p>
+<p><code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\novx_xtg\sample\</span></code></p>
+<p>Am besten erstellen Sie eine Kopie und bearbeiten sie.</p>
+</div>
 <section id="konfigurationsdatei">
 <h3>Konfigurationsdatei<a class="headerlink" href="#konfigurationsdatei" title="Link to this heading"></a></h3>
-<p>This is an example configuration file containing the default values mentioned above:</p>
+<p>Das ist die Konfigurationsdatei mit Erklärungen:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[STYLES]</span>
 <span class="na">first_paragraph</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">@Text body:</span>
 
