@@ -242,16 +242,23 @@ einzusortieren.
 
 Damit das alles funktioniert, ist es äußerst wichtig, dass Sie nur
 innerhalb der Abschnitte schreiben.
-Dazu sollten Sie die Textbegrenzungen in den Einstellungen
-von *Writer* sichtbar machen.
+Dazu sollten Sie in den Einstellungen von *Writer*
+die Bereichsumrandungen sichtbar machen.
 
 .. figure:: _images/preparations01.png
-   :alt: LibreOffice Writer Screenshot
+   :alt: LibreOffice 7.6 Screenshot
 
-   LibreOffice Writer Screenshot: Stellen Sie sicher, dass
-   der Menüeintrag **Ansicht > Textbegrenzungen** angekreuzt ist.
-   Texteingaben außerhalb der Textbegrenzungen haben keinen 
+   LibreOffice 7.6 Screenshot: Stellen Sie sicher, dass
+   im Dialog **Extras > Optionen > Anwendungsfarben**
+   das Feld **Bereichsumrandungen** angekreuzt ist.
+   Texteingaben außerhalb der Bereichsumrandungen haben keinen 
    Einfluss auf Ihr *novelibre*-Projekt.
+
+
+.. hint::
+   Bei OpenOffice und bei älteren Versionen von LibreOffice
+   kann der Dialog "Darstellung" statt "Anwendungsfarben"
+   heißen.
 
 
 Den Navigator andocken
