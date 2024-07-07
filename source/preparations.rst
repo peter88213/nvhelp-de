@@ -191,8 +191,8 @@ novelibre auf den Desktop bringen
    
    
    Falls sie zu einem späteren Zeitpunkt Python auf eine 
-   andere Version updaten, müssen Sie das Skript **setup.pyw** 
-   erneut aufrufen und danach **add_novelibre.reg** ausführen.
+   andere Version updaten, müssen *novelibre* erneut installieren
+   und danach **add_novelibre.reg** ausführen.
    Andernfalls wird Windows die neue Python-Version nicht 
    finden, und Sie können *.novx*-Dateien nicht per Doppelklick
    öffnen. 

@@ -112,7 +112,7 @@ Rückgängig machen/Wiederherstellen
 
 -  ``Strg``-``Z`` macht den letzten Bearbeitungsschritt rückgängig.
    Auch mehrfach möglich.
--  ``Strg``-``Y``stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
+-  ``Strg``-``Y`` stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
    Auch mehrfach möglich.
 
 
