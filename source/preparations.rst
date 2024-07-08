@@ -83,8 +83,8 @@ Schritt 1
          Beispiel (Chrome-Browser)
       
       
-      Abhängig von den Sicherheitseinstellungen kann es allerdings 
-      auch passieren, dass der Browser den Download der ausführbaren 
+      Abhängig von Ihren Sicherheitseinstellungen kann es allerdings 
+      auch passieren, dass Ihr Browser den Download der ausführbaren 
       Datei zunächst verweigert. 
       In diesem Fall ist Ihre Bestätigung oder eine zusätzliche Handlung 
       erforderlich. 
