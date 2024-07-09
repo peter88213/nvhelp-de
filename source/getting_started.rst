@@ -198,6 +198,12 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
    Falls das nicht genügt, ist *novelibre* vielleicht nicht das 
    richtige Werkzeug für Sie. 
      
+.. tip::
+   Die passenden Abschnittstrenner lassen sich am einfachsten mit einem Makro erzeugen, 
+   das in der
+   `novelibre-tools 
+   <https://github.com/peter88213/novelibre-tools/>`__-Erweiterung enthalten ist.
+     
 Wenn Ihr Manuskript vorbereitet ist, erzeugen Sie Ihr neues Projekt
 mit **Datei > Neu > Aus ODT erzeugen...**.
 
