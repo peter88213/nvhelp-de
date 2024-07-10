@@ -112,8 +112,9 @@ z.B. wenn sie mit *novelibre* fertig sind.
   erscheinen als fortlaufende Absätze.
 
 .. tip::
-   Falls Sie anstelle der Abschnittstrenner lieber einfache Leerzeilen
-   wollen, lässt sich das durch "Suchen und Ersetzen" bewerkstelligen.
+   Falls Sie in Ihrem fertigen Dokument anstelle der drei-Sternchen-Abschnittstrenner 
+   lieber einfache Leerzeilen wollen, 
+   lässt sich das durch "Suchen und Ersetzen" bewerkstelligen.
    Besonders komfortabel geht das mit einem Makro, das in der
    `novelibre-tools 
    <https://github.com/peter88213/novelibre-tools/>`__-Erweiterung enthalten ist.

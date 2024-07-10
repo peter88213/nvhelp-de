@@ -347,5 +347,12 @@ mit einem einzigen Mausklick anpassen können.
       Screenshot: LibreOffice Optionen-Dialog.
       
       
+.. tip::
+   Falls Sie in Ihrem fertigen Dokument anstelle der drei-Sternchen-Abschnittstrenner 
+   lieber einfache Leerzeilen wollen, 
+   lässt sich das durch "Suchen und Ersetzen" bewerkstelligen.
+   Besonders komfortabel geht das mit einem Makro, das in der
+   `novelibre-tools 
+   <https://github.com/peter88213/novelibre-tools/>`__-Erweiterung enthalten ist.
       
    
