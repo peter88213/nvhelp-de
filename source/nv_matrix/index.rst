@@ -15,8 +15,8 @@ Diese Seite gilt für die neueste Ausgabe von `nv_matrix
 Sie können sie mit **Hilfe > Matrix-Plugin Online-Hilfe** öffnen.
 
 Das Plugin fügt dem *novelibre* **Extras**-Menü den Eintrag **Matrix** hinzu,
-dem **Hilfe**-Menü den Eintrag **Matrix-Plugin Online-Hilfe**,
-und der Werkzeugleiste die |Matrix| Schaltfläche.
+und dem **Hilfe**-Menü den Eintrag **Matrix-Plugin Online-Hilfe**.
+Die Werkzeugleiste erhält eine |Matrix| Schaltfläche.
 
 .. figure:: _images/screen01.png
    :alt: novelibre Screenshot

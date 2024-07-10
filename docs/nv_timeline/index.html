@@ -69,10 +69,10 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_timeline</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#das-plugin-installieren">Das Plugin installieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#befehlsreferenz">Befehlsreferenz</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-information">Timeline &gt; Information</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-den-zeitstrahl-erzeugen-oder-aktualisieren">Timeline &gt; Den Zeitstrahl erzeugen oder aktualisieren</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-das-projekt-aktualisieren">Timeline &gt; Das Projekt aktualisieren</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#timeline-den-zeitstrahl-bearbeiten">Timeline &gt; Den Zeitstrahl bearbeiten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#extras-timeline-information">Extras &gt; Timeline &gt; Information</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#extras-timeline-den-zeitstrahl-erzeugen-oder-aktualisieren">Extras &gt; Timeline &gt; Den Zeitstrahl erzeugen oder aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#extras-timeline-das-projekt-aktualisieren">Extras &gt; Timeline &gt; Das Projekt aktualisieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#extras-timeline-timeline-offnen">Extras &gt; Timeline &gt; Timeline öffnen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#datei-neu-aus-timeline-erzeugen">Datei &gt; Neu &gt; Aus Timeline erzeugen…</a></li>
 </ul>
 </li>
@@ -130,6 +130,14 @@
 <p><strong>Benutzerhandbuch</strong></p>
 <p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_timeline/">nv_timeline</a>.
 Sie können sie mit <strong>Hilfe &gt; Timeline-Plugin Online-Hilfe</strong> öffnen.</p>
+<p>Das Plugin fügt dem <em>novelibre</em>-<strong>Extras</strong>-Menü
+den Eintrag <strong>Timeline</strong> hinzu,
+außerdem dem <strong>Datei &gt; Neu</strong>-Untermenü den Eintrag <strong>Aus Timeline erzeugen…</strong>,
+und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Timeline-Plugin Online-Hilfe</strong>.
+Die Werkzeugleiste erhält eine <img alt="Timeline" src="../_images/tl.png" /> Schaltfläche.</p>
+<figure class="align-default">
+<img alt="novelibre Screenshot" src="../_images/screen012.png" />
+</figure>
 <section id="das-plugin-installieren">
 <h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -139,10 +147,6 @@ Sie können sie mit <strong>Hilfe &gt; Timeline-Plugin Online-Hilfe</strong> öf
 bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_timeline_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
 </ul>
 <p><em>„x.x.x“</em> ist dabei die Versionsnummer.</p>
-<p>Das Plugin fügt dem <em>novelibre</em>-Hauptmenü
-den Eintrag <strong>Timeline</strong> hinzu,
-außerdem dem <strong>Datei &gt; Neu</strong>-Untermenü den Eintrag <strong>Aus Timeline erzeugen…</strong>,
-und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Timeline-Plugin Online-Hilfe</strong>.</p>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
 <p>Viele Webbrowser erkennen den Download als ausführbare Datei
@@ -159,19 +163,19 @@ ausweichen.</p>
 </section>
 <section id="befehlsreferenz">
 <h2>Befehlsreferenz<a class="headerlink" href="#befehlsreferenz" title="Link to this heading"></a></h2>
-<section id="timeline-information">
-<h3>Timeline &gt; Information<a class="headerlink" href="#timeline-information" title="Link to this heading"></a></h3>
+<section id="extras-timeline-information">
+<h3>Extras &gt; Timeline &gt; Information<a class="headerlink" href="#extras-timeline-information" title="Link to this heading"></a></h3>
 <p>Damit bekommen Sie Informationen über ein bestehendes <em>Timeline</em>-Projekt angezeigt,
 falls vorhanden.
 Das Dateidatum des <em>Timeline</em>- wird mit dem des <em>novelibre</em>-Projekts verglichen.</p>
 </section>
-<section id="timeline-den-zeitstrahl-erzeugen-oder-aktualisieren">
-<h3>Timeline &gt; Den Zeitstrahl erzeugen oder aktualisieren<a class="headerlink" href="#timeline-den-zeitstrahl-erzeugen-oder-aktualisieren" title="Link to this heading"></a></h3>
+<section id="extras-timeline-den-zeitstrahl-erzeugen-oder-aktualisieren">
+<h3>Extras &gt; Timeline &gt; Den Zeitstrahl erzeugen oder aktualisieren<a class="headerlink" href="#extras-timeline-den-zeitstrahl-erzeugen-oder-aktualisieren" title="Link to this heading"></a></h3>
 <p>Damit wird ein existierender Zeitstrahl aus dem <em>novelibre</em>-Projekt aktualisiert.
 Ein fehlender Zeitstrahl wird neu erzeugt.</p>
 </section>
-<section id="timeline-das-projekt-aktualisieren">
-<h3>Timeline &gt; Das Projekt aktualisieren<a class="headerlink" href="#timeline-das-projekt-aktualisieren" title="Link to this heading"></a></h3>
+<section id="extras-timeline-das-projekt-aktualisieren">
+<h3>Extras &gt; Timeline &gt; Das Projekt aktualisieren<a class="headerlink" href="#extras-timeline-das-projekt-aktualisieren" title="Link to this heading"></a></h3>
 <p>Damit wird das <em>novelibre</em>-Projekt aus einem existierenden Zeitstrahl aktualisiert.</p>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
@@ -182,8 +186,9 @@ unberücksichtigt.
 Im Zweifelsfall beenden Sie <em>Timeline</em>, bevor Sie mit <em>novelibre</em> synchronisieren.</p>
 </div>
 </section>
-<section id="timeline-den-zeitstrahl-bearbeiten">
-<h3>Timeline &gt; Den Zeitstrahl bearbeiten<a class="headerlink" href="#timeline-den-zeitstrahl-bearbeiten" title="Link to this heading"></a></h3>
+<section id="extras-timeline-timeline-offnen">
+<h3>Extras &gt; Timeline &gt; Timeline öffnen<a class="headerlink" href="#extras-timeline-timeline-offnen" title="Link to this heading"></a></h3>
+<p>Oder in der Werkzeugleiste auf die die Schaltfläche <img alt="Timeline" src="../_images/tl.png" /> klicken.</p>
 <p>Den Zeitstrahl zum Projekt mit <em>Timeline</em> öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.</p>
 </section>

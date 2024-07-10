@@ -14,6 +14,17 @@ Diese Seite gilt für die neueste Ausgabe von `nv_timeline
 <https://github.com/peter88213/nv_timeline/>`__.
 Sie können sie mit **Hilfe > Timeline-Plugin Online-Hilfe** öffnen.
 
+Das Plugin fügt dem *novelibre*-**Extras**-Menü
+den Eintrag **Timeline** hinzu,
+außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Timeline erzeugen...**,
+und dem **Hilfe**-Menü den Eintrag **Timeline-Plugin Online-Hilfe**.
+Die Werkzeugleiste erhält eine |Timeline| Schaltfläche.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
+.. |Timeline| image:: _images/tl.png
+
 
 Das Plugin installieren
 -----------------------
@@ -24,11 +35,6 @@ Das Plugin installieren
   bzw. ```python3 nv_timeline_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
 *"x.x.x"* ist dabei die Versionsnummer.
-
-Das Plugin fügt dem *novelibre*-Hauptmenü
-den Eintrag **Timeline** hinzu,
-außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Timeline erzeugen...**,
-und dem **Hilfe**-Menü den Eintrag **Timeline-Plugin Online-Hilfe**.
 
 
 .. important::
@@ -48,23 +54,23 @@ und dem **Hilfe**-Menü den Eintrag **Timeline-Plugin Online-Hilfe**.
 Befehlsreferenz
 ---------------
 
-Timeline > Information
-~~~~~~~~~~~~~~~~~~~~~~
+Extras > Timeline > Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Damit bekommen Sie Informationen über ein bestehendes *Timeline*-Projekt angezeigt,
 falls vorhanden.
 Das Dateidatum des *Timeline*- wird mit dem des *novelibre*-Projekts verglichen.
 
 
-Timeline > Den Zeitstrahl erzeugen oder aktualisieren
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Timeline > Den Zeitstrahl erzeugen oder aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Damit wird ein existierender Zeitstrahl aus dem *novelibre*-Projekt aktualisiert.
 Ein fehlender Zeitstrahl wird neu erzeugt.
 
 
-Timeline > Das Projekt aktualisieren
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Timeline > Das Projekt aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisiert.
 
@@ -77,8 +83,10 @@ Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisie
    Im Zweifelsfall beenden Sie *Timeline*, bevor Sie mit *novelibre* synchronisieren.
 
 
-Timeline > Den Zeitstrahl bearbeiten
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Timeline > Timeline öffnen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Oder in der Werkzeugleiste auf die die Schaltfläche |Timeline| klicken.
 
 Den Zeitstrahl zum Projekt mit *Timeline* öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.

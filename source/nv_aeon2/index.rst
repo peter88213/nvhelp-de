@@ -19,6 +19,17 @@ Diese Seite gilt für die neueste Ausgabe von `nv_aeon2
 <https://github.com/peter88213/nv_aeon2/>`__.
 Sie können sie mit **Hilfe > Aeon 2-Plugin Online-Hilfe** öffnen.
 
+Das Plugin fügt dem *novelibre*-**Extras**-Menü
+den Eintrag **Aeon Timeline 2** hinzu,
+außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Aeon Timeline 2 erzeugen...**,
+und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
+Die Werkzeugleiste erhält eine |Timeline| Schaltfläche.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
+.. |Timeline| image:: _images/aeon2.png
+
 
 Das Plugin installieren
 -----------------------
@@ -29,11 +40,6 @@ Das Plugin installieren
   bzw. ```python3 nv_aeon2_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
 *"x.x.x"* ist dabei die Versionsnummer.
-
-Das Plugin fügt dem *novelibre*-Hauptmenü
-den Eintrag **Aeon Timeline 2** hinzu,
-außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Aeon Timeline 2 erzeugen...**,
-und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
 
 
 .. important::
@@ -82,28 +88,28 @@ die Benutzervorlage im Bereich *Custom Templates* zur Auswahl.
 Befehlsreferenz
 ---------------
 
-Aeon Timeline 2 > Information
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Aeon Timeline 2 > Information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Damit bekommen Sie Informationen über ein bestehendes *Aeon Timeline 2*-Projekt angezeigt,
 falls vorhanden.
 Das Dateidatum des *Aeon Timeline 2*- wird mit dem des *novelibre*-Projekts verglichen.
 
 
-Aeon Timeline 2 > Den Zeitstrahl aktualisieren
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Aeon Timeline 2 > Den Zeitstrahl aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Damit wird ein existierender Zeitstrahl aus dem *novelibre*-Projekt aktualisiert.
 
 
-Aeon Timeline 2 > Das Projekt aktualisieren
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Aeon Timeline 2 > Das Projekt aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Damit wird das *novelibre*-Projekt aus einem existierenden Zeitstrahl aktualisiert.
 
 
-Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Aeon Timeline 2 > Mondphasen hinzufügen oder aktualisieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die Ereigniseigenschaft "Mondphase" setzt sich zusammen aus:
 
@@ -118,8 +124,8 @@ Die Ereigniseigenschaft "Mondphase" setzt sich zusammen aus:
    gültig.
 
 
-Aeon Timeline 2 > Den Zeitstrahl bearbeiten
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Extras > Aeon Timeline 2 > Aeon Timeline 2 öffnen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Den Zeitstrahl zum Projekt mit *Aeon Timeline 2* öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
@@ -127,6 +133,8 @@ Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
 
 Datei > Neu > Aus Aeon Timeline 2 erzeugen...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Oder in der Werkzeugleiste auf die die Schaltfläche |Timeline| klicken.
 
 Damit öffnen Sie einen Dateiauswahldialog, um eine *.aeonzip*-Datei auszuwählen.
 Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
