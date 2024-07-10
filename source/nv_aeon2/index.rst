@@ -127,14 +127,14 @@ Die Ereigniseigenschaft "Mondphase" setzt sich zusammen aus:
 Extras > Aeon Timeline 2 > Aeon Timeline 2 öffnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Oder in der Werkzeugleiste auf die die Schaltfläche |Timeline| klicken.
+
 Den Zeitstrahl zum Projekt mit *Aeon Timeline 2* öffnen, falls vorhanden.
 Je nach Konfiguration (siehe unten) wird das Projekt automatisch gesperrt.
 
 
 Datei > Neu > Aus Aeon Timeline 2 erzeugen...
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Oder in der Werkzeugleiste auf die die Schaltfläche |Timeline| klicken.
 
 Damit öffnen Sie einen Dateiauswahldialog, um eine *.aeonzip*-Datei auszuwählen.
 Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
