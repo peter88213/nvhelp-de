@@ -14,6 +14,12 @@ Diese Seite gilt für die neueste Ausgabe von `nv_matrix
 <https://github.com/peter88213/nv_matrix/>`__.
 Sie können sie mit **Hilfe > Matrix-Plugin Online-Hilfe** öffnen.
 
+Das Plugin fügt dem *novelibre* **Extras**-Menü den Eintrag **Matrix**
+hinzu, und der Werkzeugleiste die
+|Matrix| Schaltfläche.
+
+|Screenshot|
+
 
 Das Plugin installieren
 -----------------------
@@ -43,12 +49,14 @@ und dem **Hilfe**-Menü den Eintrag **Matrix-Plugin Online-Hilfe**.
    Falls das nicht geht, können Sie auf den Download der zip-Datei
    ausweichen. 
  
- 
 Den Matrix-Manager aufrufen
 ---------------------------
 
-- Öffnen Sie den Matrix-Manager über das Hauptmenü: **Matrix**.
+- Öffnen Sie den Matrix-Manager entweder über das Hauptmenü: **Extras > Matrix**,
+- oder über die |Matrix| Schaltfläche in der Werkzeugleiste.
 
+.. |Screenshot| image:: _images/screen01.png
+.. |Matrix| image:: _images/matrix.png
 
 Beziehungen hinzufügen/entfernen
 --------------------------------
