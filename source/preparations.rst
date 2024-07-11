@@ -243,7 +243,9 @@ einzusortieren.
 Damit das alles funktioniert, ist es äußerst wichtig, dass Sie nur
 innerhalb der Abschnitte schreiben.
 Dazu sollten Sie in den Einstellungen von *Writer*
-die Bereichsumrandungen sichtbar machen.
+die Bereichsumrandungen sichtbar machen,
+denn die *novelibre*-Abschnitte entsprechen
+den Bereichen (engl. "sections") in *Writer*.
 
 .. figure:: _images/preparations01.png
    :alt: LibreOffice 7.6 Screenshot
