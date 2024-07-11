@@ -14,6 +14,13 @@ Diese Seite gilt für die neueste Ausgabe von `nv_clipboard
 <https://github.com/peter88213/nv_clipboard/>`__.
 Sie können sie mit **Hilfe > Zwischenablage Online-Hilfe** öffnen.
 
+Das Plugin fügt der *novelibre*-`Werkzeugleiste <../toolbar.html>`__ zwei neue
+Schaltflächen hinzu,
+Außerdem den Eintrag **Zwischenablage Online-Hilfe** im **Hilfe**-Menü.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
 
 Das Plugin installieren
 -----------------------
@@ -24,11 +31,6 @@ Das Plugin installieren
   bzw. ```python3 nv_clipboard_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
 *"x.x.x"* ist dabei die Versionsnummer.
-
-Das Plugin fügt der *novelibre*-`Werkzeugleiste <../toolbar.html>`__ zwei neue
-Schaltflächen hinzu,
-Außerdem den Eintrag **Zwischenablage Online-Hilfe** im **Hilfe**-Menü.
-
 
 .. important::
    Viele Webbrowser erkennen den Download als ausführbare Datei

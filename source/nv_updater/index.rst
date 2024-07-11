@@ -14,6 +14,13 @@ Diese Seite gilt für die neueste Ausgabe von `nv_updater
 <https://github.com/peter88213/nv_updater/>`__.
 Sie können sie mit **Hilfe > Update-Prüfer Online-Hilfe** öffnen.
 
+Das Plugin fügt dem *novelibre*-**Extras**-Menü
+den Eintrag **Auf Updates prüfen** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Update-Prüfer Online-Hilfe**.
+
+.. figure:: _images/screen01.png
+   :alt: novelibre Screenshot
+
 
 Das Plugin installieren
 -----------------------
@@ -24,10 +31,6 @@ Das Plugin installieren
   bzw. ```python3 nv_updater_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
 *"x.x.x"* ist dabei die Versionsnummer.
-
-Das Plugin fügt dem *novelibre*-**Extras**-Menü
-den Eintrag **Auf Updates prüfen** hinzu,
-und dem **Hilfe**-Menü den Eintrag **Update-Prüfer Online-Hilfe**.
 
 .. important::
    Viele Webbrowser erkennen den Download als ausführbare Datei
@@ -46,14 +49,18 @@ und dem **Hilfe**-Menü den Eintrag **Update-Prüfer Online-Hilfe**.
 Die Update-Prüfung starten
 --------------------------
 
--  Starten Sie die Update-Prüfung über das Hauptmenü: **Extras > Auf Updates prüfen**.
--  Wenn ein Update gefunden wird, erscheint eine Meldung. Sie haben die Wahl:
+Starten Sie die Update-Prüfung über das Hauptmenü: **Extras > Auf Updates prüfen**.
 
-   - **Ja** öffnet Ihren Webbrowser mit der Download-Adresse.
-   - **Nein** überspringt dieses Update.
-   - **Abbruch** bricht die Update-Prüfung ab.
+Wenn ein Update gefunden wird, erscheint eine Meldung.
 
--  Falls kein Update gefunden wird, erscheint am Ende eine Meldung.
+.. figure:: _images/screen02.png
+   :alt: novelibre Screenshot
+
+Sie haben die Wahl:
+
+- **Ja** öffnet Ihren Webbrowser mit der Download-Adresse.
+- **Nein** überspringt dieses Update.
+- **Abbrechen** bricht die Update-Prüfung ab.
 
 .. important::
    Das *nv_updater*-Plugin stößt nur den Download durch den 
@@ -61,4 +68,11 @@ Die Update-Prüfung starten
    Wenn ein Downloadverzeichnis vorgegeben ist, werden alle Zip-Dateien
    mit den Programmupdates dort abgelegt.
    Dann führen Sie die Installation wie gewohnt aus. 
+
+Falls kein Update gefunden wird, erscheint am Ende eine Meldung.
+
+.. figure:: _images/screen03.png
+   :alt: novelibre Screenshot
+
+
  

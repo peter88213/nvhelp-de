@@ -13,7 +13,7 @@ Writer als Texteditor aufrufen
    *ODT*-Dateiformat zu unterstützen, werden generell nicht empfohlen.
 
 Sobald Ihr Romanprojekt mindestens einen Abschnitt hat, können
-Sie mit dem Schreiben beginnen. 
+Sie mit dem Schreiben beginnen.
 Dazu speichern Sie Ihr Projekt und exportieren Ihren Roman in die
 *Writer*-Textverarbeitung. Das geht entweder mit
 **Exportieren > Manuskript zum Bearbeiten**, oder indem Sie
@@ -32,8 +32,8 @@ in der Werkzeugleiste auf das Symbol |Exportieren Manuskript| klicken.
    
    novelibre Screenshot
 
-Falls Sie das schon einmal gemacht haben, und es immer noch ein 
-Manuskriptdokument von der letzten Sitzung gibt, werden Sie nun gefragt, 
+Falls Sie das schon einmal gemacht haben, und es immer noch ein
+Manuskriptdokument von der letzten Sitzung gibt, werden Sie nun gefragt,
 ob Sie damit weiterarbeiten wollen. Falls ja, wählen Sie "Bestehendes öffnen".
 
 .. figure:: _images/writing02.png
@@ -42,7 +42,7 @@ ob Sie damit weiterarbeiten wollen. Falls ja, wählen Sie "Bestehendes öffnen".
    novelibre Screenshot
 
 Falls Sie "Überschreiben" wählen, erzeugt *novelibre* ein neues Manuskriptdokument.
-"Abbruch" bricht den Exportvorgang ab und bringt Sie zum Arbeitsbereich zurück. 
+"Abbrechen" bricht den Exportvorgang ab und bringt Sie zum Arbeitsbereich zurück.
 
 
 .. hint::
@@ -55,14 +55,14 @@ Falls Sie "Überschreiben" wählen, erzeugt *novelibre* ein neues Manuskriptdoku
 
 Falls Sie den Export über den Menübefehl **Exportieren** eingeleitet haben,
 kann es sein, dass Sie entsprechend Ihren  `Exportoptionen <export_menu.html#optionen>`__
-gefragt werden, ob Sie das neu erzeugte Dokument öffnen wollen. 
+gefragt werden, ob Sie das neu erzeugte Dokument öffnen wollen.
 
 .. figure:: _images/writing03.png
    :alt: novelibre Screenshot
    
    novelibre Screenshot
    
-Wenn Sie mit "Ja" antworten, wird *Writer* mit dem Manuskriptdokument gestartet. 
+Wenn Sie mit "Ja" antworten, wird *Writer* mit dem Manuskriptdokument gestartet.
 Andernfalls wird das Dokument einfach für den späteren Gebrauch aufbewahrt.
 
 Abhängig von Ihren `Exportoptionen <export_menu.html#optionen>`__
@@ -76,12 +76,12 @@ damit Sie es nicht versehentlich ändern, solange es in *Writer* in Bearbeitung 
    Installation selbst als Standardanwendung ein.  
 
 Nachdem Sie zu *Writer* gewechselt haben, sehen Sie Ihren ganzen Roman
-als "Normseiten" formatiert. 
+als "Normseiten" formatiert.
 Der *Navigator* (mit ``F5`` geöffnet) zeigt im *Überschriften*-Bereich
-die Kapitel- und Abschnittstitel an. Per Doppelklick auf eine dieser 
-Überschriften springen Sie an den jeweiligen Ort. 
+die Kapitel- und Abschnittstitel an. Per Doppelklick auf eine dieser
+Überschriften springen Sie an den jeweiligen Ort.
 Nun können Sie innerhalb der Textbegrenzungen, die die Abschnitte
-definieren, losschreiben. 
+definieren, losschreiben.
 
 
 .. figure:: _images/writing04.png
@@ -101,11 +101,11 @@ definieren, losschreiben.
 Änderungen zu novelibre zurückschreiben
 ---------------------------------------
 
-Nach Beendigung der Schreibsitzung speichern Sie die Änderungen ab, 
+Nach Beendigung der Schreibsitzung speichern Sie die Änderungen ab,
 verlassen die *Writer*-Textverarbeitung, und kehren zu *novelibre* zurück.
-Klicken Sie einfach in der Werkzeugleiste auf die Schaltfläche 
-|Änderungen am Manuskript übernehmen|, 
-und Ihre letzten Änderungen werden im Textbetrachter erscheinen. 
+Klicken Sie einfach in der Werkzeugleiste auf die Schaltfläche
+|Änderungen am Manuskript übernehmen|,
+und Ihre letzten Änderungen werden im Textbetrachter erscheinen.
 
 .. note::
    Das oben erwähnte Werkzeugleistensymbol gilt nur für das Manuskript. 
@@ -118,12 +118,12 @@ und Ihre letzten Änderungen werden im Textbetrachter erscheinen.
 Mit Writer neue Abschnitte anlegen
 ----------------------------------
 
-Wenn Sie während des Schreibens einen neuen Abschnitt brauchen, 
-müssen Sie deswegen nicht zu *novelibre* zurückkehren. 
+Wenn Sie während des Schreibens einen neuen Abschnitt brauchen,
+müssen Sie deswegen nicht zu *novelibre* zurückkehren.
 Beginnen Sie einfach eine neue Zeile mit der speziellen Markierung
-``###``. Wahlweise können Sie einen Abschnittstitel anhängen, 
+``###``. Wahlweise können Sie einen Abschnittstitel anhängen,
 und, durch ``|`` getrennt, auch eine Abschnittsbeschreibung.
-Andere Metadaten sind dann bei Bedarf später in *novelibre* einzugeben. 
+Andere Metadaten sind dann bei Bedarf später in *novelibre* einzugeben.
 
 .. tip::
    Sie können ``####`` benutzen, um einen `angehängten Abschnitt 
@@ -150,9 +150,9 @@ doch keine anderen Metadaten.
 Mit Writer neue Kapitel anlegen
 -------------------------------
 
-Wenn Sie während des Schreibens ein neuens Kapitel brauchen, 
-müssen Sie deswegen nicht zu *novelibre* zurückkehren. 
-Weisen Sie einfach einer neuen Zeile 
+Wenn Sie während des Schreibens ein neuens Kapitel brauchen,
+müssen Sie deswegen nicht zu *novelibre* zurückkehren.
+Weisen Sie einfach einer neuen Zeile
 *innerhalb des laufenden Abschnitts* das Format **Überschrift 2** zu.
 
 .. important::
@@ -173,9 +173,9 @@ Das folgende Beispiel zeigt, wie man mit *Writer*  ein Kapitel hinzufügt:
    LibreOffice Writer Screenshot: Es kommt nicht darauf an, wie ein 
    neues Kapitel in *Writer* betitelt wird.
 
-In *novelibre* sehen Sie dann sowohl ein neues Kapitel als auch einen 
-neuen Abschnitt. 
-Weil die Kapitel in diesem Beispiel automatisch nummeriert werden, 
+In *novelibre* sehen Sie dann sowohl ein neues Kapitel als auch einen
+neuen Abschnitt.
+Weil die Kapitel in diesem Beispiel automatisch nummeriert werden,
 passt die neue Kapitelüberschrift bereits, wohingegen der neue Abschnittstitel
 noch manuell angepasst werden sollte.
 
