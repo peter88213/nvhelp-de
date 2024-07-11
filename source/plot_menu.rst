@@ -59,7 +59,7 @@ können Sie die Ebene der ausgewählten Stadien ändern.
    :alt: novelibre Screenshot
 
 -  **Erste Ebene** wird in fetter Schrift dargestellt.
--  **Zweite Ebene** word in normaler Schrift dargestellt.
+-  **Zweite Ebene** wird in normaler Schrift dargestellt.
 
 .. note::
    Die Ebene eines Stadiums dient nur zur visuellen Unterscheidung.
