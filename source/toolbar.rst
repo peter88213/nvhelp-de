@@ -51,7 +51,7 @@ Dasselbe wie ``Strg``-``N``.
 Dasselbe wie ``Strg``-``Alt``-``N``.
 
 |Hinzufügen parent| Element auf der Ebene der Eltern hinzufügen.
-Dasselbe wie ``Strg``-``Alt``-``⇧``-``N``.
+Dasselbe wie ``Strg``-``Alt``-``Umschalttaste``-``N``.
 
 |Löschen| Ausgewählte Elemente löschen.
 Dasselbe wie ``Entf``.

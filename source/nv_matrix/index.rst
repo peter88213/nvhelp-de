@@ -67,7 +67,7 @@ Scrollen mit dem Mausrad
 ------------------------
 
 - Benutzen Sie das Mausrad für senkrechtes Scrollen.
-- Benutzen Sie das Mausrad mit gedrückter ``⇧``-Taste für waagerechtes Scrollen.
+- Benutzen Sie das Mausrad mit gedrückter ``Umschalttaste``-Taste für waagerechtes Scrollen.
 
 
 Beenden
