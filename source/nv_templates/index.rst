@@ -117,7 +117,7 @@ gefolgt von einem Leerzeichen und dem Titel des Stadiums.
 Überschrift zweiter Ordnung für untergeordnete Stadien oder Wendepunkte
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Die Überschrift erster Ordnung beginnt mit ``##``,
+Die Überschrift zweiter Ordnung beginnt mit ``##``,
 gefolgt von einem Leerzeichen und dem Titel des Stadiums.
 
 
