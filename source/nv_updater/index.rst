@@ -74,5 +74,9 @@ Falls kein Update gefunden wird, erscheint am Ende eine Meldung.
 .. figure:: _images/screen03.png
    :alt: novelibre Screenshot
 
+.. important::
+   Update-Installationen werden erst nach einem Neustart 
+   von *novelibre* wirksam. 
+   
 
  
