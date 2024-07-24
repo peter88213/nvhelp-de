@@ -151,10 +151,8 @@ Wortzählung
    entweder durch Drücken der Taste ``F5``,
    oder über den Menübefehl **Wortzählung > Aktualisieren**.
 -  Die Wortzahl kann auch laufend während der Texteingabe aktualisiert werden.
-   Das wird über den Menüeintrag **Wortzählung > Laufende Aktualisierung einschalten**
-   freigeschaltet.
--  Die laufende Wortzählung kann über **Wortzählung > Laufende Aktualisierung ausschalten**
-   ausgeschaltet werden.
+   Das wird über das Menü-Auswahlfeld **Wortzählung > Laufende Aktualisierung**
+   ein- oder ausgeschaltet.
 
 .. note::
    Die laufende Aktualisierung der Wortzahl kostet Rechenleistung
