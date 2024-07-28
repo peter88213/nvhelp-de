@@ -10,6 +10,9 @@ Hilfe-Menü
    Das *Hilfe*-Menü kann durch Plugins erweitert werden, wenn sie 
    Links zu ihren speziellen Hilfeseiten hinzufügen. 
 
+.. hint::
+   Mit ``F1`` können Sie eine zum Kontext passende Hilfeseite aufrufen.
+
 Online-Hilfe
 ------------
 

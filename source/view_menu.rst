@@ -195,6 +195,15 @@ Symbole mit 24x24 Pixeln benutzt.
    sondern auch für alle anderen Symbole im Programm. 
 
 
+Lokalisierte Datumsangaben anzeigen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Wenn dieses Feld angekreuzt ist, werden Datumsangaben
+  in lokalisierter Form angezeigt.
+- Wenn dieses Feld nicht angekreuzt ist, werden Datumsangaben
+  gemäß ISO 8601 als *JJJJ-MM-TT* angezeigt.
+
+
 Spalten
 ~~~~~~~
 
