@@ -18,6 +18,11 @@ Wenn Sie mehrere *novelibre*-Projekte haben, können Sie sie als Bücher
 in einer Sammlung verwalten, auch nach Serien gegliedert.
 Eine Sammlung ermöglicht Ihnen den schnellen Zugriff auf Ihre Projekte.
 
+Das Plugin fügt dem *novelibre*-**Datei**-Menü
+den Eintrag **Sammlung** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Sammlung-Plugin Online-Hilfe**.
+
+
 Das Plugin installieren
 -----------------------
 
@@ -27,11 +32,6 @@ Das Plugin installieren
   bzw. ```python3 nv_collection_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
 *"x.x.x"* ist dabei die Versionsnummer.
-
-Das Plugin fügt dem *novelibre*-**Datei**-Menü
-den Eintrag **Sammlung** hinzu,
-und dem **Hilfe**-Menü den Eintrag **Sammlung-Plugin Online-Hilfe**.
-
 
 .. important::
    Viele Webbrowser erkennen den Download als ausführbare Datei

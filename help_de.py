@@ -7,14 +7,14 @@ License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 import os
 import glob
 
-Do not execute this!
-
 REPLACE = {
     'Allee': 'Alle',
     'context menu': 'Kontextmenü',
     ' menu': '-Menü',
     'Tree view': 'Baumansicht',
     'tree view': 'Baumansicht',
+    '``Ctrl``':'``Strg``',
+    '``Shift``':'``Umschalttaste``',
     }
 
 
@@ -42,7 +42,9 @@ def read_translations(filePath):
                 translations[msgid] = line[8:].rstrip('"\n')
 
 
-repos = [
+repos = ['nv_tlview']
+
+unused = [
     '/nv_aeon2',
     '/nv_collection',
     '/nv_editor',
@@ -67,10 +69,10 @@ for t in translations:
 
 sortedTranslations = sorted(links, key=len, reverse=True)
 translations = links
-'''
 
 for helpFile in glob.iglob('*.rst', root_dir=f'../nvhelp-de/source'):
     process_file(f'../nvhelp-de/source/{helpFile}', f'source/{helpFile}')
+'''
 for repo in repos:
     for helpFile in glob.iglob('*.rst', root_dir=f'../nvhelp-de/source/{repo}'):
         process_file(f'../nvhelp-de/source/{repo}/{helpFile}', f'source/{repo}/{helpFile}')
