@@ -154,7 +154,7 @@ Die Abschnitte werden in der Ereignisdarstellung gestapelt,
 damit sie sich nicht überlappen oder den Titel des
 vorhergehenden Abschnitts verdecken.
 Sollte Ihnen der Stapelagorithmus nicht gut genug erscheinien,
-können Sie die Abstandsgrenzen fpr das Stapeln anders einstellen.
+können Sie die Abstandsgrenzen für das Stapeln anders einstellen.
 
 Dicht
    Aufeinander folgende Ereignisse auch dann hintereinander anordnen,
@@ -168,7 +168,7 @@ Normal
    Das Kaskadieren auf die Standardeinstellung zurücksetzen.
 
 .. hint::
-   Sie können die Grenzen für das Stapeln mit dem Mausrad fein einstelen,
+   Sie können die Grenzen für das Stapeln mit dem Mausrad fein einstellen,
    wenn Sie gleichzeitig die ``Strg``- und die Umschalttaste drücken.
 
 
