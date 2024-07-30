@@ -10,11 +10,6 @@ nv_tlview
 
 **Benutzerhandbuch**
 
-.. hint::
-   Die deutsche Übersetzung des *nv_tlview*-Benutzerhandbuchs ist noch in Arbeit.
-   Im Zweifelsfall könnnen Sie von dieser Seite aus zur englischen Version 
-   des Benutzerhandbuchs wechseln (Link oben).
-
 Diese Seite gilt für die neueste Ausgabe von `nv_tlview
 <https://github.com/peter88213/nv_tlview/>`__.
 Sie können sie mit **Hilfe > Zeitleistenansicht Online-Hilfe** öffnen.
@@ -78,15 +73,15 @@ Scrollen mit dem Mausrad
   gedrückter ``Strg``- und Umschalttaste.
 
 
-Selecting a section in the *novelibre* project tree
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Einen Abschnitt im *novelibre*-Projektbaum auswählen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Wählen Sie einen Abschnitt, indem sie auf einen Eintrag in der Zeitleiste doppelklicken.
   Das bringt das Anwendungsfenster von *novelibre* in den Vordergrund.
 
 
-Command reference
------------------
+Befehlsreferenz
+---------------
 
 
 "Gehe zu"-Menü
@@ -190,42 +185,47 @@ Schaltflächen in der Werkzeugleiste am unteren Rand
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |rewindLeft| Eine Bildschirmseite zurück
-   Shift the timeline to go about one screen width back in time.
+   Damit verschieben Sie die Zeitleiste,
+   um etwa eine Bildschirmbreite in die Vergangenheit zu gehen.
 
 |arrowLeft| Zurückscrollen
-   Shift the timeline to go 1/5 screen width back in time.
-   You can move it more precisely with the mouse wheel.
+   Damit verschieben Sie die Zeitleiste,
+   um etwa 1/5 Bildschirmbreite in die Vergangenheit zu gehen.
+   Mit dem Mausrad können Sie sie genauer verschieben.
 
 |goToFirst| Gehe zum ersten Ereignis
-   Shift the timeline so that the earliest event
-   is positioned near the left edge of the window.
+   Damit verschieben Sie die Zeitleiste so, dass
+   das früheste Ereignis in der Nähe des linken Rands erscheint.
 
 |goToSelected| Gehe zum ausgewählten Abschnitt
-   Shift the timeline so that the section selected in the *novelibre* project tree
-   is positioned in the center of the window.
+   Damit verschieben Sie die Zeitleiste so, dass
+   der im *novelibre*-Projektbaum ausgewählte Abschnitt
+   in der Mitte des Fensters erscheint.
 
 |goToLast| Gehe zum letzten Ereignis
-   Shift the timeline so that the latest event
-   is positioned near the right edge of the window.
+   Damit verschieben Sie die Zeitleiste so, dass
+   das späteste Ereignis in der Nähe des rechten Rands erscheint.
 
 |arrowRight| Vorscrollen
-   Shift the timeline to go 1/5 screen width forward in time.
-   You can move it more precisely with the mouse wheel.
+   Damit verschieben Sie die Zeitleiste,
+   um etwa 1/5 Bildschirmbreite in die Zukunft zu gehen.
+   Mit dem Mausrad können Sie sie genauer verschieben.
 
 |rewindRight| Eine Bildschirmseite nach vorne
-   Shift the timeline to go about one screen width forward in time.
+   Damit verschieben Sie die Zeitleiste,
+   um etwa eine Bildschirmbreite in die Zukunft zu gehen.
 
 |arrowDown| Den Zeitmaßstab verkleinern
-   Reduce the time scale in major steps.
-   Fine scaling is meant to be done with the mouse wheel.
+   Damit verkleinern Sie den Zeitmaßstab in groben Schritten.
+   Für die Feineinstellung ist das Mausrad vorgesehen.
 
 |fitToWindow| Ans Fenster anpassen
-   This sets the scale and moves the timeline, so that all sections with
-   valid or substituted date/time information fit into the window.
+   Damit stellen Sie den Maßstab und die Position so ein,
+   dass alle Abschnitte mit gültiger Datum/Zeitinformation ins Fenster passen.
 
 |arrowUp| Den Zeitmaßstab vergrößern
-   Increase the time scale in major steps.
-   Fine scaling is meant to be done with the mouse wheel.
+   Damit vergrößern Sie den Zeitmaßstab in groben Schritten.
+   Für die Feineinstellung ist das Mausrad vorgesehen.
 
 Schließen
    Das Zeitleistenfenster schließen.
