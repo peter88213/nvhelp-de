@@ -19,12 +19,13 @@ Diese Seite gilt für die neueste Ausgabe von `nv_tlview
 <https://github.com/peter88213/nv_tlview/>`__.
 Sie können sie mit **Hilfe > Zeitleistenansicht Online-Hilfe** öffnen.
 
-*nv_tlview* is a plugin providing a timeline view with sections
-that are given a narrative date/day and time.
+*nv_tlview* ist ein Plugin, das Abschnitte mit Datums- und Zeitangaben
+in einer Zeitleiste anzeigt.
 
-The plugin adds a **Zeitleistenansicht** entry to the *novelibre* **Extras**-Menü,
-and a **Zeitleistenansicht Online-Hilfe** entry to the **Hilfe**-Menü.
-The Toolbar gets a |Zeitline| button.
+Das Plugin fügt dem *novelibre*-**Extras**-Menü
+den Eintrag **Zeitleistenansicht** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Zeitleistenansicht Online-Hilfe**.
+Die Werkzeugleiste erhält eine |Zeitline| Schaltfläche.
 
 .. |Zeitline| image:: _images/tlview.png
 
@@ -126,23 +127,29 @@ Ans Fenster anpassen
 ~~~~~~~~~~~~~~~~~~
 
 Benutze 00:00 für fehlende Zeiten
-   - If ticked, "00:00" is used as display time for sections without time information.
-     This does not affect the section properties.
-   - If unticked, sections without time information are not displayed.
+   - Wenn dieses Feld angekreuzt ist,
+     wird "00:00" für Abschnitte ohne Zeitangaben verwendet.
+     Dies hat keinen Einfluss auf die Eigenschaften des Abschnitts.
+   - Wenn dieses Feld nicht angekreuzt ist,
+     werden Abschnitte ohne Zeitangabe nicht angezeigt.
 
 
 Tage in Datum umwandeln
-   - If ticked, sections with unpecific dates are given a specific date for display,
-     if the reference date is set.
-     This does not affect the section properties.
-   - If unticked, sections with unpecific dates are not displayed.
+   - Wenn dieses Feld angekreuzt ist,
+     erhalten Abschnitte mit unspezifischem Datum ein spezifisches für die Anzeige
+     sofern ein Bezugsdatum angegeben ist.
+     Dies hat keinen Einfluss auf die Eigenschaften des Abschnitts.
+   - Wenn dieses Feld nicht angekreuzt ist,
+     werden Abschnitte ohne spezifisches Datum nicht anzezeigt.
 
 
 Benutze Bezugsdatum für fehlende Datumsangaben
-   - If ticked, the reference date (if any) is used as display date for
-     sections without date or day information.
-     This does not affect the section properties
-   - If unticked, sections without date or day information are not displayed.
+   - Wenn dieses Feld angekreuzt ist,
+     erhalten Abschnitte ohne Datum oder Tag das Bezugsdatum (sofern vorhanden)
+     für die Anzeige.
+     Dies hat keinen Einfluss auf die Eigenschaften des Abschnitts.
+   - Wenn dieses Feld nicht angekreuzt ist,
+     werden Abschnitte ohne Datum oder Tag nicht anzezeigt.
 
 
 "Kaskadieren"-Menü
