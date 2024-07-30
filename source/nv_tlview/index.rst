@@ -155,22 +155,26 @@ Benutze Bezugsdatum für fehlende Datumsangaben
 "Kaskadieren"-Menü
 ~~~~~~~~~~~~~~~~~~
 
-The section marks are stacked on the timeline canvas, so that they would not
-overlap or cover the title of previous sections.
-If the stacking algorithm does not seem good enough to you,
-you can adjust its limits.
+Die Abschnitte werden in der Ereignisdarstellung gestapelt,
+damit sie sich nicht überlappen oder den Titel des
+vorhergehenden Abschnitts verdecken.
+Sollte Ihnen der Stapelagorithmus nicht gut genug erscheinien,
+können Sie die Abstandsgrenzen fpr das Stapeln anders einstellen.
 
 Dicht
-   Arrange consecutive events behind each other, even if they are close together.
+   Aufeinander folgende Ereignisse auch dann hintereinander anordnen,
+   wenn sie etwas dichter beieinander liegen.
 
 Aufgelockert
-   Arrange consecutive events in a stack, even if they are some distance apart.
+   Aufeinander folgende Ereignisse auch dann untereinander anordnen,
+   wenn sie etwas weiter auseinander liegen.
 
 Normal
-   Reset the cascading to default.
+   Das Kaskadieren auf die Standardeinstellung zurücksetzen.
 
 .. hint::
-   You can fine-tune the stacking limits with ``Shift``-``Strg``-``Mousewheel``.
+   Sie können die Grenzen für das Stapeln mit dem Mausrad fein einstelen,
+   wenn Sie gleichzeitig die ``Strg``- und die Umschalttaste drücken.
 
 
 
