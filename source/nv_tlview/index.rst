@@ -80,6 +80,24 @@ Einen Abschnitt im *novelibre*-Projektbaum auswählen
   Das bringt das Anwendungsfenster von *novelibre* in den Vordergrund.
 
 
+Einen Abschnitt in der Zeit verschieben
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Halten Sie die Umschalttaste gedrückt und klicken Sie auf den Zeitleisteneintrag,
+  dann ziehen Sie ihn mit der Maus.
+  Damit bewegen Sie den Abschnitt in der Zeit vor oder zurück,
+  während die Dauer erhalten bleibt.
+
+
+Das Abschnittsende verschieben
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Halten Sie die ``Alt``-Taste gedrückt und klicken Sie auf den Zeitleisteneintrag,
+  dann ziehen Sie ihn mit der Maus.
+  Damit erhöhen oder verringern Sie die Zeitdauer des Abschnitts,
+  während Startdatum und -zeit erhalten bleiben.
+
+
 Befehlsreferenz
 ---------------
 
@@ -187,6 +205,7 @@ Schaltflächen in der Werkzeugleiste am unteren Rand
 |rewindLeft| Eine Bildschirmseite zurück
    Damit verschieben Sie die Zeitleiste,
    um etwa eine Bildschirmbreite in die Vergangenheit zu gehen.
+   Dasselbe bewirkt die "Zurück"-Maustaste (Windows).
 
 |arrowLeft| Zurückscrollen
    Damit verschieben Sie die Zeitleiste,
@@ -214,6 +233,7 @@ Schaltflächen in der Werkzeugleiste am unteren Rand
 |rewindRight| Eine Bildschirmseite nach vorne
    Damit verschieben Sie die Zeitleiste,
    um etwa eine Bildschirmbreite in die Zukunft zu gehen.
+   Dasselbe bewirkt die "Vorwärts"-Maustaste (Windows).
 
 |arrowDown| Den Zeitmaßstab verkleinern
    Damit verkleinern Sie den Zeitmaßstab in groben Schritten.
