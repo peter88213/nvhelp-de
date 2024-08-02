@@ -75,6 +75,8 @@
 <li class="toctree-l4"><a class="reference internal" href="#die-zeitleistenansicht-offnen">Die Zeitleistenansicht öffnen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#scrollen-mit-dem-mausrad">Scrollen mit dem Mausrad</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#einen-abschnitt-im-novelibre-projektbaum-auswahlen">Einen Abschnitt im <em>novelibre</em>-Projektbaum auswählen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#einen-abschnitt-in-der-zeit-verschieben">Einen Abschnitt in der Zeit verschieben</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#das-abschnittsende-verschieben">Das Abschnittsende verschieben</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#befehlsreferenz">Befehlsreferenz</a><ul>
@@ -184,6 +186,24 @@ gedrückter <code class="docutils literal notranslate"><span class="pre">Strg</s
 Das bringt das Anwendungsfenster von <em>novelibre</em> in den Vordergrund.</p></li>
 </ul>
 </section>
+<section id="einen-abschnitt-in-der-zeit-verschieben">
+<h3>Einen Abschnitt in der Zeit verschieben<a class="headerlink" href="#einen-abschnitt-in-der-zeit-verschieben" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Halten Sie die Umschalttaste gedrückt und klicken Sie auf den Zeitleisteneintrag,
+dann ziehen Sie ihn mit der Maus.
+Damit bewegen Sie den Abschnitt in der Zeit vor oder zurück,
+während die Dauer erhalten bleibt.</p></li>
+</ul>
+</section>
+<section id="das-abschnittsende-verschieben">
+<h3>Das Abschnittsende verschieben<a class="headerlink" href="#das-abschnittsende-verschieben" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Halten Sie die <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-Taste gedrückt und klicken Sie auf den Zeitleisteneintrag,
+dann ziehen Sie ihn mit der Maus.
+Damit erhöhen oder verringern Sie die Zeitdauer des Abschnitts,
+während Startdatum und -zeit erhalten bleiben.</p></li>
+</ul>
+</section>
 </section>
 <section id="befehlsreferenz">
 <h2>Befehlsreferenz<a class="headerlink" href="#befehlsreferenz" title="Link to this heading"></a></h2>
@@ -280,9 +300,10 @@ Dasselbe wie <code class="docutils literal notranslate"><span class="pre">F1</sp
 </section>
 <section id="schaltflachen-in-der-werkzeugleiste-am-unteren-rand">
 <h3>Schaltflächen in der Werkzeugleiste am unteren Rand<a class="headerlink" href="#schaltflachen-in-der-werkzeugleiste-am-unteren-rand" title="Link to this heading"></a></h3>
-<dl class="simple">
+<dl>
 <dt><img alt="rewindLeft" src="../_images/rewindLeft.png" /> Eine Bildschirmseite zurück</dt><dd><p>Damit verschieben Sie die Zeitleiste,
-um etwa eine Bildschirmbreite in die Vergangenheit zu gehen.</p>
+um etwa eine Bildschirmbreite in die Vergangenheit zu gehen.
+Dasselbe bewirkt die „Zurück“-Maustaste (Windows).</p>
 </dd>
 <dt><img alt="arrowLeft" src="../_images/arrowLeft.png" /> Zurückscrollen</dt><dd><p>Damit verschieben Sie die Zeitleiste,
 um etwa 1/5 Bildschirmbreite in die Vergangenheit zu gehen.
@@ -303,7 +324,8 @@ um etwa 1/5 Bildschirmbreite in die Zukunft zu gehen.
 Mit dem Mausrad können Sie sie genauer verschieben.</p>
 </dd>
 <dt><img alt="rewindRight" src="../_images/rewindRight.png" /> Eine Bildschirmseite nach vorne</dt><dd><p>Damit verschieben Sie die Zeitleiste,
-um etwa eine Bildschirmbreite in die Zukunft zu gehen.</p>
+um etwa eine Bildschirmbreite in die Zukunft zu gehen.
+Dasselbe bewirkt die „Vorwärts“-Maustaste (Windows).</p>
 </dd>
 <dt><img alt="arrowDown" src="../_images/arrowDown.png" /> Den Zeitmaßstab verkleinern</dt><dd><p>Damit verkleinern Sie den Zeitmaßstab in groben Schritten.
 Für die Feineinstellung ist das Mausrad vorgesehen.</p>
@@ -313,6 +335,16 @@ dass alle Abschnitte mit gültiger Datum/Zeitinformation ins Fenster passen.</p>
 </dd>
 <dt><img alt="arrowUp" src="../_images/arrowUp.png" /> Den Zeitmaßstab vergrößern</dt><dd><p>Damit vergrößern Sie den Zeitmaßstab in groben Schritten.
 Für die Feineinstellung ist das Mausrad vorgesehen.</p>
+</dd>
+<dt><img alt="undo" src="../_images/undo.png" /> Die letzte Änderung rückgängig machen</dt><dd><p>Damit stellen Sie Datum/Uhrzeit/Dauer
+vor der letzten Mausoperation an einem Abschnitt wieder her.
+Dasselbe wie <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Z</span></code></p>
+<div class="admonition caution">
+<p class="admonition-title">Vorsicht</p>
+<p>Zwischenzeitliche Änderungen von Datum/Zeit/Dauer am selben Abschnitt
+über  die Abschnittseigenschaften in <em>novelibre</em>
+können dabei verlorengehen.</p>
+</div>
 </dd>
 <dt>Schließen</dt><dd><p>Das Zeitleistenfenster schließen.
 Dasselbe wie <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code> (Linux)

@@ -247,6 +247,16 @@ Schaltflächen in der Werkzeugleiste am unteren Rand
    Damit vergrößern Sie den Zeitmaßstab in groben Schritten.
    Für die Feineinstellung ist das Mausrad vorgesehen.
 
+|undo| Die letzte Änderung rückgängig machen
+   Damit stellen Sie Datum/Uhrzeit/Dauer
+   vor der letzten Mausoperation an einem Abschnitt wieder her.
+   Dasselbe wie ``Strg``-``Z``
+
+   .. caution::   
+      Zwischenzeitliche Änderungen von Datum/Zeit/Dauer am selben Abschnitt 
+      über  die Abschnittseigenschaften in *novelibre* 
+      können dabei verlorengehen. 
+      
 Schließen
    Das Zeitleistenfenster schließen.
    Dasselbe wie ``Strg``-``Q`` (Linux)
@@ -263,4 +273,5 @@ Schließen
 .. |arrowDown| image:: _images/arrowDown.png
 .. |fitToWindow| image:: _images/fitToWindow.png
 .. |arrowUp| image:: _images/arrowUp.png
+.. |undo| image:: _images/undo.png
 
