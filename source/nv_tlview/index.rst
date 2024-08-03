@@ -97,6 +97,10 @@ Das Abschnittsende verschieben
   Damit erhöhen oder verringern Sie die Zeitdauer des Abschnitts,
   während Startdatum und -zeit erhalten bleiben.
 
+.. hint::
+   Verschiebe-Operationen mit der Maus lassen sich
+   mit ``Strg``-``Z`` oder |undo| rückgängig machen. 
+
 
 Befehlsreferenz
 ---------------
@@ -171,7 +175,7 @@ Benutze Bezugsdatum für fehlende Datumsangaben
 Die Abschnitte werden in der Ereignisdarstellung gestapelt,
 damit sie sich nicht überlappen oder den Titel des
 vorhergehenden Abschnitts verdecken.
-Sollte Ihnen der Stapelagorithmus nicht gut genug erscheinien,
+Sollte Ihnen der Stapelagorithmus nicht gut genug erscheinen,
 können Sie die Abstandsgrenzen für das Stapeln anders einstellen.
 
 Dicht
