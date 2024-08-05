@@ -275,7 +275,7 @@ Plotlinie/Plotpunkt löschen.
 
 .. caution::
    Denken Sie daran, dass es keine Rückgängig-Funktion gibt.
-   Wenn Sie eine Plotlinie löschen, löschen sie gleichzeitig
+   Wenn Sie eine Plotlinie löschen, löschen Sie gleichzeitig
    ihre Plotpunkte.
    
    

@@ -49,7 +49,7 @@ Kapitel-Titel am oberen Rand des rechten Fensters.
    :alt: novelibre Screenshot
    
 .. hint::
-   Wenn sie sich dafür entscheiden, *novelibre* `die Kapitel automatisch 
+   Wenn Sie sich dafür entscheiden, *novelibre* `die Kapitel automatisch 
    nummerieren zu lassen <book_view.html#automatische-nummerierung>`__,
    können Sie das überspringen und den voreingestellten Titel stehenlassen. 
 
@@ -99,7 +99,7 @@ und Kapitel erzeugen.
 Eine Kapitelstruktur anlegen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Falls sie es vorziehen, vor dem eigentlichen Schreiben zuerst einmal
+Falls Sie es vorziehen, vor dem eigentlichen Schreiben zuerst einmal
 einen Plan zu machen, ist *novelibre* das richtige Werkzeug für Sie.
 Dann rufen Sie nicht gleich *Writer* mit einem leeren Dokument auf,
 sondern erzeugen zuerst ein Gerüst aus leeren Kapiteln, für die Sie
@@ -217,7 +217,7 @@ Manuskriptdatei benannt, aber mit der *.novx*-Erweiterung.
 .. caution::
    Sobald Ihr Roman in *novelibre* importiert ist, wird das ursprüngliche
    *ODT*-Dokument nicht mehr gebraucht. 
-   Wenn sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
+   Wenn Sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
    so dass es später nicht durch ein `exportiertes Dokument 
    <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird. 
 
@@ -264,7 +264,7 @@ Gliederungsdatei benannt, aber mit der *.novx*-Erweiterung.
 .. caution::
    Sobald Ihre Gliederung in *novelibre* importiert ist, wird das ursprüngliche
    *ODT*-Dokument nicht mehr gebraucht. 
-   Wenn sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
+   Wenn Sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
    so dass es später nicht durch ein `exportiertes Dokument 
    <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird.
    

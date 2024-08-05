@@ -282,7 +282,7 @@ Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
 *novelibre* diese mit Ihrem System-Bildbetrachter öffnen.
 
 .. tip::
-   Wenn sie mehrere Bilder z.B. zu einer Figur in einem Ordner
+   Wenn Sie mehrere Bilder z.B. zu einer Figur in einem Ordner
    gesammelt haben, den Ihr Standard-Bildbetrachter durchsuchen kann,
    ist ein einziger Link auf eines dieser Bilder ausreichend.
    

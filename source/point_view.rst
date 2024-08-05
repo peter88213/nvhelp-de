@@ -25,7 +25,7 @@ Das Feld unter "Abschnitt" zeigt dann den Abschnittstitel.
 
 
 Abschnitt zuordnen
-   Wenn sie auf |Hinzufügen| klicken, wird der "Auswahlmodus"
+   Wenn Sie auf |Hinzufügen| klicken, wird der "Auswahlmodus"
    aktiviert, und der Cursor nimmt die Form eines "Plus"-Zeichens an.
    Indem Sie auf einen Abschnitt klicken, verbinden Sie ihn mit dem Plotpunkt.
 
@@ -76,7 +76,7 @@ Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
 *novelibre* diese mit Ihrem System-Bildbetrachter öffnen.
 
 .. tip::
-   Wenn sie mehrere Bilder z.B. zu einer Figur in einem Ordner
+   Wenn Sie mehrere Bilder z.B. zu einer Figur in einem Ordner
    gesammelt haben, den Ihr Standard-Bildbetrachter durchsuchen kann,
    ist ein einziger Link auf eines dieser Bilder ausreichend.
    

@@ -62,7 +62,7 @@ Auch gesperrte Dokumente importieren; nicht verwerfen
    .. important::
       Falls Sie in Ihrem ODT-Dokument Abschnitte aufgeteilt
       haben, 
-      können sie es nicht reimportieren, solange es in 
+      können Sie es nicht reimportieren, solange es in 
       *Writer* offen ist. 
       Das ist so, weil *novelibre* es nicht verwerfen kann, 
       solange es durch *Writer* gesperrt ist.

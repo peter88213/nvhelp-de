@@ -7,7 +7,7 @@ Hilfe-Menü
    :alt: novelibre Screenshot
 
 .. note:: 
-   Das *Hilfe*-Menü kann durch Plugins erweitert werden, wenn sie 
+   Das *Hilfe*-Menü kann durch Plugins erweitert werden, wenn Sie 
    Links zu ihren speziellen Hilfeseiten hinzufügen. 
 
 .. hint::

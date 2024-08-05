@@ -20,7 +20,7 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
   Kapitel und Abschnitte vom Typ "unbenutzt" werden ausgelassen.
 - Abschnittstitel sind unsichtbar, erscheinen aber im *Navigator*.
 - Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.
-- Mit *Writer* können Sie Abschnitte aufteilen, indem sie Überschriften
+- Mit *Writer* können Sie Abschnitte aufteilen, indem Sie Überschriften
   oder einen Abschnitstrenner einfügen:
 
    - *Überschrift 1* → Titel des neuen Teils.
@@ -63,7 +63,7 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
   **Ändern Sie nichts an den Zeilen mit Abschnittsmarkierungen**
   sonst können Sie das geänderte Dokument nicht in *novelibre* reimportieren.
 - Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.
-- Mit *Writer* können Sie Abschnitte aufteilen, indem sie Überschriften
+- Mit *Writer* können Sie Abschnitte aufteilen, indem Sie Überschriften
   oder einen Abschnitstrenner einfügen:
 
    - *Überschrift 1* → Titel des neuen Teils.
@@ -89,7 +89,7 @@ Manuskript zum Drucken (nur Export)
 
 Mit **Exportieren >  Manuskript zum Drucken (nur Export)**
 können Sie ein Textdokument zum weiteren Gebrauch erzeugen,
-z.B. als endgültiges Dokument, wenn sie mit *novelibre* fertig sind.
+z.B. als endgültiges Dokument, wenn Sie mit *novelibre* fertig sind.
 
 .. hint::
    Im Gegensatz zum editierbaren Manuskript ist dieses Dokument nicht intern

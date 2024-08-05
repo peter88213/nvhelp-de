@@ -7,7 +7,7 @@ wenn Sie ein Kapitel oder einen Teil auswählen.
 .. hint::
    Mit Hilfe des **Ebene ändern**-Eintrags im Kontextmenü, dem 
    **Teil**-Menü oder dem **Kapitel**-Menü 
-   können sie jedes Kapitel in einen Teil umwandeln, oder umgekehrt.
+   können Sie jedes Kapitel in einen Teil umwandeln, oder umgekehrt.
 
 .. figure:: _images/chapter_view01.png
    :alt: Screenshot
@@ -73,7 +73,7 @@ Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
 *novelibre* diese mit Ihrem System-Bildbetrachter öffnen.
 
 .. tip::
-   Wenn sie mehrere Bilder z.B. zu einer Figur in einem Ordner
+   Wenn Sie mehrere Bilder z.B. zu einer Figur in einem Ordner
    gesammelt haben, den Ihr Standard-Bildbetrachter durchsuchen kann,
    ist ein einziger Link auf eines dieser Bilder ausreichend.
    
@@ -101,7 +101,7 @@ Link entfernen
 
 
 Link öffnen
-   Wenn sie auf einen Link doppelklicken, oder auf |Goto| klicken,
+   Wenn Sie auf einen Link doppelklicken, oder auf |Goto| klicken,
    Wird die Datei, auf die der Link verweist, mit der Standardanwendung
    für ihren Typ geöffnet.
 

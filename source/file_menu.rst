@@ -143,7 +143,7 @@ Das kann nützlich sein, wenn Sie z.B. Dateien löschen oder
 Konfigurationsdateien bearbeiten wollen.
 
 .. hint::
-   Falls sie Ihr Projekt "außerhalb" bearbeiten wollen, 
+   Falls Sie Ihr Projekt "außerhalb" bearbeiten wollen, 
    erwägen Sie, es vorher zu sperren.
 
 
@@ -224,7 +224,7 @@ Schließen
 **Das Romanprojekt schließen**
 
 Mit **Datei > Schließen**
-können sie das Projekt schließen, ohne das Programm zu beenden.
+können Sie das Projekt schließen, ohne das Programm zu beenden.
 Beim Schließen werden Sie gefragt, ob Sie das Projekt speichern wollen,
 falls es ungesicherte Änderungen gibt.
 
