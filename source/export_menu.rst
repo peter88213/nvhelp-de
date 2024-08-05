@@ -89,7 +89,7 @@ Manuskript zum Drucken (nur Export)
 
 Mit **Exportieren >  Manuskript zum Drucken (nur Export)**
 können Sie ein Textdokument zum weiteren Gebrauch erzeugen,
-z.B. wenn sie mit *novelibre* fertig sind.
+z.B. als endgültiges Dokument, wenn sie mit *novelibre* fertig sind.
 
 .. hint::
    Im Gegensatz zum editierbaren Manuskript ist dieses Dokument nicht intern
@@ -104,12 +104,16 @@ z.B. wenn sie mit *novelibre* fertig sind.
 - Teiletitel erscheinen als Überschriften auf erster Ebene.
 - Kapiteltitel erscheinen als Überschriften auf zweiter Ebene.
 - Abschnitte sind durch ``* * *`` getrennt.
-  Die erste Zeile des jeweils ersten Absatzes ist nicht eingezogen.
+- Die erste Zeile des jeweils ersten Absatzes ist nicht eingezogen.
 - Vom zweiten Absatz an beginnen die Absätze mit eingezogener Erstzeile.
 - Abschnitte, die mit
   `An den vorherigen Abschnitt anhängen
   <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__ markiert sind,
   erscheinen als fortlaufende Absätze.
+- Dem erste Absatz jedes Kapitels ist die Absatzvorlage *Kapitelanfang* 
+  zugewiesen, die standardmäßig dem Textkörper ohne Einzug gleicht. 
+  Wenn Sie diese Vorlage verändern, können Sie den Kapitelanfängen ein
+  besonderes Aussehen verleihen, z.B. mit Initialen.
 
 .. tip::
    Falls Sie in Ihrem fertigen Dokument anstelle der drei-Sternchen-Abschnittstrenner 
