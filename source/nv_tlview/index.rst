@@ -98,8 +98,11 @@ Das Abschnittsende verschieben
   während Startdatum und -zeit erhalten bleiben.
 
 .. hint::
-   Verschiebe-Operationen mit der Maus lassen sich
-   mit ``Strg``-``Z`` oder |undo| rückgängig machen. 
+   - Verschiebe-Operationen mit der Maus lassen sich
+     durch Drücken der ``Esc``-Taste vor dem Loslassen
+     der Maustaste abbrechen.
+   - Verschiebe-Operationen mit der Maus lassen sich
+     mit ``Strg``-``Z`` oder |undo| rückgängig machen. 
 
 
 Befehlsreferenz
