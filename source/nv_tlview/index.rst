@@ -151,24 +151,6 @@ Benutze 00:00 für fehlende Zeiten
      werden Abschnitte ohne Zeitangabe nicht angezeigt.
 
 
-Tage in Datum umwandeln
-   - Wenn dieses Feld angekreuzt ist,
-     erhalten Abschnitte mit unspezifischem Datum ein spezifisches für die Anzeige
-     sofern ein Bezugsdatum angegeben ist.
-     Dies hat keinen Einfluss auf die Eigenschaften des Abschnitts.
-   - Wenn dieses Feld nicht angekreuzt ist,
-     werden Abschnitte ohne spezifisches Datum nicht anzezeigt.
-
-
-Benutze Bezugsdatum für fehlende Datumsangaben
-   - Wenn dieses Feld angekreuzt ist,
-     erhalten Abschnitte ohne Datum oder Tag das Bezugsdatum (sofern vorhanden)
-     für die Anzeige.
-     Dies hat keinen Einfluss auf die Eigenschaften des Abschnitts.
-   - Wenn dieses Feld nicht angekreuzt ist,
-     werden Abschnitte ohne Datum oder Tag nicht anzezeigt.
-
-
 "Kaskadieren"-Menü
 ~~~~~~~~~~~~~~~~~~
 
