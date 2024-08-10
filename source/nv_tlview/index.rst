@@ -63,11 +63,12 @@ Die Zeitleistenansicht öffnen
 - oder über die |Zeitline|-Schaltfläche in der Werkzeugleiste.
 
 
-Scrollen mit dem Mausrad
-~~~~~~~~~~~~~~~~~~~~~~~~
+Scrollen mit der Maus
+~~~~~~~~~~~~~~~~~~~~~
 
 - Scrollen Sie die Zeitleiste horizontal mit dem Mausrad bei gedrückter Umschalttaste.
 - Scrollen Sie die Zeitleiste vertikal mit dem Mausrad.
+- Scrollen Sie die Zeitleiste in alle Richtungen, indem Sie die Maus mit gedrückter rechter Taste ziehen.
 - Den Zeitmaßstab vergrößern oder verkleinern Sie mit dem Mausrad bei gedrückter ``Strg``-Taste.
 - Die Abstandsgrenzen für das Stapeln verändern Sie mit dem Mausrad bei gleichzeitig
   gedrückter ``Strg``- und Umschalttaste.
