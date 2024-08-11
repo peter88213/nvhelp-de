@@ -93,7 +93,7 @@ Einen Abschnitt in der Zeit verschieben
 Das Abschnittsende verschieben
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Halten Sie die ``Alt``-Taste gedrückt und klicken Sie auf den Zeitleisteneintrag,
+- Halten Sie die ``Strg``- und die Umschalttaste gedrückt und klicken Sie auf den Zeitleisteneintrag,
   dann ziehen Sie ihn mit der Maus.
   Damit erhöhen oder verringern Sie die Zeitdauer des Abschnitts,
   während Startdatum und -zeit erhalten bleiben.
