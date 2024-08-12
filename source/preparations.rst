@@ -102,8 +102,16 @@ novelibre auf den Desktop bringen
 
    Wenn Sie Linux benutzen, erwarte ich, dass Sie einen 
    Programmstarter auf Ihrem spezifischen Desktop einrichten können.
-   Grob gesagt geht es darum, **python3** mit **~/.novx/novelibre.py** 
+   Grob gesagt geht es darum, **python3** mit **~/.novx/run.pyw** 
    und einer optional angegebenen Datei als Parameter zu starten.
+
+   Mit dem XFCE-Desktop, zum Beispiel, lautet mein Befehl im Starter:
+   
+   ``python3 /home/peter/.novx/run.pyw %F``
+   
+    .. figure:: _images/preparations15.png
+      :alt: Xubuntu screenshot
+   
    Wahrscheinlich werden Sie die *novelibre*-Icons in ein 
    spezielles Bilderverzeichnis kopieren müssen, wo der 
    Programmstarter die Programmsysmbole sucht.

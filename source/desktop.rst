@@ -63,6 +63,10 @@ Baumelemente verschieben
 
 Bei gedrückter ``Alt``-Taste mit der Maus ziehen.
 
+.. hint::
+   Bei manchen Linux-Desktops kann es erforderlich sein, 
+   zuerst die Maustaste zu drücken, und dann die ``Alt``-Taste. 
+
 .. caution::
    Denken Sie daran, es gibt keine "Rückgängig"-Funktion.
 
