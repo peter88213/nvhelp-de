@@ -3,6 +3,8 @@ Die Werkzeugleiste
 
 Die Werkzeugleiste enthält Schaltflächen für häufig benutzte Vorgänge im vorgeschlagenen Arbeitsablauf.
 
+|screenshot|
+
 -----------------
 
 |Go back| im Browserverlauf zurückgehen.
@@ -65,6 +67,7 @@ Dasselbe wie **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``.
 Dasselbe wie **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-``T``.
 
 
+.. |screenshot| image:: _images/toolbar01.png
 .. |Go back| image:: _images/goBack.png
 .. |Go forward| image:: _images/goForward.png
 .. |Buch anzeigen| image:: _images/viewBook.png
