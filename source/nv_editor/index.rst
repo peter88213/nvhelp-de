@@ -69,8 +69,8 @@ Text auswählen
 
 -  Wortauswahl durch Doppelklick.
 -  Absatzauswahl durch Dreifachklick.
--  Auswahl erweitern mit ``Umschalttaste``-``Pfeil``.
--  Auswahl bis zum nächsten Wort erweitern mit ``Strg``-``Umschalttaste``-``Pfeil``.
+-  Auswahl erweitern mit ``Umschalt``-``Pfeil``.
+-  Auswahl bis zum nächsten Wort erweitern mit ``Strg``-``Umschalt``-``Pfeil``.
 -  ``Strg``-``A`` wählt den gesamten Text aus.
 
 

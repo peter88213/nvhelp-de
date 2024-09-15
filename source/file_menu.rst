@@ -206,7 +206,7 @@ Speichern unter...
 
 **Das Projekt unter einem anderen Namen/an einem anderen Ort speichern.**
 
-Mit **Datei > Speichern unter...** or ``Strg``-``Umschalttaste``-``S``
+Mit **Datei > Speichern unter...** or ``Strg``-``Umschalt``-``S``
 können Sie das Projekt unter einem anderen Dateinamen oder an einem anderen
 Ort speichern.
 Es öffenet sich ein Dateiauswahldialog, um den neuen Dateipfad und den
