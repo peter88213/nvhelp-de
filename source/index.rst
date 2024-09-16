@@ -34,12 +34,8 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
 
 -----------------
 
-|github| `Quelldateien auf GitHub ansehen: https://github.com/peter88213/nvhelp-de/ <https://github.com/peter88213/nvhelp-de/>`__
-
 |novelibre| `novelibre Homepage: https://github.com/peter88213/novelibre/ <https://github.com/peter88213/novelibre/>`__
 
 .. |novelibre| image:: _images/nLogo24.png
    :target: https://github.com/peter88213/novelibre/
 
-.. |github| image:: _images/github.png
-   :target: https://github.com/peter88213/nvhelp-de/
