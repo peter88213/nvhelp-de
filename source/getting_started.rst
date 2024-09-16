@@ -104,7 +104,7 @@ einen Plan zu machen, ist *novelibre* das richtige Werkzeug für Sie.
 Dann rufen Sie nicht gleich *Writer* mit einem leeren Dokument auf,
 sondern erzeugen zuerst ein Gerüst aus leeren Kapiteln, für die Sie
 Inhaltsangaben eingeben.
-Oder Sie beslassen es zunächst bei einem einzigen leeren Kapitel,
+Oder Sie belassen es zunächst bei einem einzigen leeren Kapitel,
 das Sie mit leeren Abschnitten füllen, die Sie dann später auf weitere
 Kapitel verteilen können.
 Die Ergebnisse Ihrer Vorbereitungen können als Textdokumente in Form
