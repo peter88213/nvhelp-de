@@ -186,6 +186,14 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
       -  ``* * *`` → Abschnittstrenner (nicht vor dem ersten Abschnitt im Kapitel).
       -  Der ganze restliche Text wird als Inhalt von Abschnitten behandelt.
 
+    .. figure:: _images/getting_started10.png
+       :alt: Libreoffice Writer screenshot
+       
+       
+       Beispiel für ein angefangenes Manuskript: Beachten Sie die Leerzeichen
+       zwischen den Sternchen des Abschnittstrenners. Es ist nicht nötig,
+       die Abschnittstrenner zu zentrieren. 
+
 .. caution::
    Textauszeichnungen, die nicht `durch novelibre unterstützt werden 
    <basic_concepts.html#text-formatieren>`__, gehen verloren.
@@ -250,6 +258,14 @@ In diesem Fall werden Textauszeichnungen nicht berücksichtigt.
       -  *Überschrift 3* → Abschnittstitel.
       -  Der ganze restliche Text wird als Beschreibung von Kapiteln und 
          Abschnitten behandelt.
+
+    .. figure:: _images/getting_started11.png
+       :alt: Libreoffice Writer Screenshot
+       
+       Beispiel für eine Gliederung: Der Fließtext direkt unter der 
+       Kapitelüberschrift ist die Kapitelbeschreibung. Der Fließtext 
+       direkt unter der Abschnittsüberschrift ist die Abschnittsbeschreibung.
+       Die Beschreibungen sind jedoch optional.
 
 Wenn Ihre Gliederung vorbereitet ist, erzeugen Sie Ihr neues Projekt
 mit **Datei > Neu > Aus ODT erzeugen...**.
