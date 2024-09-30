@@ -103,7 +103,7 @@ Römische Kapitelnummern
    Wenn dieses Auswahlfeld angekreuzt ist, werden stattdessen römische Ziffern
    wie "I", "II", "III", "IV" ... verwendet.
 
-Kapitelnummern per Teil
+Kapitelnummerierung in jedem Teil neu beginnen
    Per Voreinstellung werden die Kapitel über die Teile hinweg fortlaufend nummeriert.
    Wenn dieses Auswahlfeld angekreuzt ist, beginnt die Kapitelzählung in jedem Teil
    erneut mit "1"
