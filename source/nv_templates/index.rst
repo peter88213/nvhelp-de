@@ -72,8 +72,8 @@ Markdown-formatierten Vorlagendatei.
 Extras > Erzählstruktur-Vorlagen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Laden
-^^^^^
+Laden...
+^^^^^^^^
 
 Damit laden Sie eine Erzählstruktur aus einer Markdown-formatierten
 Vorlagendatei in Ihr aktuelles Projekt.
@@ -82,8 +82,8 @@ Vorlagendatei in Ihr aktuelles Projekt.
   die angewandt werden soll.
 
 
-Speichern
-^^^^^^^^^
+Speichern...
+^^^^^^^^^^^^
 
 Damit speichern Sie die Erzählstruktur Ihres aktuellen Projekts
 in eine Markdown-formatierte Vorlagendatei.
