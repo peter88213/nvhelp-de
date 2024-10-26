@@ -168,7 +168,8 @@ wie zum Beispiel die Wortzahl.
 Bei Bedarf werden sie mit Meldungen des Programms überschrieben.
 
 - Meldungen vor grünem Hintergrund zeigen erfolgreiche Vorgänge an.
-- Meldungen vor rotem Hintergrund zeigen Warnungen oder Fehlermeldungen an.
+- Meldungen vor gelbem Hintergrund zeigen Benachrichtigungen oder Warnungen an.
+- Meldungen vor rotem Hintergrund zeigen Fehlermeldungen an.
 
 .. tip::
    Die Normalansicht können Sie jederzeit durch Klicken auf die 
