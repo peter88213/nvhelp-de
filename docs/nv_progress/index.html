@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>nv_matrix &mdash; novelibre Benutzerhandbuch</title>
+  <title>nv_progress &mdash; novelibre Benutzerhandbuch</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
 
@@ -24,8 +24,8 @@
     <link rel="author" title="Über dieses Dokument" href="../about.html" />
     <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
     <link rel="search" title="Suche" href="../search.html" />
-    <link rel="next" title="nv_progress" href="../nv_progress/index.html" />
-    <link rel="prev" title="nv_editor" href="../nv_editor/index.html" /> 
+    <link rel="next" title="nv_statistics" href="../nv_statistics/index.html" />
+    <link rel="prev" title="nv_matrix" href="../nv_matrix/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -66,15 +66,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../nv_clipboard/index.html">nv_clipboard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_matrix</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_progress</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#das-plugin-installieren">Das Plugin installieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#den-matrix-manager-aufrufen">Den Matrix-Manager aufrufen</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#beziehungen-hinzufugen-entfernen">Beziehungen hinzufügen/entfernen</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#scrollen-mit-dem-mausrad">Scrollen mit dem Mausrad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#das-programm-starten">Das Programm starten</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#die-heutige-wortzahl-aktualisieren">Die heutige Wortzahl aktualisieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#beenden">Beenden</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
@@ -102,7 +101,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
-      <li class="breadcrumb-item active">nv_matrix</li>
+      <li class="breadcrumb-item active">nv_progress</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -111,26 +110,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_matrix/">English</a></p>
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_progress/">English</a></p>
 <hr class="docutils" />
-<section id="nv-matrix">
-<h1>nv_matrix<a class="headerlink" href="#nv-matrix" title="Link to this heading"></a></h1>
+<section id="nv-progress">
+<h1>nv_progress<a class="headerlink" href="#nv-progress" title="Link to this heading"></a></h1>
 <p><strong>Benutzerhandbuch</strong></p>
-<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_matrix/">nv_matrix</a>.
-Sie können sie mit <strong>Hilfe &gt; Matrix-Plugin Online-Hilfe</strong> öffnen.</p>
-<p>Das Plugin fügt dem <em>novelibre</em> <strong>Extras</strong>-Menü den Eintrag <strong>Matrix</strong> hinzu,
-und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Matrix-Plugin Online-Hilfe</strong>.
-Die Werkzeugleiste erhält eine <img alt="Matrix" src="../_images/matrix.png" /> Schaltfläche.</p>
-<figure class="align-default">
-<img alt="novelibre Screenshot" src="../_images/screen012.png" />
-</figure>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_progress/">nv_progress</a>.
+Sie können sie mit <strong>Hilfe &gt; Schreibfortschritt Online-Hilfe</strong> öffnen.</p>
+<p>TDas Plugin fügt dem <em>novelibre</em> <strong>Extras</strong>-Menü den Eintrag <strong>Täglicher Schreibfortschritt</strong> hinzu.</p>
 <section id="das-plugin-installieren">
 <h2>Das Plugin installieren<a class="headerlink" href="#das-plugin-installieren" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>Starten Sie entweder die heruntergeladene Datei
-<strong>nv_matrix_vx.x.x.pyzw</strong> durch Doppelklick (Windows/Linux-Desktop),</p></li>
-<li><p>oder führen Sie <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_matrix_vx.x.x.pyzw`</span></code> (Windows),
-bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_matrix_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
+<strong>nv_progress_vx.x.x.pyzw</strong> durch Doppelklick (Windows/Linux-Desktop),</p></li>
+<li><p>oder führen Sie <code class="docutils literal notranslate"><span class="pre">`python</span> <span class="pre">nv_progress_vx.x.x.pyzw`</span></code> (Windows),
+bzw. <code class="docutils literal notranslate"><span class="pre">`python3</span> <span class="pre">nv_progress_vx.x.x.pyzw`</span></code> (Linux) auf der Kommandozeile aus.</p></li>
 </ul>
 <p><em>„x.x.x“</em> ist dabei die Versionsnummer.</p>
 <div class="admonition important">
@@ -147,26 +141,17 @@ Falls das nicht geht, können Sie auf den Download der zip-Datei
 ausweichen.</p>
 </div>
 </section>
-<section id="den-matrix-manager-aufrufen">
-<h2>Den Matrix-Manager aufrufen<a class="headerlink" href="#den-matrix-manager-aufrufen" title="Link to this heading"></a></h2>
+<section id="das-programm-starten">
+<h2>Das Programm starten<a class="headerlink" href="#das-programm-starten" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Öffnen Sie den Matrix-Manager entweder über das Hauptmenü: <strong>Extras &gt; Matrix</strong>,</p></li>
-<li><p>oder über die <img alt="Matrix" src="../_images/matrix.png" /> Schaltfläche in der Werkzeugleiste.</p></li>
+<li><p>Öffnen Sie die Schreibfortschritt-Ansicht über das Hauptmenü: <strong>Extras &gt; Täglicher Schreibfortschritt</strong>.</p></li>
 </ul>
 </section>
-<section id="beziehungen-hinzufugen-entfernen">
-<h2>Beziehungen hinzufügen/entfernen<a class="headerlink" href="#beziehungen-hinzufugen-entfernen" title="Link to this heading"></a></h2>
+<section id="die-heutige-wortzahl-aktualisieren">
+<h2>Die heutige Wortzahl aktualisieren<a class="headerlink" href="#die-heutige-wortzahl-aktualisieren" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Sie können Beziehungen hinzufügen oder entfernen, indem Sie die
-entsprechenden Knotenpunkte mit gedrückter <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-Taste
-anklicken.</p></li>
-</ul>
-</section>
-<section id="scrollen-mit-dem-mausrad">
-<h2>Scrollen mit dem Mausrad<a class="headerlink" href="#scrollen-mit-dem-mausrad" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Benutzen Sie das Mausrad für senkrechtes Scrollen.</p></li>
-<li><p>Benutzen Sie das Mausrad mit gedrückter Umschalttaste für waagerechtes Scrollen.</p></li>
+<li><p>Wenn das Fenster <em>nv_progress</em> bereits geöffnet ist, können Sie die aktuelle Wortzahl mit <strong>Extras &gt; Täglicher Schreibfortschritt</strong>
+aktualisieren.</p></li>
 </ul>
 </section>
 <section id="beenden">
@@ -181,8 +166,8 @@ anklicken.</p></li>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../nv_editor/index.html" class="btn btn-neutral float-left" title="nv_editor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
-        <a href="../nv_progress/index.html" class="btn btn-neutral float-right" title="nv_progress" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../nv_matrix/index.html" class="btn btn-neutral float-left" title="nv_matrix" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../nv_statistics/index.html" class="btn btn-neutral float-right" title="nv_statistics" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
