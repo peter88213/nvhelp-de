@@ -20,35 +20,6 @@ Mit *novelibre* können Sie eine Erzählstruktur mit Stadien definieren
 *nv_templates* vereinfacht die Wiederverwendung von Erzählstrukturen.
 
 
-Das Plugin installieren
------------------------
-
-- Starten Sie entweder die heruntergeladene Datei
-  **nv_templates_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
-- oder führen Sie ```python nv_templates_vx.x.x.pyzw``` (Windows),
-  bzw. ```python3 nv_templates_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
-
-*"x.x.x"* ist dabei die Versionsnummer.
-
-Das Plugin fügt dem *novelibre*-**Extras**-Menü
-den Eintrag **Erzählstruktur-Vorlagen** hinzu,
-außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Vorlage erzeugen...**,
-und dem **Hilfe**-Menü den Eintrag **Vorlagen-Plugin Online-Hilfe**.
-
-.. important::
-   Viele Webbrowser erkennen den Download als ausführbare Datei
-   und bieten an, sie direkt zu öffnen. 
-   Damit wird die Installation gestartet.
-   
-   Abhängig von Ihren Sicherheitseinstellungen kann es allerdings 
-   auch passieren, dass Ihr Browser den Download der ausführbaren 
-   Datei zunächst verweigert. 
-   In diesem Fall ist Ihre Bestätigung oder eine zusätzliche Handlung 
-   erforderlich. 
-   Falls das nicht geht, können Sie auf den Download der zip-Datei
-   ausweichen. 
- 
- 
 Befehlsreferenz
 ---------------
 
