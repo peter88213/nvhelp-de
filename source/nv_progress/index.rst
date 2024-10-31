@@ -21,14 +21,7 @@ Das Programm starten
 --------------------
 
 - Öffnen Sie die Schreibfortschritt-Ansicht über das Hauptmenü: **Extras > Täglicher Schreibfortschritt**.
-
-
-Die heutige Wortzahl aktualisieren
-----------------------------------
-
-- Wenn das Fenster *nv_progress* bereits geöffnet ist, können Sie die aktuelle Wortzahl mit **Extras > Täglicher Schreibfortschritt**
-  aktualisieren.
-
+- Während das Fenster *nv_progress* geöffnet ist, wird die aktuelle Wortzahl automatisch aktualisiert.-
 
 Beenden
 -------
