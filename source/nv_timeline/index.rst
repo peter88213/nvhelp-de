@@ -76,7 +76,10 @@ Damit öffnen Sie einen Dateiauswahldialog, um eine *.timeline*-Datei auszuwähl
 Falls noch kein *novelibre*-Projekt mit dem gleichen Dateinamen existiert,
 wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.
 
-
+.. hint::
+   Um in *novelibre* zu Abschnitten zu werden, benötigen *Timeline*-Ereignisse ein Label „Section“.
+   
+   
 Benutzerdefinierte Konfiguration
 --------------------------------
 
