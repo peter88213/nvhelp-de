@@ -81,6 +81,10 @@ wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.
    
    .. figure:: _images/event01.png
       :alt: Timeline Screenshot
+      
+   Die Idee dahinter ist, dass nur ausgewählte Ereignisse als Abschnitte in das 
+   *novelibre*-Projekt aufgenommen werden sollen. 
+   Es kann z. B. auch Hintergrundereignisse geben, die nicht synchronisiert werden sollen.
 
    
 Benutzerdefinierte Konfiguration
