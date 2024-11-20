@@ -20,6 +20,12 @@ Mit *novelibre* können Sie eine Erzählstruktur mit Stadien definieren
 *nv_templates* vereinfacht die Wiederverwendung von Erzählstrukturen.
 
 
+.. important::
+   Das Plugin wird mit Beispielvorlagen geliefert, die automatisch in den
+   *templates* Ordner der *novelibre*-Installation kopiert werden. 
+   Vorhandene Dateien werden dabei überschrieben. 
+   Wenn Sie also Ihre Vorlagen anpassen, benennen Sie sie besser um.  
+
 Befehlsreferenz
 ---------------
 
