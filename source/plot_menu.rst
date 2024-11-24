@@ -66,6 +66,21 @@ können Sie die Ebene der ausgewählten Stadien ändern.
    Sie hat keine Auswirkung auf die Programmfunktion.
 
 
+Plotlinien importieren
+----------------------
+
+**Plotlinien mit Plotpunkten aus einem anderen Projekt importieren**
+
+Mit **Plot > Plotlinien importieren**
+können Sie eine Auswahl von Plotlinien aus einem anderen Projekt importieren.
+Zuerst wählen Sie eine XML-Datei aus, welche die Plotlinien enthält.
+Dann wählen Sie die Plotlinien aus, die Sie zum aktuellen Projekt hinzufügen wollen.
+
+.. hint::
+   Um für das aktuelle Projekt eine XML-Plotliniendatei zu erzeugen, 
+   rufen Sie **Exportieren > XML-Datendateien** auf.
+
+
 Handlungsraster (Plot grid) zum Bearbeiten exportieren
 ------------------------------------------------------
 
