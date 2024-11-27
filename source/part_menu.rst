@@ -3,9 +3,6 @@ Teil-Menü
 
 **Teilefunktionen**
 
-.. figure:: _images/part_menu01.png
-   :alt: novelibre Screenshot
-
 Hinzufügen
 ----------
 

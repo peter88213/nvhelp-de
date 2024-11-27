@@ -3,9 +3,6 @@ Figuren-Menü
 
 **Figurenfunktionen**
 
-.. figure:: _images/characters_menu01.png
-   :alt: novelibre Screenshot
-
 Hinzufügen
 ----------
 
@@ -30,9 +27,6 @@ Status setzen
 Mit **Figuren > Status setzen**
 können Sie die Figur als *Hauptfigur* oder *Nebenfigur* kennzeichnen.
 Hauptfiguren sind in der Baumansicht farblich hervorgehoben.
-
-.. figure:: _images/characters_menu02.png
-   :alt: novelibre Screenshot
 
 .. note::
    Der Figurenstatus dient nur zur visuellen Unterscheidung.

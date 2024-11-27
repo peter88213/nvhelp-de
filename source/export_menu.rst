@@ -3,9 +3,6 @@ Exportieren-Menü
 
 **Dateiexport**
 
-.. figure:: _images/export_menu01.png
-   :alt: novelibre Screenshot
-
 Manuskript zum Bearbeiten
 -------------------------
 
@@ -188,9 +185,6 @@ Optionen
 
 Mit **Exportieren >  Optionen**
 können Sie einen Dialog für Einstellungen zum Dokumentenexport öffnen.
-
-.. figure:: _images/export_menu02.png
-   :alt: novelibre Screenshot
 
 
 Vor dem Öffnen exportierter Dokumente nachfragen

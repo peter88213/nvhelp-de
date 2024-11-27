@@ -3,9 +3,6 @@ Plot-Menü
 
 **Plotelementfunktionen**
 
-.. figure:: _images/plot_menu01.png
-   :alt: novelibre Screenshot
-
 Plotlinie hinzufügen
 --------------------
 
@@ -54,9 +51,6 @@ Ebene ändern
 
 Mit **Plot > Ebene ändern**
 können Sie die Ebene der ausgewählten Stadien ändern.
-
-.. figure:: _images/plot_menu02.png
-   :alt: novelibre Screenshot
 
 -  **Erste Ebene** wird in fetter Schrift dargestellt.
 -  **Zweite Ebene** wird in normaler Schrift dargestellt.

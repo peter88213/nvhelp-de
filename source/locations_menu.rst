@@ -3,9 +3,6 @@ Schauplätze-Menü
 
 **Schauplatzfunktionen**
 
-.. figure:: _images/locations_menu01.png
-   :alt: novelibre Screenshot
-
 Hinzufügen
 ----------
 

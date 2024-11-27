@@ -3,9 +3,6 @@ Ansicht-Menü
 
 **Anzeige-Operationen**
 
-.. figure:: _images/view_menu01.png
-   :alt: novelibre Screenshot
-
 Kapitelebene anzeigen
 ---------------------
 
