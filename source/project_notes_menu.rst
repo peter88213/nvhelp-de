@@ -3,9 +3,6 @@ Projektnotizen-Menü
 
 **Projektnotizenfunktionen**
 
-.. figure:: _images/project_notes_menu01.png
-   :alt: novelibre Screenshot
-
 Hinzufügen
 ----------
 

@@ -3,9 +3,6 @@ Exportieren-Menü
 
 **Dateiexport**
 
-.. figure:: _images/export_menu01.png
-   :alt: novelibre Screenshot
-
 Manuskript zum Bearbeiten
 -------------------------
 
@@ -82,12 +79,12 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
    Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.
 
 
-Manuskript zum Drucken (nur Export)
------------------------------------
+Endgültiges Manuskriptdokument (nur Export)
+-------------------------------------------
 
 **Ein ODT-Dokument exportieren**
 
-Mit **Exportieren >  Manuskript zum Drucken (nur Export)**
+Mit **Exportieren >  Endgültiges Manuskriptdokument (nur Export)**
 können Sie ein Textdokument zum weiteren Gebrauch erzeugen,
 z.B. als endgültiges Dokument, wenn Sie mit *novelibre* fertig sind.
 
@@ -110,8 +107,8 @@ z.B. als endgültiges Dokument, wenn Sie mit *novelibre* fertig sind.
   `An den vorherigen Abschnitt anhängen
   <section_view.html#an-den-vorherigen-abschnitt-anhangen>`__ markiert sind,
   erscheinen als fortlaufende Absätze.
-- Dem erste Absatz jedes Kapitels ist die Absatzvorlage *Kapitelanfang* 
-  zugewiesen, die standardmäßig dem Textkörper ohne Einzug gleicht. 
+- Dem erste Absatz jedes Kapitels ist die Absatzvorlage *Kapitelanfang*
+  zugewiesen, die standardmäßig dem Textkörper ohne Einzug gleicht.
   Wenn Sie diese Vorlage verändern, können Sie den Kapitelanfängen ein
   besonderes Aussehen verleihen, z.B. mit Initialen.
 
@@ -164,21 +161,21 @@ Die Querverweise sind:
 -  Gegenstände pro Tag.
 
 
-Figuren/Schauplätze/Gegenstände-Datendateien
---------------------------------------------
+XML-Datendateien
+----------------
 
 **XML-Dateien exportieren, die in anderen Projekten importiert werden können**
 
-Mit **Exportieren >  Figuren/Schauplätze/Gegenstände-Datendateien**
-können Sie einen Satz XML-Dateien mit den Figuren, Schauplätzen und
-Gegenständen des Projekts inklusive ihrer Eigenschaften enthält.
-Mit diesen Dateien können Sie Figuren, Schauplätze und
-Gegenstände in ein anderes Projekt transferieren.
+Mit **Exportieren >  XML-Datendateien**
+können Sie einen Satz XML-Dateien mit den Figuren, Schauplätzen,
+Gegenständen und Plotlinien des Projekts inklusive ihrer Eigenschaften enthält.
+Mit diesen Dateien können Sie Figuren, Schauplätze, Gegenstände
+und Plotlinien in ein anderes Projekt transferieren.
 
 .. hint::
    Um XML-Datendateien aus einem anderen Projekt zu importieren, 
-   rufen Sie im **Figuren**, **Schauplätze** oder 
-   **Gegenstände**-Menü **Importieren** auf.
+   rufen Sie im **Figuren**, **Schauplätze**, **Gegenstände**
+   oder **Plot**-Menü **Importieren** auf.
 
 
 Optionen
@@ -188,9 +185,6 @@ Optionen
 
 Mit **Exportieren >  Optionen**
 können Sie einen Dialog für Einstellungen zum Dokumentenexport öffnen.
-
-.. figure:: _images/export_menu02.png
-   :alt: novelibre Screenshot
 
 
 Vor dem Öffnen exportierter Dokumente nachfragen

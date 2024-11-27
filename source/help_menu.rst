@@ -3,9 +3,6 @@ Hilfe-Menü
 
 **Schneller Zugriff auf die Hilfeseiten für novelibre und seine Plugins**
 
-.. figure:: _images/help_menu01.png
-   :alt: novelibre Screenshot
-
 .. note:: 
    Das *Hilfe*-Menü kann durch Plugins erweitert werden, wenn Sie 
    Links zu ihren speziellen Hilfeseiten hinzufügen. 

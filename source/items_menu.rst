@@ -3,9 +3,6 @@ Gegenstände-Menü
 
 **Gegenstandsfunktionen**
 
-.. figure:: _images/items_menu01.png
-   :alt: novelibre Screenshot
-
 Hinzufügen
 ----------
 

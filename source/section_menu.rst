@@ -3,9 +3,6 @@ Abschnitt-Menü
 
 **Abschnittsfunktionen**
 
-.. figure:: _images/section_menu01.png
-   :alt: novelibre Screenshot
-
 Hinzufügen
 ----------
 
@@ -35,9 +32,6 @@ Mehrere Abschnitte hinzufügen
 
 **Mehrere neue Abschnitte auf einmal erzeugen**
 
-.. figure:: _images/section_menu04.png
-   :alt: novelibre Screenshot
-
 Mit **Abschnitt > Mehrere Abschnitte hinzufügen**
 können Sie dem Baum bis zu 20 Abschnitte hinzufügen.
 
@@ -57,9 +51,6 @@ Mit **Abschnitt > Typ wählen**
 können Sie den `Typ <basic_concepts.html#teil-kapitel-abschnittstypen>`__
 der ausgewählten Abschnitte zu *Normal* oder *Unbenutzt* ändern.
 
-.. figure:: _images/section_menu02.png
-   :alt: novelibre Screenshot
-
 .. hint::
 
    Um den Typ für mehrere Abschnitte gleichzeitig zu ändern:
@@ -71,9 +62,6 @@ Status setzen
 -------------
 
 **Den Fertigstellungsstatus des Abschnitts ändern**
-
-.. figure:: _images/section_menu03.png
-   :alt: novelibre Screenshot
 
 Mit **Abschnitt > Status setzen**
 können Sie den `Fertigstellungsstatus

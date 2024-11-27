@@ -3,9 +3,6 @@ Datei-Menü
 
 **Dateioperationen**
 
-.. figure:: _images/file_menu01.png
-   :alt: novelibre Screenshot
-
 Neu
 ---
 
@@ -18,9 +15,6 @@ Damit öffnen Sie zunächst ein Untermenü.
    Das Untermenü kann durch Plugins erweitert werden, 
    um mehr Dateiformate anzubieten, 
    aus denen ein *novelibre*-Projekt erzeugt werden kann.
-
-.. figure:: _images/file_menu02.png
-   :alt: novelibre Screenshot
 
 Leeres Projekt
    -  Damit schließen Sie das laufende Projekt und erzeugen ein

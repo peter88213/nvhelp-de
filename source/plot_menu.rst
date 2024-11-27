@@ -3,9 +3,6 @@ Plot-Menü
 
 **Plotelementfunktionen**
 
-.. figure:: _images/plot_menu01.png
-   :alt: novelibre Screenshot
-
 Plotlinie hinzufügen
 --------------------
 
@@ -55,15 +52,27 @@ Ebene ändern
 Mit **Plot > Ebene ändern**
 können Sie die Ebene der ausgewählten Stadien ändern.
 
-.. figure:: _images/plot_menu02.png
-   :alt: novelibre Screenshot
-
 -  **Erste Ebene** wird in fetter Schrift dargestellt.
 -  **Zweite Ebene** wird in normaler Schrift dargestellt.
 
 .. note::
    Die Ebene eines Stadiums dient nur zur visuellen Unterscheidung.
    Sie hat keine Auswirkung auf die Programmfunktion.
+
+
+Plotlinien importieren
+----------------------
+
+**Plotlinien mit Plotpunkten aus einem anderen Projekt importieren**
+
+Mit **Plot > Plotlinien importieren**
+können Sie eine Auswahl von Plotlinien aus einem anderen Projekt importieren.
+Zuerst wählen Sie eine XML-Datei aus, welche die Plotlinien enthält.
+Dann wählen Sie die Plotlinien aus, die Sie zum aktuellen Projekt hinzufügen wollen.
+
+.. hint::
+   Um für das aktuelle Projekt eine XML-Plotliniendatei zu erzeugen, 
+   rufen Sie **Exportieren > XML-Datendateien** auf.
 
 
 Handlungsraster (Plot grid) zum Bearbeiten exportieren

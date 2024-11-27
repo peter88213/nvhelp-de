@@ -3,9 +3,6 @@ Extras-Menü
 
 **Vermischte Funktionen**
 
-.. figure:: _images/tools_menu02.png
-   :alt: novelibre Screenshot
-
 .. note:: 
    Das *Extras*-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.
 
