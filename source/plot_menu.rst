@@ -192,7 +192,7 @@ und starten Ihren System-Webbrowser zur Anzeige.
 .. figure:: _images/plot_menu03.jpg
    :alt: Edge-Browser-Screenshot
 
-   Edge-Browser-Screenshot
+   Edge-Browser-Screenshot: Darstellung der HTML-Plotliste.
 
 .. note::
    Der Report ist eine temporäre Datei, die bei 
