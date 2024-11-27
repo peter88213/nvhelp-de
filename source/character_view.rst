@@ -43,6 +43,18 @@ Die Bearbeitung können Sie mit der Eingabetaste beenden.
    Achten Sie auf eine einheitliche Schreibweise, 
    falls Sie Tags mehrmals verwenden wollen.
 
+Hauptfigur
+----------
+
+Mit dem **Hauptfigur**-Auswahlfeld können Sie den Status der Figur ändern.
+
+.. note::
+   Der Figurenstatus dient nur zur visuellen Unterscheidung.
+   Er hat keine Auswirkung auf die Programmfunktion.
+   Sie können ihn einsetzen, um Perspektivfiguren 
+   oder Figuren mit eigener Plotlinie zu kennzeichnen.
+
+
 Biographie
 ----------
 
