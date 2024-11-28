@@ -25,9 +25,9 @@ Außerdem den Eintrag **Zwischenablage Online-Hilfe** im **Hilfe**-Menü.
 Vom Zwischenablage-Plugin hinzugefügte Werkzeugleisten-Schaltflächen
 --------------------------------------------------------------------
 
-..
-   |Cut| Das ausgewählte Element aus dem Baum in die Zwischenablage verschieben.
-   Same as ``Strg``-``X``.
+
+|Cut| Das ausgewählte Element aus dem Baum in die Zwischenablage verschieben.
+Dasselbe wie ``Strg``-``X``.
 
 |Copy| Das ausgewählte Element in die Zwischenablage kopieren.
 Dasselbe wie ``Strg``-``C``.
@@ -52,8 +52,8 @@ Sie können die folgenden Baumelemente über die Zwischenablage kopieren und ein
    Hat das Element jedoch "Kinder", werden diese auch kopiert und eingefügt. 
 
 .. attention::
-   Beziehungen werden beim Kopieren in die Zwischenablage nicht mitgenommen.
-   Das gilt auch für die Abschnitts-Perspektive.
+   Beziehungen werden beim Kopieren oder Verschieben in die Zwischenablage nicht mitgenommen.
+   Das gilt auch für die Abschnitts-Perspektive und für Plotlinien/Plotpunkte.
 
 
 .. |Cut| image:: _images/cut.png
