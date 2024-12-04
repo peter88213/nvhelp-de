@@ -30,18 +30,18 @@ alias
 Dieses Eingabefeld ist für alternative Namen.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
-Tags
-----
+Schlagworte
+-----------
 
-Tags sind ein frei benutzbares Werkzeug,
+Schlagworte sind ein frei benutzbares Werkzeug,
 um Figuren in der Baumansicht zu kennzeichnen.
-Tags müssen nicht anderswo definiert werden, sie werden einfach,
+Schlagworte müssen nicht anderswo definiert werden, sie werden einfach,
 durch Semikolons getrennt, ins Eingabefeld eingetragen.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. caution::
    Achten Sie auf eine einheitliche Schreibweise, 
-   falls Sie Tags mehrmals verwenden wollen.
+   falls Sie Schlagworte mehrmals verwenden wollen.
 
 Hauptfigur
 ----------

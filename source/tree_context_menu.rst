@@ -26,7 +26,7 @@ Eigenschaften eines neuen Abschnitts:
    -  Fertigstellungsstatus: *Gliederung*
    -  Keine Perspektivfigur zugewiesen
    -  Keine Plotlinie zugewiesen
-   -  Keine Tags
+   -  Keine Schlagworte
    -  Keine Angaben zu Datum, Zeit und Dauer
 
 
