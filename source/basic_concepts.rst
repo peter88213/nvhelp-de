@@ -150,6 +150,11 @@ oder Überarbeiten.
    Dokumente mit den Figuren, Schauplätzen und Gegenständen zu 
    verlinken, um den Zugriff darauf zu erleichern. 
    
+   Das `nv_zim-Plugin 
+   <https://github.com/peter88213/nv_zim/>`__ 
+   verbindet das Schreibprojekt mit einem **Zim Desktop-Wiki**.
+   Damit lassen sich die Elemente der Erzählwelt mit entsprechenden 
+   Wiki-Seiten verknüpfen. 
 
 .. important::
    Um den Abschnitten **Perspektiv-Figuren** zuweisen zu können, 

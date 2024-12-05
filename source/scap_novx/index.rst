@@ -73,13 +73,13 @@ Konvertierungsregeln
 - Notizen mit einem Schatten werden zu Abschnitten konvertiert.
 - Abschnitte werden nach ihrer Anordnung im Scapple-Diagramm sortiert (von oben links nach unten rechts).
 - Notizen mit einem "Wolken"-Rand ohne Schatten werden zu Abschnitts- und Figurennotizen konvertiert.
-- Notizen mit einem eckigen Rand werden zu Schlagworten konvertiert.
+- Notizen mit einem eckigen Rand werden zu Schlagwörtern konvertiert.
 - Notizen mit rotem Text werden zu Hauptfiguren konvertiert.
 - Notizen mit violettem Text werden zu Nebenfiguren konvertiert.
 - Notizen mit blauem Text werden zu Schauplätzen konvertiert.
 - Notizen mit grünem Text werden zu Gegenständen konvertiert.
 - Weisen Sie Figuren, Schauplätze und Gegenstände einem Abschnitt zu, indem Sie die entsprechenden Notizen verbinden.
-- Weisen Sie Schlagworte Abschnitten, Figuren, Schauplätzen und Gegenständen zu, indem Sie die entsprechenden Notizen verbinden.
+- Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu, indem Sie die entsprechenden Notizen verbinden.
 - Weisen Sie Perspektivfiguren Abschnitten zu, indem Sie Pfeile von der Figur zum Abschnitt erzeugen.
 
 
@@ -135,7 +135,7 @@ Wenden Sie entweder das "Note"-Format per Kontextmenü an,
 oder weisen Sie der Notiz im Inspector den "Cloud"-Rahmen zu.
 
 
-Schlagworte kennzeichnen
+Schlagwörter kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wenden Sie entweder das "Tag"-Format per Kontextmenü an,

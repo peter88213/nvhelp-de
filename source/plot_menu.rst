@@ -94,7 +94,7 @@ mit einer Zeile pro Abschnitt und den folgenden Spalten:
 - Abschnittsbeschreibung
 - Perspektivfigur (Kurzname)
 - eine Spalte pro Plotlinie mit den Plotliniennotizen des Abschnitts
-- Schlagworte
+- Schlagwörter
 - Szene
 - Ziel/Reaktion/(benutzerdefiniert)
 - Konflikt/Dilemma/(benutzerdefiniert)

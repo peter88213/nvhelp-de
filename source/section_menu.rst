@@ -23,7 +23,7 @@ Eigenschaften eines neuen Abschnitts:
    -  Fertigstellungsstatus: *Gliederung*
    -  Keine Perspektivfigur zugewiesen
    -  Keine Plotlinie zugewiesen
-   -  Keine Schlagworte
+   -  Keine Schlagwörter
    -  Keine Angaben zu Datum, Zeit und Dauer
 
 
@@ -109,7 +109,7 @@ mit einer Zeile pro Abschnitt und den folgenden Spalten:
 - Zeit
 - Tag
 - Dauer
-- Schlagworte
+- Schlagwörter
 - Abschnittsnotizen
 - Szene
 - Ziel

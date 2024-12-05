@@ -23,18 +23,26 @@ Dieses Eingabefeld ist für alternative Namen.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 
-Schlagworte
------------
+Schlagwörter
+------------
 
-Schlagworte sind ein frei benutzbares Werkzeug,
+Schlagwörter sind ein frei benutzbares Werkzeug,
 um Schauplätze und Gegenstände in der Baumansicht zu kennzeichnen.
-Schlagworte müssen nicht anderswo definiert werden, sie werden einfach,
+Schlagwörter müssen nicht anderswo definiert werden, sie werden einfach,
 durch Semikolons getrennt, ins Eingabefeld eingetragen.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. caution::
    Achten Sie auf eine einheitliche Schreibweise, 
-   falls Sie Schlagworte mehrmals verwenden wollen.
+   falls Sie Schlagwörter mehrmals verwenden wollen.
+
+.. hint::
+   Das `Zim-Plugin 
+   <https://github.com/peter88213/nv_zim/>`__ 
+   kann Schlagwörter übernehmen, wenn es
+   für den Schauplatz oder Gegenstand eine neue Wiki-Seite erzeugt. 
+   Damit erhält man eine leistungsfähige Navigationshilfe.
+
 
 Links
 -----

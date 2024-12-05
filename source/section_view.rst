@@ -18,18 +18,18 @@ Die Bearbeitung des Titels können Sie mit der Eingabetaste beenden.
 irgendwo außerhalb des Texteingabefelds geklickt wird.
 
 
-Schlagworte
------------
+Schlagwörter
+------------
 
-Schlagworte sind ein frei benutzbares Werkzeug,
+Schlagwörter sind ein frei benutzbares Werkzeug,
 um Abschnitte in der Baumansicht zu kennzeichnen.
-Schlagworte müssen nicht anderswo definiert werden, sie werden einfach,
+Schlagwörter müssen nicht anderswo definiert werden, sie werden einfach,
 durch Semikolons getrennt, ins Eingabefeld eingetragen.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. caution::
    Achten Sie auf eine einheitliche Schreibweise, 
-   falls Sie Schlagworte mehrmals verwenden wollen.
+   falls Sie Schlagwörter mehrmals verwenden wollen.
 
 Perspektive
 -----------
