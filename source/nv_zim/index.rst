@@ -19,7 +19,31 @@ Sie können sie mit **Hilfe > Zim-Anbindung Online-Hilfe** öffnen.
 Das ist hauptsächlich für die Dokumentation des Weltenbaus gedacht.
 
 Das Plugin fügt dem *novelibre*-**Extras**-Menü
-den Eintrag **Projekt-Wiki öffnen** hinzu,
+den Eintrag **Zim Desktop Wiki** hinzu,
 und dem **Hilfe**-Menü den Eintrag **Zim-Anbindung Online-Hilfe**.
-Die Eigenschaftsansicht von Figuren, Schauplätzen, Gegenständen und buch
+Die Eigenschaftsansicht von Figuren, Schauplätzen, Gegenständen und Buch
 erhalten eine **Wiki-Seite**-Schaltfläche.
+
+Allgemein
+---------
+
+
+Zim Desktop Wiki-Menü
+---------------------
+
+
+Projekt-Wiki öffnen
+~~~~~~~~~~~~~~~~~~~
+
+
+Projekt-Wiki erzeugen
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften
+--------------------------------------------------
+
+"Wiki-Seite"-Schaltfläche
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
