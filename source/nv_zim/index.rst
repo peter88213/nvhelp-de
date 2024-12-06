@@ -23,6 +23,10 @@ den Eintrag **Zim Desktop Wiki** hinzu,
 und dem **Hilfe**-Menü den Eintrag **Zim-Anbindung Online-Hilfe**.
 Die Eigenschaftsansicht von Figuren, Schauplätzen, Gegenständen und Buch
 erhalten eine **Wiki-Seite**-Schaltfläche.
+Die Werkzeugleiste erhält eine |Zim| Schaltfläche.
+
+.. |Zim| image:: _images/zim.png
+
 
 Allgemein
 ---------
@@ -32,12 +36,14 @@ Zim Desktop Wiki-Menü
 ---------------------
 
 
-Projekt-Wiki öffnen
-~~~~~~~~~~~~~~~~~~~
+Extras > Zim Desktop Wiki > Projekt-Wiki öffnen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Oder in der Werkzeugleiste auf die die Schaltfläche |Zim| klicken.
 
 
-Projekt-Wiki erzeugen
-~~~~~~~~~~~~~~~~~~~~~
+Extras > Zim Desktop Wiki > Projekt-Wiki erzeugen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 

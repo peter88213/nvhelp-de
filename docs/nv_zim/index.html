@@ -23,7 +23,9 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="author" title="Über dieses Dokument" href="../about.html" />
     <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
-    <link rel="search" title="Suche" href="../search.html" /> 
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="Werkzeuge" href="../tools.html" />
+    <link rel="prev" title="nv_updater" href="../nv_updater/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -49,7 +51,7 @@
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../introduction.html">Einführung</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
@@ -59,7 +61,34 @@
 <li class="toctree-l1"><a class="reference internal" href="../plotting.html">Mit novelibre plotten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../plugins.html">Plugins</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../nv_aeon2/index.html">nv_aeon2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_clipboard/index.html">nv_clipboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_zim</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#allgemein">Allgemein</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zim-desktop-wiki-menu">Zim Desktop Wiki-Menü</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#extras-zim-desktop-wiki-projekt-wiki-offnen">Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki öffnen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#extras-zim-desktop-wiki-projekt-wiki-erzeugen">Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki erzeugen</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#buch-figuren-schauplatze-gegenstande-eigenschaften">Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#wiki-seite-schaltflache">„Wiki-Seite“-Schaltfläche</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../tools.html">Werkzeuge</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../about.html">Über dieses Benutzerhandbuch</a></li>
 </ul>
@@ -78,6 +107,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
       <li class="breadcrumb-item active">nv_zim</li>
       <li class="wy-breadcrumbs-aside">
       </li>
@@ -98,16 +128,39 @@ Sie können sie mit <strong>Hilfe &gt; Zim-Anbindung Online-Hilfe</strong> öffn
 <em>Zim Desktop Wiki</em> verbindet.
 Das ist hauptsächlich für die Dokumentation des Weltenbaus gedacht.</p>
 <p>Das Plugin fügt dem <em>novelibre</em>-<strong>Extras</strong>-Menü
-den Eintrag <strong>Projekt-Wiki öffnen</strong> hinzu,
+den Eintrag <strong>Zim Desktop Wiki</strong> hinzu,
 und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Zim-Anbindung Online-Hilfe</strong>.
-Die Eigenschaftsansicht von Figuren, Schauplätzen, Gegenständen und buch
-erhalten eine <strong>Wiki-Seite</strong>-Schaltfläche.</p>
+Die Eigenschaftsansicht von Figuren, Schauplätzen, Gegenständen und Buch
+erhalten eine <strong>Wiki-Seite</strong>-Schaltfläche.
+Die Werkzeugleiste erhält eine <img alt="Zim" src="../_images/zim.png" /> Schaltfläche.</p>
+<section id="allgemein">
+<h2>Allgemein<a class="headerlink" href="#allgemein" title="Link to this heading"></a></h2>
+</section>
+<section id="zim-desktop-wiki-menu">
+<h2>Zim Desktop Wiki-Menü<a class="headerlink" href="#zim-desktop-wiki-menu" title="Link to this heading"></a></h2>
+<section id="extras-zim-desktop-wiki-projekt-wiki-offnen">
+<h3>Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki öffnen<a class="headerlink" href="#extras-zim-desktop-wiki-projekt-wiki-offnen" title="Link to this heading"></a></h3>
+<p>Oder in der Werkzeugleiste auf die die Schaltfläche <img alt="Zim" src="../_images/zim.png" /> klicken.</p>
+</section>
+<section id="extras-zim-desktop-wiki-projekt-wiki-erzeugen">
+<h3>Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki erzeugen<a class="headerlink" href="#extras-zim-desktop-wiki-projekt-wiki-erzeugen" title="Link to this heading"></a></h3>
+</section>
+</section>
+<section id="buch-figuren-schauplatze-gegenstande-eigenschaften">
+<h2>Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften<a class="headerlink" href="#buch-figuren-schauplatze-gegenstande-eigenschaften" title="Link to this heading"></a></h2>
+<section id="wiki-seite-schaltflache">
+<h3>„Wiki-Seite“-Schaltfläche<a class="headerlink" href="#wiki-seite-schaltflache" title="Link to this heading"></a></h3>
+</section>
+</section>
 </section>
 
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nv_updater/index.html" class="btn btn-neutral float-left" title="nv_updater" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../tools.html" class="btn btn-neutral float-right" title="Werkzeuge" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
