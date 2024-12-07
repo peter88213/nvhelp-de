@@ -46,6 +46,16 @@ Extras > Zim Desktop Wiki > Projekt-Wiki erzeugen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+Extras > Zim Desktop Wiki > Wiki-Links entfernen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ausgewählte Seiten
+   Damit werden die Zim Wiki-Links der ausgewählten Elemente entfernt.
+
+Alle
+   Damit werden alle Zim Wiki-Links entfernt.
+
+
 
 Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften
 --------------------------------------------------
