@@ -33,9 +33,9 @@ Zim Desktop Wiki einrichten
 ---------------------------
 
 Damit *nv_zim* das `Zim Desktop Wiki <https://zim-wiki.org/>`__-Anwendungsprogramm
-starten kann, muss es dessen Speicherort kennen.
+starten kann, muss es den Speicherort der Installation kennen.
 Beim Programmhochlauf prüft es die *launchers.ini*-Datei im *novelibre*-Konfigurationsverzeichnis.
-Hier ein Beispiel für einen Eintrag unter Windows:
+Hier ein Beispiel mit einem Eintrag unter Windows:
 
 ::
 
@@ -43,11 +43,12 @@ Hier ein Beispiel für einen Eintrag unter Windows:
    .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
 
 Falls diese Datei nicht existiert, oder der eingetragene Dateipfad nicht passt,
-prüft das Programm die Standard-Installationspfade für die 32-Bit und die 64-Bit-Versionen unter Windows.
+durchsucht das Programm die Standard-Installationspfade für die 32-Bit und die
+64-Bit-Versionen unter Windows.
 Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.
 
 Der korrekte Speicherort wird dann automatisch in die *launchers.ini*-Datei eingetragen.
-Unter Windows gibt es für die Benutzer also nichts zu tun.
+Unter Windows gibt es für die Benutzer üblicherweise nichts zu tun.
 
 Linux-Benutzer sollten herausfinden, wo sich die Zim-Applikation auf ihrem System befindet,
 und diesen Pfad entweder in eine selbst erzeugte **~/.novx/launchers.ini**-Datei eintragen,
@@ -66,8 +67,8 @@ das mit dem aktuellen *novelibre*-Projekt, oder auch mit mehreren Projekten eine
 Serie verlinkt wird.
 Dann kann das Programm fehlende Seiten automatisch in diesem Notizbuch anlegen.
 
-Speicherort
-~~~~~~~~~~~
+Dateispeicherorte
+~~~~~~~~~~~~~~~~~
 
 Projekt-Wikis können an beliebigen Speicherorten liegen; wird eines jedoch automatisch
 erzeugt, liegt es im *novelibre*-Projektverzeichnis in einem Unterverzeichnis namens
@@ -81,8 +82,8 @@ erzeugt, liegt es im *novelibre*-Projektverzeichnis in einem Unterverzeichnis na
 - Auch wenn Sie das Projekt-Wiki an seinem Ort lassen, aber das *novelibre*-Projekt woandershin
   verschieben, kann das Programm die Wiki-Links automatisch korrigieren.
 
-Seitenstruktur
-~~~~~~~~~~~~~~
+Notizbuchstruktur
+~~~~~~~~~~~~~~~~~
 
 Automatisch angelegte Projekt-Wikis haben eine "flache" Struktur, das heißt:
 alle Wiki-Seiten liegen im *Home*-Ordner des Zim-Notizbuchs.
@@ -98,8 +99,9 @@ Schlagwörter
 
 *novelibre* bietet die Möglichkeit, Figuren, Schauplätze und Gegenstände mit Schlagwörtern
 zu versehen. Wenn *nv_zim* automatisch eine Wiki-Seite erzeugt, fügt es vorhandene Schlagwörter
-in der geeigneten Notation für *Zim* ein, und ermöglicht der Anwendung dadurch, solche
-Seiten nach Schlagwörtern zu gruppieren und zu verlinken.
+in der geeigneten Notation für *Zim* ein. Daturch ist es der Anwendung möglich, solche
+Seiten nach den Kategorien zu gruppieren und zu verlinken, die durch die Schlagwörter
+repräsentiert werden.
 
 Wiki-Links in novelibre
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,9 +116,9 @@ in der Statuszeile anzeigen.
 
 .. tip::
    Falls Sie mehr als nur eine Wiki-Seite mit einer Figur, einem Schauplatz, einem Gegenstand 
-   oder dem Buch verlinken wollen, können Sie dafür einen regulären 
-   `Link <../world_view.html#links>`__ verwenden. 
-   So lange das *nv_zim*-Plugin installiert ist, wird *novelibre* Wiki-Seiten unter den 
+   oder dem Buch verlinken wollen, können Sie dafür reguläre 
+   `Links <../world_view.html#links>`__ verwenden. 
+   Wenn das *nv_zim*-Plugin installiert ist, wird *novelibre* Wiki-Seiten unter den 
    Links erkennen und mit der *Zim*-Anwendung öffnen. 
 
 Zim Desktop Wiki-Menü
@@ -135,17 +137,21 @@ werden Sie gefragt, ob Sie ein bestehendes Wiki öffnen, oder ob Sie ein neues e
 Durchsuchen
     öffnet einen Dateiauswahldialog, mit den Sie nach einer Zim-Wiki-Datei mit der
     Dateiendung *.zim* suchen können.
-    Die ausgewählte Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
-    Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus *novelibre* heraus
-    öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.
-    Zim wird mit dem Projekt-Notizbuch gstartet.
+    Zim wird mit dem ausgewählten Projekt-Notizbuch gstartet.
+
+    .. note::
+       Die ausgewählte Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+       Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus *novelibre* heraus
+       öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.
 
 Erzeugen
     legt ein neues leeres Zim-Notizbuch in einem Unterverzeichnis des Projektverzeichnisses an
     und öffnet es mit Zim.
-    Die neue *.zim*-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
-    Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus *novelibre* heraus
-    öffnen, müssen es aber unter Umständen bei der nächsten Sitzung auswählen.
+
+    .. note::
+       Die neue *.zim*-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+       Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus *novelibre* heraus
+       öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.
 
 Abbrechen
     bricht die Aktion ab, ohne Zim zu starten.
@@ -164,12 +170,13 @@ Projekt-Wiki erzeugen
 Mit **Extras > Zim Desktop Wiki > Projekt-Wiki erzeugen** legen Sie ein neues Zim-Notizbuch
 in einem Unterverzeichnis des Projektverzeichnisses an und öffnen es mit Zim.
 Das erzeugte Projekt-Wiki umfasst Seiten für das Buch und für alle Figuren, Schauplätze und Gegenstände.
-Gibt es bereits ein Zim-Notizbuch im vorgesehenen Projekt-Unterverzeichnis, so wird dieses
+Gibt es bereits ein Zim-Notizbuch im Zielverzeichnis, so wird dieses Verzeichnis
 automatisch umbenannt und bleibt als Sicherungskopie erhalten.
 
-Die neue *.zim*-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
-Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus *novelibre* heraus
-öffnen, müssen es aber unter Umständen bei der nächsten Sitzung auswählen.
+.. note::
+   Die neue *.zim*-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+   Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus *novelibre* heraus
+   öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.
 
 
 Wiki-Links entfernen
@@ -212,18 +219,22 @@ Anschließend werden Sie gefragt, ob Sie eine bestehende Wiki-Seite öffnen oder
 Durchsuchen
     öffnet einen Dateiauswahldialog, mit den Sie nach einer Zim-Seite mit der
     Dateiendung *.txt* suchen können.
-    Die ausgewählte Datei wird mit dem in *novelibre* aktuell gewählten Element verlinkt,
-    falls das Projekt nicht gesperrt ist.
-    Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus *novelibre* heraus
-    öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung erneut auswählen.
-    Zim wird mit der gewälten Seite gstartet.
+    Zim wird mit der gewählten Seite gestartet.
+
+    .. note::
+       Die ausgewählte Datei wird mit dem in *novelibre* aktuell gewählten Element verlinkt,
+       falls das Projekt nicht gesperrt ist.
+       Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus *novelibre* heraus
+       öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung erneut auswählen.
 
 Erzeugen
     legt eine neue Wiki-Seite als Bestandteil des Projekt-Wikis an und öffnet es mit Zim.
-    Die neue *.txt*-Datei wird als Wiki-Seite mit dem in *novelibre* aktuell gewählten Element verlinkt,
-    falls das Projekt nicht gesperrt ist.
-    Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus *novelibre* heraus
-    öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung auswählen.
+
+    .. note::
+       Die neue *.txt*-Datei wird als Wiki-Seite mit dem in *novelibre* aktuell gewählten Element verlinkt,
+       falls das Projekt nicht gesperrt ist.
+       Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus *novelibre* heraus
+       öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung auswählen.
 
 Abbrechen
     bricht die Aktion ab, ohne Zim zu starten.

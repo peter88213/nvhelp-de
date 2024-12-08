@@ -77,8 +77,8 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_zim</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#zim-desktop-wiki-einrichten">Zim Desktop Wiki einrichten</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#zim-notizbucher-als-projekt-wikis">Zim-Notizbücher als Projekt-Wikis</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#speicherort">Speicherort</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#seitenstruktur">Seitenstruktur</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dateispeicherorte">Dateispeicherorte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#notizbuchstruktur">Notizbuchstruktur</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#schlagworter">Schlagwörter</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#wiki-links-in-novelibre">Wiki-Links in novelibre</a></li>
 </ul>
@@ -144,18 +144,19 @@ Die Werkzeugleiste erhält eine <img alt="Zim" src="../_images/zim.png" /> Schal
 <section id="zim-desktop-wiki-einrichten">
 <h2>Zim Desktop Wiki einrichten<a class="headerlink" href="#zim-desktop-wiki-einrichten" title="Link to this heading"></a></h2>
 <p>Damit <em>nv_zim</em> das <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>-Anwendungsprogramm
-starten kann, muss es dessen Speicherort kennen.
+starten kann, muss es den Speicherort der Installation kennen.
 Beim Programmhochlauf prüft es die <em>launchers.ini</em>-Datei im <em>novelibre</em>-Konfigurationsverzeichnis.
-Hier ein Beispiel für einen Eintrag unter Windows:</p>
+Hier ein Beispiel mit einem Eintrag unter Windows:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 <span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Files (x86)/Zim Desktop Wiki/zim.exe</span>
 </pre></div>
 </div>
 <p>Falls diese Datei nicht existiert, oder der eingetragene Dateipfad nicht passt,
-prüft das Programm die Standard-Installationspfade für die 32-Bit und die 64-Bit-Versionen unter Windows.
+durchsucht das Programm die Standard-Installationspfade für die 32-Bit und die
+64-Bit-Versionen unter Windows.
 Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.</p>
 <p>Der korrekte Speicherort wird dann automatisch in die <em>launchers.ini</em>-Datei eingetragen.
-Unter Windows gibt es für die Benutzer also nichts zu tun.</p>
+Unter Windows gibt es für die Benutzer üblicherweise nichts zu tun.</p>
 <p>Linux-Benutzer sollten herausfinden, wo sich die Zim-Applikation auf ihrem System befindet,
 und diesen Pfad entweder in eine selbst erzeugte <strong>~/.novx/launchers.ini</strong>-Datei eintragen,
 oder ihn im Dateidialog auswählen, sobald danach gefragt wird.</p>
@@ -170,8 +171,8 @@ Es wird jedoch empfohlen, ein <em>Projekt-Wiki</em> genanntes Notizbuch anzulege
 das mit dem aktuellen <em>novelibre</em>-Projekt, oder auch mit mehreren Projekten einer
 Serie verlinkt wird.
 Dann kann das Programm fehlende Seiten automatisch in diesem Notizbuch anlegen.</p>
-<section id="speicherort">
-<h3>Speicherort<a class="headerlink" href="#speicherort" title="Link to this heading"></a></h3>
+<section id="dateispeicherorte">
+<h3>Dateispeicherorte<a class="headerlink" href="#dateispeicherorte" title="Link to this heading"></a></h3>
 <p>Projekt-Wikis können an beliebigen Speicherorten liegen; wird eines jedoch automatisch
 erzeugt, liegt es im <em>novelibre</em>-Projektverzeichnis in einem Unterverzeichnis namens
 <code class="docutils literal notranslate"><span class="pre">&lt;Projektbezeichnung&gt;_zim</span></code>.</p>
@@ -185,8 +186,8 @@ kann das Programm die Wiki-Links automatisch korrigieren.</p></li>
 verschieben, kann das Programm die Wiki-Links automatisch korrigieren.</p></li>
 </ul>
 </section>
-<section id="seitenstruktur">
-<h3>Seitenstruktur<a class="headerlink" href="#seitenstruktur" title="Link to this heading"></a></h3>
+<section id="notizbuchstruktur">
+<h3>Notizbuchstruktur<a class="headerlink" href="#notizbuchstruktur" title="Link to this heading"></a></h3>
 <p>Automatisch angelegte Projekt-Wikis haben eine „flache“ Struktur, das heißt:
 alle Wiki-Seiten liegen im <em>Home</em>-Ordner des Zim-Notizbuchs.
 Gruppierungen und Baumstrukturen kann man dabei mit Hilfe von Links auf entsprechend
@@ -200,8 +201,9 @@ den Link in <em>novelibre</em> per Auswahldialog erneuern.</p>
 <h3>Schlagwörter<a class="headerlink" href="#schlagworter" title="Link to this heading"></a></h3>
 <p><em>novelibre</em> bietet die Möglichkeit, Figuren, Schauplätze und Gegenstände mit Schlagwörtern
 zu versehen. Wenn <em>nv_zim</em> automatisch eine Wiki-Seite erzeugt, fügt es vorhandene Schlagwörter
-in der geeigneten Notation für <em>Zim</em> ein, und ermöglicht der Anwendung dadurch, solche
-Seiten nach Schlagwörtern zu gruppieren und zu verlinken.</p>
+in der geeigneten Notation für <em>Zim</em> ein. Daturch ist es der Anwendung möglich, solche
+Seiten nach den Kategorien zu gruppieren und zu verlinken, die durch die Schlagwörter
+repräsentiert werden.</p>
 </section>
 <section id="wiki-links-in-novelibre">
 <h3>Wiki-Links in novelibre<a class="headerlink" href="#wiki-links-in-novelibre" title="Link to this heading"></a></h3>
@@ -215,9 +217,9 @@ in der Statuszeile anzeigen.</p>
 <div class="admonition tip">
 <p class="admonition-title">Tipp</p>
 <p>Falls Sie mehr als nur eine Wiki-Seite mit einer Figur, einem Schauplatz, einem Gegenstand
-oder dem Buch verlinken wollen, können Sie dafür einen regulären
-<a class="reference external" href="../world_view.html#links">Link</a> verwenden.
-So lange das <em>nv_zim</em>-Plugin installiert ist, wird <em>novelibre</em> Wiki-Seiten unter den
+oder dem Buch verlinken wollen, können Sie dafür reguläre
+<a class="reference external" href="../world_view.html#links">Links</a> verwenden.
+Wenn das <em>nv_zim</em>-Plugin installiert ist, wird <em>novelibre</em> Wiki-Seiten unter den
 Links erkennen und mit der <em>Zim</em>-Anwendung öffnen.</p>
 </div>
 </section>
@@ -231,19 +233,25 @@ oder mit der Schaltfläche <img alt="Zim" src="../_images/zim.png" /> in der Wer
 verlinkte Zim-Notizbuch öffnen.</p>
 <p>Falls noch keines verlinkt ist, oder wenn die gespeicherte Link-Adresse nicht gültig ist,
 werden Sie gefragt, ob Sie ein bestehendes Wiki öffnen, oder ob Sie ein neues erzeugen wollen:</p>
-<dl class="simple">
+<dl>
 <dt>Durchsuchen</dt><dd><p>öffnet einen Dateiauswahldialog, mit den Sie nach einer Zim-Wiki-Datei mit der
 Dateiendung <em>.zim</em> suchen können.
-Die ausgewählte Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+Zim wird mit dem ausgewählten Projekt-Notizbuch gstartet.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die ausgewählte Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
 Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus <em>novelibre</em> heraus
-öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.
-Zim wird mit dem Projekt-Notizbuch gstartet.</p>
+öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
 </dd>
 <dt>Erzeugen</dt><dd><p>legt ein neues leeres Zim-Notizbuch in einem Unterverzeichnis des Projektverzeichnisses an
-und öffnet es mit Zim.
-Die neue <em>.zim</em>-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+und öffnet es mit Zim.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die neue <em>.zim</em>-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
 Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus <em>novelibre</em> heraus
-öffnen, müssen es aber unter Umständen bei der nächsten Sitzung auswählen.</p>
+öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
 </dd>
 <dt>Abbrechen</dt><dd><p>bricht die Aktion ab, ohne Zim zu starten.</p>
 </dd>
@@ -262,11 +270,14 @@ In diesem Fall wird das <em>Zim</em>-Fenster nicht automatisch in den Vordergrun
 <p>Mit <strong>Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki erzeugen</strong> legen Sie ein neues Zim-Notizbuch
 in einem Unterverzeichnis des Projektverzeichnisses an und öffnen es mit Zim.
 Das erzeugte Projekt-Wiki umfasst Seiten für das Buch und für alle Figuren, Schauplätze und Gegenstände.
-Gibt es bereits ein Zim-Notizbuch im vorgesehenen Projekt-Unterverzeichnis, so wird dieses
+Gibt es bereits ein Zim-Notizbuch im Zielverzeichnis, so wird dieses Verzeichnis
 automatisch umbenannt und bleibt als Sicherungskopie erhalten.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
 <p>Die neue <em>.zim</em>-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
 Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus <em>novelibre</em> heraus
-öffnen, müssen es aber unter Umständen bei der nächsten Sitzung auswählen.</p>
+öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
 </section>
 <section id="wiki-links-entfernen">
 <h3>Wiki-Links entfernen<a class="headerlink" href="#wiki-links-entfernen" title="Link to this heading"></a></h3>
@@ -297,20 +308,26 @@ zutrifft, oder auf den vollständigen Namen der Figur, sofern bekannt, ansonsten
 <p>Ist noch kein Projekt-Wiki definiert, fragt das Programm zunächst nach dem Projekt-Wiki
 und gibt Ihnen die Möglichkeit es auszuwählen oder zu erzeugen (siehe oben).
 Anschließend werden Sie gefragt, ob Sie eine bestehende Wiki-Seite öffnen oder eine neue erzeugen wollen:</p>
-<dl class="simple">
+<dl>
 <dt>Durchsuchen</dt><dd><p>öffnet einen Dateiauswahldialog, mit den Sie nach einer Zim-Seite mit der
 Dateiendung <em>.txt</em> suchen können.
-Die ausgewählte Datei wird mit dem in <em>novelibre</em> aktuell gewählten Element verlinkt,
+Zim wird mit der gewählten Seite gestartet.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die ausgewählte Datei wird mit dem in <em>novelibre</em> aktuell gewählten Element verlinkt,
 falls das Projekt nicht gesperrt ist.
 Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus <em>novelibre</em> heraus
-öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung erneut auswählen.
-Zim wird mit der gewälten Seite gstartet.</p>
+öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
 </dd>
-<dt>Erzeugen</dt><dd><p>legt eine neue Wiki-Seite als Bestandteil des Projekt-Wikis an und öffnet es mit Zim.
-Die neue <em>.txt</em>-Datei wird als Wiki-Seite mit dem in <em>novelibre</em> aktuell gewählten Element verlinkt,
+<dt>Erzeugen</dt><dd><p>legt eine neue Wiki-Seite als Bestandteil des Projekt-Wikis an und öffnet es mit Zim.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die neue <em>.txt</em>-Datei wird als Wiki-Seite mit dem in <em>novelibre</em> aktuell gewählten Element verlinkt,
 falls das Projekt nicht gesperrt ist.
 Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus <em>novelibre</em> heraus
 öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung auswählen.</p>
+</div>
 </dd>
 <dt>Abbrechen</dt><dd><p>bricht die Aktion ab, ohne Zim zu starten.</p>
 </dd>

@@ -195,7 +195,7 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
        die Abschnittstrenner zu zentrieren. 
 
 .. caution::
-   Textauszeichnungen, die nicht `durch novelibre unterstützt werden 
+   Textauszeichnungen, die nicht `von novelibre unterstützt werden 
    <basic_concepts.html#text-formatieren>`__, gehen verloren.
    Dasselbe gilt für Bilder. 
    Wenn also Ihr Werk ein ausgefeiltes Layout braucht, 
