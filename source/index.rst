@@ -30,6 +30,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    properties
    plugins
    tools
+   abandon_novelibre
    about
 
 -----------------

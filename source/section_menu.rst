@@ -128,3 +128,12 @@ mit einer Zeile pro Abschnitt und den folgenden Spalten:
 
 Der Dateinamenszusatz lautet ``_sectionlist``.
 
+Mit ``Strg``-Klick auf eine Abschnittsnummer können Sie zum entsprechenden
+Abschnitt im Manuskript springen.
+Wenn Sie diese Tabelle jedoch bearbeiten, lassen sich die Änderungen
+(im Gegensatz zum `Handlungsraster
+<plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__)
+nicht zu *novelibre* zurückspielen.
+Die Abschnittsliste ist mehr dazu gedacht, die Metadaten des Schreibprojekts
+zu extrahieren, zum Beispiel, falls man *novelibre* nicht weiterverwenden will.
+

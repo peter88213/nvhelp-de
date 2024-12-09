@@ -114,6 +114,10 @@ Der Dateinamenszusatz lautet ``_grid_tmp``.
    sind, dürfen nicht verändert werden, weil sie die Strukturinformationen 
    für den Import enthalten. 
 
+- Mit ``Strg``-Klick auf eine Abschnittsnummer können Sie zum entsprechenden
+  Abschnitt im Manuskript springen.
+- Mit ``Strg``-Klick auf einen Plotlinientitel in der Kopfzeile können Sie zur
+  entsprechenden Plotlinienbeschreibung springen, falls vorhanden (siehe unten).
 
 Erzählstruktur-Beschreibung zum Bearbeiten exportieren
 ------------------------------------------------------
