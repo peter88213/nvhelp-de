@@ -14,7 +14,7 @@ oder ein
 `Handlungsraster <plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren>`__.
 Außerdem je nach Bedarf Beschreibungen Ihrer Figuren, Schauplätze usw.
 als Textdokumente, Tabellen, oder
-`Desktop-Wiki https://github.com/peter88213/<nv_zim/>`__.
+`Desktop-Wiki <https://github.com/peter88213/nv_zim/>`__.
 Das alles können Sie dann von Hand weiterführen.
 
 - Für den Umstieg auf `yWriter <https://spacejock.com/yWriter7.html>`__

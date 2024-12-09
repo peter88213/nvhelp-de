@@ -2,8 +2,8 @@ Erste Schritte
 ==============
 
 Im folgenden werden verschiedene Möglichkeiten beschrieben, mit *novelibre* zu beginnen.
-Wenn Sie ein neues Romanprojekt "von Null" beginnen, können Sie es mit *novelibre* anlegen
-dann Schrit für Schritt aufbauen.
+Wenn Sie ein neues Romanprojekt "von Null" starten, können Sie es mit *novelibre* anlegen
+und dann Schrit für Schritt aufbauen.
 Wenn Sie bereits ein Werk angefangen haben, und das Manuskript als *Writer*-Dokument vorliegt,
 können Sie es nach entsprechender Vorbereitung importieren, und *novelibre* legt automatisch
 die Kapitel- und Abschnittsstruktur an. Auch eine Gliederung mit Inhaltsangaben von geplanten
