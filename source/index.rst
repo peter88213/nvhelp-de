@@ -26,6 +26,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    getting_started
    writing
    plotting
+   metadata
    command_reference
    properties
    plugins
