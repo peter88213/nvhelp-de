@@ -59,7 +59,7 @@ Querverweise
 
 Das mächtigste Werkzeug um mit *novelibre* Beziehungen zwischen den Abschnitten und
 Plotlinien, Figuren, Schauplätzen und Gegenständen anzulegen und zu überblicken,
-ist das `nv_matrix Plugin <https://github.com/peter88213/nv_matrix/>`__.
+ist das `nv_matrix-Plugin <https://github.com/peter88213/nv_matrix/>`__.
 
 Zusätzlich gibt es die Möglichkeit, eine ausführliche
 `Querverweisliste <export_menu.html#querverweise-nur-export>`__
@@ -70,7 +70,7 @@ den Beschreibungsdokumenten enthält.
 Desktop Wiki
 ------------
 
-Mit dem `nv_zim Plugin <https://github.com/peter88213/nv_zim/>`__.
+Mit dem `nv_zim-Plugin <https://github.com/peter88213/nv_zim/>`__
 können Sie einen Teil der Metadaten für die Figuren, Schaupätze und Gegenstände
 in ein Projekt-Wiki kopieren. Das kann dann als Weltenbau-Referenz oder "Serienbibel"
 dienen und ist für solche Zwecke wesentlich mächtiger als *novelibre*.
