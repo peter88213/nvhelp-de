@@ -167,10 +167,10 @@ XML-Datendateien
 **XML-Dateien exportieren, die in anderen Projekten importiert werden können**
 
 Mit **Exportieren >  XML-Datendateien**
-können Sie einen Satz XML-Dateien mit den Figuren, Schauplätzen,
-Gegenständen und Plotlinien des Projekts inklusive ihrer Eigenschaften enthält.
-Mit diesen Dateien können Sie Figuren, Schauplätze, Gegenstände
-und Plotlinien in ein anderes Projekt transferieren.
+können Sie einen Satz XML-Dateien für Figuren, Schauplätze, Gegenstände und Plotlinien
+des Projekts erzeugen.
+Mit diesen Dateien können Sie die entsprechenden Elemente einzeln oder in Gruppen
+in ein anderes Projekt übertragen.
 
 .. hint::
    Um XML-Datendateien aus einem anderen Projekt zu importieren, 
