@@ -3,7 +3,7 @@ novelibre aufgeben
 
 Sie haben eine Menge Zeit und Arbeit in ein Romanprojekt mit *novelibre*
 gesteckt, sind aber zur Ansicht gekommen, dass *novelibre* doch nicht das
-Richtige für Sie ist? Kein Problem, die Mühe war nicht umsonst.
+Richtige für Sie ist? Keine Sorge, die Mühe war nicht umsonst.
 Sie können so gut wie alles in Form von *Writer*-Textdokumenten und
 *Calc*-Tabellen exportieren.
 Wenn Sie also doch lieber nach der klassischen Methode mit OpenOffice oder

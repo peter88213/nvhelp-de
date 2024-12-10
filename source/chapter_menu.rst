@@ -45,6 +45,20 @@ können Sie Kapitel in Teile umwandeln und umgekehrt.
 -  **Zweite Ebene** wandelt die ausgewählten Teile in Kapitel um.
 
 
+Ausgewählte Kapitel in ein neues Projekt verschieben
+----------------------------------------------------
+
+**Ein Buch in zwei aufteilen**
+
+Mit **Kapitel > Ausgewählte Kapitel in ein neues Projekt verschieben** können Sie
+ein neues Projekt erzeugen, das die verschobenen Kapitel/Abschnitte und alle
+durch Beziehungen verknüpfte Elemente und Plotlinien umfasst.
+Die ausgewählten Kapitel werden aus dem aktuellen Projekt entfernt und in ein
+automatisch erzeugtes Projekt eingefügt, dessen Dateipfad Sie mit einem
+Dateiauswahldialog festlegen.
+Alle Beziehungen der verschobenen Abschnitte bleiben erhalten.
+
+
 Kapitelbeschreibungen zum Bearbeiten exportieren
 ------------------------------------------------
 

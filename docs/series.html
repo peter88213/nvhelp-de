@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mit novelibre an einer Buchserie arbeiten &mdash; novelibre Benutzerhandbuch</title>
+  <title>Mehrere Bücher verwalten &mdash; novelibre Benutzerhandbuch</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
@@ -60,7 +60,12 @@
 <li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
 <li class="toctree-l1"><a class="reference internal" href="metadata.html">Die Metadaten im Blick behalten</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Mit novelibre an einer Buchserie arbeiten</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Mehrere Bücher verwalten</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#buchserien-organisieren">Buchserien organisieren</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bucher-aufteilen">Bücher aufteilen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inhalte-verschiedener-bucher-zusammenfuhren">Inhalte verschiedener Bücher zusammenführen</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a></li>
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
@@ -83,7 +88,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Mit novelibre an einer Buchserie arbeiten</li>
+      <li class="breadcrumb-item active">Mehrere Bücher verwalten</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -92,8 +97,43 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="mit-novelibre-an-einer-buchserie-arbeiten">
-<h1>Mit novelibre an einer Buchserie arbeiten<a class="headerlink" href="#mit-novelibre-an-einer-buchserie-arbeiten" title="Link to this heading"></a></h1>
+  <section id="mehrere-bucher-verwalten">
+<h1>Mehrere Bücher verwalten<a class="headerlink" href="#mehrere-bucher-verwalten" title="Link to this heading"></a></h1>
+<p>Wenn sich im Lauf der Zeit die Buchprojekte ansammeln, kann das
+<a class="reference external" href="https://github.com/peter88213/nv_collection/">nv_collection</a>-Plugin
+eine nützliche Hilfe sein.
+Damit legen Sie Sammlungen mit Büchern an, die Sie dann bequem
+mit <em>novelibre</em> öffnen können.
+Mit <em>nv_collection</em> können Sie die Bücher auch zu Serien zusammenfassen.</p>
+<section id="buchserien-organisieren">
+<h2>Buchserien organisieren<a class="headerlink" href="#buchserien-organisieren" title="Link to this heading"></a></h2>
+<p>Bei einer Buchserie teilen sich mehrere Bücher ihre Figuren und die Erzählwelt.
+Es kann auch übergreifende Plotlinien geben.
+Wenn Sie Figuren, Schauplätze, Gegenstände oder Plotlinien
+eines Buchprojekts in ein anderes übernehmen wollen, unterstützt
+<em>novelibre</em> das über den <a class="reference external" href="export_menu.html#xml-datendateien">XML-Export</a>.</p>
+<p>Falls Sie mit <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a> eine „Serienbibel“
+pflegen, können Sie diese mit dem
+<a class="reference external" href="https://github.com/peter88213/nv_zim/">nv_zim</a>-Plugin
+an mehrere <em>novelibre</em>-Projekte als „Projekt-Wiki“ anbinden.</p>
+</section>
+<section id="bucher-aufteilen">
+<h2>Bücher aufteilen<a class="headerlink" href="#bucher-aufteilen" title="Link to this heading"></a></h2>
+<p>Falls Sie ein umfangreiches Buch in zwei oder mehrere Bücher
+aufteilen wollen, können Sie mit <em>novelibre</em> die entsprechenden Kapitel
+in ein neues Projekt
+<a class="reference external" href="chapter_menu.html#ausgewählte-kapitel-in-ein-neues-projekt-verschieben">verschieben</a>.
+Dabei werden alle Figuren, Schauplätze, Gegenstände und Plotlinien, die mit
+den verschobenen Abschnitten verknüpft sind, ins neue Projekt kopiert,
+und die Beziehungen bleiben erhalten.</p>
+</section>
+<section id="inhalte-verschiedener-bucher-zusammenfuhren">
+<h2>Inhalte verschiedener Bücher zusammenführen<a class="headerlink" href="#inhalte-verschiedener-bucher-zusammenfuhren" title="Link to this heading"></a></h2>
+<p>Mit dem <a class="reference external" href="https://github.com/peter88213/nv_clipboard/">nv_clipboard</a>-Plugin
+können Sie Kapitel, Abschnitte sowie die anderen Baumelemente über die Zwischenablage
+in andere <em>novelibre</em>-Projekte verschieben.
+Dabei gehen Beziehungen jedoch verloren.</p>
+</section>
 </section>
 
 
