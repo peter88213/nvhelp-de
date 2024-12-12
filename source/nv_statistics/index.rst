@@ -28,7 +28,7 @@ Charts
 Die Balken im Diagramm zeigen die Anzahl der Wörter im Verhältnis zur Gesamtzahl der Wörter
 in allen verwendeten Abschnitten.
 
-Mit einem Doppelklick auf einen Titel oder einen Balken können Sie das entsprechende
+Mit einem Doppelklick auf einen Titel können Sie das entsprechende
 Element in der *novelibre*-Baumansicht auswählen.
 
 Den Maßstab ändern
