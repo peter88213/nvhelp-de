@@ -73,6 +73,19 @@ Die Ebene eines Kapitels oder Stadiums ändern.
 -  **Zweite Ebene** wandelt einen Teil in ein Kapitel um.
 
 
+Dieses Kapitel exportieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
+exportieren, das nur das ausgewählte Kapitel enthält.
+Existiert bereits ein Manuskript, wird vor dem Export nachgefragt.
+
+.. caution::
+   Das exportierte Dokument erhält den selben Dateinamen wie das   
+   vollständige Manuskript. Falls Sie dieses überschreiben, 
+   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Kapiteln verlorengehen. 
+
 Löschen
 ~~~~~~~
 
@@ -188,6 +201,13 @@ Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 mit den Abschnitten exportieren,
 welche die ausgewählte Figur als Perspektivfigur haben.
 
+.. caution::
+   Das exportierte Dokument erhält den selben Dateinamen wie das   
+   vollständige Manuskript. Falls Sie dieses überschreiben, 
+   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Abschnitten verlorengehen. 
+
+
 Zusammenfassung nach Perspektive gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -195,6 +215,12 @@ Die `Beschreibungen
 <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
 derjenigen Abschnitte exportieren,
 welche die ausgewählte Figur als Perspektivfigur haben.
+
+.. caution::
+   Das exportierte Dokument erhält den selben Dateinamen wie das   
+   vollständige Beschreibungsdokument. Falls Sie dieses überschreiben, 
+   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Abschnittsbeschreibungen verlorengehen. 
 
 
 Löschen
@@ -251,6 +277,13 @@ Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 mit den Abschnitten exportieren,
 welche zur ausgewählten Plotlinie gehören.
 
+.. caution::
+   Das exportierte Dokument erhält den selben Dateinamen wie das   
+   vollständige Manuskript. Falls Sie dieses überschreiben, 
+   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Abschnitten verlorengehen. 
+
+
 Zusammenfassung nach Plottlinie gefiltert exportieren
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -258,6 +291,13 @@ Die `Beschreibungen
 <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
 derjenigen Abschnitte exportieren,
 welche zur ausgewählten Plotlinie gehören.
+
+.. caution::
+   Das exportierte Dokument erhält den selben Dateinamen wie das   
+   vollständige Beschreibungsdokument. Falls Sie dieses überschreiben, 
+   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Abschnittsbeschreibungen verlorengehen. 
+
 
 Löschen
 ~~~~~~~
