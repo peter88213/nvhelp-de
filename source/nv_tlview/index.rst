@@ -1,4 +1,4 @@
-|external-link| `English <https://peter88213.github.io/nvhelp-en/nv_tlview/>`_
+|external-link| `English <https://peter88213.github.io/nvhelp-de/nv_tlview/>`_
 
 .. |external-link| image:: ../_images/external-link.png
 
@@ -72,7 +72,7 @@ Das Abschnittsende verschieben
 - Halten Sie die ``Strg``- und die Umschalttaste gedrückt und klicken Sie auf den Zeitleisteneintrag,
   dann ziehen Sie ihn mit der Maus.
   Damit erhöhen oder verringern Sie die Zeitdauer des Abschnitts,
-  während Startdatum und -zeit erhalten bleiben.
+  während Beginndatum und -zeit erhalten bleiben.
 
 .. hint::
    - Verschiebe-Operationen mit der Maus lassen sich
@@ -149,7 +149,7 @@ Aufgelockert
    wenn sie etwas weiter auseinander liegen.
 
 Normal
-   Das Kaskadieren auf die Standardeinstellung zurücksetzen.
+   Das Kaskadieren auf die Normaleinstellung zurücksetzen.
 
 .. hint::
    Sie können die Grenzen für das Stapeln mit dem Mausrad fein einstellen,

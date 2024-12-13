@@ -30,7 +30,7 @@ Bücher aufteilen
 Falls Sie ein umfangreiches Buch in zwei oder mehrere Bücher
 aufteilen wollen, können Sie mit *novelibre* die entsprechenden Kapitel
 in ein neues Projekt
-`verschieben <chapter_menu.html#ausgewählte-kapitel-in-ein-neues-projekt-verschieben>`__.
+`verschieben <chapter_menu.html#ausgewahlte-kapitel-in-ein-neues-projekt-verschieben>`__.
 Dabei werden alle Figuren, Schauplätze, Gegenstände und Plotlinien, die mit
 den verschobenen Abschnitten verknüpft sind, ins neue Projekt kopiert,
 und die Beziehungen bleiben erhalten.

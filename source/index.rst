@@ -27,6 +27,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    writing
    plotting
    metadata
+   wordcount
    series
    command_reference
    properties
