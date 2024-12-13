@@ -79,7 +79,7 @@ Das Abschnittsende verschieben
      durch Drücken der ``Esc``-Taste vor dem Loslassen
      der Maustaste abbrechen.
    - Verschiebe-Operationen mit der Maus lassen sich
-     mit ``Strg``-``Z`` oder |undo| rückgängig machen. 
+     mit |undo| rückgängig machen. 
 
 
 Befehlsreferenz
@@ -162,7 +162,6 @@ Normal
 
 Online-Hilfe
    Diese Hilfeseite im Webbrowser öffnen.
-   Dasselbe wie ``F1``.
 
 
 Schaltflächen in der Werkzeugleiste am unteren Rand
@@ -216,7 +215,6 @@ Schaltflächen in der Werkzeugleiste am unteren Rand
 |undo| Die letzte Änderung rückgängig machen
    Damit stellen Sie Datum/Uhrzeit/Dauer
    vor der letzten Mausoperation an einem Abschnitt wieder her.
-   Dasselbe wie ``Strg``-``Z``
 
    .. caution::   
       Zwischenzeitliche Änderungen von Datum/Zeit/Dauer am selben Abschnitt 
