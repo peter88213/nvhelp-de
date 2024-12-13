@@ -78,7 +78,7 @@ Dieses Kapitel exportieren
 
 Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 exportieren, das nur das ausgewählte Kapitel enthält.
-Existiert bereits ein Manuskript, wird vor dem Export nachgefragt.
+Existiert bereits ein Manuskript, ist vor dem Export eine Bestätigung erforderlich.
 
 .. caution::
    Das exportierte Dokument erhält den selben Dateinamen wie das   
@@ -200,6 +200,7 @@ Manuskript nach Perspektive gefiltert exportieren
 Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 mit den Abschnitten exportieren,
 welche die ausgewählte Figur als Perspektivfigur haben.
+Existiert bereits ein Manuskript, ist vor dem Export eine Bestätigung erforderlich.
 
 .. caution::
    Das exportierte Dokument erhält den selben Dateinamen wie das   
@@ -215,11 +216,12 @@ Die `Beschreibungen
 <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
 derjenigen Abschnitte exportieren,
 welche die ausgewählte Figur als Perspektivfigur haben.
+Existiert bereits eine Zusammenfassung, ist vor dem Export eine Bestätigung erforderlich.
 
 .. caution::
-   Das exportierte Dokument erhält den selben Dateinamen wie das   
-   vollständige Beschreibungsdokument. Falls Sie dieses überschreiben, 
-   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Das exportierte Dokument erhält den selben Dateinamen wie die  
+   vollständige Zusammenfasung. Falls Sie diese überschreiben, 
+   bevor Sie sie zurückgespielt haben, können Änderungen an anderen 
    Abschnittsbeschreibungen verlorengehen. 
 
 
@@ -276,6 +278,7 @@ Manuskript nach Plotlinie gefiltert exportieren
 Ein `Manuskript <export_menu.html#manuskript-zum-bearbeiten>`__
 mit den Abschnitten exportieren,
 welche zur ausgewählten Plotlinie gehören.
+Existiert bereits ein Manuskript, ist vor dem Export eine Bestätigung erforderlich.
 
 .. caution::
    Das exportierte Dokument erhält den selben Dateinamen wie das   
@@ -284,18 +287,19 @@ welche zur ausgewählten Plotlinie gehören.
    Abschnitten verlorengehen. 
 
 
-Zusammenfassung nach Plottlinie gefiltert exportieren
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Zusammenfassung nach Plotlinie gefiltert exportieren
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Die `Beschreibungen
 <section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren>`__
 derjenigen Abschnitte exportieren,
 welche zur ausgewählten Plotlinie gehören.
+Existiert bereits eine Zusammenfassung, ist vor dem Export eine Bestätigung erforderlich.
 
 .. caution::
-   Das exportierte Dokument erhält den selben Dateinamen wie das   
-   vollständige Beschreibungsdokument. Falls Sie dieses überschreiben, 
-   bevor Sie es zurückgespielt haben, können Änderungen an anderen 
+   Das exportierte Dokument erhält den selben Dateinamen wie die  
+   vollständige Zusammenfasung. Falls Sie diese überschreiben, 
+   bevor Sie sie zurückgespielt haben, können Änderungen an anderen 
    Abschnittsbeschreibungen verlorengehen. 
 
 
