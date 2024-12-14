@@ -12,11 +12,11 @@ abweicht.
 
 Andere Größen wie die Zahl der Anschläge (Zeichenzahl) und der Schreibmaschinenseiten erhält
 man sehr bequem in *Writer* anhand eines exportierten Manuskripts.
-Hier hilft auch das Format des von *novelibre* exportierten Manuskripts, das der Normseite mit
+Hier hilft auch das Format des *novelibre*-Manuskripts, das der Normseite mit
 30 Zeilen zu 60 Anschlägen entspricht.
 
 Die Textmenge ist in zweierlei Hinsicht interessant:
-Zum einen kann man damit seine Fortschritte beim Schreiben überblicken.
+Zum einen kann man damit seine Fortschritte beim Schreiben verfolgen.
 Dazu lässt sich der Umfang des geplanten Buchs eingeben, oder auch ein zeitweiliges
 Schreibziel, zum Beispiel für den `NaNoWriMo <https://nanowrimo.org/>`__.
 Aktiviert man die Protokollierung des Schreibfortschritts, kann man sich mit Hilfe des
