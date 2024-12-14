@@ -14,6 +14,13 @@ Die Geschichte beginnt nach dieser Zählung am Tag Null.
 Für das spezifische Datum gilt bei *novelibre* der gregorianische Kalender.
 Sie können nur positive Datumsangaben mit Jahreszahlen zwischen 0001 und 9999 eingeben.
 
+Die Namen von Wochentagen und Monaten erhält *novelibre* vom Betriebssystem;
+es wird also die Systemsprache verwendet. Standardmäßig werden Datumsangaben
+so ausgegeben, wie es in der Systemsprache üblich ist.
+Falls Ihnen das nicht zusagt, können Sie eine
+`Einstellung <view_menu.html#lokalisierte-datumsangaben-anzeigen>`__
+wählen, in der das Datum im ISO-Format ausgegeben wird, so wie Sie es auch eingeben.
+
 Datums- und Zeitangaben sind optional; Sie können jedem Abschnitt entweder
 ein spezifisches oder ein unspezifisches oder gar kein Datum zuweisen.
 *novelibre* kann spezifische Datumsangaben in unspezifische umwanldeln und umgekehrt,
