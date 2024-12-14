@@ -8,9 +8,11 @@ nützliche Informationen zur Verfügung, vom aktuellen Wochentag über die Mondp
 bis zum Alter der beteiligten Figuren.
 
 Sie können jedem Abschnitt ein Datum, eine Zeit und eine Zeitdauer zuordnen.
-Das Datum kann spezifisch oder unzpezifisch sein, wobei mit unspezifisch
+Das Datum kann unzpezifisch oder spezifisch sein, wobei mit unspezifisch
 die Anzahl der Tage seit Handlungsbeginn gemeint ist.
 Die Geschichte beginnt nach dieser Zählung am Tag Null.
+Für das spezifische Datum gilt bei *novelibre* der gregorianische Kalender.
+Sie können nur positive Datumsangaben mit Jahreszahlen zwischen 0001 und 9999 eingeben.
 
 Datums- und Zeitangaben sind optional; Sie können jedem Abschnitt entweder
 ein spezifisches oder ein unspezifisches oder gar kein Datum zuweisen.
