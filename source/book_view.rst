@@ -150,8 +150,8 @@ Die Bearbeitung der Kategorien können Sie mit der Eingabetaste beenden.
       Sterbedatum erhalten.      
 
 
-Erzählzeit
-----------
+Erzählte Zeit
+-------------
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 

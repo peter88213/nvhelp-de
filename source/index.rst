@@ -28,6 +28,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    plotting
    metadata
    wordcount
+   story_time
    series
    command_reference
    properties

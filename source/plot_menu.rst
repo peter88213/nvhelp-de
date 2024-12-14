@@ -87,8 +87,8 @@ mit einer Zeile pro Abschnitt und den folgenden Spalten:
 
 - Abschnitts-ID (eingeklappt)
 - Abschnittsnummer (Hyperlink zum Manuskript)
-- Erzähldatum
-- Erzählzeit
+- Handlungsdatum
+- Handlungszeit
 - Tag
 - Abschnittstitel
 - Abschnittsbeschreibung

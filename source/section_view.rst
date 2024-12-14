@@ -223,7 +223,7 @@ Zum verbundenen Element springen
 Datum/Zeit
 ----------
 
-Hier können Sie Informationen zur Erzählzeit eingeben.
+Hier können Sie Informationen zur erzählten Zeit eingeben.
 Die Bearbeitung können Sie mit der Eingabetaste beenden.
 
 .. hint::
