@@ -136,7 +136,7 @@ oder weisen Sie der Notiz im Inspector den "Cloud"-Rahmen zu.
 
 
 Schlagwörter kennzeichnen
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wenden Sie entweder das "Tag"-Format per Kontextmenü an,
 oder weisen Sie der Notiz im Inspector den "Square"-Rahmen zu.

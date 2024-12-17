@@ -280,7 +280,7 @@ Datum/Zeit löschen
 
 Erzeugen
    Das erzeugt Datum und Zeit aus Datum, Zeit und Dauer des
-   `vorhergehenden Abschnitts <navigationsschaltflachen_>`_,
+   `vorhergehenden Abschnitts <navigationsschaltflächen_>`_,
    so dass der ausgewählte Abschnitt unmittelbar auf den
    vorhergehenden folgt.
 
@@ -313,7 +313,7 @@ Dauer löschen
 
 Erzeugen
    Das erzeugt die Zeitdauer aus den Datum-Zeitangaben des
-   `folgenden Abschnitts <navigationsschaltflachen_>`_,
+   `folgenden Abschnitts <navigationsschaltflächen_>`_,
    so dass dieser direkt auf den aktuell gewählten folgt.
 
 

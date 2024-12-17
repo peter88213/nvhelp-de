@@ -14,7 +14,7 @@ Diese Seite gilt für die neueste Ausgabe von `nv_clipboard
 <https://github.com/peter88213/nv_clipboard/>`__.
 Sie können sie mit **Hilfe > Zwischenablage Online-Hilfe** öffnen.
 
-Das Plugin fügt der *novelibre*-`Werkzeugleiste <../toolbar.html>`__ zwei neue
+Das Plugin fügt der *novelibre*-`Werkzeugleiste <../toolbar.html>`__ drei neue
 Schaltflächen hinzu,
 Außerdem den Eintrag **Zwischenablage Online-Hilfe** im **Hilfe**-Menü.
 
