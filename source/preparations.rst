@@ -4,38 +4,20 @@ Vorbereitungen
 novelibre einrichten
 --------------------
 
-Wäre *novelibre* ein käufliches Anwendungsprogramm,
-würden alle im folgenden beschriebenen Schritte
-automatisch durch das Installationsprogramm ausgeführt werden.
-Unter Windows wäre das beispielsweise eine *.exe*
-oder *.msi*-Datei, die mit besonderen Rechten ausgeführt
-werden müsste und vielleicht sogar ein teures Zertifikat
-benötigte, um zum Herunterladen und zur Installation
-zugelassen zu werden.
+Die eigentliche Installation von *novelibre* ist einfach und unkompliziert.
+Dabei legt das Installationsprogramm automatisch ein Installationsverzeichnis an,
+kopiert alles Nötige hinein, und erzeugt eine für den jeweiligen Rechner
+angepasste Startdatei namens *run.pyw*, die man aufrufen muss, um *novelibre*
+auszuführen.
 
-Dann gibt es noch das Problem, dass für jedes Betriebssystem
-ein eigenes Installationsprogramm erstellt und gepflegt
-werden müsste.
-Für Linux müssten Installationspakete oder Images bereitgestellt
-werden, wofür es eine Vielzahl unterschiedlicher Standards gibt.
+Die notwendige Handarbeit besteht darin, diese Startdatei mit dem Desktop zu
+verknüpfen und, falls gewünscht, der Verknüpfung ein Programmsymbol zuzuweisen.
+Außerdem zeige ich, wie man es unter Windows einrichtet, dass die
+*novelibre*-Projektdateien ein eigenes Programmsysmbol erhalten, und dass beim
+Doppelklicken darauf die Programmanwendung gestartet wird.
 
-Weil ich keine Softwarefirma betreibe, sondern nur ein
-Hobbyprogrammierer bin, der seine Zeit eigentlich lieber
-mit Romanschreiben verbrächte, habe ich beschlossen, einen
-anderen Weg zu gehen:
-Ich stelle ein ausführbares Python-Zip-Archiv bereit,
-das unter allen Betriebssystemen gleich funktioniert,
-sofern Python korrekt installiert ist.
-Für die Installation und den Betrieb von *novelibre*
-ist keine Internetverbindung notwendig.
-
-Die allerletzten Schritte, die vom verwendeten
-Betriebssystem abhängen und eventuell auch besondere
-Benutzerrechte erfordern, müssen die unerschrockenen
-Benutzer selbst ausführen.
-Ich tue mein Bestes, um diese Schritte zu erleichtern,
-und gebe im weiteren eine detaillierte Anleitung für Windows.
-Viel Vergnügen!
+Mit meinen einfachen Mitteln kann ich das leider nicht automatisieren,
+ohne dass es Probleme mit den Sicherheitsmechanismen des Betriebssystems kommt.
 
 
 Das Programm installieren
@@ -365,4 +347,5 @@ mit einem einzigen Mausklick anpassen können.
    `novelibre-tools 
    <https://github.com/peter88213/novelibre-tools/>`__-Erweiterung enthalten ist.
       
+
    
