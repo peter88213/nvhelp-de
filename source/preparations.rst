@@ -7,7 +7,7 @@ novelibre einrichten
 Die eigentliche Installation von *novelibre* ist einfach und unkompliziert.
 Dabei legt das Installationsprogramm automatisch ein Installationsverzeichnis an,
 kopiert alles Nötige hinein, und erzeugt eine für den jeweiligen Rechner
-angepasste Startdatei namens *run.pyw*, die man aufrufen muss, um *novelibre*
+angepasste Startdatei namens **run.pyw**, die man aufrufen muss, um *novelibre*
 auszuführen.
 
 Die notwendige Handarbeit besteht darin, diese Startdatei mit dem Desktop zu
