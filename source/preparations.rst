@@ -17,7 +17,7 @@ Außerdem zeige ich, wie man es unter Windows einrichtet, dass die
 Doppelklicken darauf die Programmanwendung gestartet wird.
 
 Mit meinen einfachen Mitteln kann ich das leider nicht automatisieren,
-ohne dass es Probleme mit den Sicherheitsmechanismen des Betriebssystems kommt.
+ohne Probleme mit den Sicherheitsmechanismen des Betriebssystems zu bekommen.
 
 
 Das Programm installieren
