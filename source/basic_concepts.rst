@@ -2,6 +2,24 @@ Grundlegende Konzepte
 =====================
 
 
+Zusammenfassung
+   - Mit *novelibre* können Sie Ihren Roman auf drei hierarchischen Ebenen organisieren.
+   - Wenn Sie Ihren Roman kürzen, können Sie einzelne Kapitel und Abschnitte
+     ausblenden, ohne sie gleich zu löschen.
+     Auch können Sie Abschnitte mit alternativem Text verfassen, um später
+     zu entscheiden,  was davon Sie in die endgültige Fassung aufnehmen wollen.
+     Dazu bestimmen Sie einen *Typ*.
+   - Zur Organisation Ihres Schreibprojekts gehört der Überblick über den
+     qualitativen Fortschritt der Arbeit. Mit Hilfe des *Abschnitts-Status*
+     und von Abschnittsnotizen
+     können Sie das bis auf die Ebene der Abschnitte herunterbrechen.
+   - *novelibre* bietet eine begrenzte Anzahl von Möglichkeiten, Text hervorzuheben.
+   - Kommentare, Fuß- und Endnoten, die Sie mit *Writer* einfügen, gehen nicht verloren.
+   - Sprachzuordnungen für die Rechtschreibprüfung in *Writer* gehen nicht verloren.
+   - Damit Sie nicht durcheinanderkommen, kann *novelibre* das Projekt gegen
+     Veränderungen sperren, solange Sie mit OpenOffice oder LibreOffice arbeiten.
+
+
 Die Buch-Hierarchie
 -------------------
 
@@ -126,6 +144,11 @@ oder *Fertiggestellt*.
 -  Neu erstellte Abschnitte erhalten den Status "Gliederung".
 -  Wortzahlen nach Status erscheinen in den `Bucheigenschaften
    <book_view.html#schreibfortschritt>`__.
+
+.. hint::
+   Für genauere Angaben dazu, was für einen Abschnitt noch getan werden muss, 
+   sind die Abschnittsnotizen in Form von 
+   `"Haftmerkern" <section_view.html#haftmerker>`__ gedacht.
 
 
 -----------------

@@ -1,6 +1,10 @@
 Einführung
 ==========
 
+Dieses Kapitel handelt von der Bedeutung von Computersoftware
+für Romanautoren, und wie *novelibre* hier einzuordnen ist.
+
+
 Bürosoftware im Vergleich zu Autorensoftware
 --------------------------------------------
 
@@ -118,7 +122,6 @@ Wie auch immer Sie den Weg hierher gefunden haben,
 ich wünsche Ihnen viel Freude und Erfolg beim Schreiben Ihres Romans
 mit *novelibre*!
 
-Peter
 
 
 
