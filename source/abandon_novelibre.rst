@@ -6,6 +6,11 @@ gesteckt, sind aber zur Ansicht gekommen, dass *novelibre* doch nicht das
 Richtige für Sie ist? Keine Sorge, die Mühe war nicht umsonst.
 Sie können so gut wie alles in Form von *Writer*-Textdokumenten und
 *Calc*-Tabellen exportieren.
+
+
+So verwenden Sie Ihre Projekte ohne novelibre weiter
+----------------------------------------------------
+
 Wenn Sie also doch lieber nach der klassischen Methode mit OpenOffice oder
 LibreOffice weiterarbeiten, erzeugen Sie einfach ein
 `endgültiges Manuskriptdokument <export_menu.html#endgultiges-manuskriptdokument-nur-export>`__
@@ -34,7 +39,30 @@ ganz andere Dateiformate aus den *.novx*-Dateien zu erzeugen.
 Beispiele dafür finden sich
 `im novelibre repository <https://github.com/peter88213/novelibre/tree/main/xslt>`__.
 
+
+So deinstallieren Sie novelibre
+-------------------------------
+
+1. Öffnen Sie den Installationsordner (das Unterverzeichnis ``.novx`` in Ihrem
+   Benutzerverzeichnis).
+
+   .. tipp::
+      Besonders einfach geht das aus *novelibre* heraus mit
+      **Extras > Installationsordner öffnen**.
+ 
+2. Falls Sie *novelibre* unter Windows als Standardanwendung für *.novx*-Dateien
+   eingerichtet haben, machen Sie das rückgängig, indem Sie
+   ``remove_novelibre.reg`` ausführen (Doppelklick und bestätigen).
+
+3. Wechseln Sie eine Ebene höher in Ihr Benutzerverzeichnis und löschen Sie den
+   Installationsordner. Damit verschwindet *novelibre* mitsamt den Plugins
+   und Hilfsprogrammen von Ihrem Computer.
+
+4. Entfernen Sie die *novelibre*-Verknüpfung vom Desktop.
+
+
 .. note::
    Als Entwickler interessiere ich mich natürlich für Ihre Erfahrungen mit *novelibre*. 
    Zögern Sie nicht, einen entsprechenden Beitrag im 
    `Diskussionsforum <https://github.com/peter88213/novelibre/discussions>`__ zu hinterlassen. 
+
