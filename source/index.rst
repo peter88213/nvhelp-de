@@ -33,7 +33,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    command_reference
    properties
    plugins
-   tools
+   utilities
    abandon_novelibre
    about
 
