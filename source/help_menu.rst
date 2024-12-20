@@ -16,6 +16,14 @@ Online-Hilfe
 Mit **Hilfe > Online-Hilfe**
 können Sie Ihren System-Webbrowser mit der URL der *novelibre*-Onlinehilfe aufrufen.
 
+
+Über novelibre
+--------------
+
+Mit **Hilfe > Über novelibre**
+können Sie sich ein Fenster mit rechtlichen Hinweisen anzeigen lassen.
+
+
 novelibre Homepage
 ------------------
 
