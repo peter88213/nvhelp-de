@@ -90,7 +90,7 @@ alle Wiki-Seiten liegen im *Home*-Ordner des Zim-Notizbuchs.
 Gruppierungen und Baumstrukturen kann man dabei mit Hilfe von Links auf entsprechend
 strukturierten Übersichtsseiten anlegen. Gegenüber einer Ordnerstruktur hat das den Vorteil,
 dass sich jede Seite unter mehreren unterschiedlichen Gesichtspunkten einordnen lässt.
-Wenn Sie stattdessen eine hierarchiesche Struktur bevorzugen, können Sie automatisch
+Wenn Sie stattdessen eine hierarchische Struktur bevorzugen, können Sie automatisch
 erzeuge Wiki-Seiten nachträglich in *Zim* verschieben, müssen aber unter Umständen
 den Link in *novelibre* per Auswahldialog erneuern.
 
@@ -110,7 +110,7 @@ Wiki-Links in novelibre
 wenn das Projekt zum Zeitpunkt der Verlinkung nicht gesperrt ist.
 Andernfalls merkt sich das Programm diese Dateipfade nur für die aktuelle Sitzung,
 um das gesperrte Projekt nicht zu verändern.
-Wenn Sie aber das Pojekt nchträglich entsperren, und das Wiki oder eine Seite erneut öffnen,
+Wenn Sie aber das Pojekt nachträglich entsperren, und das Wiki oder eine Seite erneut öffnen,
 wird *novelibre* die Dateipfade automatisch speichern und eine entsprechende Meldung
 in der Statuszeile anzeigen.
 
