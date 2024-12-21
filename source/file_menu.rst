@@ -184,7 +184,7 @@ Das kann helfen, Verwirrung über Änderungen, die mit *novelibre* und
 Speichern
 ---------
 
-**Das projekt speichern**
+**Das Projekt speichern**
 
 Mit **Datei > Speichern** oder ``Strg``-``S``
 können Sie das Projekt speichern.
