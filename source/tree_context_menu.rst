@@ -303,6 +303,23 @@ Existiert bereits eine Zusammenfassung, ist vor dem Export eine Bestätigung erf
    Abschnittsbeschreibungen verlorengehen. 
 
 
+Abschnitte zu Unbenutzt ändern
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Alle Abschnitte, die der ausgewählten Plotlinie zugeordnet sind, als
+`Unbenutzt <basic_concepts.html#teil-kapitel-abschnittstypen>`__ markieren.
+Damit wird die ganze Plotlinie aus dem Manuskript genommen.
+
+
+Abschnitte zu Normal ändern
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Alle Abschnitte, die der ausgewählten Plotlinie zugeordnet sind, als
+`Normal <basic_concepts.html#teil-kapitel-abschnittstypen>`__ markieren.
+Damit lässt sich eine herausgenommene Plotlinie wieder ins Manuskript
+integrieren.
+
+
 Löschen
 ~~~~~~~
 
