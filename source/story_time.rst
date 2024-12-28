@@ -23,7 +23,7 @@ wählen, in der das Datum im ISO-Format ausgegeben wird, so wie Sie es auch eing
 
 Datums- und Zeitangaben sind optional; Sie können jedem Abschnitt entweder
 ein spezifisches oder ein unspezifisches oder gar kein Datum zuweisen.
-*novelibre* kann spezifische Datumsangaben in unspezifische umwanldeln und umgekehrt,
+*novelibre* kann spezifische Datumsangaben in unspezifische umwandeln und umgekehrt,
 wenn Sie in den `Bucheigenschaften <book_view.html#erzahlte-zeit>`__
 ein Bezugsdatum für den Tag Null eingeben.
 Selbst wenn Sie keine spezifischen Datumsangaben in Ihrer
