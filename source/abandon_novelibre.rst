@@ -46,7 +46,7 @@ So deinstallieren Sie novelibre
 1. Öffnen Sie den Installationsordner (das Unterverzeichnis ``.novx`` in Ihrem
    Benutzerverzeichnis).
 
-   .. tipp::
+   .. tip::
       Besonders einfach geht das aus *novelibre* heraus mit
       **Extras > Installationsordner öffnen**.
  

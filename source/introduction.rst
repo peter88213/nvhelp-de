@@ -1,3 +1,13 @@
+.. |novelibre logo| image:: _images/nLogo32.png
+   :target: https://github.com/peter88213/novelibre/
+
+|external-link| `English <https://peter88213.github.io/nvhelp-en/introduction.html>`__
+
+.. |external-link| image:: _images/external-link.png
+
+-----------------
+
+==========
 Einführung
 ==========
 
