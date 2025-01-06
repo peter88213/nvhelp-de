@@ -37,9 +37,12 @@ Zunächst legen wir mit **Datei > Neu > Leeres Projekt** ein neues leeres Projek
    
 Ein Dateiauswahldialog öffnet sich und fragt nach dem Dateinamen und dem Speicherort
 des neuen Projekts.
+Anders als bei OpenOffice/LibreOffice, ist der Dateiauswahldialog nicht auf ein
+definiertes Dokumentenverzeichnis voreingestellt. Wenn Sie einen Dateinamen für
+Ihr Projekt eingeben, achten Sie darauf, auch das richtige Projektverzeichnis zu wählen.
 
 .. tip::
-   Es ist von Vorteil, einen eigenen Ordner für das Projekt anzulegen, 
+   Es ist empfehlenswert, einen eigenen Ordner für das Projekt anzulegen, 
    da alle exportierten Dokumente auch hier gespeichert werden. 
    Dazu gehören auch Hilfsdateien wie Zeitleisten oder projektbezogene 
    Konfigurationsdateien für Werkzeuge und Plugins. 
@@ -199,6 +202,12 @@ mit *Writer* begonnen und wollen nun mit *novelibre* weiterarbeiten.
 In diesem Fall stellen Sie zunächst sicher, dass es so gestaltet ist,
 dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
 
+.. tip::
+   Es ist empfehlenswert, einen eigenen Ordner für das Projekt anzulegen 
+   und Ihr Manuskript dorthin zu verschieben, bevor Sie es mit *novelibre* 
+   importieren. 
+     
+
 .. important::
    Einen Text für den Import vorbereiten
       Im bestehenden Manuskript darf es keine Überschrift dritter Ordnung geben.
@@ -233,7 +242,7 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
    das in der
    `novelibre-tools 
    <https://github.com/peter88213/novelibre-tools/>`__-Erweiterung enthalten ist.
-     
+
 Wenn Ihr Manuskript vorbereitet ist, erzeugen Sie Ihr neues Projekt
 mit **Datei > Neu > Aus ODT erzeugen...**.
 
@@ -271,6 +280,11 @@ Wenn *novelibre* Überschriften dritter Ordnung findet, betrachtet es
 den gesamten Textkörper als Beschreibung.
 In diesem Fall werden Textauszeichnungen nicht berücksichtigt.
 
+.. tip::
+   Es ist empfehlenswert, einen eigenen Ordner für das Projekt anzulegen 
+   und Ihre Gliederung dorthin zu verschieben, bevor Sie es mit *novelibre* 
+   importieren. 
+     
 .. important::
    Eine Gliederung für den Import vorbereiten
       Eine Gliederung hat mindestens eine Überschrift dritter Ordnung.
