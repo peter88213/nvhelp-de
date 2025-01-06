@@ -39,9 +39,8 @@ und die Beziehungen bleiben erhalten.
 Inhalte verschiedener Bücher zusammenführen
 -------------------------------------------
 
-Mit dem `nv_clipboard <https://github.com/peter88213/nv_clipboard/>`__-Plugin
-können Sie Kapitel, Abschnitte sowie die anderen Baumelemente über die Zwischenablage
-in andere *novelibre*-Projekte verschieben.
+Sie können außerdem Kapitel, Abschnitte sowie die anderen Baumelemente
+über die Zwischenablage in andere *novelibre*-Projekte verschieben.
 Dabei gehen Beziehungen jedoch verloren.
 
 

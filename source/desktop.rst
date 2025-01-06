@@ -87,6 +87,25 @@ Das zu löschende Element auswählen und die ``Entf``-Taste drücken.
 - Wird das "Papierkorb"-Kapitel gelöscht, löscht das auch die enthaltenen Abschnitte.
 
 
+Baumelemente kopieren und einfügen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sie können die folgenden Baumelemente über die Zwischenablage kopieren und einfügen:
+
+- Teile und Kapitel,
+- Abschnitte,
+- Stadien,
+- Plotlinien,
+- Plotpunkte,
+- Figuren,
+- Schauplätze,
+- Gegenstände,
+- Projektnotizen.
+
+Elemente können einzeln über die Zwischenablage übertragen werden.
+Die Eigenschaften und "Kinder" des Elements werden kopiert, mit Ausnahme der Beziehungen.
+
+
 Textbetrachter
 --------------
 
