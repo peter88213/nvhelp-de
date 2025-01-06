@@ -44,6 +44,10 @@ des neuen Projekts.
    Dazu gehören auch Hilfsdateien wie Zeitleisten oder projektbezogene 
    Konfigurationsdateien für Werkzeuge und Plugins. 
 
+.. important::
+   Stellen Sie bitte sicher, dass ihr neues Projekt nicht im 
+   Installationsordner liegt.
+
 Es ist nicht obligatorisch, aber wir sollten dann einen Titel
 und einen Autorennamen eingeben, vielleicht auch eine Beschreibung unserer Idee.
 Um gleich loslegen zu können, verschieben wir die restlichen
