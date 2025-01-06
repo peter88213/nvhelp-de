@@ -60,6 +60,39 @@ Dasselbe wie ``Entf``.
 
 -----------------
 
+|Cut| Das ausgewählte Element aus dem Baum in die Zwischenablage verschieben.
+Dasselbe wie ``Strg``-``X``.
+
+|Copy| Das ausgewählte Element in die Zwischenablage kopieren.
+Dasselbe wie ``Strg``-``C``.
+
+|Paste| Das Element aus der Zwischenablage in den Baum einfügen.
+Dasselbe wie ``Strg``-``V``.
+
+Sie können die folgenden Baumelemente über die Zwischenablage kopieren und einfügen:
+
+- Teile und Kapitel,
+- Abschnitte,
+- Stadien,
+- Plotlinien,
+- Plotpunkte,
+- Figuren,
+- Schauplätze,
+- Gegenstände,
+- Projektnotizen.
+
+.. hint::
+   Falls mehrere Elemente markiert sind, wird nur das erste kopiert.
+   Hat das Element jedoch "Kinder", werden diese auch kopiert und eingefügt. 
+
+.. attention::
+   Beziehungen werden beim Kopieren oder Verschieben in die Zwischenablage nicht mitgenommen.
+   Das gilt auch für die Abschnitts-Perspektive und für Plotlinien/Plotpunkte.
+
+
+
+-----------------
+
 |Textbetrachter anzeigen/verbergen| Textbetrachter anzeigen/verbergen.
 Dasselbe wie **Ansicht > Textbetrachter anzeigen/verbergen** or ``Strg``-``T``.
 
@@ -86,3 +119,6 @@ Dasselbe wie **Ansicht > Eigenschaften anzeigen/verbergen** or ``Strg``-``Alt``-
 .. |Löschen| image:: _images/remove.png
 .. |Textbetrachter anzeigen/verbergen| image:: _images/viewer.png
 .. |Eigenschaften anzeigen/verbergen| image:: _images/properties.png
+.. |Cut| image:: _images/cut.png
+.. |Copy| image:: _images/copy.png
+.. |Paste| image:: _images/paste.png
