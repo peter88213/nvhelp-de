@@ -14,13 +14,17 @@ Diese Seite gilt für die neueste Ausgabe von `nv_statistics
 <https://github.com/peter88213/nv_statistics/>`__.
 Sie können sie mit **Hilfe > Projektstatistik Online-Hilfe** öffnen.
 
-Das Plugin fügt dem *novelibre* **Extras**-Menü den Eintrag **Projektstatistik-Ansicht** hinzu.
+Das Plugin fügt dem *novelibre* **Extras**-Menü den Eintrag **Projektstatistik-Ansicht** hinzu,
+und dem **Hilfe**-Menü den Eintrag **Projektstatistik Online-Hilfe**.
+Die Werkzeugleiste erhält eine |Projektstatistik| Schaltfläche.
 
+.. |Projektstatistik| image:: _images/statistics.png
 
 Das Programm starten
 --------------------
 
-- Öffnen Sie die Projektstatistik-Ansicht über das Hauptmenü: **Extras > Projektstatistik-Ansicht**.
+- Öffnen Sie die Projektstatistik-Ansicht über das Hauptmenü: **Extras > Projektstatistik-Ansicht**,
+- oder über die |Projektstatistik|-Schaltfläche in der Werkzeugleiste.
 
 Charts
 ------
