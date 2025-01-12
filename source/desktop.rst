@@ -50,12 +50,20 @@ Sich durch den Baum bewegen
    Damit können Sie sich vor- und zurückbewegen, zum Beispiel zwischen einem
    Abschnitt und den Figuren, die in ihm vorkommen.
 
-   - |Gehe zurück| geht einen Knoten zurück in im Browserverlauf.
-   - |Gehe vor| geht einen Knoten vor in im Browserverlauf.
+   - |Gehe zurück| oder ``Alt``-``Links``: Gehe einen Knoten zurück in im Verlauf.
+   - |Gehe vor| oder ``Alt``-``Rechts``: Gehe einen Knoten vor in im Verlauf.
 
    .. hint::
       Unter Windows sollten die "Vor" und "Zurück"-Maustasten (falls 
       vorhanden) ebenfalls funktionieren.  
+
+Knoten anderer Art überspringen
+   Mit gedrückter ``Alt``-Taste können Sie direkt zum vorigen oder
+   nächsten Baumelement auf der selben Ebene (z.B. Abschnitt oder Kapitel oder Figur)
+   navigieren.
+
+   *  ``Alt``-``Auf``: Gehe zum vorherigen Knoten der gleichen Art.
+   *  ``Alt``-``Ab``: Gehe zum nächsten Knoten der gleichen Art.
 
 
 Baumelemente verschieben
