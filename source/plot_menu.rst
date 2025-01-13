@@ -90,6 +90,7 @@ mit einer Zeile pro Abschnitt und den folgenden Spalten:
 - Handlungsdatum
 - Handlungszeit
 - Tag
+- Dauer (<Tage>d <Stunden>h <Minuten>min)
 - Abschnittstitel
 - Abschnittsbeschreibung
 - Perspektivfigur (Kurzname)
