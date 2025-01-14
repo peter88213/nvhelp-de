@@ -6,6 +6,64 @@ Extras-Menü
 .. note:: 
    Das *Extras*-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.
 
+
+Sicherungseinstellungen
+-----------------------
+
+**Projektunabhängige Programmeinstellungen**
+
+Mit **Extras > Sicherungseinstellungen**
+können Sie einen Dialog mit Einstellungen für die Datensicherung öffnen.
+
+.. figure:: _images/tools_menu02.png
+   :alt: novelibre Screenshot
+
+Oben im Fenster wird der Pfad zum Sicherungsverzeichnis angezeigt,
+falls eines eingestellt ist.
+
+
+Sicherungsverzeichnis ändern
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Damit öffnen Sie einen Verzeichnisauswahldialog, mit dem Sie
+das Sicherungsverzeichnis auswählen können.
+
+.. tip::
+   Um einem Festplattenausfall vorzubeugen, können Sie auch ein 
+   externes Laufwerk oder einen USB-Stick angeben. 
+   
+
+Sicherungsverzeichnis öffnen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Damit öffnen Sie das Sicherungsverzeichnis mit dem Dateimanager.
+Das dient dem schnellen Zugriff, falls Sie eine Projektdatei
+wiederherstellen wollen.
+
+
+Sicherungskopien erzeugen
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wenn dieses Feld angekreuzt ist, erzeugt *novelibre* bei jedem Abspeichern
+eine Kopie der Projektdatei im eingestellten Sicherungsverzeichnis.
+Um zu verhindern, dass versehentlich mit dieser Sicherungskopie gearbeitet
+wird, erhält ihre Dateinamenserweiterung den Zusatz ``#``.
+
+.. hint::
+   Damit können sie die Datensicherung zeitweililg abschalten, 
+   wobei das Sicherungsverzeichnis eingestellt bleibt.
+
+
+Installationsordner öffnen
+--------------------------
+
+**Die Dateiverwaltung aufrufen**
+
+Mit **Extras > Installationsordner öffnen**
+können Sie den *novelibre*-Installationsordner im Dateimanager öffnen.
+Das kann praktisch sein, wenn Sie Konfigurationsdateien bearbeiten
+oder eigene Plugins installieren wollen.
+
 Pluginmanager
 -------------
 
@@ -62,14 +120,4 @@ Wie Sie ein Plugin deinstallieren
         als die Nebenversionsnummer von *novelibre* ist,
         muss *novelibre* aktualisiert werden.
 
-
-Installationsordner öffnen
---------------------------
-
-**Die Dateiverwaltung aufrufen**
-
-Mit **Extras > Installationsordner öffnen**
-können Sie den *novelibre*-Installationsordner im Dateimanager öffnen.
-Das kann praktisch sein, wenn Sie Konfigurationsdateien bearbeiten
-oder eigene Plugins installieren wollen.
 

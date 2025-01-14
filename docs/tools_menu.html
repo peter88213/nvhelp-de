@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=c72e1b89"></script>
+      <script src="_static/documentation_options.js?v=d5e82793"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -72,8 +72,14 @@
 <li class="toctree-l2"><a class="reference internal" href="export_menu.html">Exportieren-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="import_menu.html">Importieren-Menü</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Extras-Menü</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#pluginmanager">Pluginmanager</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sicherungseinstellungen">Sicherungseinstellungen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#sicherungsverzeichnis-andern">Sicherungsverzeichnis ändern</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sicherungsverzeichnis-offnen">Sicherungsverzeichnis öffnen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sicherungskopien-erzeugen">Sicherungskopien erzeugen</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#installationsordner-offnen">Installationsordner öffnen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pluginmanager">Pluginmanager</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="help_menu.html">Hilfe-Menü</a></li>
@@ -119,6 +125,53 @@
 <p class="admonition-title">Bemerkung</p>
 <p>Das <em>Extras</em>-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.</p>
 </div>
+<section id="sicherungseinstellungen">
+<h2>Sicherungseinstellungen<a class="headerlink" href="#sicherungseinstellungen" title="Link to this heading"></a></h2>
+<p><strong>Projektunabhängige Programmeinstellungen</strong></p>
+<p>Mit <strong>Extras &gt; Sicherungseinstellungen</strong>
+können Sie einen Dialog mit Einstellungen für die Datensicherung öffnen.</p>
+<figure class="align-default">
+<img alt="novelibre Screenshot" src="_images/tools_menu02.png" />
+</figure>
+<p>Oben im Fenster wird der Pfad zum Sicherungsverzeichnis angezeigt,
+falls eines eingestellt ist.</p>
+<section id="sicherungsverzeichnis-andern">
+<h3>Sicherungsverzeichnis ändern<a class="headerlink" href="#sicherungsverzeichnis-andern" title="Link to this heading"></a></h3>
+<p>Damit öffnen Sie einen Verzeichnisauswahldialog, mit dem Sie
+das Sicherungsverzeichnis auswählen können.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Um einem Festplattenausfall vorzubeugen, können Sie auch ein
+externes Laufwerk oder einen USB-Stick angeben.</p>
+</div>
+</section>
+<section id="sicherungsverzeichnis-offnen">
+<h3>Sicherungsverzeichnis öffnen<a class="headerlink" href="#sicherungsverzeichnis-offnen" title="Link to this heading"></a></h3>
+<p>Damit öffnen Sie das Sicherungsverzeichnis mit dem Dateimanager.
+Das dient dem schnellen Zugriff, falls Sie eine Projektdatei
+wiederherstellen wollen.</p>
+</section>
+<section id="sicherungskopien-erzeugen">
+<h3>Sicherungskopien erzeugen<a class="headerlink" href="#sicherungskopien-erzeugen" title="Link to this heading"></a></h3>
+<p>Wenn dieses Feld angekreuzt ist, erzeugt <em>novelibre</em> bei jedem Abspeichern
+eine Kopie der Projektdatei im eingestellten Sicherungsverzeichnis.
+Um zu verhindern, dass versehentlich mit dieser Sicherungskopie gearbeitet
+wird, erhält ihre Dateinamenserweiterung den Zusatz <code class="docutils literal notranslate"><span class="pre">#</span></code>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Damit können sie die Datensicherung zeitweililg abschalten,
+wobei das Sicherungsverzeichnis eingestellt bleibt.</p>
+</div>
+</section>
+</section>
+<section id="installationsordner-offnen">
+<h2>Installationsordner öffnen<a class="headerlink" href="#installationsordner-offnen" title="Link to this heading"></a></h2>
+<p><strong>Die Dateiverwaltung aufrufen</strong></p>
+<p>Mit <strong>Extras &gt; Installationsordner öffnen</strong>
+können Sie den <em>novelibre</em>-Installationsordner im Dateimanager öffnen.
+Das kann praktisch sein, wenn Sie Konfigurationsdateien bearbeiten
+oder eigene Plugins installieren wollen.</p>
+</section>
 <section id="pluginmanager">
 <h2>Pluginmanager<a class="headerlink" href="#pluginmanager" title="Link to this heading"></a></h2>
 <p><strong>Die installierten Plugins anzeigen und verwalten</strong></p>
@@ -176,14 +229,6 @@ muss <em>novelibre</em> aktualisiert werden.</p></li>
 </dd>
 </dl>
 </div>
-</section>
-<section id="installationsordner-offnen">
-<h2>Installationsordner öffnen<a class="headerlink" href="#installationsordner-offnen" title="Link to this heading"></a></h2>
-<p><strong>Die Dateiverwaltung aufrufen</strong></p>
-<p>Mit <strong>Extras &gt; Installationsordner öffnen</strong>
-können Sie den <em>novelibre</em>-Installationsordner im Dateimanager öffnen.
-Das kann praktisch sein, wenn Sie Konfigurationsdateien bearbeiten
-oder eigene Plugins installieren wollen.</p>
 </section>
 </section>
 
