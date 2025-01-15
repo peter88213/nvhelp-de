@@ -151,10 +151,12 @@ können Sie das Style sheet *novx.css* in den aktuellen Projektordner
 kopieren.
 Damit können Sie die *.novx*-Projektdatei mit einem Webbrowser betrachten.
 
-.. figure:: _images/file_menu01.jpg
+Das folgende Bild zeigt einen Edge-Browser Screenshot *novelibre* Projekt,
+dargestellt mit Hilfe des Style sheets.
+
+.. image:: _images/file_menu01.jpg
    :alt: Edge-Browser Screenshot
 
-   Edge-Browser Screenshot *novelibre* Projekt, dargestellt mit Hilfe des Style sheets.
 
 .. hint::
    Abhängig von Ihrem Webbrowser und dem Betriebssystem müssen

@@ -13,10 +13,8 @@ ein, um den Beginn zu kennzeichnen.
 Das gibt Ihnen farblich abgesetzte Zwischenüberschriften
 in der Baumansicht. Diese erscheinen nicht im Manuskript.
 
-.. figure:: _images/acts01.png
+.. image:: _images/acts01.png
    :alt: Akte
-
-   Akte
 
 Mit dem `nv_templates-Plugin
 <https://github.com/peter88213/nv_templates/>`__ können Sie
@@ -32,10 +30,8 @@ Plotlinien definieren
 *novelibre* bietet *Plotlinien* als ein mächtiges und flexibles Konzept
 zum Plotten an.
 
-.. figure:: _images/plotlines01.png
+.. image:: _images/plotlines01.png
    :alt: Plotlinien
-
-   Plotlinien
 
 "Plotlinie" kann eine Reihe von Bedeutungen haben:
 Erzählstrang, Figurenbogen, Handlungsfaden, Nebenhandlung,
@@ -62,10 +58,8 @@ Sie können Plotlinien auch verwenden, um benannte Verbindungen wie z.B.
 zwischen Abschnitten herzustellen, so dass Sie solche Beziehungen verfolgen
 können, auch wenn die Abschnitte weit auseinanderliegen.
 
-.. figure:: _images/causality01.png
+.. image:: _images/causality01.png
    :alt: Example
-
-   Beispiel für Vorbereitung und Durchführung
 
 
 Handlungsraster (Plot grid)
@@ -84,10 +78,8 @@ die Notizen zu den Plotlinien einzutragen und das Große Ganze
 Ihrer Plotkonstruktion zu überblicken.
 
 
-.. figure:: _images/plot_grid01.png
+.. image:: _images/plot_grid01.png
    :alt: Example
-
-   Beispiel für ein Handlungsraster
 
 
 

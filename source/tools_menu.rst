@@ -15,7 +15,7 @@ Sicherungseinstellungen
 Mit **Extras > Sicherungseinstellungen**
 können Sie einen Dialog mit Einstellungen für die Datensicherung öffnen.
 
-.. figure:: _images/tools_menu02.png
+.. image:: _images/tools_menu02.png
    :alt: novelibre Screenshot
 
 Oben im Fenster wird der Pfad zum Sicherungsverzeichnis angezeigt,
@@ -72,7 +72,7 @@ Pluginmanager
 Mit **Extras > Plugin manager**
 können Sie den *Installierte Plugins*-Dialog öffnen.
 
-.. figure:: _images/tools_menu01.png
+.. image:: _images/tools_menu01.png
    :alt: novelibre Screenshot
 
 - Erfolgreich installierte Plugins werden standardmäßig schwarz auf weiß dargestellt.

@@ -5,7 +5,7 @@ Die Ansicht der Stadium-Eigenschaften öffnet sich im rechten Fenster,
 wenn Sie ein Stadium auswählen.
 
 
-.. figure:: _images/stage_view01.png
+.. image:: _images/stage_view01.png
    :alt: Screenshot
 
 Titel und Beschreibung
@@ -23,7 +23,7 @@ Links
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view13.png
+.. image:: _images/book_view13.png
    :alt: Screenshot
 
 Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.
@@ -58,11 +58,9 @@ Link hinzufügen
       Für andere Dateitypen ändern Sie die Auswahl in der unteren 
       rechten Ecke. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 Link entfernen
    Wenn Sie auf |Entfernen| klicken oder die ``Entf``-Taste drücken,
@@ -94,11 +92,9 @@ Link öffnen
          [SETTINGS]
          .zim = C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
 .. |Entfernen| image:: _images/remove.png

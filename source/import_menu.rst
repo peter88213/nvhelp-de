@@ -7,7 +7,7 @@ Mit the **Importieren**-Eintrag im Hauptmenü
 können Sie eine Liste von zuvor exportierten ODF-Dokumenten aufrufen.
 Sie können diese Dokumente importieren, um das Projekt zu aktualisieren.
 
-.. figure:: _images/import_menu01.png
+.. image:: _images/import_menu01.png
    :alt: novelibre Screenshot
 
 - Dokumenttyp und Datum werden angezeigt.

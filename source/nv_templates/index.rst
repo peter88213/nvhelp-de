@@ -181,7 +181,7 @@ Beispiel
     
 Diese Datei erzeugt die folgende Struktur in einem leeren Projekt:
 
-.. figure:: _images/structure01.png
+.. image:: _images/structure01.png
    :alt: Screenshot
 
 

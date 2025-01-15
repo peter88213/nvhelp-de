@@ -27,19 +27,17 @@ in der Werkzeugleiste auf das Symbol |Exportieren Manuskript| klicken.
      wird *Writer* sofort nach dem Export aufgerufen. 
 
 
-.. figure:: _images/writing01.png
+.. image:: _images/writing01.png
    :alt: novelibre Screenshot
    
-   novelibre Screenshot
 
 Falls Sie das schon einmal gemacht haben, und es immer noch ein
 Manuskriptdokument von der letzten Sitzung gibt, werden Sie nun gefragt,
 ob Sie damit weiterarbeiten wollen. Falls ja, wählen Sie "Bestehendes öffnen".
 
-.. figure:: _images/writing02.png
+.. image:: _images/writing02.png
    :alt: novelibre Screenshot
    
-   novelibre Screenshot
 
 Falls Sie "Überschreiben" wählen, erzeugt *novelibre* ein neues Manuskriptdokument.
 "Abbrechen" bricht den Exportvorgang ab und bringt Sie zum Arbeitsbereich zurück.
@@ -57,10 +55,9 @@ Falls Sie den Export über den Menübefehl **Exportieren** eingeleitet haben,
 kann es sein, dass Sie entsprechend Ihren  `Exportoptionen <export_menu.html#optionen>`__
 gefragt werden, ob Sie das neu erzeugte Dokument öffnen wollen.
 
-.. figure:: _images/writing03.png
+.. image:: _images/writing03.png
    :alt: novelibre Screenshot
    
-   novelibre Screenshot
    
 Wenn Sie mit "Ja" antworten, wird *Writer* mit dem Manuskriptdokument gestartet.
 Andernfalls wird das Dokument einfach für den späteren Gebrauch aufbewahrt.
@@ -83,13 +80,14 @@ die Kapitel- und Abschnittstitel an. Per Doppelklick auf eine dieser
 Nun können Sie innerhalb der Textbegrenzungen, die die Abschnitte
 definieren, losschreiben.
 
+Das folgende Bild zeigt einen LibreOffice Writer Screenshot.
+Beachten Sie, dass die Textbegrenzungen hier angezeigt werden, was
+`sehr zu empfehlen <preparations.html#die-abschnitte-im-manuskript-sichtbar-machen>`__ ist.
 
-.. figure:: _images/writing04.png
+
+.. image:: _images/writing04.png
    :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer Screenshot: Beachten Sie, dass die Textbegrenzungen
-   hier angezeigt werden, was `sehr zu empfehlen 
-   <preparations.html#die-abschnitte-im-manuskript-sichtbar-machen>`__ ist.
    
 .. note::
    Die Abschnittstitel, wie sie im Navigator zu sehen sind, 
@@ -132,19 +130,18 @@ Andere Metadaten sind dann bei Bedarf später in *novelibre* einzugeben.
 
 Das folgende Beispiel zeigt, wie Sie einen bestehenden Abschnitt aufteilen:
 
-.. figure:: _images/writing05.png
+.. image:: _images/writing05.png
    :alt: LibreOffice Writer Screenshot
-   
-   LibreOffice Writer Screenshot: Beachten Sie die gekennzeichnete
-   Abschnittsmarkierung.
+
+Beachten Sie die gekennzeichnete Abschnittsmarkierung im Bild.
 
 In *novelibre* sehen Sie dann den neuen Abschnitt. Er hat einen Titel,
 doch keine anderen Metadaten.
 
-.. figure:: _images/writing06.png
+.. image:: _images/writing06.png
    :alt: novelibre Screenshot
    
-   *novelibre* Screenshot: Beachten Sie den ausgewählten Abschnitt.
+Beachten Sie den ausgewählten Abschnitt im Bild.
 
 
 Mit Writer neue Kapitel anlegen
@@ -167,11 +164,10 @@ Weisen Sie einfach einer neuen Zeile
    
 Das folgende Beispiel zeigt, wie man mit *Writer*  ein Kapitel hinzufügt:
 
-.. figure:: _images/writing07.png
+.. image:: _images/writing07.png
    :alt: LibreOffice Writer Screenshot
    
-   LibreOffice Writer Screenshot: Es kommt nicht darauf an, wie ein 
-   neues Kapitel in *Writer* betitelt wird.
+Es kommt nicht darauf an, wie ein neues Kapitel in *Writer* betitelt wird.
 
 In *novelibre* sehen Sie dann sowohl ein neues Kapitel als auch einen
 neuen Abschnitt.
@@ -180,10 +176,9 @@ passt die neue Kapitelüberschrift bereits, wohingegen der neue Abschnittstitel
 noch manuell angepasst werden sollte.
 
 
-.. figure:: _images/writing08.png
+.. image:: _images/writing08.png
    :alt: novelibre Screenshot: Notice the selected new chapter
    
-   novelibre Screenshot
 
 .. |Exportieren Manuskript| image:: _images/Manuscript.png
 .. |Änderungen am Manuskript übernehmen| image:: _images/updateFromManuscript.png

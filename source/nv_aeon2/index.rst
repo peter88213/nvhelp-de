@@ -25,10 +25,10 @@ außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Aeon Timeline 2 erzeu
 und dem **Hilfe**-Menü den Eintrag **Aeon 2-Plugin Online-Hilfe**.
 Die Werkzeugleiste erhält eine |Timeline| Schaltfläche.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
-.. figure:: _images/screen02.png
+.. image:: _images/screen02.png
    :alt: novelibre Screenshot
 
 .. |Timeline| image:: _images/aeon2.png

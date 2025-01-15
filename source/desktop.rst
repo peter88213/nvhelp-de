@@ -4,10 +4,8 @@ Der Arbeitsbereich
 
 Der Arbeitsbereich von *novelibre* ist in drei Fenster unterteilt:
 
-.. figure:: _images/desktop01.png
+.. image:: _images/desktop01.png
    :alt: Arbeitsbereich
-
-   Arbeitsbereich
 
 
 Projektbaum
@@ -158,11 +156,13 @@ Eigenschaften und Metadaten des ausgewählten Baumelements an.
 Auf großen Bildschirmen können Sie *novelibre* und *Writer* mit abgekoppelten
 Fenstern anordnen.
 
-.. figure:: _images/full_desktop.png
+Das folgende Bild zeigt ein Beispiel:
+LibreOffice (Mitte) mit abgetrenntem Navigator (oben links),
+und novelibre (unten links) mit abgetrennten Eigenschaften (rechts)
+
+.. image:: _images/full_desktop.png
    :alt: Bildschirmanordnung von Writer und novelibre 
    
-   Beispiel: LibreOffice (Mitte) mit abgetrenntem Navigator (oben links),
-   und novelibre (unten links) mit abgetrennten Eigenschaften (rechts) 
 
 
 .. |Gehe zurück| image:: _images/goBack.png

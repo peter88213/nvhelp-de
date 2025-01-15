@@ -32,7 +32,7 @@ Nehmen wir außerdem an, dass wir noch keine Vorbereitungen getroffen haben,
 d.h. wir haben weder ein angefangenes Werk noch eine Gliederung irgendeiner Art.
 Zunächst legen wir mit **Datei > Neu > Leeres Projekt** ein neues leeres Projekt an.
 
-.. figure:: _images/getting_started01.png
+.. image:: _images/getting_started01.png
    :alt: novelibre Screenshot
    
 Ein Dateiauswahldialog öffnet sich und fragt nach dem Dateinamen und dem Speicherort
@@ -56,21 +56,21 @@ und einen Autorennamen eingeben, vielleicht auch eine Beschreibung unserer Idee.
 Um gleich loslegen zu können, verschieben wir die restlichen
 Projekteinstellungen auf später.
 
-.. figure:: _images/getting_started02.png
+.. image:: _images/getting_started02.png
    :alt: novelibre Screenshot
    
 Wir brauchen mindestens einen Abschnitt, um mit dem Schreiben beginnen zu können.
 Und dieser muss zu einem Kapitel gehören. Also erstellen wir jetzt das erste
 Kapitel mit **Kapitel > Hinzufügen**.
 
-.. figure:: _images/getting_started03.png
+.. image:: _images/getting_started03.png
    :alt: novelibre Screenshot
    
 Nachdem das Kapitel erstellt wurde, setzt *novelibre* den Fokus auf den
 Kapitel-Titel am oberen Rand des rechten Fensters.
 Überschreiben wir den vorgegebenen Titel.
 
-.. figure:: _images/getting_started04.png
+.. image:: _images/getting_started04.png
    :alt: novelibre Screenshot
    
 .. hint::
@@ -82,7 +82,7 @@ Es gibt nun mehrere Möglichkeiten, einen Abschnitt hinzuzufügen.
 In diesem Beispiel klicken wir mit der rechten Maustaste auf das Kapitel
 und wählen **Abschnitt Hinzufügen**.
 
-.. figure:: _images/getting_started05.png
+.. image:: _images/getting_started05.png
    :alt: novelibre Screenshot
 
 
@@ -95,13 +95,13 @@ Klicken Sie einfach auf die Schaltfläche |Manuskript exportieren| in der Werkze
 
 .. |Manuskript exportieren| image:: _images/Manuscript.png
 
-.. figure:: _images/getting_started06.png
+.. image:: _images/getting_started06.png
    :alt: novelibre Screenshot
    
 Fertig! *Writer* sollte sich nun mit dem Manuskript öffnen.
 Fangen Sie einfach an, Ihren Roman innerhalb des Textrahmens zu schreiben.
 
-.. figure:: _images/getting_started07.png
+.. image:: _images/getting_started07.png
    :alt: Libreoffice Screenshot
    
 Wir können nun mit *Writer* weiterarbeiten,  `wie auf der folgenden Seite
@@ -147,7 +147,7 @@ um dann später die Abschnitte als Szenen einzufügen.
 Dazu erstellen Sie zunächst mindestens ein Kapitel.
 Dann erzeugen Sie Ihre Stadien.
 
-.. figure:: _images/getting_started08.png
+.. image:: _images/getting_started08.png
    :alt: novelibre Screenshot
 
 Das Verfahren wird auf der Seite `Mit novelibre plotten <plotting.html>`__
@@ -217,14 +217,14 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
       -  ``* * *`` → Abschnittstrenner (nicht vor dem ersten Abschnitt im Kapitel).
       -  Der ganze restliche Text wird als Inhalt von Abschnitten behandelt.
 
-    .. figure:: _images/getting_started10.png
+   Das folgende Bild zeigt ein Beispiel für ein angefangenes Manuskript. 
+   Beachten Sie die Leerzeichen zwischen den Sternchen des Abschnittstrenners. 
+   Es ist nicht nötig, die Abschnittstrenner zu zentrieren.
+
+    .. image:: _images/getting_started10.png
        :alt: Libreoffice Writer screenshot
        
        
-       Beispiel für ein angefangenes Manuskript: Beachten Sie die Leerzeichen
-       zwischen den Sternchen des Abschnittstrenners. Es ist nicht nötig,
-       die Abschnittstrenner zu zentrieren. 
-
 .. caution::
    Textauszeichnungen, die nicht `von novelibre unterstützt werden 
    <basic_concepts.html#text-formatieren>`__, gehen verloren.
@@ -246,7 +246,7 @@ dass *novelibre* seine Teile, Kapitel und Abschnitte erkennen kann.
 Wenn Ihr Manuskript vorbereitet ist, erzeugen Sie Ihr neues Projekt
 mit **Datei > Neu > Aus ODT erzeugen...**.
 
-.. figure:: _images/getting_started09.png
+.. image:: _images/getting_started09.png
    :alt: novelibre Screenshot
 
 Es öffnet sich ein Dateiauswahldialog und fragt nach dem *ODT*-Dokument.
@@ -295,18 +295,18 @@ In diesem Fall werden Textauszeichnungen nicht berücksichtigt.
       -  Der ganze restliche Text wird als Beschreibung von Kapiteln und 
          Abschnitten behandelt.
 
-    .. figure:: _images/getting_started11.png
+   Das folgende Bild zeigt ein Beispiel für eine Gliederung. 
+   Der Fließtext direkt unter der Kapitelüberschrift ist die Kapitelbeschreibung. 
+   Der Fließtext direkt unter der Abschnittsüberschrift ist die Abschnittsbeschreibung.
+   Die Beschreibungen sind jedoch optional.
+
+    .. image:: _images/getting_started11.png
        :alt: Libreoffice Writer Screenshot
        
-       Beispiel für eine Gliederung: Der Fließtext direkt unter der 
-       Kapitelüberschrift ist die Kapitelbeschreibung. Der Fließtext 
-       direkt unter der Abschnittsüberschrift ist die Abschnittsbeschreibung.
-       Die Beschreibungen sind jedoch optional.
-
 Wenn Ihre Gliederung vorbereitet ist, erzeugen Sie Ihr neues Projekt
 mit **Datei > Neu > Aus ODT erzeugen...**.
 
-.. figure:: _images/getting_started09.png
+.. image:: _images/getting_started09.png
    :alt: novelibre Screenshot
 
 Es öffnet sich ein Dateiauswahldialog und fragt nach dem *ODT*-Dokument.

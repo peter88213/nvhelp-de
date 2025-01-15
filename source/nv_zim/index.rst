@@ -200,7 +200,7 @@ Alle
 Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften
 --------------------------------------------------
 
-.. figure:: _images/wiki_button01.png
+.. image:: _images/wiki_button01.png
    :alt: novelibre Screenshot
 
 "Wiki-Seite"-Schaltfläche

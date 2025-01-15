@@ -153,7 +153,7 @@ Optionen
 Mit **Ansicht >  Optionen**
 können Sie einen Dialog mit Einstellungen für die Anzeige öffnen.
 
-.. figure:: _images/view_menu02.png
+.. image:: _images/view_menu02.png
    :alt: novelibre Screenshot
 
 

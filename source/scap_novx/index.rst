@@ -100,20 +100,16 @@ Sie können entweder dieses Diagramm als Vorlage verwenden,
 oder dessen Formate in Ihr eigenes Diagramm importieren.
 
 
-.. figure:: _images/import_styles.png
+.. image:: _images/import_styles.png
    :alt: Screenshot
-
-   Screenshot: Formatimport-Dialog
-   
+ 
 Wählen Sie im Dateiauswahldialog
 ``<entpackter Ordner mit der scap_novx-Version>\sample\styles.scap``.
 Dann können Sie die Formate per Kontextmenü zuweisen.
 
 
-.. figure:: _images/apply_styles.png
+.. image:: _images/apply_styles.png
    :alt: Screenshot
-   
-   Screenshot: Das Formatmenü anwenden
 
 
 Abschnitte kennzeichnen
@@ -122,11 +118,9 @@ Abschnitte kennzeichnen
 Wenden Sie entweder das "Section"-Format per Kontextmenü an,
 oder kreuzen Sie im Inspector "Shadow" an.
 
-.. figure:: _images/mark_section.png
+.. image:: _images/mark_section.png
    :alt: Screenshot
-   
-   Screenshot: Eine Notiz mit einem Schatten versehen
-   
+      
 
 novelibre-Notizen kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -148,11 +142,9 @@ Schauplätze kennzeichnen
 Wenden Sie entweder das "Location"-Format per Kontextmenü an,
 oder wählen Sie im Inspector das große blaue Farbauswahlfeld aus.
 
-.. figure:: _images/mark_location.png
+.. image:: _images/mark_location.png
    :alt: Screenshot
    
-   Screenshot: Textfarbe einstellen
-
 
 Hauptfiguren kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~

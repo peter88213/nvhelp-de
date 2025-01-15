@@ -8,7 +8,7 @@ Nach dem Öffnen eines *novelibre*-Projekts sehen Sie diese Ansicht.
 
 .. |Show Book| image:: _images/viewBook.png
 
-.. figure:: _images/book_view01.png
+.. image:: _images/book_view01.png
    :alt: novelibre Screenshot
 
 
@@ -24,19 +24,15 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Titel und Beschreibung werden beim Export in ODT-Dokumente übernommen.
 Dort erscheinen sie in den Dokumenteigenschaften.
 
-.. figure:: _images/book_view08.png
+.. image:: _images/book_view08.png
    :alt: Screenshot
-
-   OpenOffice Writer Screenshot
 
 Diese Eigenschaften sind beispielsweise zu sehen, wenn der Mauszeiger im
 Windows Explorer über dem Dokument steht.
 
-.. figure:: _images/book_view09.png
+.. image:: _images/book_view09.png
    :alt: Screenshot
-   
-   Windows Explorer Screenshot
-   
+      
 
 
 Sprache des Dokuments
@@ -44,7 +40,7 @@ Sprache des Dokuments
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view02.png
+.. image:: _images/book_view02.png
    :alt: novelibre Screenshot
 
 - Sprachencode entsprechend ISO 639-1
@@ -52,10 +48,9 @@ Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
 Diese Information steuert die Rechtschreibprüfung für Exportdokumente.
 
-.. figure:: _images/book_view10.png
+.. image:: _images/book_view10.png
    :alt: LibreOffice Writer Screenshot
 
-   LibreOffice Writer Screenshot
 
 Ist die Einstellung nicht gesetzt, wird das Systemgebietsschema
 als Standardeinstellung verwendet.
@@ -64,10 +59,9 @@ als Standardeinstellung verwendet.
    Sie können die Sprache des Dokuments auch mit *Writer* einstellen 
    oder ändern, dann wird sie beim Import übernommen. 
 
-	.. figure:: _images/book_view11.png
+	.. image:: _images/book_view11.png
 	   :alt: LibreOffice Writer Screenshot
 	   
-	   LibreOffice Writer Screenshot
 
 
 Automatische Nummerierung
@@ -75,7 +69,7 @@ Automatische Nummerierung
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view03.png
+.. image:: _images/book_view03.png
    :alt: novelibre Screenshot
 
 Kapitel/Teile automatisch nummerieren, wenn der Baum aktualisiert wird.
@@ -114,7 +108,7 @@ Umbenennungen
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view04.png
+.. image:: _images/book_view04.png
    :alt: novelibre Screenshot
 
 *novelibre* bietet einige vorgefertigte Felder für Abschnitte und Figuren,
@@ -155,7 +149,7 @@ Erzählte Zeit
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view05.png
+.. image:: _images/book_view05.png
    :alt: novelibre Screenshot
 
 Um den Überblick über die erzählte Zeit zu behalten, können Sie
@@ -208,7 +202,7 @@ Schreibfortschritt
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view06.png
+.. image:: _images/book_view06.png
    :alt: novelibre Screenshot
 
 Mit *novelibre* können Sie sich ein Ziel für die Wortanzahl setzen und
@@ -263,7 +257,7 @@ Links
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view13.png
+.. image:: _images/book_view13.png
    :alt: Screenshot
 
 Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.
@@ -298,11 +292,9 @@ Link hinzufügen
       Für andere Dateitypen ändern Sie die Auswahl in der unteren 
       rechten Ecke. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 Link entfernen
    Wenn Sie auf |Entfernen| klicken oder die ``Entf``-Taste drücken,
@@ -334,10 +326,9 @@ Link öffnen
          [SETTINGS]
          .zim = C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
 
 .. |Hinzufügen| image:: _images/add.png
 .. |Goto| image:: _images/goto.png
@@ -353,13 +344,11 @@ angezeigt, wenn Sie im Projektverzeichnis eine PNG-Bilddatei
 mit dem selben Namen wie das Projekt bereitstellen.
 Die empfohlene Bildbreite ist 100 bis 200 Pixel.
 
-.. figure:: _images/book_view12.png
+.. image:: _images/book_view12.png
    :alt: Windows Explorer Screenshot
    
-   Windows Explorer Screenshot
    
-.. figure:: _images/book_view07.jpg
+.. image:: _images/book_view07.jpg
    :alt: novelibre Screenshot
 
-   novelibre Screenshot
 

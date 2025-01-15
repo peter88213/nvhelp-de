@@ -18,7 +18,7 @@ Das Plugin f체gt dem *novelibre*-**Extras**-Men체
 den Eintrag **Auf Updates pr체fen** hinzu,
 und dem **Hilfe**-Men체 den Eintrag **Update-Pr체fer Online-Hilfe**.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
 
@@ -29,7 +29,7 @@ Starten Sie die Update-Pr체fung 체ber das Hauptmen체: **Extras > Auf Updates pr�
 
 Wenn ein Update gefunden wird, erscheint eine Meldung.
 
-.. figure:: _images/screen02.png
+.. image:: _images/screen02.png
    :alt: novelibre Screenshot
 
 Sie haben die Wahl:
@@ -47,7 +47,7 @@ Sie haben die Wahl:
 
 Falls kein Update gefunden wird, erscheint am Ende eine Meldung.
 
-.. figure:: _images/screen03.png
+.. image:: _images/screen03.png
    :alt: novelibre Screenshot
 
 .. important::

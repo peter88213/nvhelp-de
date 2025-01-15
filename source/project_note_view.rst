@@ -11,7 +11,7 @@ oder wenn Sie in der Werkzeugleiste |Projektnotizen anzeigen| anklicken.
 Titel und Inhalt
 ----------------
 
-.. figure:: _images/project_note_view01.png
+.. image:: _images/project_note_view01.png
    :alt: Screenshot
 
 Titel und Inhalt werden als beschreibbare "Karteikarte" dargestellt.

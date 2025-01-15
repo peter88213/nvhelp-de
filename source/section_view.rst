@@ -5,7 +5,7 @@ Die Ansicht der Abschnittseigenschaften öffnet sich im rechten Fenster,
 wenn Sie im Baum einen Abschnitt wählen.
 
 
-.. figure:: _images/section_view01.png
+.. image:: _images/section_view01.png
    :alt: Screenshot
 
 Titel und Beschreibung
@@ -58,7 +58,7 @@ Plot
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/section_view04.png
+.. image:: _images/section_view04.png
    :alt: Screenshot
 
 Plotlinien
@@ -125,15 +125,15 @@ Szene
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/section_view03.png
+Hier ein Beispiel für eine "Aktionsszene":
+
+.. image:: _images/section_view03.png
    :alt: Screenshot
 
-   Beispiel für eine "Aktionsszene"
+Hier ein Beispiel für eine "Reaktionsszene" oder "Folge":
 
-.. figure:: _images/section_view08.png
+.. image:: _images/section_view08.png
    :alt: Screenshot
-
-   Beispiel für eine "Reaktionsszene" oder "Folge"
 
 Es gibt eine verbreitete Theorie für "absatzstarke Autoren",
 nach der Romane am besten in Szenen unterteilt werden,
@@ -147,10 +147,11 @@ können Sie den Abschnitt als **Andere** einstellen,
 um `frei benannte <book_view.html#umbenennungen>`_
 Textfelder zu erhalten.
 
-.. figure:: _images/section_view06.png
+Hier ein Beispiel für eine vom Standard abweichende Szenenkategorie:
+
+.. image:: _images/section_view06.png
    :alt: Screenshot
    
-   Beispiel für eine vom Standard abweichende Szenenkategorie
 
 Andererseits ist nicht jeder Abschnitt eine Szene, auf welche
 die oben erwähnten Kategorien zutreffen.
@@ -162,18 +163,18 @@ Wenn also ein Abschnitt nicht szenisch ist, können Sie ihn als
 um `frei benannte <book_view.html#umbenennungen>`_
 Textfelder zu erhalten.
 
-.. figure:: _images/section_view07.png
+Hier ein Beispiel für eine nicht-szenische Abschnittskategorie
+
+.. image:: _images/section_view07.png
    :alt: Screenshot
    
-   Beispiel für eine nicht-szenische Abschnittskategorie
-
 
 Beziehungen
 -----------
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/section_view02.png
+.. image:: _images/section_view02.png
    :alt: Screenshot
 
 Wenn Sie Figuren, Schauplätze und Gegenstände mit dem Abschnitt
@@ -235,7 +236,7 @@ Die Bearbeitung können Sie mit der Eingabetaste beenden.
    `Aeon Timeline 2-Plugin <https://github.com/peter88213/nv_aeon2/>`__
    ansehen.
 
-.. figure:: _images/section_view05.png
+.. image:: _images/section_view05.png
    :alt: Screenshot
 
 Beginn
@@ -260,7 +261,7 @@ Tag
 Mondphase
    Wenn die nötigen Datumsangaben vorliegen, können Sie die Mondphase dazu abrufen.
 
-   .. figure:: _images/section_view09.png
+   .. image:: _images/section_view09.png
       :alt: Screenshot
 
    Die Mondphasenangabe setzt sich zusammen aus:
@@ -322,7 +323,7 @@ Links
 
 Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.
 
-.. figure:: _images/book_view13.png
+.. image:: _images/book_view13.png
    :alt: Screenshot
 
 Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.
@@ -357,11 +358,9 @@ Link hinzufügen
       Für andere Dateitypen ändern Sie die Auswahl in der unteren 
       rechten Ecke. 
       
-      .. figure:: _images/filePicker01.png
+      .. image:: _images/filePicker01.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 Link entfernen
    Wenn Sie auf |Entfernen| klicken oder die ``Entf``-Taste drücken,
@@ -393,11 +392,9 @@ Link öffnen
          [SETTINGS]
          .zim = C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe 
          
-      .. figure:: _images/launchers.png
+      .. image:: _images/launchers.png
          :alt: Screenshot
          
-         Windows Explorer Screenshot
-
 
 "Haftmerker"
 ------------

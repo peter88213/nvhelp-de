@@ -168,12 +168,13 @@ Der Dateinamenszusatz lautet ``_plotlist``.
 .. hint::
    Die Titel der Plotlinien und der Abschnitte sind als Querverweise
    zu den entsprechenden Stellen im Manuskript ausgeführt. 
- 
-.. figure:: _images/plot_menu04.png
-   :alt: LibreOffice Screenshot
 
-   LibreOffice Screenshot. Beachten Sie den Plotlinientitel in der
-   Plotliste (links) zur Plotlinie in der Plotbeschreibung (rechts).
+Das folgende Bild zeigt einen LibreOffice Screenshot.
+Beachten Sie den Plotlinientitel in der Plotliste (links)
+zur Plotlinie in der Plotbeschreibung (rechts).
+
+.. image:: _images/plot_menu04.png
+   :alt: LibreOffice Screenshot
 
 .. important::
    Hyperlinks in ODS-Tabellendokumenten sind im Dateisystem absolut,
@@ -194,10 +195,8 @@ mit einer Plotliste wie der ODS-Plotliste (siehe oben),
 doch ohne Hyperlinks,
 und starten Ihren System-Webbrowser zur Anzeige.
 
-.. figure:: _images/plot_menu03.jpg
+.. image:: _images/plot_menu03.jpg
    :alt: Edge-Browser-Screenshot
-
-   Edge-Browser-Screenshot: Darstellung der HTML-Plotliste.
 
 .. note::
    Der Report ist eine temporäre Datei, die bei 

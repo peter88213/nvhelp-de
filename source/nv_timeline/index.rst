@@ -20,10 +20,10 @@ außerdem dem **Datei > Neu**-Untermenü den Eintrag **Aus Timeline erzeugen...*
 und dem **Hilfe**-Menü den Eintrag **Timeline-Plugin Online-Hilfe**.
 Die Werkzeugleiste erhält eine |Timeline| Schaltfläche.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
-.. figure:: _images/screen02.png
+.. image:: _images/screen02.png
    :alt: novelibre Screenshot
 
 .. |Timeline| image:: _images/tl.png
@@ -79,7 +79,7 @@ wird das aktuelle Projekt geschlossen und ein neues aus dem Zeitstrahl erzeugt.
 .. hint::
    Um in *novelibre* zu Abschnitten zu werden, benötigen *Timeline*-Ereignisse ein Label „Section“.
    
-   .. figure:: _images/event01.png
+   .. image:: _images/event01.png
       :alt: Timeline Screenshot
       
    Die Idee dahinter ist, dass nur ausgewählte Ereignisse als Abschnitte in das 

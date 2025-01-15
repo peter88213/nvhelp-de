@@ -18,7 +18,7 @@ Das Plugin fügt dem *novelibre* **Extras**-Menü den Eintrag **Matrix** hinzu,
 und dem **Hilfe**-Menü den Eintrag **Matrix-Plugin Online-Hilfe**.
 Die Werkzeugleiste erhält eine |Matrix| Schaltfläche.
 
-.. figure:: _images/screen01.png
+.. image:: _images/screen01.png
    :alt: novelibre Screenshot
 
 .. |Matrix| image:: _images/matrix.png

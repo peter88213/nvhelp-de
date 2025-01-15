@@ -32,10 +32,9 @@ Schritt 1
    - Starten Sie entweder die heruntergeladene Datei
      **novelibre_vx.x.x.pyzw** durch Doppelklick (Windows/Linux-Desktop),
 
-     .. figure:: _images/preparations11.png
+     .. image:: _images/preparations11.png
         :alt: Beispiel (Windows Explorer)
 
-        Beispiel (Windows Explorer)
 
    - oder führen Sie
 
@@ -43,20 +42,18 @@ Schritt 1
 
      ```python3 novelibre_vx.x.x.pyzw``` (Linux) auf der Kommandozeile aus.
 
-     .. figure:: _images/preparations12.png
+     .. image:: _images/preparations12.png
         :alt: Beispiel (Windows Eingabeaufforderung)
 
-        Beispiel (Windows Eingabeaufforderung)
 
    *"x.x.x"* ist dabei die Versionsnummer.
 
    In beiden Fällen sollte ein Popup-Fenster erscheinen und den Erfolg
    der Installation anzeigen.
 
-   .. figure:: _images/preparations13.png
+   .. image:: _images/preparations13.png
       :alt: Beispiel (Windows)
 
-      Beispiel (Windows)
 
 
    .. important::
@@ -64,11 +61,9 @@ Schritt 1
       und bieten an, sie direkt zu öffnen. 
       Damit wird die Installation gestartet.
       
-      .. figure:: _images/preparations14.png
+      .. image:: _images/preparations14.png
          :alt: Beispiel (Chrome-Browser)
-         
-         Beispiel (Chrome-Browser)
-      
+               
       
       Abhängig von Ihren Sicherheitseinstellungen kann es allerdings 
       auch passieren, dass Ihr Browser den Download der ausführbaren 
@@ -96,7 +91,7 @@ novelibre auf den Desktop bringen
    
    ``python3 /home/peter/.novx/run.pyw %F``
    
-    .. figure:: _images/preparations15.png
+    .. image:: _images/preparations15.png
       :alt: Xubuntu screenshot
    
    Wahrscheinlich werden Sie die *novelibre*-Icons in ein 
@@ -116,7 +111,7 @@ novelibre auf den Desktop bringen
 Schritt 2
    Öffnen Sie das Installationsverzeichnis.
 
-   .. figure:: _images/preparations05.png
+   .. image:: _images/preparations05.png
       :alt: novelibre Screenshot
 
 Schritt 3
@@ -125,7 +120,7 @@ Schritt 3
    *novelibre* vom Windows-Desktop aufzurufen.
    Nun können Sie *.novx*-Dateien auch auf diese Verknüpfung ziehen.
 
-   .. figure:: _images/preparations06.png
+   .. image:: _images/preparations06.png
       :alt: novelibre Screenshot
 
 Schritt 4
@@ -140,7 +135,7 @@ Schritt 4
    Das öffnet einen Dateiauswahldialog. Gehen Sie auf
    ``<home>\.novx\icons`` und doppelklicken Sie das "N"-Logo (3).
 
-   .. figure:: _images/preparations07.png
+   .. image:: _images/preparations07.png
       :alt: novelibre Screenshot
 
 Schritt 5
@@ -150,7 +145,7 @@ Schritt 5
    Im ersten Karteireiter ersetzen Sie "Verknüpfung mit run.pyw"
    durch "novelibre".
 
-   .. figure:: _images/preparations08.png
+   .. image:: _images/preparations08.png
       :alt: novelibre Screenshot
 
 
@@ -172,7 +167,7 @@ Schritt 6
    *add_novelibre.reg* in einem Texteditor ansehen,
    oder einen Experten Ihres Vertrauens hinzuziehen.
 
-   .. figure:: _images/preparations09.png
+   .. image:: _images/preparations09.png
       :alt: novelibre Screenshot
 
    .. hint::
@@ -242,14 +237,14 @@ die Bereichsumrandungen sichtbar machen,
 denn die *novelibre*-Abschnitte entsprechen
 den Bereichen (engl. "sections") in *Writer*.
 
-.. figure:: _images/preparations01.png
-   :alt: LibreOffice 7.6 Screenshot
+Das folgende Bild zeigt einen LibreOffice 7.6 Screenshot.
+Stellen Sie sicher, dass im Dialog **Extras > Optionen > Anwendungsfarben**
+das Feld **Bereichsumrandungen** angekreuzt ist.
+Texteingaben außerhalb der Bereichsumrandungen haben keinen
+Einfluss auf Ihr *novelibre*-Projekt.
 
-   LibreOffice 7.6 Screenshot: Stellen Sie sicher, dass
-   im Dialog **Extras > Optionen > Anwendungsfarben**
-   das Feld **Bereichsumrandungen** angekreuzt ist.
-   Texteingaben außerhalb der Bereichsumrandungen haben keinen 
-   Einfluss auf Ihr *novelibre*-Projekt.
+.. image:: _images/preparations01.png
+   :alt: LibreOffice 7.6 Screenshot
 
 
 .. hint::
@@ -271,11 +266,11 @@ Um ihn anzudocken, halten Sie die ``Strg``-Taste gedrückt und
 doppelklicken Sie in einen freien grauen Fensterbereich,
 wie im folgenden Bild gezeigt.
 
-.. figure:: _images/preparations02.png
-   :alt: LibreOffice Writer Screenshot
+Das folgende Bild zeigt einen LibreOffice Writer Screenshot.
+Das rote "X" zeigt an, wo Sie zum Andocken doppelklicken müssen.
 
-   LibreOffice Writer Screenshot: Das rote "X" zeigt an, 
-   wo Sie zum Andocken doppelklicken müssen.
+.. image:: _images/preparations02.png
+   :alt: LibreOffice Writer Screenshot
 
 .. tip::
    Der Navigator zeigt eine verwirrende Informationsvielfalt.
@@ -284,12 +279,12 @@ wie im folgenden Bild gezeigt.
    und klicken dann auf die Schaltfläche "Inhalt der Navigationsansicht".
    Das geht, wenn ein Dokument mit Überschriften geöffnet ist. 
    
-   .. figure:: _images/preparations03.png
+   Das folgende Bild zeigt einen LibreOffice Writer Screenshot. 
+   Das rote "O" zeigt da Symbol, das angeklickt werden soll.
+
+   .. image:: _images/preparations03.png
       :alt: LibreOffice Writer Screenshot
    
-      LibreOffice Writer Screenshot: Das rote "O" zeigt da Symbol,
-      das angeklickt werden soll.
-
 
 Das Aussehen des Manuskripts anpassen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -338,11 +333,9 @@ mit einem einzigen Mausklick anpassen können.
    *novelibre* benutzt "Courier New" für Textdokumente, 
    und "Calibri" für Tabellendokumente.
    
-   .. figure:: _images/preparations10.png
+   .. image:: _images/preparations10.png
       :alt: LibreOffice Screenshot
-   
-      Screenshot: LibreOffice Optionen-Dialog.
-      
+         
       
 .. tip::
    Falls Sie in Ihrem fertigen Dokument anstelle der drei-Sternchen-Abschnittstrenner 
