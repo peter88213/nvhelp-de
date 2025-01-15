@@ -25,7 +25,8 @@ Geben Sie auf jeden Fall einen Kurznamen ein,
 der als Referenz im Projektbaum angezeigt wird.
 Ein einzelner Buchstabe wie "A", "B", "C" ist zu empfehlen.
 
-Das folgende Beispiel zeigt Plotlinienkurznamen, wie sie im Baum dargestellt werden
+Das folgende Beispiel zeigt Plotlinienkurznamen,
+wie sie im Baum dargestellt werden:
 
 .. image:: _images/plotline_view02.png
    :alt: novelibre Screenshot
