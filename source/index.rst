@@ -27,6 +27,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    writing
    plotting
    metadata
+   taking_notes
    wordcount
    story_time
    series
@@ -34,6 +35,7 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    properties
    plugins
    utilities
+   program_errors
    abandon_novelibre
    about
 
