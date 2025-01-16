@@ -65,14 +65,10 @@ Wenn Sie also zur Verbesserung von *novelibre* beitragen wollen, können Sie
 einen Fehlerreport erzeugen.
 Dazu benötigen Sie jedoch ein Benutzerkonto, das kostenlos ist.
 
-.. hint::
-   Bevor Sie einen Fehler melden, stellen Sie bitte sicher, dass Sie die 
-   neueste Version von *novelibre* und all seinen Plugins haben. 
-   Haben Sie einen alten Programmstand, könnte der Fehler, der bei Ihnen
-   auftritt, bereits behoben sein.
-   
+.. hint:: 
    Schauen Sie sich auch bei den *issues* um, ob Ihr Fehler bereits gemeldet ist. 
    In diesem Fall können sie dieses *issue* um einen Kommentar ergänzen. 
+   
    Wenn sie sich ein wenig auskennen, können Sie auch einen Blick auf die geschlossenen 
    Vorgänge werfen, und gegebenenfalls einen wieder öffnen.
    
