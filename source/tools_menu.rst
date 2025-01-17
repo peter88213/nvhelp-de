@@ -6,6 +6,7 @@ Extras-Menü
 .. note:: 
    Das *Extras*-Menü kann durch Plugins um zusätzliche Funktionen erweitert werden.
 
+-----------------
 
 Sicherungseinstellungen
 -----------------------
@@ -53,6 +54,7 @@ wird, erhält ihre Dateinamenserweiterung den Zusatz ``#``.
    Damit können sie die Datensicherung zeitweililg abschalten, 
    wobei das Sicherungsverzeichnis eingestellt bleibt.
 
+-----------------
 
 Installationsordner öffnen
 --------------------------
@@ -63,6 +65,8 @@ Mit **Extras > Installationsordner öffnen**
 können Sie den *novelibre*-Installationsordner im Dateimanager öffnen.
 Das kann praktisch sein, wenn Sie Konfigurationsdateien bearbeiten
 oder eigene Plugins installieren wollen.
+
+-----------------
 
 Pluginmanager
 -------------
@@ -120,4 +124,21 @@ Wie Sie ein Plugin deinstallieren
         als die Nebenversionsnummer von *novelibre* ist,
         muss *novelibre* aktualisiert werden.
 
+-----------------
+
+Notizen anzeigen
+----------------
+
+**Einen HTML-Report mit allen "Haftmerkern" anzeigen**
+
+Mit **Extras > Notizen anzeigen**
+erzeugen Sie eine als Tabelle formatierte HTML-Seite mit allen "Haftmerkern"
+zusammen mit den Titeln der Baumelemente, denen sie zugeordnet sind,
+und starten Ihren System-Webbrowser zur Anzeige.
+
+.. note::
+   Der Report ist eine temporäre Datei, die bei 
+   Programmbeendigung automatisch gelöscht wird.
+   Lassen Sie sie bei Bedarf von Ihrem Browser 
+   sichern oder ausdrucken.
 

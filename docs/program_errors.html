@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=9da660c2"></script>
+      <script src="_static/documentation_options.js?v=d70fe0a2"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -64,14 +64,7 @@
 <li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="utilities.html">Werkzeuge</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Programmfehler</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#was-tun-bei-einem-fehler">Was tun bei einem Fehler?</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#daten-sichern">1. Daten sichern</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#das-programm-und-alle-plugins-aktualisieren">2. Das Programm und alle Plugins aktualisieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#plugins-deinstallieren">3. Plugins deinstallieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#zu-einer-alten-version-zuruckkehren">4. Zu einer alten Version zurückkehren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#den-fehler-melden">5. Den Fehler melden</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#was-tun-bei-einem-fehler">Was tun bei einem Fehler?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="abandon_novelibre.html">novelibre aufgeben</a></li>
@@ -114,43 +107,39 @@ Das bringt leider auch mit sich, dass ein Programmierfehler in einem Plugin
 das ganze Programm beeinträchtigen kann.</p>
 <section id="was-tun-bei-einem-fehler">
 <h2>Was tun bei einem Fehler?<a class="headerlink" href="#was-tun-bei-einem-fehler" title="Link to this heading"></a></h2>
-<section id="daten-sichern">
-<h3>1. Daten sichern<a class="headerlink" href="#daten-sichern" title="Link to this heading"></a></h3>
+<ol class="arabic">
+<li><p>Daten sichern</p>
 <p>Wenn ein Programmfehler auftritt, der nicht zu einem harten Abbruch führt,
 sollte sich ein Warnfenster öffnen, das die Beendigung der Programmsitzung empfiehlt.
 In diesem Fall können Sie noch versuchen, Änderungen zu speichern.</p>
-</section>
-<section id="das-programm-und-alle-plugins-aktualisieren">
-<h3>2. Das Programm und alle Plugins aktualisieren<a class="headerlink" href="#das-programm-und-alle-plugins-aktualisieren" title="Link to this heading"></a></h3>
+</li>
+<li><p>Das Programm und alle Plugins aktualisieren</p>
 <p>Stellen Sie bitte sicher, dass Sie die neueste Version von <em>novelibre</em> und
 all seinen Plugins haben.
 Haben Sie einen veralteten Programmstand, könnte der Fehler, der bei Ihnen auftritt,
 bereits behoben sein.</p>
-</section>
-<section id="plugins-deinstallieren">
-<h3>3. Plugins deinstallieren<a class="headerlink" href="#plugins-deinstallieren" title="Link to this heading"></a></h3>
+</li>
+<li><p>Plugins deinstallieren</p>
 <p>Wenn sich <em>novelibre</em> starten lässt, öffnen Sie den
 <a class="reference external" href="tools_menu.html#pluginmanager">Plugin-Manager</a>,
 löschen Sie nacheinander alle Plugins, und starten Sie <em>novelibre</em> neu.
 Wenn sich der Fehler nicht mehr reproduzieren lässt, können Sie vorläufig
 ohne Plugins weiterarbeiten.</p>
-</section>
-<section id="zu-einer-alten-version-zuruckkehren">
-<h3>4. Zu einer alten Version zurückkehren<a class="headerlink" href="#zu-einer-alten-version-zuruckkehren" title="Link to this heading"></a></h3>
+</li>
+<li><p>Zu einer alten Version zurückkehren</p>
 <p>Wenn das alles nichts nützt, Sie aber schon längere Zeit ohne Probleme mit
 <em>novelibre</em> gearbeitet haben, könnte das Problem mit einem fehlerbehafteten
 Update eingeschleppt worden sein.
 Falls Sie noch die vorherige Programmversion in Ihrem <em>Download</em>-Ordner haben,
 installieren Sie diese (und bei Bedarf auch die alten Plugins) erneut.</p>
-</section>
-<section id="den-fehler-melden">
-<h3>5. Den Fehler melden<a class="headerlink" href="#den-fehler-melden" title="Link to this heading"></a></h3>
+</li>
+<li><p>Den Fehler melden</p>
 <p>Im Installationsverzeichnis von <em>novelibre</em> sollte sich eine Textdatei namens
 <cite>error.log</cite> befinden, in der die Codezeilen aufgelistet sind, die zum Fehler geführt haben.
 Der Inhalt dieser Datei kann dem Entwickler helfen, das Problem zu beseitigen.</p>
-<p>Wenn Sie also zur Verbesserung von <em>novelibre</em> beitragen wollen, können Sie
-<a class="reference external" href="https://github.com/peter88213/novelibre/issues">auf der entsprechenden GitHub-Seite</a>
-einen Fehlerreport erzeugen.
+<p>Wenn Sie also zur Verbesserung von <em>novelibre</em> beitragen wollen,
+Sie können die Homepage von <em>novelibre</em> oder eines Plugins, das Ihnen verdächtig vorkommt,
+besuchen und im Abschnitt <em>Issues</em> einen Fehlerbericht einreichen.
 Dazu benötigen Sie jedoch ein Benutzerkonto, das kostenlos ist.</p>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
@@ -161,7 +150,8 @@ Vorgänge werfen, und gegebenenfalls einen wieder öffnen.</p>
 <p>Wenn Sie einen neuen Fehler melden, füllen Sie bitte das <em>Bug report</em>-Formular aus.
 Geben Sie bitte an, welche Plugins Sie installiert haben.</p>
 </div>
-</section>
+</li>
+</ol>
 </section>
 </section>
 

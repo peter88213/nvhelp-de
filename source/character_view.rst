@@ -203,12 +203,6 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Wenn der "Haftmerker" einer Figur Text enthält,
 erscheint in the Baumansicht ein "N" als Hinweis.
 
-.. note::
-   Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
-   Sie werden nicht beim Dokumentenexport berücksichtigt.
-   Allerdings erscheinen sie in der `Figurenliste`_.
-
-.. _Figurenliste: characters_menu.html#exportieren-character-list-spreadsheet
 
 Navigationsschaltflächen
 ------------------------

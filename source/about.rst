@@ -5,7 +5,7 @@
 Lizenzinformation
 -----------------
 
-Copyright (c) 2024 by Peter Triesberger.
+Copyright (c) 2025 by Peter Triesberger.
 
 Dieses Material darf nur unter den Bedingungen der Open Publication License,
 v1.0 oder höher, verbreitet werden

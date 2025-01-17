@@ -409,12 +409,6 @@ erscheint in the Baumansicht ein "N" als Hinweis.
 Wenn ein Kapitelzweig mit Abschnitten, die Notizen enthalten,
 eingeklappt wird, erscheint das "N" in der Kapitelzeile.
 
-.. note::
-   Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
-   Sie werden nicht beim Dokumentenexport berücksichtigt.
-   Allerdings erscheinen sie in der `Abschnittsliste`_.
-
-.. _Abschnittsliste: section_menu.html#abschnittsliste-nur-exportieren
 
 Navigationsschaltflächen
 ------------------------

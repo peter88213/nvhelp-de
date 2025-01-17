@@ -28,6 +28,10 @@ mit den Elementen des Projektbaums.
 Die meisten von ihnen haben bei ihren Eigenschaften auch ein gelbes Texteingabefeld für Notizen.
 Enthält ein solches Feld Text, erscheint im Projektbaum ein "N".
 
+Über das *Extras*-Menü lassen sich die "Haftmerker" in Listenform im Webbrowser anzeigen.
+Über die Download-Funktion des Webbrowsers hat man eine beschränkte
+Exportmöglichkeit.
+
 
 Projektnotizen
 --------------
@@ -36,7 +40,8 @@ Für Geistesblitze, allgemeine Rechercheergebnisse und Sonstiges bietet
 *novelibre* die eigene Kategorie der Projektnotizen an.
 Eine Projektnotiz ist im Projektbaum aufgelistet und besteht aus einem
 Karteikärtchen mit Titel und Inhalt, sowie einer optionalen Linksammlung.
-Projektnotizen lassen sich auch in Listenform im Webbrowser anzeigen.
+
+Die Projektnotizen lassen sich auch in Listenform im Webbrowser anzeigen.
 Über die Download-Funktion des Webbrowsers hat man eine beschränkte
 Exportmöglichkeit.
 

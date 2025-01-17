@@ -111,10 +111,6 @@ irgendwo außerhalb des Texteingabefelds geklickt wird.
 Wenn der "Haftmerker" eines Stadiums Text enthält,
 erscheint in the Baumansicht ein "N" als Hinweis.
 
-.. note::
-   Die "Haftmerker" sind nur für die Arbeit mit *novelibre* gedacht.
-   Sie werden nicht beim Dokumentenexport berücksichtigt.
-
 
 Navigationsschaltflächen
 ------------------------
