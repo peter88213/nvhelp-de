@@ -79,12 +79,14 @@ Sicherungskopie wiederherstellen
 
 **Die zuletzt erzeugte Sicherungskopie wiederherstellen**
 
-Mit **Datei > Sicherungskopie wiederherstellen** or ``Strg``-``B``
-können Sie das Projekt im Arbeitsspeicher
-mit der zuletzt erzeugten Sicherungsdatei überschreiben.
+Mit **Datei > Sicherungskopie wiederherstellen** oder ``Strg``-``B``
+können Sie die vorletzte Version der Projektdatei laden.
+Dadurch wird die zuletzt gespeicherte Projektdatei überschrieben.
 Sie erhalten eine Warnung, dass Änderungen verlorengehen.
 
-.. hint::
+.. note::
+   Mit "Sicherungskopie" ist die Datei mit der Erweiterung ``.bak`` im Projektverzeichnis gemeint. 
+   
    Nach dem Wiederherstellen der Sicherungskopie gibt es keine Sicherungsdatei 
    mehr im Projektverzeichnis.
    Eine neue wird erzeugt, sobald Sie das Projekt speichern.
