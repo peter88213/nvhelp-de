@@ -32,8 +32,10 @@ Der Dateinamenszusatz lautet ``_Manuskript_tmp``.
       Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
       zu *novelibre* automatisch gelöscht.
 
-- Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
-  Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.
+-  Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
+   Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.
+-  Änderungsverfolgung: Alle Änderungen werden beim Import akzeptiert.
+   Änderungsverfolgungsdaten gehen verloren.
 
 
 Manuskript für fremde Textverarbeitung
@@ -77,6 +79,8 @@ Der Dateinamenszusatz lautet ``_proof_tmp``.
 
 -  Textauszeichnungen: Fett- und Kursivschreibung werden reimportiert.
    Andere Auszeichnungen wie Unterstreichung oder Durchstreichung gehen verloren.
+-  Änderungsverfolgung: Alle Änderungen werden beim Import akzeptiert.
+   Änderungsverfolgungsdaten gehen verloren.
 
 
 Endgültiges Manuskriptdokument (nur Export)
