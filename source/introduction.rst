@@ -120,7 +120,8 @@ spezieller Zeitleistensoftware wie z.B. dem freien
 verwenden, was ganz neue Möglichkeiten für die Planung
 der Erzählhandlung eröffnet.
 
-Als Computerprogramm muss *novelibre* seine Daten irgendwie speichern.
+Als Computerprogramm muss *novelibre* seine Daten irgendwie
+`speichern <saving_data.html>`__.
 Dazu benutzt es ein offenes und gut dokumentiertes Dateiformat,
 so dass niemand besorgt sein muss, dass sein Roman irgendwann
 einmal "im Programm drin steckt und nicht mehr heraus will".

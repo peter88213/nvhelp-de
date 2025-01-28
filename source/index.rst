@@ -23,12 +23,14 @@ Sie können sie mit **Hilfe > Online-Hilfe** aufrufen.
    preparations
    desktop
    basic_concepts
+   saving_data
    getting_started
    writing
    plotting
    metadata
    taking_notes
    wordcount
+   going_outside
    story_time
    series
    command_reference
