@@ -34,25 +34,23 @@ Zim Desktop Wiki einrichten
 
 Damit *nv_zim* das `Zim Desktop Wiki <https://zim-wiki.org/>`__-Anwendungsprogramm
 starten kann, muss es den Speicherort der Installation kennen.
-Beim Programmhochlauf prüft es die *launchers.ini*-Datei im *novelibre*-Konfigurationsverzeichnis.
-Hier ein Beispiel mit einem Eintrag unter Windows:
+Wenn Sie Zim im standardmäßigen Verzeichnis installiert haben, gibt es hier nichts zu tun.
 
-::
+.. note::
+   Beim Programmhochlauf prüft *nv_zim* die *launchers.ini*-Datei im *novelibre*-Konfigurationsverzeichnis.
+   Hier ein Beispiel mit einem Eintrag unter Windows:
+   
+   ::
+   
+      [SETTINGS]
+      .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
+   
+   Falls diese Datei nicht existiert, oder der eingetragene Dateipfad nicht passt,
+   durchsucht das Programm die Standard-Installationspfade für die 32-Bit und die
+   64-Bit-Versionen unter Windows, sowie ``/usr/bin/zim`` unter Linux.
+   Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.
+   Der korrekte Speicherort wird dann automatisch in die *launchers.ini*-Datei eingetragen.
 
-   [SETTINGS]
-   .zim = C:/Program Files (x86)/Zim Desktop Wiki/zim.exe
-
-Falls diese Datei nicht existiert, oder der eingetragene Dateipfad nicht passt,
-durchsucht das Programm die Standard-Installationspfade für die 32-Bit und die
-64-Bit-Versionen unter Windows.
-Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.
-
-Der korrekte Speicherort wird dann automatisch in die *launchers.ini*-Datei eingetragen.
-Unter Windows gibt es für die Benutzer üblicherweise nichts zu tun.
-
-Linux-Benutzer sollten herausfinden, wo sich die Zim-Applikation auf ihrem System befindet,
-und diesen Pfad entweder in eine selbst erzeugte **~/.novx/launchers.ini**-Datei eintragen,
-oder ihn im Dateidialog auswählen, sobald danach gefragt wird.
 
 
 Zim-Notizbücher als Projekt-Wikis

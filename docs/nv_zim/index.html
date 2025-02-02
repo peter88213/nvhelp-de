@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=7a5f906e"></script>
+      <script src="../_static/documentation_options.js?v=9f41a7f3"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../_static/translations.js?v=9bf55d28"></script>
@@ -148,7 +148,10 @@ Die Werkzeugleiste erhält eine <img alt="Zim" src="../_images/zim.png" /> Schal
 <h2>Zim Desktop Wiki einrichten<a class="headerlink" href="#zim-desktop-wiki-einrichten" title="Link to this heading"></a></h2>
 <p>Damit <em>nv_zim</em> das <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>-Anwendungsprogramm
 starten kann, muss es den Speicherort der Installation kennen.
-Beim Programmhochlauf prüft es die <em>launchers.ini</em>-Datei im <em>novelibre</em>-Konfigurationsverzeichnis.
+Wenn Sie Zim im standardmäßigen Verzeichnis installiert haben, gibt es hier nichts zu tun.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Beim Programmhochlauf prüft <em>nv_zim</em> die <em>launchers.ini</em>-Datei im <em>novelibre</em>-Konfigurationsverzeichnis.
 Hier ein Beispiel mit einem Eintrag unter Windows:</p>
 <div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
 <span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Files (x86)/Zim Desktop Wiki/zim.exe</span>
@@ -156,13 +159,10 @@ Hier ein Beispiel mit einem Eintrag unter Windows:</p>
 </div>
 <p>Falls diese Datei nicht existiert, oder der eingetragene Dateipfad nicht passt,
 durchsucht das Programm die Standard-Installationspfade für die 32-Bit und die
-64-Bit-Versionen unter Windows.
-Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.</p>
-<p>Der korrekte Speicherort wird dann automatisch in die <em>launchers.ini</em>-Datei eingetragen.
-Unter Windows gibt es für die Benutzer üblicherweise nichts zu tun.</p>
-<p>Linux-Benutzer sollten herausfinden, wo sich die Zim-Applikation auf ihrem System befindet,
-und diesen Pfad entweder in eine selbst erzeugte <strong>~/.novx/launchers.ini</strong>-Datei eintragen,
-oder ihn im Dateidialog auswählen, sobald danach gefragt wird.</p>
+64-Bit-Versionen unter Windows, sowie <code class="docutils literal notranslate"><span class="pre">/usr/bin/zim</span></code> unter Linux.
+Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.
+Der korrekte Speicherort wird dann automatisch in die <em>launchers.ini</em>-Datei eingetragen.</p>
+</div>
 </section>
 <section id="zim-notizbucher-als-projekt-wikis">
 <h2>Zim-Notizbücher als Projekt-Wikis<a class="headerlink" href="#zim-notizbucher-als-projekt-wikis" title="Link to this heading"></a></h2>
