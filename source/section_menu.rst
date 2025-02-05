@@ -137,3 +137,24 @@ nicht zu *novelibre* zurückspielen.
 Die Abschnittsliste ist mehr dazu gedacht, die Metadaten des Schreibprojekts
 zu extrahieren, zum Beispiel, falls man *novelibre* nicht weiterverwenden will.
 
+
+Zeittafel anzeigen
+------------------
+
+**Einen HTML-Report mit einer Zeittafel anzeigen**
+
+Mit **Abschnitt > Zeittafel anzeigen**
+erzeugen Sie eine als Tabelle formatierte HTML-Seite
+mit einer Zeittafel
+und starten Ihren System-Webbrowser zur Anzeige.
+
+In der Zeittafel sind die datierten "normalen" Abschnitte
+in chronologischer Reihenfolge aufgeführt.
+Die Spalten umfassen neben Datum/Zeit und Dauer den Abschnittstitel, die Beschreibung,
+Schauplätze und Figuren sowie Plotlinien mit Plotnotizen.
+
+.. note::
+   Der Report ist eine temporäre Datei, die bei 
+   Programmbeendigung automatisch gelöscht wird.
+   Lassen Sie sie bei Bedarf von Ihrem Browser 
+   sichern oder ausdrucken.

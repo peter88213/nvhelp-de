@@ -56,3 +56,7 @@ und neue Romanprojekte aus vorhandenen Zeitleisten erzeugen können.
 Wer kein Zeitleistenprogramm benutzen will, findet im
 `nv_tlview plugin <https://github.com/peter88213/nv_tlview/>`__
 eine grafische Zeitstrahl-Anzeige für die mit Datum und Zeit versehenen Abschnitte.
+
+Darüberhinaus kann man sich datierte Abschnitte in einer
+`Zeittafel <section_menu.html#zeittafel-anzeigen>`__
+anzeigen lassen.
