@@ -48,7 +48,7 @@ Falls Sie "Überschreiben" wählen, erzeugt *novelibre* ein neues Manuskriptdoku
    als die Projektdatei ist, und schlägt eine Auswahl vor, indem es die 
    passende Schaltfläche aktiviert. Sie können das mit der Eingabetaste 
    akzeptieren. Wenn Ihre Auswahl dem Vorschlag entspricht, sehen Sie
-   in der Statusleiste eine grüne Meldung. Andernfalls ist die Meldung rot, 
+   in der Statusleiste eine grüne Meldung. Andernfalls ist die Meldung gelb, 
    nur zur Erinnerung. 
 
 Falls Sie den Export über den Menübefehl **Exportieren** eingeleitet haben,
