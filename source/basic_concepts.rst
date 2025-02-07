@@ -210,7 +210,7 @@ Kommentare, Fuß- und Endnoten
    ganz am Schluss durch die Bilder (oder andere Sonderformatierungen, 
    die nicht durch *novelibre* abgedeckt sind) zu ersetzen, 
    wenn es darum geht, den `fertiggestellten Roman 
-   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ 
+   <export_menu.html#endgultiges-manuskriptdokument-nur-export>`__ 
    für die Veröffentlichung vorzubereiten. 
 
 

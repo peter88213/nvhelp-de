@@ -258,7 +258,7 @@ Manuskriptdatei benannt, aber mit der *.novx*-Erweiterung.
    *ODT*-Dokument nicht mehr gebraucht. 
    Wenn Sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
    so dass es später nicht durch ein `exportiertes Dokument 
-   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird. 
+   <export_menu.html#endgultiges-manuskriptdokument-nur-export>`__ überschrieben wird. 
 
 .. tip::
    Nachdem Sie ein umfangreiches Werk importiert haben, 
@@ -318,7 +318,7 @@ Gliederungsdatei benannt, aber mit der *.novx*-Erweiterung.
    *ODT*-Dokument nicht mehr gebraucht. 
    Wenn Sie es aber behalten wollen, verschieben Sie es am besten anderswohin, 
    so dass es später nicht durch ein `exportiertes Dokument 
-   <export_menu.html#manuskript-zum-drucken-nur-exportieren>`__ überschrieben wird.
+   <export_menu.html#endgultiges-manuskriptdokument-nur-export>`__ überschrieben wird.
    
    Die aktuelle Gliederung können Sie jederzeit als "Beschreibungen" 
    (getrennt nach Teilen, Kapiteln und Abschnitten) exportieren, 
