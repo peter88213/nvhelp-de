@@ -29,23 +29,10 @@ Was tun bei einem Fehler?
    Haben Sie einen veralteten Programmstand, könnte der Fehler, der bei Ihnen auftritt,
    bereits behoben sein.
 
-3. Plugins deinstallieren
+3. Den Fehler melden
 
-   Wenn sich *novelibre* starten lässt, öffnen Sie den
-   `Plugin-Manager <tools_menu.html#pluginmanager>`__,
-   löschen Sie nacheinander alle Plugins, und starten Sie *novelibre* neu.
-   Wenn sich der Fehler nicht mehr reproduzieren lässt, können Sie vorläufig
-   ohne Plugins weiterarbeiten.
-
-4. Zu einer alten Version zurückkehren
-
-   Wenn das alles nichts nützt, Sie aber schon längere Zeit ohne Probleme mit
-   *novelibre* gearbeitet haben, könnte das Problem mit einem fehlerbehafteten
-   Update eingeschleppt worden sein.
-   Falls Sie noch die vorherige Programmversion in Ihrem *Download*-Ordner haben,
-   installieren Sie diese (und bei Bedarf auch die alten Plugins) erneut.
-
-5. Den Fehler melden
+   Wenn das Problem damit nicht gelöst ist, könnte es sich um einen noch unbekannten
+   Programmierfehler handeln.
 
    Im Installationsverzeichnis von *novelibre* sollte sich eine Textdatei namens
    `error.log` befinden, in der die Codezeilen aufgelistet sind, die zum Fehler geführt haben.
@@ -66,6 +53,22 @@ Was tun bei einem Fehler?
       Wenn Sie einen neuen Fehler melden, füllen Sie bitte das *Bug report*-Formular aus.
       Geben Sie bitte an, welche Plugins Sie installiert haben. 
        
+
+4. Plugins deinstallieren
+
+   Wenn sich *novelibre* starten lässt, öffnen Sie den
+   `Plugin-Manager <tools_menu.html#pluginmanager>`__,
+   löschen Sie nacheinander alle Plugins, und starten Sie *novelibre* neu.
+   Wenn sich der Fehler nicht mehr reproduzieren lässt, können Sie vorläufig
+   ohne Plugins weiterarbeiten.
+
+5. Zu einer alten Version zurückkehren
+
+   Wenn das nichts nützt, Sie aber schon längere Zeit ohne Probleme mit
+   *novelibre* gearbeitet haben, könnte das Problem mit einem fehlerbehafteten
+   Update eingeschleppt worden sein.
+   Falls Sie noch die vorherige Programmversion in Ihrem *Download*-Ordner haben,
+   installieren Sie diese (und bei Bedarf auch die alten Plugins) erneut.
 
 
 
