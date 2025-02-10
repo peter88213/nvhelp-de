@@ -312,15 +312,12 @@ doch die Kenntnis dieser Technik wird sich auszahlen,
 spätestens wenn es um die Gestaltung von Druckseiten
 für das self publishing geht.
 
-Um den Umstand zu minimieren, empfehle ich meine `StyleSwitcher-Erweiterung
-<https://peter88213.github.io/StyleSwitcher/>`__, mit der Sie Ihr Manuskript
-mit einem einzigen Mausklick anpassen können.
+Wenn Sie also eine Dokumentvorlage oder ein Dokument mit den Formatvorlagen haben,
+mit denen Sie arbeiten möchten, kann *novelibre* diese für den Export verwenden.
+Wählen Sie dazu einfach in den
+`Exportoptionen <export_menu.html#dokumentenvorlage-auswahlen>`__
+das Textdokument oder die Textdokumentenvorlage aus.
 
-.. note::
-   Eine Vorlage laden und die voreingestellte Schriftart oder 
-   Seitengröße ändern nimmt keinen Einfluss auf das Zurückspielen 
-   zu *novelibre*.
-   
 .. tip::
    Falls Sie nur die Schriftart ändern wollen, ohne gleich 
    Dokumentvorlagen anzuwenden, können Sie *LibreOffice* 
@@ -336,7 +333,6 @@ mit einem einzigen Mausklick anpassen können.
    .. image:: _images/preparations10.png
       :alt: LibreOffice Screenshot
          
-      
 .. tip::
    Falls Sie in Ihrem fertigen Dokument anstelle der drei-Sternchen-Abschnittstrenner 
    lieber einfache Leerzeilen wollen, 
@@ -345,5 +341,14 @@ mit einem einzigen Mausklick anpassen können.
    `novelibre-tools 
    <https://github.com/peter88213/novelibre-tools/>`__-Erweiterung enthalten ist.
       
+.. tip::
+   Für das Wechseln zwischen unterschiedlichen Formatvorlagen in *Writer* empfehle ich 
+   meine `StyleSwitcher-Erweiterung <https://peter88213.github.io/StyleSwitcher/>`__, 
+   mit der Sie Ihr Manuskript mit einem einzigen Mausklick anpassen können.
+
+   Eine Vorlage laden und die voreingestellte Schriftart oder 
+   Seitengröße ändern nimmt keinen Einfluss auf das Zurückspielen 
+   zu *novelibre*.
+
 
    

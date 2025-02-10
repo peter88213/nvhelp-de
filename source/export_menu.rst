@@ -213,3 +213,24 @@ Dieses Auswahlfeld steuert das Verhalten beim Öffnen von Dokumenten zur Bearbei
 
 - Wenn nicht angekreuzt, wird *novelibre* das Projekt nicht sperren,
   wenn es *Writer* oder *Calc* aufruft.
+
+
+Dokumentenvorlage auswählen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sie können *novelibre* Ihre eigenen Formatvorlagen anwenden lassen, damit die
+exportierten Textdokumente Ihrem Geschmack und Ihren Gewohnheiten besser entsprechen.
+
+Wenn Sie auf diese Schaltfläche klicken, wird ein Dateiauswahldialog geöffnet.
+Sie können entweder eine *.ott* Dokumentvorlage oder ein *.odt* Dokument auswählen.
+*novelibre* übernimmt die Formatvorlagen des ausgewählten Dokuments
+und verwendet sie für den Export der ODT-Dokumente.
+
+
+Standardvorlagen wiederherstellen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Wenn Sie auf diese Schaltfläche klicken, wird *novelibre* die mit
+**Dokumentenvorlage auswählen** geladenen Formatvorlagen verwerfen
+und zu seinen eingebauten Standardvorlagen zurückkehren.
+
