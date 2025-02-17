@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=9c1710ca"></script>
+      <script src="../_static/documentation_options.js?v=8ed12cd0"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../_static/translations.js?v=9bf55d28"></script>
@@ -74,8 +74,10 @@
 <li class="toctree-l3"><a class="reference internal" href="#funktionsweise">Funktionsweise</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#konvertierungsregeln">Konvertierungsregeln</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#wie-man-eintrage-fur-den-export-kennzeichnet">Wie man Einträge für den Export kennzeichnet</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#stile-importieren-optional">Stile importieren (optional)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#stile-importieren">Stile importieren</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#abschnitte-kennzeichnen">Abschnitte kennzeichnen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#plotlinien-kennzeichnen">Plotlinien kennzeichnen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#plotpunkte-kennzeichnen">Plotpunkte kennzeichnen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#novelibre-notizen-kennzeichnen">novelibre-Notizen kennzeichnen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#schlagworter-kennzeichnen">Schlagwörter kennzeichnen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#schauplatze-kennzeichnen">Schauplätze kennzeichnen</a></li>
@@ -177,22 +179,37 @@ die in jedes <em>novelibre</em>-Projekt importiert werden können.</p>
 <h2>Konvertierungsregeln<a class="headerlink" href="#konvertierungsregeln" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>Notizen mit einem Schatten werden zu Abschnitten konvertiert.</p></li>
-<li><p>Abschnitte werden nach ihrer Anordnung im Scapple-Diagramm sortiert (von oben links nach unten rechts).</p></li>
-<li><p>Notizen mit einem „Wolken“-Rand ohne Schatten werden zu Abschnitts- und Figurennotizen konvertiert.</p></li>
+<li><p>Abschnitte werden nach ihrer Anordnung im Scapple-Diagramm sortiert
+(von oben links nach unten rechts).</p></li>
+<li><p>Notizen mit einem „Wolken“-Rand ohne Schatten werden zu Abschnitts-
+und Figurennotizen konvertiert.</p></li>
+<li><p>Umrandete Notizen mit braunem Text werden zu Plotlinien konvertiert
+Sie können dem Titel einen durch einen Doppelpunkt abgetrennten Kurznamen voranstellen.</p></li>
+<li><p>Notizen ohne Rand mit braunem Text werden zu Plotpunkten konvertiert.</p></li>
 <li><p>Notizen mit einem eckigen Rand werden zu Schlagwörtern konvertiert.</p></li>
 <li><p>Notizen mit rotem Text werden zu Hauptfiguren konvertiert.</p></li>
 <li><p>Notizen mit violettem Text werden zu Nebenfiguren konvertiert.</p></li>
 <li><p>Notizen mit blauem Text werden zu Schauplätzen konvertiert.</p></li>
 <li><p>Notizen mit grünem Text werden zu Gegenständen konvertiert.</p></li>
-<li><p>Weisen Sie Figuren, Schauplätze und Gegenstände einem Abschnitt zu, indem Sie die entsprechenden Notizen verbinden.</p></li>
-<li><p>Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu, indem Sie die entsprechenden Notizen verbinden.</p></li>
-<li><p>Weisen Sie Perspektivfiguren Abschnitten zu, indem Sie Pfeile von der Figur zum Abschnitt erzeugen.</p></li>
+<li><p>Weisen Sie Figuren, Schauplätze und Gegenstände einem Abschnitt zu,
+indem Sie die entsprechenden Notizen verbinden.</p></li>
+<li><p>Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu,
+indem Sie die entsprechenden Notizen verbinden.</p></li>
+<li><p>Weisen Sie Perspektivfiguren Abschnitten zu, indem Sie Pfeile von der Figur
+zum Abschnitt erzeugen.</p></li>
+<li><p>Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu,
+indem Sie die entsprechenden Notizen verbinden.</p></li>
+<li><p>Weisen Sie Abschnitte Plotlinien zu, indem sie sie entweder mit der Plotlinie
+oder mit einer ihrer Plotpunkte verbinden.</p></li>
+<li><p>Weisen Sie Plotpunkte einem Abschnitt durch eine Verbindung zu.</p></li>
+<li><p>Verbinden Sie den ersten Plotpunkt mit der Plotlinie,
+und verbinden Sie dann die folgenden Plotpunkte als Kette in fortlaufender Reihenfolge.</p></li>
 </ul>
 </section>
 <section id="wie-man-eintrage-fur-den-export-kennzeichnet">
 <h2>Wie man Einträge für den Export kennzeichnet<a class="headerlink" href="#wie-man-eintrage-fur-den-export-kennzeichnet" title="Link to this heading"></a></h2>
-<section id="stile-importieren-optional">
-<h3>Stile importieren (optional)<a class="headerlink" href="#stile-importieren-optional" title="Link to this heading"></a></h3>
+<section id="stile-importieren">
+<h3>Stile importieren<a class="headerlink" href="#stile-importieren" title="Link to this heading"></a></h3>
 <p>Zusammen mit der <em>scap_novx</em>-Distribution wird ein <em>Scapple</em>-Beispielprojekt
 namens <em>styles.scap</em> geliefert, das alle erforderlichen Formate enthält.
 Sie finden dieses Beispielprojekt im
@@ -202,46 +219,47 @@ Sie finden dieses Beispielprojekt im
 oder dessen Formate in Ihr eigenes Diagramm importieren.</p>
 <img alt="Screenshot" src="../_images/import_styles.png" />
 <p>Wählen Sie im Dateiauswahldialog
-<code class="docutils literal notranslate"><span class="pre">&lt;entpackter</span> <span class="pre">Ordner</span> <span class="pre">mit</span> <span class="pre">der</span> <span class="pre">scap_novx-Version&gt;\sample\styles.scap</span></code>.
-Dann können Sie die Formate per Kontextmenü zuweisen.</p>
-<img alt="Screenshot" src="../_images/apply_styles.png" />
+<code class="docutils literal notranslate"><span class="pre">c:\Users\&lt;Benutzername&gt;\.novx\scap_novx\sample\styles.scap</span></code>.
+Dann können Sie die Formate per Kontextmenü zuweisen:</p>
+<img alt="Screenshot" src="../_images/apply_styles_via_context_menu.png" />
+<p>Sie können die Formate auch über den Inspector zuweisen:</p>
+<img alt="Screenshot" src="../_images/apply_styles_via_inspector.png" />
 </section>
 <section id="abschnitte-kennzeichnen">
 <h3>Abschnitte kennzeichnen<a class="headerlink" href="#abschnitte-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „Section“-Format per Kontextmenü an,
-oder kreuzen Sie im Inspector „Shadow“ an.</p>
-<img alt="Screenshot" src="../_images/mark_section.png" />
+<p>Wenden Sie das <strong>Section</strong>-Format per Kontextmenü oder Inspector an.</p>
+</section>
+<section id="plotlinien-kennzeichnen">
+<h3>Plotlinien kennzeichnen<a class="headerlink" href="#plotlinien-kennzeichnen" title="Link to this heading"></a></h3>
+<p>Wenden Sie das <strong>Plot line</strong>-Format per Kontextmenü oder Inspector an.</p>
+</section>
+<section id="plotpunkte-kennzeichnen">
+<h3>Plotpunkte kennzeichnen<a class="headerlink" href="#plotpunkte-kennzeichnen" title="Link to this heading"></a></h3>
+<p>Wenden Sie das <strong>Plot point</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 <section id="novelibre-notizen-kennzeichnen">
 <h3>novelibre-Notizen kennzeichnen<a class="headerlink" href="#novelibre-notizen-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „Note“-Format per Kontextmenü an,
-oder weisen Sie der Notiz im Inspector den „Cloud“-Rahmen zu.</p>
+<p>Wenden Sie das <strong>Note</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 <section id="schlagworter-kennzeichnen">
 <h3>Schlagwörter kennzeichnen<a class="headerlink" href="#schlagworter-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „Tag“-Format per Kontextmenü an,
-oder weisen Sie der Notiz im Inspector den „Square“-Rahmen zu.</p>
+<p>Wenden Sie das <strong>Tag</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 <section id="schauplatze-kennzeichnen">
 <h3>Schauplätze kennzeichnen<a class="headerlink" href="#schauplatze-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „Location“-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große blaue Farbauswahlfeld aus.</p>
-<img alt="Screenshot" src="../_images/mark_location.png" />
+<p>Wenden Sie das <strong>Location</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 <section id="hauptfiguren-kennzeichnen">
 <h3>Hauptfiguren kennzeichnen<a class="headerlink" href="#hauptfiguren-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „MajorCharacter“-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große rote Farbauswahlfeld aus.</p>
+<p>Wenden Sie das <strong>MajorCharacter</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 <section id="nebenfiguren-kennzeichnen">
 <h3>Nebenfiguren kennzeichnen<a class="headerlink" href="#nebenfiguren-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „MinorCharacter“-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große violette Farbauswahlfeld aus.</p>
+<p>Wenden Sie das <strong>MinorCharacter</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 <section id="gegenstande-kennzeichnen">
 <h3>Gegenstände kennzeichnen<a class="headerlink" href="#gegenstande-kennzeichnen" title="Link to this heading"></a></h3>
-<p>Wenden Sie entweder das „Item“-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große grüne Farbauswahlfeld aus.</p>
+<p>Wenden Sie das <strong>Item</strong>-Format per Kontextmenü oder Inspector an.</p>
 </section>
 </section>
 <section id="benutzerdefinierte-konfiguration">
@@ -291,25 +309,33 @@ Codezeile.</p></li>
 
 <span class="na">location_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.0 0.0 1.0</span>
 
-<span class="c1"># RGB Textfarbe für Schauplätze in Scapple..</span>
+<span class="c1"># RGB Textfarbe für Schauplätze in Scapple.</span>
 
 <span class="na">item_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.0 0.5 0.0</span>
 
-<span class="c1"># RGB Textfarbe für Gegenstände in Scapple..</span>
+<span class="c1"># RGB Textfarbe für Gegenstände in Scapple.</span>
 
 <span class="na">major_chara_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">1.0 0.0 0.0</span>
 
-<span class="c1"># RGB Textfarbe für Hauptfiguren in Scapple..</span>
+<span class="c1"># RGB Textfarbe für Hauptfiguren in Scapple.</span>
 
 <span class="na">minor_chara_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.5 0.0 0.5</span>
 
-<span class="c1"># RGB Textfarbe für Nebenfiguren in Scapple..</span>
+<span class="c1"># RGB Textfarbe für Nebenfiguren in Scapple.</span>
+
+<span class="na">plot_line_color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">0.6 0.2 0.0</span>
+
+<span class="c1"># RGB Textfarbe für Plotlinien und Plotpunkte in Scapple.</span>
 
 <span class="k">[OPTIONS]</span>
 
 <span class="na">export_sections</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
 
 <span class="c1"># Yes: Aus Scapple-Notizen Abschnitte erzeugen.</span>
+
+<span class="na">export_plot_lines</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
+
+<span class="c1"># Yes: Aus Scapple-Notizen Plotlinien und Plotpunkte erzeugen.</span>
 
 <span class="na">export_characters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">Yes</span>
 

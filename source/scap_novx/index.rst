@@ -71,23 +71,38 @@ Konvertierungsregeln
 --------------------
 
 - Notizen mit einem Schatten werden zu Abschnitten konvertiert.
-- Abschnitte werden nach ihrer Anordnung im Scapple-Diagramm sortiert (von oben links nach unten rechts).
-- Notizen mit einem "Wolken"-Rand ohne Schatten werden zu Abschnitts- und Figurennotizen konvertiert.
+- Abschnitte werden nach ihrer Anordnung im Scapple-Diagramm sortiert
+  (von oben links nach unten rechts).
+- Notizen mit einem "Wolken"-Rand ohne Schatten werden zu Abschnitts-
+  und Figurennotizen konvertiert.
+- Umrandete Notizen mit braunem Text werden zu Plotlinien konvertiert
+  Sie können dem Titel einen durch einen Doppelpunkt abgetrennten Kurznamen voranstellen.
+- Notizen ohne Rand mit braunem Text werden zu Plotpunkten konvertiert.
 - Notizen mit einem eckigen Rand werden zu Schlagwörtern konvertiert.
 - Notizen mit rotem Text werden zu Hauptfiguren konvertiert.
 - Notizen mit violettem Text werden zu Nebenfiguren konvertiert.
 - Notizen mit blauem Text werden zu Schauplätzen konvertiert.
 - Notizen mit grünem Text werden zu Gegenständen konvertiert.
-- Weisen Sie Figuren, Schauplätze und Gegenstände einem Abschnitt zu, indem Sie die entsprechenden Notizen verbinden.
-- Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu, indem Sie die entsprechenden Notizen verbinden.
-- Weisen Sie Perspektivfiguren Abschnitten zu, indem Sie Pfeile von der Figur zum Abschnitt erzeugen.
+- Weisen Sie Figuren, Schauplätze und Gegenstände einem Abschnitt zu,
+  indem Sie die entsprechenden Notizen verbinden.
+- Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu,
+  indem Sie die entsprechenden Notizen verbinden.
+- Weisen Sie Perspektivfiguren Abschnitten zu, indem Sie Pfeile von der Figur
+  zum Abschnitt erzeugen.
+- Weisen Sie Schlagwörter Abschnitten, Figuren, Schauplätzen und Gegenständen zu,
+  indem Sie die entsprechenden Notizen verbinden.
+- Weisen Sie Abschnitte Plotlinien zu, indem sie sie entweder mit der Plotlinie
+  oder mit einer ihrer Plotpunkte verbinden.
+- Weisen Sie Plotpunkte einem Abschnitt durch eine Verbindung zu.
+- Verbinden Sie den ersten Plotpunkt mit der Plotlinie,
+  und verbinden Sie dann die folgenden Plotpunkte als Kette in fortlaufender Reihenfolge.
 
 
 Wie man Einträge für den Export kennzeichnet
 --------------------------------------------
 
-Stile importieren (optional)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Stile importieren
+~~~~~~~~~~~~~~~~~
 
 Zusammen mit der *scap_novx*-Distribution wird ein *Scapple*-Beispielprojekt
 namens *styles.scap* geliefert, das alle erforderlichen Formate enthält.
@@ -104,67 +119,72 @@ oder dessen Formate in Ihr eigenes Diagramm importieren.
    :alt: Screenshot
  
 Wählen Sie im Dateiauswahldialog
-``<entpackter Ordner mit der scap_novx-Version>\sample\styles.scap``.
-Dann können Sie die Formate per Kontextmenü zuweisen.
+``c:\Users\<Benutzername>\.novx\scap_novx\sample\styles.scap``.
+Dann können Sie die Formate per Kontextmenü zuweisen:
 
 
-.. image:: _images/apply_styles.png
+.. image:: _images/apply_styles_via_context_menu.png
+   :alt: Screenshot
+
+
+Sie können die Formate auch über den Inspector zuweisen:
+
+.. image:: _images/apply_styles_via_inspector.png
    :alt: Screenshot
 
 
 Abschnitte kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "Section"-Format per Kontextmenü an,
-oder kreuzen Sie im Inspector "Shadow" an.
+Wenden Sie das **Section**-Format per Kontextmenü oder Inspector an.
 
-.. image:: _images/mark_section.png
-   :alt: Screenshot
-      
+
+Plotlinien kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Wenden Sie das **Plot line**-Format per Kontextmenü oder Inspector an.
+
+
+Plotpunkte kennzeichnen
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Wenden Sie das **Plot point**-Format per Kontextmenü oder Inspector an.
+
 
 novelibre-Notizen kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "Note"-Format per Kontextmenü an,
-oder weisen Sie der Notiz im Inspector den "Cloud"-Rahmen zu.
+Wenden Sie das **Note**-Format per Kontextmenü oder Inspector an.
 
 
 Schlagwörter kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "Tag"-Format per Kontextmenü an,
-oder weisen Sie der Notiz im Inspector den "Square"-Rahmen zu.
+Wenden Sie das **Tag**-Format per Kontextmenü oder Inspector an.
 
 
 Schauplätze kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "Location"-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große blaue Farbauswahlfeld aus.
+Wenden Sie das **Location**-Format per Kontextmenü oder Inspector an.
 
-.. image:: _images/mark_location.png
-   :alt: Screenshot
-   
 
 Hauptfiguren kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "MajorCharacter"-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große rote Farbauswahlfeld aus.
+Wenden Sie das **MajorCharacter**-Format per Kontextmenü oder Inspector an.
 
 
 Nebenfiguren kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "MinorCharacter"-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große violette Farbauswahlfeld aus.
+Wenden Sie das **MinorCharacter**-Format per Kontextmenü oder Inspector an.
 
 
 Gegenstände kennzeichnen
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wenden Sie entweder das "Item"-Format per Kontextmenü an,
-oder wählen Sie im Inspector das große grüne Farbauswahlfeld aus.
+Wenden Sie das **Item**-Format per Kontextmenü oder Inspector an.
 
 
 Benutzerdefinierte Konfiguration
@@ -227,19 +247,23 @@ Das ist die Konfigurationsdatei mit Erklärungen:
 
    location_color = 0.0 0.0 1.0
 
-   # RGB Textfarbe für Schauplätze in Scapple..
+   # RGB Textfarbe für Schauplätze in Scapple.
 
    item_color = 0.0 0.5 0.0
 
-   # RGB Textfarbe für Gegenstände in Scapple..
+   # RGB Textfarbe für Gegenstände in Scapple.
 
    major_chara_color = 1.0 0.0 0.0
 
-   # RGB Textfarbe für Hauptfiguren in Scapple..
+   # RGB Textfarbe für Hauptfiguren in Scapple.
 
    minor_chara_color = 0.5 0.0 0.5
 
-   # RGB Textfarbe für Nebenfiguren in Scapple..
+   # RGB Textfarbe für Nebenfiguren in Scapple.
+
+   plot_line_color = 0.6 0.2 0.0
+   
+   # RGB Textfarbe für Plotlinien und Plotpunkte in Scapple.
 
    [OPTIONS]
 
@@ -247,6 +271,10 @@ Das ist die Konfigurationsdatei mit Erklärungen:
 
    # Yes: Aus Scapple-Notizen Abschnitte erzeugen.
 
+   export_plot_lines = Yes
+   
+   # Yes: Aus Scapple-Notizen Plotlinien und Plotpunkte erzeugen.
+   
    export_characters = Yes
 
    # Yes: Aus Scapple-Notizen Figuren erzeugen.
