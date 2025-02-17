@@ -61,6 +61,16 @@ können, auch wenn die Abschnitte weit auseinanderliegen.
 .. image:: _images/causality01.png
    :alt: Example
 
+.. tip::
+   Das `scap_novx <https://github.com/peter88213/scap_novx>`__-Werkzeug 
+   kann ein neues *novelibre*-Projekt aus einem Plotentwurf
+   mit Plotlinien und Plotpunkten erzeugen, der mit Hilfe des
+   `Scapple <https://www.literatureandlatte.com/scapple/overview>`__ 
+   Mindmappers erstellt wurde. 
+
+   .. image:: _images/scapple_plot_lines.png
+      :alt: Example
+
 
 Handlungsraster (Plot grid)
 ---------------------------
