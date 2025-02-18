@@ -96,6 +96,7 @@ Konvertierungsregeln
 - Weisen Sie Plotpunkte einem Abschnitt durch eine Verbindung zu.
 - Verbinden Sie den ersten Plotpunkt mit der Plotlinie,
   und verbinden Sie dann die folgenden Plotpunkte als Kette in fortlaufender Reihenfolge.
+- Einfache Notizen werden in Beschreibungen der Elemente konvertiert, mit denen sie verbunden sind.
 
 
 Wie man Einträge für den Export kennzeichnet
