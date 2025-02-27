@@ -1,0 +1,371 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nv_zim &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=b99b68fe"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/translations.js?v=9bf55d28"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="author" title="Über dieses Dokument" href="../about.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="Werkzeuge" href="../utilities.html" />
+    <link rel="prev" title="nv_updater" href="../nv_updater/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../saving_data.html">Daten speichern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotting.html">Mit novelibre plotten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metadata.html">Die Metadaten im Blick behalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taking_notes.html">Notizen machen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../wordcount.html">Textumfang und Schreibfortschritt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../going_outside.html">Nach außen gehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../story_time.html">Erzählte Zeit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../series.html">Mehrere Bücher verwalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../nv_aeon2/index.html">nv_aeon2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_zim</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#zim-desktop-wiki-einrichten">Zim Desktop Wiki einrichten</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zim-notizbucher-als-projekt-wikis">Zim-Notizbücher als Projekt-Wikis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#dateispeicherorte">Dateispeicherorte</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#notizbuchstruktur">Notizbuchstruktur</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#schlagworter">Schlagwörter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wiki-links-in-novelibre">Wiki-Links in novelibre</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#zim-desktop-wiki-menu">Zim Desktop Wiki-Menü</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#projekt-wiki-offnen">Projekt-Wiki öffnen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#projekt-wiki-erzeugen">Projekt-Wiki erzeugen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#wiki-links-entfernen">Wiki-Links entfernen</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#buch-figuren-schauplatze-gegenstande-eigenschaften">Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#wiki-seite-schaltflache">„Wiki-Seite“-Schaltfläche</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../utilities.html">Werkzeuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../program_errors.html">Programmfehler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abandon_novelibre.html">novelibre aufgeben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">Über dieses Benutzerhandbuch</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
+      <li class="breadcrumb-item active">nv_zim</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_zim/">English</a></p>
+<hr class="docutils" />
+<section id="nv-zim">
+<h1>nv_zim<a class="headerlink" href="#nv-zim" title="Link to this heading"></a></h1>
+<p><strong>Benutzerhandbuch</strong></p>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_zim/">nv_zim</a>.
+Sie können sie mit <strong>Hilfe &gt; Zim-Anbindung Online-Hilfe</strong> öffnen.</p>
+<p><em>nv_zim</em> ist ein Plugin, das <em>novelibre</em>-Projekte mit einem
+<em>Zim Desktop Wiki</em> verbindet.
+Das ist hauptsächlich für die Dokumentation des Weltenbaus gedacht.</p>
+<p>Das Plugin fügt dem <em>novelibre</em>-<strong>Extras</strong>-Menü
+den Eintrag <strong>Zim Desktop Wiki</strong> hinzu,
+und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Zim-Anbindung Online-Hilfe</strong>.
+Die Eigenschaftsansicht von Figuren, Schauplätzen, Gegenständen und Buch
+erhalten eine <strong>Wiki-Seite</strong>-Schaltfläche.
+Die Werkzeugleiste erhält eine <img alt="Zim" src="../_images/zim.png" /> Schaltfläche.</p>
+<section id="zim-desktop-wiki-einrichten">
+<h2>Zim Desktop Wiki einrichten<a class="headerlink" href="#zim-desktop-wiki-einrichten" title="Link to this heading"></a></h2>
+<p>Damit <em>nv_zim</em> das <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>-Anwendungsprogramm
+starten kann, muss es den Speicherort der Installation kennen.
+Wenn Sie Zim im standardmäßigen Verzeichnis installiert haben, gibt es hier nichts zu tun.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Beim Programmhochlauf prüft <em>nv_zim</em> die <em>launchers.ini</em>-Datei im <em>novelibre</em>-Konfigurationsverzeichnis.
+Hier ein Beispiel mit einem Eintrag unter Windows:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+<span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Files (x86)/Zim Desktop Wiki/zim.exe</span>
+</pre></div>
+</div>
+<p>Falls diese Datei nicht existiert, oder der eingetragene Dateipfad nicht passt,
+durchsucht das Programm die Standard-Installationspfade für die 32-Bit und die
+64-Bit-Versionen unter Windows, sowie <code class="docutils literal notranslate"><span class="pre">/usr/bin/zim</span></code> unter Linux.
+Wenn das missglückt, öffnet es einen Dateiauswahldialog und fragt nach dem Speicherort.
+Der korrekte Speicherort wird dann automatisch in die <em>launchers.ini</em>-Datei eingetragen.</p>
+</div>
+</section>
+<section id="zim-notizbucher-als-projekt-wikis">
+<h2>Zim-Notizbücher als Projekt-Wikis<a class="headerlink" href="#zim-notizbucher-als-projekt-wikis" title="Link to this heading"></a></h2>
+<p>Das <em>nv_zim</em>-Plugin erweitert die <em>novelibre</em>-Benutzeroberfläche, damit Sie bequem
+die <em>Zim Desktop Wiki</em>-Anwendung mit einem projektbezogenen Notizbuch oder mit einer
+kontextbezogenen Wiki-Seite öffnen können. Das funktioniert grundsätzlich mit
+jedem Zim-Notizbuch, auch mit Seiten in unterschiedlichen Notizbüchern.
+Es wird jedoch empfohlen, ein <em>Projekt-Wiki</em> genanntes Notizbuch anzulegen,
+das mit dem aktuellen <em>novelibre</em>-Projekt, oder auch mit mehreren Projekten einer
+Serie verlinkt wird.
+Dann kann das Programm fehlende Seiten automatisch in diesem Notizbuch anlegen.</p>
+<section id="dateispeicherorte">
+<h3>Dateispeicherorte<a class="headerlink" href="#dateispeicherorte" title="Link to this heading"></a></h3>
+<p>Projekt-Wikis können an beliebigen Speicherorten liegen; wird eines jedoch automatisch
+erzeugt, liegt es im <em>novelibre</em>-Projektverzeichnis in einem Unterverzeichnis namens
+<code class="docutils literal notranslate"><span class="pre">&lt;Projektbezeichnung&gt;_zim</span></code>.</p>
+<ul class="simple">
+<li><p>Wenn Sie das Projekt-Wiki nachträglich an einen anderen Ort verschieben, können Sie
+es beim nächsten Öffnen aus <em>novelibre</em> heraus mit einem Dateiauswahldialog
+auswählen und somit neu verlinken.</p></li>
+<li><p>Wenn Sie das Projekt-Wiki zusammen mit dem <em>novelibre</em>-Projekt an einen anderen Ort verschieben,
+kann das Programm die Wiki-Links automatisch korrigieren.</p></li>
+<li><p>Auch wenn Sie das Projekt-Wiki an seinem Ort lassen, aber das <em>novelibre</em>-Projekt woandershin
+verschieben, kann das Programm die Wiki-Links automatisch korrigieren.</p></li>
+</ul>
+</section>
+<section id="notizbuchstruktur">
+<h3>Notizbuchstruktur<a class="headerlink" href="#notizbuchstruktur" title="Link to this heading"></a></h3>
+<p>Automatisch angelegte Projekt-Wikis haben eine „flache“ Struktur, das heißt:
+alle Wiki-Seiten liegen im <em>Home</em>-Ordner des Zim-Notizbuchs.
+Gruppierungen und Baumstrukturen kann man dabei mit Hilfe von Links auf entsprechend
+strukturierten Übersichtsseiten anlegen. Gegenüber einer Ordnerstruktur hat das den Vorteil,
+dass sich jede Seite unter mehreren unterschiedlichen Gesichtspunkten einordnen lässt.
+Wenn Sie stattdessen eine hierarchische Struktur bevorzugen, können Sie automatisch
+erzeuge Wiki-Seiten nachträglich in <em>Zim</em> verschieben, müssen aber unter Umständen
+den Link in <em>novelibre</em> per Auswahldialog erneuern.</p>
+</section>
+<section id="schlagworter">
+<h3>Schlagwörter<a class="headerlink" href="#schlagworter" title="Link to this heading"></a></h3>
+<p><em>novelibre</em> bietet die Möglichkeit, Figuren, Schauplätze und Gegenstände mit Schlagwörtern
+zu versehen. Wenn <em>nv_zim</em> automatisch eine Wiki-Seite erzeugt, fügt es vorhandene Schlagwörter
+in der geeigneten Notation für <em>Zim</em> ein. Daturch ist es der Anwendung möglich, solche
+Seiten nach den Kategorien zu gruppieren und zu verlinken, die durch die Schlagwörter
+repräsentiert werden.</p>
+</section>
+<section id="wiki-links-in-novelibre">
+<h3>Wiki-Links in novelibre<a class="headerlink" href="#wiki-links-in-novelibre" title="Link to this heading"></a></h3>
+<p><em>novelibre</em> speichert die Dateipfade des Pojekt-Wikis und der Wiki-Seiten in der <em>.novx</em>-Datei ab,
+wenn das Projekt zum Zeitpunkt der Verlinkung nicht gesperrt ist.
+Andernfalls merkt sich das Programm diese Dateipfade nur für die aktuelle Sitzung,
+um das gesperrte Projekt nicht zu verändern.
+Wenn Sie aber das Pojekt nachträglich entsperren, und das Wiki oder eine Seite erneut öffnen,
+wird <em>novelibre</em> die Dateipfade automatisch speichern und eine entsprechende Meldung
+in der Statuszeile anzeigen.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Falls Sie mehr als nur eine Wiki-Seite mit einer Figur, einem Schauplatz, einem Gegenstand
+oder dem Buch verlinken wollen, können Sie dafür reguläre
+<a class="reference external" href="../world_view.html#links">Links</a> verwenden.
+Wenn das <em>nv_zim</em>-Plugin installiert ist, wird <em>novelibre</em> Wiki-Seiten unter den
+Links erkennen und mit der <em>Zim</em>-Anwendung öffnen.</p>
+</div>
+</section>
+</section>
+<section id="zim-desktop-wiki-menu">
+<h2>Zim Desktop Wiki-Menü<a class="headerlink" href="#zim-desktop-wiki-menu" title="Link to this heading"></a></h2>
+<section id="projekt-wiki-offnen">
+<h3>Projekt-Wiki öffnen<a class="headerlink" href="#projekt-wiki-offnen" title="Link to this heading"></a></h3>
+<p>Mit <strong>Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki öffnen</strong>
+oder mit der Schaltfläche <img alt="Zim" src="../_images/zim.png" /> in der Werkzeugleiste können Sie das mit dem Projekt
+verlinkte Zim-Notizbuch öffnen.</p>
+<p>Falls noch keines verlinkt ist, oder wenn die gespeicherte Link-Adresse nicht gültig ist,
+werden Sie gefragt, ob Sie ein bestehendes Wiki öffnen, oder ob Sie ein neues erzeugen wollen:</p>
+<dl>
+<dt>Durchsuchen</dt><dd><p>öffnet einen Dateiauswahldialog, mit den Sie nach einer Zim-Wiki-Datei mit der
+Dateiendung <em>.zim</em> suchen können.
+Zim wird mit dem ausgewählten Projekt-Notizbuch gstartet.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die ausgewählte Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus <em>novelibre</em> heraus
+öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
+</dd>
+<dt>Erzeugen</dt><dd><p>legt ein neues leeres Zim-Notizbuch in einem Unterverzeichnis des Projektverzeichnisses an
+und öffnet es mit Zim.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die neue <em>.zim</em>-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus <em>novelibre</em> heraus
+öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
+</dd>
+<dt>Abbrechen</dt><dd><p>bricht die Aktion ab, ohne Zim zu starten.</p>
+</dd>
+</dl>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Wenn Sie das Projekt-Wiki oder eine Wiki-Seite aus <em>novelibre</em> heraus öffnen wollen,
+aber keine Reaktion sehen, schauen Sie bitte in der Taskleiste nach, ob die
+<em>Zim Desktop Wiki</em>-Anwendung bereits offen ist,
+aber von anderen Fenstern wie z.B. von <em>novelibre</em> verdeckt wird.
+In diesem Fall wird das <em>Zim</em>-Fenster nicht automatisch in den Vordergrund gehoben.</p>
+</div>
+</section>
+<section id="projekt-wiki-erzeugen">
+<h3>Projekt-Wiki erzeugen<a class="headerlink" href="#projekt-wiki-erzeugen" title="Link to this heading"></a></h3>
+<p>Mit <strong>Extras &gt; Zim Desktop Wiki &gt; Projekt-Wiki erzeugen</strong> legen Sie ein neues Zim-Notizbuch
+in einem Unterverzeichnis des Projektverzeichnisses an und öffnen es mit Zim.
+Das erzeugte Projekt-Wiki umfasst Seiten für das Buch und für alle Figuren, Schauplätze und Gegenstände.
+Gibt es bereits ein Zim-Notizbuch im Zielverzeichnis, so wird dieses Verzeichnis
+automatisch umbenannt und bleibt als Sicherungskopie erhalten.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die neue <em>.zim</em>-Datei wird als Projekt-Wiki verlinkt, falls das Projekt nicht gesperrt ist.
+Ist das Projekt gesperrt, können Sie das Projekt-Wiki im Verlauf der Sitzung aus <em>novelibre</em> heraus
+öffnen, müssen es aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
+</section>
+<section id="wiki-links-entfernen">
+<h3>Wiki-Links entfernen<a class="headerlink" href="#wiki-links-entfernen" title="Link to this heading"></a></h3>
+<p>Mit <strong>Extras &gt; Zim Desktop Wiki &gt; Wiki-Links entfernen</strong> können Sie gespeicherte Wiki-Links
+aus der Projektdatei entfernen. Das wird beim nächsten Speichern wirksam.</p>
+<p>Ein Untermenü bietet zwei Möglichkeiten an:</p>
+<dl class="simple">
+<dt>Ausgewählte Seiten</dt><dd><p>Damit werden die Zim Wiki-Links der ausgewählten Elemente entfernt.
+Dieses Kommando bezieht sich nur auf verlinkte Seiten, nicht aber auf das Projekt-Wiki.</p>
+</dd>
+<dt>Alle</dt><dd><p>Damit werden alle Zim Wiki-Links entfernt.
+Dieses Kommando bezieht sich sowohl auf verlinkte Seiten, als auch auf das Projekt-Wiki.</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="buch-figuren-schauplatze-gegenstande-eigenschaften">
+<h2>Buch/Figuren/Schauplätze/Gegenstände-Eigenschaften<a class="headerlink" href="#buch-figuren-schauplatze-gegenstande-eigenschaften" title="Link to this heading"></a></h2>
+<img alt="novelibre Screenshot" src="../_images/wiki_button01.png" />
+<section id="wiki-seite-schaltflache">
+<h3>„Wiki-Seite“-Schaltfläche<a class="headerlink" href="#wiki-seite-schaltflache" title="Link to this heading"></a></h3>
+<p>Mit Klick auf diese Schaltfläche öffnen Sie eine verlinkte Wiki-Seite mit Zim.</p>
+<p>Ist noch keine Wiki-Seite verlinkt, versucht das Programm zunächst, im Projekt-Wiki eine
+Seite zu finden, deren Name zum Titel des Buchs, des Schauplatzes oder des Gegenstands,
+zutrifft, oder auf den vollständigen Namen der Figur, sofern bekannt, ansonsten den Kurznamen.</p>
+<p>Ist noch kein Projekt-Wiki definiert, fragt das Programm zunächst nach dem Projekt-Wiki
+und gibt Ihnen die Möglichkeit es auszuwählen oder zu erzeugen (siehe oben).
+Anschließend werden Sie gefragt, ob Sie eine bestehende Wiki-Seite öffnen oder eine neue erzeugen wollen:</p>
+<dl>
+<dt>Durchsuchen</dt><dd><p>öffnet einen Dateiauswahldialog, mit den Sie nach einer Zim-Seite mit der
+Dateiendung <em>.txt</em> suchen können.
+Zim wird mit der gewählten Seite gestartet.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die ausgewählte Datei wird mit dem in <em>novelibre</em> aktuell gewählten Element verlinkt,
+falls das Projekt nicht gesperrt ist.
+Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus <em>novelibre</em> heraus
+öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung erneut auswählen.</p>
+</div>
+</dd>
+<dt>Erzeugen</dt><dd><p>legt eine neue Wiki-Seite als Bestandteil des Projekt-Wikis an und öffnet es mit Zim.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die neue <em>.txt</em>-Datei wird als Wiki-Seite mit dem in <em>novelibre</em> aktuell gewählten Element verlinkt,
+falls das Projekt nicht gesperrt ist.
+Ist das Projekt gesperrt, können Sie die Wiki-Seite im Verlauf der Sitzung aus <em>novelibre</em> heraus
+öffnen, müssen sie aber unter Umständen bei der nächsten Sitzung auswählen.</p>
+</div>
+</dd>
+<dt>Abbrechen</dt><dd><p>bricht die Aktion ab, ohne Zim zu starten.</p>
+</dd>
+</dl>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nv_updater/index.html" class="btn btn-neutral float-left" title="nv_updater" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../utilities.html" class="btn btn-neutral float-right" title="Werkzeuge" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Peter Triesberger.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

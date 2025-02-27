@@ -1,0 +1,391 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grundlegende Konzepte &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="_static/nLogo32.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=b99b68fe"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=9bf55d28"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="Über dieses Dokument" href="about.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
+    <link rel="search" title="Suche" href="search.html" />
+    <link rel="next" title="Daten speichern" href="saving_data.html" />
+    <link rel="prev" title="Der Arbeitsbereich" href="desktop.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Grundlegende Konzepte</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#die-buch-hierarchie">Die Buch-Hierarchie</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#teile">Teile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kapitel">Kapitel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#abschnitte">Abschnitte</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#teil-kapitel-abschnittstypen">Teil/Kapitel/Abschnittstypen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#abschnitts-status">Abschnitts-Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#figuren-und-erzahlwelt">Figuren und Erzählwelt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#text-formatieren">Text formatieren</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kommentare-fusz-und-endnoten">Kommentare, Fuß- und Endnoten</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#uber-den-umgang-mit-der-dokumentensprache">Über den Umgang mit der Dokumentensprache</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#projekt-sperre">Projekt-Sperre</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="saving_data.html">Daten speichern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Die Metadaten im Blick behalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taking_notes.html">Notizen machen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wordcount.html">Textumfang und Schreibfortschritt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="going_outside.html">Nach außen gehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="story_time.html">Erzählte Zeit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="series.html">Mehrere Bücher verwalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">Werkzeuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="program_errors.html">Programmfehler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="abandon_novelibre.html">novelibre aufgeben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">Über dieses Benutzerhandbuch</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Grundlegende Konzepte</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="grundlegende-konzepte">
+<h1>Grundlegende Konzepte<a class="headerlink" href="#grundlegende-konzepte" title="Link to this heading"></a></h1>
+<dl class="simple">
+<dt>Zusammenfassung</dt><dd><ul class="simple">
+<li><p>Mit <em>novelibre</em> können Sie Ihren Roman auf drei hierarchischen Ebenen organisieren.</p></li>
+<li><p>Wenn Sie Ihren Roman kürzen, können Sie einzelne Kapitel und Abschnitte
+ausblenden, ohne sie gleich zu löschen.
+Auch können Sie Abschnitte mit alternativem Text verfassen, um später
+zu entscheiden,  was davon Sie in die endgültige Fassung aufnehmen wollen.
+Dazu bestimmen Sie einen <em>Typ</em>.</p></li>
+<li><p>Zur Organisation Ihres Schreibprojekts gehört der Überblick über den
+qualitativen Fortschritt der Arbeit. Mit Hilfe des <em>Abschnitts-Status</em>
+und von Abschnittsnotizen
+können Sie das bis auf die Ebene der Abschnitte herunterbrechen.</p></li>
+<li><p><em>novelibre</em> bietet eine begrenzte Anzahl von Möglichkeiten, Text hervorzuheben.</p></li>
+<li><p>Kommentare, Fuß- und Endnoten, die Sie mit <em>Writer</em> einfügen, gehen nicht verloren.</p></li>
+<li><p>Sprachzuordnungen für die Rechtschreibprüfung in <em>Writer</em> gehen nicht verloren.</p></li>
+<li><p>Damit Sie nicht durcheinanderkommen, kann <em>novelibre</em> das Projekt gegen
+Veränderungen sperren, solange Sie mit OpenOffice oder LibreOffice arbeiten.</p></li>
+</ul>
+</dd>
+</dl>
+<section id="die-buch-hierarchie">
+<h2>Die Buch-Hierarchie<a class="headerlink" href="#die-buch-hierarchie" title="Link to this heading"></a></h2>
+<section id="teile">
+<h3>Teile<a class="headerlink" href="#teile" title="Link to this heading"></a></h3>
+<p>Wir gehen davon aus, dass ein Roman aus Kapiteln
+und Abschnitten besteht.
+Teile sind optional; technisch sind sie Kapitel auf der
+ersten Ebene.
+Dennoch befinden sie sich im Projektbaum von <em>novelibre</em>
+auf der selben Ebene wie die Kapitel, doch sie erhalten
+ihre Überschriften eine Ebene höher.
+Damit dienen Teile hauptsächlich dazu, zwischen den Kapiteln
+Überschriften erster Ordung einzufügen, wenn erforderlich.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Sie können Kapitel in Teile umwandeln und umgekehrt, indem
+Sie einfach ihre <a class="reference external" href="tree_context_menu.html#ebene-andern">Ebene ändern</a>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Ein Vorgänger von <em>novelibre</em> war <a class="reference external" href="https://peter88213.github.io/novelyst/">novelyst</a>.
+Dort sind die Teile auf einer höheren Hierarchieebene als
+die Kapitel im Projektbaum, so wie es der logischen
+Vorstellung entspricht.
+Damit war es möglich, Teile mitsamt ihren untergeordneten
+Kapiteln zu verschieben, oder gesamte Teile als „unbenutzt“
+zu kennzeichnen.
+In der Praxis erwies sich das jedoch als umständlich.
+Ich finde es einfacher, nur die Teile-Grenzen zu verschieben
+und die Kapitelreihenfolge unverändert zu lassen, wenn
+Teile definiert werden.</p>
+</div>
+</section>
+<section id="kapitel">
+<h3>Kapitel<a class="headerlink" href="#kapitel" title="Link to this heading"></a></h3>
+<p>Ein <em>novelibre</em>-Projekt muss mindestens ein Kapitel haben.
+In exportierten Dokumenten haben reguläre Kapitel Überschriften
+zweiter Ordnung.
+Für <em>novelibre</em> dienen Kapitel nur als Behälter für Abschnitte,
+welchen die eigentliche dramaturgische Funktion zugeschrieben wird.
+Deshalb gibt es nur einige wenige
+<a class="reference external" href="chapter_view.html">Kapiteleigenschaften</a>
+einzustellen.</p>
+</section>
+<section id="abschnitte">
+<h3>Abschnitte<a class="headerlink" href="#abschnitte" title="Link to this heading"></a></h3>
+<p>Bei <em>novelibre</em> gehört der gesamte Textinhalt zu Abschnitten.
+Abschnitte können Szenen, Erklärungen, Beschreibungen oder
+erzählerische Zusammenfassungen sein – Sie sind vollkommen
+frei, wenn es darum geht, den Romantext in Abschnitte zu
+unterteilen.
+Es gibt eine Auswahl von <a class="reference external" href="section_view.html">Abschnitts-Metadaten</a> zur freien Verwendung.</p>
+<p>Im Textkörper der eportieren Dokumente werden Abschnittswechsel
+per Voreinstellung durch Abschnittstrenner gekennzeichnet,
+etwa so:</p>
+<p><code class="docutils literal notranslate"><span class="pre">*</span> <span class="pre">*</span> <span class="pre">*</span></code></p>
+<p>Wenn Sie allerdings beim Plotten und Organisieren kleinteligere
+Abschnitte brauchen, als es die Leser später sehen sollen,
+könne Sie Abschnitte auch ohne Abschnittstrenner als einfache Absätze
+<a class="reference external" href="section_view.html#an-den-vorherigen-abschnitt-anhangen">an den vorherigen Abschnitt anhängen</a>.</p>
+</section>
+</section>
+<section id="teil-kapitel-abschnittstypen">
+<h2>Teil/Kapitel/Abschnittstypen<a class="headerlink" href="#teil-kapitel-abschnittstypen" title="Link to this heading"></a></h2>
+<p>Jeder Teil, jedes Kapitel und jeder Abschnitt hat einen Typ, den
+Sie über das Kontextmenü oder das Teil/Kapitel/Abschnitt-Menü
+ändern können.
+Der Typ kann <em>Normal</em> oder <em>Unbenutzt</em> sein.</p>
+<dl class="simple">
+<dt>Normal</dt><dd><ul class="simple">
+<li><p>„Normale“ Teile, Kapitel und Abschnitte werden gezählt.
+Ihre Anzahl ist in der Statusleiste zu sehen.</p></li>
+<li><p>„Normale“ Abschnitte werden ins manuskript exportiert
+und tragen zur Wortzählung bei.</p></li>
+<li><p>„Normale“ Teile und Kapitel können untergeordnete Elemente
+von jedem Typ haben.</p></li>
+<li><p>„Normale“ Abschnitte werden im Projektbaum entsprechend dem
+eingestellten <a class="reference external" href="view_menu.html#farbgebungsmodus">Farbgebungsmodus</a> eingefärbt.</p></li>
+</ul>
+</dd>
+<dt>Unbenutzt</dt><dd><p>Sie können Teile, Kapitel und Abschnitte als unbenutzt kennzeichnen,
+um sie von der Wortzählung und vom Export auszuschließen.</p>
+<ul class="simple">
+<li><p>Die Projektbaum-Unterelemente unbenutzter Teile und Kapitel
+sind ebenfalls unbenutzt.</p></li>
+<li><p>Kennzeichnen Sie einen Abschnitt als „Unbenutzt“,
+bleiben seine sonstigen Eigenschaften erhalten.</p></li>
+<li><p>Unbenutzte Projektbaumelemente werden in grauer Farbe dargestellt.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="abschnitts-status">
+<h2>Abschnitts-Status<a class="headerlink" href="#abschnitts-status" title="Link to this heading"></a></h2>
+<p>Über das Kontextmenü oder das Abschnitt-Menü können Sie jedem
+„normalen“ Abschnitt einen Fertigstellungsstatus zuordnen.
+Zur Auswahl stehen <em>Gliederung</em>, <em>Entwurf</em>,
+<em>1. Überarbeitung</em>, <em>2. Überarbeitung</em>
+oder <em>Fertiggestellt</em>.</p>
+<ul class="simple">
+<li><p>Sie können einen <a class="reference external" href="view_menu.html#farbgebungsmodus">Farbgebungsmodus</a>
+einstellen, in dem Abschnitte je nach Status in unterschiedlichen
+Farben dargestellt werden.</p></li>
+<li><p>Wahlweise können Sie einen Status zur aktuellen
+<a class="reference external" href="book_view.html#schreibfortschritt">Arbeitsphase</a>,
+erklären und einen <a class="reference external" href="view_menu.html#farbgebungsmodus">Farbgebungsmodus</a>
+wählen, der Abschnitte hervorhebt, die nicht im Plan liegen.</p></li>
+<li><p>Neu erstellte Abschnitte erhalten den Status „Gliederung“.</p></li>
+<li><p>Wortzahlen nach Status erscheinen in den <a class="reference external" href="book_view.html#schreibfortschritt">Bucheigenschaften</a>.</p></li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Für genauere Angaben dazu, was für einen Abschnitt noch getan werden muss,
+sind die Abschnittsnotizen in Form von
+<a class="reference external" href="section_view.html#haftmerker">„Haftmerkern“</a> gedacht.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="figuren-und-erzahlwelt">
+<h2>Figuren und Erzählwelt<a class="headerlink" href="#figuren-und-erzahlwelt" title="Link to this heading"></a></h2>
+<p>Sie können Figuren, Schauplätze und Gegenstände definieren
+und sie mit Abschnitten in Beziehung setzen, um ihr
+Vorkommen in der Geschichte zu verfolgen.
+<em>novelibre</em> speichert auch einige Metadaten dazu,
+hauptsächlich als praktische Merkhilfe beim Schreiben
+oder Überarbeiten.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p><em>novelibre</em> ist nicht dafür gedacht, umfangreichen
+Weltenbau zu dokumentieren.
+Für so etwas gibt es eine Vielzahl spezialisierter Anwendungsprogramme,
+Online- und Offline-Wikis, und Notizverwaltungssoftware.
+<em>novelibre</em> bietet jedoch die Möglichkeit, Bilddateien und
+Dokumente mit den Figuren, Schauplätzen und Gegenständen zu
+verlinken, um den Zugriff darauf zu erleichern.</p>
+<p>Das <a class="reference external" href="https://github.com/peter88213/nv_zim/">nv_zim-Plugin</a>
+verbindet das Schreibprojekt mit einem <strong>Zim Desktop-Wiki</strong>.
+Damit lassen sich die Elemente der Erzählwelt mit entsprechenden
+Wiki-Seiten verknüpfen.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Wichtig</p>
+<p>Um den Abschnitten <strong>Perspektiv-Figuren</strong> zuweisen zu können,
+müssen Sie diese zuerst <a class="reference external" href="characters_menu.html#hinzufugen">erzeugen</a>.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="text-formatieren">
+<h2>Text formatieren<a class="headerlink" href="#text-formatieren" title="Link to this heading"></a></h2>
+<p>Wir setzen voraus, dass ein Romantext nur einige wenige
+Arten von Textauszeichnung braucht.
+Beim Import von ODT unterstützt <em>novelibre</em> die folgenden Formate:</p>
+<ul class="simple">
+<li><p><em>Betont</em>-Zeichenstil oder Kursivschrift.</p></li>
+<li><p><em>Stark betont</em>-Zeichenstil oder Fettschrift.</p></li>
+<li><p><em>Zitat</em> (Vom Textkörper visuell abgesetzter Absatz).</p></li>
+<li><p><em>Ungeordnetes Listenelement</em> (Eingerückter Absatz mit einem Aufzählungszeichen).</p></li>
+</ul>
+</section>
+<section id="kommentare-fusz-und-endnoten">
+<h2>Kommentare, Fuß- und Endnoten<a class="headerlink" href="#kommentare-fusz-und-endnoten" title="Link to this heading"></a></h2>
+<p><em>novelibre</em> unterstützt ODT-Kommentare, Fußnoten und Endnoten.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p><em>novelibre</em> bietet keine Unterstützung für Bilder.
+Sie können dafür Kommentare als Platzhalter benutzen, um sie
+ganz am Schluss durch die Bilder (oder andere Sonderformatierungen,
+die nicht durch <em>novelibre</em> abgedeckt sind) zu ersetzen,
+wenn es darum geht, den <a class="reference external" href="export_menu.html#endgultiges-manuskriptdokument-nur-export">fertiggestellten Roman</a>
+für die Veröffentlichung vorzubereiten.</p>
+</div>
+</section>
+<section id="uber-den-umgang-mit-der-dokumentensprache">
+<h2>Über den Umgang mit der Dokumentensprache<a class="headerlink" href="#uber-den-umgang-mit-der-dokumentensprache" title="Link to this heading"></a></h2>
+<p>ODF-Dokumenten ist üblicherweise eine Sprache zugeordnet, die
+über die Rechtschreibprüfung und länderspezifische Zeichenersetzung
+bestimmt.
+Darüberhinaus erlaubt <em>Writer</em>, Textpassagen andere Sprachen als die
+Dokumentensprache zuzuweisen, um fremdsprachlichen Text zu kennzeichnen,
+oder die Rechtschreibprüfung außer Kraft zu setzen.</p>
+<dl class="simple">
+<dt>Dokument gesamt</dt><dd><p>Die Projektsprache (Sprachencode gemäß ISO 639-1 und Ländercode
+entsprechend ISO 3166-2) kann in den <strong>Buch</strong>-Einstellungen
+(rechtes Fenster) unter <a class="reference external" href="book_view.html#sprache-des-dokuments">Sprache des Dokuments</a> vorgegeben werden.</p>
+</dd>
+<dt>Textpassagen in Abschnitten</dt><dd><p><em>novelibre</em> unterstützt die zeichenweise und absatzweise Zuordnung
+anderer Sprachen.</p>
+</dd>
+</dl>
+</section>
+<hr class="docutils" />
+<section id="projekt-sperre">
+<h2>Projekt-Sperre<a class="headerlink" href="#projekt-sperre" title="Link to this heading"></a></h2>
+<p>Wenn man ein Dokument exportiert, das außerhalb von <em>novelibre</em> bearbeitet
+werden kann, kann das Projekt automatisch gesperrt werden, um nicht
+durcheinander zu kommen.
+Das Verhalten hängt von den <a class="reference external" href="export_menu.html#optionen">Exportoptionen</a>
+ab.</p>
+<div class="admonition important">
+<p class="admonition-title">Wichtig</p>
+<p>Das Projekt kann nur gesperrt werden, wenn alle Änderungen gespeichert sind.</p>
+</div>
+<p>Im gesperrten Zustand kann das Projekt nicht über die Benutzerschnittstelle
+bearbeitet werden.
+Die Fußleiste wird dann invertiert dargestellt, die Menüeinträge
+für Dateneingabe und Export sind ausgegraut, und die Eingabeelemente
+im  <em>Eigenschaften</em>-Fenster sind deaktiviert.</p>
+<p>Die Projektsperre bleibt auch nach Programmbeendigung erhalten.
+Dazu wird automatisch eine Sperrdatei namens <code class="docutils literal notranslate"><span class="pre">.LOCK.&lt;project</span> <span class="pre">name&gt;.novx#</span></code>
+angelegt.
+Löscht man diese Datei, während <em>novelibre</em> nicht läuft, ist das
+Projekt beim nächsten Programmstart entsperrt.</p>
+<p>Gewöhnlich wird das Projekt automatisch entsperrt, nachdem ein extern
+bearbeitetes Dokument zurück importiert wurde.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Die Projektsperre ist nichts weiter als eine starke Merkhilfe.
+Sie können das Projekt jederzeit auf eigene Gefahr
+<a class="reference external" href="file_menu.html#entsperren">von Hand entsperren</a> .
+Sie können es auch <a class="reference external" href="file_menu.html#sperren">von Hand sperren</a>,
+fals erforderlich.
+Die Schaltfläche <img alt="Sperren/Entsperren" src="_images/lock.png" /> in der Werkzeugleiste
+schaltet zwischen gesperrt und entsperrt hin und her.</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="desktop.html" class="btn btn-neutral float-left" title="Der Arbeitsbereich" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="saving_data.html" class="btn btn-neutral float-right" title="Daten speichern" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Peter Triesberger.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bucheigenschaften &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="_static/nLogo32.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=b99b68fe"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=9bf55d28"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="Über dieses Dokument" href="about.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
+    <link rel="search" title="Suche" href="search.html" />
+    <link rel="next" title="Kapitel/Teil-Eigenschaften" href="chapter_view.html" />
+    <link rel="prev" title="Eigenschaften-Referenz" href="properties.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="saving_data.html">Daten speichern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Die Metadaten im Blick behalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taking_notes.html">Notizen machen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wordcount.html">Textumfang und Schreibfortschritt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="going_outside.html">Nach außen gehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="story_time.html">Erzählte Zeit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="series.html">Mehrere Bücher verwalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Bucheigenschaften</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#titel-beschreibung-und-autor">Titel, Beschreibung und Autor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sprache-des-dokuments">Sprache des Dokuments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#automatische-nummerierung">Automatische Nummerierung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#umbenennungen">Umbenennungen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#erzahlte-zeit">Erzählte Zeit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#schreibfortschritt">Schreibfortschritt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#buchumschlag-miniaturbild">Buchumschlag-Miniaturbild</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_view.html">Kapitel/Teil-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stage_view.html">Stadium-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="section_view.html">Abschnittseigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="character_view.html">Figureneigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="world_view.html">Schauplatz/Gegenstand-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotline_view.html">Plotlinieneigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="point_view.html">Plotpunkt-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_note_view.html">Projektnotiz-Eigenschaften</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">Werkzeuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="program_errors.html">Programmfehler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="abandon_novelibre.html">novelibre aufgeben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">Über dieses Benutzerhandbuch</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="properties.html">Eigenschaften-Referenz</a></li>
+      <li class="breadcrumb-item active">Bucheigenschaften</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="bucheigenschaften">
+<h1>Bucheigenschaften<a class="headerlink" href="#bucheigenschaften" title="Link to this heading"></a></h1>
+<p>The Bucheigenschaften-Ansicht öffnet sich im rechten Fenster,
+wenn Sie im Baum „Buch“ wählen,
+oder wenn Sie in der Werkzeugleiste auf <img alt="Show Book" src="_images/viewBook.png" /> klicken.
+Nach dem Öffnen eines <em>novelibre</em>-Projekts sehen Sie diese Ansicht.</p>
+<img alt="novelibre Screenshot" src="_images/book_view01.png" />
+<section id="titel-beschreibung-und-autor">
+<h2>Titel, Beschreibung und Autor<a class="headerlink" href="#titel-beschreibung-und-autor" title="Link to this heading"></a></h2>
+<p>Titel und Beschreibung erscheinen auf einer „Karteikarte“ zum Bearbeiten.</p>
+<p>Die Bearbeitung von Buchtitel und Autor können Sie mit der Eingabetaste beenden.
+Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.</p>
+<p>Titel und Beschreibung werden beim Export in ODT-Dokumente übernommen.
+Dort erscheinen sie in den Dokumenteigenschaften.</p>
+<img alt="Screenshot" src="_images/book_view08.png" />
+<p>Diese Eigenschaften sind beispielsweise zu sehen, wenn der Mauszeiger im
+Windows Explorer über dem Dokument steht.</p>
+<img alt="Screenshot" src="_images/book_view09.png" />
+</section>
+<section id="sprache-des-dokuments">
+<h2>Sprache des Dokuments<a class="headerlink" href="#sprache-des-dokuments" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="novelibre Screenshot" src="_images/book_view02.png" />
+<ul class="simple">
+<li><p>Sprachencode entsprechend ISO 639-1</p></li>
+<li><p>Ländercode entsprechend ISO 3166-2</p></li>
+</ul>
+<p>Diese Information steuert die Rechtschreibprüfung für Exportdokumente.</p>
+<img alt="LibreOffice Writer Screenshot" src="_images/book_view10.png" />
+<p>Ist die Einstellung nicht gesetzt, wird das Systemgebietsschema
+als Standardeinstellung verwendet.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Sie können die Sprache des Dokuments auch mit <em>Writer</em> einstellen
+oder ändern, dann wird sie beim Import übernommen.</p>
+<blockquote>
+<div><img alt="LibreOffice Writer Screenshot" src="_images/book_view11.png" />
+</div></blockquote>
+</div>
+</section>
+<section id="automatische-nummerierung">
+<h2>Automatische Nummerierung<a class="headerlink" href="#automatische-nummerierung" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="novelibre Screenshot" src="_images/book_view03.png" />
+<dl>
+<dt>Kapitel/Teile automatisch nummerieren, wenn der Baum aktualisiert wird.</dt><dd><p>Ist dieses Auswahlfeld angekreuzt, werden alle Kapitel/Teile jedes
+Mal automatisch nummeriert, wenn <a class="reference external" href="file_menu.html#baum-aktualisieren">der Baum aktualisiert wird</a>.
+Die Titel werden dann durch ein <code class="docutils literal notranslate"><span class="pre">Präfix-Nummer-Suffix</span></code>-Muster
+(ohne die Bindestriche) ersetzt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Wahlweise können Sie einzelne Kapitel/Teile über die
+<a class="reference external" href="chapter_view.html#dieses-kapitel-nicht-automatisch-nummerieren-part">Kapitel/Teil-Eigenschaften</a>.
+von der automatischen Nummerierung ausschließen,</p>
+</div>
+</dd>
+</dl>
+<p>Die Eingabe von Präfix und Suffix können Sie mit der Eingabetaste beenden.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Bitte auch ein Leerzeichen zur Trennung von Präfix oder Suffix
+von der Kapitel- oder Teilenummer vorsehen!</p>
+</div>
+<dl class="simple">
+<dt>Römische Kapitelnummern</dt><dd><p>Für die automatische Nummerierung sind arabische Ziffern wie „1“, „2“, „3“ …
+voreingestellt.
+Wenn dieses Auswahlfeld angekreuzt ist, werden stattdessen römische Ziffern
+wie „I“, „II“, „III“, „IV“ … verwendet.</p>
+</dd>
+<dt>Kapitelnummerierung in jedem Teil neu beginnen</dt><dd><p>Per Voreinstellung werden die Kapitel über die Teile hinweg fortlaufend nummeriert.
+Wenn dieses Auswahlfeld angekreuzt ist, beginnt die Kapitelzählung in jedem Teil
+erneut mit „1“</p>
+</dd>
+</dl>
+</section>
+<section id="umbenennungen">
+<h2>Umbenennungen<a class="headerlink" href="#umbenennungen" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="novelibre Screenshot" src="_images/book_view04.png" />
+<p><em>novelibre</em> bietet einige vorgefertigte Felder für Abschnitte und Figuren,
+um Informationen zu speichern, die beim Schreiben zur Hand sein sollten.
+Wenn die voreingestellten Kategorien nicht in Ihr individuelles
+Story-Planungskonzept passen, können Sie diese Felder umbenennen.
+Die Bearbeitung der Kategorien können Sie mit der Eingabetaste beenden.</p>
+<dl>
+<dt>„Keine Szene“-Felder</dt><dd><p>Die Überschriftersetzungen für <em>Handlungsfortschritt</em>, <em>Charakterisierung</em> und <em>Weltenbau</em>
+kommen zur Anwendung, wenn Sie im <a class="reference external" href="section_view.html#szene">„Szene“-Fenster</a> eines Abschnitts <strong>Keine Szene</strong> auswählen.
+Diese Kategorien gelten dann für alle Abschnitte,
+die keine Szenen darstellen.</p>
+</dd>
+<dt>„Andere Szene“-Felder</dt><dd><p>Die Überschriftersetzungen für <em>Eröffnung</em>, <em>Emotionaler Höhepunkt</em> und <em>Ende</em>
+kommen zur Anwendung, wenn Sie im <a class="reference external" href="section_view.html#szene">„Szene“-Fenster</a> eines Abschnitts <strong>Andere</strong> auswählen.
+Diese Kategorien gelten dann für alle Abschnitte,
+die andere Szenen als „Aktion“ und „Reaktion“ darstellen.</p>
+</dd>
+<dt>„Figur“-Felder</dt><dd><p>Falls Sie für Ihre Figuren andere Kategorien als
+<a class="reference external" href="character_view.html#biographie">Biographie</a>
+und <a class="reference external" href="character_view.html#ziele">Ziele</a> wollen,
+können Sie diese Kategorien hier benennen.
+Sie gelten dann für alle Figuren gleichermaßen.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Falls Sie das <em>Biographie</em>-Fenster umbenennen,
+bleiben die Eingabefelder für Geburts- und
+Sterbedatum erhalten.</p>
+</div>
+</dd>
+</dl>
+</section>
+<section id="erzahlte-zeit">
+<h2>Erzählte Zeit<a class="headerlink" href="#erzahlte-zeit" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="novelibre Screenshot" src="_images/book_view05.png" />
+<p>Um den Überblick über die erzählte Zeit zu behalten, können Sie
+jedem Abschnitt <a class="reference external" href="section_view.html#datum-zeit">Datums- und Zeitinformationen</a>
+zuordnen.
+Das Datum können Sie spezifisch <em>(JJJJ-MM-TT)</em> oder unspezifisch (Anzahl der
+Tage, z.B. seit Beginn) eingeben.</p>
+<dl>
+<dt>Bezugsdatum</dt><dd><p>Das Bezugsdatum ist optional. Es kann dazu dienen, unspezifische
+Datumsangaben in spezifische umzuwandeln, oder umgekehrt.
+Mit Hilfe des Bezugsdatums können Zeitleisten-Plugins
+aus Abschnitten ohne spezifischem Datum Ereignisse erzeugen.</p>
+<p>Format: <em>JJJJ-MM-TT</em>, entsprechend ISO 8601.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Selbst wenn Sie keine spezifischen Datumsangaben in Ihrer
+Geschichte benötigen, kann es hilfreich sein, ein Bezugsdatum
+anzugeben.
+Auf diese Weise wird der Wochentag zusammen mit dem
+<a class="reference external" href="section_view.html#beginn">unspezifischen Datum</a>, angezeigt,
+und für die <a class="reference external" href="section_view.html#beziehungen">Figuren im Abschnitt</a>
+können Sie das Alter abrufen, sofern Sie ein Geburtsdatum angegeben haben.</p>
+</div>
+</dd>
+<dt>Datum in Tage umwandeln</dt><dd><p>Damit können Sie spezifische Abschnitts-Datumsangaben in Tage,
+bezogen auf das Bezugsdatum, umwandeln.</p>
+</dd>
+<dt>Tage in Datum umwandeln</dt><dd><p>Damit können Sie unspezifische Abschnitts-Datumsangaben
+(auf das Bezugsdatum bezogene Tage) in
+spezifische Datumsangaben umwandeln.</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Bei umfangreichen Romanen kann die Umwandlung eine Zeitlang dauern,
+je nach Leistungsfähigkeit Ihres Systems.
+Solange die Konvertierung läuft, zeigt die angeklickte Schaltfläche
+<em>„Bitte warten …“</em> an.</p>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Die oben beschriebenen Befehle konvertieren alle datierten
+Abschnitte auf einmal.
+Wenn Sie nur einzelne Abschnitte umwandeln wollen, gehen Sie einfach
+zu den <a class="reference external" href="section_view.html#beginn">Abschnittseigenschaften</a>.</p>
+</div>
+</section>
+<section id="schreibfortschritt">
+<h2>Schreibfortschritt<a class="headerlink" href="#schreibfortschritt" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="novelibre Screenshot" src="_images/book_view06.png" />
+<p>Mit <em>novelibre</em> können Sie sich ein Ziel für die Wortanzahl setzen und
+Ihren Fortschritt verfolgen.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Unabhängig von den hier gemachten Einstellungen können Sie
+die Wortanzahl jederzeit in der Statuszeile sehen.</p>
+</div>
+<dl>
+<dt>Schreibfortschritt protokollieren</dt><dd><p>Per Voreinstellung speichert <em>novelibre</em> täglich Protokolleinträge
+mit den Wortanzahlen ab.
+Sie können das abschalten, indem Sie den Haken im Auswahlfeld
+<strong>Schreibfortschritt protokollieren</strong> entfernen.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Sie können das Protokoll Ihres täglichen Schreibfortschritts
+betrachten, wenn Sie das <a class="reference external" href="https://github.com/peter88213/nv_progress/">nv_progress-Plugin</a> installieren.</p>
+</div>
+</dd>
+<dt>Wörter zu schreiben</dt><dd><p>Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
+eingeben, die Ihr Schreibziel in Wörtern angibt.
+Die Eingabe können Sie mit der Eingabetaste beenden.</p>
+</dd>
+<dt>Anfangswert</dt><dd><p>Hier können Sie eine Zahl (ohne Dezimaltrenner oder Leerzeichen)
+eingeben, welche die Anfangs-Wortanzahl für Ihr Schreibziel angibt.
+Die Eingabe können Sie mit der Eingabetaste beenden.</p>
+</dd>
+<dt>Aktuelle Wortzahl als Anfangswert setzen</dt><dd><p>Klicken Sie auf diese Schaltfläche, um die aktuelle Wortanzahl in das
+<strong>Anfangswert</strong>-Feld einzutragen.</p>
+</dd>
+<dt>Wörter geschrieben</dt><dd><p>Hier wird die Differenz zwischen Ihrer derzeitigen Wortanzahl
+und dem Anfangswert angezeigt.
+Der Prozentwert bezieht sich auf Ihr Schreibziel.</p>
+</dd>
+<dt>Arbeitsphase</dt><dd><p>Diese Einstellung wird für den <a class="reference external" href="view_menu.html#farbgebungsmodus">Farbgebungsmodus „Arbeitsphase“</a> benötigt.</p>
+<ul class="simple">
+<li><p>Abschnitte mit dem selben Fertigstellungsstatus wie die eingestellte
+Arbeitsphase sind schwarz.</p></li>
+<li><p>Abschnitte, die der eingestellten Arbeitsphase vorauseilen, sind grün.</p></li>
+<li><p>Abschnitte, die der eingestellten Arbeitsphase hinterherhinken, sind magenta.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="Screenshot" src="_images/book_view13.png" />
+<p>Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.</p>
+<p>Obwohl <em>novelibre</em> Daten zu Figuren, Schauplätzen und Gegenständen
+verwalten kann, ist es nicht die richtige Anwendung für
+umfangreichen Weltenbau.
+Dafür sollten Sie leistungsfähigere Softwareprogramme verwenden,
+zum Beispiel <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>.
+Dazu kann <em>novelibre</em> Hyperlinks zu den Textdateien erzeugen,
+welche Sie schnell zu den richtigen Stellen im Wiki führen.</p>
+<p>Oder Sie haben einige Bilder gesammelt, die Sie beim Schreiben inspirieren.
+Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
+<em>novelibre</em> diese mit Ihrem System-Bildbetrachter öffnen.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Wenn Sie mehrere Bilder z.B. zu einer Figur in einem Ordner
+gesammelt haben, den Ihr Standard-Bildbetrachter durchsuchen kann,
+ist ein einziger Link auf eines dieser Bilder ausreichend.</p>
+</div>
+<p>Die Links werden in einer Liste angezeigt, und zwar in der Reihenfolge
+der Eingabe.</p>
+<dl>
+<dt>Link hinzufügen</dt><dd><p>Wenn Sie auf <img alt="Hinzufügen" src="_images/add.png" /> klicken, öffnet sich ein Dateiauswahldialog.
+Die ausgewählte Datei wird der Linkliste hinzugefügt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Der Dialog zeigt zunächst nur Bilddateien.
+Für andere Dateitypen ändern Sie die Auswahl in der unteren
+rechten Ecke.</p>
+<img alt="Screenshot" src="_images/filePicker01.png" />
+</div>
+</dd>
+<dt>Link entfernen</dt><dd><p>Wenn Sie auf <img alt="Entfernen" src="_images/remove.png" /> klicken oder die <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste drücken,
+wird der ausgewählte Link von der Liste entfernt.</p>
+</dd>
+<dt>Link öffnen</dt><dd><p>Wenn Sie auf einen Link doppelklicken, oder auf <img alt="Goto" src="_images/goto.png" /> klicken,
+Wird die Datei, auf die der Link verweist, mit der Standardanwendung
+für ihren Typ geöffnet.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Falls Sie bestimmte verlinkte Dateien mit einer anderen Anwendung
+als der System-Standardanwendung öffnen wollen,
+können Sie eine „Programmstarter“-Einstellung vornehmen.
+Dafür erzeugen Sie einfach eine Textdatei namens <strong>launchers.ini</strong>
+im Verzeichnis <code class="docutils literal notranslate"><span class="pre">.novx/config</span></code> (wo alle Konfigurationsdateien liegen).
+Hier in können Sie Erweiterungen Anwendungsprogramme zuordnen.</p>
+<p>Zim Desktop-Wiki-Seiten sind ein Sonderfall.
+Dafür ordnen Sie die <cite>.zim</cite>-Erweiterung dem Zim-Programm zu.</p>
+<p>Dieses Beispiel zeigt eine Einstellung, die <em>novelibre</em> Textdateien
+mit der <em>Zim Desktop Wiki</em>-anwendung öffnen lässt,
+statt mit dem Standard-Texteditor:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+<span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe</span>
+</pre></div>
+</div>
+<img alt="Screenshot" src="_images/launchers.png" />
+</div>
+</dd>
+</dl>
+</section>
+<section id="buchumschlag-miniaturbild">
+<h2>Buchumschlag-Miniaturbild<a class="headerlink" href="#buchumschlag-miniaturbild" title="Link to this heading"></a></h2>
+<p>Eine Buchumschlag-Vorschau wird zusammen mit den Bucheigenschaften
+angezeigt, wenn Sie im Projektverzeichnis eine PNG-Bilddatei
+mit dem selben Namen wie das Projekt bereitstellen.
+Die empfohlene Bildbreite ist 100 bis 200 Pixel.</p>
+<img alt="Windows Explorer Screenshot" src="_images/book_view12.png" />
+<img alt="novelibre Screenshot" src="_images/book_view07.jpg" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="properties.html" class="btn btn-neutral float-left" title="Eigenschaften-Referenz" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="chapter_view.html" class="btn btn-neutral float-right" title="Kapitel/Teil-Eigenschaften" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Peter Triesberger.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

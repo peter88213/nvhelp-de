@@ -1,0 +1,507 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abschnittseigenschaften &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="_static/nLogo32.ico"/>
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=b99b68fe"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=9bf55d28"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="Über dieses Dokument" href="about.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
+    <link rel="search" title="Suche" href="search.html" />
+    <link rel="next" title="Figureneigenschaften" href="character_view.html" />
+    <link rel="prev" title="Stadium-Eigenschaften" href="stage_view.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="saving_data.html">Daten speichern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="plotting.html">Mit novelibre plotten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Die Metadaten im Blick behalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="taking_notes.html">Notizen machen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="wordcount.html">Textumfang und Schreibfortschritt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="going_outside.html">Nach außen gehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="story_time.html">Erzählte Zeit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="series.html">Mehrere Bücher verwalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="properties.html">Eigenschaften-Referenz</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="book_view.html">Bucheigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_view.html">Kapitel/Teil-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stage_view.html">Stadium-Eigenschaften</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Abschnittseigenschaften</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#titel-und-beschreibung">Titel und Beschreibung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#schlagworter">Schlagwörter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#perspektive">Perspektive</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#unbenutzt">Unbenutzt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#an-den-vorherigen-abschnitt-anhangen">An den vorherigen Abschnitt anhängen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot">Plot</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#plotlinien">Plotlinien</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#plotpunkte">Plotpunkte</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#szene">Szene</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#beziehungen">Beziehungen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#datum-zeit">Datum/Zeit</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#beginn">Beginn</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dauer">Dauer</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#haftmerker">„Haftmerker“</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navigationsschaltflachen">Navigationsschaltflächen</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="character_view.html">Figureneigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="world_view.html">Schauplatz/Gegenstand-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plotline_view.html">Plotlinieneigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="point_view.html">Plotpunkt-Eigenschaften</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_note_view.html">Projektnotiz-Eigenschaften</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">Werkzeuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="program_errors.html">Programmfehler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="abandon_novelibre.html">novelibre aufgeben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">Über dieses Benutzerhandbuch</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="properties.html">Eigenschaften-Referenz</a></li>
+      <li class="breadcrumb-item active">Abschnittseigenschaften</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="abschnittseigenschaften">
+<h1>Abschnittseigenschaften<a class="headerlink" href="#abschnittseigenschaften" title="Link to this heading"></a></h1>
+<p>Die Ansicht der Abschnittseigenschaften öffnet sich im rechten Fenster,
+wenn Sie im Baum einen Abschnitt wählen.</p>
+<img alt="Screenshot" src="_images/section_view01.png" />
+<section id="titel-und-beschreibung">
+<h2>Titel und Beschreibung<a class="headerlink" href="#titel-und-beschreibung" title="Link to this heading"></a></h2>
+<p>Titel und Beschreibung werden als beschreibbare „Karteikarte“ dargestellt.</p>
+<p>Die Bearbeitung des Titels können Sie mit der Eingabetaste beenden.
+Änderungen an der Beschreibung werden übernommen, sobald mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.</p>
+</section>
+<section id="schlagworter">
+<h2>Schlagwörter<a class="headerlink" href="#schlagworter" title="Link to this heading"></a></h2>
+<p>Schlagwörter sind ein frei benutzbares Werkzeug,
+um Abschnitte in der Baumansicht zu kennzeichnen.
+Schlagwörter müssen nicht anderswo definiert werden, sie werden einfach,
+durch Semikolons getrennt, ins Eingabefeld eingetragen.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.</p>
+<div class="admonition caution">
+<p class="admonition-title">Vorsicht</p>
+<p>Achten Sie auf eine einheitliche Schreibweise,
+falls Sie Schlagwörter mehrmals verwenden wollen.</p>
+</div>
+</section>
+<section id="perspektive">
+<h2>Perspektive<a class="headerlink" href="#perspektive" title="Link to this heading"></a></h2>
+<p>Der Kurzname der Perspektivfigur wird in der Baumansicht angezeigt.
+Sie können ihn aus einer Drop-down-Liste auswählen, die alle
+Figuren in der selben Reihenfolge wie in der Baumansicht enthält.</p>
+</section>
+<section id="unbenutzt">
+<h2>Unbenutzt<a class="headerlink" href="#unbenutzt" title="Link to this heading"></a></h2>
+<p>Mit dem <strong>Unbenutzt</strong>-Auswahlfeld können Sie den
+<a class="reference external" href="basic_concepts.html#teil-kapitel-abschnittstypen">Abschnittstyp</a>
+ändern.</p>
+</section>
+<section id="an-den-vorherigen-abschnitt-anhangen">
+<h2>An den vorherigen Abschnitt anhängen<a class="headerlink" href="#an-den-vorherigen-abschnitt-anhangen" title="Link to this heading"></a></h2>
+<p>Wenn dieses Feld angekreuzt ist, erhalten exportierte
+Dokumente keinen Abschnittstrenner vor dem ausgewählten
+Abschnitt.
+Der Abschnitt beginnt dann einfach mit einem neuen Absatz.</p>
+</section>
+<section id="plot">
+<h2>Plot<a class="headerlink" href="#plot" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="Screenshot" src="_images/section_view04.png" />
+<section id="plotlinien">
+<h3>Plotlinien<a class="headerlink" href="#plotlinien" title="Link to this heading"></a></h3>
+<p>Hier können Sie den ausgewählten Absatz den Plotlinien zuweisen,
+zu denen er beiträgt.
+Die zugewiesenen Plotlinien werden in einer Liste dargestellt,
+in der Reihenfolge der Zuweisung zum Abschnitt.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Einen bequemeren Weg, um Plotlinienzuweisungen zu verwalten und
+zu überblicken, bietet das
+<a class="reference external" href="https://github.com/peter88213/nv_matrix/">nv_matrix-Plugin</a>.</p>
+<p>Sie können einen Abschnitt auch einer Plotlinie zuweisen,
+indem Sie im <a class="reference external" href="plotting.html#handlungsraster-plot-grid">Handlungsraster</a>
+Text ins entsprechende Plotliniennotizen-Feld eintragen.</p>
+</div>
+<dl>
+<dt>Eine Plotlinienzuweisung hinzufügen</dt><dd><p>Wenn Sie auf <img alt="Hinzufügen" src="_images/add.png" /> klicken, wird der „Auswahlmodus“
+aktiviert, und der Cursor nimmt die Form eines „Plus“-Zeichens an.
+Indem Sie auf eine Plotlinie klicken, verbinden Sie sie mit dem Abschnitt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Sie können den „Auswahlmodus“ auch ohne Auswahl beenden,
+indem Sie auf die eingefärbte Statusleiste klicken,
+oder die <code class="docutils literal notranslate"><span class="pre">Esc</span></code>-Taste drücken.</p>
+</div>
+</dd>
+<dt>Eine Plotlinienzuweisung entfernen</dt><dd><p>Wenn Sie auf <img alt="Entfernen" src="_images/remove.png" /> klicken oder die <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste drücken,
+wird die ausgewählte Plotlinie von der Liste entfernt.</p>
+</dd>
+<dt>Zur zugewiesenen Plotlinie springen</dt><dd><p>Wenn Sie auf eine zugewiesene Plotlinie doppelklicken,
+oder wenn Sie auf <img alt="Goto" src="_images/goto.png" /> klicken, wird diese Plotlinie geöffnet,
+und ihre Eingenschaften werden angezeigt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Mit <img alt="Go back" src="_images/goBack.png" /> gelangen Sie zurück zum ursprünglich gewählten Abschnitt.</p>
+</div>
+</dd>
+<dt>Plotliniennotizen</dt><dd><p>Sie können abschnittsbezogene Notizen für die Plotlinie eingeben,
+die in der Liste der zugewiesenen Plotlinien ausgewählt ist.
+Diese Notizen erscheinen im
+<a class="reference external" href="plotting.html#handlungsraster-plot-grid">Handlungsraster</a>,
+wo Sie sie ebenfalls bearbeiten können.</p>
+</dd>
+</dl>
+</section>
+<section id="plotpunkte">
+<h3>Plotpunkte<a class="headerlink" href="#plotpunkte" title="Link to this heading"></a></h3>
+<p>Die Plotpunkte, die dem ausgewälten Abwschnitt zugewiesen sind,
+werden zusammen mit ihren Plotlinien angezeigt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Um die Zuweisung eines Plotpunkts zu ändern oder zu löschen,
+gehen Sie zu den
+<a class="reference external" href="point_view.html#zugeordneter-abschnitt">Plotpunkt-Eigenschaften</a>.</p>
+</div>
+</section>
+</section>
+<section id="szene">
+<h2>Szene<a class="headerlink" href="#szene" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<p>Hier ein Beispiel für eine „Aktionsszene“:</p>
+<img alt="Screenshot" src="_images/section_view03.png" />
+<p>Hier ein Beispiel für eine „Reaktionsszene“ oder „Folge“:</p>
+<img alt="Screenshot" src="_images/section_view08.png" />
+<p>Es gibt eine verbreitete Theorie für „absatzstarke Autoren“,
+nach der Romane am besten in Szenen unterteilt werden,
+wobei sich „Aktionsszenen“ und „Reaktionsszenen“, oder
+„Szenen“ und „Folgen“ wechselseitig ablösen.
+Falls Sie so etwas umsetzen wollen, können Sie das hier tun.</p>
+<p>Falls das nichts für Sie ist, Sie aber eine andere Methode anwenden wollen,
+um ihre Szenen dramaturgisch zu beschreiben,
+können Sie den Abschnitt als <strong>Andere</strong> einstellen,
+um <a class="reference external" href="book_view.html#umbenennungen">frei benannte</a>
+Textfelder zu erhalten.</p>
+<p>Hier ein Beispiel für eine vom Standard abweichende Szenenkategorie:</p>
+<img alt="Screenshot" src="_images/section_view06.png" />
+<p>Andererseits ist nicht jeder Abschnitt eine Szene, auf welche
+die oben erwähnten Kategorien zutreffen.
+Abschnitte können auch anderweitig charakterisiert werden,
+zum Beispiel als narrative Zusammenfassung, Dialog, Beschreibung
+oder Erklärung.
+Wenn also ein Abschnitt nicht szenisch ist, können Sie ihn als
+<strong>Keine Szene</strong> einstellen,
+um <a class="reference external" href="book_view.html#umbenennungen">frei benannte</a>
+Textfelder zu erhalten.</p>
+<p>Hier ein Beispiel für eine nicht-szenische Abschnittskategorie</p>
+<img alt="Screenshot" src="_images/section_view07.png" />
+</section>
+<section id="beziehungen">
+<h2>Beziehungen<a class="headerlink" href="#beziehungen" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="Screenshot" src="_images/section_view02.png" />
+<p>Wenn Sie Figuren, Schauplätze und Gegenstände mit dem Abschnitt
+verbinden wollen, können Sie das hier tun, indem
+Sie das jeweilige Element einer Liste von Beziehungen hinzufügen.</p>
+<dl>
+<dt>Alter anzeigen</dt><dd><p>Wenn ein Abschnitt ein Datum hat, können Sie das Alter der
+verbundenen Figuren abrufen, die ein
+<a class="reference external" href="character_view.html#biographie">Geburtsdatum</a> haben.</p>
+</dd>
+<dt>Beziehung hinzufügen</dt><dd><p>Wenn Sie auf <img alt="Hinzufügen" src="_images/add.png" /> klicken, wird der „Auswahlmodus“
+aktiviert, und der Cursor nimmt die Form eines „Plus“-Zeichens an.
+Indem Sie auf eine Figur, einen Schauplatz oder einen Gegenstand
+klicken, verbinden Sie dieses Element mit dem Abschnitt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Sie können den „Auswahlmodus“ auch ohne Auswahl beenden,
+indem Sie auf die eingefärbte Statusleiste klicken,
+oder die <code class="docutils literal notranslate"><span class="pre">Esc</span></code>-Taste drücken.</p>
+</div>
+</dd>
+<dt>Beziehung entfernen</dt><dd><p>Wenn Sie auf <img alt="Entfernen" src="_images/remove.png" /> klicken oder die <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste drücken,
+wird die ausgewählte Beziehung von der Liste entfernt.</p>
+</dd>
+<dt>Zum verbundenen Element springen</dt><dd><p>Wenn Sie auf ein verbundenes Element doppelklicken,
+oder wenn Sie auf <img alt="Goto" src="_images/goto.png" /> klicken, wird das ausgewählte Element geöffnet,
+und seine Eingenschaften werden angezeigt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Mit <img alt="Go back" src="_images/goBack.png" /> gelangen Sie zurück zum ursprünglich gewählten Abschnitt.</p>
+</div>
+</dd>
+</dl>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Einen bequemeren Weg um Beziehungen zu verwalten und
+zu überblicken, bietet das
+<a class="reference external" href="https://github.com/peter88213/nv_matrix/">nv_matrix-Plugin</a>.</p>
+</div>
+</section>
+<section id="datum-zeit">
+<h2>Datum/Zeit<a class="headerlink" href="#datum-zeit" title="Link to this heading"></a></h2>
+<p>Hier können Sie Informationen zur erzählten Zeit eingeben.
+Die Bearbeitung können Sie mit der Eingabetaste beenden.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Spezielle Zeitleistensoftware bietet Ihnen einen bequemeren Weg,
+Datum, Zeit und Dauer einzugeben.
+Falls Chronologie für Ihre Geschichte wichtig ist, sollten Sie
+sich das <a class="reference external" href="https://github.com/peter88213/nv_timeline/">Timeline-Plugin</a> oder das
+<a class="reference external" href="https://github.com/peter88213/nv_aeon2/">Aeon Timeline 2-Plugin</a>
+ansehen.</p>
+</div>
+<img alt="Screenshot" src="_images/section_view05.png" />
+<section id="beginn">
+<h3>Beginn<a class="headerlink" href="#beginn" title="Link to this heading"></a></h3>
+<p>Die Handlung des ausgewählten Abschnitts beginnt hier:</p>
+<dl class="simple">
+<dt>Datum</dt><dd><p>Format: <em>JJJJ-MM-TT</em>, entsprechend ISO 8601.</p>
+</dd>
+<dt>Zeit</dt><dd><p>Format: <em>hh:mm</em>, entsprechend ISO 8601.</p>
+</dd>
+<dt>Tag</dt><dd><p>Format: Jede Zahl. Tag „0“ ist das
+<a class="reference external" href="book_view.html#erzahlzeit">Bezugsdatum</a>, falls angegeben.</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Alle Einträge sind optional. Sie können entweder ein Datum
+oder einen Tag angeben.</p>
+</div>
+<dl>
+<dt>Mondphase</dt><dd><p>Wenn die nötigen Datumsangaben vorliegen, können Sie die Mondphase dazu abrufen.</p>
+<img alt="Screenshot" src="_images/section_view09.png" />
+<p>Die Mondphasenangabe setzt sich zusammen aus:</p>
+<ul class="simple">
+<li><p>dem Phasentag (0 bis 29, wobei 0=Neumond, 15=voll etc.),</p></li>
+<li><p>der sichtbaren Form,</p></li>
+<li><p>dem beleuchteten Bruchteil.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die Berechnung der Mondphase beruht auf einem überschlägigen Verfahren
+von John Conway.
+In ihrer derzeitigen Ausführung ist sie nur für das 20. und 21. Jahrhundert
+gültig.</p>
+</div>
+</dd>
+<dt>Datum/Zeit löschen</dt><dd><p>Das setzt <em>Datum</em>, <em>Zeit</em> und <em>Tag</em> gleichzeitig zurück.</p>
+</dd>
+<dt>Erzeugen</dt><dd><p>Das erzeugt Datum und Zeit aus Datum, Zeit und Dauer des
+<a class="reference internal" href="#navigationsschaltflachen">vorhergehenden Abschnitts</a>,
+so dass der ausgewählte Abschnitt unmittelbar auf den
+vorhergehenden folgt.</p>
+</dd>
+<dt>Datum/Tag umwandeln</dt><dd><p>Falls ein <a class="reference external" href="book_view.html#erzahlzeit">Bezugsdatum</a> angegeben ist,
+kann der unspezifische <em>Tag</em> in ein spezifisches <em>Datum</em> umgewandelt
+werden, und umgekehrt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Falls nötig, können Sie die Datumsangaben in der
+<a class="reference external" href="book_view.html#erzahlzeit">Bucheigenschaften-Ansicht</a>
+auch für alle Abschnitte auf einmal umwandeln.</p>
+</div>
+</dd>
+</dl>
+</section>
+<section id="dauer">
+<h3>Dauer<a class="headerlink" href="#dauer" title="Link to this heading"></a></h3>
+<dl class="simple">
+<dt>Tage</dt><dd><p>Jede Zahl sollte akzeptiert weden.</p>
+</dd>
+<dt>Stunden</dt><dd><p>Wenn Sie eine Zahl über 24 eingeben,
+wird die Anzahl der Tage automatisch erhöht.</p>
+</dd>
+<dt>Minuten</dt><dd><p>Wenn Sie eine Zahl über 60 eingeben,
+wird die Anzahl der Stunden automatisch erhöht.</p>
+</dd>
+<dt>Dauer löschen</dt><dd><p>Das setzt <em>Tage</em>, <em>Stunden</em> und <em>Minuten</em> gleichzeitig zurück.</p>
+</dd>
+<dt>Erzeugen</dt><dd><p>Das erzeugt die Zeitdauer aus den Datum-Zeitangaben des
+<a class="reference internal" href="#navigationsschaltflachen">folgenden Abschnitts</a>,
+so dass dieser direkt auf den aktuell gewählten folgt.</p>
+</dd>
+</dl>
+</section>
+</section>
+<section id="links">
+<h2>Links<a class="headerlink" href="#links" title="Link to this heading"></a></h2>
+<p>Dieses Fenster öffnen oder schließen Sie mit Klick auf den Titel.</p>
+<img alt="Screenshot" src="_images/book_view13.png" />
+<p>Das ist eine Liste für Links zu Bildern und Recherche-Dokumenten.</p>
+<p>Obwohl <em>novelibre</em> Daten zu Figuren, Schauplätzen und Gegenständen
+verwalten kann, ist es nicht die richtige Anwendung für
+umfangreichen Weltenbau.
+Dafür sollte man leistungsfähigere Softwareprogramme verwenden,
+zum Beispiel <a class="reference external" href="https://zim-wiki.org/">Zim Desktop Wiki</a>.
+Dazu kann <em>novelibre</em> Hyperlinks zu den Textdateien erzeugen,
+welche Sie schnell zu den richtigen Stellen im Wiki führen.</p>
+<p>Oder Sie haben einige Bilder gesammelt, die Sie beim Schreiben inspirieren.
+Dann erzeugen Sie einfach Links zu diesen Bildern und lassen Sie
+<em>novelibre</em> diese mit Ihrem System-Bildbetrachter öffnen.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Wenn Sie mehrere Bilder z.B. zu einer Figur in einem Ordner
+gesammelt haben, den Ihr Standard-Bildbetrachter durchlaufen kann,
+ist ein einziger Link auf eines dieser Bilder ausreichend.</p>
+</div>
+<p>Die Links werden in einer Liste angezeigt, und zwar in der Reihenfolge
+der Eingabe.</p>
+<dl>
+<dt>Link hinzufügen</dt><dd><p>Wenn Sie auf <img alt="Hinzufügen" src="_images/add.png" /> klicken, öffnet sich ein Dateiauswahldialog.
+Die ausgewählte Datei wird der Linkliste hinzugefügt.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Der Dialog zeigt zunächst nur Bilddateien.
+Für andere Dateitypen ändern Sie die Auswahl in der unteren
+rechten Ecke.</p>
+<img alt="Screenshot" src="_images/filePicker01.png" />
+</div>
+</dd>
+<dt>Link entfernen</dt><dd><p>Wenn Sie auf <img alt="Entfernen" src="_images/remove.png" /> klicken oder die <code class="docutils literal notranslate"><span class="pre">Entf</span></code>-Taste drücken,
+wird der ausgewählte Link von der Liste entfernt.</p>
+</dd>
+<dt>Link öffnen</dt><dd><p>Wenn Sie auf einen Link doppelklicken, oder auf <img alt="Goto" src="_images/goto.png" /> klicken,
+wird die Datei, auf die der Link verweist, mit der Standardanwendung
+für ihren Typ geöffnet.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Falls Sie bestimmte verlinkte Dateien mit einer anderen Anwendung
+als der System-Standardanwendung öffnen wollen,
+können Sie eine „Programmstarter“-Einstellung vornehmen.
+Dafür erzeugen Sie einfach eine Textdatei namens <strong>launchers.ini</strong>
+im Verzeichnis <code class="docutils literal notranslate"><span class="pre">.novx/config</span></code> (wo alle Konfigurationsdateien liegen).
+Hier in können Sie Erweiterungen Anwendungsprogramme zuordnen.</p>
+<p>Zim Desktop-Wiki-Seiten sind ein Sonderfall.
+Dafür ordnen Sie die <cite>.zim</cite>-Erweiterung dem Zim-Programm zu.</p>
+<p>Dieses Beispiel zeigt eine Einstellung, die <em>novelibre</em> Textdateien
+mit der <em>Zim Desktop Wiki</em>-anwendung öffnen lässt,
+statt mit dem Standard-Texteditor:</p>
+<div class="highlight-ini notranslate"><div class="highlight"><pre><span></span><span class="k">[SETTINGS]</span>
+<span class="na">.zim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">C:/Program Dateis (x86)/Zim Desktop Wiki/zim.exe</span>
+</pre></div>
+</div>
+<img alt="Screenshot" src="_images/launchers.png" />
+</div>
+</dd>
+</dl>
+</section>
+<section id="haftmerker">
+<h2>„Haftmerker“<a class="headerlink" href="#haftmerker" title="Link to this heading"></a></h2>
+<p>Der gelbe Texteingabebereich ist für Notizen.
+Änderungen werden übernommen, wenn mit der Maus
+irgendwo außerhalb des Texteingabefelds geklickt wird.</p>
+<p>Wenn der „Haftmerker“ eines Abschnitts Text enthält,
+erscheint in the Baumansicht ein „N“ als Hinweis.</p>
+<p>Wenn ein Kapitelzweig mit Abschnitten, die Notizen enthalten,
+eingeklappt wird, erscheint das „N“ in der Kapitelzeile.</p>
+</section>
+<section id="navigationsschaltflachen">
+<h2>Navigationsschaltflächen<a class="headerlink" href="#navigationsschaltflachen" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Zurück</strong> bewegt die Auswahl auf den vorhergehenden Abschnitt im Baum.</p></li>
+<li><p><strong>Vor</strong> bewegt die Auswahl auf den nachfolgenden Abschnitt im Baum.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="stage_view.html" class="btn btn-neutral float-left" title="Stadium-Eigenschaften" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="character_view.html" class="btn btn-neutral float-right" title="Figureneigenschaften" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Peter Triesberger.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

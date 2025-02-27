@@ -1,0 +1,297 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nv_editor &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=b99b68fe"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/translations.js?v=9bf55d28"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="author" title="Über dieses Dokument" href="../about.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="nv_matrix" href="../nv_matrix/index.html" />
+    <link rel="prev" title="nv_collection" href="../nv_collection/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../saving_data.html">Daten speichern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotting.html">Mit novelibre plotten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metadata.html">Die Metadaten im Blick behalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taking_notes.html">Notizen machen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../wordcount.html">Textumfang und Schreibfortschritt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../going_outside.html">Nach außen gehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../story_time.html">Erzählte Zeit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../series.html">Mehrere Bücher verwalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../nv_aeon2/index.html">nv_aeon2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_editor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#den-abschnittseditor-aufrufen">Den Abschnittseditor aufrufen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#text-auswahlen">Text auswählen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#text-kopieren-einfugen">Text kopieren/einfügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#text-formatieren">Text formatieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ruckgangig-machen-wiederherstellen">Rückgängig machen/Wiederherstellen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#einen-abschnitt-teilen">Einen Abschnitt teilen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#einen-abschnitt-erzeugen">Einen Abschnitt erzeugen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wortzahlung">Wortzählung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#anderungen-ubernehmen">Änderungen übernehmen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#das-editorfenster-schlieszen">Das Editorfenster schließen</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_zim/index.html">nv_zim</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../utilities.html">Werkzeuge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../program_errors.html">Programmfehler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abandon_novelibre.html">novelibre aufgeben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">Über dieses Benutzerhandbuch</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
+      <li class="breadcrumb-item active">nv_editor</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_editor/">English</a></p>
+<hr class="docutils" />
+<section id="nv-editor">
+<h1>nv_editor<a class="headerlink" href="#nv-editor" title="Link to this heading"></a></h1>
+<p><strong>Benutzerhandbuch</strong></p>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_editor/">nv_editor</a>.
+Sie können sie mit <strong>Hilfe &gt; Editor-Plugin Online-Hilfe</strong> öffnen.</p>
+<p>Mit dem Abschnittseditor können Sie auf die Schnelle einzelne
+Abschnitte bearbeiten und aufteilen.
+Der Editor bietet einen Zugriff auf die interne Auszeichnung,
+die HTML ähnelt.</p>
+<section id="den-abschnittseditor-aufrufen">
+<h2>Den Abschnittseditor aufrufen<a class="headerlink" href="#den-abschnittseditor-aufrufen" title="Link to this heading"></a></h2>
+<p>Siw öffnen ein Editorfenster,
+indem Sie im Projektbaum auf einen Abschnitt doppelklicken,
+oder über den <strong>Abschnitt &gt; Bearbeiten</strong>-Menüeintrag, wenn ein Abschnitt ausgewählt ist,
+oder mit der Eingabetaste.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<ul class="simple">
+<li><p>Wenn das Projekt gesperrt ist, können keine Editorfenster geöffnet werden.</p></li>
+<li><p>Wenn Sie einen Abschnitt auswählen, für den bereits ein Editorfenster offen ist,
+wird dieses Fenster in den Vordergrund gebracht.</p></li>
+</ul>
+</div>
+</section>
+<section id="text-auswahlen">
+<h2>Text auswählen<a class="headerlink" href="#text-auswahlen" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Wortauswahl durch Doppelklick.</p></li>
+<li><p>Absatzauswahl durch Dreifachklick.</p></li>
+<li><p>Auswahl erweitern mit <code class="docutils literal notranslate"><span class="pre">Umschalt</span></code>-<code class="docutils literal notranslate"><span class="pre">Pfeil</span></code>.</p></li>
+<li><p>Auswahl bis zum nächsten Wort erweitern mit <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Umschalt</span></code>-<code class="docutils literal notranslate"><span class="pre">Pfeil</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">A</span></code> wählt den gesamten Text aus.</p></li>
+</ul>
+</section>
+<section id="text-kopieren-einfugen">
+<h2>Text kopieren/einfügen<a class="headerlink" href="#text-kopieren-einfugen" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code> kopiert den ausgewählten Text in die Zwischenablage.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code> verschiebt den ausgewählten Text in die Zwischenablage.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> Fügt den Text aus der Zwischenablage an der Cursorposition ein.</p></li>
+</ul>
+</section>
+<section id="text-formatieren">
+<h2>Text formatieren<a class="headerlink" href="#text-formatieren" title="Link to this heading"></a></h2>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> umschließt den ausgewählten Text mit „Betont“-Markup,
+so wie hier:</p>
+<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;</span>Beispiel<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;</span></code></p>
+<p>Falls die Auswahl bereits betont ist, wird das Markup entfernt.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> umschließt den ausgewählten Text mit „Stark betont“-Markup,
+so wie hier:</p>
+<p><code class="code highlight html docutils literal highlight-html"><span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Beispiel<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span></code></p>
+<p>Falls die Auswahl bereits stark betont ist, wird das Markup entfernt.</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> entfernt „Betont“ und „Stark betont“-Markup
+rund um die Auswahl.</p></li>
+</ul>
+</section>
+<section id="ruckgangig-machen-wiederherstellen">
+<h2>Rückgängig machen/Wiederherstellen<a class="headerlink" href="#ruckgangig-machen-wiederherstellen" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Z</span></code> macht den letzten Bearbeitungsschritt rückgängig.
+Auch mehrfach möglich.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Y</span></code> stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
+Auch mehrfach möglich.</p></li>
+</ul>
+</section>
+<section id="einen-abschnitt-teilen">
+<h2>Einen Abschnitt teilen<a class="headerlink" href="#einen-abschnitt-teilen" title="Link to this heading"></a></h2>
+<p>Mit <strong>Datei &gt; An der Cursorposition teilen</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>,
+können Sie den Abschnitt an der Corsorposition teilen.</p>
+<ul class="simple">
+<li><p>Der gesamte Text ab der Cursorposition wird in einen neu erzeugten Abschnitt verschoben.</p></li>
+<li><p>Der neue Abschnitt wird nach dem aktuell bearbeiteten Abschnitt platziert.</p></li>
+<li><p>Der neue Abschnitt wird an den aktuell bearbeiteten Abschnitt
+<a class="reference external" href="../section_view.html#an-den-vorherigen-abschnitt-anhangen">angehängt</a>.</p></li>
+<li><p>Der neue Abschnitt hat denselben Fertigstellungstatus wie der aktuell bearbeitete.</p></li>
+<li><p>Der neue Abschnitt ist vom selben Typ wie der aktuell bearbeitete.</p></li>
+<li><p>Der neue Abschnitt hat dieselbe Perspektivfigur wie der aktuell bearbeitete.</p></li>
+<li><p>Der Editor wechselt zum neuen Abschnitt.</p></li>
+</ul>
+</section>
+<section id="einen-abschnitt-erzeugen">
+<h2>Einen Abschnitt erzeugen<a class="headerlink" href="#einen-abschnitt-erzeugen" title="Link to this heading"></a></h2>
+<p>Mit <strong>Datei &gt; Abschnitt erzeugen</strong> or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">N</span></code>,
+können Sie einen neuen Abschnitt erzeugen.</p>
+<ul class="simple">
+<li><p>Der neue Abschnitt wird nach dem aktuell bearbeiteten Abschnitt platziert.</p></li>
+<li><p>Der neue Abschnitt ist vom selben Typ wie der aktuell bearbeitete.</p></li>
+<li><p>Der Editor wechselt zum neuen Abschnitt.</p></li>
+</ul>
+</section>
+<section id="wortzahlung">
+<h2>Wortzählung<a class="headerlink" href="#wortzahlung" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Die Wortanzahl des bearbeiteten Abschnitts wird in der Statusleiste
+unten im Fenster angezeigt.</p></li>
+<li><p>Standardmäßig wird die Wortzahl manuell aktualisiert,
+entweder durch Drücken der Taste <code class="docutils literal notranslate"><span class="pre">F5</span></code>,
+oder über den Menübefehl <strong>Wortzählung &gt; Aktualisieren</strong>.</p></li>
+<li><p>Die Wortzahl kann auch laufend während der Texteingabe aktualisiert werden.
+Das wird über das Menü-Auswahlfeld <strong>Wortzählung &gt; Laufende Aktualisierung</strong>
+ein- oder ausgeschaltet.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die laufende Aktualisierung der Wortzahl kostet Rechenleistung
+und kann das Programm bei der Bearbeitung großer Abschnitte verlangsamen.
+Deshalb ist sie standardmäßig ausgeschaltet.</p>
+</div>
+</section>
+<section id="anderungen-ubernehmen">
+<h2>Änderungen übernehmen<a class="headerlink" href="#anderungen-ubernehmen" title="Link to this heading"></a></h2>
+<p>Mit <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>,
+können Sie die Änderungen für den Abschnitt übernehmen.
+Dann zeigt <em>novelibre</em> den „Geändert“-Status an.</p>
+<ul class="simple">
+<li><p>Falls das Projekt in <em>novelibre</em> gesperrt ist,
+werden Sie aufgefordert, es zu entsperren, bevor Änderungen übernommen werden.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Bevor es Änderungen übernimmt, prüft das Programm den Editorinhalt
+auf XML-Validität. Missgebildetes XML wird nicht akzeptiert.</p>
+</div>
+</section>
+<section id="das-editorfenster-schlieszen">
+<h2>Das Editorfenster schließen<a class="headerlink" href="#das-editorfenster-schlieszen" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Um die Bearbeitung zu beenden, klicken Sie auf die Schaltfläche <strong>Schließen</strong>,
+oder Sie wählen den Menüeintrag <strong>Abschnitt &gt; Beenden</strong>,
+oder Sie schließen einfach das Fenster.</p></li>
+<li><p>Unter Windows können Sie die Bearbeitung wahlweise mit <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">F4</span></code> beenden.</p></li>
+<li><p>Andernfalls  können Sie die Bearbeitung wahlweise mit <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code> beenden.</p></li>
+<li><p>Wenn Sie das Editorfenster schließen, werden Sie gegebenenfalls
+gefragt, ob Sie Änderungen übernehmen wollen.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nv_collection/index.html" class="btn btn-neutral float-left" title="nv_collection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../nv_matrix/index.html" class="btn btn-neutral float-right" title="nv_matrix" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Peter Triesberger.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
