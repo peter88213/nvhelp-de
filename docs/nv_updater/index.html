@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="../_static/documentation_options.js?v=b99b68fe"></script>
+      <script src="../_static/documentation_options.js?v=dd54b8ba"></script>
       <script src="../_static/doctools.js?v=9bcbadda"></script>
       <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="../_static/translations.js?v=9bf55d28"></script>
@@ -75,7 +75,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_updater</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#die-update-prufung-starten">Die Update-Prüfung starten</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#die-update-prufung-starten">Die Update-Prüfung starten</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#schaltflachen-unterhalb-der-modul-liste">Schaltflächen unterhalb der Modul-Liste</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_zim/index.html">nv_zim</a></li>
@@ -121,33 +124,41 @@ Sie können sie mit <strong>Hilfe &gt; Update-Prüfer Online-Hilfe</strong> öff
 <p>Das Plugin fügt dem <em>novelibre</em>-<strong>Extras</strong>-Menü
 den Eintrag <strong>Auf Updates prüfen</strong> hinzu,
 und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Update-Prüfer Online-Hilfe</strong>.</p>
-<img alt="novelibre Screenshot" src="../_images/screen014.png" />
 <section id="die-update-prufung-starten">
 <h2>Die Update-Prüfung starten<a class="headerlink" href="#die-update-prufung-starten" title="Link to this heading"></a></h2>
 <p>Starten Sie die Update-Prüfung über das Hauptmenü: <strong>Extras &gt; Auf Updates prüfen</strong>.</p>
-<p>Wenn ein Update gefunden wird, erscheint eine Meldung.</p>
-<img alt="novelibre Screenshot" src="../_images/screen022.png" />
-<p>Sie haben die Wahl:</p>
-<ul class="simple">
-<li><p><strong>Ja</strong> öffnet Ihren Webbrowser mit der Download-Adresse.</p></li>
-<li><p><strong>Nein</strong> überspringt dieses Update.</p></li>
-<li><p><strong>Abbrechen</strong> bricht die Update-Prüfung ab.</p></li>
-</ul>
+<p>Es erscheint eine Liste mit installierten Softwaremodulen und ihren Versionsangaben.
+Listeneinträge veralteter Module sind rot eingefärbt.</p>
+<img alt="novelibre Screenshot" src="../_images/screen02.png" />
+<section id="schaltflachen-unterhalb-der-modul-liste">
+<h3>Schaltflächen unterhalb der Modul-Liste<a class="headerlink" href="#schaltflachen-unterhalb-der-modul-liste" title="Link to this heading"></a></h3>
+<dl>
+<dt>Aktualisieren (oder Doppelklick auf einen Listeneintrag)</dt><dd><p>startet Ihren Webbrowser mit der Download-Adresse des ausgewählten Softwaremoduls,
+falls die installierte Version nicht mit der aktuellen Version übereinstimmt.
+Nachdem Sie diesen Befehl gegeben haben, färbt sich der Listeneintrag grün.</p>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
 <p>Das <em>nv_updater</em>-Plugin stößt nur den Download durch den
 System-Webbrowser an.
-Wenn ein Downloadverzeichnis vorgegeben ist, werden alle Zip-Dateien
+Wenn ein Downloadverzeichnis vorgegeben ist, werden die Installationsdateien
 mit den Programmupdates dort abgelegt.
 Dann führen Sie die Installation wie gewohnt aus.</p>
 </div>
-<p>Falls kein Update gefunden wird, erscheint am Ende eine Meldung.</p>
-<img alt="novelibre Screenshot" src="../_images/screen03.png" />
+</dd>
+<dt>Homepage</dt><dd><p>startet Ihren Webbrowser mit der Homepage des ausgewählten Softwaremoduls.
+Dort können Sie z.B. die Änderungshistorie <em>(changelog)</em> sehen.</p>
+</dd>
+<dt>Online-Hilfe (oder F1)</dt><dd><p>startet Ihren Webbrowser mit dieser Seite des Benutzerhandbuchs.</p>
+</dd>
+<dt>Schließen</dt><dd><p>schließt das Fenster des Updatemanagers und bricht laufende Versionsprüfungen ab.</p>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
 <p>Update-Installationen werden erst nach einem Neustart
 von <em>novelibre</em> wirksam.</p>
 </div>
+</dd>
+</dl>
+</section>
 </section>
 </section>
 
