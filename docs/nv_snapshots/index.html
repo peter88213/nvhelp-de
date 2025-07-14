@@ -1,0 +1,354 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nv_snapshots &mdash; novelibre Benutzerhandbuch</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+
+  
+    <link rel="shortcut icon" href="../_static/nLogo32.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=8f197be3"></script>
+      <script src="../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/translations.js?v=9bf55d28"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="author" title="Über dieses Dokument" href="../about.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="nv_statistics" href="../nv_statistics/index.html" />
+    <link rel="prev" title="nv_progress" href="../nv_progress/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            novelibre Benutzerhandbuch
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" aria-label="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Einführung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preparations.html">Vorbereitungen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop.html">Der Arbeitsbereich</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic_concepts.html">Grundlegende Konzepte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../saving_data.html">Daten speichern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../writing.html">Am Manuskript schreiben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../plotting.html">Mit novelibre plotten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../metadata.html">Die Metadaten im Blick behalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../taking_notes.html">Notizen machen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../wordcount.html">Textumfang und Schreibfortschritt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../going_outside.html">Nach außen gehen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../story_time.html">Erzählte Zeit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../series.html">Mehrere Bücher verwalten</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../command_reference.html">Befehlsreferenz</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../properties.html">Eigenschaften-Referenz</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../plugins.html">Plugins</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../nv_collection/index.html">nv_collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_editor/index.html">nv_editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_matrix/index.html">nv_matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_progress/index.html">nv_progress</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">nv_snapshots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#allgemeines">Allgemeines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#so-vergleichen-sie-den-aktuellen-stand-ihres-projekts-mit-einem-schnappschuss">So vergleichen Sie den aktuellen Stand Ihres Projekts mit einem Schnappschuss</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#befehlsreferenz">Befehlsreferenz</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#eintrage-im-novelibre-hauptmenu">Einträge im <em>novelibre</em>-Hauptmenü</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#das-menu-des-schnappschussmanagers">Das Menü des Schnappschussmanagers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_statistics/index.html">nv_statistics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_templates/index.html">nv_templates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_themes/index.html">nv_themes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_timeline/index.html">nv_timeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../nv_zim/index.html">nv_zim</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../program_errors.html">Programmfehler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../abandon_novelibre.html">novelibre aufgeben</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about.html">Über dieses Benutzerhandbuch</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">novelibre Benutzerhandbuch</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../plugins.html">Plugins</a></li>
+      <li class="breadcrumb-item active">nv_snapshots</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <p><img alt="external-link" src="../_images/external-link.png" /> <a class="reference external" href="https://peter88213.github.io/nvhelp-en/nv_snapshots/">English</a></p>
+<hr class="docutils" />
+<section id="nv-snapshots">
+<h1>nv_snapshots<a class="headerlink" href="#nv-snapshots" title="Link to this heading"></a></h1>
+<p><strong>Benutzerhandbuch</strong></p>
+<p>Diese Seite gilt für die neueste Ausgabe von <a class="reference external" href="https://github.com/peter88213/nv_snapshots/">nv_snapshots</a>.
+Sie können sie mit <strong>Hilfe &gt; Schnappschüsse Online-Hilfe</strong> oder mit <code class="docutils literal notranslate"><span class="pre">F1</span></code> öffnen.</p>
+<p>Das Plugin fügt dem <em>novelibre</em>-<strong>Extras</strong>-Menü
+den Eintrag <strong>Schnappschüsse</strong> hinzu,
+außerdem dem <strong>Datei</strong>-Menü den Eintrag <strong>Schnappschuss</strong>,
+und dem <strong>Hilfe</strong>-Menü den Eintrag <strong>Schnappschüsse Online-Hilfe</strong>.</p>
+<section id="allgemeines">
+<h2>Allgemeines<a class="headerlink" href="#allgemeines" title="Link to this heading"></a></h2>
+<p>Ein Schnappschuss ist eine komprimierte, betitelte und kommentierte Version
+einer <em>.novx</em>-Datei.
+<em>nv_snapshots</em> erzeugt solche Schnappschüsse auf Anforderung und legt sie
+in einem Unterverzeichnis des Projektordners ab.
+Dieses Unterverzeichnis hat den Namen <em>„Snapshots“</em> und wird bei Bedarf
+automatisch erzeugt.
+Das Speichern eines Schnappschusses wird manuell über <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">S</span></code>
+oder den <strong>Datei &gt; Schnappschuss</strong>-Menübefehl ausgelöst.</p>
+<p>Über den <strong>Extras &gt; Schnappschüsse</strong>-Menübefehl starten Sie den Schnappschuss-Manager.
+Der <strong>Schnappschuss-Manager</strong> stellt die Schnappschüsse
+des gerade offenen Projekts in Listenform dar.
+Man kann einzelne Schnappschüsse auswählen und Dokumente aus ihnen exportieren.
+LibreOffice/OpenOffice hat eine Dokumentenvergleichsfunktion, mit der man
+die Unterscheide zwischen dem Schnappschuss und dem laufenden Projekt
+finden und bearbeiten kann.
+Außerdem kann man auf einfache Weise zu einem Schnappschuss zurückkehren.</p>
+</section>
+<section id="so-vergleichen-sie-den-aktuellen-stand-ihres-projekts-mit-einem-schnappschuss">
+<h2>So vergleichen Sie den aktuellen Stand Ihres Projekts mit einem Schnappschuss<a class="headerlink" href="#so-vergleichen-sie-den-aktuellen-stand-ihres-projekts-mit-einem-schnappschuss" title="Link to this heading"></a></h2>
+<p>Wenn Sie nicht zu einem früheren Stand Ihres Projekts zurückkehren wollen,
+sondern einzelne Änderungen seit einer Schnappschusserstellung rückgängig machen,
+können Sie das bequem über die Dokumentenvergleichsfunktion von LibreOffice/OpenOffice
+erledigen.</p>
+<ol class="arabic simple">
+<li><p>Wählen Sie im Schnappschuss-Manager den gewünschten Schnappschuss aus und
+exportieren Sie ein Dokument, das Sie vergleichen wollen (z.B. das Manuskript).</p></li>
+<li><p>Exportieren Sie aus dem aktuellen Projekt ein Dokument der selben Art und öffnen
+Sie es.</p></li>
+<li><p>Wählen Sie <strong>Bearbeiten – Änderungen verfolgen – Dokument vergleichen…</strong> (LibreOffice)
+oder <strong>Bearbeiten &gt; Dokument vergleichen…</strong> (OpenOffice).</p></li>
+<li><p>Es öffnet sich ein Dateiauswahldialog.
+Wählen Sie das „Schnappschuss-Dokument“ aus und klicken Sie auf <strong>Einfügen</strong>.</p></li>
+</ol>
+<p>LibreOffice/OpenOffice führt die beiden Dokumente im aktuellen Dokument zusammen.
+Alle im aktuellen Projekt, aber nicht im Schnappschuss enthaltenen Textpassagen
+werden als Einfügungen gekennzeichnet, alle seit der Schnappschusserstellung
+gelöschten Textpassagen als Löschungen.</p>
+<p>Jetzt können Sie die Einfügungen und Löschungen akzeptieren oder verwerfen.
+Zuletzt können Sie das aktualisierte Dokument in <em>novelibre</em> importieren,
+um den abgeglichenen Stand ins Projekt zu übernehmen.</p>
+</section>
+<hr class="docutils" />
+<section id="befehlsreferenz">
+<h2>Befehlsreferenz<a class="headerlink" href="#befehlsreferenz" title="Link to this heading"></a></h2>
+<section id="eintrage-im-novelibre-hauptmenu">
+<h3>Einträge im <em>novelibre</em>-Hauptmenü<a class="headerlink" href="#eintrage-im-novelibre-hauptmenu" title="Link to this heading"></a></h3>
+<section id="datei-schnappschuss">
+<h4>Datei &gt; Schnappschuss<a class="headerlink" href="#datei-schnappschuss" title="Link to this heading"></a></h4>
+<p>Erzeugt einen Schnappschuss in Form einer Zip-Datei im
+<em>„Snapshots“</em>-Unterverzeichnis des aktuellen Projektordners.
+Es erscheint ein Dialog für die Eingabe eines Titels und einer
+Beschreibung.</p>
+<dl class="simple">
+<dt>Ok</dt><dd><p>Die Eingabe bestätigen und den Schnappschuss erzeugen.</p>
+</dd>
+<dt>Online-Hilfe</dt><dd><p>Diese Hilfeseite anzeigen.</p>
+</dd>
+<dt>Abbrechen</dt><dd><p>Den Dialog schließen ohne einen Schnappschuss zu erzeugen.</p>
+</dd>
+</dl>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Wenn Sie die Eingabefelder leer lassen, erhält der Schnappschuss den
+Titel „Nicht definiert“ und ist nur über sein Erzeugungsdatum identifizierbar.</p>
+</div>
+<ul class="simple">
+<li><p>Wenn es ungesicherte Änderungen im Projekt gibt, werden Sie zum Speichern aufgefordert.</p></li>
+<li><p>Wenn es bereits einen aktuellen Schnappschuss gibt, wird kein weiterer erzeugt.</p></li>
+</ul>
+</section>
+<section id="extras-schnappschusse">
+<h4>Extras &gt; Schnappschüsse<a class="headerlink" href="#extras-schnappschusse" title="Link to this heading"></a></h4>
+<p>Öffnet das Fenster des Schnappschuss-Managers.
+Es enthält die Liste der Schnapschüsse und ein Anzeigefeld
+für Titel und Beschreibung des ausgewählten Schnappschusses.
+Die Funktionen des Schnapschuss-Managers sind über das unten beschriebene
+Menü zugänglich.</p>
+</section>
+<section id="hilfe-schnappschusse-online-hilfe">
+<h4>Hilfe &gt; Schnappschüsse Online-Hilfe<a class="headerlink" href="#hilfe-schnappschusse-online-hilfe" title="Link to this heading"></a></h4>
+<p>Startet den System-Webbrowser mit dieser Seite.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="das-menu-des-schnappschussmanagers">
+<h3>Das Menü des Schnappschussmanagers<a class="headerlink" href="#das-menu-des-schnappschussmanagers" title="Link to this heading"></a></h3>
+<section id="datei-schnappschuss-ordner-offnen">
+<h4>Datei &gt; Schnappschuss-Ordner öffnen<a class="headerlink" href="#datei-schnappschuss-ordner-offnen" title="Link to this heading"></a></h4>
+<p>Öffnet das Schnappschuss-Unterverzeichnis des aktuellen
+Projektordners im Dateimanager.</p>
+</section>
+<section id="datei-schnappschuss-ordner-aufraumen">
+<h4>Datei &gt; Schnappschuss-Ordner aufräumen<a class="headerlink" href="#datei-schnappschuss-ordner-aufraumen" title="Link to this heading"></a></h4>
+<p>Löscht ODF-Dokumente, XML-Datendateien und Dokumenten-Backups
+im Schnappschuss-Ordner.</p>
+</section>
+<section id="id1">
+<h4>Datei &gt; Schnappschuss<a class="headerlink" href="#id1" title="Link to this heading"></a></h4>
+<p>Erzeugt einen Schnappschuss (siehe oben).</p>
+</section>
+<section id="datei-entfernen">
+<h4>Datei &gt; Entfernen<a class="headerlink" href="#datei-entfernen" title="Link to this heading"></a></h4>
+<p>Löscht den ausgewählten Schnappschuss.</p>
+</section>
+<section id="datei-zuruckkehren">
+<h4>Datei &gt; Zurückkehren<a class="headerlink" href="#datei-zuruckkehren" title="Link to this heading"></a></h4>
+<p>Überschreibt die aktuelle Projektdatei mit der Version des ausgewählten Schnappschusses.
+Zuvor wird automatisch ein Schnappschuss der aktuellen Projektdatei angelegt.</p>
+</section>
+<section id="datei-schlieszen">
+<h4>Datei &gt; Schließen<a class="headerlink" href="#datei-schlieszen" title="Link to this heading"></a></h4>
+<p>Schließt das Fenster des Schnappschuss-Managers.</p>
+</section>
+<hr class="docutils" />
+<section id="exportieren-manuskript">
+<h4>Exportieren &gt; Manuskript<a class="headerlink" href="#exportieren-manuskript" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das in Abschnitte aufgeteilt ist.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_manuscript_tmp</span></code>.</p>
+</section>
+<section id="exportieren-teilebeschreibungen">
+<h4>Exportieren &gt; Teilebeschreibungen<a class="headerlink" href="#exportieren-teilebeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das eine
+<strong>sehr kurze Zusammenfassung</strong> mit Teileüberschriften
+und Teilebeschreibungen enthält.</p>
+</section>
+<section id="exportieren-kapitelbeschreibungen">
+<h4>Exportieren &gt; Kapitelbeschreibungen<a class="headerlink" href="#exportieren-kapitelbeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das eine
+<strong>kurze Zusammenfassung</strong> mit Teile-/Kapitelüberschriften
+und Kapitelbeschreibungen enthält.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_chapters_tmp</span></code>.</p>
+</section>
+<section id="exportieren-abschnittsbeschreibungen">
+<h4>Exportieren &gt; Abschnittsbeschreibungen<a class="headerlink" href="#exportieren-abschnittsbeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das eine
+<strong>vollständige Inhaltsangabe</strong> mit Teile-/Kapitelüberschriften
+und Abschnittsbeschreibungen enthält.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_sections_tmp</span></code>.</p>
+</section>
+<section id="exportieren-erzahlstruktur">
+<h4>Exportieren &gt; Erzählstruktur<a class="headerlink" href="#exportieren-erzahlstruktur" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das
+alle Stadien mit Beschreibung enthält.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_structure_tmp</span></code>.</p>
+</section>
+<section id="exportieren-plotlinienbeschreibungen">
+<h4>Exportieren &gt; Plotlinienbeschreibungen<a class="headerlink" href="#exportieren-plotlinienbeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das
+Stadien, Plotlinien und Plotpunkte enthält, jeweils mit Beschreibung.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_plotlines_tmp</span></code>.</p>
+</section>
+<section id="exportieren-handlungsraster-plot-grid">
+<h4>Exportieren &gt; Handlungsraster (Plot grid)<a class="headerlink" href="#exportieren-handlungsraster-plot-grid" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Tabellenkalkulationsdokument erzeugen, wie im Kapitel
+<a class="reference external" href="../plotting.html#handlungsraster-plot-grid">Mit novelibre plotten</a> beschrieben.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_grid_tmp</span></code>.</p>
+</section>
+<section id="exportieren-figurenbeschreibungen">
+<h4>Exportieren &gt; Figurenbeschreibungen<a class="headerlink" href="#exportieren-figurenbeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das
+Figurenbeschreibungen mit Biographie, Zielen und Notizen enthält.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_characters_tmp</span></code>.</p>
+</section>
+<section id="exportieren-schauplatzbeschreibungen">
+<h4>Exportieren &gt; Schauplatzbeschreibungen<a class="headerlink" href="#exportieren-schauplatzbeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das
+Schauplatzbeschreibungen enthält.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_locations_tmp</span></code>.</p>
+</section>
+<section id="exportieren-gegenstandsbeschreibungen">
+<h4>Exportieren &gt; Gegenstandsbeschreibungen<a class="headerlink" href="#exportieren-gegenstandsbeschreibungen" title="Link to this heading"></a></h4>
+<p>Damit können Sie ein Textdokument erzeugen, das
+Gegenstandsbeschreibungen enthält.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_items_tmp</span></code>.</p>
+</section>
+<section id="exportieren-xml-datendateien">
+<h4>Exportieren &gt; XML-Datendateien<a class="headerlink" href="#exportieren-xml-datendateien" title="Link to this heading"></a></h4>
+<p>Damit können Sie einen Satz XML-Dateien für Figuren, Schauplätze, Gegenstände
+und Plotlinien des Projekts erzeugen.
+Mit diesen Dateien können Sie die entsprechenden Elemente einzeln
+oder in Gruppen aus dem Schnappschuss ins aktuelle Projekt übertragen.</p>
+</section>
+<hr class="docutils" />
+<section id="hilfe-online-hilfe">
+<h4>Hilfe &gt; Online-Hilfe<a class="headerlink" href="#hilfe-online-hilfe" title="Link to this heading"></a></h4>
+<p>Startet den System-Webbrowser mit dieser Seite.</p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../nv_progress/index.html" class="btn btn-neutral float-left" title="nv_progress" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../nv_statistics/index.html" class="btn btn-neutral float-right" title="nv_statistics" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Peter Triesberger.</p>
+  </div>
+
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
