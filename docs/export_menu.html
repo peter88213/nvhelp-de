@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=8acc2c29"></script>
+      <script src="_static/documentation_options.js?v=60af78bf"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -141,17 +141,17 @@ Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span cl
 Kapitel und Abschnitte vom Typ „unbenutzt“ werden ausgelassen.</p></li>
 <li><p>Abschnittstitel sind unsichtbar, erscheinen aber im <em>Navigator</em>.</p></li>
 <li><p>Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.</p></li>
-<li><p>Mit <em>Writer</em> können Sie Abschnitte aufteilen, indem Sie Überschriften
-oder einen Abschnitstrenner einfügen:</p>
+<li><p>Mit <em>Writer</em> können Sie Abschnitte aufteilen, indem Sie Überschriften einfügen:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p><em>Überschrift 1</em> → Titel des neuen Teils.
 Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
 <li><p><em>Überschrift 2</em> → Titel des neuen Kapitels
 Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Abschnittstrenner.
-Wahlweise können Sie  an den Trenner einen Abschnittstitel, und,
-durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><em>Überschrift 3</em> → Titel des neuen Abschnitts.
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><em>Überschrift 4</em> → Titel des neuen angehängten Abschnitts.
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
 </ul>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
@@ -191,18 +191,33 @@ Kapitel und Abschnitte vom Typ „unbenutzt“ werden ausgelassen.</p></li>
 <strong>Ändern Sie nichts an den Zeilen mit Abschnittsmarkierungen</strong>
 sonst können Sie das geänderte Dokument nicht in <em>novelibre</em> reimportieren.</p></li>
 <li><p>Kapitel und Abschnitte können weder umgeordnet noch gelöscht werden.</p></li>
-<li><p>Mit <em>Writer</em> können Sie Abschnitte aufteilen, indem Sie Überschriften
-oder einen Abschnitstrenner einfügen:</p>
+<li><p>Mit <em>Writer</em> können Sie Abschnitte aufteilen, indem Sie Überschriften einfügen:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p><em>Überschrift 1</em> → Titel des neuen Teils.
 Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
 <li><p><em>Überschrift 2</em> → Titel des neuen Kapitels
 Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> → Abschnittstrenner.
-Wahlweise können Sie  an den Trenner einen Abschnittstitel, und,
-durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><em>Überschrift 3</em> → Titel des neuen Abschnitts.
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
+<li><p><em>Überschrift 4</em> → Titel des neuen angehängten Abschnitts.
+Wahlweise können Sie, durch <code class="docutils literal notranslate"><span class="pre">|</span></code> getrennt, eine Beschreibung anhängen.</p></li>
 </ul>
+<div class="admonition tip">
+<p class="admonition-title">Tipp</p>
+<p>Falls Sie ein Textverarbeitungsprogramm benutzen, dessen Überschriftsformate
+sich nicht korrekt ins <em>.ODT</em>-Format für den Reimport zurückkonvertieren lassen,
+benutzen Sie stattdessen <em>Markdown</em>-Überschriftsmarkierungen:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">#</span></code> steht vor einer Überschrift erster Ordnung.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">##</span></code> steht vor einer Überschrift zweiter Ordnung.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">###</span></code> steht vor einer Überschrift dritter Ordnung.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">####</span></code> steht vor einer Überschrift vierter Ordnung.</p></li>
+</ul>
+<p>Kombinieren Sie solche Markierungen aber nicht mit Überschriftenformaten.
+Setzen Sie ein Leerzeichen zwischen die Marke und den Titel.
+Zusätzliche Leerzeilen sind nicht nötig.</p>
+</div>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
 <p>Dokumente mit aufgeteilten Abschnitten werden nach dem Reimport
