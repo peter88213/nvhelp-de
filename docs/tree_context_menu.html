@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=bbf6e42d"></script>
+      <script src="_static/documentation_options.js?v=5e176a50"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -77,6 +77,18 @@
 <li class="toctree-l2"><a class="reference internal" href="tools_menu.html">Extras-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="help_menu.html">Hilfe-Menü</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Baumansicht-Kontextmenü</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#gemeinsame-kontextmenueintrage-fur-die-baumansicht">Gemeinsame Kontextmenüeinträge für die Baumansicht</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#alles-aufklappen">Alles aufklappen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#alle-einklappen">Alle einklappen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#kapitelebene-anzeigen">Kapitelebene anzeigen</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#gemeinsame-kontextmenueintrage-fur-zwischenablage-operationen">Gemeinsame Kontextmenüeinträge für Zwischenablage-Operationen</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ausschneiden">Ausschneiden</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#kopieren">Kopieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#einfugen">Einfügen</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#buch-kontextmenueinrage">Buch-Kontextmenüeinräge</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#abschnitt-hinzufugen">Abschnitt hinzufügen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#kapitel-hinzufugen">Kapitel hinzufügen</a></li>
@@ -89,11 +101,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#status-setzen">Status setzen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#perspektive-zuordnen">Perspektive zuordnen…</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#mit-dem-vorhergehenden-zusammenfassen">Mit dem vorhergehenden zusammenfassen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#kapitelebene-anzeigen">Kapitelebene anzeigen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#aufklappen">Aufklappen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#einklappen">Einklappen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#alles-aufklappen">Alles aufklappen</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#alle-einklappen">Alle einklappen</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#figuren-schauplatze-gegenstande-kontextmenueintrage">Figuren/Schauplätze/Gegenstände-Kontextmenüeinträge</a><ul>
@@ -164,6 +171,49 @@
 <p>Ausgegraute Elemente sind nicht verfügbar, z.B. wegen
 <a class="reference external" href="basic_concepts.html#projekt-sperre">Projektsperre</a>.</p>
 </div>
+<section id="gemeinsame-kontextmenueintrage-fur-die-baumansicht">
+<h2>Gemeinsame Kontextmenüeinträge für die Baumansicht<a class="headerlink" href="#gemeinsame-kontextmenueintrage-fur-die-baumansicht" title="Link to this heading"></a></h2>
+<section id="alles-aufklappen">
+<h3>Alles aufklappen<a class="headerlink" href="#alles-aufklappen" title="Link to this heading"></a></h3>
+<p>Zeigt den ganzen Baum.</p>
+</section>
+<section id="alle-einklappen">
+<h3>Alle einklappen<a class="headerlink" href="#alle-einklappen" title="Link to this heading"></a></h3>
+<p>Verbirgt alle Baumelemente außer den Hauptkategorien.</p>
+</section>
+<section id="kapitelebene-anzeigen">
+<h3>Kapitelebene anzeigen<a class="headerlink" href="#kapitelebene-anzeigen" title="Link to this heading"></a></h3>
+<p>Verbirgt die Abschnitte durch Einklappen des Baums,
+sodass nur Teile und Kapitel sichtbar sind.</p>
+</section>
+</section>
+<section id="gemeinsame-kontextmenueintrage-fur-zwischenablage-operationen">
+<h2>Gemeinsame Kontextmenüeinträge für Zwischenablage-Operationen<a class="headerlink" href="#gemeinsame-kontextmenueintrage-fur-zwischenablage-operationen" title="Link to this heading"></a></h2>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Falls ein Element „Kinder“ hat, werden diese auch kopiert und eingefügt.</p>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Achtung</p>
+<p>Beziehungen werden beim Kopieren oder Verschieben in die Zwischenablage nicht mitgenommen.
+Das gilt auch für die Abschnitts-Perspektive und für Plotlinien/Plotpunkte.</p>
+</div>
+<section id="ausschneiden">
+<h3>Ausschneiden<a class="headerlink" href="#ausschneiden" title="Link to this heading"></a></h3>
+<p>Das ausgewählte Element aus dem Baum in die Zwischenablage verschieben.
+Dasselbe wie <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">X</span></code>.</p>
+</section>
+<section id="kopieren">
+<h3>Kopieren<a class="headerlink" href="#kopieren" title="Link to this heading"></a></h3>
+<p>Das ausgewählte Element in die Zwischenablage kopieren.
+Dasselbe wie <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">C</span></code>.</p>
+</section>
+<section id="einfugen">
+<h3>Einfügen<a class="headerlink" href="#einfugen" title="Link to this heading"></a></h3>
+<p>Das Element aus der Zwischenablage in den Baum einfügen.
+Dasselbe wie <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code>.</p>
+</section>
+</section>
 <section id="buch-kontextmenueinrage">
 <h2>Buch-Kontextmenüeinräge<a class="headerlink" href="#buch-kontextmenueinrage" title="Link to this heading"></a></h2>
 <section id="abschnitt-hinzufugen">
@@ -314,27 +364,6 @@ Absatzumbruch getrennt.</p></li>
 <p class="admonition-title">Vorsicht</p>
 <p>Denken Sie daran, dass es keine Rückgängig-Funktion gibt.</p>
 </div>
-</section>
-<section id="kapitelebene-anzeigen">
-<h3>Kapitelebene anzeigen<a class="headerlink" href="#kapitelebene-anzeigen" title="Link to this heading"></a></h3>
-<p>Verbirgt die Abschnitte durch Einklappen des Baums,
-sodass nur Teile und Kapitel sichtbar sind.</p>
-</section>
-<section id="aufklappen">
-<h3>Aufklappen<a class="headerlink" href="#aufklappen" title="Link to this heading"></a></h3>
-<p>Zeigt einen ganzen Ast, indem das ausgewählte Baumelement aufgeklappt wird.</p>
-</section>
-<section id="einklappen">
-<h3>Einklappen<a class="headerlink" href="#einklappen" title="Link to this heading"></a></h3>
-<p>Verbirgt die Kindelemente des ausgewählten Baumelements.</p>
-</section>
-<section id="alles-aufklappen">
-<h3>Alles aufklappen<a class="headerlink" href="#alles-aufklappen" title="Link to this heading"></a></h3>
-<p>Zeigt den ganzen Baum.</p>
-</section>
-<section id="alle-einklappen">
-<h3>Alle einklappen<a class="headerlink" href="#alle-einklappen" title="Link to this heading"></a></h3>
-<p>Verbirgt alle Baumelemente außer den Hauptkategorien.</p>
 </section>
 </section>
 <section id="figuren-schauplatze-gegenstande-kontextmenueintrage">
