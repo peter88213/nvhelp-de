@@ -76,11 +76,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../nv_tlview/index.html">nv_tlview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../nv_updater/index.html">nv_updater</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">nv_writer</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#beginn-the-distraction-free-writing-mode">Beginn the distraction-free writing mode</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#end-the-distraction-free-writing-mode">End the distraction-free writing mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#den-ablenkungsfreien-schreibmodus-starten">Den ablenkungsfreien Schreibmodus starten</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#den-ablenkungsfreien-schreibmodus-beenden">Den ablenkungsfreien Schreibmodus beenden</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#hilfeseiten">Hilfeseiten</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="operation.html">Bedienung</a></li>
-<li class="toctree-l4"><a class="reference internal" href="options.html">Optionen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="options.html">Einstellungen</a></li>
 </ul>
 </li>
 </ul>
@@ -123,14 +123,14 @@
 <h1>nv_writer<a class="headerlink" href="#nv-writer" title="Link to this heading"></a></h1>
 <p><strong>Benutzerhandbuch</strong></p>
 <p>Diese Seite gilt für die neueste Ausgabe von
-<a class="reference external" href="https://github.com/peter88213/nv_writer/">nv_writer</a> release.
+<a class="reference external" href="https://github.com/peter88213/nv_writer/">nv_writer</a>.
 Sie können sie mit <strong>Hilfe &gt; Ablenkungsfreies Schreiben-Plugin Online-Hilfe</strong> öffnen.</p>
-<p>The plugin adds a <strong>Im ablenkungsfreien Modus schreiben</strong> entry to both
-the <em>novelibre</em> <strong>Abschnitt</strong> menu and the section context menu,
-and a <strong>Ablenkungsfreies Schreiben-Plugin Einstellungen</strong> entry to the <strong>Extras</strong> menu,
-and a <strong>Ablenkungsfreies Schreiben-Plugin Online-Hilfe</strong> entry to the <strong>Hilfe</strong> menu.
-The Toolbar gets a <img alt="Writer" src="../_images/writer.png" /> button.</p>
-<p>Sie können Abschnitt für Abschnitt eintippen, wie mit einer Schreibmaschnine
+<p>Das Plugin fügt einen Eintrag <strong>Im ablenkungsfreien Modus schreiben</strong>
+sowohl zum <em>novelibre</em>-<strong>Abschnitt</strong>-Menü und dem Abschnitts-Kontextmenü hinzu,
+sowie einen Eintrag <strong>Ablenkungsfreies Schreiben-Plugin Einstellungen</strong> zum <strong>Extras</strong>-Menü
+und einen Eintrag <strong>Ablenkungsfreies Schreiben-Plugin Online-Hilfe</strong> zum <strong>Hilfe</strong>-Menü.
+Die Werkzwugleiste erhält eine <img alt="Writer" src="../_images/writer.png" />-Schaltfläche.</p>
+<p>Sie können Abschnitt für Abschnitt eintippen, wie mit einer Schreibmaschine
 oder einer DOS-Textverarbeitung.
 Das geht viel schneller als mit OpenOffice/LibreOffice.
 Sie können nur Reintext eingeben und neue Abschnitte erzeugen.
@@ -142,54 +142,55 @@ um dann das Manuskript mit OpenOffice oder LibreOffice <em>Writer</em> zu übera
 Die Wortanzahl wird angezeigt, so dass Sie <em>nv_writer</em> auch für einen
 „Wortsprint“ im NaNoWriMo-Stil zwischendurch benutzen können.</p>
 <hr class="docutils" />
-<section id="beginn-the-distraction-free-writing-mode">
-<h2>Beginn the distraction-free writing mode<a class="headerlink" href="#beginn-the-distraction-free-writing-mode" title="Link to this heading"></a></h2>
+<section id="den-ablenkungsfreien-schreibmodus-starten">
+<h2>Den ablenkungsfreien Schreibmodus starten<a class="headerlink" href="#den-ablenkungsfreien-schreibmodus-starten" title="Link to this heading"></a></h2>
 <ol class="arabic simple">
-<li><p>Select the section to start with (optional).</p>
+<li><p>Wählen Sie den Abschnitt aus, mit dem Sie beginnen möchten (optional).</p>
 <ul class="simple">
-<li><p>If no editable section is selected on entering the writing mode,
-the last section is loaded und the cursor position is restored.
-If the last section is unbekannt, the first editable section is loaded.</p></li>
-<li><p>If the last edited section is selected on entering the writing mode,
-the cursor position is restored.</p></li>
-<li><p>If another editable section is selected on entering the writing mode,
-the cursor is set to the beginning.</p></li>
+<li><p>Wenn beim Aufrufen des Schreibmodus kein bearbeitbarer Abschnitt ausgewählt ist,
+wird der letzte Abschnitt geladen und die Cursorposition wiederhergestellt.
+Wenn der letzte Abschnitt unbekannt ist, wird der erste bearbeitbare Abschnitt geladen.</p></li>
+<li><p>Wenn beim Aufrufen des Schreibmodus der zuletzt bearbeitete Abschnitt ausgewählt ist,
+wird die Cursorposition wiederhergestellt.</p></li>
+<li><p>Wenn beim Aufrufen des Schreibmodus ein anderer bearbeitbarer Abschnitt ausgewählt ist,
+wird der Cursor an den Anfang gesetzt.</p></li>
 </ul>
 </li>
-<li><p>To enter the distraction free editing mode, either</p>
+<li><p>Um in den ablenkungsfreien Schreibmodus zu gelangen, können sie entweder</p>
 <ul class="simple">
-<li><p>hit <code class="docutils literal notranslate"><span class="pre">F11</span></code>, or</p></li>
-<li><p>right-click the selected section und select <strong>Write in distraction
-free mode</strong>, or</p></li>
-<li><p>click <strong>Abschnitt &gt; Im ablenkungsfreien Modus schreiben</strong>, or</p></li>
-<li><p>click on the <img alt="Writer" src="../_images/writer.png" /> button on the toolbar.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">F11</span></code> drücken, oder</p></li>
+<li><p>mit der rechten Maustaste auf den ausgewählten Abschnitt klicken und
+<strong>Im ablenkungsfreien Modus schreiben</strong> auswählen, oder</p></li>
+<li><p><strong>Abschnitt &gt; Im ablenkungsfreien Modus schreiben</strong> auswählen, oder</p></li>
+<li><p>Auf die <img alt="Writer" src="../_images/writer.png" />-Schaltfläche auf der Werkzeugleiste klicken.</p></li>
 </ul>
 </li>
 </ol>
 <div class="admonition important">
 <p class="admonition-title">Wichtig</p>
-<p>In order to avoid confusion, the distraction-free editor will not
-start, if either - an editable Manuskript exists, or - the project is
-locked.</p>
-<p>So if yo have a regular Manuskript or a Manuskript for third-pary
-word processing, you may want to discard it after updating your
-<em>novelibre</em> project.</p>
+<p>Um ein Durcheinander zu vermeiden, wird der ablenkungsfreie Schreibmodus nicht starten,
+wenn entweder</p>
+<ul class="simple">
+<li><p>ein Manuskript zur Bearbeitung existiert, oder</p></li>
+<li><p>das Projekt gesperrt ist.</p></li>
+</ul>
+<p>Wenn Sie also ein normales Manuskript oder ein Manuskript für eine fremde Textverarbeitung
+haben, sollten Sie es verwerfen, nachdem Sie Ihr <em>novelibre</em>-Projekt aktualisiert haben.</p>
 </div>
 </section>
-<section id="end-the-distraction-free-writing-mode">
-<h2>End the distraction-free writing mode<a class="headerlink" href="#end-the-distraction-free-writing-mode" title="Link to this heading"></a></h2>
+<section id="den-ablenkungsfreien-schreibmodus-beenden">
+<h2>Den ablenkungsfreien Schreibmodus beenden<a class="headerlink" href="#den-ablenkungsfreien-schreibmodus-beenden" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Hit <code class="docutils literal notranslate"><span class="pre">Esc</span></code> or <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">F4</span></code> (Windows) or <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code> (Linux) to
-finish the editing session.</p></li>
+<li><p>Drücken Sie <code class="docutils literal notranslate"><span class="pre">Esc</span></code> oder <code class="docutils literal notranslate"><span class="pre">Alt</span></code>-<code class="docutils literal notranslate"><span class="pre">F4</span></code> (Windows) oder <code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Q</span></code> (Linux),
+um die Bearbeitungssitzung zu beenden.</p></li>
 </ul>
 <div class="admonition hint">
 <p class="admonition-title">Hinweis</p>
-<p>Unlike <em>Writer</em>, the distraction-free editor does not automatically
-replace quotation marks, dashes, etc. Typographical adjustments must
-therefore be made in a proofreading process on the regular Manuskript
-using <em>Writer</em>. I recommend one of the
-<a class="reference external" href="https://peter88213.github.io/curly/">curly</a> extensions for this
-purpose.</p>
+<p>Im Gegensatz zu <em>Writer</em> ersetzt der ablenkungsfreie Editor Anführungszeichen,
+Bindestriche usw. nicht automatisch. Typografische Anpassungen müssen daher
+in einem Korrekturprozess im regulären Manuskript mit <em>Writer</em> vorgenommen werden.
+Ich empfehle zu diesem Zweck eine der
+<a class="reference external" href="https://peter88213.github.io/curly/">curly</a>-Erweiterungen.</p>
 </div>
 </section>
 <hr class="docutils" />
@@ -206,15 +207,15 @@ purpose.</p>
 <li class="toctree-l2"><a class="reference internal" href="operation.html#einen-abschnitt-klonen">Einen Abschnitt klonen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="operation.html#anderungen-ubernehmen-und-das-projekt-speichern">Änderungen übernehmen und das Projekt speichern</a></li>
 <li class="toctree-l2"><a class="reference internal" href="operation.html#den-cursor-bewegen-und-text-auswahlen">Den Cursor bewegen und Text auswählen</a></li>
-<li class="toctree-l2"><a class="reference internal" href="operation.html#modify-text">Modify text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operation.html#text-andern">Text ändern</a></li>
 <li class="toctree-l2"><a class="reference internal" href="operation.html#text-kopieren-einfugen">Text kopieren/einfügen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="operation.html#ruckgangig-machen-wiederherstellen">Rückgängig machen/Wiederherstellen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="operation.html#wortzahlung">Wortzählung</a></li>
-<li class="toctree-l2"><a class="reference internal" href="operation.html#end-the-distraction-free-writing-mode">End the distraction-free writing mode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="operation.html#interrupt-the-distraction-free-writing-mode-not-recommended">Interrupt the distraction-free writing mode (not recommended)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operation.html#den-ablenkungsfreien-schreibmodus-beenden">Den ablenkungsfreien Schreibmodus beenden</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operation.html#den-ablenkungsfreien-schreibmodus-unterbrechen-nicht-empfohlen">Den ablenkungsfreien Schreibmodus unterbrechen (nicht empfohlen)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="options.html">Optionen</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="options.html">Einstellungen</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="options.html#anderungen-ubernehmen">Änderungen übernehmen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="options.html#wortzahlung">Wortzählung</a></li>
 <li class="toctree-l2"><a class="reference internal" href="options.html#farbkombinationen">Farbkombinationen</a></li>
