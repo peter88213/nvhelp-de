@@ -89,8 +89,8 @@
 <li class="toctree-l5"><a class="reference internal" href="#anderungen-ubernehmen-und-das-projekt-speichern">Änderungen übernehmen und das Projekt speichern</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#den-cursor-bewegen-und-text-auswahlen">Den Cursor bewegen und Text auswählen</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#text-andern">Text ändern</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#text-formatieren">Text formatieren</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#text-kopieren-einfugen">Text kopieren/einfügen</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#text-formatieren">Text formatieren</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#ruckgangig-machen-wiederherstellen">Rückgängig machen/Wiederherstellen</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#wortzahlung">Wortzählung</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#den-ablenkungsfreien-schreibmodus-beenden">Den ablenkungsfreien Schreibmodus beenden</a></li>
@@ -284,14 +284,6 @@ links und rechts vom Cursor umgekehrt.</p></li>
 vor dem Cursor eingefügt wird, ohne den Cursor zu bewegen.</p></li>
 </ul>
 </section>
-<section id="text-formatieren">
-<h2>Text formatieren<a class="headerlink" href="#text-formatieren" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> formatiert den ausgewählten Text „betont“.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> formatiert den ausgewählten Text „stark betont“.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> entfernt „betont“ und „stark betont“ vom ausgewählten Text.</p></li>
-</ul>
-</section>
 <section id="text-kopieren-einfugen">
 <h2>Text kopieren/einfügen<a class="headerlink" href="#text-kopieren-einfugen" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -300,14 +292,27 @@ vor dem Cursor eingefügt wird, ohne den Cursor zu bewegen.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">V</span></code> Fügt den Text aus der Zwischenablage an der Cursorposition ein.</p></li>
 </ul>
 </section>
+<section id="text-formatieren">
+<h2>Text formatieren<a class="headerlink" href="#text-formatieren" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">I</span></code> formatiert den ausgewählten Text „betont“.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">B</span></code> formatiert den ausgewählten Text „stark betont“.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">M</span></code> entfernt „betont“ und „stark betont“ vom ausgewählten Text.</p></li>
+</ul>
+</section>
 <section id="ruckgangig-machen-wiederherstellen">
 <h2>Rückgängig machen/Wiederherstellen<a class="headerlink" href="#ruckgangig-machen-wiederherstellen" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Z</span></code> macht den letzten Bearbeitungsschritt rückgängig.
 Auch mehrfach möglich.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Y</span></code> stellt den zuletzt rückgängig genachten Bearbeitungsschritt wieder her.
+<li><p><code class="docutils literal notranslate"><span class="pre">Strg</span></code>-<code class="docutils literal notranslate"><span class="pre">Y</span></code> stellt den zuletzt rückgängig gemachten Bearbeitungsschritt wieder her.
 Auch mehrfach möglich.</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Nur Einfüge- und Löschoperationen werden als Bearbeitungsschritte aufgezeichnet.
+Textformatierungen (s.o.) können nicht über diesen Mechanismus rückgängig gemacht werden.</p>
+</div>
 </section>
 <hr class="docutils" />
 <section id="wortzahlung">
