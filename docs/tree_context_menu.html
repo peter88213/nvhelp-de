@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=c887bc1a"></script>
+      <script src="_static/documentation_options.js?v=3504ef85"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -94,14 +94,16 @@
 <li class="toctree-l4"><a class="reference internal" href="#kapitel-hinzufugen">Kapitel hinzufügen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#teil-hinzufugen">Teil hinzufügen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#stadium-einfugen">Stadium einfügen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#kapitel-einfugen">Kapitel einfügen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#klonen">Klonen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mit-dem-vorhergehenden-zusammenfassen">Mit dem vorhergehenden zusammenfassen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dieses-kapitel-entfernen-abschnitte-behalten">Dieses Kapitel entfernen, Abschnitte behalten</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#ebene-andern">Ebene ändern</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#dieses-kapitel-exportieren">Dieses Kapitel exportieren</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#loschen">Löschen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#typ-wahlen">Typ wählen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#status-setzen">Status setzen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#perspektive-zuordnen">Perspektive zuordnen…</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#mit-dem-vorhergehenden-zusammenfassen">Mit dem vorhergehenden zusammenfassen</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#figuren-schauplatze-gegenstande-kontextmenueintrage">Figuren/Schauplätze/Gegenstände-Kontextmenüeinträge</a><ul>
@@ -271,6 +273,13 @@ Sie können ihn im rechten Bereich der Arbeitsfläche ändern.</p></li>
 <li><p>Standardmäßig ist das neue Stadium auf der zweiten Ebene.</p></li>
 </ul>
 </section>
+<section id="kapitel-einfugen">
+<h3>Kapitel einfügen<a class="headerlink" href="#kapitel-einfugen" title="Link to this heading"></a></h3>
+<p>Erstellt ein Kapitel nach dem Kapitel des ausgewählten Abschnitts
+und verschiebt die Abschnitte nach dem ausgewählten Abschnitt in das neue Kapitel.</p>
+<p>Sie werden zuvor um Bestätigung gebeten.
+Denken Sie daran, dass es keine Rückgängig-Funktion gibt.</p>
+</section>
 <section id="klonen">
 <h3>Klonen<a class="headerlink" href="#klonen" title="Link to this heading"></a></h3>
 <p>Erzeugt eine Kopie des ausgewählten Abschnitts.</p>
@@ -280,6 +289,42 @@ Sie können ihn im rechten Bereich der Arbeitsfläche ändern.</p></li>
 <li><p>Der geklonte Abschnitt hat alle Eigenschaften und Zuweisungen des Originals,
 ausgenommen Plotpunkt-Zuordnungen.</p></li>
 </ul>
+</section>
+<section id="mit-dem-vorhergehenden-zusammenfassen">
+<h3>Mit dem vorhergehenden zusammenfassen<a class="headerlink" href="#mit-dem-vorhergehenden-zusammenfassen" title="Link to this heading"></a></h3>
+<p>Zwei Abschnitte zusammenfassen, falls sie zum selben Kapitel gehören,
+den selben Typ haben und die selbe Perspektivfigur.</p>
+<ul class="simple">
+<li><p>Neuer Titel = Titel des vorhergehenden Abschnitts &amp; Titel des
+ausgewählten Abschnitts.</p></li>
+<li><p>Die Abschnittsinhalte werden miteinander verbunden und durch einen
+Absatzumbruch getrennt.</p></li>
+<li><p>Beschreibungen werden miteinander verbunden und durch einen
+Absatzumbruch getrennt.</p></li>
+<li><p>Zielangaben werden miteinander verbunden und durch einen
+Absatzumbruch getrennt.</p></li>
+<li><p>Konfliktangaben werden miteinander verbunden und durch einen
+Absatzumbruch getrennt.</p></li>
+<li><p>Ausgangsangaben werden miteinander verbunden und durch einen
+Absatzumbruch getrennt.</p></li>
+<li><p>Notizen werden miteinander verbunden und durch einen
+Absatzumbruch getrennt.</p></li>
+<li><p>Figurenlisten werden kombiniert.</p></li>
+<li><p>Schauplatzlisten werden kombiniert.</p></li>
+<li><p>Gegenstandslisten werden kombiniert.</p></li>
+<li><p>Plotlinienzuweisungen werden kombiniert.</p></li>
+<li><p>Plotpunktzuweisungen, falls vorhanden, werden zum verbundenen Abschnitt verschoben.</p></li>
+<li><p>Abschnittsdauern werden addiert.</p></li>
+</ul>
+<p>Sie werden zuvor um Bestätigung gebeten.
+Denken Sie daran, dass es keine Rückgängig-Funktion gibt.</p>
+</section>
+<section id="dieses-kapitel-entfernen-abschnitte-behalten">
+<h3>Dieses Kapitel entfernen, Abschnitte behalten<a class="headerlink" href="#dieses-kapitel-entfernen-abschnitte-behalten" title="Link to this heading"></a></h3>
+<p>Verschiebt die Abschnitte des ausgewählten Kapitels in das vorherige Kapitel
+und löscht anschließend das ausgewählte Kapitel.</p>
+<p>Sie werden zuvor um Bestätigung gebeten.
+Denken Sie daran, dass es keine Rückgängig-Funktion gibt.</p>
 </section>
 <section id="ebene-andern">
 <h3>Ebene ändern<a class="headerlink" href="#ebene-andern" title="Link to this heading"></a></h3>
@@ -346,37 +391,6 @@ löscht das die Perspektivzuordnung.</p>
 <p class="admonition-title">Hinweis</p>
 <p>Wählen Sie einen Elternknoten aus, um die Perspektivzuordnung für mehrere
 Abschnitte zu ändern.</p>
-</div>
-</section>
-<section id="mit-dem-vorhergehenden-zusammenfassen">
-<h3>Mit dem vorhergehenden zusammenfassen<a class="headerlink" href="#mit-dem-vorhergehenden-zusammenfassen" title="Link to this heading"></a></h3>
-<p>Zwei Abschnitte zusammenfassen, falls sie zum selben Kapitel gehören,
-den selben Typ haben und die selbe Perspektivfigur.</p>
-<ul class="simple">
-<li><p>Neuer Titel = Titel des vorhergehenden Abschnitts &amp; Titel des
-ausgewählten Abschnitts.</p></li>
-<li><p>Die Abschnittsinhalte werden miteinander verbunden und durch einen
-Absatzumbruch getrennt.</p></li>
-<li><p>Beschreibungen werden miteinander verbunden und durch einen
-Absatzumbruch getrennt.</p></li>
-<li><p>Zielangaben werden miteinander verbunden und durch einen
-Absatzumbruch getrennt.</p></li>
-<li><p>Konfliktangaben werden miteinander verbunden und durch einen
-Absatzumbruch getrennt.</p></li>
-<li><p>Ausgangsangaben werden miteinander verbunden und durch einen
-Absatzumbruch getrennt.</p></li>
-<li><p>Notizen werden miteinander verbunden und durch einen
-Absatzumbruch getrennt.</p></li>
-<li><p>Figurenlisten werden kombiniert.</p></li>
-<li><p>Schauplatzlisten werden kombiniert.</p></li>
-<li><p>Gegenstandslisten werden kombiniert.</p></li>
-<li><p>Plotlinienzuweisungen werden kombiniert.</p></li>
-<li><p>Plotpunktzuweisungen, falls vorhanden, werden zum verbundenen Abschnitt verschoben.</p></li>
-<li><p>Abschnittsdauern werden addiert.</p></li>
-</ul>
-<div class="admonition caution">
-<p class="admonition-title">Vorsicht</p>
-<p>Denken Sie daran, dass es keine Rückgängig-Funktion gibt.</p>
 </div>
 </section>
 </section>
