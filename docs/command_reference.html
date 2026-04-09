@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=fc9b4f0d"></script>
+      <script src="_static/documentation_options.js?v=27c2d39f"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -64,7 +64,6 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Befehlsreferenz</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="file_menu.html">Datei-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="view_menu.html">Ansicht-Menü</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part_menu.html">Teil-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html">Kapitel-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html">Abschnitt-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html">Figuren-Menü</a></li>
@@ -151,20 +150,19 @@
 <li class="toctree-l2"><a class="reference internal" href="view_menu.html#optionen">Optionen</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="part_menu.html">Teil-Menü</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="part_menu.html#hinzufugen">Hinzufügen</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part_menu.html#teilebeschreibungen-zum-bearbeiten-exportieren">Teilebeschreibungen zum Bearbeiten exportieren</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part_menu.html#teiletabelle-exportieren">Teiletabelle exportieren</a></li>
-</ul>
-</li>
 <li class="toctree-l1"><a class="reference internal" href="chapter_menu.html">Kapitel-Menü</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#hinzufugen">Hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#kapitel-hinzufugen">Kapitel hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#teil-hinzufugen">Teil hinzufügen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#mehrere-kapitel-hinzufugen">Mehrere Kapitel hinzufügen…</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#typ-wahlen">Typ wählen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#ebene-andern">Ebene ändern</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#ausgewahlte-kapitel-in-ein-neues-projekt-verschieben">Ausgewählte Kapitel in ein neues Projekt verschieben</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#kapitelbeschreibungen-zum-bearbeiten-exportieren">Kapitelbeschreibungen zum Bearbeiten exportieren</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#teilebeschreibungen-zum-bearbeiten-exportieren">Teilebeschreibungen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#kapiteltabelle-exportieren">Kapiteltabelle exportieren</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter_menu.html#teiletabelle-exportieren">Teiletabelle exportieren</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="section_menu.html">Abschnitt-Menü</a><ul>
@@ -174,6 +172,8 @@
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html#typ-wahlen">Typ wählen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html#status-setzen">Status setzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html#perspektive-zuordnen">Perspektive zuordnen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="section_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="section_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html#abschnittsbeschreibungen-zum-bearbeiten-exportieren">Abschnittsbeschreibungen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html#abschnittstabelle-nur-export">Abschnittstabelle (nur Export)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html#zeittafel-anzeigen">Zeittafel anzeigen</a></li>
@@ -182,6 +182,8 @@
 <li class="toctree-l1"><a class="reference internal" href="characters_menu.html">Figuren-Menü</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html#hinzufugen">Hinzufügen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html#status-setzen">Status setzen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="characters_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="characters_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html#importieren">Importieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html#figurenbeschreibungen-zum-bearbeiten-exportieren">Figurenbeschreibungen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html#figurentabelle-exportieren">Figurentabelle exportieren</a></li>
@@ -190,6 +192,8 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="locations_menu.html">Schauplätze-Menü</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="locations_menu.html#hinzufugen">Hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="locations_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="locations_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="locations_menu.html#importieren">Importieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="locations_menu.html#schauplatzbeschreibungen-zum-bearbeiten-exportieren">Schauplatzbeschreibungen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="locations_menu.html#schauplatztabelle-exportieren">Schauplatztabelle exportieren</a></li>
@@ -198,6 +202,8 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="items_menu.html">Gegenstände-Menü</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="items_menu.html#hinzufugen">Hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="items_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="items_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="items_menu.html#importieren">Importieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="items_menu.html#gegenstandsbeschreibungen-zum-bearbeiten-exportieren">Gegenstandsbeschreibungen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="items_menu.html#gegenstandstabelle-exportieren">Gegenstandstabelle exportieren</a></li>
@@ -209,6 +215,8 @@
 <li class="toctree-l2"><a class="reference internal" href="plot_menu.html#plotpunkt-hinzufugen">Plotpunkt hinzufügen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plot_menu.html#stadium-einfugen">Stadium einfügen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plot_menu.html#ebene-andern">Ebene ändern</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plot_menu.html#plotlinien-importieren">Plotlinien importieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plot_menu.html#handlungsraster-plot-grid-zum-bearbeiten-exportieren">Handlungsraster (Plot grid) zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="plot_menu.html#erzahlstruktur-beschreibung-zum-bearbeiten-exportieren">Erzählstruktur-Beschreibung zum Bearbeiten exportieren</a></li>
@@ -219,6 +227,9 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="project_notes_menu.html">Projektnotizen-Menü</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html#hinzufugen">Hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html#projektnotizen-zum-bearbeiten-exportieren">Projektnotizen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html#tabelle-im-browser-anzeigen">Tabelle im Browser anzeigen</a></li>
 </ul>
 </li>
@@ -255,6 +266,7 @@
 <li class="toctree-l1"><a class="reference internal" href="tree_context_menu.html">Baumansicht-Kontextmenü</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html#gemeinsame-kontextmenueintrage-fur-die-baumansicht">Gemeinsame Kontextmenüeinträge für die Baumansicht</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html#gemeinsame-kontextmenueintrage-fur-zwischenablage-operationen">Gemeinsame Kontextmenüeinträge für Zwischenablage-Operationen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html#gemeinsame-kontextmenueintrage-fur-farbzuweisungen">Gemeinsame Kontextmenüeinträge für Farbzuweisungen</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html#buch-kontextmenueinrage">Buch-Kontextmenüeinräge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html#figuren-schauplatze-gegenstande-kontextmenueintrage">Figuren/Schauplätze/Gegenstände-Kontextmenüeinträge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="tree_context_menu.html#plotlinien-kontextmenueintrage">Plotlinien-Kontextmenüeinträge</a></li>

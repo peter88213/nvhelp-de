@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="_static/nLogo32.ico"/>
       <script src="_static/jquery.js?v=5d32c60e"></script>
       <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-      <script src="_static/documentation_options.js?v=fc9b4f0d"></script>
+      <script src="_static/documentation_options.js?v=27c2d39f"></script>
       <script src="_static/doctools.js?v=9bcbadda"></script>
       <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
       <script src="_static/translations.js?v=9bf55d28"></script>
@@ -23,7 +23,7 @@
     <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
     <link rel="search" title="Suche" href="search.html" />
     <link rel="next" title="Abschnitt-Menü" href="section_menu.html" />
-    <link rel="prev" title="Teil-Menü" href="part_menu.html" /> 
+    <link rel="prev" title="Ansicht-Menü" href="view_menu.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -64,15 +64,19 @@
 <li class="toctree-l1 current"><a class="reference internal" href="command_reference.html">Befehlsreferenz</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="file_menu.html">Datei-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="view_menu.html">Ansicht-Menü</a></li>
-<li class="toctree-l2"><a class="reference internal" href="part_menu.html">Teil-Menü</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Kapitel-Menü</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#hinzufugen">Hinzufügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kapitel-hinzufugen">Kapitel hinzufügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#teil-hinzufugen">Teil hinzufügen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#mehrere-kapitel-hinzufugen">Mehrere Kapitel hinzufügen…</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#typ-wahlen">Typ wählen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#ebene-andern">Ebene ändern</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#farbe-zuweisen">Farbe zuweisen…</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#ausgewahlte-kapitel-in-ein-neues-projekt-verschieben">Ausgewählte Kapitel in ein neues Projekt verschieben</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#kapitelbeschreibungen-zum-bearbeiten-exportieren">Kapitelbeschreibungen zum Bearbeiten exportieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#teilebeschreibungen-zum-bearbeiten-exportieren">Teilebeschreibungen zum Bearbeiten exportieren</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#kapiteltabelle-exportieren">Kapiteltabelle exportieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#teiletabelle-exportieren">Teiletabelle exportieren</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html">Abschnitt-Menü</a></li>
@@ -123,10 +127,10 @@
   <section id="kapitel-menu">
 <h1>Kapitel-Menü<a class="headerlink" href="#kapitel-menu" title="Link to this heading"></a></h1>
 <p><strong>Kapitelfunktionen</strong></p>
-<section id="hinzufugen">
-<h2>Hinzufügen<a class="headerlink" href="#hinzufugen" title="Link to this heading"></a></h2>
+<section id="kapitel-hinzufugen">
+<h2>Kapitel hinzufügen<a class="headerlink" href="#kapitel-hinzufugen" title="Link to this heading"></a></h2>
 <p><strong>Ein neues Kapitel erzeugen</strong></p>
-<p>Mit <strong>Kapitel &gt; Hinzufügen</strong>
+<p>Mit <strong>Kapitel &gt; Kapitel hinzufügen</strong>
 können Sie ein <a class="reference external" href="basic_concepts.html#kapitel">Kapitel</a>
 in den Baum einfügen.</p>
 <ul class="simple">
@@ -141,6 +145,20 @@ Sie können ihn im rechten Bereich der Arbeitsfläche ändern.</p></li>
 <p>Um das neue Kapitel automatisch zu benennen und gegebenenfalls
 vor dem „Papierkorb“ zu platzieren, drücken Sie anschließend <code class="docutils literal notranslate"><span class="pre">F5</span></code>.</p>
 </div>
+</section>
+<section id="teil-hinzufugen">
+<h2>Teil hinzufügen<a class="headerlink" href="#teil-hinzufugen" title="Link to this heading"></a></h2>
+<p><strong>Einen neuen Teil erzeugen</strong></p>
+<p>Mit <strong>Kapitel &gt; Teil hinzufügen</strong>
+können Sie einen <a class="reference external" href="basic_concepts.html#teile">Teil</a>
+in den Baum einfügen.</p>
+<ul class="simple">
+<li><p>Der neue Teil wird auf Kapitelebene an der nächsten freien Position
+nach der Auswahl platziert, falls möglich.</p></li>
+<li><p>Andernfalls wird der neue Teil ans Ende des „Buch“-Zweigs gesetzt.</p></li>
+<li><p>Der neue Teil hat einen automatisch erzeugten Titel.
+Sie können ihn im rechten Bereich der Arbeitsfläche ändern.</p></li>
+</ul>
 </section>
 <section id="mehrere-kapitel-hinzufugen">
 <h2>Mehrere Kapitel hinzufügen…<a class="headerlink" href="#mehrere-kapitel-hinzufugen" title="Link to this heading"></a></h2>
@@ -182,6 +200,20 @@ können Sie Kapitel in Teile umwandeln und umgekehrt.</p>
 <li><p><strong>Erste Ebene</strong> wandelt die ausgewählten Kapitel in Teile um.</p></li>
 <li><p><strong>Zweite Ebene</strong> wandelt die ausgewählten Teile in Kapitel um.</p></li>
 </ul>
+</section>
+<section id="farbe-zuweisen">
+<h2>Farbe zuweisen…<a class="headerlink" href="#farbe-zuweisen" title="Link to this heading"></a></h2>
+<p><strong>Allen ausgewählten Kapiteln und Teilen eine Farbe zuweisen</strong></p>
+<p>Mit <strong>Kapitel &gt; Farbe zuweisen…</strong>
+können Sie allen Kapiteln und Teilen in einer Ein- oder Mehrfachauswahl die selbe Farbe zuweisen.
+Es öffnet sich ein Farbauswahldialog.
+Wenn Sie die Farbauswahl abbrechen, bleiben die Farben der ausgewählten Kapitel und Teile unverändert.</p>
+</section>
+<section id="farbe-zurucksetzen">
+<h2>Farbe zurücksetzen<a class="headerlink" href="#farbe-zurucksetzen" title="Link to this heading"></a></h2>
+<p><strong>Die Farben aller ausgewählten Kapitel und Teile zurücksetzen</strong></p>
+<p>Mit <strong>Kapitel &gt; Farbe zurücksetzen</strong>
+löschen Sie die Farbzuweisungen aller Kapitel und Teile in einer Ein- oder Mehrfachauswahl.</p>
 </section>
 <hr class="docutils" />
 <section id="ausgewahlte-kapitel-in-ein-neues-projekt-verschieben">
@@ -226,6 +258,36 @@ zu <em>novelibre</em> automatisch gelöscht.</p>
 </li>
 </ul>
 </section>
+<section id="teilebeschreibungen-zum-bearbeiten-exportieren">
+<h2>Teilebeschreibungen zum Bearbeiten exportieren<a class="headerlink" href="#teilebeschreibungen-zum-bearbeiten-exportieren" title="Link to this heading"></a></h2>
+<p><strong>Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
+<p>Mit <strong>Kapitel &gt; Teilebeschreibungen zum Bearbeiten exportieren</strong>
+können Sie ein Textdokument erzeugen, das eine
+<strong>sehr kurze Zusammenfassung</strong> mit Teileüberschriften
+und Teilebeschreibungen enthält.
+Dieses Dokument kann mit <em>Writer</em> bearbeitet und zu <em>novelibre</em>
+zurückgespielt werden.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_parts_tmp</span></code>.</p>
+<ul>
+<li><p>Nur „normale“ Teile werden exportiert.
+Teile vom Typ „unbenutzt“ werden ausgelassen.</p></li>
+<li><p>Teile können weder umgeordnet noch gelöscht werden.</p></li>
+<li><p>Mit <em>Writer</em> können Sie Teile und Kapitel erzeugen,
+indem Sie innerhalb des Beschreibungsbereichs Überschriften einfügen:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><em>Überschrift 1</em> → Titel des neuen Teils.</p></li>
+<li><p><em>Überschrift 2</em> → Titel des neuen Kapitels</p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Wichtig</p>
+<p>Dokumente mit neuen Teilen oder Kapiteln werden nach dem Reimport
+zu <em>novelibre</em> automatisch gelöscht.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</section>
 <section id="kapiteltabelle-exportieren">
 <h2>Kapiteltabelle exportieren<a class="headerlink" href="#kapiteltabelle-exportieren" title="Link to this heading"></a></h2>
 <p><strong>Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
@@ -243,13 +305,30 @@ sind, dürfen nicht verändert werden, weil sie die Strukturinformationen
 für den Import enthalten.</p>
 </div>
 </section>
+<section id="teiletabelle-exportieren">
+<h2>Teiletabelle exportieren<a class="headerlink" href="#teiletabelle-exportieren" title="Link to this heading"></a></h2>
+<p><strong>Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
+<p>Mit <strong>Kapitel &gt; Teiletabelle exportieren</strong>
+können Sie ein Tabellenkalkulationsdokument mit einer Zeile pro Teil erzeugen.
+Dieses Dokument kann mit <em>Calc</em> bearbeitet und zu <em>novelibre</em>
+zurückgespielt werden.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_partlist_tmp</span></code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Sie können Zeilen und Spalten umordnen, verbergen oder löschen,
+ohne dass es Auswirkungen auf den Reimport hat.
+Nur die erste Zeile und die erste Spalte, die standardmäßig verborgen
+sind, dürfen nicht verändert werden, weil sie die Strukturinformationen
+für den Import enthalten.</p>
+</div>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="part_menu.html" class="btn btn-neutral float-left" title="Teil-Menü" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="view_menu.html" class="btn btn-neutral float-left" title="Ansicht-Menü" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
         <a href="section_menu.html" class="btn btn-neutral float-right" title="Abschnitt-Menü" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
