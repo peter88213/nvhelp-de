@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gegenstände-Menü &mdash; novelibre Benutzerhandbuch</title>
+  <title>Erzählstruktur-Menü &mdash; novelibre Benutzerhandbuch</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -22,8 +22,8 @@
     <link rel="author" title="Über dieses Dokument" href="about.html" />
     <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
     <link rel="search" title="Suche" href="search.html" />
-    <link rel="next" title="Projektnotizen-Menü" href="project_notes_menu.html" />
-    <link rel="prev" title="Schauplätze-Menü" href="locations_menu.html" /> 
+    <link rel="next" title="Plotlinien-Menü" href="plot_lines_menu.html" />
+    <link rel="prev" title="Abschnitt-Menü" href="section_menu.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -66,20 +66,17 @@
 <li class="toctree-l2"><a class="reference internal" href="view_menu.html">Ansicht-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter_menu.html">Kapitel-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="section_menu.html">Abschnitt-Menü</a></li>
-<li class="toctree-l2"><a class="reference internal" href="story_structure_menu.html">Erzählstruktur-Menü</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Erzählstruktur-Menü</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#stadium-einfugen">Stadium einfügen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ebene-andern">Ebene ändern</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#erzahlstruktur-beschreibung-zum-bearbeiten-exportieren">Erzählstruktur-Beschreibung zum Bearbeiten exportieren</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#erzahlstrukturtafel-im-browser-anzeigen">Erzählstrukturtafel im Browser anzeigen</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="plot_lines_menu.html">Plotlinien-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="characters_menu.html">Figuren-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="locations_menu.html">Schauplätze-Menü</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Gegenstände-Menü</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#hinzufugen">Hinzufügen</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#farbe-zuweisen">Farbe zuweisen…</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#farbe-zurucksetzen">Farbe zurücksetzen</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#importieren">Importieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gegenstandsbeschreibungen-zum-bearbeiten-exportieren">Gegenstandsbeschreibungen zum Bearbeiten exportieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gegenstandstabelle-exportieren">Gegenstandstabelle exportieren</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tabelle-im-browser-anzeigen">Tabelle im Browser anzeigen</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="items_menu.html">Gegenstände-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="project_notes_menu.html">Projektnotizen-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="import_menu.html">Importieren-Menü</a></li>
 <li class="toctree-l2"><a class="reference internal" href="export_menu.html">Exportieren-Menü</a></li>
@@ -111,7 +108,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="command_reference.html">Befehlsreferenz</a></li>
-      <li class="breadcrumb-item active">Gegenstände-Menü</li>
+      <li class="breadcrumb-item active">Erzählstruktur-Menü</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -120,87 +117,80 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="gegenstande-menu">
-<h1>Gegenstände-Menü<a class="headerlink" href="#gegenstande-menu" title="Link to this heading"></a></h1>
-<p><strong>Gegenstandsfunktionen</strong></p>
-<section id="hinzufugen">
-<h2>Hinzufügen<a class="headerlink" href="#hinzufugen" title="Link to this heading"></a></h2>
-<p><strong>Einen neuen Gegenstand erzeugen</strong></p>
-<p>Mit <strong>Gegenstände &gt; Hinzufügen</strong>
-können Sie einen <a class="reference external" href="basic_concepts.html#figuren-und-erzahlwelt">Gegenstand</a>
-in den Baum einfügen.</p>
+  <section id="erzahlstruktur-menu">
+<h1>Erzählstruktur-Menü<a class="headerlink" href="#erzahlstruktur-menu" title="Link to this heading"></a></h1>
+<p><strong>Erzählstrukturement-Funktionen</strong></p>
+<section id="stadium-einfugen">
+<h2>Stadium einfügen<a class="headerlink" href="#stadium-einfugen" title="Link to this heading"></a></h2>
+<p><strong>Ein neues Stadium zwischen den Abschnitten einfügen</strong></p>
+<p>Mit <strong>Erzählstruktur &gt; Stadium einfügen</strong>
+können Sie ein Stadium hinter dem ausgewählten Kapitel oder Abschnitt einfügen.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Standardmäßig ist das neue Stadium auf der zweiten Ebene.
+Sie können die Ebene ändern (siehe unten).</p>
+</div>
+</section>
+<section id="ebene-andern">
+<h2>Ebene ändern<a class="headerlink" href="#ebene-andern" title="Link to this heading"></a></h2>
+<p><strong>Die Ebene der ausgewählten Stadien ändern</strong></p>
+<p>Mit <strong>Erzählstruktur &gt; Ebene ändern</strong>
+können Sie die Ebene der ausgewählten Stadien ändern.</p>
 <ul class="simple">
-<li><p>Wenn ein Gegenstand ausgewählt ist, wird der neue Gegenstand dahinter platziert.</p></li>
-<li><p>Andernfalls wird der neue Gegenstand an den Schluss gesetzt.</p></li>
-<li><p>Der neue Gegenstand hat einen automatisch erzeugten Titel.
-Sie können ihn im rechten Bereich der Arbeitsfläche ändern.</p></li>
+<li><p><strong>Erste Ebene</strong> wird in fetter Schrift dargestellt.</p></li>
+<li><p><strong>Zweite Ebene</strong> wird in normaler Schrift dargestellt.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Die Ebene eines Stadiums dient nur zur visuellen Unterscheidung.
+Sie hat keine Auswirkung auf die Programmfunktion.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="erzahlstruktur-beschreibung-zum-bearbeiten-exportieren">
+<h2>Erzählstruktur-Beschreibung zum Bearbeiten exportieren<a class="headerlink" href="#erzahlstruktur-beschreibung-zum-bearbeiten-exportieren" title="Link to this heading"></a></h2>
+<p><strong>Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
+<p>Mit <strong>Erzählstruktur &gt; Erzählstruktur-Beschreibung zum Bearbeiten exportieren</strong>,
+können Sie ein Textdokument erzeugen, das
+alle Stadien mit Beschreibung enthält.
+Dieses Dokument kann mit <em>Writer</em> bearbeitet und zu <em>novelibre</em>
+zurückgespielt werden.
+Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_structure_tmp</span></code>.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Dies kann auch eine vollständige Inhaltsangabe darstellen,
+wobei der Schwerpunkt auf dem dramaturgischen Aufbau liegt.</p>
+</div>
+<ul>
+<li><p>Stadien können weder umgeordnet noch gelöscht werden.</p></li>
+<li><p>Mit <em>Writer</em> können Sie Stadien erzeugen,
+indem Sie innerhalb des Beschreibungsbereichs Überschriften einfügen:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><em>Überschrift 1</em> → Titel des neuen Stadiums erster Ebene.</p></li>
+<li><p><em>Überschrift 2</em> → Titel des neuen Stadiums zweiter Ebene.</p></li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Wichtig</p>
+<p>Dokumente mit neuen Stadien werden nach dem Reimport
+zu <em>novelibre</em> automatisch gelöscht.</p>
+</div>
+</div></blockquote>
+</li>
 </ul>
 </section>
 <hr class="docutils" />
-<section id="farbe-zuweisen">
-<h2>Farbe zuweisen…<a class="headerlink" href="#farbe-zuweisen" title="Link to this heading"></a></h2>
-<p><strong>Allen ausgewählten Gegenständen eine Farbe zuweisen</strong></p>
-<p>Mit <strong>Gegenstände &gt; Farbe zuweisen…</strong>
-können Sie allen Gegenständen in einer Ein- oder Mehrfachauswahl die selbe Farbe zuweisen.
-Es öffnet sich ein Farbauswahldialog.
-Wenn Sie die Farbauswahl abbrechen, bleiben die Farben der ausgewählten Gegenstände unverändert.</p>
-</section>
-<section id="farbe-zurucksetzen">
-<h2>Farbe zurücksetzen<a class="headerlink" href="#farbe-zurucksetzen" title="Link to this heading"></a></h2>
-<p><strong>Die Farben aller ausgewählten Gegenstände zurücksetzen</strong></p>
-<p>Mit <strong>Gegenstände &gt; Farbe zurücksetzen</strong>
-löschen Sie die Farbzuweisungen aller Gegenstände in einer Ein- oder Mehrfachauswahl.</p>
-</section>
-<hr class="docutils" />
-<section id="importieren">
-<h2>Importieren<a class="headerlink" href="#importieren" title="Link to this heading"></a></h2>
-<p><strong>Gegenstände aus einem anderen Projekt importieren</strong></p>
-<p>Mit <strong>Gegenstände &gt; Importieren</strong>
-können Sie eine Auswahl von Gegenständen aus einem anderen Projekt übernehmen.
-Zuerst wählen Sie eine XML-Datei aus, welche die Gegenstandsdaten enthält.
-Dann wählen Sie die Gegenstände aus, die Sie zum aktuellen Projekt hinzufügen wollen.</p>
-<div class="admonition hint">
-<p class="admonition-title">Hinweis</p>
-<p>Um für das aktuelle Projekt eine XML-Gegenstandsdatei zu erzeugen,
-rufen Sie <strong>Exportieren &gt; Figuren/Schauplätze/Gegenstände-Datendateien</strong> auf.</p>
-</div>
-</section>
-<hr class="docutils" />
-<section id="gegenstandsbeschreibungen-zum-bearbeiten-exportieren">
-<h2>Gegenstandsbeschreibungen zum Bearbeiten exportieren<a class="headerlink" href="#gegenstandsbeschreibungen-zum-bearbeiten-exportieren" title="Link to this heading"></a></h2>
-<p><strong>Ein ODT-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
-<p>Mit <strong>Gegenstände &gt; Gegenstandsbeschreibungen zum Bearbeiten exportieren</strong>
-können Sie ein Textdokument erzeugen, das
-Gegenstandsbeschreibungen enthält.
-Dieses Dokument kann mit <em>Writer</em> bearbeitet und zu <em>novelibre</em>
-zurückgespielt werden.
-Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_items_tmp</span></code>.</p>
-</section>
-<section id="gegenstandstabelle-exportieren">
-<h2>Gegenstandstabelle exportieren<a class="headerlink" href="#gegenstandstabelle-exportieren" title="Link to this heading"></a></h2>
-<p><strong>Ein ODS-Dokument exportieren, das bearbeitet und zurückgelesen werden kann</strong></p>
-<p>Mit <strong>Gegenstände &gt; Gegenstandstabelle exportieren</strong>
-können Sie ein Tabellenkalkulationsdokument mit einer Zeile pro Gegenstand erzeugen.
-Dieses Dokument kann mit <em>Calc</em> bearbeitet und zu <em>novelibre</em>
-zurückgespielt werden.
-Der Dateinamenszusatz lautet <code class="docutils literal notranslate"><span class="pre">_itemlist_tmp</span></code>.</p>
-<div class="admonition note">
-<p class="admonition-title">Bemerkung</p>
-<p>Sie können Zeilen und Spalten umordnen, verbergen oder löschen,
-ohne dass es Auswirkungen auf den Reimport hat.
-Nur die erste Zeile und die erste Spalte, die standardmäßig verborgen
-sind, dürfen nicht verändert werden, weil sie die Strukturinformationen
-für den Import enthalten.</p>
-</div>
-</section>
-<hr class="docutils" />
-<section id="tabelle-im-browser-anzeigen">
-<h2>Tabelle im Browser anzeigen<a class="headerlink" href="#tabelle-im-browser-anzeigen" title="Link to this heading"></a></h2>
-<p><strong>Einen HTML-Report mit Gegenstandsdaten anzeigen</strong></p>
-<p>Mit <strong>Gegenstände &gt; Tabelle im Browser anzeigen</strong>
-erzeugen Sie eine HTML-Seite
-mit einer Gegenstandstabelle
-und starten Ihren System-Webbrowser zur Anzeige.</p>
+<section id="erzahlstrukturtafel-im-browser-anzeigen">
+<h2>Erzählstrukturtafel im Browser anzeigen<a class="headerlink" href="#erzahlstrukturtafel-im-browser-anzeigen" title="Link to this heading"></a></h2>
+<p><strong>Einen HTML-Report mit nach Stadien geordneten Abschnittskarten anzeigen</strong></p>
+<p>Mit <strong>Erzählstruktur &gt; Erzählstrukturtafel im Browser anzeigen</strong>
+erzeugen Sie eine HTML-Seite, die eine Tafel mit „Karteikärtchen“ für die
+Stadien der Erzählstruktur und alle benutzten Abschnitte zeigt,
+und starten Ihren System-Webbrowser zur Anzeige.
+Die Karteikärtchen enthalten Titel und Beschreibung des jeweiligen Elements.
+Die Stadiumskärtchen sind in der ersten Spalte angeordnet.
+Jedes Stadiumskärtchen öffnet eine Zeile mit den darunterliegenden Abschnitten.</p>
+<img alt="Firefox-Browser-Screenshot" src="_images/story_structure_menu01.png" />
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
 <p>Der Report ist eine temporäre Datei, die bei
@@ -215,8 +205,8 @@ sichern oder ausdrucken.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="locations_menu.html" class="btn btn-neutral float-left" title="Schauplätze-Menü" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
-        <a href="project_notes_menu.html" class="btn btn-neutral float-right" title="Projektnotizen-Menü" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="section_menu.html" class="btn btn-neutral float-left" title="Abschnitt-Menü" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="plot_lines_menu.html" class="btn btn-neutral float-right" title="Plotlinien-Menü" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
